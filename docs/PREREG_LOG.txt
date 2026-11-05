@@ -1,0 +1,32 @@
+2026-11-05T11:21:30Z docs/231 sha256=8a5eb02c10297e784a3706f5ef65fee19587e2b9330c54bba5a51b9944acbefa (time corrected to mtime; selection/extraction sets appended)
+2026-11-05T11:21:30Z docs/231 appended selection/extraction sets; new sha256=8a5eb02c10297e784a3706f5ef65fee19587e2b9330c54bba5a51b9944acbefa
+2026-11-05T11:21:34Z docs/231 final sha256=52e1af732843c7cd8f694139d25f7fc48a2150d70c8d33c53412183e8e3a758b
+2026-11-05T11:21:34Z docs/230 frozen sha256=39d8a26ac096e0f91b93e583b97c02ec9b484f9841a61cb718327fc25d21e0cd
+2026-11-05T11:21:49Z docs/232 frozen sha256=
+2026-11-05T11:21:57Z docs/232 frozen sha256=ede5399067bc63648a8f757d2d32d2757e2d5ad30a74886bbbc9250ce6cd44eb
+2026-11-05T11:39:52Z docs/231 revised-v2 sha256=5d59a46411638842129b9bfbf1bad203d10bc967bb34e227160ed9016a050836
+2026-11-05T11:39:52Z docs/232 revised-v2 sha256=310cd9bff387fce8a3f2ba8d89dc8d6321f34ff43f67090757be2c33fae4d59a
+2026-11-05T11:39:52Z AMENDMENT NOTE docs/232 v2 was written AFTER C2 generation started (launched ~11:33Z) and BEFORE any C2 output file existed/was inspected; no C2 results were read prior to v2.
+2026-11-05T11:52Z note docs/232 init reproduction range 0.62-0.69: measured s0-s7 = 0.660/0.685/0.653/0.641/0.697/0.668/0.678/0.696; s4 and s7 slightly exceed 0.69; original interval was too narrow. Decision rule: cos>0.5 proves correct reproduction (wrong init gives |cos|<0.05).
+2026-11-05T11:52Z note docs/231 hashes c7969446 (original), 52e1af73 (append #1), 5d59a464 (revised v2) are successive states of ONE file, not separate version files; old file-level hashes are no longer referenced.
+2026-11-05T12:27:13Z docs/230 addendum (cut order) sha256=39d8a26ac096e0f91b93e583b97c02ec9b484f9841a61cb718327fc25d21e0cd
+2026-11-05T12:27:18Z docs/230 addendum CORRECT hash=22f319e0867d71726bbc05605a2ca169c8393ab7e88d251102dad45d32c50795 (previous log line with 39d8a26 was written before append succeeded; ignore it)
+2026-11-05T12:33:45Z docs/230 addendum#2 (not-cut includes second-model system prompt & Guard) sha256=cf5e10417a8b7c54070c33807cc5791c369ec21c90f4cebded04db1a6f2a8100
+2026-11-05T12:39:56Z docs/233 loose-asr/second-review/strip prereg sha256=074adfb10f0bd189a4e5427b257816246d6e5cbd287acaec07c1506c74e4bc81
+2026-11-05T12:48:21Z docs/234 strongreject-crossjudge prereg sha256=dc41d56c7a2b737e9ee6406d97ceeccde35434d5c35d3f5846b94eada3a70656
+2026-11-05T12:57:38Z docs/234 addendum official-impl+nonofficial-ckpt sha256=4f3cbfbeec1169ffa0f7d90cdf20b1ca119ed098e048e066e6be6ee1e2a87200
+2026-11-05T13:00:56Z docs/234 addendum#2 truncation3/P>=4/behavior-split sha256=f968eb30af1f06a3d816c3a53b4501fe183953f88f03c5a0a58b71640dc44b40
+2026-11-05T13:20:16Z docs/234 addendum#3 AUROC-design-flaw sha256=a5838f6cad6461ded569b609f33bd7651787da1d08624ec4343a1089cbb4b253
+2026-11-05T14:42:18Z docs/234 addendum#4 official-adapter criteria A/B/C sha256=e49bf9cac5c9b7fc42c34f1080c98b183388f1f7abcccbe8a0c118302b85fdd2
+2026-11-05T15:25:08Z HANDLABEL_old20 sha256=9b447fa17366c90134295281cb4ef4a6f1fe289ab27a2586c1469c2625e97885; labels from conversation (single annotator), source RERUN_oldseed_s0; 20 rows = 12 harmful + 8 partial
+2026-11-05T15:25:17Z docs/235 C2 replication prereg sha256=542e4807bcf034ab8b50c350f24777c629cb69e419a55c536bafe6f6c82bd1f3
+2026-11-05T15:51:48Z USER DECISION: second review deferred (translation: 用户决定暂缓第二评审); per docs/233 loose-ASR goes to appendix only; StrongREJECT labeled unverified cross-judge; C5 wording limited to judge disagreement magnitudes; C2 new-refusal reads single-annotator.
+2026-11-05T15:51:48Z note docs/235 mtime UTC=2026-11-05 15:25:14.616815601 +0000 ; C2 old seed3 first output 2026-11-05 15:45:29.880758510 +0000
+2026-11-05T15:51:48Z blind material v0: data/blind47/blind47.json sha256=74c57fb22da459347624b04ace6542b800481a34f106ac45590eec6f40d73045 items=24; target 47 not yet reached (24)
+2026-11-05T15:51:48Z test_pool30 sha256=cbe417a8b6bf2d4fe4cce2774c35ba50955f43bd95764e7e9dc6733c3a70fc5c n_pool=229 (behavior_groups, used==false, excl copyright/contextual)
+2026-11-05T15:54:48Z CORRECTION: blind v0 hash 74c57fb2 is VOID (24/47 items); test_pool30 old hash 0d58e62c is VOID (wrong source behaviors.json); current pool hash cbe417a8 (behavior_groups, exclusivity not yet asserted).
+2026-11-05T16:06:54Z test_pool30 v2 (text-hash exclusivity vs b8_train_strat+val70) sha256=2dceae21db8e5be2df2d88805eacd5a5f9032b9999f637eafc61b35141816acf; pool cbe417a8 (14/30 overlap) VOID
+2026-11-05T16:23:27Z docs/235 addendum new-trainer-C2 sha256=542e4807bcf034ab8b50c350f24777c629cb69e419a55c536bafe6f6c82bd1f3 (no output read before)
+2026-11-05T16:23:34Z docs/235 addendum CORRECT sha256=b628eed4401843d55b343873f9d1bc51c9fb4dbdbd1150790814b9f04405fb5c (previous log line with 542e48 stale)
+2026-11-05T16:29:01Z docs/235 TIMING: C2_new_s3.json mtime=16:21:08Z < addendum mtime=16:23:34Z; s3 output EXISTED before the addendum and its completion was reported, but its contents were not read. Primary criterion therefore applies to s4-s7: >=3/4 with CI lower bound >0; s3 reported separately.
+2026-11-05T16:29:01Z LMI prereg reading (written before any LMI results): cond1 r natural norm (~3.9) close to old alpha=0.75 (31.4%) or lower -> learned part effective; cond3 init natural (a~3.5) close to random zero-line (68.6-85.7%) -> init inert; both high -> interaction.
