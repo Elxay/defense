@@ -30,3 +30,4 @@
 2026-11-05T16:23:34Z docs/235 addendum CORRECT sha256=b628eed4401843d55b343873f9d1bc51c9fb4dbdbd1150790814b9f04405fb5c (previous log line with 542e48 stale)
 2026-11-05T16:29:01Z docs/235 TIMING: C2_new_s3.json mtime=16:21:08Z < addendum mtime=16:23:34Z; s3 output EXISTED before the addendum and its completion was reported, but its contents were not read. Primary criterion therefore applies to s4-s7: >=3/4 with CI lower bound >0; s3 reported separately.
 2026-11-05T16:29:01Z LMI prereg reading (written before any LMI results): cond1 r natural norm (~3.9) close to old alpha=0.75 (31.4%) or lower -> learned part effective; cond3 init natural (a~3.5) close to random zero-line (68.6-85.7%) -> init inert; both high -> interaction.
+2026-11-05T16:35:57Z EXTERNAL TIMESTAMP: docs/230-235 + PREREG_LOG pushed to https://github.com/Elxay/defense (private) via SSH key SHA256:RNeARha...; initial commit 98c374f03d23c910c888bb4170ae4da3cfc40b93.
