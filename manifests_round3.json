@@ -1,0 +1,147 @@
+{
+  "created_utc": "2026-11-06T09:19:01.549631+00:00",
+  "published": [
+    {
+      "file": "docs/239_ADDENDUM6_PARALLEL.md",
+      "sha256": "d265836dd398f35cdcf2f81cda1d3a95b0038e5e31afb896fb2fbd0f2d3dd1ae"
+    },
+    {
+      "file": "docs/247_RESULTS_51_SKELETON.md",
+      "sha256": "fb65cbd3c98b86adf07be7dc2b0f22c23bd827248dbbc0919e911354d2a92d13"
+    },
+    {
+      "file": "docs/249_RESULTS_51_DRAFT.md",
+      "sha256": "324aba8c7889d6aa42d6f09ba467be44558c4c86f340bd0e290bd2b052944246"
+    },
+    {
+      "file": "docs/250_ROUND3_AUDIT.md",
+      "sha256": "ed4f1fa9054341c1c07c407c37f8bf9fe1bef021996d6084c6c622f9e398d358"
+    },
+    {
+      "file": "docs/251_EVAL_TRAPS_DRAFT.md",
+      "sha256": "fd66e107a635f7855f00e8a338f2bcb62de7dcaf87f256d7f0297915e68edfe6"
+    },
+    {
+      "file": "docs/PREREG_LOG.txt",
+      "sha256": "f56db9671964f5f9620a55c06d41d69a8cee44f8d4faf90b2f265a33e909b0ef"
+    },
+    {
+      "file": "tools/handoff_20261106/parallel_launcher_node.py",
+      "sha256": "c8bf065194974aa69fecdb38e814e3a199ddd9b9520f79599328e7a3aa406593"
+    },
+    {
+      "file": "tools/handoff_20261106/review.py",
+      "sha256": "5cccc594bfadaa49b0c3e03526ba67d45461c2d76afdf372f4d49cd350f29b7d"
+    },
+    {
+      "file": "tools/handoff_20261106/judge_a0_innet_round2.py",
+      "sha256": "6e51c5603dfec9cd330133fb353bf71bfd58f20071c13e4f187f297c1e203a93"
+    },
+    {
+      "file": "tools/handoff_20261106/round2.py",
+      "sha256": "d32dba9e6d546d5897ba386e2360188cf8d8880b5db4274beabfbe0f6f559053"
+    },
+    {
+      "file": "tools/handoff_20261106/generate_pairs.py",
+      "sha256": "10a62cf3510c0952d24095718b127b9383e956d03435d8dfe818e463e168c4a2"
+    },
+    {
+      "file": "tools/handoff_20261106/report.py",
+      "sha256": "4b3cdc68a07380b7790bd2f8c26346cf424483a2f6c25c3e619d74f275a016b5"
+    },
+    {
+      "file": "tools/handoff_20261106/wjb_parallel_node.py",
+      "sha256": "7729c72a96c5c36fa34c47b14be61b35c1673266a355496f62848e8d524cc67d"
+    },
+    {
+      "file": "tools/handoff_20261106/wjb_workflow.py",
+      "sha256": "7f03dd41c44fec325b927df53851db615bd1d2e2034e4db728f2374f71962f73"
+    },
+    {
+      "file": "tools/handoff_20261106/parallel_controller.py",
+      "sha256": "abffd543c73508d6dd955e9a2d4450d24666de23b8e4aade349de2d60f2c194c"
+    },
+    {
+      "file": "tools/handoff_20261106/publish_round2.py",
+      "sha256": "9237713f1b674a4dad637105556abfdc58e8a6a75cc6ccd925e6650069bdf363"
+    },
+    {
+      "file": "tools/handoff_20261106/judge_parallel_innet.py",
+      "sha256": "78c6acc9abf393354e7616a1c3a10f710845b01996f3ed538a25069f2c834af8"
+    },
+    {
+      "file": "tools/handoff_20261106/audit.py",
+      "sha256": "cd5b40df5069783bd439c63d1dd3e9d9e30c8846cb83d3fde670a6d22da587a3"
+    },
+    {
+      "file": "tools/handoff_20261106/round3.py",
+      "sha256": "0e10a16a4a86c1efce46b0319d53c3c54bc6559baeb90714a12a3c2736b0fd58"
+    },
+    {
+      "file": "tools/handoff_20261106/publish_round3.py",
+      "sha256": "842b058ba2be4d50b76d4c451181370a75666c12254895b0303e1756897a896e"
+    },
+    {
+      "file": "tools/handoff_20261106/validate.py",
+      "sha256": "30ed0eb2d27ca46e758cfc5a256bb7dd3eae0ce11b078e913026a65779211c8f"
+    },
+    {
+      "file": "tools/handoff_20261106/prepare_pairs.py",
+      "sha256": "56fb6f6373303971687d0d71970e6f10d25f5dee09fd63b4b869ad018549c696"
+    },
+    {
+      "file": "docs/POSTHOC_LEGAL_RUBRIC_V2.md",
+      "sha256": "40a82645285f9a00f96643397534aceec4c05aedd184cf3d05e56416963d1116"
+    }
+  ],
+  "private_artifacts_hashes_only": [
+    {
+      "file": "results/audit/handoff_round3/249_before_round3.md",
+      "sha256": "43f37641a31e585d8a75fb0e0544f9a3f207e3249bda492101885b55b52f8097"
+    },
+    {
+      "file": "results/audit/handoff_round3/baseline_scan_summary.json",
+      "sha256": "4bca79b94409e854719a01cb5aa350de9405ce2d5df4d0752ab0c3c9d64492f5"
+    },
+    {
+      "file": "results/audit/handoff_round3/baseline_two_paths.csv",
+      "sha256": "105469b9721ca18467d7af0b7f9a83f4efacd51c8bb51229ac834f3adb572472"
+    },
+    {
+      "file": "results/audit/handoff_round3/lmi_pairs.json",
+      "sha256": "0e331cb94a13ff1a2186cbfb4c3b75e4c930c40b3894640010f23119f6900b02"
+    },
+    {
+      "file": "results/audit/handoff_round3/parallel_progress.json",
+      "sha256": "17d0d48c0c0f1ab41cb25b1072dd7cdd3eb8a79de46a71a910137ed5f68c3bc6"
+    },
+    {
+      "file": "results/audit/handoff_round3/process_snapshot.json",
+      "sha256": "0f136a247bc19653ac2a646f8d2bf2527ceab9cc1c128cdf8bd3fb8026d05221"
+    },
+    {
+      "file": "results/audit/handoff_round3/qwen_ambiguity_ranges.json",
+      "sha256": "11ff0aacd3ea2dc0962a32ada942421d2f8ee233ee98091b87b7ae31c42c95ff"
+    },
+    {
+      "file": "results/audit/handoff_round3/qwen_paired.json",
+      "sha256": "582f8a1ed555989f63d614a77342830bf9b6c09dff67070c718edd0b785c6f44"
+    },
+    {
+      "file": "results/audit/handoff_round3/qwen_reclassification.json",
+      "sha256": "3303062ac6000e4c755e83599b5ee3ef154709505c51a09b2b9b633a93906162"
+    },
+    {
+      "file": "results/audit/handoff_round3/rubric_v2.md",
+      "sha256": "40a82645285f9a00f96643397534aceec4c05aedd184cf3d05e56416963d1116"
+    },
+    {
+      "file": "results/audit/handoff_round3/seven_points.json",
+      "sha256": "3b5428513d56291a049b19c69aeeddf1ec7e2a1b8e499ad8817f5fa62d3b2f14"
+    },
+    {
+      "file": "results/audit/handoff_round3/zero_line_sources.json",
+      "sha256": "5693a18a6669b029a08f1bc872c84aee4dca3000e468f1bf0a44d5d5fee47c41"
+    }
+  ]
+}

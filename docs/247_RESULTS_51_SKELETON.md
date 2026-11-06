@@ -161,3 +161,8 @@ WJB n=298：alpha0/old/rand ASR=39.60/25.84/38.59%；old 降幅减 rand 降幅=+
 ## 第二轮口径更正
 
 此前Qwen粗筛遍历全部400条，RA包含v2已捕获条目，不是纯漏判列。逐条匹配计数、post-hoc rubric、第二次模型盲读29/30、联合抽样和基线对照见 docs/248_ROUND2_AUDIT.md。旧5.5跨节点表仅保留作历史记录；同机innet主对照以 round2/wjb_innet_aligned.json 为准。未完成全部独立配对条件之前，不读取其双重差。5.1前两段见 docs/249_RESULTS_51_DRAFT.md。
+
+
+## 第三轮更正
+
+LMI cond2 的[−5.7,5.7]不作为标准区间，撤回。重算seed t±6.75pp；behavior聚类±6.0pp；seed×behavior交叉重抽±8.0pp。cond3范数3.44不可与5.21零线作同范数比较；主初始化证据为8个5.21 init-only。5.1修订见docs/249，逐seed、Qwen配对、双基线CSV、七点敏感性与运行说明见docs/250；陷阱正文见docs/251。LLM GPT校准仅指同模型盲重读一致性，不替代独立人工校准。
