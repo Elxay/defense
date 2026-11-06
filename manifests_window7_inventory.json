@@ -1,0 +1,68 @@
+{
+  "utc": "2026-11-06T14:48:48.290076+00:00",
+  "files": {
+    "docs/268_OVERNIGHT_WINDOW_SPEC.md": "6875296143d573e733e00a885fef2e55ea0183308fb5f6163876ded79c89be4c",
+    "docs/PREREG_LOG.txt": "055df1c8239a13a1d9149ff2b4372adb642c35e8d087dee77c3ca61dc2a15e6b",
+    "tools/handoff_20261106/round7_analyze_window.py": "432a07f506f9c6d2aaf8d5265cad282e5455f7ad50ce7a26fefbb561261fef64"
+  },
+  "reference_mapping": {
+    "created_utc": "2026-11-06T14:46:46.463756+00:00",
+    "inference": "Traceable9 historical references=FRONTIER_POINTS old8 plusalpha0, not9 distinctalpha; s1/s2 also in oldseed1-7 and scored once",
+    "rows": [
+      {
+        "reference": "alpha0",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_curve_a0.0"
+      },
+      {
+        "reference": "old a0.25",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_curve_a0.25",
+        "verified_asr": 68.57142857142857,
+        "verified_or": 1.0309278350515463
+      },
+      {
+        "reference": "old a0.5",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_curve_a0.5",
+        "verified_asr": 47.142857142857146,
+        "verified_or": 1.5463917525773196
+      },
+      {
+        "reference": "old a0.75",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_curve_a0.75",
+        "verified_asr": 31.428571428571427,
+        "verified_or": 2.8350515463917527
+      },
+      {
+        "reference": "old a1.0 s0",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_curve_a1.0",
+        "verified_asr": 18.571428571428573,
+        "verified_or": 4.896907216494846
+      },
+      {
+        "reference": "old a1.25",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_curve_a1.25",
+        "verified_asr": 12.857142857142858,
+        "verified_or": 11.34020618556701
+      },
+      {
+        "reference": "old a1.5",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_curve_a1.5",
+        "verified_asr": 8.571428571428571,
+        "verified_or": 14.175257731958762
+      },
+      {
+        "reference": "old s1",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_seed_s1",
+        "verified_asr": 22.857142857142858,
+        "verified_or": 6.443298969072165
+      },
+      {
+        "reference": "old s2",
+        "target": "results/hfjudge/JUDGE_HF_innet_window7_old_seed_s2",
+        "verified_asr": 24.285714285714285,
+        "verified_or": 5.412371134020619
+      }
+    ],
+    "unique_window_generation_files": 14,
+    "items": 980
+  }
+}
