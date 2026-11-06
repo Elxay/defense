@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-06T13:29:59.030660+00:00",
+  "aggregate_sha256": "8fb1b9859d1d0851511909a329e710662771874d9da122817012b59fd129172b",
+  "document_sha256": "f109b0f4222c5cecc9b96919fe5d12b0af13ee6d8e4a35104a04af71259c325f",
+  "scripts": {
+    "tools/handoff_20261106/round5_future_aggregate.py": "6725ca2ca0e152db0e77c753ef7638f9d41d117d365c1f5d93edfc651170ed21"
+  },
+  "source_judges": {
+    "results/hfjudge/JUDGE_HF_wjb_old_s3_a1.0_innet": "3526df16a622168d76f0b9415cecb374f982a8982fdf9687ba4f8f7c5d602749",
+    "results/hfjudge/JUDGE_HF_wjb_old_s4_a1.0_innet": "56898f137982870326c079a4117d78dc87c7b7cb922f43bee78c878a35cb4a0d",
+    "results/hfjudge/JUDGE_HF_wjb_old_s5_a1.0_innet_round5": "ba582896c8e975ee8b59dfe4a14ba308e4be07ffced69a2469d7cc1aca60de1c",
+    "results/hfjudge/JUDGE_HF_wjb_old_s6_a1.0_innet_round5": "0d104d87bb554ac851858cf04a9ae4285d6e334ca2e8625bfecb430fa7be6b65",
+    "results/hfjudge/JUDGE_HF_wjb_old_s7_a1.0_innet_round5": "ff9801d62889e1b5b2311573b90591ba4db20ab111b55b0caed53743524dd03a"
+  }
+}
