@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-06T18:16:28.234969+00:00",
+  "public_files": {
+    "docs/272_RETRAINED_CONTROLS_AND_REPEATS.md": "bfa60010744e0898f078f6321665c653479482753ba70b0b917477c9f9d39523",
+    "docs/251_EVAL_TRAPS_DRAFT.md": "b6740817da7acc05f9e7c542793f9154c7d54d31544aa7f7b5472733df9307ba",
+    "docs/236_PAPER_POSITION_v2.md": "22d16ef6bbe81099badde3d68496aa48ef9e328b90ec3bc9e15b73e56f5d32b2",
+    "docs/PREREG_LOG.txt": "85b01f5bc54b29d175facd8d498d6b39d1f2f1f1d9ce48ae06fa3b5917964319",
+    "tools/handoff_20261106/round9_publish_report.py": "683f389a0abce60db6b18b5f5b465db0af4a1687c645a5942d38a1006b3d91ca",
+    "tools/handoff_20261106/round9_status.py": "77cdc986c9c66c9f51a5e67d2065dbdd0a755d3e8923e682b76f9b8719a3d32f",
+    "tools/handoff_20261106/round9_pipeline.py": "ca49d79146ecf919b3967c6b42510f43fe0f06599f2458d693bef1ea98a37b4c",
+    "tools/handoff_20261106/round9_judge.py": "9d446f2b35e2d6a7f7a51c20d16207a0d7239e17b416678033899066fc30e91c",
+    "tools/handoff_20261106/round9_repeat_controller.py": "e59fece5cf16edb8f0882b828b223bab49ba1be725a121e16be804caaa9c63e8",
+    "tools/handoff_20261106/round9_sensitivity_neighbors.py": "8ab4014bf885ecd2d0eb5cd8ec51e756ab94da845a16033fc60b4f7983081ea2",
+    "tools/handoff_20261106/round9_generate.py": "fde4a81f4e6982e7d6e5dfd3ffbcad70858ab7351840c09fed123b1a7bfefc4b",
+    "tools/handoff_20261106/round9_report.py": "04b4d6843cace8ef2f2466071d0d3b88cea54b5ae4b3eb0fcb2f9a5ad3a93213",
+    "tools/handoff_20261106/round9_target_completion_rubric.txt": "826d5bb117f1cfe50670909bb68495f618deac9421e19bf3d6dedf910aded0a9",
+    "tools/handoff_20261106/round9_train.py": "17f60b2318f5b01dec2057d8b91d9843a22d6ce6925d296142b6a11a4becfaf2",
+    "tools/handoff_20261106/round9_filter_targets.py": "452f837b8e3cd51024a08e97e6a4aa8831628fec6a869b907e3fe0dc9b65e7a2",
+    "tools/handoff_20261106/round9_cpu_details.py": "20f6de5d30060516667237a2eb4b74403c35ac0fc9fffcf3e86eae15f928a0b4",
+    "tools/handoff_20261106/round9_analyze.py": "5ed8e1d409cb46c89caa4911e3720ff7b76d747e651112a3ec9f1eb6018e9a77",
+    "tools/handoff_20261106/node01_launch_round9.sh": "0b56e5f677162fa43fa474a26c482af896a52fdf98f6f860e2823c8ec475ff29"
+  },
+  "private_source_hashes": {
+    "historical_rebuild_details.json": "f7ae46789dc52b2b5f7224c466ed510924c4fa5b3b67caee76c6249a379c36ef",
+    "repeat_comparison.json": "98e24bf28cece9fa90d006fe36f53c4b8c01ba4b2cef82557c9b12e693955f6f",
+    "doc250_posthoc_exclusion_spec.json": "81a1ad593092d9f1fc191571e03fba167a81a4a5df3a87c86fd9ba2d4bf4bcdc",
+    "doc250_posthoc_sensitivity.json": "c82c15144e9c391c11503870ba1323f379bf0f3dad2da65672ebcfddc6881c78",
+    "style_top_neighbors_final60.json": "08d97e1e9462648f0cd8636bb8f744d3bf64f722b469e5262a75e19956d1f31a",
+    "target_followup_review.json": "14da7b6336424c79fd91f1cebb6189d447b43f2bf3e6a26ed8f0b13fa2dcafae"
+  },
+  "final_targets_sha256": "fb944571e6ee6c21fc5eb47d688c7f9b6fa77e8e8861a7c5fa3173517071340e",
+  "addendum2_sha256": "493094393b6f2294498c3cf01a449f2b7557f23784530f9e8e002066f56e1896",
+  "no_raw_attack_or_output_text": true
+}
