@@ -38,6 +38,10 @@ for label,rel in [('alpha0','results/hfjudge/JUDGE_HF_RERUN_v70_a0.0_b8f62434.js
     k,inv=attack(rel);rr.append((f'{label}：{k}/70={100*k/70:.1f}%，INVALID={inv}',[rel]))
 for s in range(3,8):
     rel=f'results/hfjudge_wjb/JUDGE_HF_lmi_s{s}';k,inv=attack(rel);rr.append((f'cond2 s{s}：{k}/70={100*k/70:.1f}%', [rel]))
+base_rel='results/hfjudge/JUDGE_HF_RERUN_v70_a0.0_b8f62434.json'
+base_k,base_inv=attack(base_rel);base_pct=100*base_k/70
+rr.append((f'HF统一：高斯3方向平均下降={base_pct-np.mean(rand):.2f}pp；双方后端HF；alpha0 INVALID={base_inv}',[base_rel]+[f'results/{d}/JUDGE_HF_rand{s}_a1.0'for s,d in[(0,'hfjudge_batch2'),(1,'hfjudge_batch2'),(2,'hfjudge_batch3')]]))
+rr.append((f'HF统一：11方向平均下降={base_pct-np.mean(vals):.2f}pp；范围[{base_pct-max(vals):.2f},{base_pct-min(vals):.2f}]pp；双方后端HF',[base_rel]+[f'results/hfjudge_init/JUDGE_HF_init_seed{s}'for s in range(8)]+['results/hfjudge_batch2/JUDGE_HF_rand0_a1.0','results/hfjudge_batch2/JUDGE_HF_rand1_a1.0','results/hfjudge_batch3/JUDGE_HF_rand2_a1.0']))
 table('## 5.1 零线与 LMI 分解',rr)
 
 baseline=read('results/audit/C2_alpha0b.json')
