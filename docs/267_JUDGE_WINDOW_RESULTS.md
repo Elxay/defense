@@ -1,6 +1,6 @@
 # 267 — 同一窗口的旧曲线后端统一与Guard配对
 
-汇总UTC：2026-11-06T14:57:58.532684+00:00。Gate20要求至少8条中间PYes、绝对差<1e-3，实际证据见各新缓存gate。rand2/3先判，旧曲线/seed随后，HF进程退出后才加载Guard，均物理GPU2/3。
+汇总UTC：2026-11-06T14:59:52.828446+00:00。Gate20要求至少8条中间PYes、绝对差<1e-3，实际证据见各新缓存gate。rand2/3先判，旧曲线/seed随后，HF进程退出后才加载Guard，均物理GPU2/3。
 
 ## d的三套来源
 
@@ -14,7 +14,7 @@
 
 ## 同后端联合区间
 
-{"reps": 10000, "outside_or_duplicate": 5191, "duplicate_axis": 1474, "fixed5_conditional": {"n": 4809, "ci95": [-0.933112420225822, 3.533973758200562]}, "seed_cluster_conditional": {"n": 4809, "ci95": [-1.3600515463917522, 4.038912118809026]}, "boundary_clipped_diagnostic": {"n": 8526, "ci95": [-1.7170513120899726, 3.3135201890034365]}, "warning": "First two omit non-interpolable draws; endpoint clipping is a diagnostic. None is proof of equivalence."}
+{"reps": 10000, "outside_interpolation_range": 4764, "duplicate_axis_draws_pooled": 1455, "bootstrap_seed": 2026110602, "duplicate_axis_policy": "average legal-axis values at tied attack-axis coordinates, exactly as priorround2", "fixed5_conditional": {"n": 5236, "ci95": [-0.9453009941089837, 3.555197594501718]}, "seed_cluster_conditional": {"n": 5236, "ci95": [-1.3378283014236625, 3.875561091106397]}, "boundary_clipped_diagnostic": {"n": 10000, "ci95": [-2.1217330242781274, 3.5732817869415805]}, "warning": "First two omit non-interpolable draws; endpoint clipping is a diagnostic. None is proof of equivalence."}
 
 未检出新旧训练器在前沿上的差异；是否达到±3pp等价边界按上述实际区间判断，不把含0当等价。只有5个seed、旧s0事后选出，后端统一不能消除插值与横轴噪声。
 
@@ -64,7 +64,7 @@ Conditional selected24, model labels, no causal mechanism inference; original31/
 
 ## 来源SHA256
 
-frontier summary bc175c2cd5bed321af1bc72e53fd7dbe86110ee04b4728f14f7f968f9123763c
+frontier summary 2bb29d58ba6e6a6b4e0d795048aa37f595081855e5d15ba5fdc0156d5f098260
 Guard paired summary 576703c1db2c733702c7d7049196bcccbcececeaccb7c0f65b9a6d83cc26a0b8
 results/hfjudge/JUDGE_HF_innet_window7_old_curve_a0.25 572227a737544603db9640d63e3913bf02a2efd4f192720a57c815318dd20668
 results/hfjudge/JUDGE_HF_innet_window7_old_curve_a0.5 45fc20104005aff8a662bfcfe630e578495c1d660d38553245333deb5f72a206

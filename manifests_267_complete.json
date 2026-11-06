@@ -1,8 +1,8 @@
 {
   "document": "267_JUDGE_WINDOW_RESULTS.md",
-  "document_sha256": "77fc0ecd7f61cb2b3dae06f9de26dcc5080d3e2180b59e183287af578a8219ed",
+  "document_sha256": "e99d1467773e5b1b46898db7f4d7f09336ec0bf6b9ad4c634a40ec486aae92e4",
   "source_hashes": {
-    "results/audit/handoff_round7/window_frontier_results.json": "bc175c2cd5bed321af1bc72e53fd7dbe86110ee04b4728f14f7f968f9123763c",
+    "results/audit/handoff_round7/window_frontier_results.json": "2bb29d58ba6e6a6b4e0d795048aa37f595081855e5d15ba5fdc0156d5f098260",
     "results/audit/handoff_round7/guard_paired24.json": "576703c1db2c733702c7d7049196bcccbcececeaccb7c0f65b9a6d83cc26a0b8"
   }
 }

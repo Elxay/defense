@@ -135,3 +135,5 @@
 2026-11-06T14:58:47.182209+00:00 DOC250_FIRST_COMPLETE_EFFECT_READ all5x600 outputs copied fromnode01; fixed292 and frozen>=4/5 DD>=3 CIexclude0; alpha0 reuse exception acknowledged, original same-node clause not silently relabeled satisfied.
 2026-11-06T14:58:47.283792+00:00 OVERNIGHT_SUMMARY_READY doc=265_BENIGN_SEEDS_RESULTS.md sha256=ae673c5a80223fd71eeea1cd44ec4bec5b273d7fc913e0cef67d0c2625c39af7
 2026-11-06T14:58:47.317000+00:00 OVERNIGHT_SUMMARY_CONTENT_COMMIT doc=265_BENIGN_SEEDS_RESULTS.md commit=65845dc3f56bebc57f227c24655269a4c0c97df1
+2026-11-06T14:59:50.338631+00:00 WINDOW7_JOINT_ALGORITHM_ALIGNMENT: initialnew diagnostic used different RNG/tie omission, so not suitable for isolating backend effect. Archive before_joint_algorithm_alignment.json; rerun exact priorround2 RNG2026110602, tied-axis average, seed resample everydraw; pointd unchanged. Supersede initialnew joint intervals, do not change any scores.
+2026-11-06T14:59:52.837084+00:00 OVERNIGHT_SUMMARY_READY doc=267_JUDGE_WINDOW_RESULTS.md sha256=e99d1467773e5b1b46898db7f4d7f09336ec0bf6b9ad4c634a40ec486aae92e4
