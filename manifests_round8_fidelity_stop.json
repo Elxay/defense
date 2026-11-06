@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-06T17:40:44.651734+00:00",
+  "public_files": {
+    "docs/271_ROUND8_AUDIT_RESULTS.md": "4568754323808e6fd6dc725b9eb3a9370b1ee54873d4d0bc6a58e8dbc76ae959",
+    "docs/236_PAPER_POSITION_v2.md": "e16589990127ecce9621f923b419ecd3145ceb7c9166138721e3266cb64d776f",
+    "docs/PREREG_LOG.txt": "7c85f11bf8ca78279f5e628b8524d142b0f4cff8a8dce1486e2fc273e363535b",
+    "tools/handoff_20261106/round8_fidelity_diagnostic.py": "f4ab95bf8661a6cca1456ae675b9e16407a4e0127636fa949f42b3b69a7b9f99",
+    "tools/handoff_20261106/round8_finalize.py": "1b747be96c830169df8e40866e0d7d54af099ccbd23f66b2faa9dd970b352739"
+  },
+  "private_source_hashes": {
+    "results/style_intervention/fidelity_gate.json": "af2ee35447722c16ba213bdeb764170929f6729c69095987ec198eb0213b5a02",
+    "results/audit/handoff_round8/fidelity_failure_summary.json": "fc6d5e363c19f99509f634efdb2949297fb6addbc75cfdca7caf15ecaf76cf97",
+    "results/audit/handoff_round8/fidelity_failure_replay5.json": "6cbe9d23f16fb41bd31fee22f9bbaf2e1ba16f8f6e270e8950b4a53418333430",
+    "results/style_intervention/style_training_targets.json": "90e035e7310e5412042b1e25458ccd045adcedae06ad399752f7af552a6b849f",
+    "results/style_intervention/old_recipe_targets.json": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0"
+  },
+  "treatment_vectors": 0,
+  "protocol_unchanged": true
+}
