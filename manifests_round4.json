@@ -1,0 +1,569 @@
+{
+  "created_utc": "2026-11-06T10:42:34.732723+00:00",
+  "public_files": [
+    {
+      "file": "docs/247_RESULTS_51_SKELETON.md",
+      "sha256": "3872ba91d1a82cda5d40727188a15a9d49d09768c548ebb35d977a7fba36df29",
+      "server_source_sha256": "3872ba91d1a82cda5d40727188a15a9d49d09768c548ebb35d977a7fba36df29"
+    },
+    {
+      "file": "docs/249_RESULTS_51_DRAFT.md",
+      "sha256": "4227027ad7424ac99308ed1841d09db2aaccf7a09095c89bb31b1067ec5efa81",
+      "server_source_sha256": "4227027ad7424ac99308ed1841d09db2aaccf7a09095c89bb31b1067ec5efa81"
+    },
+    {
+      "file": "docs/251_EVAL_TRAPS_DRAFT.md",
+      "sha256": "d90c0a14baaf47daf36c199e50176bfe05e6ce4a7ebc9afc66d234da99d200d4",
+      "server_source_sha256": "d90c0a14baaf47daf36c199e50176bfe05e6ce4a7ebc9afc66d234da99d200d4"
+    },
+    {
+      "file": "docs/252_GUARD_QWEN_EXECUTION_NOTE.md",
+      "sha256": "ce496c320c6d83c51e3b4b07248cbb832acac35763e198827d904ddad8e407ca",
+      "server_source_sha256": "ce496c320c6d83c51e3b4b07248cbb832acac35763e198827d904ddad8e407ca"
+    },
+    {
+      "file": "docs/253_ROUND4_AUDIT.md",
+      "sha256": "a622101b3f4c5923d540012ad9256a6ae4c4ce285a4c1dfdb944f993ba1badb8",
+      "server_source_sha256": "a622101b3f4c5923d540012ad9256a6ae4c4ce285a4c1dfdb944f993ba1badb8"
+    },
+    {
+      "file": "docs/254_FRONTIER_APPENDIX.md",
+      "sha256": "1dd7ebfcb451d72e859fae08f445cc76aa4dbcb6f1e529ee85a8fd91bfd04634",
+      "server_source_sha256": "1dd7ebfcb451d72e859fae08f445cc76aa4dbcb6f1e529ee85a8fd91bfd04634"
+    },
+    {
+      "file": "docs/255_RESULTS_53_DRAFT.md",
+      "sha256": "567203490dbb9b53d9504615c08ea759bdc07ec0c7c903c26f3a7cb24d8c0a99",
+      "server_source_sha256": "567203490dbb9b53d9504615c08ea759bdc07ec0c7c903c26f3a7cb24d8c0a99"
+    },
+    {
+      "file": "docs/256_DOC246_RESULTS.md",
+      "sha256": "813a8222f1633449f1ceb719e172dd46ac1b7310f4ae32039cddf1b9a154612b",
+      "server_source_sha256": "813a8222f1633449f1ceb719e172dd46ac1b7310f4ae32039cddf1b9a154612b"
+    },
+    {
+      "file": "docs/257_GUARD_PROTOCOL_REPAIR.md",
+      "sha256": "bd4bbb1d469a9050ce98d5d7be5d50a893885afb9190942f58c67c57bf7d26d9",
+      "server_source_sha256": "bd4bbb1d469a9050ce98d5d7be5d50a893885afb9190942f58c67c57bf7d26d9"
+    },
+    {
+      "file": "docs/258_QWEN_GUARD_RESULTS.md",
+      "sha256": "2d48f64664847d4ee9b22c9411a7c52713d2185c553ce9a8af43beb3f70d2ff0",
+      "server_source_sha256": "2d48f64664847d4ee9b22c9411a7c52713d2185c553ce9a8af43beb3f70d2ff0"
+    },
+    {
+      "file": "docs/POSTHOC_MODEL_REVIEW_METHOD.md",
+      "sha256": "41d8e01b013a48eabc7121568945e6da379df9b68662074642f140984fc92cce",
+      "server_source_sha256": "41d8e01b013a48eabc7121568945e6da379df9b68662074642f140984fc92cce"
+    },
+    {
+      "file": "docs/PREREG_LOG.txt",
+      "sha256": "c2a83ad21cf43f08357eaf59ce73f0f7e28940415216f10089e942ee3fa5ab45",
+      "server_source_sha256": "c2a83ad21cf43f08357eaf59ce73f0f7e28940415216f10089e942ee3fa5ab45"
+    },
+    {
+      "file": "tools/handoff_20261106/parallel_launcher_node.py",
+      "sha256": "c8bf065194974aa69fecdb38e814e3a199ddd9b9520f79599328e7a3aa406593",
+      "server_source_sha256": "c8bf065194974aa69fecdb38e814e3a199ddd9b9520f79599328e7a3aa406593"
+    },
+    {
+      "file": "tools/handoff_20261106/review.py",
+      "sha256": "5cccc594bfadaa49b0c3e03526ba67d45461c2d76afdf372f4d49cd350f29b7d",
+      "server_source_sha256": "5cccc594bfadaa49b0c3e03526ba67d45461c2d76afdf372f4d49cd350f29b7d"
+    },
+    {
+      "file": "tools/handoff_20261106/guard_qwen_output_v1_unvalidated.py",
+      "sha256": "0dd074cfd5cad1056f5306ceaff40d7ed12adf86a6ce8a8a5e6c0c3ff78b2ab3",
+      "server_source_sha256": "0dd074cfd5cad1056f5306ceaff40d7ed12adf86a6ce8a8a5e6c0c3ff78b2ab3"
+    },
+    {
+      "file": "tools/handoff_20261106/guard_qwen_output.py",
+      "sha256": "770bb06af67178f2c7e9b2ed217beb2888c70e137b95771f51b3e09040fb9c4b",
+      "server_source_sha256": "770bb06af67178f2c7e9b2ed217beb2888c70e137b95771f51b3e09040fb9c4b"
+    },
+    {
+      "file": "tools/handoff_20261106/judge_a0_innet_round2.py",
+      "sha256": "6e51c5603dfec9cd330133fb353bf71bfd58f20071c13e4f187f297c1e203a93",
+      "server_source_sha256": "6e51c5603dfec9cd330133fb353bf71bfd58f20071c13e4f187f297c1e203a93"
+    },
+    {
+      "file": "tools/handoff_20261106/idle_gpu_queue.py",
+      "sha256": "0e93ff0892f79cd43b302984113b39d53ede249508ad2c970e1c66d92e41e525",
+      "server_source_sha256": "0e93ff0892f79cd43b302984113b39d53ede249508ad2c970e1c66d92e41e525"
+    },
+    {
+      "file": "tools/handoff_20261106/publish_round4.py",
+      "sha256": "c2dc52bc4519556ef7710ca64b9705c9801392c89f4499c47af82cbce81f4b2d",
+      "server_source_sha256": "c2dc52bc4519556ef7710ca64b9705c9801392c89f4499c47af82cbce81f4b2d"
+    },
+    {
+      "file": "tools/handoff_20261106/round2.py",
+      "sha256": "d32dba9e6d546d5897ba386e2360188cf8d8880b5db4274beabfbe0f6f559053",
+      "server_source_sha256": "d32dba9e6d546d5897ba386e2360188cf8d8880b5db4274beabfbe0f6f559053"
+    },
+    {
+      "file": "tools/handoff_20261106/judge_idle23.py",
+      "sha256": "fe838dc9fab65b2deecddd96bdb165f15108c2a3a12b878e211c928a4313948e",
+      "server_source_sha256": "33d4332a37daebc37e79ffe28978e65e967f98b5a6910f1e73a301a310eb59dd"
+    },
+    {
+      "file": "tools/handoff_20261106/generate_pairs.py",
+      "sha256": "10a62cf3510c0952d24095718b127b9383e956d03435d8dfe818e463e168c4a2",
+      "server_source_sha256": "10a62cf3510c0952d24095718b127b9383e956d03435d8dfe818e463e168c4a2"
+    },
+    {
+      "file": "tools/handoff_20261106/report.py",
+      "sha256": "4b3cdc68a07380b7790bd2f8c26346cf424483a2f6c25c3e619d74f275a016b5",
+      "server_source_sha256": "4b3cdc68a07380b7790bd2f8c26346cf424483a2f6c25c3e619d74f275a016b5"
+    },
+    {
+      "file": "tools/handoff_20261106/wjb_parallel_node.py",
+      "sha256": "7729c72a96c5c36fa34c47b14be61b35c1673266a355496f62848e8d524cc67d",
+      "server_source_sha256": "7729c72a96c5c36fa34c47b14be61b35c1673266a355496f62848e8d524cc67d"
+    },
+    {
+      "file": "tools/handoff_20261106/guard_position_diagnostic.py",
+      "sha256": "f1a916c3a80837869036037695598928d10c00a42889259996d03c183a2c7a12",
+      "server_source_sha256": "f1a916c3a80837869036037695598928d10c00a42889259996d03c183a2c7a12"
+    },
+    {
+      "file": "tools/handoff_20261106/wjb_workflow.py",
+      "sha256": "7f03dd41c44fec325b927df53851db615bd1d2e2034e4db728f2374f71962f73",
+      "server_source_sha256": "7f03dd41c44fec325b927df53851db615bd1d2e2034e4db728f2374f71962f73"
+    },
+    {
+      "file": "tools/handoff_20261106/round4_baseline.py",
+      "sha256": "28700f0ccc7aaeb64c0b8a65ab1371e8ecfe474d67819f53a3bc92b08516d68e",
+      "server_source_sha256": "28700f0ccc7aaeb64c0b8a65ab1371e8ecfe474d67819f53a3bc92b08516d68e"
+    },
+    {
+      "file": "tools/handoff_20261106/parallel_controller.py",
+      "sha256": "abffd543c73508d6dd955e9a2d4450d24666de23b8e4aade349de2d60f2c194c",
+      "server_source_sha256": "abffd543c73508d6dd955e9a2d4450d24666de23b8e4aade349de2d60f2c194c"
+    },
+    {
+      "file": "tools/handoff_20261106/guard_protocol_recovery.py",
+      "sha256": "6b177224a5ad2148008cce797a034355f3eaa4e11091cf604482ca06c653d955",
+      "server_source_sha256": "6b177224a5ad2148008cce797a034355f3eaa4e11091cf604482ca06c653d955"
+    },
+    {
+      "file": "tools/handoff_20261106/publish_round2.py",
+      "sha256": "9237713f1b674a4dad637105556abfdc58e8a6a75cc6ccd925e6650069bdf363",
+      "server_source_sha256": "9237713f1b674a4dad637105556abfdc58e8a6a75cc6ccd925e6650069bdf363"
+    },
+    {
+      "file": "tools/handoff_20261106/judge_parallel_innet.py",
+      "sha256": "9411b94fa5b2de9b754b073ae6e923433663093a917f37a84596bc52fba6ff66",
+      "server_source_sha256": "9411b94fa5b2de9b754b073ae6e923433663093a917f37a84596bc52fba6ff66"
+    },
+    {
+      "file": "tools/handoff_20261106/audit.py",
+      "sha256": "cd5b40df5069783bd439c63d1dd3e9d9e30c8846cb83d3fde670a6d22da587a3",
+      "server_source_sha256": "cd5b40df5069783bd439c63d1dd3e9d9e30c8846cb83d3fde670a6d22da587a3"
+    },
+    {
+      "file": "tools/handoff_20261106/round4_review.py",
+      "sha256": "ca73e842651d9dba97f83ebc57be03e2b4ed965fe6a58537351ec570908e0ea4",
+      "server_source_sha256": "ca73e842651d9dba97f83ebc57be03e2b4ed965fe6a58537351ec570908e0ea4"
+    },
+    {
+      "file": "tools/handoff_20261106/round3.py",
+      "sha256": "0e10a16a4a86c1efce46b0319d53c3c54bc6559baeb90714a12a3c2736b0fd58",
+      "server_source_sha256": "0e10a16a4a86c1efce46b0319d53c3c54bc6559baeb90714a12a3c2736b0fd58"
+    },
+    {
+      "file": "tools/handoff_20261106/publish_round3.py",
+      "sha256": "842b058ba2be4d50b76d4c451181370a75666c12254895b0303e1756897a896e",
+      "server_source_sha256": "842b058ba2be4d50b76d4c451181370a75666c12254895b0303e1756897a896e"
+    },
+    {
+      "file": "tools/handoff_20261106/summarize_guard_qwen.py",
+      "sha256": "bc8be394cb41cd8a1f18adbe8b477664ee8ddd47530966edfaa199decdb2938a",
+      "server_source_sha256": "bc8be394cb41cd8a1f18adbe8b477664ee8ddd47530966edfaa199decdb2938a"
+    },
+    {
+      "file": "tools/handoff_20261106/validate.py",
+      "sha256": "30ed0eb2d27ca46e758cfc5a256bb7dd3eae0ce11b078e913026a65779211c8f",
+      "server_source_sha256": "30ed0eb2d27ca46e758cfc5a256bb7dd3eae0ce11b078e913026a65779211c8f"
+    },
+    {
+      "file": "tools/handoff_20261106/status_round4.py",
+      "sha256": "86ffdbe6498d3673d343452760b777e8b56227e43750f0d739eedb3575123e39",
+      "server_source_sha256": "86ffdbe6498d3673d343452760b777e8b56227e43750f0d739eedb3575123e39"
+    },
+    {
+      "file": "tools/handoff_20261106/prepare_pairs.py",
+      "sha256": "56fb6f6373303971687d0d71970e6f10d25f5dee09fd63b4b869ad018549c696",
+      "server_source_sha256": "56fb6f6373303971687d0d71970e6f10d25f5dee09fd63b4b869ad018549c696"
+    },
+    {
+      "file": "tools/handoff_20261106/analyze_doc246_complete.py",
+      "sha256": "b991b647614b3d1b295535121fe698b3cf18828bdfdaf880759d041cca2e7c0a",
+      "server_source_sha256": "b991b647614b3d1b295535121fe698b3cf18828bdfdaf880759d041cca2e7c0a"
+    },
+    {
+      "file": "tools/handoff_20261106/report_round4.py",
+      "sha256": "c7e2aba3c32f04642ca394661906324def1bdac8385e3d2ed4de4fda2cc9f6dc",
+      "server_source_sha256": "c7e2aba3c32f04642ca394661906324def1bdac8385e3d2ed4de4fda2cc9f6dc"
+    }
+  ],
+  "private_artifacts_hashes_only": [
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_A_append_attack.analysis_meta.json",
+      "sha256": "5de018339754f199efe6319381270ea47a66ac37c921d2621c22fcdc3af4096f"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_A_append_attack.json",
+      "sha256": "fc8d140460bdaa02cdf8bea3399137f349df7125114d993aac1a04575c802a20"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_A_append_legal.analysis_meta.json",
+      "sha256": "ae3b2ff494d4dbb02c491177b69238692e6c492572a3d08f3657f7599dff70b2"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_A_append_legal.json",
+      "sha256": "1bd13964d48f4309a89ec735be37ebe3c71ddc8636ddce524ead46e2f986d5ea"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_A_replace_attack.analysis_meta.json",
+      "sha256": "db9f35ad7047d212aaa53a3a1ffa785deac3a5000a21bde50df94cd552682925"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_A_replace_attack.json",
+      "sha256": "5bd8468e8f02f226f315428c24e17856a4a0a020dd7b9ef358b7ee08f52e18a8"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_A_replace_legal.analysis_meta.json",
+      "sha256": "4f5e853e33696b9bb63578da2f59ba2ba3097eb8b60c1491bc5533d917f3e0bd"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_A_replace_legal.json",
+      "sha256": "146e7a6e77cae6f10c29586b42e7aa38eb116b81dea4efa0fa824a55049191e2"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_B_append_attack.analysis_meta.json",
+      "sha256": "4cb667b3b66133b13254b21f6a7e50f07006f5137ac22d1d86ac540ef84273ca"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_B_append_attack.json",
+      "sha256": "b51173f45e9ba089fa0bca384d19142b2dd07a646af94ae5f41ed73e819588b5"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_B_append_legal.analysis_meta.json",
+      "sha256": "3cb8e097147afc90d1281a67dd8ecf2264bf387582c58574dc3873f704cc5954"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_B_append_legal.json",
+      "sha256": "a3d2b4beb128887ac2048a68c9680d39e677a386bfd375f2f231dd4c485c7dd3"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_B_replace_attack.analysis_meta.json",
+      "sha256": "1ba77076b0ea41da19f427212590526b2da5535b954a272177e8340e9da1445e"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_B_replace_attack.json",
+      "sha256": "766b82d1b1eeabbc6a40f95613e1c171d7e13ce7a0c30ccca0b281a11a24d513"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_B_replace_legal.analysis_meta.json",
+      "sha256": "aa8384f22dd7ecb2a4f3f0e814ccaeabb2e1ec720cf5de8a66a75bf88f28a3cc"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_B_replace_legal.json",
+      "sha256": "20f96a33fc443ace57bf3ed27968850093c9b8ff6dc8b23c05c08b6160042524"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_baseline_attack.analysis_meta.json",
+      "sha256": "51765909cafaf64b2bd61c7090498f7470ff29ded71ba339126c45eca8c214a1"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_baseline_attack.json",
+      "sha256": "74cb1e71977ceca36a064c2cb8263632bbfdbf6d3ec33e80dc50465860d4e2f5"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_baseline_legal.analysis_meta.json",
+      "sha256": "51d109f09d3688d149462a718cc51fe0a0e56067f847bb6a86ddc0a8cfeb6358"
+    },
+    {
+      "file": "results/audit/handoff_round4/GUARD_QWEN_baseline_legal.json",
+      "sha256": "47f2e63e5e4b564fc72daa87ce9fafe124b56efc8ae60880fea72e323b362783"
+    },
+    {
+      "file": "results/audit/handoff_round4/baseline_two_paths_corrected.analysis_meta.json",
+      "sha256": "1dde86374a06b506396f9efe786e5d4e015d12911f65cd718e97ce66bf05c122"
+    },
+    {
+      "file": "results/audit/handoff_round4/baseline_two_paths_corrected.csv",
+      "sha256": "eb7d36c739014df6d9a0fa502b09b1444fafb51879f39a1fe2a3ff667a422d9d"
+    },
+    {
+      "file": "results/audit/handoff_round4/doc246_results.analysis_meta.json",
+      "sha256": "785d9d4489b4000d85690fa7608875d033a62a802d175f409467ea381245c4a6"
+    },
+    {
+      "file": "results/audit/handoff_round4/doc246_results.json",
+      "sha256": "09d1fca7cff7914cba29a43b9d0ccca17aee0f2a4be285748c4c7ee68b58f36b"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_diagnostic/position_diagnostic.analysis_meta.json",
+      "sha256": "280416f2a7064225ecdace2b5186f8cf80e49cb179e2bbeafe404b31d8edcd14"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_diagnostic/position_diagnostic.json",
+      "sha256": "6a15e47cdcaf31a93c3771ba64fe86436cda46169cdb1a4ea5153faf83d9e005"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_diagnostic/protocol_recovery.analysis_meta.json",
+      "sha256": "be46f6d64f93bc195f8279a5468804ad0ee400b7646bfd10e85128575c44a513"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_diagnostic/protocol_recovery.json",
+      "sha256": "0e851e69d2a1bcccca4ceb6853b8f36bc388a1e80b2aee66ba327ca2a9678ae4"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_queue.analysis_meta.json",
+      "sha256": "1315066ed177b155457a8283a43f73ac9a732b3fd98700b3b265143fbf87a508"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_queue.json",
+      "sha256": "51453456bf75bf6b9f1fb2da276e9ca379a1fb2f2fb33c687405bdc2e4b36661"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_qwen_progress.analysis_meta.json",
+      "sha256": "ffb42ac89205669d266316c95536f02c36d48cd104674bab936bdf3fa8161424"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_qwen_progress.json",
+      "sha256": "edf951844a3322bf3cc812e6f9a70f2715d696a3957b7fac956a4fdec8ea9273"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_qwen_reference_gate.analysis_meta.json",
+      "sha256": "0c333f0cb1a96395885feccd42b86d64e52fe9f1c129e6866a9760f0d0123b8a"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_qwen_reference_gate.json",
+      "sha256": "0509469616bdcb59c7bcf06764b760e88f771d3349576b0f30a5154006c70357"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_qwen_summary.analysis_meta.json",
+      "sha256": "6948617dc892ca7149a12689e75760862ac19ebd21e476d8b92c5d22315f4280"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_qwen_summary.json",
+      "sha256": "d26822b48b5d2e033caca0c4df6454132023c45114954066c9f5340175443132"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_qwen_thresholds.analysis_meta.json",
+      "sha256": "6445034c97a36ec43112bd8e7b180bede85ec3438be9234a3ff79c3741a63ba0"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_qwen_thresholds.csv",
+      "sha256": "7930efc228e49613f14bcb453e870bb47c2787bd5ebd4941472f000c69862e06"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v1_invalidated.analysis_meta.json",
+      "sha256": "4494a3e5c1549309d4b980227d244721db632a30d25bed6d5fdcb81a12a9377a"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v1_invalidated.json",
+      "sha256": "d917f408fccc035d58d0abcc8c657d152c92a4b7ed288bc8ade563e9ba8f3975"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_A_append_attack.analysis_meta.json",
+      "sha256": "67011cfa594761958c357d772b9a2f6c52b1370c49584d464c77f10c4e9c7cce"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_A_append_attack.json",
+      "sha256": "d15008b84849399af368e8e3d17910b678c2c61de04f4fa71528cdb84793c888"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_A_append_legal.analysis_meta.json",
+      "sha256": "75d8ea6335abf036c37cd6261e0a36a85501a037ce8049fb434d099cf98c122d"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_A_append_legal.json",
+      "sha256": "a08468c14a74ccf8465ac6343a3cae3f5f575c57aaf1c7653fb01a21cbaff7bc"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_A_replace_attack.analysis_meta.json",
+      "sha256": "350e1a5f910c58dce77fd67d57406081af5d9d5a92d47296bf37228c711c8282"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_A_replace_attack.json",
+      "sha256": "b4ed5827c134ecb23d3140cb3ed68a3ddce1d04e67da120be5f0f7cd98ab52c4"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_A_replace_legal.analysis_meta.json",
+      "sha256": "8226a0e38b599a87f26288699b1baf8fa71e4cbc0fa3f0da65ce893fa9a9f5f9"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_A_replace_legal.json",
+      "sha256": "55c0ef637b99972953495dc44c7a45df2e5a1252820d8d957f2bdbbb21822b40"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_B_append_attack.analysis_meta.json",
+      "sha256": "110b4e2e808604979244e6a18298cdee57e1a3cc902e39a89e5024a5531ba9a3"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_B_append_attack.json",
+      "sha256": "5850964456ef1cfc634f59a06dacb8cbf179dd153cb39022aa62247b112b8911"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_B_append_legal.analysis_meta.json",
+      "sha256": "20a502cc08626bcbba44c9ae9aaea5634aa095e04308f43ad7f24ea9e04c743b"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_B_append_legal.json",
+      "sha256": "6995b84714e801be823bd532130d1ffb0a4c6a857c186b9fd57c4800dc9c00fb"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_B_replace_attack.analysis_meta.json",
+      "sha256": "b85b6f52d23f528421af8f88ee86a0fa39014ed140b7457665d64ee4ac7b4db5"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_B_replace_attack.json",
+      "sha256": "11999159662b8ef3f3d665c5a450c7fd4e70ac64fb8d36f5b986438477b1c4e5"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_B_replace_legal.analysis_meta.json",
+      "sha256": "cdc367c884569090b7c1600d36ae1d0653305aee08ebe531ed1ae480ec531237"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_B_replace_legal.json",
+      "sha256": "91ba3d0dc5d2b881df26871699792f9b779dc2e9cada1650901b6402e1868f1c"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_baseline_attack.analysis_meta.json",
+      "sha256": "05675512af5b8fb37850b4c7ffe45cf8c5c6cb92027911f4bfc246f5ceae1066"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_baseline_attack.json",
+      "sha256": "cfe704ebc65fba323e9bffbba66f5749bfcf0a151e2c68e8c88a98505643ec8d"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_baseline_legal.analysis_meta.json",
+      "sha256": "37f46927bdd7de59e7ddfea639f41abecd759b31b197580e4f5dad5d8829b854"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/GUARD_QWEN_baseline_legal.json",
+      "sha256": "b759d7c275729b6a81434a142580e834a8fed15c2819f547684ceaafed90e1ff"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/guard_qwen_progress.analysis_meta.json",
+      "sha256": "1ba7ba10405bf2ac2727e000bc0491d1ec26228070a1cae451a4e3d9e7721b91"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/guard_qwen_progress.json",
+      "sha256": "7c235cc388aae4326a1275a2606564002ff9f9112cc88ee9dd1dcb7a4bf01b7f"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/guard_qwen_reference_gate.analysis_meta.json",
+      "sha256": "257e72099b9dceffafcdad434b6f439c9ca197d9fef3bd34e4519318b9949549"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_v2/guard_qwen_reference_gate.json",
+      "sha256": "22f022e602e5c0f9ca057b2cab360004213a89520f727200bc172f88683f3933"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_validated_state.analysis_meta.json",
+      "sha256": "8b7744a653fe1edd35e4f0010297155548149a9d66fe8ba4f4fa35cba6409a12"
+    },
+    {
+      "file": "results/audit/handoff_round4/guard_validated_state.json",
+      "sha256": "a37916247729b168aaaa76943656b7e4ff7899061c1a77f5719dd056900d1334"
+    },
+    {
+      "file": "results/audit/handoff_round4/llama_b_per_item.analysis_meta.json",
+      "sha256": "58c222b0060932891eb6884ace8a5cae11253ce07d68d510d62fbdc5d8833081"
+    },
+    {
+      "file": "results/audit/handoff_round4/llama_b_per_item.csv",
+      "sha256": "d211e4b4c7a8c893f89863baf5fe304535c10fe53381d209136ffb8cc4ba76c5"
+    },
+    {
+      "file": "results/audit/handoff_round4/llama_b_review.analysis_meta.json",
+      "sha256": "1ce73e58d85240e468b7721077a69f131615949726b8ae4c9ccc09155cfd0d2c"
+    },
+    {
+      "file": "results/audit/handoff_round4/llama_b_review.json",
+      "sha256": "976886905eabb84ffa959062393744374b2ae57b8515194b9a2f92eef7337a50"
+    },
+    {
+      "file": "results/audit/handoff_round4/llama_b_screen_package.analysis_meta.json",
+      "sha256": "e84b7b7249e177839782504a331737bc3d5c3b54ed5356edd597dc5edce448b3"
+    },
+    {
+      "file": "results/audit/handoff_round4/llama_b_screen_package.json",
+      "sha256": "d3d24d0456499bc894bae757ab42acedbafd8bfb13e953dd0353edcf6b5736f1"
+    },
+    {
+      "file": "results/audit/handoff_round4/preview12_summary.analysis_meta.json",
+      "sha256": "6e25e212d9960c3422fb9d328036056bb4ae9571ffd49a523add5ea2c9b7ca6e"
+    },
+    {
+      "file": "results/audit/handoff_round4/preview12_summary.json",
+      "sha256": "8f65e9098b1578e441952e959b88e9fd4ca1ad28133904f457da4b6b68c47698"
+    },
+    {
+      "file": "results/audit/handoff_round4/preview12_vs_full.analysis_meta.json",
+      "sha256": "fb03e9b357c71625623604bb227885e9a953ad3bf1c31bd5299ecc6bd339d4cc"
+    },
+    {
+      "file": "results/audit/handoff_round4/preview12_vs_full.csv",
+      "sha256": "ced5efde783df30f41233608abf8f6d71f91c66b41bede1e68bbb854f93102cc"
+    },
+    {
+      "file": "results/audit/handoff_round4/process_snapshot.analysis_meta.json",
+      "sha256": "a31df369d285637912a4b0265fbbe46eefeb76cfd6d227cc982fac750a92861a"
+    },
+    {
+      "file": "results/audit/handoff_round4/process_snapshot.json",
+      "sha256": "de671bb9ba328504f2439f7a28c2fc4363aaa8845f707d51b7473895d1e86988"
+    },
+    {
+      "file": "results/audit/handoff_round4/qwen_guard_rsync_manifest.analysis_meta.json",
+      "sha256": "79a0ad70767f3db1c689ff18147d3b71e9e8055236fc8ffc36f1c2299e2904a9"
+    },
+    {
+      "file": "results/audit/handoff_round4/qwen_guard_rsync_manifest.json",
+      "sha256": "c2462ea0b305f7d8e301e9dbb80e61c7d204c405b2f256660a898e33963df2d3"
+    },
+    {
+      "file": "results/audit/handoff_round4/qwen_operation_ranges.analysis_meta.json",
+      "sha256": "6dbee35c33c787e7f638d374450ca7f47ef97c0479cf17c7ea7317100c0644b5"
+    },
+    {
+      "file": "results/audit/handoff_round4/qwen_operation_ranges.json",
+      "sha256": "bf55af252b6770c7a01dd85dc4f444ac2d52e8980ed8c33060d587a15b6d3c0d"
+    },
+    {
+      "file": "results/audit/handoff_round4/qwen_pair_posthoc.analysis_meta.json",
+      "sha256": "d4edb7a44df0f6a6cc1f1eab77f840de6425112d04f4b63b0d5cdfa614971e80"
+    },
+    {
+      "file": "results/audit/handoff_round4/qwen_pair_posthoc.json",
+      "sha256": "18b83bb0a4401e5aa3654832431aa6b3c9cfba748dd53c99efcd0eaa557dcbdd"
+    },
+    {
+      "file": "results/audit/handoff_round4/review_method.md",
+      "sha256": "41d8e01b013a48eabc7121568945e6da379df9b68662074642f140984fc92cce"
+    },
+    {
+      "file": "results/audit/handoff_round4/reviewer_turn_metadata.analysis_meta.json",
+      "sha256": "1417a180ed722315f518572d964204e9bd87f2a27d967a3bc8dbc4c073b6e9cc"
+    },
+    {
+      "file": "results/audit/handoff_round4/reviewer_turn_metadata.json",
+      "sha256": "5a92362a5050d0e117a8e73aadbddbff92ccb75cfaf25d4dbfc15895a56af5a9"
+    },
+    {
+      "file": "results/audit/handoff_round4/wjb_completed_sync.analysis_meta.json",
+      "sha256": "fa9600fa8256df931359832098fe1cf205c65e2084c55548548494d8ab3323f7"
+    },
+    {
+      "file": "results/audit/handoff_round4/wjb_completed_sync.json",
+      "sha256": "ba6c3f1124789ce297658b95a70c5ec48fc3d2eb5b74bc75d7af1a8341d94653"
+    }
+  ],
+  "exclusions": "No original attack/request/response text or private per-item result data published. Guard v1 score files explicitly invalidated; validated results use guard_v2."
+}

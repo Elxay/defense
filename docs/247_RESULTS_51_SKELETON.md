@@ -166,3 +166,15 @@ WJB n=298：alpha0/old/rand ASR=39.60/25.84/38.59%；old 降幅减 rand 降幅=+
 ## 第三轮更正
 
 LMI cond2 的[−5.7,5.7]不作为标准区间，撤回。重算seed t±6.75pp；behavior聚类±6.0pp；seed×behavior交叉重抽±8.0pp。cond3范数3.44不可与5.21零线作同范数比较；主初始化证据为8个5.21 init-only。5.1修订见docs/249，逐seed、Qwen配对、双基线CSV、七点敏感性与运行说明见docs/250；陷阱正文见docs/251。LLM GPT校准仅指同模型盲重读一致性，不替代独立人工校准。
+
+
+## 第四轮：Qwen论文范围与来源（脚本生成）
+
+历史Qwen规则点值只保留作审计来源；论文以模型标注、未经人工校准的操作范围呈现，不将其解释为真值区间。LLM GPT校准的实际模型与可见信息见POSTHOC_MODEL_REVIEW_METHOD.md。
+
+| 数字 | 文件 | sha256 |
+|---|---|---|
+| A_replace：模型标注、未经人工校准的范围 1–3/392 | results/audit/handoff_round4/qwen_operation_ranges.json<br>results/audit/handoff_round2/qwen_per_item.csv<br>results/audit/LEGALVALB_qwen_a0.json | bf55af252b6770c7a01dd85dc4f444ac2d52e8980ed8c33060d587a15b6d3c0d<br>a740720aba2c2a592e0a44e5281e1eb1daf0e0a96288af1079318dccf4c9031e<br>e96bc45071a7f427c3d53d57c01fab72b227398b62735bfd4b1be3e8ddaf7a92 |
+| A_append：模型标注、未经人工校准的范围 1–4/392 | results/audit/handoff_round4/qwen_operation_ranges.json<br>results/audit/handoff_round2/qwen_per_item.csv<br>results/audit/LEGALVALB_qwen_a0.json | bf55af252b6770c7a01dd85dc4f444ac2d52e8980ed8c33060d587a15b6d3c0d<br>a740720aba2c2a592e0a44e5281e1eb1daf0e0a96288af1079318dccf4c9031e<br>e96bc45071a7f427c3d53d57c01fab72b227398b62735bfd4b1be3e8ddaf7a92 |
+| B_replace：模型标注、未经人工校准的范围 5–7/392 | results/audit/handoff_round4/qwen_operation_ranges.json<br>results/audit/handoff_round2/qwen_per_item.csv<br>results/audit/LEGALVALB_qwen_a0.json | bf55af252b6770c7a01dd85dc4f444ac2d52e8980ed8c33060d587a15b6d3c0d<br>a740720aba2c2a592e0a44e5281e1eb1daf0e0a96288af1079318dccf4c9031e<br>e96bc45071a7f427c3d53d57c01fab72b227398b62735bfd4b1be3e8ddaf7a92 |
+| B_append：模型标注、未经人工校准的范围 4–6/392 | results/audit/handoff_round4/qwen_operation_ranges.json<br>results/audit/handoff_round2/qwen_per_item.csv<br>results/audit/LEGALVALB_qwen_a0.json | bf55af252b6770c7a01dd85dc4f444ac2d52e8980ed8c33060d587a15b6d3c0d<br>a740720aba2c2a592e0a44e5281e1eb1daf0e0a96288af1079318dccf4c9031e<br>e96bc45071a7f427c3d53d57c01fab72b227398b62735bfd4b1be3e8ddaf7a92 |
