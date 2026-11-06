@@ -1,0 +1,10 @@
+{
+  "document": "264_WJB_RANDOM_REFERENCES.md",
+  "document_sha256": "a9c27267c9016c174dd8eeb4d88387d957929d3d370e6b66dd526efd6b0c1987",
+  "source_hashes": {
+    "results/hfjudge/JUDGE_HF_wjb_rand0_innet_round2": "2d67f022648695b29620a8c6bdb516f73ae2d6c866c5a56b977bec0e4780f50f",
+    "results/hfjudge/JUDGE_HF_wjb_rand1_innet": "86e0107d59f907106c0b73f20c06fef301098ecd7e94c6936f64a793d5ddde3c",
+    "results/hfjudge/JUDGE_HF_wjb_rand2_innet_round6": "9fe1a35605bb0c6da96fb24ce0341c73ed2855cdd996217e92b6b5900682a13b",
+    "results/hfjudge/JUDGE_HF_wjb_rand3_innet_round6": "76c79ecfc9324095103cddab99f6fd025859928809af2aa4db452ab741d4aea9"
+  }
+}
