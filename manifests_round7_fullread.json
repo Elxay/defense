@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-06T14:43:29.684497+00:00",
+  "public_files": {
+    "docs/269_FULL_READ_COMPLETION.md": "d0e4b8f715238cae8289ff9be780b6faf9d10486b8500dabacf92252034d990b",
+    "docs/251_EVAL_TRAPS_DRAFT.md": "ced1deda98d602dffd740e8fb7e363ed2326218af95b47fbe8cd9b6c43f60a14",
+    "docs/236_PAPER_POSITION.md": "07c6cc72dc3975751e1f0211add9a2e2952faf2fdded5e1529633fd17e269d11",
+    "docs/236_PAPER_POSITION_v2.md": "0f0578e93a0ffa7e3ec4468c56827bdd1e5b9c1784988144c0eca4d24c66149a",
+    "docs/PREREG_LOG.txt": "0a9c10f15767a4ea1c03862f711d9528d8500ebfab8337988ea91e1d447e1e3a",
+    "tools/handoff_20261106/round7_finalize_reads.py": "2467472cb628607031cf5488535768ac6fe2a694c608631d998247c9bddde56a"
+  },
+  "private_reviews": {
+    "results/audit/handoff_round7/rule_positive_review_labels.json": "d345bfac6581a6611994f9a544c0a54ad59a7542f1392d0410e7b2c51268d690",
+    "results/audit/handoff_round7/random_unhit_review_labels.json": "88eaee393200e80ca1aa7bbb2d5163c94224ced076f8ccb83a391b3907da1d20",
+    "results/audit/handoff_round7/doc246_adv_review_labels.json": "1a4b0ea7f05e39b983819a0eca0050a7a57bcd1f5eb90898e67a345c95cc8bf0"
+  },
+  "protocol": "Only docs/script/hash metadata; no raw requests or generated texts"
+}
