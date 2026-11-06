@@ -1,0 +1,227 @@
+{
+  "created_utc": "2026-11-06T08:52:37.965488+00:00",
+  "published_files": [
+    {
+      "file": "docs/239_TEST_PATHS_PREREG.md",
+      "sha256": "524aa8c8eb5e462c29cc22fa1ee2b90f711f7e1111161327b6ffeb80c442d654"
+    },
+    {
+      "file": "docs/239_ADDENDUM5.md",
+      "sha256": "bf552acb83c3eee3c87baab35b5c73a0520263fad560ed7708a10db813f8c0c3"
+    },
+    {
+      "file": "docs/246_WJB_BENIGN_PAIR_PREREG.md",
+      "sha256": "44629af52476026ee94ae4b3faf38e522fb259ba4b19186b94c82f5096ed81b0"
+    },
+    {
+      "file": "docs/232_C2_AND_INIT_PREREG.md",
+      "sha256": "310cd9bff387fce8a3f2ba8d89dc8d6321f34ff43f67090757be2c33fae4d59a"
+    },
+    {
+      "file": "docs/247_RESULTS_51_SKELETON.md",
+      "sha256": "00d52f248f612ed0a8682503b2568dd438dd2ab0e3ce59b0dd869f2632d4dc95"
+    },
+    {
+      "file": "docs/236_PAPER_POSITION.md",
+      "sha256": "de611fe377ea7162cc6e97bd19e45517780fcea301cfb873379416ad09be78f8"
+    },
+    {
+      "file": "docs/234_STRONGREJECT_CROSSJUDGE.md",
+      "sha256": "e49bf9cac5c9b7fc42c34f1080c98b183388f1f7abcccbe8a0c118302b85fdd2"
+    },
+    {
+      "file": "docs/242_C2_MATCHING_ASR.md",
+      "sha256": "d826fbf9dc9e7b602d1c9a4df1e6ab5c1736f2cb152aad02a571bbbb7ccfb063"
+    },
+    {
+      "file": "docs/243_METHOD_DRAFT.md",
+      "sha256": "a1a1666d4edafa99b04511a67039a0932c41f20ae3f5f2004f7e735bc80d3194"
+    },
+    {
+      "file": "docs/231_B8C_PROTOCOL.md",
+      "sha256": "5d59a46411638842129b9bfbf1bad203d10bc967bb34e227160ed9016a050836"
+    },
+    {
+      "file": "docs/249_RESULTS_51_DRAFT.md",
+      "sha256": "43f37641a31e585d8a75fb0e0544f9a3f207e3249bda492101885b55b52f8097"
+    },
+    {
+      "file": "docs/241_PAPER_OUTLINE.md",
+      "sha256": "b6fea4c40819a781437d1e3221eba830c4cc731363c2039003b3e9bf55a2f9d8"
+    },
+    {
+      "file": "docs/237_EVAL_TRAPS.md",
+      "sha256": "6a101074808079f0852140c1df41c97a535ab7ed2d6d39f6b164d3e7243a06a3"
+    },
+    {
+      "file": "docs/240_EVAL_TRAPS_PROSE.md",
+      "sha256": "05618b7d4e4797919ad36decc055835fad2e18b648001cb4bb27a5a25a1b24a7"
+    },
+    {
+      "file": "docs/235_C2_REPLICATION.md",
+      "sha256": "b628eed4401843d55b343873f9d1bc51c9fb4dbdbd1150790814b9f04405fb5c"
+    },
+    {
+      "file": "docs/248_ROUND2_AUDIT.md",
+      "sha256": "a371627e0a0e9ef2f7b65f46989c0b2e4a103464c16d1853fe364434d624f81a"
+    },
+    {
+      "file": "docs/238_QWEN_BASELINES_PREREG.md",
+      "sha256": "70851b9bc69d8e1e6dcd4d6625674746beabc34a8a3cb81676c584ae8cfcae3e"
+    },
+    {
+      "file": "docs/246_ADDENDUM_RAND1_AND_AUDIT.md",
+      "sha256": "892eedbc7f7c5f8b6c185c737021699a9a873f5d588b742b8771fb414e290a95"
+    },
+    {
+      "file": "docs/244_SOFT_REFUSAL_V3.md",
+      "sha256": "93cf35d68778c9a4dbec9ded4636bd1d59830e4e411ef5b0c7b849b1c846c389"
+    },
+    {
+      "file": "docs/230_THESIS_AND_PIVOT.md",
+      "sha256": "cf5e10417a8b7c54070c33807cc5791c369ec21c90f4cebded04db1a6f2a8100"
+    },
+    {
+      "file": "docs/233_LOOSE_ASR_AND_STRIP.md",
+      "sha256": "074adfb10f0bd189a4e5427b257816246d6e5cbd287acaec07c1506c74e4bc81"
+    },
+    {
+      "file": "docs/PREREG_LOG.txt",
+      "sha256": "8d33d081b820c5d06e72d9d8afb34b808aa729f1d5b180600b2dda15d79170c5"
+    },
+    {
+      "file": "docs/245_REFUSAL_AUDIT.md",
+      "sha256": "e3f81f8e9d6041224ca2a87c3fbc2471f4561fa3eee0dc7011d3ede3095e2f9a"
+    },
+    {
+      "file": "docs/236_PAPER_POSITION_v2.md",
+      "sha256": "d44a6270ebc44a84537e84604e03d46450e108f3ad42d34a544ba7311b1b8929"
+    },
+    {
+      "file": "tools/handoff_20261106/review.py",
+      "sha256": "5cccc594bfadaa49b0c3e03526ba67d45461c2d76afdf372f4d49cd350f29b7d"
+    },
+    {
+      "file": "tools/handoff_20261106/judge_a0_innet_round2.py",
+      "sha256": "6e51c5603dfec9cd330133fb353bf71bfd58f20071c13e4f187f297c1e203a93"
+    },
+    {
+      "file": "tools/handoff_20261106/round2.py",
+      "sha256": "d32dba9e6d546d5897ba386e2360188cf8d8880b5db4274beabfbe0f6f559053"
+    },
+    {
+      "file": "tools/handoff_20261106/generate_pairs.py",
+      "sha256": "10a62cf3510c0952d24095718b127b9383e956d03435d8dfe818e463e168c4a2"
+    },
+    {
+      "file": "tools/handoff_20261106/report.py",
+      "sha256": "4b3cdc68a07380b7790bd2f8c26346cf424483a2f6c25c3e619d74f275a016b5"
+    },
+    {
+      "file": "tools/handoff_20261106/wjb_workflow.py",
+      "sha256": "7f03dd41c44fec325b927df53851db615bd1d2e2034e4db728f2374f71962f73"
+    },
+    {
+      "file": "tools/handoff_20261106/publish_round2.py",
+      "sha256": "9237713f1b674a4dad637105556abfdc58e8a6a75cc6ccd925e6650069bdf363"
+    },
+    {
+      "file": "tools/handoff_20261106/audit.py",
+      "sha256": "cd5b40df5069783bd439c63d1dd3e9d9e30c8846cb83d3fde670a6d22da587a3"
+    },
+    {
+      "file": "tools/handoff_20261106/validate.py",
+      "sha256": "30ed0eb2d27ca46e758cfc5a256bb7dd3eae0ce11b078e913026a65779211c8f"
+    },
+    {
+      "file": "tools/handoff_20261106/prepare_pairs.py",
+      "sha256": "56fb6f6373303971687d0d71970e6f10d25f5dee09fd63b4b869ad018549c696"
+    },
+    {
+      "file": "src/gen/common.py",
+      "sha256": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e"
+    },
+    {
+      "file": "src/judge/refusal.py",
+      "sha256": "498dfd485d3dce6b05551784d698cc9716016f4a2614d06738261e96f5323948"
+    },
+    {
+      "file": "src/eval/legal_val_batch.py",
+      "sha256": "575bf04c90ebe5b6735dd735b2330d7379dc9cf490d7a07fb701dc760751a766"
+    },
+    {
+      "file": "src/eval/legal_val_eval.py",
+      "sha256": "a7e9e1dcb410e1d994522e753108c605004233bc246c96ca8de843010d68b3a4"
+    },
+    {
+      "file": "night/qwen_ab_additions.py",
+      "sha256": "4cb55b3a411181be65da83c84257f4c07370ff0218598baca2536c8065eb188e"
+    }
+  ],
+  "private_artifacts_hashes_only": [
+    {
+      "file": "results/audit/handoff_round2/baseline_inventory.json",
+      "sha256": "a9fde2d1a3c4cf06a8d88bab48cf37eeb2014e5ea7020149ee80d6a9da81f24f"
+    },
+    {
+      "file": "results/audit/handoff_round2/blind30.json",
+      "sha256": "4b8ad701b5e79380ea6a3c8064dc160ef63550dde12d407f94a61932eb5834b1"
+    },
+    {
+      "file": "results/audit/handoff_round2/blind30_agreement.json",
+      "sha256": "0139acbe65d563c69a72a4e28ae05b971b084076445a9c7e72a8426225b106f5"
+    },
+    {
+      "file": "results/audit/handoff_round2/blind30_mapping.json",
+      "sha256": "17d45a4a7b1a8a19b5c04edca18c8f622afbe01b7173d3345b350652eb04e81b"
+    },
+    {
+      "file": "results/audit/handoff_round2/blind30_second_labels.json",
+      "sha256": "7f12bd6db50c750de9722685de2c044b5e5584f288f18969627ecbfa95c385ab"
+    },
+    {
+      "file": "results/audit/handoff_round2/cloud_comparison.json",
+      "sha256": "d12d824a68dfddb98760cb22a0c0967607d4a9b9ea9f731a9463f21e2df2604d"
+    },
+    {
+      "file": "results/audit/handoff_round2/coarse_ra_overlap.json",
+      "sha256": "75779f1fc6f143a1fe0627d024399ac5a5910e8874d0f3038be606e9b23f97b2"
+    },
+    {
+      "file": "results/audit/handoff_round2/cosine_top5.json",
+      "sha256": "60cbb28a4be5de044a027e85dd34c3a74a9162f507254c042e4c4f883533103c"
+    },
+    {
+      "file": "results/audit/handoff_round2/joint_d.json",
+      "sha256": "d86b30749a6d8f853d62233e7bbd499e314853a8e2da2ac2b1c75a877462b324"
+    },
+    {
+      "file": "results/audit/handoff_round2/judge_a0_innet_round2_executed.py",
+      "sha256": "cb6eff5b1ca45a2ed3a16c1ce2de6856cc4215098d90b92d0ea4ce467a523c98"
+    },
+    {
+      "file": "results/audit/handoff_round2/push_allowlist.json",
+      "sha256": "d258949c60a5171d2780c5cb92a8f726bc96616474183e88883850ce2efa31e1"
+    },
+    {
+      "file": "results/audit/handoff_round2/qwen_counts.json",
+      "sha256": "1ac4a52da0027d396e2c934e975757a905fc39a08cd7db6b02908e7cd7b22ad5"
+    },
+    {
+      "file": "results/audit/handoff_round2/qwen_per_item.csv",
+      "sha256": "a740720aba2c2a592e0a44e5281e1eb1daf0e0a96288af1079318dccf4c9031e"
+    },
+    {
+      "file": "results/audit/handoff_round2/rubric.md",
+      "sha256": "208176f1438a1f539f71fb7564f588bafec91be3ab4901c4154f844f0c5bc803"
+    },
+    {
+      "file": "results/audit/handoff_round2/wjb_cross_host_check.json",
+      "sha256": "20cbdaf51182dbfab0005c52ac38493a09112656c736011b6ff2faed4d8075a1"
+    },
+    {
+      "file": "results/audit/handoff_round2/wjb_innet_aligned.json",
+      "sha256": "fb4aae51cb3876c1475d868a7d755e20b9919a9f75e7668684926b229880150d"
+    }
+  ]
+}

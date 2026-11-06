@@ -47,4 +47,20 @@ EOF## 追加说明 #2（2026-11-06 12:50Z，WJB 仅 α=0 已出，任何处理�
 - α=0 基线用 `mdl.generate`（无 hook），处理组将用 `generate_with_injection`；需先用 20 条零向量对比确认字节一致，否则基线重跑。
 ### PAIR
 - PAIR 未运行；`docs/239` 的止损条款（11/8 24:00 前 <12 成功 behavior）自然触发 → 记"PAIR 未运行"，不悬置。
+EOF## 追加 #3（2026-11-06 14:35Z，WJB 处理组输出之前）：预算与缩减规则
+- 条件（固定 5 个）：old s0、s3、s4（α=1.0）与 rand0、rand1；`generate_with_injection`、单条、2400、node01。
+- 主指标：全 300 条 ASR；近邻剔除后 299 作敏感性。
+- 预算闸门：先用前 25 条测速；若 300 条/条件预计 >6 小时，删减顺序：先 rand1，再 s4，最后 s3；至少保留 old s0 + rand0。
+- 缩减须在看到处理组输出前决定并记日志；α=0 基线 39.3% 固定不重跑。
+EOF## 追加 #4（2026-11-06 15:20Z，WJB 处理组仅 old s0 部分文件，未读取）：排程与判官窗口
+### 条件顺序（保持 addendum#3）
+old s0（进行中，部分文件未读取）→ rand0 → s3 → s4 → rand1（若预算触发按 rand1→s4→s3 删减，至少保留 old s0+rand0）。
+### 生成
+- 全部 generate_with_injection，单条，2400，node01，launch_job 启动并登记；
+- 续跑：启动时读已有输出，跳过已完成 id；写盘用 tmp→os.replace 原子写；
+- 速度：old s0 22.1 s/条（实测）；随机方向按约 45 s/条估（未实测）。
+### 判官窗口规则
+- HF 判官需两张完全空闲卡；WJB 进程约 16.7GB，同卡放不下判官一半；
+- 优先级：α=0.5 五点 ASR > WJB old s0 完整文件 > Qwen B_append；过期部分文件不判；
+- 若 node01 无两卡：用 innet local_judge13b（先与 node01 20 条跨机核对，P(Yes) 差 >1e-3 标 unverified）。
 EOF
