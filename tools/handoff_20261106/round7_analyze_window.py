@@ -11,7 +11,7 @@ def flags(p):
  d=read(p);assert d['invalid']==0;return d
 old=read('results/audit/handoff_20261106/curve_reconciliation.json')['rows'];new=read('results/audit/handoff_20261106/frontier_reanalysis.json')['rows'];fresh=[f'results/hfjudge/JUDGE_HF_innet_window7_old_curve_a{r["alpha"]}'for r in old]
 assert all((B/p).exists()for p in fresh)
-oldfresh=[flags(p)for p in fresh];newj=[flags(r['attack']['source']['file'])for r in new];ids=list(oldfresh[0]['items']);assert len(ids)==70 and all(set(z['items'])==set(ids)for z in oldfresh+newj)
+oldfresh=[flags(p)for p in fresh];newj=[flags(r['attack']['source']['file'])for r in new];ids=list(read(old[0]['attack']['source']['file'])['items']);assert len(ids)==70 and all(set(z['items'])==set(ids)for z in oldfresh+newj)
 xs_innet=[100*sum(z['p_yes']>.5 for z in d['items'].values())/70 for d in oldfresh];ys=[r['over_refusal']for r in old];nx=[100*sum(z['p_yes']>.5 for z in d['items'].values())/70 for d in newj];ny=[r['over_refusal']for r in new]
 def interp(x,xs,ys,clip=False):
  ix=np.argsort(xs);xx=np.asarray(xs)[ix];yy=np.asarray(ys)[ix]
@@ -31,15 +31,15 @@ for label,xs in [('verified_vLLM_old_vs_hf_innet_new',[r['verified_frontier_asr'
 # Same paired attack/legitimate resamples, including old-point noise; no extrapolated primary intervals.
 base=read('results/audit/LEGALVALB_none.json');legalids=[k for k,v in base.items()if not new_rule(v['text'])];assert len(legalids)==388
 allj=oldfresh+newj;p=np.array([[d['items'][k]['p_yes']for k in ids]for d in allj],float);allrows=old+new;legaldata=[read(r['source']['file'])for r in allrows];leg=np.array([[float(new_rule(d[k]['text']))for k in legalids]for d in legaldata])
-rng=np.random.default_rng(20261107);strict=[];seeded=[];clipped=[];outside=0;duplicates=0
+rng=np.random.default_rng(2026110602);strict=[];seeded=[];clipped=[];outside=0;duplicates=0
 for _ in range(10000):
  ai=rng.integers(0,70,70);li=rng.integers(0,388,388);x=(p[:,ai]>.5).mean(1)*100;y=leg[:,li].mean(1)*100
- if len(np.unique(x[:6]))<6:duplicates+=1;outside+=1;continue
- order=np.argsort(x[:6]);xx=x[:6][order];yy=y[:6][order];d=y[6:]-np.interp(x[6:],xx,yy);cm=d.reshape(5,2).mean(1);clipped.append(float(cm.mean()))
+ xx=np.unique(x[:6]);yy=np.array([y[:6][x[:6]==v].mean()for v in xx]);duplicates+=len(xx)<6
+ d=y[6:]-np.interp(x[6:],xx,yy);cm=d.reshape(5,2).mean(1);pick=rng.integers(0,5,5);clipped.append(float(cm[pick].mean()))
  if np.any(x[6:]<xx[0])or np.any(x[6:]>xx[-1]):outside+=1;continue
- strict.append(float(cm.mean()));seeded.append(float(cm[rng.integers(0,5,5)].mean()))
+ strict.append(float(cm.mean()));seeded.append(float(cm[pick].mean()))
 def interval(v):return dict(n=len(v),ci95=np.quantile(v,[.025,.975]).tolist()if v else None)
-joint=dict(reps=10000,outside_or_duplicate=outside,duplicate_axis=duplicates,fixed5_conditional=interval(strict),seed_cluster_conditional=interval(seeded),boundary_clipped_diagnostic=interval(clipped),warning='First two omit non-interpolable draws; endpoint clipping is a diagnostic. None is proof of equivalence.')
+joint=dict(reps=10000,outside_interpolation_range=outside,duplicate_axis_draws_pooled=duplicates,bootstrap_seed=2026110602,duplicate_axis_policy="average legal-axis values at tied attack-axis coordinates, exactly as priorround2",fixed5_conditional=interval(strict),seed_cluster_conditional=interval(seeded),boundary_clipped_diagnostic=interval(clipped),warning='First two omit non-interpolable draws; endpoint clipping is a diagnostic. None is proof of equivalence.')
 cloud=[]
 for seed in range(8):
  jp='results/hfjudge/JUDGE_HF_innet_window7_old_curve_a1.0'if seed==0 else f'results/hfjudge/JUDGE_HF_innet_window7_old_seed_s{seed}';lp='results/audit/LEGALVALB_old_a1.0.json'if seed==0 else f'results/audit/LEGALVALB_oldseed_s{seed}.json';d=flags(jp);l=read(lp);cloud.append(dict(seed=seed,asr_pct=100*sum(z['p_yes']>.5 for z in d['items'].values())/70,or_new=sum(new_rule(l[k]['text'])for k in legalids),n_legal=388,judge_file=jp,judge_sha256=sha(B/jp),legal_file=lp,legal_sha256=sha(B/lp)))

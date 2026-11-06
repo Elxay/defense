@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-06T15:06:32.511208+00:00",
+  "public_files": {
+    "docs/270_OVERNIGHT_FINAL_REPORT.md": "067d7ed0387c7bff48bbd9c3a377227612415b3d60f3bd383fc66128872b5cba",
+    "docs/PREREG_LOG.txt": "117401561f146b4b73445ecbd24f1e5965b50f6a6fef8ccf5947310b50ea5270",
+    "tools/handoff_20261106/round7_analyze_window.py": "3d72e647bba2ebde4ad6d14b0aea8877212da20ec2e53b658d7e827a89bc8725",
+    "tools/handoff_20261106/round7_final_report.py": "2a6218e1a8b5fd6deeb50bb648a81b3a8955c1ced8a042203be5beacdedfc8b1"
+  },
+  "final_validation": {
+    "utc": "2026-11-06T15:06:32.504906+00:00",
+    "passed": true,
+    "checks": [
+      "single controller completed both generated300 jobs before GPU models",
+      "HF hardgate20:20midrange, maxdelta0",
+      "980 old-node/innet probabilities and labels identical",
+      "Guard48 fresh/cache maxdelta0, paired24 selected before scoring",
+      "2/4 directions both mean/SD and5x4matrix retained; frozen#7 false",
+      "docs2505x600 output provenance, fixed292 and5/5criterion fromfiles",
+      "228 full-read scopes/SHAs and52 benign review items",
+      "exact prior joint-bootstrap seed/tie policy restored for backend isolation",
+      "frozen#7/#8 hashes and frozen-directory readonly preserved",
+      "all new scripts parse; public diffs contain docs/scripts/hash manifests only"
+    ],
+    "limits": "No independent human calibration; target random cross-node generation replication not added; intervention training not started"
+  },
+  "private_artifacts": {
+    "results/audit/handoff_round7/final_status_snapshot.json": "8829dfad3e475b4cd732f52380c5f01fd9ab1cd575e2b6035ec89a8fda7c646d",
+    "results/audit/handoff_round7/old_backend_comparison980.json": "739af91dbab1782acdef02feb914ce5ccf309f9a1f85865e7b9a020310fd492b",
+    "results/audit/handoff_round7/window_frontier_results.json": "2bb29d58ba6e6a6b4e0d795048aa37f595081855e5d15ba5fdc0156d5f098260",
+    "results/audit/handoff_round7/guard_paired24.json": "576703c1db2c733702c7d7049196bcccbcececeaccb7c0f65b9a6d83cc26a0b8",
+    "results/audit/handoff_round7/final_validation.json": "003ad242e28fba3e08dbac6735056fedbb9d8e69ae24c403f6b30a7fe3dd1bdc",
+    "results/audit/handoff_round7/before_joint_algorithm_alignment.json": "bc175c2cd5bed321af1bc72e53fd7dbe86110ee04b4728f14f7f968f9123763c"
+  },
+  "policy": "No raw attack/target outputs; only docs/scripts/hash manifests."
+}
