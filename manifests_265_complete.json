@@ -1,0 +1,11 @@
+{
+  "document": "265_BENIGN_SEEDS_RESULTS.md",
+  "document_sha256": "ae673c5a80223fd71eeea1cd44ec4bec5b273d7fc913e0cef67d0c2625c39af7",
+  "source_hashes": {
+    "results/audit/WJB_BENIGN246_old_s3.json": "e4e57cdc41f0e2d71cdab2cc068e4f8d2ca6a512773f68ee0bf47f0526daa171",
+    "results/audit/WJB_BENIGN246_old_s4.json": "0edb36d26439e16c5d5ea7323676e9bb66a2947107fe416b5f29e0878728b47e",
+    "results/audit/WJB_BENIGN246_old_s5.json": "a9586008dd1129750b051e0ce8d3229e0c0127f642da61019f5d0360dc5bd36b",
+    "results/audit/WJB_BENIGN246_old_s6.json": "6ee5cbf7eb97fa262cc12ab41ad882b0e487927faaa2fc05a7817e3162b8c2db",
+    "results/audit/WJB_BENIGN246_old_s7.json": "14525d07c7fc7eff7f5b2668a8a7d81e82c318209615319e9f6df15b325999bb"
+  }
+}
