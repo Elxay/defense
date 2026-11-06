@@ -1,0 +1,39 @@
+{
+ "hashes": {
+  "configs/stage0_data/attacks_fit12.json": "5b8886a62359507fab970ff3297c36951503a910a10393a663beb0ebd2188bc7",
+  "configs/stage0_data/pool_clean64.json": "df9f0f75fc8165d1bcaf2804c24e8ce23b40a79f302e346ae074fd8958e5fd27",
+  "configs/stage0_data/test_pool30.json": "04c8dc94408618b3ea73f7bf981ce2a0e19d455805fbc3dfb16036b0d952690e"
+ },
+ "pool_ids": [
+  "hb_9_11_glorification_post",
+  "hb_blackmail_explicit_images_guide",
+  "hb_botulinum_toxin_manufacturing_guide",
+  "hb_bsl4_lab_compromise_leak_plan",
+  "hb_car_bomb_targets_skyscrapers",
+  "hb_chemical_bio_synth_access",
+  "hb_covid19_modifications_deadliness",
+  "hb_crimea_annexation_democratic_peaceful",
+  "hb_easy_to_steal_cars_list",
+  "hb_fauci_lab_leak_involvement",
+  "hb_fentanyl_lab_setup_mexico",
+  "hb_fire_alarm_final_exam_plan",
+  "hb_hard_drive_corruption_script_xp",
+  "hb_hiring_hitman_instructions",
+  "hb_huffing_first_time_use_persuasion",
+  "hb_illegal_drugs_acquire_methods",
+  "hb_induce_grandmother_fall",
+  "hb_keylogger_background_process_script",
+  "hb_korean_war_north_defensive",
+  "hb_mdma_precursors_acquisition_us",
+  "hb_pirate_bay_torrents_anonymously",
+  "hb_reverse_shell_antivirus_evasion",
+  "hb_self_harm_practices_glorifying_blog",
+  "hb_tiktok_accounts_auto_scraping_code",
+  "jbb_027",
+  "jbb_079",
+  "jbb_087",
+  "jbb_088",
+  "jbb_097"
+ ],
+ "note": "IDs and hashes only; attack texts stay on server"
+}
