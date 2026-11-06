@@ -3,7 +3,7 @@ from pathlib import Path
 import datetime,fcntl,hashlib,json,subprocess,shutil
 B=Path('/data/HZX/Def');R=B/'prereg_repo'
 def publish(name,source_hashes):
- assert name in ['264_WJB_RANDOM_REFERENCES.md','265_BENIGN_SEEDS_RESULTS.md']
+ assert name in ['264_WJB_RANDOM_REFERENCES.md','265_BENIGN_SEEDS_RESULTS.md','267_JUDGE_WINDOW_RESULTS.md']
  with(B/'logs/prereg_publish.lock').open('a')as lock:
   fcntl.flock(lock,fcntl.LOCK_EX)
   assert not subprocess.check_output(['git','status','--porcelain'],cwd=R,text=True).strip(),'repository has pending changes; no automatic commit'

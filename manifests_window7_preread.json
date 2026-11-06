@@ -1,0 +1,40 @@
+{
+  "utc": "2026-11-06T14:30:17.449588+00:00",
+  "files": {
+    "docs/252_STYLE_HARD_NEGATIVE_INTERVENTION.md": "6f92154e654e2d323b92d3ac2fcafcd3f00b1e0b2bab8c180ad9d29113e3308d",
+    "docs/250_ANALYSIS_SPEC_BEFORE_COMPLETE_READ.md": "19a45fbbf683e56bf46f71aa9dfee2ee20aaca2b6d60121fc61f5191ae63fe17",
+    "docs/268_OVERNIGHT_WINDOW_SPEC.md": "6a4f55011ad2f90433504582fc6107e4644f80fc032e9ff91e81c581e61b8082",
+    "docs/PREREG_LOG.txt": "d370059e4c6e1c2ca4eeaa9b3f05a075223a655f73c2d69501d6d491bf6437c0",
+    "tools/handoff_20261106/round7_guard_pair.py": "ac572d30d4979b6fcfcb126050362ce3f1a27987443a9e04f41b2e5e314f02a5",
+    "tools/handoff_20261106/round7_hf_window.py": "2d4f728283bd28677e0539233d19e53c569f87a258ad221e6623fda282be1caa",
+    "tools/handoff_20261106/round7_analyze_window.py": "d2a124665cf2127498d7afbdbaba5fb714f4196aa3fe536ccd6394f091eaf682",
+    "tools/handoff_20261106/round6_judge_randoms.py": "502894d898f1a623bc1a41af7a48d45bc72c3aeb83227805b7f8365b6374b9ee",
+    "tools/handoff_20261106/round6_analyze_random_refs.py": "a158f90a1d5d063dbca7d89d66666f15148999f117eaddcb8f9a90e3ecba6b19",
+    "tools/handoff_20261106/round6_analyze_benign.py": "9147618a87ba2bb7e577e6de2a389026fb2cf78b48686101113afd11ecabb6e6",
+    "tools/handoff_20261106/round6_publish_summary.py": "43ae94d8bbdda0c2fd3139b50ef50bb0529248644b2e26d6ab3793bf8e71a051"
+  },
+  "private_job_manifest_sha256": "bc6dd97751ec3aef5606aec55fabc183d83befc2409d75bd80450027f67a3cab",
+  "frozen_random_vectors": {
+    "rand2": {
+      "random_seed": 2,
+      "frozen_file": "results/frozen_vectors/wjb_rand2_addendum8.npy",
+      "npy_file_sha256": "0ecf1532beb8ecbba2f4d8b4c753db2fb248f0cad94b1d78057faa9545df8c2f",
+      "array_bytes_sha256": "ff5e90cc39c4af98c209d5ff4e89c414bdb9fea6b39163c1b0e86ab42c2b56c6",
+      "norm": 5.210000038146973,
+      "generation_host": "innet",
+      "physical_gpu": 2,
+      "method": "numpy.default_rng(seed).normal(4096).astype(float32), normalize to5.21"
+    },
+    "rand3": {
+      "random_seed": 3,
+      "frozen_file": "results/frozen_vectors/wjb_rand3_addendum8.npy",
+      "npy_file_sha256": "f4dc996498854dee76fb38c5372f7871840b9f0a69ca568fc6e484664d971b59",
+      "array_bytes_sha256": "86d98c96c1b7ada1f68df647f756121930005849b2ade102133dc7d2213cc6c8",
+      "norm": 5.210000514984131,
+      "generation_host": "innet",
+      "physical_gpu": 3,
+      "method": "numpy.default_rng(seed).normal(4096).astype(float32), normalize to5.21"
+    }
+  },
+  "no_raw_attack_or_generated_text": true
+}
