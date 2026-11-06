@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-06T18:02:20.106774+00:00",
+  "public_code": {
+    "tools/handoff_20261106/round9_pipeline.py": "ca49d79146ecf919b3967c6b42510f43fe0f06599f2458d693bef1ea98a37b4c",
+    "tools/handoff_20261106/round9_judge.py": "9d446f2b35e2d6a7f7a51c20d16207a0d7239e17b416678033899066fc30e91c",
+    "tools/handoff_20261106/round9_repeat_controller.py": "e59fece5cf16edb8f0882b828b223bab49ba1be725a121e16be804caaa9c63e8",
+    "tools/handoff_20261106/round9_sensitivity_neighbors.py": "8ab4014bf885ecd2d0eb5cd8ec51e756ab94da845a16033fc60b4f7983081ea2",
+    "tools/handoff_20261106/round9_generate.py": "7a43a090f1cde32d3cf9cc35b937b5ab71da16de0fafedc59a18d01f4a5e74ae",
+    "tools/handoff_20261106/round9_target_completion_rubric.txt": "826d5bb117f1cfe50670909bb68495f618deac9421e19bf3d6dedf910aded0a9",
+    "tools/handoff_20261106/round9_train.py": "17f60b2318f5b01dec2057d8b91d9843a22d6ce6925d296142b6a11a4becfaf2",
+    "tools/handoff_20261106/round9_filter_targets.py": "452f837b8e3cd51024a08e97e6a4aa8831628fec6a869b907e3fe0dc9b65e7a2",
+    "tools/handoff_20261106/round9_cpu_details.py": "20f6de5d30060516667237a2eb4b74403c35ac0fc9fffcf3e86eae15f928a0b4",
+    "tools/handoff_20261106/round9_analyze.py": "82d60c3aa85faebb8efe441939e3ca15ba508b2e2be7e1055e7b811b18366559",
+    "tools/handoff_20261106/node01_launch_round9.sh": "0b56e5f677162fa43fa474a26c482af896a52fdf98f6f860e2823c8ec475ff29"
+  },
+  "addendum2_sha256": "493094393b6f2294498c3cf01a449f2b7557f23784530f9e8e002066f56e1896",
+  "private_targets_sha256": "fb944571e6ee6c21fc5eb47d688c7f9b6fa77e8e8861a7c5fa3173517071340e",
+  "private_review_sha256": "14da7b6336424c79fd91f1cebb6189d447b43f2bf3e6a26ed8f0b13fa2dcafae",
+  "note": "No raw prompts, model outputs or training caches included."
+}
