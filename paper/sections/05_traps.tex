@@ -26,3 +26,6 @@ Two subsequent same-cache, same-initialization, same-script, same-physical-card 
 
 \subsection{Missing generation metadata}
 The initial official WildJailbreak alpha-zero generation saved decoded text but omitted raw generated-token counts and EOS. Exact cap-hit rates cannot be reconstructed from those records. We report a retokenized-length proxy and a separate twenty-row zero-injection path check with complete metadata.
+
+\subsection{Restart provenance}
+A third-arm grid worker restarted on the same node, seed and physical card during execution. The log preserves the new process start, but omits the previous process's exit cause and a pre-restart file-hash snapshot. Cache-signature checks and skipping saved entries support resumability, while independent byte-preservation evidence for that restart is unavailable. Future search restarts record UTC times, attempt numbers, row counts and before/after file hashes.

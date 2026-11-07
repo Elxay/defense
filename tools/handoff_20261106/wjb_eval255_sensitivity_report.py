@@ -6,7 +6,7 @@ from transformers import AutoTokenizer
 
 from pair500_generate import digest, load, write
 from wjb_eval255_report import cluster_interval
-from wjb_eval255_run import CFG, EVAL, OUT, PLAN, ROOT
+from wjb_eval255_run import CFG, EVAL, OUT, PLAN, ROOT, baseline_source, baseline_text
 
 
 def summarize(values):
@@ -55,18 +55,20 @@ def baseline_generation():
     sys.path.insert(0, str(ROOT / "src"))
     from judge.refusal import new_rule
     plan = load(PLAN)
-    files = [OUT / "public_wjb_a0.private" / f"{k}.json" for k in plan["ids"]]
+    files = [baseline_source(k) for k in plan["ids"]]
     available = [p for p in files if p.exists()]
     assert len(available) == 2000, "Generation summary requires all 2000 rows"
     counts = collections.Counter()
     for path in available:
         row = load(path)
-        assert row["plan_sha256"] == digest(PLAN)
-        text = row["text"]
+        if "plan_sha256" in row:
+            assert row["plan_sha256"] == digest(PLAN)
+        text = baseline_text(row)
         counts["v2_refused"] += new_rule(text)
         counts["empty_after_strip"] += not text.strip()
         counts["decoded_retokenized_at_least_2390"] += len(tok.encode(text, add_special_tokens=False)) >= 2390
-    return {"planned": 2000, "generated": len(available), **dict(counts),
+    marker = EVAL / "alpha0_active_baseline.json"
+    return {"baseline_lane": load(marker)["lane"] if marker.exists() else "native_precheck", "planned": 2000, "generated": len(available), **dict(counts),
             "v2_refusal_rate": counts["v2_refused"] / len(available),
             "exact_generated_token_cap": None,
             "cap_limitation": "Historical generator saved decoded text but omitted raw token count and EOS. Re-tokenized length is a proxy."}

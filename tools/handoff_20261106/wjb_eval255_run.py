@@ -56,6 +56,41 @@ def vector_for(spec):
     return vector
 
 
+def baseline_source(key):
+    marker = EVAL / "alpha0_active_baseline.json"
+    regenerated = marker.exists() and load(marker)["lane"] == "zero_regenerated"
+    return ((EVAL / "harmful.private/alpha0/wildjailbreak_harmful" / f"{key}.json")
+            if regenerated else (OUT / "public_wjb_a0.private" / f"{key}.json"))
+
+
+def baseline_text(record):
+    return record["text"] if "text" in record else record["items"][0]["text"]
+
+
+def activate_baseline():
+    plan = load(PLAN)
+    check_path = EVAL / "zero20_check.json"
+    check = load(check_path)
+    lane = "native" if check["byte_identical"] == 20 else "zero_regenerated"
+    sources = []
+    for key in plan["ids"]:
+        p = ((OUT / "public_wjb_a0.private" / f"{key}.json") if lane == "native" else
+             (EVAL / "harmful.private/alpha0/wildjailbreak_harmful" / f"{key}.json"))
+        record = load(p)
+        if lane == "native":
+            assert record["plan_sha256"] == digest(PLAN)
+        else:
+            assert record["signature"]["condition"] == "alpha0"
+            assert record["signature"]["config_sha256"] == digest(CFG)
+            assert record["generation"]["injection_count"] == 1
+            assert record["generation"]["rho_runtime"] == 0
+        sources.append({"id": key, "sha256": digest(p)})
+    manifest = EVAL / "alpha0_active_files.json"
+    write(manifest, sources)
+    write(EVAL / "alpha0_active_baseline.json", {"lane": lane, "n": len(sources),
+          "zero20_sha256": digest(check_path), "manifest_sha256": digest(manifest),
+          "superseded_native": lane != "native"})
+
 def generate(kind, name, shard, config):
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -74,9 +109,8 @@ def generate(kind, name, shard, config):
         plan = load(PLAN)
         data = harmful_rows(plan)
         datasets = [("wildjailbreak_harmful", [(k, data[k]) for k in plan["ids"][shard::2]])]
-    if kind == "harmful":
-        check = load(EVAL / "zero20_check.json")
-        assert check["n"] == check["byte_identical"] == 20
+    if kind == "harmful" and name != "alpha0":
+        assert load(EVAL / "alpha0_active_baseline.json")["n"] == 2000
     start = time.monotonic()
     n_new = 0
     total = sum(len(rows) for _, rows in datasets) if kind == "harmful" else sum(
@@ -180,15 +214,14 @@ def score(names, config, sensitivity=False):
                 return
             key = row["id"]
             if name == "alpha0":
-                src = OUT / "public_wjb_a0.private" / f"{key}.json"
+                src = baseline_source(key)
             else:
                 src = EVAL / "harmful.private" / name / "wildjailbreak_harmful" / f"{key}.json"
             if not src.exists():
                 continue
             generation = load(src)
             if name == "alpha0":
-                assert generation["plan_sha256"] == digest(PLAN)
-                text = generation["text"]
+                text = baseline_text(generation)
             else:
                 text = generation["items"][0]["text"]
             kinds = ("top1", "top2", "random") if sensitivity else ("top1",)
@@ -292,12 +325,12 @@ def zero_check(config):
               for p in (False, True) for t in (False, True)}
     summary = {"n": 20, "byte_identical": sum(r["byte_identical"] for r in rows), "cap_proxy_2x2": matrix, "rows": rows}
     write(EVAL / "zero20_check.json", summary)
-    assert summary["byte_identical"] == 20, "Zero-path byte gate failed"
+    # A mismatch selects full baseline regeneration in the supervisor.
 
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("stage", choices=("public", "harmful", "score", "guard-public", "sensitivity", "zero-check"))
+    p.add_argument("stage", choices=("public", "harmful", "score", "guard-public", "sensitivity", "zero-check", "activate-baseline"))
     p.add_argument("conditions", nargs="+")
     p.add_argument("--shard", type=int, choices=(0, 1), default=0)
     args = p.parse_args()
@@ -307,6 +340,8 @@ def main():
     assert digest(PROTOCOL) == "a12cf4a86ce1d80deb6b1ee89533ba4b9410215574ca1a21d8cafa35e984b5df"
     if args.stage == "score":
         score(args.conditions, config)
+    elif args.stage == "activate-baseline":
+        activate_baseline()
     elif args.stage == "zero-check":
         zero_check(config)
     elif args.stage == "sensitivity":

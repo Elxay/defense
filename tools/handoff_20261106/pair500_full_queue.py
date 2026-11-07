@@ -46,6 +46,7 @@ seconds=$((deadline - $(date -u +%s)))
 if [ "$seconds" -le 0 ]; then exit 124; fi
 export DEVICE=cuda:1 CUDA_VISIBLE_DEVICES=1,2
 export HF_HUB_OFFLINE=1 USE_TF=0 USE_FLAX=0 TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 target=/data/ray/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659
 if [ ! -f results/audit/pair500/full_start_utc ]; then
   date -u +%Y-%m-%dT%H:%M:%SZ > results/audit/pair500/full_start_utc
