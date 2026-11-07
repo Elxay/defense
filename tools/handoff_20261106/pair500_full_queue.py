@@ -26,54 +26,21 @@ def pulse(phase, **extra):
     })
 
 
-def prior_node_status():
-    paths = ["handoff_round11/noise_B_launcher_live.json",
-             "handoff_round12/same_alpha_s3_launcher_live.json",
-             "handoff_round12/same_alpha_s5_launcher_live.json"]
-    code = (
-        "from pathlib import Path; import json,sys; b=Path('/home/dell/Def/results/audit');"
-        "print(json.dumps({p:json.loads((b/p).read_text())['phase']"
-        " for p in sys.argv[1:] if (b/p).exists()}))"
-    )
-    result = subprocess.run(
-        ["ssh", "-o", "ConnectTimeout=10", "node01", "python3", "-", *paths],
-        input=code, text=True, capture_output=True, check=True, timeout=20,
-    )
-    return json.loads(result.stdout), len(paths)
-
-
-def wait_previous(deadline):
-    plain_path = ROOT / "results/audit/handoff_round11/plain_pipeline_live.json"
-    while now() < deadline:
-        node, required = prior_node_status()
-        plain = load(plain_path)["phase"]
-        if plain == "failed" or "failed" in node.values():
-            raise RuntimeError("A preceding evaluation needs recovery before the PAIR-style lane")
-        if plain in {"complete", "plain_incomparable"} and len(node) == required and all(v == "complete" for v in node.values()):
-            return True
-        pulse("waiting_existing_evaluations", plain_phase=plain, node_phases=node,
-              stop_utc=deadline.isoformat())
-        time.sleep(45)
-    return False
-
-
 def run_node(deadline):
     epoch = int(deadline.timestamp())
     script = f"deadline={epoch}\n" + r'''
 set -euo pipefail
 cd /home/dell/Def
 source tools/handoff_20261106/node01_launch_round9.sh
-exec 6>>logs/idle_gpu0.lock
 exec 8>>logs/idle_gpu1.lock
 exec 7>>logs/idle_gpu2.lock
 while [ "$(date -u +%s)" -lt "$deadline" ]; do
-  if flock -n 6 && flock -n 8 && flock -n 7 && wait_gpu cuda:0 && wait_gpu cuda:1 && wait_gpu cuda:2; then
+  if flock -n 8 && flock -n 7 && wait_gpu cuda:1 && wait_gpu cuda:2; then
     break
   fi
   flock -u 7
   flock -u 8
-  flock -u 6
-  sleep 30
+  sleep 1
 done
 seconds=$((deadline - $(date -u +%s)))
 if [ "$seconds" -le 0 ]; then exit 124; fi
@@ -81,7 +48,7 @@ export DEVICE=cuda:1 CUDA_VISIBLE_DEVICES=1,2
 export HF_HUB_OFFLINE=1 USE_TF=0 USE_FLAX=0 TOKENIZERS_PARALLELISM=false
 target=/data/ray/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659
 date -u +%Y-%m-%dT%H:%M:%SZ > results/audit/pair500/full_start_utc
-launch_job timeout --foreground --kill-after=20s "$seconds" /data/ray/env/bin/python -u tools/handoff_20261106/pair500_generate.py --root /home/dell/Def --attacker /data/ray/pair500_models/qwen3_8b --target "$target" --limit 500
+launch_job timeout --foreground --kill-after=20s "$seconds" /data/ray/env/bin/python -u tools/handoff_20261106/pair500_search_telemetry.py --root /home/dell/Def --attacker /data/ray/pair500_models/qwen3_8b --target "$target" --limit 500
 '''
     pulse("node_waiting_leases_or_running", stop_utc=deadline.isoformat())
     with (ROOT / "logs/pair500_full_node.log").open("ab") as log:
@@ -98,6 +65,9 @@ def collect(code):
     pulse("syncing_completed_prompt_prefix")
     local = OUT / "generations.private"
     subprocess.run(["rsync", "-a", f"node01:{REMOTE}/{PAIR}/generations.private/", str(local) + "/"], check=True)
+    telemetry = OUT / "search_cap.private"
+    telemetry.mkdir(exist_ok=True)
+    subprocess.run(["rsync", "-a", f"node01:{REMOTE}/{PAIR}/search_cap.private/", str(telemetry) + "/"], check=True)
     order = load(OUT / "row_audit.json")["order"]
     config_sha = digest(OUT / "config.json")
     records = []
@@ -119,9 +89,30 @@ def collect(code):
         "planned_rows": 500, "layer_n": counts, "exit_status": code,
         "scope": "complete census" if len(records) == 500 else "fixed stratified pilot plus randomized prefix",
     })
+    from pair500_search_telemetry import cap_summary
+    cap_path = OUT / "search_cap_summary.json"
+    write(cap_path, cap_summary(OUT, records))
     with (ROOT / "docs/PREREG_LOG.txt").open("a") as f:
         f.write(f"{now().isoformat()} PAIR500_PROMPTS_FROZEN n={len(records)}/500 layer_n={counts} SHA={digest(path)} before canonical generation.\n")
     pulse("prompts_frozen", rows=len(records), layer_n=counts, snapshot_sha256=digest(path))
+
+
+def compare_alpha0():
+    snapshot = load(OUT / "frozen_prompt_snapshot.json")
+    rows = []
+    for entry in snapshot["rows"][:50]:
+        key = entry["id"]
+        search = load(OUT / "generations.private" / f"{key}.json")
+        canonical = load(OUT / "canonical254/generation.private/alpha0" / f"{key}.json")
+        assert hashlib.sha256(search["best"]["prompt"].encode()).hexdigest() == entry["prompt_sha256"]
+        assert canonical["id"] == key and canonical["signature"]["snapshot_sha256"] == digest(OUT / "frozen_prompt_snapshot.json")
+        a = search["alpha0"].encode("utf-8")
+        b = canonical["result"]["text"].encode("utf-8")
+        rows.append({"id": key, "byte_identical": a == b, "node01_bytes": len(a), "innet_bytes": len(b),
+                     "node01_sha256": hashlib.sha256(a).hexdigest(), "innet_sha256": hashlib.sha256(b).hexdigest()})
+    write(OUT / "alpha0_first50_cross_node.json", {"utc": now().isoformat(), "n": len(rows),
+          "identical": sum(row["byte_identical"] for row in rows), "rows": rows,
+          "paths": ["node01 HF native greedy", "innet HF canonical zero injection hook"]})
 
 
 def main():
@@ -133,12 +124,13 @@ def main():
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         try:
             if not (OUT / "frozen_prompt_snapshot.json").exists():
-                code = run_node(deadline) if wait_previous(deadline) else 124
+                code = run_node(deadline)
                 collect(code)
             pulse("canonical_innet_evaluation_queued", rows=len(load(OUT / "frozen_prompt_snapshot.json")["rows"]))
             with (ROOT / "logs/pair500_canonical_eval.log").open("ab") as log:
                 subprocess.run(["bash", "tools/handoff_20261106/pair500_eval254_queue.sh"],
                                cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, check=True)
+            compare_alpha0()
             pulse("complete", rows=len(load(OUT / "frozen_prompt_snapshot.json")["rows"]))
         except Exception as exc:
             pulse("failed", error=str(exc))

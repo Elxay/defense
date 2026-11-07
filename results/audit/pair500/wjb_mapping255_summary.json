@@ -1,0 +1,62 @@
+{
+  "rows": 2000,
+  "behavior_ids": 200,
+  "behavior_groups": 200,
+  "low_similarity": 148,
+  "low_margin": 270,
+  "uncertain_union": 311,
+  "historical_group_used": 1435,
+  "group_flag_counts": {
+    "val70": 562,
+    "train_strat97": 764,
+    "dev22": 30,
+    "legacy_additional": 51,
+    "fit12": 38,
+    "legacy46": 37
+  },
+  "human_review_n": 0,
+  "human_review_requested_n": 30,
+  "review_sample_ids": [
+    "1366",
+    "1563",
+    "988",
+    "1114",
+    "1864",
+    "280",
+    "516",
+    "1708",
+    "1455",
+    "849",
+    "709",
+    "655",
+    "1619",
+    "356",
+    "1351",
+    "847",
+    "342",
+    "518",
+    "646",
+    "1030",
+    "363",
+    "789",
+    "1822",
+    "592",
+    "888",
+    "552",
+    "1337",
+    "693",
+    "2113",
+    "800"
+  ],
+  "mapping_sha256": "2bd530b849dff02f3136a70b0bc1755fd218db100274a77981cc8ede889f02f5",
+  "xstest": {
+    "official_source": "https://raw.githubusercontent.com/paul-rottger/xstest/main/xstest_prompts.csv",
+    "official_sha256": "11783fb294ed017473ee53c207d71f2161c7672c8d0b037501e78387f801cb5a",
+    "local_inventory_sha256": "713c5817a9fcd8d23e73276bfc19b3fb0493002dd07ba9e4f349427b3ac250af",
+    "same_order_prompt_and_label": true,
+    "counts": {
+      "safe": 250,
+      "unsafe": 200
+    }
+  }
+}
