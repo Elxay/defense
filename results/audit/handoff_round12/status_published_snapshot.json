@@ -1,0 +1,143 @@
+{
+  "date_u": "2026-11-07T04:32:57Z",
+  "jst": "2026-11-07T13:32:57+09:00",
+  "rows": [
+    {
+      "job": "original_s3",
+      "host": "node01",
+      "gpu": 0,
+      "pid": 1888265,
+      "phase": "complete",
+      "progress": "1800/1800",
+      "seconds_per_item": null,
+      "heartbeat_age_s": 536.1,
+      "heartbeat_utc": "2026-11-07T04:24:00.902910+00:00"
+    },
+    {
+      "job": "original_s4",
+      "host": "node01",
+      "gpu": 1,
+      "pid": 1837851,
+      "phase": "pairs600",
+      "progress": "367/600",
+      "seconds_per_item": 6.822734181653728,
+      "heartbeat_age_s": 0.3,
+      "heartbeat_utc": "2026-11-07T04:32:56.689968+00:00"
+    },
+    {
+      "job": "original_s5",
+      "host": "node01",
+      "gpu": 2,
+      "pid": 1837855,
+      "phase": "pairs600",
+      "progress": "427/600",
+      "seconds_per_item": 6.964633973725947,
+      "heartbeat_age_s": 1.0,
+      "heartbeat_utc": "2026-11-07T04:32:55.963312+00:00"
+    },
+    {
+      "job": "original_s6",
+      "host": "innet",
+      "gpu": 2,
+      "pid": 2303482,
+      "phase": "complete",
+      "progress": "1800/1800",
+      "seconds_per_item": null,
+      "heartbeat_age_s": 9502.2,
+      "heartbeat_utc": "2026-11-07T01:54:34.750001+00:00"
+    },
+    {
+      "job": "original_s7",
+      "host": "innet",
+      "gpu": 3,
+      "pid": 2241120,
+      "phase": "complete",
+      "progress": "1800/1800",
+      "seconds_per_item": null,
+      "heartbeat_age_s": 7799.9,
+      "heartbeat_utc": "2026-11-07T02:22:57.113118+00:00"
+    },
+    {
+      "job": "same_alpha_s3",
+      "host": "node01",
+      "gpu": 0,
+      "pid": 1886489,
+      "phase": "waiting_seed3_B_priority",
+      "progress": "0/600",
+      "seconds_per_item": null,
+      "heartbeat_age_s": 7.3,
+      "heartbeat_utc": "2026-11-07T04:32:49.680796+00:00"
+    },
+    {
+      "job": "same_alpha_s5",
+      "host": "node01",
+      "gpu": 2,
+      "pid": 1886490,
+      "phase": "waiting_original_generation",
+      "progress": "0/600",
+      "seconds_per_item": null,
+      "heartbeat_age_s": 7.3,
+      "heartbeat_utc": "2026-11-07T04:32:49.700158+00:00"
+    },
+    {
+      "job": "noise_B",
+      "host": "node01",
+      "gpu": 0,
+      "pid": 1888514,
+      "phase": "wjb300",
+      "progress": "26/300",
+      "seconds_per_item": 19.635969098773785,
+      "heartbeat_age_s": 3.1,
+      "heartbeat_utc": "2026-11-07T04:32:53.884622+00:00"
+    },
+    {
+      "job": "legal400",
+      "host": "innet",
+      "gpu": 2,
+      "pid": 2467154,
+      "phase": "complete",
+      "progress": "8/8",
+      "seconds_per_item": null,
+      "heartbeat_age_s": 831.8,
+      "heartbeat_utc": "2026-11-07T04:19:05.220297+00:00"
+    },
+    {
+      "job": "original_controller",
+      "host": "innet",
+      "gpu": "CPU",
+      "pid": 2224284,
+      "phase": "generating_full",
+      "progress": null,
+      "seconds_per_item": null,
+      "heartbeat_age_s": 7.2,
+      "heartbeat_utc": "2026-11-07T04:32:49.779053+00:00"
+    },
+    {
+      "job": "plain_controller",
+      "host": "innet",
+      "gpu": "CPU",
+      "pid": 2484943,
+      "phase": "waiting_original_2arm_before_plain_grid",
+      "progress": "5/5 vectors done; grid 0",
+      "seconds_per_item": null,
+      "heartbeat_age_s": 6.0,
+      "heartbeat_utc": "2026-11-07T04:32:51.039286+00:00"
+    },
+    {
+      "job": "same_alpha_analysis",
+      "host": "innet",
+      "gpu": "CPU",
+      "pid": 2481325,
+      "phase": "waiting_both600_and_original_read",
+      "progress": null,
+      "seconds_per_item": null,
+      "heartbeat_age_s": 27.6,
+      "heartbeat_utc": "2026-11-07T04:32:29.399775+00:00"
+    }
+  ],
+  "gpu_mib": {
+    "node01": "0, 16756\n1, 16341\n2, 16409",
+    "innet": "0, 16\n1, 11441\n2, 15\n3, 15"
+  },
+  "original_effect_file_exists": false
+}

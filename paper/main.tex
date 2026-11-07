@@ -4,12 +4,12 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{microtype,inconsolata,graphicx,booktabs,amsmath,float}
-\title{Evaluating Safety Steering Beyond Attack Success:\\Random Directions, Benign Wrappers, and Measurement Instability}
+\title{Auditing Learned Single-Position Additive Steering at Prefill:\\Random Directions, Benign Wrappers, and Measurement Instability}
 \author{Anonymous ACL submission}
 \begin{document}
 \maketitle
 \begin{abstract}
-A lower automated attack success rate does not by itself establish a better safety intervention. We audit activation steering with norm-matched random directions, paired benign requests with and without adversarial wrappers, and zero-training prompt and output-filter baselines. On a success-selected set of 70 attack prompts, random perturbations already reduce judge attack success by 4--21 percentage points. Learned vectors are substantially stronger than this reference, but benign-wrapper refusal and several measurement choices limit the interpretation of that gain. Our audits expose baseline-set mismatches, output truncation, classifier-position and threshold errors, and label changes between highly similar retrained vectors. A five-seed paired benign comparison reproduces a positive wrapper-associated refusal gap on a second prompt sample. We report these as evaluation findings rather than a new defense, distinguish operational model labels from calibrated refusal rates, and preserve unsuccessful frozen criteria. Data-composition interventions are running and are not treated as completed evidence in this draft.
+We audit learned additive steering at a single position, the final prompt token during prefill, in Llama-3.1-8B-Instruct. Qwen is used only for zero-training baselines. On 70 attacks selected for prior success, norm-matched untrained directions reduce judge attack success rate (ASR) by 4--21 percentage points (pp). On 300 WildJailbreak attacks sampled without conditioning on baseline success, four norm-matched random directions change judge ASR by $-4$ to $+1$ pp, while five learned vectors reduce it by 11--20 pp. All five learned ASRs are below all four random ASRs (exploratory exact unit-level permutation, $p=0.0159$). A frozen 10-pp advantage criterion was met by 3/5 seeds under its specified two-direction reference, short of the required 4/5; the later four-direction comparison yields 5/5 and does not revise that decision. Paired benign evaluation reproduces higher refusal counts for wrapped requests on a second prompt sample. We document baseline mismatches, truncation, classifier-position and threshold errors in our own pipeline, and label changes between nearly identical retrained vectors. These results distinguish changes in judge ASR and operational refusal labels from evidence of calibrated safety or utility.
 \end{abstract}
 \input{sections/01_introduction}
 \input{sections/02_related_work}

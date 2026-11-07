@@ -11,6 +11,14 @@ if a.phase=='full':
   status=B/'results/audit/handoff_round11/effect_read_gate_live.json';tmp=status.with_suffix('.tmp');tmp.write_text(json.dumps(dict(utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),pid=__import__('os').getpid(),phase='waiting_legal_audit_complete_no_holdout_effect_read'),indent=2));tmp.replace(status);time.sleep(10)
  gate=json.loads(audit_gate.read_text());assert gate['all60_fullread_complete'] and gate['match_original_sha256']==hashlib.sha256((T/'alpha_matches_frozen.json').read_bytes()).hexdigest()
  # Completion gate, never a success-selection gate: even a failed recall threshold is reported, not hidden.
+ # The user scheduled one read on Nov 8 JST. The running controller's earlier log
+ # message denotes input readiness; this gate records the actual first analysis read.
+ earliest=datetime.datetime(2026,11,7,15,tzinfo=datetime.timezone.utc)
+ while datetime.datetime.now(datetime.timezone.utc)<earliest:
+  status=B/'results/audit/handoff_round12/primary_read_wait_live.json';tmp=status.with_suffix('.tmp')
+  tmp.write_text(json.dumps(dict(utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),pid=__import__('os').getpid(),phase='judge_complete_waiting_nov8_JST_unified_read',earliest_utc=earliest.isoformat()),indent=2));tmp.replace(status);time.sleep(10)
+ with (B/'docs/PREREG_LOG.txt').open('a') as f:
+  f.write(datetime.datetime.now(datetime.timezone.utc).isoformat()+' ROUND12_ACTUAL_UNIFIED_PRIMARY_EFFECT_READ: first full aggregation of held-out paired DD and WJB harmful guard. Prior controller EFFECT_READ entry records scoring readiness only.\n')
 
 def load(p):return json.loads(p.read_text())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()

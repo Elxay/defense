@@ -72,6 +72,12 @@ try:
    prior=json.loads((B/'results/audit/handoff_round9/pipeline_live.json').read_text())
    if prior['phase']=='complete':break
    assert prior['phase']not in['failed','stopped_incomparable_seed'],'original#2 incomplete'
+   read_wait=B/'results/audit/handoff_round12/primary_read_wait_live.json'
+   if read_wait.exists():
+    marker=json.loads(read_wait.read_text());proc=Path('/proc')/str(marker['pid'])/'cmdline'
+    try: cmdline=proc.read_bytes()
+    except FileNotFoundError: cmdline=b''
+    if marker['phase']=='judge_complete_waiting_nov8_JST_unified_read' and b'round9_analyze.py' in cmdline:break
    deadline();state('waiting_original_2arm_before_plain_grid',original_phase=prior['phase']);time.sleep(10)
   generate('grid')
   # Give the already-running #2 window priority, and never read partial third-arm effects.

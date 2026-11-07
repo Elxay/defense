@@ -1,0 +1,18 @@
+{
+  "docs/252_ADDENDUM5_SAME_ALPHA_PAIRS.md": "1d9422f8f86ca463b8e222bf064126aa986eb5d36650d1128da90ba5e9552749",
+  "docs/282_REFERENCE_VERIFICATION.md": "eb7ebbe2f2da0c4a1a347bc592fa0b36d07649cd024d6dccb806adf15f3b5f5f",
+  "paper/CLAIM_EVIDENCE.json": "6096dc46ed548c49c093053441bfada4ee77c36f012f5a4e46a1e8cf008403af",
+  "paper/manuscript.pdf": "48bfc0b9668da1238724d647cf35c1a462a3724152413048ff14d07ac189e9d4",
+  "results/audit/handoff_round12/legal400_review_summary.json": "a6db0e17a3a7c302540be707f0c173945bfcfbe8e9c43aca79cbd80d64315135",
+  "results/audit/handoff_round12/flip51_rule_metrics.json": "aac42c1122cabf14089b2cf7f8bdacbc22e10f757c084900852049eba6264330",
+  "results/audit/handoff_round12/status_published_snapshot.json": "30741f50478123181dd85ad80a53b1bd21b054474868c7bba009e3d37152d6a8",
+  "docs/283_WJB_ABSTRACT_LEGAL400_STATUS.md": "64a76886c27881420635c2371aacd9aedbb256160b2d64bf69ebf8d3ee3acfeb",
+  "paper/BUILD_QA.json": "b0e25b5e74779f030f26560a23d8054a7eec4e40b94b6c081e2d1e287acb922f",
+  "tools/handoff_20261106/round12_same_alpha_analyze.py": "9a6cddcc6a720c833896f1f25801521004b2d2214b80c3bc35f5321c1e1f9ead",
+  "tools/handoff_20261106/round12_status.py": "d00db0595cc051f4d9cbe3091f23d9ee9ac9721049301456e93c136066e752f6",
+  "tools/handoff_20261106/round12_legal400.py": "451d5e36af51ac7f6f4d3984be03bafb3d09c06bb1ee3af1ef012dd57dae1281",
+  "tools/handoff_20261106/round12_same_alpha_generate.py": "e9919049f6ce7c536670a7267801d614bd118c3f12ad09a3eebc108541e1439f",
+  "tools/handoff_20261106/round12_same_alpha_launcher.py": "924398448828a678063a2780e08a166ded23fe3c3edfe0d86217b3dc11bb5797",
+  "tools/handoff_20261106/round9_analyze.py": "fcef630e2be8f4a21611ab50532f89fbbe9522d1b2a33136d157c4e7b920ef2f",
+  "tools/handoff_20261106/round11_plain_pipeline.py": "1bd9f0a251de2a567b4ba5c29385000babbf1360a55eddf039a825b6334b6e1d"
+}

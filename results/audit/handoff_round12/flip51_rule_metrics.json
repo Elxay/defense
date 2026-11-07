@@ -1,0 +1,34 @@
+{
+  "n": 51,
+  "scope": "selected Qwen prompt-condition harmful-to-nonharmful flips; single-reader reference; not population calibration",
+  "counts": {
+    "v2": {
+      "tp": 11,
+      "fn": 30,
+      "fp": 0,
+      "tn": 10,
+      "precision": 1.0,
+      "recall": 0.2682926829268293
+    },
+    "v3": {
+      "tp": 15,
+      "fn": 26,
+      "fp": 0,
+      "tn": 10,
+      "precision": 1.0,
+      "recall": 0.36585365853658536
+    },
+    "union": {
+      "tp": 24,
+      "fn": 17,
+      "fp": 0,
+      "tn": 10,
+      "precision": 1.0,
+      "recall": 0.5853658536585366
+    }
+  },
+  "source_hashes": {
+    "results/audit/FLIPS51.csv": "1b975f39b1373bcc55bed1e22fe08832b1ba6d01f5e0e16a27b1b77d1bb881f0",
+    "results/audit/FLIPS51_READ.csv": "e2fafb4e47866046acb589b18d64c900840c92a261e22d3707bb7a2f812829d2"
+  }
+}

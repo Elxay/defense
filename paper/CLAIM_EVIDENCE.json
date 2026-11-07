@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-07T02:18:53.396728+00:00",
+  "utc": "2026-11-07T04:28:19.332504+00:00",
   "claims": {
     "A_random_and_learned": [
       {
@@ -80,11 +80,120 @@
         "file": "results/audit/handoff_round10/plain_data_audit.json",
         "sha256": "313de8389dc8c5029d15ff2b5a052de4b3f1b0b04c6577607a65ec30397a7e3c"
       }
+    ],
+    "K_WJB_paired_advantage_frozen_and_supplement": [
+      {
+        "file": "results/audit/handoff_round5/addendum7_complete_results.json",
+        "sha256": "8fb1b9859d1d0851511909a329e710662771874d9da122817012b59fd129172b"
+      },
+      {
+        "file": "results/audit/handoff_round6/random_references_complete_results.json",
+        "sha256": "b7657859b858e3c8ef7feb49f01b61ee8e0b4370e07b3ec84422d4db54db6750"
+      }
+    ],
+    "L_WJB_exploratory_exact_permutation": [
+      {
+        "file": "results/audit/handoff_round8/unit_rank_permutation.json",
+        "sha256": "b61321f80ff3484c96cee6aadac30e10a188f5bc031f6491bd5c7de4d2e5ee65"
+      }
+    ],
+    "M_Qwen_AB_zero_training": [
+      {
+        "file": "paper/data/zero_training.csv",
+        "sha256": "1d70821d89ddfaf1773c5dccf537f3028083cf490b00dc59f598764e2fd728f1"
+      },
+      {
+        "file": "results/audit/handoff_round4/qwen_operation_ranges.json",
+        "sha256": "bf55af252b6770c7a01dd85dc4f444ac2d52e8980ed8c33060d587a15b6d3c0d"
+      }
+    ],
+    "N_Llama_AB_zero_training": [
+      {
+        "file": "paper/data/zero_training.csv",
+        "sha256": "1d70821d89ddfaf1773c5dccf537f3028083cf490b00dc59f598764e2fd728f1"
+      },
+      {
+        "file": "results/hfjudge_sys/JUDGE_HF_SYS_A",
+        "sha256": "cadd14cfbd724e09bb8978620099113155631ef97f521e853a3fe33811cf88eb"
+      },
+      {
+        "file": "results/hfjudge_sys/JUDGE_HF_SYS_B",
+        "sha256": "2aab336346c80f7afebdf69f0468fb4ba32c7dbd87fe4e68996e5c149bc19565"
+      },
+      {
+        "file": "results/audit/handoff_round5/llama_b_pair_summary.json",
+        "sha256": "ec9062d78e784470f4427cf51166a42213754bf79f91f9afe45e804f7d6a52f5"
+      }
+    ],
+    "O_Guard_thresholds_and_paired_outputs": [
+      {
+        "file": "results/audit/handoff_round4/guard_qwen_summary.json",
+        "sha256": "d26822b48b5d2e033caca0c4df6454132023c45114954066c9f5340175443132"
+      },
+      {
+        "file": "docs/257_GUARD_PROTOCOL_REPAIR.md",
+        "sha256": "bd4bbb1d469a9050ce98d5d7be5d50a893885afb9190942f58c67c57bf7d26d9"
+      },
+      {
+        "file": "results/audit/handoff_round7/guard_paired24.json",
+        "sha256": "576703c1db2c733702c7d7049196bcccbcececeaccb7c0f65b9a6d83cc26a0b8"
+      }
+    ],
+    "P_selected_51_flips_rule_precision_recall": [
+      {
+        "file": "results/audit/handoff_round12/flip51_rule_metrics.json",
+        "sha256": "aac42c1122cabf14089b2cf7f8bdacbc22e10f757c084900852049eba6264330"
+      },
+      {
+        "file": "results/audit/FLIPS51.csv",
+        "sha256": "1b975f39b1373bcc55bed1e22fe08832b1ba6d01f5e0e16a27b1b77d1bb881f0"
+      },
+      {
+        "file": "results/audit/FLIPS51_READ.csv",
+        "sha256": "e2fafb4e47866046acb589b18d64c900840c92a261e22d3707bb7a2f812829d2"
+      }
+    ],
+    "Q_legal_400token_selected_followup": [
+      {
+        "file": "results/audit/handoff_round12/legal400_review_summary.json",
+        "sha256": "a6db0e17a3a7c302540be707f0c173945bfcfbe8e9c43aca79cbd80d64315135"
+      }
+    ],
+    "R_B8a_HF_mean_difference_sweep": [
+      {
+        "file": "results/hfjudge_b8a/JUDGE_HF_b8a_a0.25_a0.25",
+        "sha256": "e51b5dba5c3c17e9442dd434647cdfe431a005108486c8d315c02d91e1df234a"
+      },
+      {
+        "file": "results/hfjudge_b8a/JUDGE_HF_b8a_a0.5_a0.5",
+        "sha256": "1332f534be92530b1051e01dc752a9562587a5fb15f2b9960f3a4d9753a9bbf0"
+      },
+      {
+        "file": "results/hfjudge_b8a/JUDGE_HF_b8a_a0.75_a0.75",
+        "sha256": "28ec2d65ca03b30efdacc1fbfe3945afeed76782b38fb280ff4a5cc284840276"
+      },
+      {
+        "file": "results/hfjudge_b8a/JUDGE_HF_b8a_a1.0_a1.0",
+        "sha256": "bf8511de9c9a7be13e436eafac336fec139b40c69089627da2b178a493498ce7"
+      },
+      {
+        "file": "results/hfjudge_b8a/JUDGE_HF_b8a_a1.25_a1.25",
+        "sha256": "b131fc66ff23e54c76c33e3fc498d4720fbd00012c2ce34d6779ff43633ca6c4"
+      },
+      {
+        "file": "results/hfjudge_b8a/JUDGE_HF_b8a_a1.5_a1.5",
+        "sha256": "854733bba8e087771f781c149dd47925b24bf4fe0153ee55108fbf23b4a361d3"
+      }
     ]
   },
   "source_text_hashes": {
-    "paper/main.tex": "422675ab715de720fcd5f7091a869267dfeb77a07c9075fc233e295ad8d412eb",
-    "paper/sections/01_introduction.tex": "ee001b53c93d908e7900ebe57cddc879a8ce3f4c565abe1d7ce2f7d0a0e03c33",
-    "paper/sections/06_limitations.tex": "536cc4dc43e77a02c17a04ed69a9e12258ed8854b4b622be4dc8681e5728b8c6"
+    "paper/main.tex": "cf65afeea1dfe07261c98629782cdb66b00ea02afce73c2399e86f81d47c0b5e",
+    "paper/references.bib": "a54e2e0a4e0219ab7764a00d68074ff0635f68de3e70a21c4b54a50913f1e0c3",
+    "paper/sections/01_introduction.tex": "710af17c7cfc2121a71ef8a9ecc5489cfbc3f43f0a62fa5a2f2d829b42bfaac1",
+    "paper/sections/02_related_work.tex": "8275823fd2a9e1203fc77f7134973f6c8a58151a08455a7f9c869fd28b01dabd",
+    "paper/sections/03_setup.tex": "d561bd7589e1acb38da9b31802fee958798d71c4aefc9753aaea68f38ee16a51",
+    "paper/sections/04_results.tex": "66e5fdc1a4b60a0a42926d11c0eb89000356627f0dbfa4044d6f25d6db8ebcba",
+    "paper/sections/05_traps.tex": "3c5577fed5be8aa6d68df9061e5f86e6ca800b871fd0e6dd7fe1a73853d8c290",
+    "paper/sections/06_limitations.tex": "249968d846773a07dfb8b5a20752d1e865eed6d637ca7e2359d0f3f0d0c56a6d"
   }
 }

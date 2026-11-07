@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-07T02:23:11.853048+00:00",
+  "utc": "2026-11-07T04:32:56.566897+00:00",
   "compiler": "Tectonic0.17.0",
   "official_acl_commit": "d5adc823ff0f80f98c80405ca0ab66c68e684409",
   "pages": 7,
@@ -7,7 +7,7 @@
   "sections": 6,
   "unresolved_citations": 0,
   "overfull_boxes": 0,
-  "visual_review": "All seven page PNGs/contact sheet inspected; limitations/ref/reference page inspected at150%; no clipping or overlaps; page7 is short frontier appendix. Body extends into page6 with limitations; references and appendices included in total.",
-  "pdf_sha256": "4bf9b5c33266cd21ff376425261b644e6d7b16b544a5284c6d988314b8ce10e0",
-  "source_snapshot": "first working English draft, intervention outcomes pending"
+  "visual_review": "Final seven rendered pages inspected; title, abstract, tables, limitations, references and appendix checked; no clipping or overlap.",
+  "pdf_sha256": "48bfc0b9668da1238724d647cf35c1a462a3724152413048ff14d07ac189e9d4",
+  "source_snapshot": "Single-position prefill scope; WJB evidence without baseline-success selection; selected legal400 follow-up; 11 verified primary references."
 }
