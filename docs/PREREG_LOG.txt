@@ -247,3 +247,5 @@
 2026-11-07T13:12:23.016806+00:00 WJB_OLD_S3_RESUME_BEFORE shard=1 n=374 all_hashes_equal=True SHA=d56ca8d35bfbb4b4427bf064a0a904d5fe46c3be76e023b6e0406b8b53fa6a5d
 2026-11-07T13:12:23.036509+00:00 WJB_OLD_S3_RESUME_BEFORE shard=0 n=374 all_hashes_equal=True SHA=e3cf05caa05f90579be4a1253e8e53d47eb5275e1e6d1fda13844225dabaacfe
 2026-11-07T13:13:54.162171+00:00 PUBLIC_SINGLE80_PATH_AUDIT byte matches11,14,9,10 of20 each; all80 helper injections1 norm5.21; input-token check20/20. Public batch rows and counts retained, path difference logged, no original runtime metadata backfill. No classifier score reading.
+2026-11-07T13:23:35.190582+00:00 DOC255_ADDENDUM9_DIAGNOSTIC_FROZEN SHA=4be4835036d1df5730267d034324923ba3428bfeab118eca3ffb9ec66235af75 zero vector same20/sameGPU2/originalbatch compositions vs single, before generating diagnostic outputs. Nonzero80 v2 matrix58/0/0/22 label flips0.
+2026-11-07T13:23:35.190582+00:00 WJB_PREFIX_FORECAST before Nov9 16JST: conservative4h/condition plus10min diagnostic from Nov7 22:12 permits first10 throughs0 aroundNov9 14:22, systemA/B unguaranteed; learned timing may faster; PAIR ready preempts regardless.
