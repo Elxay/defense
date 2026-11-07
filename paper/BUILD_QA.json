@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-07T04:32:56.566897+00:00",
+  "utc": "2026-11-07T05:46:50.557194+00:00",
   "compiler": "Tectonic0.17.0",
   "official_acl_commit": "d5adc823ff0f80f98c80405ca0ab66c68e684409",
   "pages": 7,
@@ -8,6 +8,6 @@
   "unresolved_citations": 0,
   "overfull_boxes": 0,
   "visual_review": "Final seven rendered pages inspected; title, abstract, tables, limitations, references and appendix checked; no clipping or overlap.",
-  "pdf_sha256": "48bfc0b9668da1238724d647cf35c1a462a3724152413048ff14d07ac189e9d4",
-  "source_snapshot": "Single-position prefill scope; WJB evidence without baseline-success selection; selected legal400 follow-up; 11 verified primary references."
+  "pdf_sha256": "43965b7ec49b3a7206d7ed19ddb5eb53b8edba852c88cbc9ad48e585d7c7f533",
+  "source_snapshot": "Verified text-only scope sentence in setup; rendered all 7 pages."
 }

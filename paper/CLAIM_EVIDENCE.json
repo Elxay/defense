@@ -184,6 +184,18 @@
         "file": "results/hfjudge_b8a/JUDGE_HF_b8a_a1.5_a1.5",
         "sha256": "854733bba8e087771f781c149dd47925b24bf4fe0153ee55108fbf23b4a361d3"
       }
+    ],
+    "S_row_retaining_pair500_protocol": [
+      {
+        "file": "docs/253_PAIR500_ROW_PROTOCOL.md",
+        "sha256": "6aaa91dae81c454c29adba6c360c29b9dad9eb0a21e7dde01dc142cf29880492"
+      }
+    ],
+    "T_historical_retained_row_strata": [
+      {
+        "file": "results/audit/pair500/existing_evaluation_stratified.json",
+        "sha256": "b2d9c0dd7034ca4147d4d6765d701e5822cc952006fae631e6f59c233168f69d"
+      }
     ]
   },
   "source_text_hashes": {
@@ -191,7 +203,7 @@
     "paper/references.bib": "a54e2e0a4e0219ab7764a00d68074ff0635f68de3e70a21c4b54a50913f1e0c3",
     "paper/sections/01_introduction.tex": "710af17c7cfc2121a71ef8a9ecc5489cfbc3f43f0a62fa5a2f2d829b42bfaac1",
     "paper/sections/02_related_work.tex": "8275823fd2a9e1203fc77f7134973f6c8a58151a08455a7f9c869fd28b01dabd",
-    "paper/sections/03_setup.tex": "d561bd7589e1acb38da9b31802fee958798d71c4aefc9753aaea68f38ee16a51",
+    "paper/sections/03_setup.tex": "5c754d9b40c5f234b1e2b86491c425cd4be3077ca6da82d01ab0580c89ca9a34",
     "paper/sections/04_results.tex": "66e5fdc1a4b60a0a42926d11c0eb89000356627f0dbfa4044d6f25d6db8ebcba",
     "paper/sections/05_traps.tex": "3c5577fed5be8aa6d68df9061e5f86e6ca800b871fd0e6dd7fe1a73853d8c290",
     "paper/sections/06_limitations.tex": "249968d846773a07dfb8b5a20752d1e865eed6d637ca7e2359d0f3f0d0c56a6d"

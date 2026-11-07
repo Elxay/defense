@@ -19,7 +19,7 @@ with (B/f'logs/idle_gpu{card}.lock').open('a') as lock:
   pulse('waiting_gpu_lease')
   try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB);break
   except BlockingIOError:time.sleep(10)
- script=f'source tools/handoff_20261106/node01_launch_round9.sh\nwait_gpu cuda:{card} || exit 10\nlaunch_job env CUDA_VISIBLE_DEVICES={card} DEVICE=cuda:0 HF_HUB_OFFLINE=1 USE_TF=0 USE_FLAX=0 /data/ray/env/bin/python -u tools/handoff_20261106/round12_same_alpha_generate.py --seed {a.seed}'
+ script=f'source tools/handoff_20261106/node01_launch_round9.sh\nexport DEVICE=cuda:{card}\nwhile ! wait_gpu "$DEVICE"; do sleep 30; done\nlaunch_job env CUDA_VISIBLE_DEVICES={card} DEVICE=cuda:0 HF_HUB_OFFLINE=1 USE_TF=0 USE_FLAX=0 /data/ray/env/bin/python -u tools/handoff_20261106/round12_same_alpha_generate.py --seed {a.seed}'
  try:
   pulse('generating');subprocess.run(['bash','-c',script],cwd=B,env={**os.environ,'DSH_OWNER':str(B)},check=True);pulse('complete')
  except BaseException:pulse('failed');raise

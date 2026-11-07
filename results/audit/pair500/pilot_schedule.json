@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-07T05:39:16.329901+00:00",
+  "old_plain_controller": 2484943,
+  "paused": [
+    {
+      "seed": 4,
+      "card": 1,
+      "pid": 1910378,
+      "saved": [
+        [
+          "plain_a0.25_val70.json",
+          40
+        ]
+      ]
+    },
+    {
+      "seed": 5,
+      "card": 2,
+      "pid": 1910382,
+      "saved": [
+        [
+          "plain_a0.25_val70.json",
+          40
+        ]
+      ]
+    }
+  ],
+  "new_plain_wrapper": 2565263,
+  "node_pilot_wrapper": 1921189
+}
