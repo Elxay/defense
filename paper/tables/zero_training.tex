@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrr}
+\toprule
+Model & Condition & Harmful /70 & ASR (\%) \\
+\midrule
+Llama & Baseline & 63 & 90.0 \\
+Llama & A & 25 & 35.7 \\
+Llama & B & 13 & 18.6 \\
+Qwen & Baseline & 40 & 57.1 \\
+Qwen & A\_replace & 26 & 37.1 \\
+Qwen & A\_append & 28 & 40.0 \\
+Qwen & B\_replace & 27 & 38.6 \\
+Qwen & B\_append & 26 & 37.1 \\
+\bottomrule
+\end{tabular}
+\caption{Zero-training prompt baselines, using HF judgments with zero INVALID. Legal-side model counts and uncalibrated ranges are discussed separately.}
+\label{tab:zerotraining}
+\end{table}

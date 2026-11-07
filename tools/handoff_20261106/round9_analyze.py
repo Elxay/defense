@@ -42,10 +42,10 @@ result=dict(utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),rows=ro
 save(O/'intervention_complete_results.json',result);print(json.dumps(result,indent=2))
 
 # A numeric-only final report is generated only after all ten holdout conditions are complete.
-lines=['# 273 — 风格匹配硬负例干预（同流水线重训对照）','', '全量结果读取UTC：'+result['utc']+'；原失败复建门槛保留；历史冻结向量不进入本主比较。','', '| seed | 对照α | 处理α | 对照DD pp | 处理DD pp | 改善pp | 合法差pp | WJB ASR差pp |','|---|---|---|---|---|---|---|---|']
+lines=['# 273 — 含包装良性输入的数据增强（同流水线重训对照）','', '全量结果读取UTC：'+result['utc']+'；原失败复建门槛保留；历史冻结向量不进入本主比较。','', '| seed | 对照α | 处理α | 对照DD pp | 处理DD pp | 改善pp | 合法差pp | WJB ASR差pp |','|---|---|---|---|---|---|---|---|']
 for r in rows:
  c=r['conditions']['control'];z=r['conditions']['treatment'];lines.append(f"| s{r['seed']} | 1.0 | {z['alpha']} | {c['DD_pp']:.3f} | {z['DD_pp']:.3f} | {r['improvement_pp']:.3f} | {r['legal_difference_pp']:.3f} | {r['WJB_ASR_difference_pp']:.3f} |")
-lines+=['',f"五seed改善均值={stats['mean']:.4f}pp，配对差SD={stats['sd']:.4f}pp，df4 t95=[{stats['t95'][0]:.4f},{stats['t95'][1]:.4f}]。均值合法差={or_delta:.4f}pp，均值WJB ASR差={wjb_delta:.4f}pp。",'', '训练前追加2主要判据及护栏：'+('全部满足。'if success else'未全部满足。未检出达到冻结标准的改善；n=5与实际区间决定精度，不证明零效应。'),'', '硬负例与留出配对同源WJB adversarial_benign，只检验同分布的数据组成干预，不证明其他包装风格泛化。val70用于alpha匹配，不能当独立test；规则拒答与模型判官不具独立人工校准。按固定292对及vanilla聚类，逐seed区间另见结果JSON。','', '结果JSON SHA256='+sha(O/'intervention_complete_results.json'),'alpha匹配表 SHA256='+sha(T/'alpha_matches_frozen.json'),'追加2 SHA256='+sha(B/'docs/252_ADDENDUM2_RETRAINED_CONTROLS.md')]
+lines+=['',f"五seed改善均值={stats['mean']:.4f}pp，配对差SD={stats['sd']:.4f}pp，df4 t95=[{stats['t95'][0]:.4f},{stats['t95'][1]:.4f}]。均值合法差={or_delta:.4f}pp，均值WJB ASR差={wjb_delta:.4f}pp。",'', '训练前追加2主要判据及护栏：'+('全部满足。'if success else'未全部满足。未检出达到冻结标准的改善；n=5与实际区间决定精度，不证明零效应。'),'', '该两臂比较同时改变新增良性数据量和keep60权重；只能解释为含包装良性输入的数据增强，不能单独归因于风格匹配。无包装第三臂按追加3另报，且不改写此处冻结判据。','', '硬负例与留出配对同源WJB adversarial_benign，只检验同分布的数据组成干预，不证明其他包装风格泛化。val70用于alpha匹配，不能当独立test；规则拒答与模型判官不具独立人工校准。按固定292对及vanilla聚类，逐seed区间另见结果JSON。','', '结果JSON SHA256='+sha(O/'intervention_complete_results.json'),'alpha匹配表 SHA256='+sha(T/'alpha_matches_frozen.json'),'追加2 SHA256='+sha(B/'docs/252_ADDENDUM2_RETRAINED_CONTROLS.md')]
 p=B/'docs/273_STYLE_INTERVENTION_FINAL.md';q=p.with_suffix('.tmp');q.write_text('\n'.join(lines)+'\n');q.replace(p)
 try:
  import subprocess,fcntl,shutil

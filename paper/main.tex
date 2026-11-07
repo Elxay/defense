@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\usepackage[review]{acl}
+\usepackage{times,latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype,inconsolata,graphicx,booktabs,amsmath,float}
+\title{Evaluating Safety Steering Beyond Attack Success:\\Random Directions, Benign Wrappers, and Measurement Instability}
+\author{Anonymous ACL submission}
+\begin{document}
+\maketitle
+\begin{abstract}
+A lower automated attack success rate does not by itself establish a better safety intervention. We audit activation steering with norm-matched random directions, paired benign requests with and without adversarial wrappers, and zero-training prompt and output-filter baselines. On a success-selected set of 70 attack prompts, random perturbations already reduce judge attack success by 4--21 percentage points. Learned vectors are substantially stronger than this reference, but benign-wrapper refusal and several measurement choices limit the interpretation of that gain. Our audits expose baseline-set mismatches, output truncation, classifier-position and threshold errors, and label changes between highly similar retrained vectors. A five-seed paired benign comparison reproduces a positive wrapper-associated refusal gap on a second prompt sample. We report these as evaluation findings rather than a new defense, distinguish operational model labels from calibrated refusal rates, and preserve unsuccessful frozen criteria. Data-composition interventions are running and are not treated as completed evidence in this draft.
+\end{abstract}
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_setup}
+\input{sections/04_results}
+\input{sections/05_traps}
+\input{sections/06_limitations}
+\bibliography{references}
+\appendix
+\section{Provenance and protocol chronology}
+All numeric tables are generated from CSV files, which in turn are exported from versioned analysis files. The table provenance manifest records complete source SHA256 hashes. Raw attack prompts, model outputs, and training caches are excluded from the manuscript repository. A versioned log is not equivalent to an externally timestamped preregistration: the earliest external repository timestamp is November 6, 2026. Several thresholds and protocol amendments followed earlier observations and are identified as such.
+The original five-seed WJB criterion remains unsuccessful (3/5). Later random directions, a retrained-control design, a third data arm, and interpolation supplements do not revise that original outcome. The third-arm amendment was written after the original matching table had already been frozen and holdout generation had begun. It is a prospective specification for the new arm, but not a pre-matching specification for the original comparison.
+\section{Auxiliary frontier sensitivity}
+The new-versus-old trainer frontier point estimate is about +0.98pp; conditional on the observed horizontal coordinates, its five-seed interval is $[-0.63,2.59]$pp. Table~\ref{tab:frontierjoint} propagates additional item and old-curve noise. The resulting uncertainty includes zero and extends beyond the proposed equivalence band. An exploratory seven-point subset is not substituted for the full analysis.
+\input{tables/frontier_joint}
+\end{document}

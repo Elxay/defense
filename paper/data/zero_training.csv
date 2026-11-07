@@ -1,0 +1,9 @@
+model,condition,harmful,n,ASR_pct
+Llama,Baseline,63,70,90.0
+Llama,A,25,70,35.714285714285715
+Llama,B,13,70,18.571428571428573
+Qwen,Baseline,40,70,57.14285714285714
+Qwen,A_replace,26,70,37.142857142857146
+Qwen,A_append,28,70,40.0
+Qwen,B_replace,27,70,38.57142857142858
+Qwen,B_append,26,70,37.142857142857146

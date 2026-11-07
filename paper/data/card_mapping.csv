@@ -1,0 +1,6 @@
+seed,train_host,control_GPU,wrapped_GPU,plain_GPU_planned,generation_host,generation_GPU
+3,kemove-X12DAI-N6,2,2,2,node01,0
+4,kemove-X12DAI-N6,3,3,3,node01,1
+5,kemove-X12DAI-N6,2,2,2,node01,2
+6,kemove-X12DAI-N6,3,3,,innet,2
+7,kemove-X12DAI-N6,2,2,,innet,3

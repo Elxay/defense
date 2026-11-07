@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{rrrrrr}
+\toprule
+Seed & $\alpha_T$ & ASR C & ASR T & New C & New T \\
+\midrule
+3 & 1.5 & 21.4 & 22.9 & 28 & 21 \\
+4 & 1.0 & 27.1 & 27.1 & 16 & 12 \\
+5 & 1.5 & 25.7 & 24.3 & 14 & 14 \\
+6 & 1.0 & 25.7 & 24.3 & 17 & 10 \\
+7 & 1.0 & 27.1 & 30.0 & 18 & 11 \\
+\bottomrule
+\end{tabular}
+\caption{First frozen matching table: retrained control C at alpha 1 and wrapped-data treatment T. ASR is a percentage on 70 prompts; legal new counts use 388 eligible items after full 400-item batch-8 generation. Holdout outcomes remain unreported until complete.}
+\label{tab:matching}
+\end{table}

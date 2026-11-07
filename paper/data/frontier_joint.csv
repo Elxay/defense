@@ -1,0 +1,4 @@
+variant,lower_pp,upper_pp
+Item resampling (conditional),-0.95,3.56
+Also resample seeds (conditional),-1.34,3.88
+Boundary clipping diagnostic,-2.12,3.57
