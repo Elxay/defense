@@ -252,3 +252,9 @@
 2026-11-07T13:51:22.606787+00:00 DOC255_ADDENDUM10_FROZEN SHA=65fc49dc92e7cf3007687226f766b2382a95d4af33391fc3dd6c14e080195a3c before zero diagnostic; expected batchzero-vs-original20/20; zero batchsingle mismatch is comparison noise reference for nonzero36/80, qualitative reading only, no added quantitative cutoff.
 2026-11-07T13:51:22.606787+00:00 PUBLIC_SINGLE80_PROMPT_CLUSTER_INTERVAL SHA=8bd120cfebba37bb0392705c2ceaac211a47150a33b53de8ae7887ee984112fc 0/20 prompt-any-flip clusters, exact95 upper16.84%, Wilson16.11%; fixed4vectors/GPU2/batch compositions/120tokens; not80 independent prompts.
 2026-11-07T13:51:22.606787+00:00 WJB_FORECAST_SUPERSEDED prior throughs0 point commitment replaced by conservative s3/rand0/s4/rand1 beforeNov9 16JST subject to resources; per-condition-type cumulative time ranges recorded in addendum10. No running job changed tonight.
+2026-11-07T14:37:34.986684+00:00 WJB_OLD_S3_RESUME_AFTER shard=1 n=374 all_hashes_equal=True SHA=286d1ec64803ef42f85638b1e8082d79f6827a70dfedf2b6efdea7d23fe3c6a6
+2026-11-07T14:46:26.452601+00:00 WJB_OLD_S3_RESUME_AFTER shard=0 n=374 all_hashes_equal=True SHA=8ff32fcaaa00844d43dc2f08208234f9500adc50e0eb45f7ebed0e5cd39d2a7e
+2026-11-07T14:46:27.629055+00:00 WJB_STAGE_FROZEN stage=harmful_generation detail=old_s3 SHA=1e93f36f44c800b64503b6f4f9811da4c8c56079858cdc239a41e7707d709311
+2026-11-07T14:50:45.437400+00:00 WJB_STAGE_FROZEN stage=harmful_judge detail=old_s3 SHA=66dbec040c2551c840d60c68a3cbb017859b32bc3726798f47deb22161a5ec66
+2026-11-07T15:00:00.124931+00:00 ROUND12_ACTUAL_UNIFIED_PRIMARY_EFFECT_READ: first full aggregation of held-out paired DD and WJB harmful guard. Prior controller EFFECT_READ entry records scoring readiness only.
+2026-11-07T15:00:00.872991+00:00 RETRAINED_STYLE_FINAL_ALL5 primary_success=True mean=3.835616438356164 CI=[0.8834233665981732, 6.787809510114155] doc273SHA=03c3aae22d960c44335ebfe9f2e7544283a6f94ee4fa1b5039db7547836e8e82
