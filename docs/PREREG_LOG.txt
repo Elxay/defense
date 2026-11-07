@@ -233,3 +233,17 @@
 2026-11-07T12:51:27.472381+00:00 WJB_STAGE_FROZEN stage=public_generation detail=rand1 SHA=f6df795184879c2773622d4263d25a1e30fa7bf3e25c7b53b3681b1cba148bec
 2026-11-07T12:52:43.665775+00:00 PUBLIC_BATCH_SINGLE_PATH_CHECK_FROZEN after rand3 before harmful resume; GPU2 only, same20 uniform sourceGPU2 rows for s3-s6, seed20261119, no response selection; planSHA=93fea548b17d1e4ca19b4d97934b3cff9bbad913fb37b93812668cba01b48cc8; keep original batch outputs and report any mismatches, no numerical-result relabeling.
 2026-11-07T12:54:44.239135+00:00 WARNING8_OPENINGS_RECORDED Disclaimer3, I can provide2, Content Advisory1, Ill provide1, Warning1; these fall outside refusal anchors and full responses had task content, so do not label as confirmed refusal false negatives. SHA=187afaf749b850a42cc799e297d7b16097cd2eb168381955861a34ea8ade5df1
+2026-11-07T12:59:54.648001+00:00 WJB_STAGE_FROZEN stage=public_generation detail=old_s3 SHA=b1b2a819d2a91221ddbbf1439fd52fed494ad858c4cbdffc9f32950092379799
+2026-11-07T12:59:59.846454+00:00 WJB_STAGE_FROZEN stage=public_generation detail=old_s4 SHA=a1e79e644fcb62a4402da86ba1fd643eadb297a1d73e1ce4a0288dbf519be9dc
+2026-11-07T13:00:04.977734+00:00 WJB_STAGE_FROZEN stage=public_generation detail=old_s5 SHA=55a591f89d8adc03dfc88bb4e1f8e210c65516c0c511d9cd02e37039baf4625d
+2026-11-07T13:00:10.164097+00:00 WJB_STAGE_FROZEN stage=public_generation detail=old_s6 SHA=eee28f1aae89908a59cd45b64c3fac88deab81beb98197aa4a62d14958877d93
+2026-11-07T13:00:15.449778+00:00 WJB_STAGE_FROZEN stage=public_generation detail=old_s7 SHA=21f77737bee5b9cc9e0b3103f23280a4619aa45ca39ac61eac1fb51701ff91c6
+2026-11-07T13:00:20.618804+00:00 WJB_STAGE_FROZEN stage=public_generation detail=rand0 SHA=db3d2a1fab3713761c9f6a4bd01ed9ee8fa25b4f853f9605ca06afd19fb36fbc
+2026-11-07T13:00:25.806053+00:00 WJB_STAGE_FROZEN stage=public_generation detail=rand1 SHA=f6df795184879c2773622d4263d25a1e30fa7bf3e25c7b53b3681b1cba148bec
+2026-11-07T13:00:30.943713+00:00 WJB_STAGE_FROZEN stage=public_generation detail=rand2 SHA=5bb15d049ea9aa97d5e459ecdeee9e2aa8e288d9a5855365c4905f04f1be65ec
+2026-11-07T13:08:29.602946+00:00 WJB_STAGE_FROZEN stage=public_generation detail=rand3 SHA=c0178c835b2be876b381806d46dbd27f2d658908ff64b23973fe7f889c90f2cc
+2026-11-07T13:12:17.788970+00:00 PUBLIC_SINGLE80_COMPLETE SHA=baae8bf13381b0efb55807368ce4723dc3f608bd0c9a5661b2e3e0f3cf513e17 counts={'old_s3': {'n': 20, 'byte_identical': 11}, 'old_s4': {'n': 20, 'byte_identical': 14}, 'old_s5': {'n': 20, 'byte_identical': 9}, 'old_s6': {'n': 20, 'byte_identical': 10}} original batch rows retained.
+2026-11-07T13:12:19.306606+00:00 WJB_OLD_S3_RESUME_BEFORE shard=controller n=374 all_hashes_equal=True SHA=b52691082d9da98cb2476e4348ed6b49a572e69bb158b39aeeae974bc096908f
+2026-11-07T13:12:23.016806+00:00 WJB_OLD_S3_RESUME_BEFORE shard=1 n=374 all_hashes_equal=True SHA=d56ca8d35bfbb4b4427bf064a0a904d5fe46c3be76e023b6e0406b8b53fa6a5d
+2026-11-07T13:12:23.036509+00:00 WJB_OLD_S3_RESUME_BEFORE shard=0 n=374 all_hashes_equal=True SHA=e3cf05caa05f90579be4a1253e8e53d47eb5275e1e6d1fda13844225dabaacfe
+2026-11-07T13:13:54.162171+00:00 PUBLIC_SINGLE80_PATH_AUDIT byte matches11,14,9,10 of20 each; all80 helper injections1 norm5.21; input-token check20/20. Public batch rows and counts retained, path difference logged, no original runtime metadata backfill. No classifier score reading.

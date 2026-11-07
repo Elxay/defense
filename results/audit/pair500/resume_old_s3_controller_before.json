@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-07T13:12:19.306606+00:00",
+  "shard": "controller",
+  "phase": "before",
+  "preserved_rows": 374,
+  "all_hashes_equal": true,
+  "pause_manifest_sha256": "7e698b6823aad6e518ce7375c029fc69733425f5aff2f2e066bb522e8b61ca23"
+}

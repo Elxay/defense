@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-07T13:13:54.140058+00:00",
+  "unique_prompts": 20,
+  "matching_unpadded_input_tokens": 20,
+  "scope": "Same20 prompts used across4 vectors; generation path differences remain."
+}
