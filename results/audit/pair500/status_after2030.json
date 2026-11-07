@@ -1,0 +1,103 @@
+{
+  "utc": "2026-11-07T11:30:32.048752+00:00",
+  "rows": [
+    {
+      "name": "PAIR 搜索控制器",
+      "pid": 2753972,
+      "gpu": "CPU",
+      "progress": "42/500",
+      "seconds_per_row": 338.99992413302726,
+      "heartbeat_age_s": 11200.9,
+      "alert": null,
+      "phase": "running",
+      "heartbeat_source": "controller stage transition, not a periodic heartbeat"
+    },
+    {
+      "name": "node01 PAIR worker",
+      "pid": 2024810,
+      "gpu": "1,2",
+      "progress": "42/500",
+      "seconds_per_row": 338.99992413302726,
+      "heartbeat_age_s": 3.5,
+      "alert": null,
+      "phase": "running"
+    },
+    {
+      "name": "第三臂 s3 网格",
+      "pid": 2031591,
+      "gpu": "node01:0",
+      "progress": " —/—",
+      "seconds_per_row": null,
+      "heartbeat_age_s": 6331.5,
+      "alert": null,
+      "phase": "complete"
+    },
+    {
+      "name": "第三臂 s4 网格",
+      "pid": 1964921,
+      "gpu": "node01:1",
+      "progress": "1.0 60/70",
+      "seconds_per_row": 16.017631077518065,
+      "heartbeat_age_s": 11106.4,
+      "alert": null,
+      "phase": "checkpoint_paused"
+    },
+    {
+      "name": "第三臂 s5 网格",
+      "pid": 1964926,
+      "gpu": "node01:2",
+      "progress": "1.0 40/70",
+      "seconds_per_row": 19.71522957982379,
+      "heartbeat_age_s": 11124.5,
+      "alert": null,
+      "phase": "checkpoint_paused"
+    },
+    {
+      "name": "WildJailbreak 官方 eval α0 分片 0",
+      "pid": 2687100,
+      "gpu": "innet:2",
+      "progress": "1000/1000",
+      "seconds_per_row": 12.749362459097057,
+      "heartbeat_age_s": 1929.2,
+      "alert": null,
+      "phase": "generation"
+    },
+    {
+      "name": "WildJailbreak 官方 eval α0 分片 1",
+      "pid": 2687099,
+      "gpu": "innet:3",
+      "progress": "1000/1000",
+      "seconds_per_row": 13.139986249386332,
+      "heartbeat_age_s": 1538.6,
+      "alert": null,
+      "phase": "generation"
+    }
+  ],
+  "queue": {
+    "utc": "2026-11-07T08:23:51.103958+00:00",
+    "pid": 2753972,
+    "phase": "running",
+    "stop_utc": "2026-11-11T15:00:00+00:00",
+    "stage_record_utc": "2026-11-07T08:23:51.103958+00:00",
+    "observed_utc": "2026-11-07T11:30:32.048752+00:00",
+    "worker_alive": true,
+    "output_age_s": 202.9
+  },
+  "node_gpu_mib": [
+    "0, 678",
+    "1, 23545",
+    "2, 17673"
+  ],
+  "full_start_utc": "2026-11-07T08:26:46Z",
+  "worker_alive": true,
+  "output_age_s": 202.9,
+  "node_gpu_processes": [
+    "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 2024810, 23508 MiB",
+    "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 2024810, 17636 MiB"
+  ],
+  "node_gpu_inventory": [
+    "0, GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 678 MiB",
+    "1, GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 23545 MiB",
+    "2, GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 17673 MiB"
+  ]
+}

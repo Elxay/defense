@@ -41,10 +41,12 @@ if acquire; then
   stage baseline_summary
   "$py" tools/handoff_20261106/wjb_eval255_sensitivity_report.py --generation-only
   cp -n "$base/public255/alpha0_generation_summary.json" "$base/public255/native_alpha0_generation_summary.json"
+  stage baseline_summary --complete
   stage zero20
   if [ ! -f "$base/public255/zero20_check.json" ]; then
     DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2 DEVICE=cuda:2 "$py" -u "$worker" zero-check alpha0
   fi
+  stage zero20 --complete
   matched=$("$py" -c 'import json; print(json.load(open("results/audit/pair500/public255/zero20_check.json"))["byte_identical"])')
   if [ "$matched" -ne 20 ]; then
     stage regenerating_zero_baseline

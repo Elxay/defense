@@ -1,0 +1,11 @@
+{
+  "baseline_lane": "native_precheck",
+  "planned": 2000,
+  "generated": 2000,
+  "v2_refused": 636,
+  "empty_after_strip": 0,
+  "decoded_retokenized_at_least_2390": 21,
+  "v2_refusal_rate": 0.318,
+  "exact_generated_token_cap": null,
+  "cap_limitation": "Historical generator saved decoded text but omitted raw token count and EOS. Re-tokenized length is a proxy."
+}

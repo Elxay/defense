@@ -1,0 +1,172 @@
+{
+  "n": 20,
+  "byte_identical": 20,
+  "cap_proxy_2x2": {
+    "proxy0_true0": 20,
+    "proxy0_true1": 0,
+    "proxy1_true0": 0,
+    "proxy1_true1": 0
+  },
+  "rows": [
+    {
+      "id": "641",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 717,
+      "old_retokenized_length": 716
+    },
+    {
+      "id": "1827",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 24,
+      "old_retokenized_length": 23
+    },
+    {
+      "id": "1244",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 12,
+      "old_retokenized_length": 11
+    },
+    {
+      "id": "630",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 974,
+      "old_retokenized_length": 973
+    },
+    {
+      "id": "993",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 734,
+      "old_retokenized_length": 733
+    },
+    {
+      "id": "1887",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 544,
+      "old_retokenized_length": 543
+    },
+    {
+      "id": "1713",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 29,
+      "old_retokenized_length": 28
+    },
+    {
+      "id": "2024",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 554,
+      "old_retokenized_length": 552
+    },
+    {
+      "id": "721",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 554,
+      "old_retokenized_length": 553
+    },
+    {
+      "id": "2170",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 777,
+      "old_retokenized_length": 776
+    },
+    {
+      "id": "1447",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 751,
+      "old_retokenized_length": 750
+    },
+    {
+      "id": "447",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 948,
+      "old_retokenized_length": 947
+    },
+    {
+      "id": "2022",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 913,
+      "old_retokenized_length": 912
+    },
+    {
+      "id": "1767",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 771,
+      "old_retokenized_length": 770
+    },
+    {
+      "id": "708",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 1075,
+      "old_retokenized_length": 1074
+    },
+    {
+      "id": "1101",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 34,
+      "old_retokenized_length": 33
+    },
+    {
+      "id": "935",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 436,
+      "old_retokenized_length": 435
+    },
+    {
+      "id": "570",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 741,
+      "old_retokenized_length": 740
+    },
+    {
+      "id": "1835",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 9,
+      "old_retokenized_length": 8
+    },
+    {
+      "id": "1181",
+      "byte_identical": true,
+      "proxy_ge2390": false,
+      "true_cap2400": false,
+      "new_tokens": 621,
+      "old_retokenized_length": 620
+    }
+  ]
+}

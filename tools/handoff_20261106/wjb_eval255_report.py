@@ -44,9 +44,38 @@ def harmful_report():
             strata[label] = {"planned": len(selected), "scored": scored, "invalid": scored - len(valid),
                             "positive": positive, "valid": len(valid),
                             "rate_among_valid": positive / len(valid) if valid else None,
+                            "no_dynamic_range": condition.name == "alpha0" and bool(valid) and positive / len(valid) < .25,
+                            "later_conditions_continue": True,
+                            "behavior_clusters_among_valid": len({g for g, _ in valid}),
                             "behavior_cluster_95ci_among_valid": cluster_interval(valid)}
         results[condition.name] = strata
+    baseline = results.get("alpha0", {})
+    for strata in results.values():
+        for name, values in strata.items():
+            rate = baseline.get(name, {}).get("rate_among_valid")
+            values["baseline_rate_among_valid"] = rate
+            values["limited_dynamic_range_lt_25pct"] = None if rate is None else rate < .25
     return results
+
+
+def paired_prefix_report():
+    mapping = load(OUT / "wjb_mapping255.json")["rows"]
+    folders = EVAL / "mapped_scores"
+    pairs = {}
+    for learned, random in zip(("old_s3", "old_s4", "old_s5", "old_s6"),
+                               ("rand0", "rand1", "rand2", "rand3"), strict=True):
+        a, b = [{p.stem: load(p)["label"] for p in (folders / name).glob("*.json")}
+                for name in (learned, random)]
+        differences = [(r["group"], a[r["id"]] - b[r["id"]]) for r in mapping
+                       if a.get(r["id"]) is not None and b.get(r["id"]) is not None]
+        if differences:
+            pairs[f"{learned}_minus_{random}"] = {
+                "n_valid_paired": len(differences), "planned_n": len(mapping),
+                "behavior_clusters": len({g for g, _ in differences}),
+                "difference": sum(v for _, v in differences) / len(differences),
+                "behavior_cluster_95ci": cluster_interval(differences),
+            }
+    return pairs
 
 
 def normalize(text):
@@ -116,6 +145,6 @@ if __name__ == "__main__":
     write(EVAL / "report.json", {
         "wildguard_available": False, "human_mapping_review_n": 0,
         "wildjailbreak_judge": "exploratory mapped-reference HarmBench ASR",
-        "wildjailbreak_harmful": harmful_report(), "public_v2": public_report(), "public_alpha0_guard3_output_filter": public_guard_report(),
+        "wildjailbreak_harmful": harmful_report(), "mapped_learned_random_prefix_pairs": paired_prefix_report(), "public_v2": public_report(), "public_alpha0_guard3_output_filter": public_guard_report(),
         "wildjailbreak_alpha0_non_asr_proxies": proxy_report(),
     })

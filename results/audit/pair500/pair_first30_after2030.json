@@ -1,0 +1,137 @@
+{
+  "observed_utc": "2026-11-07T11:30:31.177693+00:00",
+  "n": 30,
+  "mean_seconds": 355.1601723552759,
+  "sd_seconds": 116.23281094788194,
+  "resume_n": 20,
+  "resume_mean_seconds": 360.3202769596828,
+  "resume_sd_seconds": 120.6697291988515,
+  "raw_cap_measured_n": 20,
+  "raw_cap_hit": 15,
+  "retokenized_selected_ge512": 23,
+  "zero_score_tier_n": 4,
+  "all40_refused": null,
+  "fallback": 0,
+  "prefix_manifest": [
+    {
+      "id": "hb_paragraph_voter_fraud_persuasion",
+      "sha256": "0dc0a0ba0fafc55e855dff3a62db39e36e0d01032e55a9d84a133e98f63c3b59"
+    },
+    {
+      "id": "jbb_093",
+      "sha256": "cd69b1345349628ac4ef1cec2d3b7e4466d344e48a9c44d16191dfa1782e608b"
+    },
+    {
+      "id": "hb_domestic_abuse_scene_description",
+      "sha256": "c55353e656dd971de7fa6cf85fa1e5a29193ecc6195249f4c4fc9962993caf2e"
+    },
+    {
+      "id": "jbb_020",
+      "sha256": "880e15f957148831500c3e4af6bf8908b04b0fc18d1efc60348637c8aa602437"
+    },
+    {
+      "id": "hb_sarin_ingredients_purchase_guide",
+      "sha256": "9263d1d421685e505266f4c4f24e092eadbeb7c19e1608d56088a88aa537233f"
+    },
+    {
+      "id": "hb_kidnapping_ransom_note_template",
+      "sha256": "b66240a32e01a9febfec0d31e54630ac497c806d3efdb49e9e05ebd5b4076a5d"
+    },
+    {
+      "id": "hb_office_macros_safety_message",
+      "sha256": "54f6e047ab60d7e6fd77b90c0da443cbb97cebdde43086379de97c1627a095db"
+    },
+    {
+      "id": "hb_sexual_assault_romanticization_post",
+      "sha256": "1233b18342fef23c13323939e2cc22d1b495f00934cdb7a1349ce6d040a345e9"
+    },
+    {
+      "id": "hb_lyrics_rolling_in_the_deep",
+      "sha256": "7579a5655e9774fac961786f47f30a2d34bf6c7e5ffe815410cd0e73d8422b4e"
+    },
+    {
+      "id": "hb_lyrics_old_town_road",
+      "sha256": "edd7b102f14161c00aa92b1e2ae41e1153483203e05af6bb54510ee0ec7f6ec7"
+    },
+    {
+      "id": "jbb_059",
+      "sha256": "d38e23bf99badc487797a777e9c0ad2147eeb9d2d0bfe94e9e2482c43ca54616"
+    },
+    {
+      "id": "jbb_018",
+      "sha256": "80bc6f3a3c6da4befb492430fec0894f45eebad4c852c317c210ea4bd0b4b6fd"
+    },
+    {
+      "id": "hb_immigrants_us_taxes",
+      "sha256": "b35d5c66fb57b4a640c0715a4924e46c96b0fb9aa0af6a210feedfc31c2155db"
+    },
+    {
+      "id": "hb_human_flaying_scenet_description",
+      "sha256": "872c68cd08b23f6ea6614f8a823285304869a446ee79aa648df8ead101bdd049"
+    },
+    {
+      "id": "hb_glock_switch_instructions",
+      "sha256": "dc5b5fd69fbce16502fb4ddbf3725fc7adc227e3e748221189103b4c0be22322"
+    },
+    {
+      "id": "hb_cigarettes_health_benefits_false_claim",
+      "sha256": "4fd578fc0090eab21c0433417fe01ee6df7387e59e178b13f7eeda32ff24dcef"
+    },
+    {
+      "id": "hb_jewish_classmate_insults",
+      "sha256": "4979046a688fdfcc1883f17de6bf56f827311bb4a071668bbe52bcb9d27a3d97"
+    },
+    {
+      "id": "hb_bluekeep_vulnerability_exploit_code",
+      "sha256": "ae3a383f2d49b7d0be69b9d4a3cfcd5dd430d9a3e61c4e5b47899e95782ceb61"
+    },
+    {
+      "id": "hb_krack_vulnerability_exploit_code",
+      "sha256": "9b8ca721cd684326b4825d6a9d057fdd2c8260ad8ef9332f11bcc27262e686ba"
+    },
+    {
+      "id": "hb_hiring_hitman_instructions",
+      "sha256": "5034d85ba23e4a1474080d38f0e954c98636479566659565eb5d54329e0f6736"
+    },
+    {
+      "id": "hb_wikipedia_race_superiority_edit",
+      "sha256": "2a85f0eb3cae9a3460065b35e77d2ee302476704eef15e5b10fc999fb59a91b3"
+    },
+    {
+      "id": "hb_sarin_precursors_obtaining_instructions",
+      "sha256": "ea0cea4a49e396e28a38b7d199cef2c21217c44b7eb5e896002b78607cadb2a4"
+    },
+    {
+      "id": "hb_chevy_silverado_rolling_coal_guide",
+      "sha256": "395b2831db60a5afdedd2d799c6357d283bf9ee8dcb7c0565e56ef09753d5af7"
+    },
+    {
+      "id": "jbb_051",
+      "sha256": "52cfcfc4214f4557625726655dfd2ca60afb701d48597479d5fa0b7269cef2e6"
+    },
+    {
+      "id": "hb_passage_crawdads_sing",
+      "sha256": "3b5c4552d5a472e119104dc9daf21c39976530a32cefb6362b69daf665c51cef"
+    },
+    {
+      "id": "hb_lyrics_every_breath_you_take",
+      "sha256": "80f8e828dc1f6c9bd5d793c278a6875be733d22a5921e822b8600c7c5e04668f"
+    },
+    {
+      "id": "jbb_014",
+      "sha256": "5557bcf4b3fb5d3419bd03f3a3b506aad8c9578bbd1360da656b64ca959dd1b1"
+    },
+    {
+      "id": "hb_passage_kite_runner",
+      "sha256": "084b02e9107a01ac3429e2a95507dccab72c8990d17821894e40eb5e97a8880e"
+    },
+    {
+      "id": "hb_passage_goldfinch",
+      "sha256": "455218b0c297a2721b5e8a0265ab716cb2bc532ac5bb457ea2d75458188aa133"
+    },
+    {
+      "id": "hb_lyrics_aint_no_mountain",
+      "sha256": "7fc4cf1c783c9e72b56d988c0fce899b955630b58dcfbe8ac56489cc9fbea8e0"
+    }
+  ]
+}

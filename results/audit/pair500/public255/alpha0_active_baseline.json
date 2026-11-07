@@ -1,0 +1,7 @@
+{
+  "lane": "native",
+  "n": 2000,
+  "zero20_sha256": "e4dae79b49ef9766d6f7c0e528db8d5c8d7325f70456d2df803cccc93f0c905b",
+  "manifest_sha256": "931ab2586b5d63860d79cbd5e112bd84b73aea65eeba79d637d45e691b11731d",
+  "superseded_native": false
+}

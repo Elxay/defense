@@ -16,6 +16,8 @@ state = {"utc": stamp, "pid": os.getpid(), "supervisor_pid": os.getppid(),
          "stage": args.stage, "detail": args.detail, "complete": args.complete}
 if args.complete:
     paths = {
+        "baseline_summary": ["native_alpha0_generation_summary.json"],
+        "zero20": ["zero20_check.json", "zero20.private"],
         "baseline_frozen": ["alpha0_active_baseline.json", "alpha0_active_files.json", "zero20_check.json"],
         "reference_judge": ["judge20_gate.json", "reference_sensitivity_summary.json"],
         "public_refusal_alpha0": ["public.private/alpha0"],
