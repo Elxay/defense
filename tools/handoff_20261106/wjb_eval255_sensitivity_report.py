@@ -73,5 +73,10 @@ def baseline_generation():
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--generation-only", action="store_true")
+    args = parser.parse_args()
     write(EVAL / "alpha0_generation_summary.json", baseline_generation())
-    write(EVAL / "reference_sensitivity_summary.json", sensitivity())
+    if not args.generation_only:
+        write(EVAL / "reference_sensitivity_summary.json", sensitivity())
