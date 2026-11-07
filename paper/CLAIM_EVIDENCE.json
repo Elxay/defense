@@ -196,6 +196,24 @@
         "file": "results/audit/pair500/existing_evaluation_stratified.json",
         "sha256": "b2d9c0dd7034ca4147d4d6765d701e5822cc952006fae631e6f59c233168f69d"
       }
+    ],
+    "U_pair500_same_host_transfer_protocol": [
+      {
+        "file": "docs/254_PAIR500_EVAL_ADDENDUM.md",
+        "sha256": "5a882d3aa9983600d2860982d9b91aa9eeb20c3872591e0b69c05b03a1a7a0d0"
+      },
+      {
+        "file": "paper/data/dataset_scope.csv",
+        "sha256": "f908a42e159e911220fdd2de7d45eb8299e421233db5bd30b70d3bf4ac07dce3"
+      },
+      {
+        "file": "results/audit/pair500/public_data_inventory.json",
+        "sha256": "cd493d721b297d6e91a7b3da404805a46f135effe49a9332af647ddc4715805a"
+      },
+      {
+        "file": "results/audit/pair500/chronology_verified.json",
+        "sha256": "4c4d8edc6f5430c8ca710a16c1a1a1bae3fb055d6380a6e0450a4ee0f5fc156d"
+      }
     ]
   },
   "source_text_hashes": {
@@ -203,9 +221,9 @@
     "paper/references.bib": "a54e2e0a4e0219ab7764a00d68074ff0635f68de3e70a21c4b54a50913f1e0c3",
     "paper/sections/01_introduction.tex": "710af17c7cfc2121a71ef8a9ecc5489cfbc3f43f0a62fa5a2f2d829b42bfaac1",
     "paper/sections/02_related_work.tex": "8275823fd2a9e1203fc77f7134973f6c8a58151a08455a7f9c869fd28b01dabd",
-    "paper/sections/03_setup.tex": "5c754d9b40c5f234b1e2b86491c425cd4be3077ca6da82d01ab0580c89ca9a34",
-    "paper/sections/04_results.tex": "66e5fdc1a4b60a0a42926d11c0eb89000356627f0dbfa4044d6f25d6db8ebcba",
-    "paper/sections/05_traps.tex": "3c5577fed5be8aa6d68df9061e5f86e6ca800b871fd0e6dd7fe1a73853d8c290",
-    "paper/sections/06_limitations.tex": "249968d846773a07dfb8b5a20752d1e865eed6d637ca7e2359d0f3f0d0c56a6d"
+    "paper/sections/03_setup.tex": "8102712e44633925cecd5b42829cceeb3b78fcda9034870f5b8b4476d355bb0a",
+    "paper/sections/04_results.tex": "89a98f4814cfecadd343b8753b214ee90c241072ff805f8ca5e2a8d81fadd547",
+    "paper/sections/05_traps.tex": "364b4f8ca88893b955d769c4013ccf2f5b8ee5496dff54241cdc992209d0aa4f",
+    "paper/sections/06_limitations.tex": "d7b2bcf22165284ef32c832138d73483f47e22ccee780c00fffd8fd7d9dce82a"
   }
 }

@@ -35,5 +35,10 @@
     "card_mapping.csv": "a4c6745329927208607e4a4cb36bf40e61546ed333092d944a5d721231bcb3f0",
     "zero_line.csv": "db83822e0cff605f079364ecc6b9b051d65465cb2561ff8b20ab6a90729e164e",
     "style_alpha_grid.csv": "9ec97b350a403b88bd71778c270a4901d08b352eeffc92e31c73ffa280ee5a78"
+  },
+  "dataset_scope": {
+    "rows_sha256": "98af5f8a5f3ba62bedf557110ef5b8993e3be437d4dc7796acbb8447fb7831d4",
+    "csv_sha256": "f908a42e159e911220fdd2de7d45eb8299e421233db5bd30b70d3bf4ac07dce3",
+    "table_sha256": "a9aa9a2d00f6b0330f9a8a547fddfa1fd57b6a8d81188ebf9429fba74a5a514b"
   }
 }

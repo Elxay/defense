@@ -1,0 +1,9 @@
+scope,rows,groups,untouched,evaluator
+HarmBench total,400,391,215,Mixed
+HarmBench standard,200,200,53,13B standard
+HarmBench contextual,100,93,73,13B contextual
+HarmBench copyright,100,98,89,MinHash
+JBB-Behaviors harmful,100,100,13,13B standard
+All text behaviors,500,479,228,Mixed
+Standard + JBB auxiliary,66,64,66,13B standard
+Contextual + copyright auxiliary,162,155,162,13B / MinHash

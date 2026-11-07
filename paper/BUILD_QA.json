@@ -1,13 +1,13 @@
 {
-  "utc": "2026-11-07T05:46:50.557194+00:00",
+  "utc": "2026-11-07T07:38:38.913237+00:00",
   "compiler": "Tectonic0.17.0",
   "official_acl_commit": "d5adc823ff0f80f98c80405ca0ab66c68e684409",
-  "pages": 7,
+  "pages": 8,
   "tables_generated_from_CSV": 6,
   "sections": 6,
   "unresolved_citations": 0,
   "overfull_boxes": 0,
-  "visual_review": "Final seven rendered pages inspected; title, abstract, tables, limitations, references and appendix checked; no clipping or overlap.",
-  "pdf_sha256": "43965b7ec49b3a7206d7ed19ddb5eb53b8edba852c88cbc9ad48e585d7c7f533",
-  "source_snapshot": "Verified text-only scope sentence in setup; rendered all 7 pages."
+  "visual_review": "All eight rendered pages inspected, including dataset table and reference pagination.",
+  "pdf_sha256": "dee457ab8c7b1d57b793250eadf5754190f7c13b69d499f29388193a2decd468",
+  "source_snapshot": "Dataset scope table, row-retaining strata, and transfer chronology."
 }

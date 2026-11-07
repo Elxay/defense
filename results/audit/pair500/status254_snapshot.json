@@ -1,0 +1,93 @@
+{
+  "utc": "2026-11-07T07:38:39.625107+00:00",
+  "rows": [
+    {
+      "name": "PAIR 搜索控制器",
+      "pid": 2700711,
+      "gpu": "CPU",
+      "progress": "10/500",
+      "seconds_per_row": 344.8399631464621,
+      "heartbeat_age_s": 16.0,
+      "alert": null,
+      "phase": "waiting_existing_evaluations"
+    },
+    {
+      "name": "node01 PAIR worker",
+      "pid": 1921216,
+      "gpu": "1,2",
+      "progress": "10/500",
+      "seconds_per_row": 344.8399631464621,
+      "heartbeat_age_s": 3682.6,
+      "alert": null,
+      "phase": "complete"
+    },
+    {
+      "name": "第三臂 s3 网格",
+      "pid": 1969878,
+      "gpu": "node01:0",
+      "progress": "0.5 3/70",
+      "seconds_per_row": 25.82550567869718,
+      "heartbeat_age_s": 0.5,
+      "alert": null,
+      "phase": "val70"
+    },
+    {
+      "name": "第三臂 s4 网格",
+      "pid": 1964921,
+      "gpu": "node01:1",
+      "progress": "0.5 400/400",
+      "seconds_per_row": 0.9809552681451896,
+      "heartbeat_age_s": 31.9,
+      "alert": null,
+      "phase": "legal400"
+    },
+    {
+      "name": "第三臂 s5 网格",
+      "pid": 1964926,
+      "gpu": "node01:2",
+      "progress": "0.5 272/400",
+      "seconds_per_row": 0.9915299769559437,
+      "heartbeat_age_s": 7.2,
+      "alert": null,
+      "phase": "legal400"
+    },
+    {
+      "name": "WildJailbreak 官方 eval α0 分片 0",
+      "pid": 2687100,
+      "gpu": "innet:2",
+      "progress": "68/1000",
+      "seconds_per_row": 11.198359674986397,
+      "heartbeat_age_s": 4.7,
+      "alert": null,
+      "phase": "generation"
+    },
+    {
+      "name": "WildJailbreak 官方 eval α0 分片 1",
+      "pid": 2687099,
+      "gpu": "innet:3",
+      "progress": "65/1000",
+      "seconds_per_row": 11.651685683436405,
+      "heartbeat_age_s": 8.8,
+      "alert": null,
+      "phase": "generation"
+    }
+  ],
+  "queue": {
+    "utc": "2026-11-07T07:38:23.637905+00:00",
+    "pid": 2700711,
+    "phase": "waiting_existing_evaluations",
+    "plain_phase": "plainN5_generating_grid",
+    "node_phases": {
+      "handoff_round11/noise_B_launcher_live.json": "complete",
+      "handoff_round12/same_alpha_s3_launcher_live.json": "waiting_gpu_lease",
+      "handoff_round12/same_alpha_s5_launcher_live.json": "waiting_gpu_lease"
+    },
+    "stop_utc": "2026-11-11T15:00:00+00:00"
+  },
+  "node_gpu_mib": [
+    "0, 17906",
+    "1, 17187",
+    "2, 17255"
+  ],
+  "full_start_utc": null
+}
