@@ -45,7 +45,9 @@ def main():
     deadline = datetime.datetime.fromisoformat(load(OUT / "eval254_config.json")["search_stop_utc"])
     previous = OUT / "recovery_live.json"
     attempts = load(previous).get("attempts", load(previous).get("attempt", 0)) if previous.exists() else 0
-    before = None
+    pending = OUT / "recovery_audit" / f"attempt{attempts}_before.json"
+    after_path = OUT / "recovery_audit" / f"attempt{attempts}_after.json"
+    before = load(pending)["files"] if pending.exists() and not after_path.exists() else None
     with (OUT / "recovery_watch.lock").open("a") as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         while utc() < deadline:

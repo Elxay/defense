@@ -69,6 +69,7 @@ def baseline_text(record):
 
 def activate_baseline():
     plan = load(PLAN)
+    assert len(plan["ids"]) == len(set(plan["ids"])) == 2000
     check_path = EVAL / "zero20_check.json"
     check = load(check_path)
     lane = "native" if check["byte_identical"] == 20 else "zero_regenerated"
