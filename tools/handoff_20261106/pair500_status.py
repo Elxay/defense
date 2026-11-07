@@ -1,4 +1,4 @@
-"""Status table for the frozen PAIR-style search and its predecessor evaluations."""
+"""Status table for the PAIR search and the checkpointed competing work."""
 import datetime
 import json
 import subprocess
@@ -17,6 +17,8 @@ r=a/'pair500'
 out={}
 for p in [r/'generation_live.json',a/'handoff_round11/noise_B_launcher_live.json',a/'handoff_round12/same_alpha_s3_launcher_live.json',a/'handoff_round12/same_alpha_s5_launcher_live.json',*(a/f'handoff_round11/generate_grid_s{s}_live.json' for s in (3,4,5))]:
  if p.exists():out[p.stem]=json.loads(p.read_text())
+handoff=r/'priority_checkpoint_handoff.json'
+out['paused_grid']=json.loads(handoff.read_text()) if handoff.exists() else {}
 out['full_start_utc']=(r/'full_start_utc').read_text().strip() if (r/'full_start_utc').exists() else None
 times=[]
 for p in (r/'generations.private').glob('*.json'):
@@ -50,8 +52,13 @@ def main():
     for seed in (3,4,5):
         x=node.get(f"generate_grid_s{seed}_live")
         if x:
+            pause = node["paused_grid"].get(str(seed))
+            paused = pause is not None and pause["pid"] == x["pid"]
+            if paused:
+                x = {**x, "phase": "checkpoint_paused", "n": pause["checkpoint_n"]}
             add(f"第三臂 s{seed} 网格",x,f"node01:{x['physical_gpu']}",
-                f"{x.get('alpha','')} {x.get('n','—')}/{x.get('total','—')}",x.get("seconds_per_item"),x["phase"]!="complete")
+                f"{x.get('alpha','')} {x.get('n','—')}/{x.get('total','—')}",
+                x.get("seconds_per_item"), not paused and x["phase"]!="complete")
     for shard in (0,1):
         p=OUT/f"public_wjb_gen{shard}_live.json"
         if p.exists():
