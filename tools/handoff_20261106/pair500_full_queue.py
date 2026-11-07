@@ -47,7 +47,9 @@ if [ "$seconds" -le 0 ]; then exit 124; fi
 export DEVICE=cuda:1 CUDA_VISIBLE_DEVICES=1,2
 export HF_HUB_OFFLINE=1 USE_TF=0 USE_FLAX=0 TOKENIZERS_PARALLELISM=false
 target=/data/ray/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659
-date -u +%Y-%m-%dT%H:%M:%SZ > results/audit/pair500/full_start_utc
+if [ ! -f results/audit/pair500/full_start_utc ]; then
+  date -u +%Y-%m-%dT%H:%M:%SZ > results/audit/pair500/full_start_utc
+fi
 launch_job timeout --foreground --kill-after=20s "$seconds" /data/ray/env/bin/python -u tools/handoff_20261106/pair500_search_telemetry.py --root /home/dell/Def --attacker /data/ray/pair500_models/qwen3_8b --target "$target" --limit 500
 '''
     pulse("node_waiting_leases_or_running", stop_utc=deadline.isoformat())

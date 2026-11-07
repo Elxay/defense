@@ -34,6 +34,7 @@ score() {
 }
 if acquire; then
   "$py" tools/handoff_20261106/wjb_eval255_sensitivity_report.py --generation-only
+  DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2 DEVICE=cuda:2 "$py" -u "$worker" zero-check alpha0
   DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2,3 DEVICE=cuda:2 "$py" -u "$worker" sensitivity alpha0
   "$py" tools/handoff_20261106/wjb_eval255_sensitivity_report.py
   release

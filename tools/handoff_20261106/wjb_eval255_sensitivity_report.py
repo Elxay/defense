@@ -65,7 +65,7 @@ def baseline_generation():
         text = row["text"]
         counts["v2_refused"] += new_rule(text)
         counts["empty_after_strip"] += not text.strip()
-        counts["decoded_retokenized_at_least_2400"] += len(tok.encode(text, add_special_tokens=False)) >= 2400
+        counts["decoded_retokenized_at_least_2390"] += len(tok.encode(text, add_special_tokens=False)) >= 2390
     return {"planned": 2000, "generated": len(available), **dict(counts),
             "v2_refusal_rate": counts["v2_refused"] / len(available),
             "exact_generated_token_cap": None,

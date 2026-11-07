@@ -4,6 +4,8 @@ import collections
 import datetime
 import json
 import os
+import socket
+import hashlib
 import sys
 import time
 from pathlib import Path
@@ -72,6 +74,9 @@ def generate(kind, name, shard, config):
         plan = load(PLAN)
         data = harmful_rows(plan)
         datasets = [("wildjailbreak_harmful", [(k, data[k]) for k in plan["ids"][shard::2]])]
+    if kind == "harmful":
+        check = load(EVAL / "zero20_check.json")
+        assert check["n"] == check["byte_identical"] == 20
     start = time.monotonic()
     n_new = 0
     total = sum(len(rows) for _, rows in datasets) if kind == "harmful" else sum(
@@ -120,17 +125,19 @@ def generate(kind, name, shard, config):
                     {"role": "user", "content": batch[0][1]}]
                 ids = tok.apply_chat_template(messages, add_generation_prompt=True,
                                               return_tensors="pt").to("cuda:0")
-                if vec is None:
-                    with torch.inference_mode():
-                        result = model.generate(ids, max_new_tokens=2400, do_sample=False,
-                                                pad_token_id=tok.eos_token_id)
-                    texts = [tok.decode(result[0, ids.shape[1]:], skip_special_tokens=True)]
-                else:
-                    texts = [generate_with_injection(model, tok, ids, vec, layer=9,
-                                                     max_new_tokens=2400)["text"]]
-            write(out, {"signature": signature, "items": [
+                runtime = np.zeros(4096, dtype=np.float32) if vec is None else vec
+                result = generate_with_injection(
+                    model, tok, ids, runtime, layer=9, max_new_tokens=2400, device="cuda:0",
+                    src_vec_sha256=spec.get("file_sha256"), alpha=spec["alpha"])
+                result.update(host=socket.gethostname(), physical_device=os.environ["DEVICE"],
+                              rho_runtime=float(np.linalg.norm(runtime)))
+                texts = [result["text"]]
+            record = {"signature": signature, "items": [
                 {"id": key, "text": text, "v2_refusal": new_rule(text)}
-                for (key, _), text in zip(batch, texts, strict=True)]})
+                for (key, _), text in zip(batch, texts, strict=True)]}
+            if kind == "harmful":
+                record["generation"] = result
+            write(out, record)
             n_new += len(batch)
             pulse(kind, n_new, total, start, name, shard)
 
@@ -252,9 +259,45 @@ def guard_public(config):
             write(dest, {"signature": sig, "items": items})
 
 
+def zero_check(config):
+    import torch
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+    from gen.common import generate_with_injection
+
+    require_cards()
+    keys = (OUT / "wjb_alpha0_zero20_ids.txt").read_text().splitlines()
+    assert len(keys) == len(set(keys)) == 20
+    data = harmful_rows(load(PLAN))
+    tok = AutoTokenizer.from_pretrained(LLAMA, local_files_only=True)
+    mdl = AutoModelForCausalLM.from_pretrained(
+        LLAMA, torch_dtype=torch.bfloat16, device_map={"": "cuda:0"}, local_files_only=True,
+    ).eval()
+    rows = []
+    for key in keys:
+        ids = tok.apply_chat_template([{"role": "user", "content": data[key]}],
+                                     add_generation_prompt=True, return_tensors="pt").to("cuda:0")
+        vector = np.zeros(4096, dtype=np.float32)
+        result = generate_with_injection(mdl, tok, ids, vector, layer=9, max_new_tokens=2400, alpha=0.0)
+        result.update(host=socket.gethostname(), physical_device=os.environ["DEVICE"], rho_runtime=0.0)
+        old = load(OUT / "public_wjb_a0.private" / f"{key}.json")
+        assert old["plan_sha256"] == digest(PLAN)
+        write(EVAL / "zero20.private" / f"{key}.json", result)
+        proxy = len(tok.encode(old["text"], add_special_tokens=False)) >= 2390
+        truth = result["new_tokens"] >= 2400
+        rows.append({"id": key, "byte_identical": old["text"].encode() == result["text"].encode(),
+                     "proxy_ge2390": proxy, "true_cap2400": truth,
+                     "new_tokens": result["new_tokens"],
+                     "old_retokenized_length": len(tok.encode(old["text"], add_special_tokens=False))})
+    matrix = {f"proxy{int(p)}_true{int(t)}": sum(r["proxy_ge2390"] == p and r["true_cap2400"] == t for r in rows)
+              for p in (False, True) for t in (False, True)}
+    summary = {"n": 20, "byte_identical": sum(r["byte_identical"] for r in rows), "cap_proxy_2x2": matrix, "rows": rows}
+    write(EVAL / "zero20_check.json", summary)
+    assert summary["byte_identical"] == 20, "Zero-path byte gate failed"
+
+
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("stage", choices=("public", "harmful", "score", "guard-public", "sensitivity"))
+    p.add_argument("stage", choices=("public", "harmful", "score", "guard-public", "sensitivity", "zero-check"))
     p.add_argument("conditions", nargs="+")
     p.add_argument("--shard", type=int, choices=(0, 1), default=0)
     args = p.parse_args()
@@ -264,6 +307,8 @@ def main():
     assert digest(PROTOCOL) == "a12cf4a86ce1d80deb6b1ee89533ba4b9410215574ca1a21d8cafa35e984b5df"
     if args.stage == "score":
         score(args.conditions, config)
+    elif args.stage == "zero-check":
+        zero_check(config)
     elif args.stage == "sensitivity":
         assert args.conditions == ["alpha0"]
         score(args.conditions, config, sensitivity=True)
