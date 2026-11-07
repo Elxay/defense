@@ -45,6 +45,12 @@ for name in old_s3 old_s4 old_s5 old_s6 old_s7 rand0 rand1 rand2 rand3; do
   release
   report
 done
+acquire || exit 0
+stage public_single80_check
+if [ ! -f "$base/public255/public_single80_results.json" ]; then
+  DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2 DEVICE=cuda:2 "$py" -u tools/handoff_20261106/public_single80_check.py
+fi
+release
 NOGPU=1 launch_job python3 tools/handoff_20261106/verify_public_first_resume.py
 for name in old_s3 rand0 old_s4 rand1 old_s5 rand2 old_s6 rand3 old_s7 old_s0 SYS_A SYS_B; do
   acquire || break

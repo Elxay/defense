@@ -152,6 +152,8 @@ def generate(kind, name, shard, config):
             cached = EVAL / f"{kind}.private" / name / dataset / f"{batch[0][0]}.json"
             if cached.exists():
                 initial += len(batch)
+    if initial == total:
+        return
     tok = AutoTokenizer.from_pretrained(LLAMA, local_files_only=True)
     model = AutoModelForCausalLM.from_pretrained(
         LLAMA, torch_dtype=torch.bfloat16, device_map={"": "cuda:0"}, local_files_only=True,

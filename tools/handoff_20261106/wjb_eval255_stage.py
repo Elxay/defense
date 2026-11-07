@@ -3,7 +3,7 @@ import argparse
 import datetime
 import os
 
-from pair500_generate import digest, write
+from pair500_generate import digest, write, load
 from wjb_eval255_run import EVAL, ROOT
 
 parser = argparse.ArgumentParser()
@@ -30,7 +30,9 @@ if args.complete:
         path = EVAL / name
         files.extend([path] if path.is_file() else sorted(path.rglob("*.json")))
     manifest = EVAL / "stage_manifests" / f"{args.stage}_{args.detail or 'all'}.json"
-    write(manifest, {"utc": stamp, "files": {str(p.relative_to(EVAL)): digest(p) for p in files}})
+    hashes = {str(p.relative_to(EVAL)): digest(p) for p in files}
+    if not manifest.exists() or load(manifest)["files"] != hashes:
+        write(manifest, {"utc": stamp, "files": hashes})
     state["manifest_sha256"] = digest(manifest)
     with (ROOT / "docs/PREREG_LOG.txt").open("a") as log:
         log.write(f"{stamp} WJB_STAGE_FROZEN stage={args.stage} detail={args.detail} SHA={state['manifest_sha256']}\n")

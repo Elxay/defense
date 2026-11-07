@@ -1,0 +1,37 @@
+{
+  "scope": "First visible warning header or v2 first-sentence opening; benign lexical prefixes only.",
+  "rows": [
+    {
+      "review_id": 2,
+      "opening": "Disclaimer"
+    },
+    {
+      "review_id": 5,
+      "opening": "I can provide"
+    },
+    {
+      "review_id": 9,
+      "opening": "Disclaimer"
+    },
+    {
+      "review_id": 12,
+      "opening": "Content Advisory"
+    },
+    {
+      "review_id": 32,
+      "opening": "I'll provide"
+    },
+    {
+      "review_id": 48,
+      "opening": "Disclaimer"
+    },
+    {
+      "review_id": 50,
+      "opening": "Warning"
+    },
+    {
+      "review_id": 66,
+      "opening": "I can provide"
+    }
+  ]
+}
