@@ -258,3 +258,8 @@
 2026-11-07T14:50:45.437400+00:00 WJB_STAGE_FROZEN stage=harmful_judge detail=old_s3 SHA=66dbec040c2551c840d60c68a3cbb017859b32bc3726798f47deb22161a5ec66
 2026-11-07T15:00:00.124931+00:00 ROUND12_ACTUAL_UNIFIED_PRIMARY_EFFECT_READ: first full aggregation of held-out paired DD and WJB harmful guard. Prior controller EFFECT_READ entry records scoring readiness only.
 2026-11-07T15:00:00.872991+00:00 RETRAINED_STYLE_FINAL_ALL5 primary_success=True mean=3.835616438356164 CI=[0.8834233665981732, 6.787809510114155] doc273SHA=03c3aae22d960c44335ebfe9f2e7544283a6f94ee4fa1b5039db7547836e8e82
+2026-11-07T18:31:34.146946+00:00 WJB_STAGE_FROZEN stage=harmful_generation detail=rand0 SHA=175acc60ea3ed8501252218647c2b03337168f12e526b68a84e0aa1ce283d92c
+2026-11-07T18:36:48.829198+00:00 WJB_STAGE_FROZEN stage=harmful_judge detail=rand0 SHA=bccdbaa65abd053305e89d196752fa0e3f196594ad0eae93ae77a9b5ec8e0b22
+2026-11-07T18:39:07.169944+00:00 PUBLIC_ZERO20_COMPLETE SHA=918a7b22878234538bf34d5aecb3ca9124a9d14859dbdaf322b4cf638a841334 n=20 batch_single=8 zero_none=20
+2026-11-07T18:40:19.969269+00:00 SEED3B_NOISE_FIRST_COMPLETE_EFFECT_READ samealpha1 A/B all300harm600pairs+sameHFjudge complete; additionalreference notreplacementA, before calculatingDDnoise.
+2026-11-07T18:40:19.969269+00:00 SEED3B_NOISE_COMPLETE floor=0.3424657534246575 interpretation=one observed repeat below1pp; not proof of criterion validity; no maincriterion revision.

@@ -23,3 +23,6 @@
 结果JSON SHA256=343bfcb7a6720c503a9e8e5ccc0ac781450c6042ebf8bd273a8a640338e49bc4
 alpha匹配表 SHA256=2490760d890a7a1a042dae4eede5f2197188c5e0cfe9bf7de6971473001771a9
 追加2 SHA256=493094393b6f2294498c3cf01a449f2b7557f23784530f9e8e002066f56e1896
+
+
+附加同seed噪声参照（不改原数值判据）：|DD_B−DD_A|=0.3424657534246575pp；one observed repeat below1pp; not proof of criterion validity。来源279，结果SHA=8fdafc5c1c5b29bb8bd7826d1d85ecb8c4f979f64b73e6e07b0c64f59aaa0ff0。
