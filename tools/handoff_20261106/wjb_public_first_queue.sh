@@ -45,6 +45,7 @@ for name in old_s3 old_s4 old_s5 old_s6 old_s7 rand0 rand1 rand2 rand3; do
   release
   report
 done
+NOGPU=1 launch_job python3 tools/handoff_20261106/verify_public_first_resume.py
 for name in old_s3 rand0 old_s4 rand1 old_s5 rand2 old_s6 rand3 old_s7 old_s0 SYS_A SYS_B; do
   acquire || break
   stage harmful_generation --detail "$name"

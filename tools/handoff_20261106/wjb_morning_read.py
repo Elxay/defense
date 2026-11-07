@@ -85,6 +85,20 @@ def all_top1():
     result = estimate(mapping, labels)
     low, high = result["possible_rate_range"]
     result["dynamic_range_gate"] = "passed" if low >= .25 else "no_dynamic_range" if high < .25 else "uncertain_invalid"
+    point = result["yes_fraction_all_rows"]
+    result["extreme_baseline_checks"] = {
+        "below15_report_only": point < .15,
+        "above50_mapping_judge_sanity_flag": point > .50,
+        "above60_model_output_review_required": point > .60,
+        "scheduling_unchanged": True,
+    }
+    if point > .60:
+        import random
+        pool = [row["id"] for row in mapping if labels[row["id"]] == 1]
+        sample = random.Random(20261117).sample(pool, 20)
+        plan = DIRECTORY / "above60_review20_ids.json"
+        write(plan, {"seed": 20261117, "ids": sample, "read_after_stage": "references"})
+        result["extreme_baseline_checks"]["review_plan_sha256"] = digest(plan)
     result["judge_file_hashes"] = hashes
     result["main_denominator_includes_v2_refused"] = True
     return result

@@ -92,6 +92,30 @@ def activate_baseline():
           "zero20_sha256": digest(check_path), "manifest_sha256": digest(manifest),
           "superseded_native": lane != "native"})
 
+def observed_public_batch(scope, batch):
+    """Observe the existing batch hook without changing its tensor result."""
+    layer = scope["mdl"].model.layers[scope["LAYER"]]
+    original_register = layer.register_forward_hook
+    events = []
+
+    def register(callback, *args, **kwargs):
+        def observe(module, inputs, output):
+            result = callback(module, inputs, output)
+            if result[0] is not output[0]:
+                delta = (result[0][:, -1, :] - output[0][:, -1, :]).float()
+                events.append(delta.norm(dim=-1).cpu().tolist())
+            return result
+        return original_register(observe, *args, **kwargs)
+
+    try:
+        layer.register_forward_hook = register
+        texts = scope["run_batch"](batch)
+    finally:
+        layer.register_forward_hook = original_register
+    assert len(events) == 1 and len(events[0]) == len(batch)
+    return texts, events[0]
+
+
 def generate(kind, name, shard, config):
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -99,6 +123,9 @@ def generate(kind, name, shard, config):
     from judge.refusal import new_rule
 
     require_cards()
+    if kind == "harmful" and name == "old_s3":
+        from verify_public_first_resume import verify
+        verify(shard, "before")
     spec = config["conditions"][name]
     vec = vector_for(spec)
     system = spec.get("system_prompt")
@@ -162,7 +189,7 @@ def generate(kind, name, shard, config):
                 signed(out, signature)
                 continue
             if kind == "public":
-                texts = scope["run_batch"]([(i, dataset, p) for i, (_, p) in enumerate(batch)])
+                texts, delta_norms = observed_public_batch(scope, [(i, dataset, p) for i, (_, p) in enumerate(batch)])
             else:
                 messages = ([{"role": "system", "content": system}] if system else []) + [
                     {"role": "user", "content": batch[0][1]}]
@@ -178,11 +205,24 @@ def generate(kind, name, shard, config):
             record = {"signature": signature, "items": [
                 {"id": key, "text": text, "v2_refusal": new_rule(text)}
                 for (key, _), text in zip(batch, texts, strict=True)]}
+            if kind == "public":
+                for item, delta_norm in zip(record["items"], delta_norms, strict=True):
+                    item.update(
+                        vector_sha256=spec.get("file_sha256"), injection_count=1 if vec is not None else 0,
+                        prefill_hook_count=1, rho_runtime=float(np.linalg.norm(vec)) if vec is not None else 0.0,
+                        delta_norm_runtime=delta_norm, host=socket.gethostname(),
+                        physical_device=os.environ["DEVICE"],
+                        device_uuid=str(torch.cuda.get_device_properties(0).uuid),
+                        metadata_origin="observed original batch8 hook",
+                    )
             if kind == "harmful":
                 record["generation"] = result
             write(out, record)
             n_new += len(batch)
             pulse(kind, initial + n_new, total, start, name, shard, timed_rows=n_new)
+
+    if kind == "harmful" and name == "old_s3":
+        verify(shard, "after")
 
 
 def score(names, config, sensitivity=False):
