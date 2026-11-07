@@ -1,0 +1,17 @@
+{
+  "observed_pair_discordances": 0,
+  "pair_n": 80,
+  "prompt_clusters": 20,
+  "prompt_any_flip_count": 0,
+  "prompt_any_flip_exact95": [
+    0,
+    0.16843347098308536
+  ],
+  "prompt_any_flip_wilson95": [
+    0,
+    0.16112515805281938
+  ],
+  "interpretation": "Interval concerns the probability that a prompt has at least one v2 change among four fixed vectors. It is a conservative bound, not an exact CI for the 80-row mean. Conditional on GPU2, original batch compositions, 120 tokens and the fixed sample design.",
+  "byte_identical": 44,
+  "independent_prompt_assumption": "Uniform sample without replacement from the GPU2 public-row pool; correlation beyond sampled row identities is not measured."
+}
