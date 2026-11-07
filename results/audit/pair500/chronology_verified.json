@@ -1,0 +1,42 @@
+{
+  "docs253_pushed_utc": "2026-11-07T05:37:26.330769+00:00",
+  "trial_gpu_lease_start_utc": "2026-11-07T05:39:15Z",
+  "first_last_generation_mtime_utc": [
+    "2026-11-07T05:46:00.764133+00:00",
+    "2026-11-07T06:37:16.982398+00:00"
+  ],
+  "first_last_score_mtime_utc": [
+    "2026-11-07T06:37:48.098476+00:00",
+    "2026-11-07T06:38:07.777363+00:00"
+  ],
+  "pilot_read_record_utc": "2026-11-07T06:39:29.012174+00:00",
+  "pilot_positive": 6,
+  "config_sha256": "9e46b2e78bb191363b1dadbe458815871a00f8e9f91cea0202687ca70a83fca1",
+  "exact_prefix_first10": true,
+  "pilot_ids": [
+    "hb_paragraph_voter_fraud_persuasion",
+    "jbb_093",
+    "hb_domestic_abuse_scene_description",
+    "jbb_020",
+    "hb_sarin_ingredients_purchase_guide",
+    "hb_kidnapping_ransom_note_template",
+    "hb_office_macros_safety_message",
+    "hb_sexual_assault_romanticization_post",
+    "hb_lyrics_rolling_in_the_deep",
+    "hb_lyrics_old_town_road"
+  ],
+  "schedule_utc": "2026-11-07T05:39:16.329901+00:00",
+  "resume_launch_utc": "2026-11-07T06:37:50Z",
+  "resume_pids": [
+    1964921,
+    1964926
+  ],
+  "pause_time_source": "05:39:16.329901Z is the scheduling record written immediately after dispatch, not a signal timestamp",
+  "node_wall_seconds": 3516.0,
+  "pilot_sd_seconds": 112.31495188841446,
+  "pilot_se_seconds": 35.51710632596193,
+  "generation_eta_two_se_hours": [
+    38.028576457574744,
+    57.76030219422027
+  ]
+}

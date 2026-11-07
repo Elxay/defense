@@ -1,0 +1,193 @@
+{
+  "keep_sources": {
+    "/data/HZX/Def/results/style_intervention/old_recipe_targets.json": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+    "/data/HZX/Def/configs/keep60_ids.json": "79739bba96f014e53807b58a26a0ecd4b7079a35c630c4494184553337dfb8be"
+  },
+  "normalization": "NFKC, casefold, whitespace collapse; exact equality; no semantic overlap estimate",
+  "datasets": {
+    "XSTest_safe": {
+      "source": "/data/HZX/Def/data/public/records.jsonl",
+      "sha256": "713c5817a9fcd8d23e73276bfc19b3fb0493002dd07ba9e4f349427b3ac250af",
+      "columns": [
+        "id",
+        "text",
+        "group",
+        "label"
+      ],
+      "rows": 250,
+      "scope": "Local normalized record copy, safe only",
+      "overlap": {
+        "old_recipe_keep60": {
+          "byte_exact_rows": 12,
+          "normalized_exact_rows": 12,
+          "matched_prompt_sha256": [
+            "3b203e47c84db53b633e4a777addc60828a8701fd87497a7f56af8cf40e0e477",
+            "99d204fea34a37605b48ffb892dec568b17878ed11053d6cda4a32374dc65f6e",
+            "d6903450a1b952c3b55a756169e4b9e9540e7242b4264c2b0789c1e8c2146df6",
+            "0157c7b355219a16a56bb6fc3919bbee4debc51f5adaa25fe130a634a1817043",
+            "cbb9b02f861017c51d068aaa68ee2687715eb6d052b697983cc0eab2ce955e9b",
+            "3548fe3731c21cd9e41d4525dc2de74ffb12c334ec94c17b3447bdd643d1027c",
+            "8e2afa6fb826b28459858e28615d5e7325801a1cda13c84386d7a435f22154b2",
+            "1a1178154f08ab35b390994e71cdcd896947b75c157f7140daabfcad5013fe64",
+            "19b7a0bbb1f6e2ff5fa7abbfc8e7b8d9654e9d73b1b4d8bd515c6f2d747c6112",
+            "740e8d2671827373327a5455eb8f792edaafde1699d0813d23d7c87ad2bed453",
+            "e2d7ecc5aedd1ae2f82080053e2086688ffd27d3088fb93a1636c92f7ef1e837",
+            "af75a36e195b4e993989017124b2aac502c91d6e6ec58dc20e3805b1842c53f9"
+          ]
+        },
+        "configs_keep60_ids": {
+          "byte_exact_rows": 12,
+          "normalized_exact_rows": 12,
+          "matched_prompt_sha256": [
+            "3b203e47c84db53b633e4a777addc60828a8701fd87497a7f56af8cf40e0e477",
+            "99d204fea34a37605b48ffb892dec568b17878ed11053d6cda4a32374dc65f6e",
+            "d6903450a1b952c3b55a756169e4b9e9540e7242b4264c2b0789c1e8c2146df6",
+            "0157c7b355219a16a56bb6fc3919bbee4debc51f5adaa25fe130a634a1817043",
+            "cbb9b02f861017c51d068aaa68ee2687715eb6d052b697983cc0eab2ce955e9b",
+            "3548fe3731c21cd9e41d4525dc2de74ffb12c334ec94c17b3447bdd643d1027c",
+            "8e2afa6fb826b28459858e28615d5e7325801a1cda13c84386d7a435f22154b2",
+            "1a1178154f08ab35b390994e71cdcd896947b75c157f7140daabfcad5013fe64",
+            "19b7a0bbb1f6e2ff5fa7abbfc8e7b8d9654e9d73b1b4d8bd515c6f2d747c6112",
+            "740e8d2671827373327a5455eb8f792edaafde1699d0813d23d7c87ad2bed453",
+            "e2d7ecc5aedd1ae2f82080053e2086688ffd27d3088fb93a1636c92f7ef1e837",
+            "af75a36e195b4e993989017124b2aac502c91d6e6ec58dc20e3805b1842c53f9"
+          ]
+        }
+      }
+    },
+    "XSTest_unsafe": {
+      "source": "/data/HZX/Def/data/public/records.jsonl",
+      "sha256": "713c5817a9fcd8d23e73276bfc19b3fb0493002dd07ba9e4f349427b3ac250af",
+      "columns": [
+        "id",
+        "text",
+        "group",
+        "label"
+      ],
+      "rows": 200,
+      "scope": "Local normalized record copy, unsafe control",
+      "overlap": {
+        "old_recipe_keep60": {
+          "byte_exact_rows": 0,
+          "normalized_exact_rows": 0,
+          "matched_prompt_sha256": []
+        },
+        "configs_keep60_ids": {
+          "byte_exact_rows": 0,
+          "normalized_exact_rows": 0,
+          "matched_prompt_sha256": []
+        }
+      }
+    },
+    "OR-Bench-Hard": {
+      "source": "/data/huggingface/hub/datasets--bench-llm--or-bench/snapshots/e36d8b80e81837c8a8f264bbb2a49f1b32c7e272/or-bench-hard-1k.csv",
+      "sha256": "a6e2f1166416efe5901f3bb05c47dc92ab3aca3acfe143693d38b8057d841e6d",
+      "columns": [
+        "prompt",
+        "category"
+      ],
+      "rows": 1319,
+      "scope": "Official hard CSV",
+      "overlap": {
+        "old_recipe_keep60": {
+          "byte_exact_rows": 18,
+          "normalized_exact_rows": 18,
+          "matched_prompt_sha256": [
+            "993e22d83cd95bf1153edfe45e2f459b6f151f2cf5b35ffdde419fb0613a3e01",
+            "59fff9be180c00f68fe030ced0b0a0635274a9d9e59eb67d211bc709eb60b016",
+            "1b1b37c29050d3ece6da13943a909ef12005536af3dd7d1e16845ef5842ce65a",
+            "93bb504c39a608f7abcf7d13b649b56e440db1ae798b5f6a5fc3fbc57eb0b2ba",
+            "0e3a4d827eb77102412b2a49fe3c9d41b71fead9ebeb9ee81ca16a30539985df",
+            "a8a2aba2b3c86c1252e62fc91698547ccfb559c365766d87f84e4ec825c9c9c9",
+            "b840605a08ed1cf46b8e4c5fac8fdd2c59d5b5d0fe11e9db6cea16c96cdf1837",
+            "ede9061b916031082c233303bd577f0d6a4b73e57b29a44789f1fb6249c2e666",
+            "1b4fc5ef115f354042361773fe692418d644a170cc4869ceee3b22614cd4ed61",
+            "54a60d2991ef5e9fb6786e7126216375a71c9fb2d422c8db60687972c2644d85",
+            "346651540c5a4f839856c4fca20261845d65a2ded89555c9224e2649da9e81fb",
+            "b1e7c68d712f5318d1c6838185cdadb06ef399e19b0a7c1ae301743fd1643c8b",
+            "3e6153949c85e7721bd55ed6a59f4666f921563d327fd60ceb9d35777c06a0f5",
+            "68afb29319fc648be22972b5f6eab4b885851289824c3a29bef6d3e3043e394a",
+            "65f991379921047cbd2d43ac672afa4eccbce031d20c07c4b1264640cbdeee72",
+            "394ce1a280dbb42d4b73d6344762593397c2d872324a00fd58202b1625304579",
+            "706e7d4829ded92b637d038facb88cca42a7aa5c6278b22c89f3584f8ce91d3e",
+            "1c2c094de6ef01804a9120f0100a072417b526ed530884a7bee71df8dcec5c6a"
+          ]
+        },
+        "configs_keep60_ids": {
+          "byte_exact_rows": 18,
+          "normalized_exact_rows": 18,
+          "matched_prompt_sha256": [
+            "993e22d83cd95bf1153edfe45e2f459b6f151f2cf5b35ffdde419fb0613a3e01",
+            "59fff9be180c00f68fe030ced0b0a0635274a9d9e59eb67d211bc709eb60b016",
+            "1b1b37c29050d3ece6da13943a909ef12005536af3dd7d1e16845ef5842ce65a",
+            "93bb504c39a608f7abcf7d13b649b56e440db1ae798b5f6a5fc3fbc57eb0b2ba",
+            "0e3a4d827eb77102412b2a49fe3c9d41b71fead9ebeb9ee81ca16a30539985df",
+            "a8a2aba2b3c86c1252e62fc91698547ccfb559c365766d87f84e4ec825c9c9c9",
+            "b840605a08ed1cf46b8e4c5fac8fdd2c59d5b5d0fe11e9db6cea16c96cdf1837",
+            "ede9061b916031082c233303bd577f0d6a4b73e57b29a44789f1fb6249c2e666",
+            "1b4fc5ef115f354042361773fe692418d644a170cc4869ceee3b22614cd4ed61",
+            "54a60d2991ef5e9fb6786e7126216375a71c9fb2d422c8db60687972c2644d85",
+            "346651540c5a4f839856c4fca20261845d65a2ded89555c9224e2649da9e81fb",
+            "b1e7c68d712f5318d1c6838185cdadb06ef399e19b0a7c1ae301743fd1643c8b",
+            "3e6153949c85e7721bd55ed6a59f4666f921563d327fd60ceb9d35777c06a0f5",
+            "68afb29319fc648be22972b5f6eab4b885851289824c3a29bef6d3e3043e394a",
+            "65f991379921047cbd2d43ac672afa4eccbce031d20c07c4b1264640cbdeee72",
+            "394ce1a280dbb42d4b73d6344762593397c2d872324a00fd58202b1625304579",
+            "706e7d4829ded92b637d038facb88cca42a7aa5c6278b22c89f3584f8ce91d3e",
+            "1c2c094de6ef01804a9120f0100a072417b526ed530884a7bee71df8dcec5c6a"
+          ]
+        }
+      }
+    },
+    "WildJailbreak_eval_benign": {
+      "source": "/data/huggingface/hub/datasets--allenai--wildjailbreak/snapshots/5ddc12a7894f842b0619b8e1c7ee496b198af009/eval/eval.tsv",
+      "sha256": "eeb7e43aafa0151588f5cb8994b99adc0ee34a57819d92f43a6084f0b7fe4fa4",
+      "columns": [
+        "adversarial",
+        "label",
+        "data_type"
+      ],
+      "rows": 210,
+      "scope": "Official evaluation split",
+      "overlap": {
+        "old_recipe_keep60": {
+          "byte_exact_rows": 0,
+          "normalized_exact_rows": 0,
+          "matched_prompt_sha256": []
+        },
+        "configs_keep60_ids": {
+          "byte_exact_rows": 0,
+          "normalized_exact_rows": 0,
+          "matched_prompt_sha256": []
+        }
+      }
+    },
+    "WildJailbreak_eval_harmful": {
+      "source": "/data/huggingface/hub/datasets--allenai--wildjailbreak/snapshots/5ddc12a7894f842b0619b8e1c7ee496b198af009/eval/eval.tsv",
+      "sha256": "eeb7e43aafa0151588f5cb8994b99adc0ee34a57819d92f43a6084f0b7fe4fa4",
+      "columns": [
+        "adversarial",
+        "label",
+        "data_type"
+      ],
+      "rows": 2000,
+      "scope": "Official evaluation split",
+      "overlap": {
+        "old_recipe_keep60": {
+          "byte_exact_rows": 0,
+          "normalized_exact_rows": 0,
+          "matched_prompt_sha256": []
+        },
+        "configs_keep60_ids": {
+          "byte_exact_rows": 0,
+          "normalized_exact_rows": 0,
+          "matched_prompt_sha256": []
+        }
+      }
+    }
+  },
+  "wjb_labels": {
+    "adversarial_benign:0": 210,
+    "adversarial_harmful:1": 2000
+  }
+}

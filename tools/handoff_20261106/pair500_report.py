@@ -107,7 +107,13 @@ def attack_report(conditions):
         label: {name: summarize(rows, score) for name, score in methods.items()}
         for label, rows in sets.items()
     }
-    for label in ("all", "untouched"):
+    for label, layers in {
+        "untouched_standard_jbb": {"standard", "jbb"},
+        "untouched_contextual_copyright": {"contextual", "copyright"},
+    }.items():
+        sets[label] = [row for row in sets["untouched"] if row["layer"] in layers]
+        report[label] = {name: summarize(sets[label], score) for name, score in methods.items()}
+    for label in sets:
         report[f"{label}_behavior_weighted"] = {
             name: summarize(sets[label], score, equal_groups=True) for name, score in methods.items()
         }
