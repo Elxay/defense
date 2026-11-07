@@ -1,13 +1,13 @@
 {
-  "utc": "2026-11-07T01:05:59.464222+00:00",
+  "utc": "2026-11-07T02:23:11.853048+00:00",
   "compiler": "Tectonic0.17.0",
   "official_acl_commit": "d5adc823ff0f80f98c80405ca0ab66c68e684409",
-  "pages": 6,
+  "pages": 7,
   "tables_generated_from_CSV": 6,
   "sections": 6,
   "unresolved_citations": 0,
   "overfull_boxes": 0,
-  "visual_review": "all six page PNGs inspected; tables and final appendix checked at150%; fixed appendix float crossing references; final no clipping/overlap",
-  "pdf_sha256": "78a3d8736f42c9739630202f21adf429e2beaccdf072e86e71533e21f2ca706f",
+  "visual_review": "All seven page PNGs/contact sheet inspected; limitations/ref/reference page inspected at150%; no clipping or overlaps; page7 is short frontier appendix. Body extends into page6 with limitations; references and appendices included in total.",
+  "pdf_sha256": "4bf9b5c33266cd21ff376425261b644e6d7b16b544a5284c6d988314b8ce10e0",
   "source_snapshot": "first working English draft, intervention outcomes pending"
 }

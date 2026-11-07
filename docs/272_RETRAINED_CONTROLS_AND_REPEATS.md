@@ -91,3 +91,6 @@ results/audit/handoff_round9/doc250_posthoc_sensitivity.json SHA256=c82c15144e9c
 results/audit/handoff_round9/style_top_neighbors_final60.json SHA256=08d97e1e9462648f0cd8636bb8f744d3bf64f722b469e5262a75e19956d1f31a
 results/audit/handoff_round9/target_followup_review.json SHA256=14da7b6336424c79fd91f1cebb6189d447b43f2bf3e6a26ed8f0b13fa2dcafae
 results/audit/handoff_round9/repeat_comparison.json SHA256=98e24bf28cece9fa90d006fe36f53c4b8c01ba4b2cef82557c9b12e693955f6f
+
+
+2026-11-07更正：此前“仅A/B完全共享缓存”的文字不准确。三次现代重训（16、15、18）共享目标缓存、初始化及优化代码块；19为历史冻结。方差只作同量级描述，正文不写“约一半”。证据SHA=580fe72e40358bb46a020853c94cac2c567de798284829e343db4e09495f62e4。

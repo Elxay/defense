@@ -1,0 +1,90 @@
+{
+  "utc": "2026-11-07T02:18:53.396728+00:00",
+  "claims": {
+    "A_random_and_learned": [
+      {
+        "file": "paper/data/zero_line.csv",
+        "sha256": "db83822e0cff605f079364ecc6b9b051d65465cb2561ff8b20ab6a90729e164e"
+      },
+      {
+        "file": "stage136/keep60_seed.py",
+        "sha256": "e7dc6b09cd6f2d6b2f5702a0393c0fc812e7762acba0fde5b884fce36ef56106"
+      }
+    ],
+    "B_residual": [
+      {
+        "file": "results/audit/handoff_round3/lmi_pairs.json",
+        "sha256": "0e331cb94a13ff1a2186cbfb4c3b75e4c930c40b3894640010f23119f6900b02"
+      }
+    ],
+    "C_benign_replication_and_ranking": [
+      {
+        "file": "results/audit/handoff_round8/doc250_descriptive_stats.json",
+        "sha256": "455e18060369ce04a183342fdd6857edba6eb1ffdb5d00ad327ce2298a2bac08"
+      },
+      {
+        "file": "paper/data/c2.csv",
+        "sha256": "f4907f6ffaf6df1cebcbdb229909ff2d8c2dc2b51805af84e116e22dc5c6d4ef"
+      }
+    ],
+    "D_baseline_mismatch": [
+      {
+        "file": "results/audit/handoff_20261106/curve_reconciliation.json",
+        "sha256": "353e1e1f25748923cd9679faa5468cae670ec8b7efb496e1bcda5a4a3551678a"
+      }
+    ],
+    "E_truncation": [
+      {
+        "file": "results/audit/handoff_round8/doc246_U9_400_review.json",
+        "sha256": "e7ce0d1985c54f233f13537faa8e0433b8ace228ad1a18f98f611e708f4e93c5"
+      }
+    ],
+    "F_classifier_position_threshold": [
+      {
+        "file": "docs/257_GUARD_PROTOCOL_REPAIR.md",
+        "sha256": "bd4bbb1d469a9050ce98d5d7be5d50a893885afb9190942f58c67c57bf7d26d9"
+      },
+      {
+        "file": "docs/258_QWEN_GUARD_RESULTS.md",
+        "sha256": "2d48f64664847d4ee9b22c9411a7c52713d2185c553ce9a8af43beb3f70d2ff0"
+      }
+    ],
+    "G_training_repeat": [
+      {
+        "file": "paper/data/repeats.csv",
+        "sha256": "e2bccdc1595adf298aaa92045fa8c59dec8acba8dcb564e3de9f62de6ce4eb1e"
+      },
+      {
+        "file": "results/audit/handoff_round9/repeat_comparison.json",
+        "sha256": "98e24bf28cece9fa90d006fe36f53c4b8c01ba4b2cef82557c9b12e693955f6f"
+      },
+      {
+        "file": "results/audit/handoff_round11/three_reruns_provenance.json",
+        "sha256": "580fe72e40358bb46a020853c94cac2c567de798284829e343db4e09495f62e4"
+      }
+    ],
+    "H_scope_and_missing_evaluations": [
+      {
+        "file": "docs/236_PAPER_POSITION_v2.md",
+        "sha256": "22d16ef6bbe81099badde3d68496aa48ef9e328b90ec3bc9e15b73e56f5d32b2"
+      }
+    ],
+    "I_no_human_calibration": [
+      {
+        "file": "results/audit/handoff_round11/legal_recall_blind60_review.json",
+        "sha256": "ae90edf850e3c167f3d33ebece26bb483a8add26b80070a33fc8e42d15779e1e"
+      }
+    ],
+    "J_same_source_data_and_audit": [
+      {
+        "file": "results/audit/handoff_round10/plain_data_audit.json",
+        "sha256": "313de8389dc8c5029d15ff2b5a052de4b3f1b0b04c6577607a65ec30397a7e3c"
+      }
+    ]
+  },
+  "source_text_hashes": {
+    "paper/main.tex": "422675ab715de720fcd5f7091a869267dfeb77a07c9075fc233e295ad8d412eb",
+    "paper/sections/01_introduction.tex": "ee001b53c93d908e7900ebe57cddc879a8ce3f4c565abe1d7ce2f7d0a0e03c33",
+    "paper/sections/06_limitations.tex": "536cc4dc43e77a02c17a04ed69a9e12258ed8854b4b622be4dc8681e5728b8c6"
+  }
+}

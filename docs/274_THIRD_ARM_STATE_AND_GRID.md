@@ -82,3 +82,6 @@ results/audit/handoff_round10/verified_card_mapping.json cfae697024fe9b9f2dc0d08
 results/audit/handoff_round10/measured_eta_snapshot.json 45983104f16730fc288f4737a11ac89a20dd2bbbad70ccd6d6cd7fb685e041c6
 results/audit/handoff_round10/plain_data_audit.json 313de8389dc8c5029d15ff2b5a052de4b3f1b0b04c6577607a65ec30397a7e3c
 results/audit/handoff_round10/plain_target_gpt_followup.json 7da5566ee84cef4e3d33170f6e6361e9a6c4fbdf25850aca8b6975d97287a3af
+
+
+2026-11-07更正：此前“仅A/B完全共享缓存”的文字不准确。三次现代重训（16、15、18）共享目标缓存、初始化及优化代码块；19为历史冻结。方差只作同量级描述，正文不写“约一半”。证据SHA=580fe72e40358bb46a020853c94cac2c567de798284829e343db4e09495f62e4。

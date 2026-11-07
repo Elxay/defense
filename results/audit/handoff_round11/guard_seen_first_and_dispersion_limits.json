@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-07T02:07:49.119959+00:00",
+  "operator": "v2 already-read guard, not primary endpoint",
+  "count_difference": [
+    -7,
+    -4,
+    0,
+    -7,
+    -7
+  ],
+  "mean_delta_pp": -1.2886597938144329,
+  "seed_sd_pp": 0.7943832478052804,
+  "t95_pp": [
+    -2.2750168733904306,
+    -0.30230271423843513
+  ],
+  "interpretation": "conditional operational counts from one training perarm; not calibrated utility effect",
+  "variance_ratio_independent_F_diagnostic": [
+    0.08706897415052944,
+    7.499689754995518
+  ],
+  "F_diagnostic_invalid_as_actual_CI": "samples share frozen seed3 and are not iid same-cache replicates; illustrative only"
+}

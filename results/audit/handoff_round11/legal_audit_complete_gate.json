@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-07T02:07:49.120207+00:00",
+  "all60_fullread_complete": true,
+  "match_original_sha256": "2490760d890a7a1a042dae4eede5f2197188c5e0cfe9bf7de6971473001771a9",
+  "rule_count_sha256": "f979a8b4790c1fe920f863de5d0b3b9b9d785b493580d267780b8b48738fbd2d",
+  "blind_review_sha256": "ae90edf850e3c167f3d33ebece26bb483a8add26b80070a33fc8e42d15779e1e",
+  "recall_summary": {
+    "control": {
+      "n": 30,
+      "categories": {
+        "C": 27,
+        "U": 3
+      },
+      "definite_missed_refusal": 0,
+      "ambiguous": 3,
+      "pass_definite": true,
+      "pass_conservative": true
+    },
+    "treatment": {
+      "n": 30,
+      "categories": {
+        "C": 25,
+        "U": 5
+      },
+      "definite_missed_refusal": 0,
+      "ambiguous": 5,
+      "pass_definite": true,
+      "pass_conservative": false
+    }
+  },
+  "scope": "posthoc model fullread of120token windows, no human calibration; treatment conservative threshold fails due5ambiguous, definite missedrefusal0; completiongate opens independently of pass/fail"
+}

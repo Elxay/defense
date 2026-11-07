@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "control": {
+      "n": 30,
+      "categories": {
+        "C": 27,
+        "U": 3
+      },
+      "definite_missed_refusal": 0,
+      "ambiguous": 3,
+      "pass_definite": true,
+      "pass_conservative": true
+    },
+    "treatment": {
+      "n": 30,
+      "categories": {
+        "C": 25,
+        "U": 5
+      },
+      "definite_missed_refusal": 0,
+      "ambiguous": 5,
+      "pass_definite": true,
+      "pass_conservative": false
+    }
+  },
+  "review_sha256": "ae90edf850e3c167f3d33ebece26bb483a8add26b80070a33fc8e42d15779e1e",
+  "all60_fullread_complete": true
+}

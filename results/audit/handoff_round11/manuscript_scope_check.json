@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-07T02:18:53.398261+00:00",
+  "compiled_input_files": [
+    "paper/main.tex",
+    "paper/sections/04_results.tex",
+    "paper/sections/06_limitations.tex",
+    "paper/sections/05_traps.tex",
+    "paper/sections/01_introduction.tex",
+    "paper/sections/03_setup.tex",
+    "paper/sections/02_related_work.tex",
+    "paper/tables/zero_line.tex",
+    "paper/tables/c2.tex",
+    "paper/tables/matching.tex",
+    "paper/tables/repeats.tex",
+    "paper/tables/zero_training.tex",
+    "paper/tables/frontier_joint.tex"
+  ],
+  "no_preregistered_or_preregistration": true,
+  "external_timestamp_text": "2026-11-06 00:34 JST; earlier states server logs only",
+  "no_raw_attack_or_harmful_output_in_body": "Authoring/dataflow checked: only six section prose and numericCSV-generated tables imported; no rawdataset/model-output imports or literal-example environments.",
+  "Qwen_scope": "zero-training prompts/filter only; no trainedvector conclusion",
+  "limitations_present": [
+    "single_steering_model",
+    "success_selected_val70",
+    "missing_independent_PAIR_test",
+    "judge_not_validated_on_WJB",
+    "no_independent_human_calibration",
+    "WJB_training_and_holdout_same_source"
+  ]
+}

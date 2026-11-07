@@ -1,7 +1,7 @@
 {
   "sources": {
     "docs/254_FRONTIER_APPENDIX.md": "1dd7ebfcb451d72e859fae08f445cc76aa4dbcb6f1e529ee85a8fd91bfd04634",
-    "results/audit/handoff_round10/training_repeat_dispersion.json": "5f2348196fa7995a4db34add32596ccba63f89cea51496e55f3609321dda3f03",
+    "results/audit/handoff_round10/training_repeat_dispersion.json": "714b6f276a033a5af633eae4f584dff4d1a04991fb9ab1a93daa7a642be213c4",
     "results/audit/handoff_round10/verified_card_mapping.json": "cfae697024fe9b9f2dc0d08b45ab8b9b089ce6d73d1dddaa307affee63a707fc",
     "results/audit/handoff_round7/window_frontier_results.json": "2bb29d58ba6e6a6b4e0d795048aa37f595081855e5d15ba5fdc0156d5f098260",
     "results/audit/handoff_round8/doc250_descriptive_stats.json": "455e18060369ce04a183342fdd6857edba6eb1ffdb5d00ad327ce2298a2bac08",

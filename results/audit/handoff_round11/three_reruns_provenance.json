@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-07T02:12:47.777351+00:00",
+  "three_retrain_runs_share_targets_init_oldrecipe": true,
+  "shared": {
+    "old_targets_sha256": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+    "init_sha256": "7b3c5b8e979b38248c884f2ba7cb095d69f464a9ee886832bb4376378d323c8c",
+    "old_trainer_sha256": "e7dc6b09cd6f2d6b2f5702a0393c0fc812e7762acba0fde5b884fce36ef56106"
+  },
+  "optimizer_adapter_sha256": "742f7889cc2e97437e6ebace25772f23ec70e8f346b7ce92107e1b50c67bc780",
+  "wrappers_differ_only_operational_records_not_same_file_hash": true,
+  "metadata_sources": {
+    "results/style_intervention/fidelity_s3/metadata.json": "a42230e5fdc254ed52f313a566a80565248c7dd6e5442e0bde2fea0ff1e450e5",
+    "results/style_retrained/repeatA_s3/metadata.json": "6c6acc98fd7fd159024175c7bcd949f6d6bbf9e69b9003c4a97371ba6f1ac1cb",
+    "results/style_retrained/repeatB_s3/metadata.json": "046bbdd62a424440a589539ecf88a5521fb99a2f3e9d3e10c5241bdf94f5ac86"
+  },
+  "correction": "Earlier onlyA/Bsharecache wording was inaccurate: all three modern reruns share cache/init/optimization path; historical frozenvector predates recordedcache."
+}
