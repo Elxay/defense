@@ -4,6 +4,7 @@ import fcntl
 import datetime
 import json
 import subprocess
+from pathlib import Path
 
 from pair500_generate import digest, load, write
 from wjb_eval255_run import EVAL, OUT, ROOT, baseline_source, baseline_text
@@ -36,7 +37,14 @@ print(json.dumps({'completed':len(rows),'recent10':last,'recent_mean':statistics
     for name in ("recovery", "wjb_queue"):
         data[name]["heartbeat_age_s"] = (datetime.datetime.now(datetime.timezone.utc) -
             datetime.datetime.fromisoformat(data[name]["utc"])).total_seconds()
-    data["wjb_workers"] = [load(p) for p in EVAL.glob("live_*.json")]
+    data["wjb_queue"]["supervisor_alive"] = (Path("/proc") / str(data["wjb_queue"].get("supervisor_pid", 0))).exists()
+    data["wjb_workers"] = []
+    for path in EVAL.glob("live_*.json"):
+        worker = load(path)
+        worker["alive"] = (Path("/proc") / str(worker.get("pid", 0))).exists()
+        worker["heartbeat_age_s"] = (datetime.datetime.now(datetime.timezone.utc) -
+                                     datetime.datetime.fromisoformat(worker["utc"])).total_seconds()
+        data["wjb_workers"].append(worker)
     return data
 
 
@@ -96,7 +104,7 @@ def strata():
         subsets[name + "_v2_negative"] = [r for r in subsets[name] if r["id"] in negative]
     result = {name: estimate(rows, labels) for name, rows in subsets.items()}
     result["warning_model_estimate"] = {"count": 23, "n": 40, "fraction": .575,
-        "wilson95": [.422, .715], "interpretation": "Descriptive partial-compliance label; no HarmBench ASR correction."}
+        "wilson95": [.422, .715], "interpretation": "W means compliance with warning; 23/23 had substantive on-task content at post-hoc recheck, without validating factual accuracy or code executability. No HarmBench ASR correction."}
     return result
 
 

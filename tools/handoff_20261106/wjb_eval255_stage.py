@@ -20,6 +20,7 @@ if args.complete:
         "zero20": ["zero20_check.json", "zero20.private"],
         "baseline_frozen": ["alpha0_active_baseline.json", "alpha0_active_files.json", "zero20_check.json"],
         "reference_judge": ["judge20_gate.json", "reference_sensitivity_summary.json"],
+        "public_generation": [f"public.private/{args.detail}"],
         "public_refusal_alpha0": ["public.private/alpha0"],
         "harmful_generation": [f"harmful.private/{args.detail}"],
         "harmful_judge": [f"mapped_scores/{args.detail}"],

@@ -21,11 +21,11 @@ PROTOCOL = ROOT / "docs/255_WJB_PUBLIC_EVAL_PROTOCOL.md"
 SNAPSHOT = OUT / "frozen_prompt_snapshot.json"
 
 
-def pulse(stage, done, total, start, condition, shard=0):
+def pulse(stage, done, total, start, condition, shard=0, timed_rows=None):
     write(EVAL / f"live_{stage}_{condition}_{shard}.json", {
         "pid": os.getpid(), "utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "device": os.environ["DEVICE"], "n": done, "total": total,
-        "seconds_per_row": (time.monotonic() - start) / max(1, done),
+        "seconds_per_row": (time.monotonic() - start) / max(1, done if timed_rows is None else timed_rows),
     })
 
 
@@ -117,6 +117,14 @@ def generate(kind, name, shard, config):
     total = sum(len(rows) for _, rows in datasets) if kind == "harmful" else sum(
         len(rows[offset:offset + 8]) for _, rows in datasets for offset in range(shard * 8, len(rows), 16)
     )
+    initial = 0
+    for dataset, data in datasets:
+        offsets = range(shard * 8, len(data), 16) if kind == "public" else range(len(data))
+        for offset in offsets:
+            batch = data[offset:offset + (8 if kind == "public" else 1)]
+            cached = EVAL / f"{kind}.private" / name / dataset / f"{batch[0][0]}.json"
+            if cached.exists():
+                initial += len(batch)
     tok = AutoTokenizer.from_pretrained(LLAMA, local_files_only=True)
     model = AutoModelForCausalLM.from_pretrained(
         LLAMA, torch_dtype=torch.bfloat16, device_map={"": "cuda:0"}, local_files_only=True,
@@ -174,7 +182,7 @@ def generate(kind, name, shard, config):
                 record["generation"] = result
             write(out, record)
             n_new += len(batch)
-            pulse(kind, n_new, total, start, name, shard)
+            pulse(kind, initial + n_new, total, start, name, shard, timed_rows=n_new)
 
 
 def score(names, config, sensitivity=False):
