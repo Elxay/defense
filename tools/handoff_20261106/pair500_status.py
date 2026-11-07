@@ -20,7 +20,22 @@ for p in [r/'generation_live.json',a/'handoff_round11/noise_B_launcher_live.json
 handoff=r/'priority_checkpoint_handoff.json'
 out['paused_grid']=json.loads(handoff.read_text()) if handoff.exists() else {}
 out['full_start_utc']=(r/'full_start_utc').read_text().strip() if (r/'full_start_utc').exists() else None
+import os,time
 times=[]
+saved_files=list((r/'generations.private').glob('*.json'))
+worker=out.get('generation_live',{})
+pid=worker.get('pid')
+try:
+ cmd=(Path('/proc')/str(pid)/'cmdline').read_bytes().replace(bytes([0]),b' ').decode()
+ alive='pair500_search_telemetry.py' in cmd or 'pair500_generate.py' in cmd
+except FileNotFoundError:
+ alive=False
+out['worker_alive']=alive
+out['worker_cmd']=cmd if alive else None
+out['latest_output_epoch']=max((p.stat().st_mtime for p in saved_files),default=0)
+out['output_age_s']=time.time()-out['latest_output_epoch']
+out['gpu_processes']=subprocess.check_output(['nvidia-smi','--query-compute-apps=gpu_uuid,pid,used_memory','--format=csv,noheader'],text=True).splitlines()
+out['gpu_inventory']=subprocess.check_output(['nvidia-smi','--query-gpu=index,uuid,memory.used','--format=csv,noheader'],text=True).splitlines()
 for p in (r/'generations.private').glob('*.json'):
  d=json.loads(p.read_text());times.append(d['seconds'])
 out['done_rows']=len(times)
@@ -44,9 +59,20 @@ def main():
                             alert="🔴 心跳超过 10 分钟" if active and age >= 600 else None,
                             phase=detail.get("phase","generation")))
     queue = json.loads((OUT / "full_queue_live.json").read_text())
+    phase = "running" if node["worker_alive"] else "waiting_cards"
+    if node["full_start_utc"] and node["done_rows"] < 500 and node["output_age_s"] > 900:
+        phase = "stalled"
+    if node["done_rows"] == 500:
+        phase = "complete"
+    queue = {**queue, "phase": phase, "stage_record_utc": queue["utc"],
+             "observed_utc": t.isoformat(), "worker_alive": node["worker_alive"],
+             "output_age_s": round(node["output_age_s"], 1)}
     add("PAIR 搜索控制器",queue,"CPU",f"{node['done_rows']}/500",node["seconds_per_row"],
-        active=queue["phase"]=="waiting_existing_evaluations")
-    w=node["generation_live"]
+        active=False)
+    records[-1]["heartbeat_source"] = "controller stage transition, not a periodic heartbeat"
+    if phase == "stalled":
+        records[-1]["alert"] = "🔴 落盘超过 15 分钟未增长"
+    w={**node["generation_live"], "phase": phase}
     add("node01 PAIR worker",w,",".join(w["gpus"]),
         f"{node['done_rows']}/500",node["seconds_per_row"],active=w["phase"]!="complete")
     for seed in (3,4,5):
@@ -65,7 +91,9 @@ def main():
             x=json.loads(p.read_text())
             add(f"WildJailbreak 官方 eval α0 分片 {shard}",x,f"innet:{x['card']}",f"{x['n']}/{x['of']}",x["seconds_per_row"],x["n"]<x["of"])
     d=dict(utc=t.isoformat(),rows=records,queue=queue,node_gpu_mib=node["gpu_mib"],
-           full_start_utc=node["full_start_utc"])
+           full_start_utc=node["full_start_utc"], worker_alive=node["worker_alive"],
+           output_age_s=round(node["output_age_s"],1), node_gpu_processes=node["gpu_processes"],
+           node_gpu_inventory=node["gpu_inventory"])
     print(json.dumps(d,ensure_ascii=False,indent=2))
 
 

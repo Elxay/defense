@@ -33,19 +33,15 @@ score() {
   DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2,3 DEVICE=cuda:2 "$py" -u "$worker" score "$@"
 }
 if acquire; then
-  score alpha0
+  DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2,3 DEVICE=cuda:2 "$py" -u "$worker" sensitivity alpha0
+  "$py" tools/handoff_20261106/wjb_eval255_sensitivity_report.py
   release
   report
 fi
-for name in alpha0 old_s3 rand0 old_s4 rand1 old_s5 rand2 old_s6 rand3 old_s7 old_s0 SYS_A SYS_B; do
-  acquire || break
-  dual public "$name"
-  if [ "$name" = alpha0 ] && ! ready; then
-    DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2 DEVICE=cuda:2 "$py" -u "$worker" guard-public alpha0
-  fi
-  release
-  report
-done
+acquire || exit 0
+dual public alpha0
+release
+report
 for name in old_s3 rand0 old_s4 rand1 old_s5 rand2 old_s6 rand3 old_s7 old_s0 SYS_A SYS_B; do
   acquire || break
   dual harmful "$name"
