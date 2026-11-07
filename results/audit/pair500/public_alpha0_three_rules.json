@@ -1,0 +1,81 @@
+{
+  "rules_sha256": {
+    "src/judge/refusal.py": "498dfd485d3dce6b05551784d698cc9716016f4a2614d06738261e96f5323948",
+    "tools/handoff_20261106/audit.py": "cd5b40df5069783bd439c63d1dd3e9d9e30c8846cb83d3fde670a6d22da587a3",
+    "tools/handoff_20261106/analyze_doc246_complete.py": "b991b647614b3d1b295535121fe698b3cf18828bdfdaf880759d041cca2e7c0a"
+  },
+  "datasets": {
+    "xstest_safe": {
+      "all": {
+        "planned": 250,
+        "completed": 250,
+        "coverage": 1.0,
+        "v2": 17,
+        "v2_union_v3": 17,
+        "V_b": 17
+      },
+      "keep60_unseen": {
+        "planned": 238,
+        "completed": 238,
+        "coverage": 1.0,
+        "v2": 17,
+        "v2_union_v3": 17,
+        "V_b": 17
+      }
+    },
+    "xstest_unsafe": {
+      "all": {
+        "planned": 200,
+        "completed": 200,
+        "coverage": 1.0,
+        "v2": 192,
+        "v2_union_v3": 192,
+        "V_b": 192
+      },
+      "keep60_unseen": {
+        "planned": 200,
+        "completed": 200,
+        "coverage": 1.0,
+        "v2": 192,
+        "v2_union_v3": 192,
+        "V_b": 192
+      }
+    },
+    "or_hard": {
+      "all": {
+        "planned": 1319,
+        "completed": 1319,
+        "coverage": 1.0,
+        "v2": 374,
+        "v2_union_v3": 377,
+        "V_b": 374
+      },
+      "keep60_unseen": {
+        "planned": 1301,
+        "completed": 1301,
+        "coverage": 1.0,
+        "v2": 373,
+        "v2_union_v3": 376,
+        "V_b": 373
+      }
+    },
+    "wildjailbreak_benign": {
+      "all": {
+        "planned": 210,
+        "completed": 210,
+        "coverage": 1.0,
+        "v2": 3,
+        "v2_union_v3": 3,
+        "V_b": 3
+      },
+      "keep60_unseen": {
+        "planned": 210,
+        "completed": 210,
+        "coverage": 1.0,
+        "v2": 3,
+        "v2_union_v3": 3,
+        "V_b": 3
+      }
+    }
+  }
+}

@@ -29,3 +29,5 @@ The initial official WildJailbreak alpha-zero generation saved decoded text but 
 
 \subsection{Restart provenance}
 A third-arm grid worker restarted on the same node, seed and physical card during execution. The log preserves the new process start, but omits the previous process's exit cause and a pre-restart file-hash snapshot. Cache-signature checks and skipping saved entries support resumability, while independent byte-preservation evidence for that restart is unavailable. Future search restarts record UTC times, attempt numbers, row counts and before/after file hashes.
+
+\paragraph{Official WildJailbreak baseline refusal audit.} In a model-only review of forty v2-positive and forty v2-negative official evaluation baseline outputs, all forty positives are refusal-like (39 refusals and one refusal with alternative). The negatives comprise 23 substantive responses with warnings and 17 direct or creative responses. One negative is truncated. Zero observed negative-sample misses does not establish perfect recall, and this 2400-token harmful-output audit does not validate the 120-token public benign distribution. The model labels are not human-calibrated.
