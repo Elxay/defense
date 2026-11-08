@@ -1,0 +1,218 @@
+{
+  "utc": "2026-11-08T13:30:40.739670+00:00",
+  "n": 283,
+  "layers": [
+    {
+      "layer": "standard",
+      "completed": 109,
+      "remaining": 91,
+      "mean_s": 361.0823528875742
+    },
+    {
+      "layer": "contextual",
+      "completed": 54,
+      "remaining": 46,
+      "mean_s": 434.59305883320565
+    },
+    {
+      "layer": "copyright",
+      "completed": 59,
+      "remaining": 41,
+      "mean_s": 429.0829321055523
+    },
+    {
+      "layer": "jbb",
+      "completed": 61,
+      "remaining": 39,
+      "mean_s": 318.64057225797353
+    }
+  ],
+  "recent10": [
+    481.72112729703076,
+    459.0911517699715,
+    211.9877353850752,
+    451.982670500176,
+    156.18031616392545,
+    508.43803711794317,
+    316.3010526529979,
+    469.8123933901079,
+    420.67002064595,
+    295.36804730189033
+  ],
+  "recent10_mean_s": 377.1552552225068,
+  "cumulative_mean_s": 380.1377015678539,
+  "remaining_stratified_h": 23.019210375968147,
+  "eta_stratified_utc": "2026-11-09T12:31:49.897023+00:00",
+  "eta_cumulative_utc": "2026-11-09T12:25:30.620910+00:00",
+  "eta_recent10_utc": "2026-11-09T12:14:43.430053+00:00",
+  "wildguard": [
+    {
+      "name": "old_s3",
+      "n": 2000,
+      "done": true,
+      "done_utc": "2026-11-08T10:16:08.437875+00:00",
+      "pid": 2310494,
+      "alive": false,
+      "seconds_per_row": 1.058095759775024,
+      "heartbeat_age_s": 11672.680507
+    },
+    {
+      "name": "rand0",
+      "n": 2000,
+      "done": true,
+      "done_utc": "2026-11-08T10:53:50.949608+00:00",
+      "pid": 2318019,
+      "alive": false,
+      "seconds_per_row": 1.0747604298799998,
+      "heartbeat_age_s": 9410.218021
+    },
+    {
+      "name": "old_s4",
+      "n": 2000,
+      "done": true,
+      "done_utc": "2026-11-08T11:38:32.124051+00:00",
+      "pid": 2326209,
+      "alive": false,
+      "seconds_per_row": 1.2864946828745305,
+      "heartbeat_age_s": 6729.032559
+    },
+    {
+      "name": "rand1",
+      "n": 2000,
+      "done": true,
+      "done_utc": "2026-11-08T12:15:39.603127+00:00",
+      "pid": 2340077,
+      "alive": false,
+      "seconds_per_row": 1.0556461707074196,
+      "heartbeat_age_s": 4501.580024
+    },
+    {
+      "name": "old_s5",
+      "n": 2000,
+      "done": true,
+      "done_utc": "2026-11-08T12:52:58.470173+00:00",
+      "pid": 2351368,
+      "alive": false,
+      "seconds_per_row": 1.062549845212954,
+      "heartbeat_age_s": 2262.676317
+    },
+    {
+      "name": "rand2",
+      "n": 2000,
+      "done": true,
+      "done_utc": "2026-11-08T13:29:53.542936+00:00",
+      "pid": 2363259,
+      "alive": false,
+      "seconds_per_row": 1.0538272530795074,
+      "heartbeat_age_s": 47.628758
+    },
+    {
+      "name": "old_s6",
+      "n": 0,
+      "done": false,
+      "done_utc": null,
+      "pid": null,
+      "alive": false,
+      "seconds_per_row": null,
+      "heartbeat_age_s": null
+    },
+    {
+      "name": "rand3",
+      "n": 0,
+      "done": false,
+      "done_utc": null,
+      "pid": null,
+      "alive": false,
+      "seconds_per_row": null,
+      "heartbeat_age_s": null
+    },
+    {
+      "name": "old_s7",
+      "n": 0,
+      "done": false,
+      "done_utc": null,
+      "pid": null,
+      "alive": false,
+      "seconds_per_row": null,
+      "heartbeat_age_s": null
+    }
+  ],
+  "nine_wg_complete": false,
+  "nine_wg_completion_utc": null,
+  "pair_worker": {
+    "name": "node01 PAIR worker",
+    "pid": 2295103,
+    "gpu": "1,2",
+    "progress": "283/500",
+    "seconds_per_row": 380.1377015678539,
+    "heartbeat_age_s": 24.2,
+    "alert": null,
+    "phase": "running"
+  },
+  "pair_restarts": 1,
+  "pair_monitor_pid": 2855787,
+  "pair_monitor_heartbeat_age_s": 23.609425,
+  "wjb_stage": {
+    "utc": "2026-11-08T09:45:51.779255+00:00",
+    "pid": 337850,
+    "supervisor_pid": 3070416,
+    "stage": "harmful_generation",
+    "detail": "rand3",
+    "complete": false,
+    "heartbeat_age_s": 13487.710649,
+    "supervisor_alive": true
+  },
+  "wjb_workers": [
+    {
+      "pid": 337922,
+      "utc": "2026-11-08T13:30:19.894936+00:00",
+      "device": "cuda:3",
+      "n": 891,
+      "total": 1000,
+      "seconds_per_row": 15.111882447278154,
+      "alive": true,
+      "heartbeat_age_s": 19.726068
+    }
+  ],
+  "controllers": [
+    {
+      "utc": "2026-11-08T13:30:27.606332+00:00",
+      "pid": 608254,
+      "phase": "waiting_actual_480_rows",
+      "n": 283,
+      "ids_sha256": "0ef55657adc33bac58a9c22911fc27a2bbf10eb1d5be647f6f829f0ed9b00a84"
+    },
+    {
+      "utc": "2026-11-08T13:30:25.701030+00:00",
+      "pid": 608250,
+      "phase": "waiting_search_snapshot",
+      "condition": null
+    }
+  ],
+  "condition_effects_read": false,
+  "wg_queue": {
+    "utc": "2026-11-08T13:29:58.312064+00:00",
+    "pid": 324587,
+    "phase": "remote_gpu0_job_dispatched",
+    "condition": "old_s6"
+  },
+  "wg_starting_pid": 2373136,
+  "wjb_rand3_shards": [
+    {
+      "pid": 337921,
+      "utc": "2026-11-08T13:28:16.619780+00:00",
+      "device": "cuda:2",
+      "n": 1000,
+      "total": 1000,
+      "seconds_per_row": 13.341411635112948
+    },
+    {
+      "pid": 337922,
+      "utc": "2026-11-08T13:31:37.853949+00:00",
+      "device": "cuda:3",
+      "n": 894,
+      "total": 1000,
+      "seconds_per_row": 15.14837390678295
+    }
+  ]
+}
