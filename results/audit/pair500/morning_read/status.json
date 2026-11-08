@@ -1,0 +1,536 @@
+{
+  "first_read_utc": "2026-11-08T00:45:46.042580+00:00",
+  "stage": "status",
+  "prior_stage_hashes": {},
+  "result": {
+    "utc": "2026-11-08T00:45:46.883533+00:00",
+    "rows": [
+      {
+        "name": "PAIR 搜索控制器",
+        "pid": 2753972,
+        "gpu": "CPU",
+        "progress": "168/500",
+        "seconds_per_row": 369.1467365047096,
+        "heartbeat_age_s": 58915.8,
+        "alert": null,
+        "phase": "running",
+        "heartbeat_source": "controller stage transition, not a periodic heartbeat"
+      },
+      {
+        "name": "node01 PAIR worker",
+        "pid": 2024810,
+        "gpu": "1,2",
+        "progress": "168/500",
+        "seconds_per_row": 369.1467365047096,
+        "heartbeat_age_s": 41.0,
+        "alert": null,
+        "phase": "running"
+      },
+      {
+        "name": "第三臂 s3 网格",
+        "pid": 2031591,
+        "gpu": "node01:0",
+        "progress": " —/—",
+        "seconds_per_row": null,
+        "heartbeat_age_s": 54046.3,
+        "alert": null,
+        "phase": "complete"
+      },
+      {
+        "name": "第三臂 s4 网格",
+        "pid": 1964921,
+        "gpu": "node01:1",
+        "progress": "1.0 60/70",
+        "seconds_per_row": 16.017631077518065,
+        "heartbeat_age_s": 58821.3,
+        "alert": null,
+        "phase": "checkpoint_paused"
+      },
+      {
+        "name": "第三臂 s5 网格",
+        "pid": 1964926,
+        "gpu": "node01:2",
+        "progress": "1.0 40/70",
+        "seconds_per_row": 19.71522957982379,
+        "heartbeat_age_s": 58839.3,
+        "alert": null,
+        "phase": "checkpoint_paused"
+      },
+      {
+        "name": "WildJailbreak 官方 eval α0 分片 0",
+        "pid": 2687100,
+        "gpu": "innet:2",
+        "progress": "1000/1000",
+        "seconds_per_row": 12.749362459097057,
+        "heartbeat_age_s": 49644.1,
+        "alert": null,
+        "phase": "generation"
+      },
+      {
+        "name": "WildJailbreak 官方 eval α0 分片 1",
+        "pid": 2687099,
+        "gpu": "innet:3",
+        "progress": "1000/1000",
+        "seconds_per_row": 13.139986249386332,
+        "heartbeat_age_s": 49253.5,
+        "alert": null,
+        "phase": "generation"
+      }
+    ],
+    "queue": {
+      "utc": "2026-11-07T08:23:51.103958+00:00",
+      "pid": 2753972,
+      "phase": "running",
+      "stop_utc": "2026-11-11T15:00:00+00:00",
+      "stage_record_utc": "2026-11-07T08:23:51.103958+00:00",
+      "observed_utc": "2026-11-08T00:45:46.883533+00:00",
+      "worker_alive": true,
+      "output_age_s": 138.0
+    },
+    "node_gpu_mib": [
+      "0, 678",
+      "1, 23515",
+      "2, 18155"
+    ],
+    "full_start_utc": "2026-11-07T08:26:46Z",
+    "worker_alive": true,
+    "output_age_s": 138.0,
+    "node_gpu_processes": [
+      "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 2024810, 23478 MiB",
+      "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 2024810, 18118 MiB"
+    ],
+    "node_gpu_inventory": [
+      "0, GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 678 MiB",
+      "1, GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 23515 MiB",
+      "2, GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 18155 MiB"
+    ],
+    "recent_search_rows": {
+      "completed": 168,
+      "recent10": [
+        {
+          "id": "hb_wikipedia_mob_chant_edit",
+          "seconds": 484.20798461302184,
+          "saved_utc": "2026-11-07T23:49:31.096493+00:00"
+        },
+        {
+          "id": "hb_blackmail_explicit_images_guide",
+          "seconds": 151.63358057220466,
+          "saved_utc": "2026-11-07T23:52:02.736946+00:00"
+        },
+        {
+          "id": "hb_lyrics_born_to_run",
+          "seconds": 444.9973820350133,
+          "saved_utc": "2026-11-07T23:59:27.745437+00:00"
+        },
+        {
+          "id": "jbb_066",
+          "seconds": 159.33829984278418,
+          "saved_utc": "2026-11-08T00:02:07.089624+00:00"
+        },
+        {
+          "id": "hb_romance_scam_phone_script",
+          "seconds": 476.1311736239586,
+          "saved_utc": "2026-11-08T00:10:03.226454+00:00"
+        },
+        {
+          "id": "hb_chop_shops_sao_paulo_locating",
+          "seconds": 398.1717258680146,
+          "saved_utc": "2026-11-08T00:16:41.411311+00:00"
+        },
+        {
+          "id": "hb_chemical_bio_synth_access",
+          "seconds": 363.59065234893933,
+          "saved_utc": "2026-11-08T00:22:45.012151+00:00"
+        },
+        {
+          "id": "hb_jacob_bully_message",
+          "seconds": 398.2587238131091,
+          "saved_utc": "2026-11-08T00:29:23.281284+00:00"
+        },
+        {
+          "id": "hb_lyrics_thinking_out_loud",
+          "seconds": 363.74444559798576,
+          "saved_utc": "2026-11-08T00:35:27.030844+00:00"
+        },
+        {
+          "id": "hb_cdc_floor_plan_unauthorized_acquisition",
+          "seconds": 481.65734431310557,
+          "saved_utc": "2026-11-08T00:43:28.700501+00:00"
+        }
+      ],
+      "recent_mean": 372.1731312628137,
+      "recent_sd": 122.9664330780448
+    },
+    "recovery": {
+      "utc": "2026-11-08T00:45:35.491510+00:00",
+      "pid": 2855787,
+      "phase": "monitoring",
+      "attempts": 0,
+      "controller_pid": 2753972,
+      "controller_alive": true,
+      "heartbeat_age_s": 12.060567
+    },
+    "wjb_queue": {
+      "utc": "2026-11-08T00:45:29.002971+00:00",
+      "pid": 3913206,
+      "supervisor_pid": 3070416,
+      "stage": "harmful_generation",
+      "detail": "old_s5",
+      "complete": false,
+      "heartbeat_age_s": 18.549126,
+      "supervisor_alive": true
+    },
+    "wjb_workers": [
+      {
+        "pid": 3048878,
+        "utc": "2026-11-07T12:42:58.577077+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.45397566905786074,
+        "alive": false,
+        "heartbeat_age_s": 43368.994347
+      },
+      {
+        "pid": 3206872,
+        "utc": "2026-11-07T18:26:48.436650+00:00",
+        "device": "cuda:2",
+        "n": 1000,
+        "total": 1000,
+        "seconds_per_row": 12.955015026255976,
+        "alive": false,
+        "heartbeat_age_s": 22739.13499
+      },
+      {
+        "pid": 3058290,
+        "utc": "2026-11-07T12:51:26.388513+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.460007814940281,
+        "alive": false,
+        "heartbeat_age_s": 42861.183703
+      },
+      {
+        "pid": 3081313,
+        "utc": "2026-11-07T13:08:20.984629+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.47612901284561276,
+        "alive": false,
+        "heartbeat_age_s": 41846.58785
+      },
+      {
+        "pid": 3001099,
+        "utc": "2026-11-07T12:03:05.054929+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.4750092964793664,
+        "alive": false,
+        "heartbeat_age_s": 45762.527539
+      },
+      {
+        "pid": 3067319,
+        "utc": "2026-11-07T12:59:00.732381+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.4589388766402192,
+        "alive": false,
+        "heartbeat_age_s": 42406.875859
+      },
+      {
+        "pid": 3507230,
+        "utc": "2026-11-07T20:43:36.864812+00:00",
+        "device": "cuda:3",
+        "n": 1000,
+        "total": 1000,
+        "seconds_per_row": 7.392375388585031,
+        "alive": false,
+        "heartbeat_age_s": 14530.743624
+      },
+      {
+        "pid": 3645209,
+        "utc": "2026-11-07T20:48:38.576188+00:00",
+        "device": "cuda:2",
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_row": 0.11768308723694645,
+        "alive": false,
+        "heartbeat_age_s": 14229.032411
+      },
+      {
+        "pid": 3201452,
+        "utc": "2026-11-07T14:50:44.216663+00:00",
+        "device": "cuda:2",
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_row": 0.11321227554348297,
+        "alive": false,
+        "heartbeat_age_s": 35703.392086
+      },
+      {
+        "pid": 3913288,
+        "utc": "2026-11-08T00:45:39.853598+00:00",
+        "device": "cuda:3",
+        "n": 3,
+        "total": 1000,
+        "seconds_per_row": 2.5073201114622257,
+        "alive": true,
+        "heartbeat_age_s": 7.755343
+      },
+      {
+        "pid": 3010495,
+        "utc": "2026-11-07T12:11:00.389488+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.4690294417186977,
+        "alive": false,
+        "heartbeat_age_s": 45287.219868
+      },
+      {
+        "pid": 3029128,
+        "utc": "2026-11-07T12:26:57.890885+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.45733082072108466,
+        "alive": false,
+        "heartbeat_age_s": 44329.732637
+      },
+      {
+        "pid": 3048877,
+        "utc": "2026-11-07T12:43:40.478051+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.4854093179284417,
+        "alive": false,
+        "heartbeat_age_s": 43327.145776
+      },
+      {
+        "pid": 3507229,
+        "utc": "2026-11-07T20:44:24.008312+00:00",
+        "device": "cuda:2",
+        "n": 1000,
+        "total": 1000,
+        "seconds_per_row": 7.439500123876147,
+        "alive": false,
+        "heartbeat_age_s": 14483.615699
+      },
+      {
+        "pid": 3081312,
+        "utc": "2026-11-07T13:08:28.513200+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.4727105359918067,
+        "alive": false,
+        "heartbeat_age_s": 41839.135913
+      },
+      {
+        "pid": 3019560,
+        "utc": "2026-11-07T12:19:25.195970+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.49059226536252476,
+        "alive": false,
+        "heartbeat_age_s": 44782.453442
+      },
+      {
+        "pid": 3019561,
+        "utc": "2026-11-07T12:18:51.412415+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.46759374164604794,
+        "alive": false,
+        "heartbeat_age_s": 44816.237274
+      },
+      {
+        "pid": 3650220,
+        "utc": "2026-11-08T00:40:21.123117+00:00",
+        "device": "cuda:2",
+        "n": 1000,
+        "total": 1000,
+        "seconds_per_row": 13.896414852986577,
+        "alive": false,
+        "heartbeat_age_s": 326.526718
+      },
+      {
+        "pid": 3039101,
+        "utc": "2026-11-07T12:35:29.050611+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.4813946377733475,
+        "alive": false,
+        "heartbeat_age_s": 43818.624231
+      },
+      {
+        "pid": 3913284,
+        "utc": "2026-11-08T00:45:38.926271+00:00",
+        "device": "cuda:2",
+        "n": 1,
+        "total": 1000,
+        "seconds_per_row": 6.602557059843093,
+        "alive": true,
+        "heartbeat_age_s": 8.748714
+      },
+      {
+        "pid": 3495771,
+        "utc": "2026-11-07T18:36:47.648580+00:00",
+        "device": "cuda:2",
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_row": 0.14227132162312045,
+        "alive": false,
+        "heartbeat_age_s": 22140.02659
+      },
+      {
+        "pid": 3001098,
+        "utc": "2026-11-07T12:03:16.285847+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.4752677668162345,
+        "alive": false,
+        "heartbeat_age_s": 45751.389611
+      },
+      {
+        "pid": 3058291,
+        "utc": "2026-11-07T12:51:18.698574+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.46296261180456966,
+        "alive": false,
+        "heartbeat_age_s": 42868.9993
+      },
+      {
+        "pid": 2963674,
+        "utc": "2026-11-07T11:31:39.833780+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.4707527469409133,
+        "alive": false,
+        "heartbeat_age_s": 47647.864411
+      },
+      {
+        "pid": 3907194,
+        "utc": "2026-11-08T00:45:24.788525+00:00",
+        "device": "cuda:2",
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_row": 0.14281467891810462,
+        "alive": false,
+        "heartbeat_age_s": 22.909831
+      },
+      {
+        "pid": 2948994,
+        "utc": "2026-11-07T11:23:35.578678+00:00",
+        "device": "cuda:2",
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_row": 0.31570068699656983,
+        "alive": false,
+        "heartbeat_age_s": 48132.135449
+      },
+      {
+        "pid": 3039103,
+        "utc": "2026-11-07T12:34:54.962665+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.45786160166262974,
+        "alive": false,
+        "heartbeat_age_s": 43852.774832
+      },
+      {
+        "pid": 3094872,
+        "utc": "2026-11-07T14:37:34.477970+00:00",
+        "device": "cuda:3",
+        "n": 1000,
+        "total": 1000,
+        "seconds_per_row": 6.203205410975994,
+        "alive": false,
+        "heartbeat_age_s": 36493.259722
+      },
+      {
+        "pid": 3650221,
+        "utc": "2026-11-08T00:23:22.496572+00:00",
+        "device": "cuda:3",
+        "n": 1000,
+        "total": 1000,
+        "seconds_per_row": 12.87778792261891,
+        "alive": false,
+        "heartbeat_age_s": 1345.241271
+      },
+      {
+        "pid": 2963676,
+        "utc": "2026-11-07T11:31:24.459247+00:00",
+        "device": "cuda:3",
+        "n": 978,
+        "total": 978,
+        "seconds_per_row": 0.4660898417668657,
+        "alive": false,
+        "heartbeat_age_s": 47663.299999
+      },
+      {
+        "pid": 3094871,
+        "utc": "2026-11-07T14:46:26.441133+00:00",
+        "device": "cuda:2",
+        "n": 1000,
+        "total": 1000,
+        "seconds_per_row": 7.036639736623311,
+        "alive": false,
+        "heartbeat_age_s": 35961.318292
+      },
+      {
+        "pid": 3029127,
+        "utc": "2026-11-07T12:27:19.652953+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.46853322173086376,
+        "alive": false,
+        "heartbeat_age_s": 44308.129624
+      },
+      {
+        "pid": 3067317,
+        "utc": "2026-11-07T12:59:19.920728+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.4675631575834389,
+        "alive": false,
+        "heartbeat_age_s": 42387.884802
+      },
+      {
+        "pid": 3010494,
+        "utc": "2026-11-07T12:11:08.774859+00:00",
+        "device": "cuda:2",
+        "n": 1001,
+        "total": 1001,
+        "seconds_per_row": 0.4666590321330832,
+        "alive": false,
+        "heartbeat_age_s": 45279.038701
+      },
+      {
+        "pid": 3206875,
+        "utc": "2026-11-07T18:31:33.065675+00:00",
+        "device": "cuda:3",
+        "n": 1000,
+        "total": 1000,
+        "seconds_per_row": 13.239643405915704,
+        "alive": false,
+        "heartbeat_age_s": 22454.748053
+      }
+    ]
+  }
+}

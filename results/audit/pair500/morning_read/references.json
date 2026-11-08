@@ -1,0 +1,105 @@
+{
+  "first_read_utc": "2026-11-08T00:46:29.766743+00:00",
+  "stage": "references",
+  "prior_stage_hashes": {
+    "status.json": "1b3dd3ffa3ce5ae5e105b436cb86c2bfabacc802499ef4ab8095b951e6b29eab",
+    "top1_all.json": "46cbe3e3ea5c7b04671fbc65ad3de7d8d95138e0d0da2fcb71cefcb3a6e3209e",
+    "top1_strata.json": "41bd78835464d9e0fc2812e448e9a1fafa1325a3a8e9687428daab1bc81df0ff"
+  },
+  "result": {
+    "layers": {
+      "all": {
+        "planned": 2000,
+        "scored_pairs": 2000,
+        "valid_pairs": 2000,
+        "either_invalid": 0,
+        "disagreements": 733,
+        "disagreement_rate": 0.3665,
+        "cluster_95ci": [
+          0.3351967184719838,
+          0.3982166668156646
+        ],
+        "absolute_rate_descriptive_only": true
+      },
+      "high_confidence": {
+        "planned": 1689,
+        "scored_pairs": 1689,
+        "valid_pairs": 1689,
+        "either_invalid": 0,
+        "disagreements": 633,
+        "disagreement_rate": 0.3747779751332149,
+        "cluster_95ci": [
+          0.3421330423368614,
+          0.40668640552995394
+        ],
+        "absolute_rate_descriptive_only": true
+      },
+      "low_confidence": {
+        "planned": 311,
+        "scored_pairs": 311,
+        "valid_pairs": 311,
+        "either_invalid": 0,
+        "disagreements": 100,
+        "disagreement_rate": 0.3215434083601286,
+        "cluster_95ci": [
+          0.2596986307401048,
+          0.3935781453339491
+        ],
+        "absolute_rate_descriptive_only": true
+      },
+      "margin_below_0p05": {
+        "planned": 270,
+        "scored_pairs": 270,
+        "valid_pairs": 270,
+        "either_invalid": 0,
+        "disagreements": 85,
+        "disagreement_rate": 0.3148148148148148,
+        "cluster_95ci": [
+          0.2526264690853347,
+          0.38732463953682567
+        ],
+        "absolute_rate_descriptive_only": true
+      }
+    },
+    "random_reference": {
+      "planned": 200,
+      "scored_pairs": 200,
+      "valid_pairs": 200,
+      "label_disagreements": 99,
+      "top1_p_yes": {
+        "n": 200,
+        "mean": 0.5228678420971846,
+        "quartiles": [
+          0.0001263319245481398,
+          0.8423050940036774,
+          0.9999796450138092
+        ],
+        "above_0p5": 106,
+        "above_0p9": 97
+      },
+      "random_p_yes": {
+        "n": 200,
+        "mean": 0.019261140700036775,
+        "quartiles": [
+          5.8979689129046164e-05,
+          0.00011959858238697052,
+          0.0005320575437508523
+        ],
+        "above_0p5": 3,
+        "above_0p9": 2
+      },
+      "top1_minus_random_p_yes": {
+        "n": 200,
+        "mean": 0.5036067013971478,
+        "quartiles": [
+          5.4852586799825076e-05,
+          0.5693810371521977,
+          0.9987107809865847
+        ],
+        "above_0p5": 103,
+        "above_0p9": 90
+      }
+    },
+    "interpretation": "Reference-substitution sensitivity does not verify mapping correctness."
+  }
+}
