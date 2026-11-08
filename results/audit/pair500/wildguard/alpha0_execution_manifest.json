@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-08T09:00:08.098662+00:00",
+  "n": 2000,
+  "input_file_sha256": "4f520a9ada7efd9ff4070ef19a64c67599e00f0edb6dd0a2cb7441369442be84",
+  "runtime_source_sha256": "a5d2555d4ff2e01b5952e92d396e35d1724e371d9ee7b6795568b15d0e820fbc",
+  "format5_sha256": "699ccfd3bcf95ddf0deab12bf8e620063a2981d2b6e6a8d435ce66e140c581ac",
+  "single_node": "node01",
+  "cross_node20": "pending before any pooling; no second node outputs",
+  "conditions_enabled": false
+}

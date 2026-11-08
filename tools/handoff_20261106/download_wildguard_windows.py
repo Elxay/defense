@@ -49,7 +49,10 @@ def main():
     info=HfApi().model_info('allenai/wildguard',token=token,files_metadata=True)
     state.update(stage='downloading',revision=info.sha)
     print('AUTHORIZED',info.sha,flush=True)
-    snapshot_download('allenai/wildguard',revision=info.sha,token=token,local_dir=DEST,max_workers=4)
+    snapshot_download('allenai/wildguard',revision=info.sha,token=token,local_dir=DEST,max_workers=4,
+        allow_patterns=['*.safetensors','model.safetensors.index.json','config.json',
+            'generation_config.json','tokenizer*','special_tokens_map.json','added_tokens.json',
+            'README.md','.gitattributes'])
     state.update(stage='hashing')
     manifest={}
     for p in sorted(DEST.rglob('*')):

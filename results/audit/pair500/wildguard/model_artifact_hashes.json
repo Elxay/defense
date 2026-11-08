@@ -1,0 +1,17 @@
+{
+  "repo": "allenai/wildguard",
+  "revision": "cbba4823f3e8020e5a74a5e29bf85072def6f2ff",
+  "files": {
+    ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "added_tokens.json": "b08fce55158c8613b7cf76607aabea21c7fa6eef446df82ed8fe492e655e532a",
+    "config.json": "435bfa5311de2d3e228250ba40e772d522c6626fb4198b1277c11d7831bf9c61",
+    "generation_config.json": "4127781befe845491ad87abfe0b3325a20247bccebe1414f187fba838d64190c",
+    "model-00001-of-00002.safetensors": "093f6d42cd8153a552c5fc03ece1dc04855c152f791201603deefb4818821bc0",
+    "model-00002-of-00002.safetensors": "99c175a413115200d30910546c898baf3a1c664f5131e5bb717d4b4d542181a5",
+    "model.safetensors.index.json": "c521c2843f01d7b03a8588873f74d11311d4106a61737183d4463c803dbbc809",
+    "README.md": "46d47c4d388680644e5d65bb89123b96ad2850c75ae00d281658dc5b6e00c190",
+    "special_tokens_map.json": "51779d91c18d1c6a732af2892daf4914c55706d9f935781a5994f82a060b6054",
+    "tokenizer.model": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89",
+    "tokenizer_config.json": "3b3b775aa8a0399c3df3c8f447aa98ac17eadc9a7deb04eed755e5a29af67bc1"
+  }
+}
