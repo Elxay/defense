@@ -1,0 +1,135 @@
+{
+  "utc": "2026-11-08T12:55:03.448621+00:00",
+  "pair": {
+    "name": "node01 PAIR worker",
+    "pid": 2295103,
+    "gpu": "1,2",
+    "progress": "277/500",
+    "seconds_per_row": 380.54945731563123,
+    "heartbeat_age_s": 20.9,
+    "alert": null,
+    "phase": "running"
+  },
+  "pair_recent10_seconds": [
+    313.98662497801706,
+    458.5960765329655,
+    429.5160978487693,
+    463.02838105498813,
+    391.0196458271239,
+    483.80204726802185,
+    481.72112729703076,
+    459.0911517699715,
+    211.9877353850752,
+    451.982670500176
+  ],
+  "pair_recent10_mean": 414.4731558462139,
+  "pair_restarts": 1,
+  "pair_monitor": {
+    "pid": 2855787,
+    "heartbeat_age_s": 17.396082
+  },
+  "wjb_stage": {
+    "utc": "2026-11-08T09:45:51.779255+00:00",
+    "pid": 337850,
+    "supervisor_pid": 3070416,
+    "stage": "harmful_generation",
+    "detail": "rand3",
+    "complete": false,
+    "heartbeat_age_s": 11350.390679,
+    "supervisor_alive": true
+  },
+  "wjb_workers": [
+    {
+      "pid": 337921,
+      "utc": "2026-11-08T12:54:45.246819+00:00",
+      "device": "cuda:2",
+      "n": 846,
+      "total": 1000,
+      "seconds_per_row": 13.392480696874603,
+      "alive": true,
+      "heartbeat_age_s": 16.984629
+    },
+    {
+      "pid": 337922,
+      "utc": "2026-11-08T12:54:40.167022+00:00",
+      "device": "cuda:3",
+      "n": 759,
+      "total": 1000,
+      "seconds_per_row": 14.92089505812119,
+      "alive": true,
+      "heartbeat_age_s": 22.15717
+    }
+  ],
+  "wildguard": [
+    {
+      "condition": "old_s3",
+      "pid": 2310494,
+      "alive": false,
+      "n_files": 2000,
+      "total": 2000,
+      "seconds_per_row": 1.058095759775024,
+      "heartbeat_age_s": 9535.378784
+    },
+    {
+      "condition": "rand0",
+      "pid": 2318019,
+      "alive": false,
+      "n_files": 2000,
+      "total": 2000,
+      "seconds_per_row": 1.0747604298799998,
+      "heartbeat_age_s": 7272.916298
+    },
+    {
+      "condition": "old_s4",
+      "pid": 2326209,
+      "alive": false,
+      "n_files": 2000,
+      "total": 2000,
+      "seconds_per_row": 1.2864946828745305,
+      "heartbeat_age_s": 4591.730836
+    },
+    {
+      "condition": "rand1",
+      "pid": 2340077,
+      "alive": false,
+      "n_files": 2000,
+      "total": 2000,
+      "seconds_per_row": 1.0556461707074196,
+      "heartbeat_age_s": 2364.278301
+    },
+    {
+      "condition": "old_s5",
+      "pid": 2351368,
+      "alive": false,
+      "n_files": 2000,
+      "total": 2000,
+      "seconds_per_row": 1.062549845212954,
+      "heartbeat_age_s": 125.374594
+    },
+    {
+      "condition": "rand2",
+      "pid": 2363259,
+      "alive": true,
+      "n_files": 15,
+      "total": 2000,
+      "seconds_per_row": 1.2305374759016559,
+      "heartbeat_age_s": 5.676166
+    }
+  ],
+  "canonical_files": 0,
+  "new_controllers": [
+    {
+      "utc": "2026-11-08T12:54:46.262583+00:00",
+      "pid": 564044,
+      "phase": "waiting_deadline",
+      "deadline_utc": "2026-11-09T09:00:00+00:00"
+    },
+    {
+      "utc": "2026-11-08T12:54:46.321323+00:00",
+      "pid": 564050,
+      "phase": "waiting_search_snapshot",
+      "condition": null
+    }
+  ],
+  "condition_effects_read": false
+}
