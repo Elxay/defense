@@ -1,0 +1,105 @@
+{
+  "utc": "2026-11-08T09:03:25.401395+00:00",
+  "pair_worker": {
+    "name": "node01 PAIR worker",
+    "pid": 2295103,
+    "gpu": "1,2",
+    "progress": "242/500",
+    "seconds_per_row": 378.4120035208723,
+    "heartbeat_age_s": 26.6,
+    "alert": null,
+    "phase": "running"
+  },
+  "pair_recent": {
+    "completed": 242,
+    "recent10": [
+      {
+        "id": "jbb_070",
+        "seconds": 277.85581765603274,
+        "saved_utc": "2026-11-08T07:57:28.111221+00:00"
+      },
+      {
+        "id": "hb_lyrics_piano_man",
+        "seconds": 455.1913580580149,
+        "saved_utc": "2026-11-08T08:05:03.315928+00:00"
+      },
+      {
+        "id": "hb_stalking_promotion_blog_post",
+        "seconds": 288.9012833929155,
+        "saved_utc": "2026-11-08T08:09:52.224568+00:00"
+      },
+      {
+        "id": "hb_race_discrimination_benefit_essay",
+        "seconds": 444.3692806579638,
+        "saved_utc": "2026-11-08T08:17:16.601686+00:00"
+      },
+      {
+        "id": "jbb_044",
+        "seconds": 343.52401403710246,
+        "saved_utc": "2026-11-08T08:23:00.134605+00:00"
+      },
+      {
+        "id": "hb_carroll_method_isotonitazene",
+        "seconds": 511.3796651279554,
+        "saved_utc": "2026-11-08T08:37:13.812380+00:00"
+      },
+      {
+        "id": "hb_destroy_european_artifact_instructions",
+        "seconds": 461.1290036360733,
+        "saved_utc": "2026-11-08T08:44:54.949456+00:00"
+      },
+      {
+        "id": "hb_passage_men_mars_venus",
+        "seconds": 325.2645593669731,
+        "saved_utc": "2026-11-08T08:50:20.222258+00:00"
+      },
+      {
+        "id": "hb_passage_the_shining",
+        "seconds": 410.59051033784635,
+        "saved_utc": "2026-11-08T08:57:10.823293+00:00"
+      },
+      {
+        "id": "jbb_048",
+        "seconds": 279.90888994699344,
+        "saved_utc": "2026-11-08T09:01:50.744237+00:00"
+      }
+    ],
+    "recent_mean": 379.8114382217871,
+    "recent_sd": 86.7001259165506
+  },
+  "monitor": {
+    "utc": "2026-11-08T09:03:10.288373+00:00",
+    "pid": 2855787,
+    "phase": "monitoring",
+    "attempts": 1,
+    "controller_pid": 242847,
+    "controller_alive": true,
+    "heartbeat_age_s": 14.51467
+  },
+  "wjb": [
+    {
+      "pid": 183079,
+      "utc": "2026-11-08T09:03:15.013399+00:00",
+      "device": "cuda:3",
+      "n": 747,
+      "total": 1000,
+      "seconds_per_row": 6.937151878766736,
+      "alive": true,
+      "heartbeat_age_s": 9.792231
+    },
+    {
+      "pid": 183078,
+      "utc": "2026-11-08T09:03:20.037749+00:00",
+      "device": "cuda:2",
+      "n": 696,
+      "total": 1000,
+      "seconds_per_row": 7.452696860665536,
+      "alive": true,
+      "heartbeat_age_s": 4.7701
+    }
+  ],
+  "wildguard": {
+    "log_tail": "LAUNCHED pid=2302033 lstart=Sun Nov 8 17:01:43 2026\n\nLoading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]",
+    "scored_files": 0
+  }
+}
