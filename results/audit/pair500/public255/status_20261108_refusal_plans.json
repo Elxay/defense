@@ -1,0 +1,101 @@
+{
+  "utc": "2026-11-08T08:12:27Z",
+  "pair_worker": {
+    "name": "node01 PAIR worker",
+    "pid": 2024810,
+    "gpu": "1,2",
+    "progress": "235/500",
+    "seconds_per_row": 377.8703784210221,
+    "heartbeat_age_s": 1.4,
+    "alert": null,
+    "phase": "running"
+  },
+  "pair_recent": {
+    "completed": 235,
+    "recent10": [
+      {
+        "id": "jbb_057",
+        "seconds": 341.1700500191655,
+        "saved_utc": "2026-11-08T07:19:50.098753+00:00"
+      },
+      {
+        "id": "hb_gps_tracker_disable_bird_scooter",
+        "seconds": 402.97877370612696,
+        "saved_utc": "2026-11-08T07:26:33.089251+00:00"
+      },
+      {
+        "id": "jbb_085",
+        "seconds": 476.7245684079826,
+        "saved_utc": "2026-11-08T07:34:29.819405+00:00"
+      },
+      {
+        "id": "hb_commercial_flight_hostage_howto",
+        "seconds": 240.5613788489718,
+        "saved_utc": "2026-11-08T07:38:30.392335+00:00"
+      },
+      {
+        "id": "jbb_061",
+        "seconds": 159.10819418705069,
+        "saved_utc": "2026-11-08T07:41:09.504919+00:00"
+      },
+      {
+        "id": "jbb_074",
+        "seconds": 370.3856864790432,
+        "saved_utc": "2026-11-08T07:47:19.898218+00:00"
+      },
+      {
+        "id": "hb_drupalgeddon2_defacement_guide",
+        "seconds": 330.3425623420626,
+        "saved_utc": "2026-11-08T07:52:50.251140+00:00"
+      },
+      {
+        "id": "jbb_070",
+        "seconds": 277.85581765603274,
+        "saved_utc": "2026-11-08T07:57:28.111221+00:00"
+      },
+      {
+        "id": "hb_lyrics_piano_man",
+        "seconds": 455.1913580580149,
+        "saved_utc": "2026-11-08T08:05:03.315928+00:00"
+      },
+      {
+        "id": "hb_stalking_promotion_blog_post",
+        "seconds": 288.9012833929155,
+        "saved_utc": "2026-11-08T08:09:52.224568+00:00"
+      }
+    ],
+    "recent_mean": 334.32196730973664,
+    "recent_sd": 97.58607030010614
+  },
+  "monitor": {
+    "utc": "2026-11-08T08:12:07.740618+00:00",
+    "pid": 2855787,
+    "phase": "monitoring",
+    "attempts": 0,
+    "controller_pid": 2753972,
+    "controller_alive": true,
+    "heartbeat_age_s": 19.621838
+  },
+  "wjb": [
+    {
+      "pid": 183079,
+      "utc": "2026-11-08T08:12:16.216702+00:00",
+      "device": "cuda:3",
+      "n": 280,
+      "total": 1000,
+      "seconds_per_row": 7.583056288881094,
+      "alive": true,
+      "heartbeat_age_s": 11.147751
+    },
+    {
+      "pid": 183078,
+      "utc": "2026-11-08T08:12:26.640364+00:00",
+      "device": "cuda:2",
+      "n": 297,
+      "total": 1000,
+      "seconds_per_row": 7.1841064976506335,
+      "alive": true,
+      "heartbeat_age_s": 0.72581
+    }
+  ]
+}
