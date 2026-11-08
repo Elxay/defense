@@ -1,47 +1,65 @@
 {
-  "utc": "2026-11-08T09:45:32.295757+00:00",
+  "utc": "2026-11-08T09:51:38.279979+00:00",
   "pair": {
     "name": "node01 PAIR worker",
     "pid": 2295103,
     "gpu": "1,2",
-    "progress": "248/500",
-    "seconds_per_row": 378.9663389254992,
-    "heartbeat_age_s": 11.1,
+    "progress": "249/500",
+    "seconds_per_row": 379.2109129908822,
+    "heartbeat_age_s": 11.8,
     "alert": null,
     "phase": "running"
   },
   "monitor": {
-    "utc": "2026-11-08T09:45:10.405328+00:00",
+    "utc": "2026-11-08T09:51:10.422441+00:00",
     "pid": 2855787,
     "phase": "monitoring",
     "attempts": 1,
     "controller_pid": 242847,
     "controller_alive": true,
-    "heartbeat_age_s": 20.671954
+    "heartbeat_age_s": 27.252895
   },
   "wjb": [
     {
-      "pid": 332244,
-      "utc": "2026-11-08T09:45:30.680242+00:00",
+      "pid": 337921,
+      "utc": "2026-11-08T09:51:21.872147+00:00",
       "device": "cuda:2",
-      "n": 1840,
-      "total": 2000,
-      "seconds_per_row": 0.11417213903092172,
+      "n": 26,
+      "total": 1000,
+      "seconds_per_row": 12.563999882845495,
       "alive": true,
-      "heartbeat_age_s": 1.010327
+      "heartbeat_age_s": 15.80445
+    },
+    {
+      "pid": 337922,
+      "utc": "2026-11-08T09:51:25.497592+00:00",
+      "device": "cuda:3",
+      "n": 22,
+      "total": 1000,
+      "seconds_per_row": 15.01317835599184,
+      "alive": true,
+      "heartbeat_age_s": 12.179856
     }
   ],
+  "wjb_stage": {
+    "utc": "2026-11-08T09:45:51.779255+00:00",
+    "pid": 337850,
+    "supervisor_pid": 3070416,
+    "stage": "harmful_generation",
+    "detail": "rand3",
+    "complete": false
+  },
   "wildguard": {
     "condition": "old_s3",
     "live": {
-      "utc": "2026-11-08T09:45:23.047203+00:00",
+      "utc": "2026-11-08T09:51:33.307030+00:00",
       "pid": 2310494,
-      "n": 250,
+      "n": 640,
       "total": 2000,
-      "seconds_per_scored_row": 1.0847182602714747,
+      "seconds_per_scored_row": 1.0022490395687782,
       "host": "node01",
       "gpu": 0
     },
-    "scored": 258
+    "scored": 644
   }
 }
