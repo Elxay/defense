@@ -2,7 +2,7 @@
   "utc": "2026-11-07T07:36:51.377462+00:00",
   "commit": "5b388c35f84a37934f3bdcbfad6e070ef8a2a616",
   "doc_sha256": "5a882d3aa9983600d2860982d9b91aa9eeb20c3872591e0b69c05b03a1a7a0d0",
-  "config_sha256": "552685e554cf1a76723ed9b0508240860b07f8f735f52cf6d3b9532ad7b60788",
+  "config_sha256": "2530282f358a3e0294b2c7426dffbc761d0d6b9016f2d36a9de61dd47584bd3d",
   "amended_utc": "2026-11-08T12:52:59.970204+00:00",
   "evaluation_addendum_sha256": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
   "previous_publication_file": "eval254_publication_v1.json",
@@ -14,5 +14,8 @@
   "hb_delay_addendum_sha256": "256b42214f180ee2b447745b5ef68b84f1b53ebde3764724954dde668c424519",
   "hb_delay_addendum_commit": "a5f955439c2d33660ee94df78b782453f5e9c6bc",
   "watch26_addendum_sha256": "cc7466e29ab0eada988da9ce0fdf958256156be152ae74475516f15c45a01c51",
-  "watch26_commit": "f6918911977be60919992d982efc20d197fb1029"
+  "watch26_commit": "f6918911977be60919992d982efc20d197fb1029",
+  "night27_sha256": "3b5cc81c7158ff137b21430c3f4a187042f81781e33d8a3292d426107c359515",
+  "public28_sha256": "dc2ea594d268791f385ce56b30474894ef9463b33952544c6112ccaa706f1a45",
+  "night27_commit": "pending_push"
 }

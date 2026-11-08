@@ -10,7 +10,11 @@ exec 8>>logs/idle_gpu2.lock
 exec 7>>logs/idle_gpu3.lock
 names=(old_s7 old_s0 SYS_A SYS_B)
 export WJB_POST_SNAPSHOT_MODE=post_pair
-if [ "$#" -gt 0 ]; then
+if [ "${1:-}" = "--normal-tail" ]; then
+  shift
+  unset WJB_POST_SNAPSHOT_MODE
+  names=("$@")
+elif [ "$#" -gt 0 ]; then
   names=("$@")
   export WJB_POST_SNAPSHOT_MODE=last_condition
 fi
@@ -29,10 +33,12 @@ for name in "${names[@]}"; do
   wait "$a" || ra=$?
   wait "$b" || rb=$?
   test "$ra" -eq 0 && test "$rb" -eq 0
+  "$py" tools/handoff_20261106/wjb_generation_coverage.py "$name" generation
   "$py" "$stage" harmful_generation --detail "$name" --complete
   until wait_gpu cuda:2 && wait_gpu cuda:3; do sleep 5; done
   "$py" "$stage" harmful_judge --detail "$name"
   DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2,3 DEVICE=cuda:2 "$py" -u "$worker" score "$name"
+  "$py" tools/handoff_20261106/wjb_generation_coverage.py "$name" score
   "$py" "$stage" harmful_judge --detail "$name" --complete
   flock -u 7; flock -u 8
 done

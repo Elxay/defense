@@ -1,4 +1,4 @@
-"""Public sensitivity only, after the entire WJB WildGuard condition queue."""
+"""Low-priority public sensitivity, yielding to ready harmful units at boundaries."""
 import datetime
 import hashlib
 import json
@@ -25,18 +25,34 @@ def pulse(phase,name=None):
     save(OUT/'queue_live.json',{'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'pid':os.getpid(),'phase':phase,'condition':name})
 
 
+def ready_higher_priority():
+    for name in ['old_s3','rand0','old_s4','rand1','old_s5','rand2','old_s6','rand3','old_s7','old_s0','SYS_A','SYS_B']:
+        source=BASE/'public255/harmful.private'/name/'wildjailbreak_harmful'
+        if len(list(source.glob('*.json')))==2000 and not (BASE/'wildguard'/(name+'_done.json')).exists():
+            return 'wjb_'+name
+    snapshot=BASE/'frozen_prompt_snapshot.json'
+    if snapshot.exists():
+        n=len(json.loads(snapshot.read_text())['rows'])
+        for name in ['alpha0','old_s3','rand0','old_s4','rand1','old_s5','rand2','old_s6','rand3','old_s7','old_s0','SYS_A','SYS_B']:
+            if len(list((BASE/'canonical254/generation.private'/name).glob('*.json')))==n and not (BASE/'wildguard_pair254'/(name+'_done.json')).exists():
+                return 'pair_'+name
+    return None
+
+
 def main():
     os.umask(0o077)
     while True:
-        gate=BASE/'wildguard/conditions_queue_live.json'
-        if gate.exists() and json.loads(gate.read_text())['phase']=='all_units_complete_no_effect_read':break
-        pulse('waiting_wjb_wildguard_all_conditions');time.sleep(30)
+        first_eight=['old_s3','rand0','old_s4','rand1','old_s5','rand2','old_s6','rand3']
+        if all((BASE/'wildguard'/(name+'_done.json')).exists() for name in first_eight):break
+        pulse('waiting_first_eight_wjb_units');time.sleep(30)
     source=public_rows();keep=json.loads((ROOT/'results/style_intervention/old_recipe_targets.json').read_text())['keep'];trained={normalize(x['text']) for x in keep}
     assert {k:len(v) for k,v in source.items()}=={'xstest_safe':250,'xstest_unsafe':200,'or_hard':1319,'wildjailbreak_benign':210}
     assert {k:sum(normalize(t) not in trained for _,t in source[k]) for k in ['xstest_safe','or_hard','wildjailbreak_benign']}=={'xstest_safe':238,'or_hard':1301,'wildjailbreak_benign':210}
     subprocess.run(['ssh','node01','mkdir','-p',NODE],check=True)
     subprocess.run(['scp',str(ROOT/'tools/handoff_20261106/wildguard_public_run.py'),'node01:/home/dell/Def/tools/handoff_20261106/wildguard_public_run.py'],check=True)
     for name in NAMES:
+        while ready_higher_priority():
+            pulse('yielding_at_condition_boundary',name);time.sleep(15)
         payload=[];hashes={}
         for dataset,prompts in source.items():
             generated={}
@@ -59,7 +75,15 @@ source tools/handoff_20261106/node01_launch_round9.sh
 unset HF_TOKEN HUGGING_FACE_HUB_TOKEN HUGGINGFACE_HUB_TOKEN
 export HF_HUB_OFFLINE=1 USE_TF=0 USE_FLAX=0
 exec 8>>logs/idle_gpu0.lock
-flock 8
+while true; do
+  flock 8
+  if compgen -G 'results/audit/pair500/gpu0_priority/*.request' >/dev/null; then
+    flock -u 8
+    sleep 5
+  else
+    break
+  fi
+done
 until wait_gpu cuda:0; do sleep 15; done
 DEVICE=cuda:0 launch_job env CUDA_VISIBLE_DEVICES=0 DEVICE=cuda:0 /data/ray/env/bin/python -u tools/handoff_20261106/wildguard_public_run.py {name}
 '''

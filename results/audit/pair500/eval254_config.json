@@ -126,10 +126,10 @@
     "tools/handoff_20261106/pair500_priority_deadline.py": "a6921f6a026eb4ad9a7509d329ca86cbe1c66af82ff60ee38cb3824796d5a16b",
     "tools/handoff_20261106/pair500_wildguard_queue.py": "bdc0685d6383000a3cbe4fe4a28ee10f7f3427cbc426e822964d4c2f3403a328",
     "tools/handoff_20261106/pair500_wildguard_run.py": "e5b3e918c79fca57ac861de16b48c9af29e68cf7ba7378d43e42950e34abdd1d",
-    "tools/handoff_20261106/wjb_eval255_stage.py": "3b03de33450c9bec911f5a16d13d65a8835ed65d895cec39bea3d76c1e78a22d",
+    "tools/handoff_20261106/wjb_eval255_stage.py": "6ceb8258d1dfff3d2c01839be757d51de6b3c89be89557286d50f4f7b2c7474a",
     "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
     "tools/handoff_20261106/pair500_priority480.py": "f90bdae881300f1e06c0f7c6649477351b84c32ad376ac5b383a6a93d0a53927",
-    "tools/handoff_20261106/wjb_tail_resume_queue.sh": "a82fbeb7abd908018c21f76d309e1bcd9f55f4f801edeba44ac7afd1978171d0",
+    "tools/handoff_20261106/wjb_tail_resume_queue.sh": "249798fb61de7717b2062b4fea682ca1e65d32be0fe9bba7d889628d988e2140",
     "docs/254_ADDENDUM2_PAIR480_PAUSE_AND_RESUME.md": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd",
     "docs/254_ADDENDUM3_ONE_REMAINING_WJB_EXEMPTION.md": "ceba407e077af1ba3e50d2fdb934d9966ee516d991f6796a5234725570eb13e8",
     "tools/handoff_20261106/wjb_eval255_run.py": "abc609fbbd20dae80668669674853dbf793bf8f3996031231dd8c7f210ae597e",
@@ -141,7 +141,14 @@
     "tools/handoff_20261106/external_gpu3_watch30m.py": "30c3b16a95a28a7d30e11ace40b68f941f1ca145a9bbce1ec396dbb45736e638",
     "tools/handoff_20261106/hb_judge_preflight.py": "8cf383dd33d60aa29ea61a24f5a08a9b222fd30820b2ef1bf027a74bf86a1914",
     "docs/255_ADDENDUM26_EXTERNAL_JOB_WATCH_AND_JUDGE_STARTUP.md": "cc7466e29ab0eada988da9ce0fdf958256156be152ae74475516f15c45a01c51",
-    "results/audit/pair500/hb_judge_model_sha256.json": "35df6528783271ff63b0dd44537f50c4d09c022b9fdb786cd1de0c574e43af99"
+    "results/audit/pair500/hb_judge_model_sha256.json": "35df6528783271ff63b0dd44537f50c4d09c022b9fdb786cd1de0c574e43af99",
+    "tools/handoff_20261106/wildguard_public_queue.py": "de554345ccc282bcdbb595c12e33a90bb1fa6d7719ba56042a4652f2c6ec63bd",
+    "tools/handoff_20261106/wildguard_conditions_queue.py": "e35e646a8923acbc67afabd4ff9c8d535fee7b9ba956af90ee22185c90e6416f",
+    "tools/handoff_20261106/wjb_generation_coverage.py": "e700f461729b7e81caf006df2d7951fb8eb7032156a799b75378a1f8ecb58ab5",
+    "tools/handoff_20261106/wjb_joint_judge_then_tail.sh": "8f059d4d727b39d9eaa3475fddd688fdef8ef634f11867c50a1b0503d79d5605",
+    "tools/handoff_20261106/capture_20261109_0800_status.py": "fdfd16d1b55f126193f4efb9f0e49141afc6d58dc29e8b88c024a2fae046292a",
+    "docs/255_ADDENDUM27_JOINT_RAND3_S7_WINDOW_ORDER.md": "3b5cc81c7158ff137b21430c3f4a187042f81781e33d8a3292d426107c359515",
+    "docs/255_ADDENDUM28_EARLY_PUBLIC_WG_BOUNDARY_PRIORITY.md": "dc2ea594d268791f385ce56b30474894ef9463b33952544c6112ccaa706f1a45"
   },
   "evaluation_revision": 2,
   "evaluation_addendum": "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md",
@@ -182,5 +189,10 @@
   "external_job_watch_addendum": {
     "utc": "2026-11-08T14:52:00.952692+00:00",
     "doc_sha256": "cc7466e29ab0eada988da9ce0fdf958256156be152ae74475516f15c45a01c51"
+  },
+  "night_schedule_amendments": {
+    "utc": "2026-11-08T15:19:00.165204+00:00",
+    "joint_window_sha256": "3b5cc81c7158ff137b21430c3f4a187042f81781e33d8a3292d426107c359515",
+    "early_public_sha256": "dc2ea594d268791f385ce56b30474894ef9463b33952544c6112ccaa706f1a45"
   }
 }

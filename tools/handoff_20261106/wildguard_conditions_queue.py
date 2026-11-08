@@ -31,6 +31,15 @@ def main():
     assert len(mapping)==2000
     subprocess.run(['scp',str(ROOT/'tools/handoff_20261106/wildguard_conditions_run.py'),'node01:/home/dell/Def/tools/handoff_20261106/wildguard_conditions_run.py'],check=True)
     for name in NAMES:
+        done=OUT/(name+'_done.json');manifest=OUT/(name+'_input_manifest.json')
+        if done.exists() and manifest.exists() and len(list((OUT/(name+'_scores')).glob('*.json')))==2000:
+            d=json.loads(done.read_text());m=json.loads(manifest.read_text())
+            assert d['n']==2000
+            assert hashlib.sha256((OUT/(name+'_summary.json')).read_bytes()).hexdigest()==d['summary_sha256']
+            assert hashlib.sha256((OUT/(name+'_inputs.private.json')).read_bytes()).hexdigest()==m['input_sha256']
+            assert hashlib.sha256((ROOT/'tools/handoff_20261106/wildguard_conditions_run.py').read_bytes()).hexdigest()==m['classifier_source_sha256']
+            pulse('skip_verified_complete_no_effect_read',name)
+            continue
         source=BASE/'public255/harmful.private'/name/'wildjailbreak_harmful'
         while len(list(source.glob('*.json')))!=2000:pulse('waiting_complete_target_outputs',name);time.sleep(30)
         payload=[];hashes={}
@@ -46,6 +55,10 @@ def main():
 cd /home/dell/Def
 source tools/handoff_20261106/node01_launch_round9.sh
 export HF_HUB_OFFLINE=1 USE_TF=0 USE_FLAX=0
+mkdir -p results/audit/pair500/gpu0_priority
+request=results/audit/pair500/gpu0_priority/wjb_{name}.request
+printf '%s\\n' '{name}' > "$request"
+trap 'rm -f "$request"' EXIT
 exec 8>>logs/idle_gpu0.lock
 flock 8
 until wait_gpu cuda:0; do sleep 15; done
