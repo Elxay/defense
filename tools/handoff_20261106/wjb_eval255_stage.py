@@ -13,9 +13,10 @@ parser.add_argument("--complete", action="store_true")
 args = parser.parse_args()
 stamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
 trigger = ROOT / "results/audit/pair500/pair_priority_trigger.json"
-if (not args.complete and args.stage in {"harmful_generation", "harmful_judge"}
-        and args.detail in {"old_s7", "old_s0", "SYS_A", "SYS_B"}
-        and trigger.exists() and load(trigger).get("active")):
+decision = load(trigger) if trigger.exists() else {}
+auxiliary = args.detail in {"old_s0", "SYS_A", "SYS_B"}
+blocked = decision.get("active") or (auxiliary and decision.get("auxiliary_pause"))
+if (not args.complete and args.stage in {"harmful_generation", "harmful_judge"} and blocked):
     write(EVAL / "pair_priority_pause.json", {
         "utc": stamp, "reason": "PAIR500 actual rows >=480 or frozen cutoff snapshot",
         "stage": args.stage, "condition": args.detail, "checkpoint_retained": True,

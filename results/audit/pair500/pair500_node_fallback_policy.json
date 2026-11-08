@@ -1,0 +1,57 @@
+{
+  "frozen_utc": "2026-11-08T15:46:04.116893+00:00",
+  "status": "frozen_policy_not_activated",
+  "trigger": "search_snapshot_finalized and fewer_than_two_eligible_idle_innet_project_lanes",
+  "eligible_innet_lanes": [
+    2,
+    3
+  ],
+  "idle_memory_max_mib": 2000,
+  "lease_required": true,
+  "condition_order": [
+    "alpha0",
+    "old_s3",
+    "rand0",
+    "old_s4",
+    "rand1",
+    "old_s5",
+    "rand2",
+    "old_s6",
+    "rand3",
+    "old_s7",
+    "old_s0",
+    "SYS_A",
+    "SYS_B"
+  ],
+  "fallback_target_placements": {
+    "alpha0": "innet:2",
+    "old_s3": "innet:2",
+    "rand0": "innet:2",
+    "old_s4": "node01:0",
+    "rand1": "node01:1",
+    "old_s5": "node01:2",
+    "rand2": "node01:0",
+    "old_s6": "node01:1",
+    "rand3": "node01:2",
+    "old_s7": "node01:0",
+    "old_s0": "node01:1",
+    "SYS_A": "node01:2",
+    "SYS_B": "node01:0"
+  },
+  "gate20_ids_sha256": "bee1b69c93df3ac2101d2fff4c9d6ab3b7052526c2e7120da274c2e57a6c9171",
+  "cross_node_gate": {
+    "rows": 20,
+    "requires_byte_identical": 20,
+    "all_conditions_including_alpha0": true,
+    "new_tokens": 2400,
+    "failure": "stop_condition_no_threshold_relaxation_or_row_drop"
+  },
+  "judge_in_fallback": "hf_node01 on physicalGPU1,2 after target lanes release",
+  "wildguard": "wildguard_node01 on physicalGPU0 after target lane releases",
+  "innet_only_primary_units": [
+    "old_s3",
+    "rand0"
+  ],
+  "runtime_backend_driver": "not activated; must enforce this frozen policy before any nonzero target generation",
+  "original_eval_config_sha256": "2530282f358a3e0294b2c7426dffbc761d0d6b9016f2d36a9de61dd47584bd3d"
+}

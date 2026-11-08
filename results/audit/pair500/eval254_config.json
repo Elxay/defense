@@ -126,10 +126,10 @@
     "tools/handoff_20261106/pair500_priority_deadline.py": "a6921f6a026eb4ad9a7509d329ca86cbe1c66af82ff60ee38cb3824796d5a16b",
     "tools/handoff_20261106/pair500_wildguard_queue.py": "bdc0685d6383000a3cbe4fe4a28ee10f7f3427cbc426e822964d4c2f3403a328",
     "tools/handoff_20261106/pair500_wildguard_run.py": "e5b3e918c79fca57ac861de16b48c9af29e68cf7ba7378d43e42950e34abdd1d",
-    "tools/handoff_20261106/wjb_eval255_stage.py": "6ceb8258d1dfff3d2c01839be757d51de6b3c89be89557286d50f4f7b2c7474a",
+    "tools/handoff_20261106/wjb_eval255_stage.py": "462ce1e19129d1803931bd0b87c101e2dbec991964e62fa50c06b59efa2145d6",
     "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
-    "tools/handoff_20261106/pair500_priority480.py": "f90bdae881300f1e06c0f7c6649477351b84c32ad376ac5b383a6a93d0a53927",
-    "tools/handoff_20261106/wjb_tail_resume_queue.sh": "249798fb61de7717b2062b4fea682ca1e65d32be0fe9bba7d889628d988e2140",
+    "tools/handoff_20261106/pair500_priority480.py": "dcb753a17aa784ec06c130b526572ea8df74846b7dea734c702023b24fff910e",
+    "tools/handoff_20261106/wjb_tail_resume_queue.sh": "425e742a4d8b1aef4a4f989da99f2304bc46f51f5f353ccd81313782a8da62b9",
     "docs/254_ADDENDUM2_PAIR480_PAUSE_AND_RESUME.md": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd",
     "docs/254_ADDENDUM3_ONE_REMAINING_WJB_EXEMPTION.md": "ceba407e077af1ba3e50d2fdb934d9966ee516d991f6796a5234725570eb13e8",
     "tools/handoff_20261106/wjb_eval255_run.py": "abc609fbbd20dae80668669674853dbf793bf8f3996031231dd8c7f210ae597e",
@@ -146,9 +146,14 @@
     "tools/handoff_20261106/wildguard_conditions_queue.py": "e35e646a8923acbc67afabd4ff9c8d535fee7b9ba956af90ee22185c90e6416f",
     "tools/handoff_20261106/wjb_generation_coverage.py": "e700f461729b7e81caf006df2d7951fb8eb7032156a799b75378a1f8ecb58ab5",
     "tools/handoff_20261106/wjb_joint_judge_then_tail.sh": "8f059d4d727b39d9eaa3475fddd688fdef8ef634f11867c50a1b0503d79d5605",
-    "tools/handoff_20261106/capture_20261109_0800_status.py": "fdfd16d1b55f126193f4efb9f0e49141afc6d58dc29e8b88c024a2fae046292a",
+    "tools/handoff_20261106/capture_20261109_0800_status.py": "dc92fe078d24f2022c3ea74c5bb78e50b72415c4df4f30d4fa6ee776dd308f86",
     "docs/255_ADDENDUM27_JOINT_RAND3_S7_WINDOW_ORDER.md": "3b5cc81c7158ff137b21430c3f4a187042f81781e33d8a3292d426107c359515",
-    "docs/255_ADDENDUM28_EARLY_PUBLIC_WG_BOUNDARY_PRIORITY.md": "dc2ea594d268791f385ce56b30474894ef9463b33952544c6112ccaa706f1a45"
+    "docs/255_ADDENDUM28_EARLY_PUBLIC_WG_BOUNDARY_PRIORITY.md": "dc2ea594d268791f385ce56b30474894ef9463b33952544c6112ccaa706f1a45",
+    "tools/handoff_20261106/operational_metadata.py": "09dc34fc9cfc4930f3e30e6b468b7facfea0d6f368001fe9697d3c425c78f786",
+    "docs/254_ADDENDUM4_PRIMARY_ONLY_HANDOFF_EXEMPTION.md": "7ea2c3d9239ac7e95e85d0cbbd72d6abd99c532c0cf00b812bb9c7f08a6be8ae",
+    "docs/254_ADDENDUM5_PAIR500_NODE_FALLBACK_POLICY.md": "632ffd150e0090cdcda1230d7a41ea7fe2093589645310ac1abcd91388f27ed0",
+    "results/audit/pair500/pair500_node_fallback_policy.json": "bc2257b2a74b354a2ea22ff9adf91968695982ce2abe0d95ded350887de9748f",
+    "results/audit/pair500/pair_node_fallback_gate20_ids.txt": "bee1b69c93df3ac2101d2fff4c9d6ab3b7052526c2e7120da274c2e57a6c9171"
   },
   "evaluation_revision": 2,
   "evaluation_addendum": "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md",
@@ -194,5 +199,15 @@
     "utc": "2026-11-08T15:19:00.165204+00:00",
     "joint_window_sha256": "3b5cc81c7158ff137b21430c3f4a187042f81781e33d8a3292d426107c359515",
     "early_public_sha256": "dc2ea594d268791f385ce56b30474894ef9463b33952544c6112ccaa706f1a45"
+  },
+  "primary_only_exemption": {
+    "utc": "2026-11-08T15:46:04.116893+00:00",
+    "doc_sha256": "7ea2c3d9239ac7e95e85d0cbbd72d6abd99c532c0cf00b812bb9c7f08a6be8ae"
+  },
+  "node_fallback_policy": {
+    "utc": "2026-11-08T15:46:04.116893+00:00",
+    "doc_sha256": "632ffd150e0090cdcda1230d7a41ea7fe2093589645310ac1abcd91388f27ed0",
+    "policy_sha256": "bc2257b2a74b354a2ea22ff9adf91968695982ce2abe0d95ded350887de9748f",
+    "activation": "not activated"
   }
 }

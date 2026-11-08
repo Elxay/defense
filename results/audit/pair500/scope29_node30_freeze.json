@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-08T15:46:04.116893+00:00",
+  "actual_search_rows": 302,
+  "exemption_doc_sha256": "7ea2c3d9239ac7e95e85d0cbbd72d6abd99c532c0cf00b812bb9c7f08a6be8ae",
+  "node_fallback_doc_sha256": "632ffd150e0090cdcda1230d7a41ea7fe2093589645310ac1abcd91388f27ed0",
+  "policy_sha256": "bc2257b2a74b354a2ea22ff9adf91968695982ce2abe0d95ded350887de9748f",
+  "capture_import_audit": "standard library plus operational_metadata only",
+  "canonical_outputs": 0,
+  "node_backend_activated": false,
+  "checks_passed": true
+}

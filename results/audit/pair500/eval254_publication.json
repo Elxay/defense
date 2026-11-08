@@ -2,7 +2,7 @@
   "utc": "2026-11-07T07:36:51.377462+00:00",
   "commit": "5b388c35f84a37934f3bdcbfad6e070ef8a2a616",
   "doc_sha256": "5a882d3aa9983600d2860982d9b91aa9eeb20c3872591e0b69c05b03a1a7a0d0",
-  "config_sha256": "2530282f358a3e0294b2c7426dffbc761d0d6b9016f2d36a9de61dd47584bd3d",
+  "config_sha256": "f44702180d1c904ad840946cf2aca2db529ff6c2c5bac2a4d9a67838e34261f2",
   "amended_utc": "2026-11-08T12:52:59.970204+00:00",
   "evaluation_addendum_sha256": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
   "previous_publication_file": "eval254_publication_v1.json",
@@ -17,5 +17,8 @@
   "watch26_commit": "f6918911977be60919992d982efc20d197fb1029",
   "night27_sha256": "3b5cc81c7158ff137b21430c3f4a187042f81781e33d8a3292d426107c359515",
   "public28_sha256": "dc2ea594d268791f385ce56b30474894ef9463b33952544c6112ccaa706f1a45",
-  "night27_commit": "5277e01508f1fbdc71e9e8d2cd9a0e398339ce30"
+  "night27_commit": "5277e01508f1fbdc71e9e8d2cd9a0e398339ce30",
+  "scope29_sha256": "7ea2c3d9239ac7e95e85d0cbbd72d6abd99c532c0cf00b812bb9c7f08a6be8ae",
+  "node30_sha256": "632ffd150e0090cdcda1230d7a41ea7fe2093589645310ac1abcd91388f27ed0",
+  "scope29_commit": "pending_push"
 }
