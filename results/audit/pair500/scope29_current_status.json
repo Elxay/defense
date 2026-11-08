@@ -1,0 +1,158 @@
+{
+  "utc": "2026-11-08T15:50:01.414742+00:00",
+  "pair": {
+    "pid": 2295103,
+    "utc": "2026-11-08T15:49:56.359654+00:00",
+    "gpus": [
+      "1",
+      "2"
+    ],
+    "phase": "search",
+    "alive": true,
+    "completed_rows": 303,
+    "mean_seconds_per_row": 382.6895801455794,
+    "recent10_seconds": [
+      458.32531926594675,
+      348.4692262879107,
+      429.0662793710362,
+      455.84929051296785,
+      209.55913205607794,
+      401.5470796979498,
+      520.9171495160554,
+      250.80797039694153,
+      473.9913954939693,
+      450.6999952150509
+    ],
+    "heartbeat_age_s": 4.829884
+  },
+  "node01_active_classifiers": [
+    {
+      "group": "wildguard_public",
+      "file": "alpha0_live.json",
+      "utc": "2026-11-08T15:49:59.641820+00:00",
+      "pid": 2414873,
+      "n": 1670,
+      "total": 1979,
+      "seconds_per_scored_row": 1.0117268132006827,
+      "host": "node01",
+      "gpu": 0,
+      "heartbeat_age_s": 1.547718
+    }
+  ],
+  "gpu_memory": [
+    "0, 15069",
+    "1, 22743",
+    "2, 17247"
+  ],
+  "innet_active_workers": [
+    {
+      "pid": 690461,
+      "utc": "2026-11-08T15:49:45.184473+00:00",
+      "device": "cuda:2",
+      "n": 594,
+      "total": 1000,
+      "seconds_per_row": 7.835293714229099,
+      "file": "live_harmful_old_s7_0.json",
+      "heartbeat_age_s": 16.235399
+    }
+  ],
+  "wjb_generation_coverage": {
+    "rand3": 2000,
+    "old_s7": 594,
+    "old_s0": 0,
+    "SYS_A": 0,
+    "SYS_B": 0
+  },
+  "judge_coverage": {
+    "old_s3": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand0": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s4": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand1": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s5": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand2": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s6": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand3": {
+      "hb_top1_files": 0,
+      "wg_files": 2000
+    },
+    "old_s7": {
+      "hb_top1_files": 0,
+      "wg_files": 0
+    }
+  },
+  "harmful_wg_queue": {
+    "utc": "2026-11-08T15:49:34.990017+00:00",
+    "pid": 750029,
+    "phase": "waiting_complete_target_outputs",
+    "condition": "old_s7"
+  },
+  "public_wg_queue": {
+    "utc": "2026-11-08T15:20:05.443137+00:00",
+    "pid": 750027,
+    "phase": "remote_gpu0_job_dispatched",
+    "condition": "alpha0"
+  },
+  "morning_capture": {
+    "utc": "2026-11-08T15:49:38.784652+00:00",
+    "pid": 784257,
+    "phase": "waiting_0800_JST",
+    "due_utc": "2026-11-08T23:00:00+00:00"
+  },
+  "external_gpu3_last_observation": {
+    "utc": "2026-11-08T15:22:47.830959+00:00",
+    "pid": 592686,
+    "environment_read": false,
+    "action": "observe_only",
+    "same_process_alive": true,
+    "pid_reused": false,
+    "elapsed_s": 7530,
+    "ps_utc": "kemove   Sun Nov  8 13:17:17 2026 python",
+    "script_names": [
+      "train_KPConv_Urb3DCDV2.py"
+    ],
+    "gpu3_total_memory_mib": 7189
+  },
+  "innet_gpu_memory": [
+    "2, 16237",
+    "3, 7189"
+  ],
+  "imports_analysis_code": false,
+  "reads_outcome_labels": false,
+  "runtime_import_audit_forbidden_modules": [],
+  "current_controllers": {
+    "pair_priority480_live.json": {
+      "utc": "2026-11-08T15:49:41.268598+00:00",
+      "pid": 784245,
+      "phase": "waiting_actual_480_rows",
+      "n": 303,
+      "ids_sha256": "d341cdce89925813e8f97fb3212fa4c4a921eddc2030f8182407acd222489951"
+    },
+    "morning_0800_capture_live.json": {
+      "utc": "2026-11-08T15:49:38.784652+00:00",
+      "pid": 784257,
+      "phase": "waiting_0800_JST",
+      "due_utc": "2026-11-08T23:00:00+00:00"
+    }
+  }
+}
