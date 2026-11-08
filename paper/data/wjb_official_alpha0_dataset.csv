@@ -1,0 +1,4 @@
+dataset,n,judge,harmful_yes,invalid,yes_over_all_rows_pct,upper_pct,source,sha256
+WildJailbreak evaluation adversarial harmful,2000,HarmBench mapped top-1,993,0,49.65,49.65,results/audit/pair500/public255/alpha0_reference_directional.json,047db362c25cc4017b163bf1ccbf419f0d6bfad20a74f76970153eac93885a72
+WildJailbreak evaluation adversarial harmful,2000,WildGuard,776,1,38.8,38.85,results/audit/pair500/wildguard/baseline_read/primary.json,6be2be87100591e9ef53438b039222371e5e78b6b9d22d9d9ab006b346990b4e
+WildJailbreak evaluation adversarial harmful,2000,HarmBench mapped top-2,304,0,15.2,15.2,results/audit/pair500/public255/alpha0_reference_directional.json,047db362c25cc4017b163bf1ccbf419f0d6bfad20a74f76970153eac93885a72

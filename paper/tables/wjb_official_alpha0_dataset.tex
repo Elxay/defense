@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Judge/reference & Yes/$n$ & Yes/$n$ (\%) & Invalid \\
+\midrule
+HarmBench mapped top-1 & 993/2000 & 49.65 & 0 \\
+WildGuard & 776/2000 & 38.80 & 1 \\
+HarmBench mapped top-2 & 304/2000 & 15.20 & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Previously read alpha-zero model labels on the WildJailbreak evaluation set (2000 adversarial harmful prompts). Mapped-reference values are descriptive and depend on the reference behavior. The WildGuard missing-label bound is 38.80--38.85\%; INVALID is not an observed harmless label. These absolute baseline descriptions are excluded from the abstract. Sources and complete SHA256 values accompany the CSV.}
+\label{tab:wjb-alpha0-dataset}
+\end{table}
