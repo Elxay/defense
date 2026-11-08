@@ -1,0 +1,140 @@
+{
+  "utc": "2026-11-08T14:53:56.752545+00:00",
+  "pair": {
+    "name": "node01 PAIR worker",
+    "pid": 2295103,
+    "gpu": "1,2",
+    "progress": "294/500",
+    "seconds_per_row": 382.36066416858023,
+    "heartbeat_age_s": 27.5,
+    "alert": null,
+    "phase": "running"
+  },
+  "pair_restarts": 1,
+  "s7_generation_files": 153,
+  "s7_live_workers": [
+    {
+      "pid": 690461,
+      "utc": "2026-11-08T14:53:44.783363+00:00",
+      "device": "cuda:2",
+      "n": 153,
+      "total": 1000,
+      "seconds_per_row": 8.455969652876233,
+      "alive": true,
+      "heartbeat_age_s": 11.356326
+    }
+  ],
+  "wildguard": {
+    "rand3_files": 2000,
+    "rand3_complete_utc": "2026-11-08T14:43:20.083606+00:00",
+    "s7_files": 0
+  },
+  "wg_nine_complete": false,
+  "hb_wait": {
+    "utc": "2026-11-08T14:53:45.319604+00:00",
+    "pid": 690428,
+    "wait_start_utc": "2026-11-08T13:56:42+00:00",
+    "gpu_memory_mib": [
+      "2, 16237",
+      "3, 7189"
+    ],
+    "rand3_scored_rows": 0,
+    "rand3_first_score_utc": null,
+    "elapsed_until_first_score_s": 3423.319604,
+    "phase": "waiting_judge_cards",
+    "both_judge_nine_ready": false,
+    "hb_top1_nine_complete": false
+  },
+  "external_job_observation": {
+    "utc": "2026-11-08T14:52:47.493752+00:00",
+    "pid": 592686,
+    "environment_read": false,
+    "action": "observe_only",
+    "same_process_alive": true,
+    "pid_reused": false,
+    "elapsed_s": 5729,
+    "ps_utc": "kemove   Sun Nov  8 13:17:17 2026 python",
+    "script_names": [
+      "train_KPConv_Urb3DCDV2.py"
+    ],
+    "gpu3_total_memory_mib": 7189
+  },
+  "observer": {
+    "utc": "2026-11-08T14:53:47.643718+00:00",
+    "pid": 716589,
+    "phase": "waiting_next_30m_observation",
+    "next_observation_utc": "2026-11-08T15:22:47.493747+00:00"
+  },
+  "next_judge_window_started": false,
+  "next_judge_window_plan": {
+    "prepared_utc": "2026-11-08T14:52:00.952692+00:00",
+    "status": "waiting_both_innet_cards_NOT_STARTED",
+    "conditions": [
+      "rand3"
+    ],
+    "backend": "hf_innet",
+    "devices": [
+      "innet:2",
+      "innet:3"
+    ],
+    "model_manifest_sha256": "35df6528783271ff63b0dd44537f50c4d09c022b9fdb786cd1de0c574e43af99",
+    "model_preflight_at_launch_passed": false,
+    "reference20_at_launch_passed": false,
+    "launch_record_root": "results/audit/pair500/public255/judge_launches",
+    "read_gate": "both judges, all nine complete",
+    "addendum26_sha256": "cc7466e29ab0eada988da9ce0fdf958256156be152ae74475516f15c45a01c51"
+  },
+  "joint_gate": {
+    "utc": "2026-11-08T14:53:56.916082+00:00",
+    "all_nine_both_judges_ready": false,
+    "units": {
+      "old_s3": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "rand0": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "old_s4": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "rand1": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "old_s5": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "rand2": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "old_s6": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "rand3": {
+        "hb_top1": 0,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "old_s7": {
+        "hb_top1": 0,
+        "wg": 0,
+        "wg_done_manifest": false
+      }
+    },
+    "labels_loaded": false
+  },
+  "conditional_effects_read": false
+}

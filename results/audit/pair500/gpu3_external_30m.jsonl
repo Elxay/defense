@@ -1,0 +1,1 @@
+{"utc": "2026-11-08T14:52:47.493752+00:00", "pid": 592686, "environment_read": false, "action": "observe_only", "same_process_alive": true, "pid_reused": false, "elapsed_s": 5729, "ps_utc": "kemove   Sun Nov  8 13:17:17 2026 python", "script_names": ["train_KPConv_Urb3DCDV2.py"], "gpu3_total_memory_mib": 7189}
