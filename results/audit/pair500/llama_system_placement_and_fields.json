@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-08T22:30:47.840833+00:00",
+  "conditions": {
+    "SYS_A": {
+      "system_text_sha256": "d33c70fdd0c40dc6d2b38a6be972bb8806bd5ac174db361930bb85341be974c3",
+      "one_explicit_system_message": true,
+      "template_metadata_retained_before_text": true,
+      "body_has_no_A_short_B_detailed_label": true,
+      "no_extra_generic_default_instruction_appended": true
+    },
+    "SYS_B": {
+      "system_text_sha256": "3606acab20daf5f70bde6b186c9b498ada1b0de51e4b67dd4a81a1e1745c4957",
+      "one_explicit_system_message": true,
+      "template_metadata_retained_before_text": true,
+      "body_has_no_A_short_B_detailed_label": true,
+      "no_extra_generic_default_instruction_appended": true
+    }
+  },
+  "message_roles": [
+    "system",
+    "user"
+  ],
+  "generation_helper_sha256": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+  "new_tokens_and_eos_fields_returned": true,
+  "historical_comparison": "Uses the established body-only/no-label convention. No new byte-equivalence claim for historical A/B outputs; the template retains its own knowledge/date metadata.",
+  "system_generation_coverage": {
+    "SYS_A": 0,
+    "SYS_B": 0
+  }
+}

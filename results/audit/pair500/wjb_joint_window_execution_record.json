@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-11-08T22:30:47.840833+00:00",
+  "s7_completed_utc": "2026-11-08T18:38:25.948533+00:00",
+  "s7_rows": 2000,
+  "started_utc": "2026-11-08T21:35:24.745575+00:00",
+  "pid": 1209707,
+  "conditions": [
+    "rand3",
+    "old_s7"
+  ],
+  "backend": "hf_innet",
+  "device": "2,3",
+  "model_hashes_verified": true,
+  "model_manifest_sha256": "35df6528783271ff63b0dd44537f50c4d09c022b9fdb786cd1de0c574e43af99",
+  "reference20_passed": true,
+  "ready_utc": "2026-11-08T21:39:05.889208+00:00",
+  "reference20_sha256": "303a6fa115e469c6484b9b4541f6132e4866314cf3f9a71ce85f6ad64483cfd9",
+  "completed_utc": "2026-11-08T21:48:07.430551+00:00",
+  "score_file_counts": {
+    "rand3": 2000,
+    "old_s7": 2000
+  },
+  "no_outcome_labels_read": true,
+  "contact": "No confirmed direct contact endpoint for hzx; no claim of having contacted him. User previously said GPU3 could not be yielded. PID592686 has now ended; attribution and planned duration remain unconfirmed."
+}

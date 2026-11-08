@@ -1,0 +1,112 @@
+{
+  "recorded_utc": "2026-11-08T22:30:47.840833+00:00",
+  "order": [
+    "alpha0",
+    "old_s3",
+    "old_s4",
+    "old_s5",
+    "old_s6",
+    "old_s7",
+    "rand0",
+    "rand1",
+    "rand2",
+    "rand3"
+  ],
+  "source_sha256": "de554345ccc282bcdbb595c12e33a90bb1fa6d7719ba56042a4652f2c6ec63bd",
+  "conditions": [
+    {
+      "condition": "alpha0",
+      "n": 1979,
+      "pid": 2414873,
+      "done_file_mtime_utc": "2026-11-08T15:55:12.961224+00:00",
+      "done_file_sha256": "687bff130ea52619ed039e1a7a79b01b239c16cdf8cf55f9eb3a345ef1ad7876",
+      "last_live_utc": "2026-11-08T15:55:03.802665+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "old_s3",
+      "n": 1979,
+      "pid": 2426928,
+      "done_file_mtime_utc": "2026-11-08T16:30:40.203958+00:00",
+      "done_file_sha256": "d44a06e5f350498ddfbf5e5c0726324e234d2ad8c61522a12e297671d40c7387",
+      "last_live_utc": "2026-11-08T16:30:26.842770+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "old_s4",
+      "n": 1979,
+      "pid": 2439617,
+      "done_file_mtime_utc": "2026-11-08T17:05:58.007535+00:00",
+      "done_file_sha256": "180842bd99864a962705ad76ba35c0848c6cbd21833f7da60bd8e7892395c330",
+      "last_live_utc": "2026-11-08T17:05:44.973870+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "old_s5",
+      "n": 1979,
+      "pid": 2452591,
+      "done_file_mtime_utc": "2026-11-08T17:40:56.355114+00:00",
+      "done_file_sha256": "33e5aeca2ebee897a433c807715b25479e82dc6d4937a850624c85e23d115c05",
+      "last_live_utc": "2026-11-08T17:40:43.439178+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "old_s6",
+      "n": 1979,
+      "pid": 2464557,
+      "done_file_mtime_utc": "2026-11-08T18:16:07.214812+00:00",
+      "done_file_sha256": "c330478771e5e8e2ed121545208dacbd845fe6c8438b403cfd9d1c56d501a16c",
+      "last_live_utc": "2026-11-08T18:15:54.257067+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "old_s7",
+      "n": 1979,
+      "pid": 2476358,
+      "done_file_mtime_utc": "2026-11-08T18:51:23.013459+00:00",
+      "done_file_sha256": "22717aec7b676fb39511bfe5c60dc5109228cfdc0346ad59b22062b9850a9e1a",
+      "last_live_utc": "2026-11-08T18:51:10.259872+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "rand0",
+      "n": 1979,
+      "pid": 2499832,
+      "done_file_mtime_utc": "2026-11-08T20:02:59.945119+00:00",
+      "done_file_sha256": "0dbdbf89705d734df8530e482122fc4bd0bae846ba0f7d644477638717c9e916",
+      "last_live_utc": "2026-11-08T20:02:47.144171+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "rand1",
+      "n": 1979,
+      "pid": 2510838,
+      "done_file_mtime_utc": "2026-11-08T20:38:04.877767+00:00",
+      "done_file_sha256": "664078c2a71e9e8e1a8a740f7df332f8faad83c56f1e1b7e778474a131e3ab23",
+      "last_live_utc": "2026-11-08T20:37:52.056478+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "rand2",
+      "n": 1979,
+      "pid": 2522035,
+      "done_file_mtime_utc": "2026-11-08T21:13:07.642868+00:00",
+      "done_file_sha256": "cd2d977b73be13c7bf8aa429f6f8022e9e18dd47fab721fb806b645c1573d1e8",
+      "last_live_utc": "2026-11-08T21:12:54.893923+00:00",
+      "last_live_n": 1970
+    },
+    {
+      "condition": "rand3",
+      "n": 1979,
+      "pid": 2533872,
+      "done_file_mtime_utc": "2026-11-08T21:48:14.768994+00:00",
+      "done_file_sha256": "1622eed233d672901acb96dbace234bab551ba89c0f91c2dbf78b975d6671547",
+      "last_live_utc": "2026-11-08T21:48:01.654260+00:00",
+      "last_live_n": 1970
+    }
+  ],
+  "all_ten_complete": true,
+  "no_summary_or_outcome_file_loaded": true,
+  "timestamp_semantics": "Completion timestamps are done-file mtimes preserved by rsync; done markers have no explicit UTC field. Last-live timestamps are also retained. Historical PIDs are not current workers.",
+  "correction": "The earlier report quoting alpha0 1670 rows was stale: its done marker predates 01:04 JST. At 02:08 JST the three completed conditions were alpha0, old_s3, old_s4; old_s5 was fourth."
+}

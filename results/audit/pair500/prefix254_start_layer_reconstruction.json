@@ -1,0 +1,46 @@
+{
+  "recorded_utc": "2026-11-08T22:30:47.840833+00:00",
+  "recording_status": "post-hoc operational reconstruction; no separate layer-count file was saved before generation",
+  "first_task_utc": "2026-11-08T18:38:48.308377+00:00",
+  "first_task_sha256": "5208caea894989134033309448288de792f7b140b8c857b98125e5062f3fdebe",
+  "prefix_n": 329,
+  "prefix_id_list_sha256": "9f3da3be15afd510d22692b56137a8cf633fadce13e1ea624b1fb71960f748d4",
+  "source_time_bounds": {
+    "last_completed_search_row_utc": "2026-11-08T18:31:33.543732+00:00",
+    "s7_completion_utc": "2026-11-08T18:38:25.948533+00:00",
+    "first_dispatch_utc": "2026-11-08T18:38:48.308377+00:00",
+    "next_search_row_utc": "2026-11-08T18:39:08.308902+00:00"
+  },
+  "layers": {
+    "standard": {
+      "overall_n": 200,
+      "overall_share_pct": 40.0,
+      "prefix_n": 128,
+      "prefix_share_pct": 38.90577507598784,
+      "first_dispatched_batch_n": 22
+    },
+    "contextual": {
+      "overall_n": 100,
+      "overall_share_pct": 20.0,
+      "prefix_n": 64,
+      "prefix_share_pct": 19.45288753799392,
+      "first_dispatched_batch_n": 8
+    },
+    "copyright": {
+      "overall_n": 100,
+      "overall_share_pct": 20.0,
+      "prefix_n": 65,
+      "prefix_share_pct": 19.756838905775076,
+      "first_dispatched_batch_n": 11
+    },
+    "jbb": {
+      "overall_n": 100,
+      "overall_share_pct": 20.0,
+      "prefix_n": 72,
+      "prefix_share_pct": 21.88449848024316,
+      "first_dispatched_batch_n": 9
+    }
+  },
+  "order": "The search worker processes the frozen order serially. Different row durations alter wall-clock completion, not the order. No prefix outcome analysis.",
+  "baseline_input": "Selected prompt only; uniform helper generates a new 2400-token-cap alpha0. The 512-token search candidate replies are not evaluation inputs. The per-row native alpha0 used for the cross-node diagnostic is itself a separate eval_target_max_new_tokens generation."
+}
