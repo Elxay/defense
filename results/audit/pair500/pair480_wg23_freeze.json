@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-08T13:28:16.023688+00:00",
+  "pause_addendum_sha256": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd",
+  "wg23_sha256": "039653b2bd262ee77cbb48cac860a31017e62234621476e7ab014ddd09df9d2e",
+  "config_sha256": "3a5d007bffaa9a2cec8fd2b940b11565778a9e537dbd1a650b9beb85521b56c8",
+  "actual_search_rows": 282,
+  "canonical_files": 0,
+  "no_conditional_wg_read": true,
+  "checks_passed": true
+}

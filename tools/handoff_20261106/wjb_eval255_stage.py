@@ -12,12 +12,12 @@ parser.add_argument("--detail", default="")
 parser.add_argument("--complete", action="store_true")
 args = parser.parse_args()
 stamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
-deadline = datetime.datetime(2026, 11, 9, 9, tzinfo=datetime.timezone.utc)
+trigger = ROOT / "results/audit/pair500/pair_priority_trigger.json"
 if (args.stage in {"harmful_generation", "harmful_judge"}
         and args.detail in {"old_s7", "old_s0", "SYS_A", "SYS_B"}
-        and datetime.datetime.now(datetime.timezone.utc) >= deadline):
+        and trigger.exists() and load(trigger).get("active")):
     write(EVAL / "pair_priority_pause.json", {
-        "utc": stamp, "reason": "PAIR500 priority at 2026-11-09 18:00 JST",
+        "utc": stamp, "reason": "PAIR500 actual rows >=480 or frozen cutoff snapshot",
         "stage": args.stage, "condition": args.detail, "checkpoint_retained": True,
     })
     raise SystemExit(75)

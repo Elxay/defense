@@ -1,0 +1,178 @@
+{
+  "utc": "2026-11-08T13:24:15.291249+00:00",
+  "layers": [
+    {
+      "layer": "standard",
+      "planned": 200,
+      "completed": 108,
+      "remaining": 92,
+      "mean_s": 361.6908186800342,
+      "sd_s": 120.34309814776178
+    },
+    {
+      "layer": "contextual",
+      "planned": 100,
+      "completed": 54,
+      "remaining": 46,
+      "mean_s": 434.59305883320565,
+      "sd_s": 93.41994437133259
+    },
+    {
+      "layer": "copyright",
+      "planned": 100,
+      "completed": 59,
+      "remaining": 41,
+      "mean_s": 429.0829321055523,
+      "sd_s": 70.51120105097824
+    },
+    {
+      "layer": "jbb",
+      "planned": 100,
+      "completed": 61,
+      "remaining": 39,
+      "mean_s": 318.64057225797353,
+      "sd_s": 114.90856704927934
+    }
+  ],
+  "n": 282,
+  "cumulative_s": 380.4383031787262,
+  "recent10": [
+    483.80204726802185,
+    481.72112729703076,
+    459.0911517699715,
+    211.9877353850752,
+    451.982670500176,
+    156.18031616392545,
+    508.43803711794317,
+    316.3010526529979,
+    469.8123933901079,
+    420.67002064595
+  ],
+  "recent10_mean_s": 395.99865521912,
+  "eta_stratified_utc": "2026-11-09T12:32:21.509808+00:00",
+  "remaining_stratified_h": 23.135060710910896,
+  "eta_cumulative_utc": "2026-11-09T12:26:30.841342+00:00",
+  "eta_recent10_utc": "2026-11-09T13:23:02.998087+00:00",
+  "wg": [
+    {
+      "name": "old_s3",
+      "files": 2000,
+      "done_utc": "2026-11-08T10:16:08.437875+00:00",
+      "live": {
+        "utc": "2026-11-08T10:16:08.059163+00:00",
+        "pid": 2310494,
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_scored_row": 1.058095759775024,
+        "host": "node01",
+        "gpu": 0
+      },
+      "alive": false,
+      "hb_age": 11287.232086
+    },
+    {
+      "name": "rand0",
+      "files": 2000,
+      "done_utc": "2026-11-08T10:53:50.949608+00:00",
+      "live": {
+        "utc": "2026-11-08T10:53:50.521649+00:00",
+        "pid": 2318019,
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_scored_row": 1.0747604298799998,
+        "host": "node01",
+        "gpu": 0
+      },
+      "alive": false,
+      "hb_age": 9024.7696
+    },
+    {
+      "name": "old_s4",
+      "files": 2000,
+      "done_utc": "2026-11-08T11:38:32.124051+00:00",
+      "live": {
+        "utc": "2026-11-08T11:38:31.707111+00:00",
+        "pid": 2326209,
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_scored_row": 1.2864946828745305,
+        "host": "node01",
+        "gpu": 0
+      },
+      "alive": false,
+      "hb_age": 6343.584138
+    },
+    {
+      "name": "rand1",
+      "files": 2000,
+      "done_utc": "2026-11-08T12:15:39.603127+00:00",
+      "live": {
+        "utc": "2026-11-08T12:15:39.159646+00:00",
+        "pid": 2340077,
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_scored_row": 1.0556461707074196,
+        "host": "node01",
+        "gpu": 0
+      },
+      "alive": false,
+      "hb_age": 4116.131603
+    },
+    {
+      "name": "old_s5",
+      "files": 2000,
+      "done_utc": "2026-11-08T12:52:58.470173+00:00",
+      "live": {
+        "utc": "2026-11-08T12:52:58.063353+00:00",
+        "pid": 2351368,
+        "n": 2000,
+        "total": 2000,
+        "seconds_per_scored_row": 1.062549845212954,
+        "host": "node01",
+        "gpu": 0
+      },
+      "alive": false,
+      "hb_age": 1877.227896
+    },
+    {
+      "name": "rand2",
+      "files": 1648,
+      "done_utc": null,
+      "live": {
+        "utc": "2026-11-08T13:24:06.124587+00:00",
+        "pid": 2363259,
+        "n": 1640,
+        "total": 2000,
+        "seconds_per_scored_row": 1.073578157833005,
+        "host": "node01",
+        "gpu": 0
+      },
+      "alive": true,
+      "hb_age": 9.166662
+    },
+    {
+      "name": "old_s6",
+      "files": 0,
+      "done_utc": null,
+      "live": null,
+      "alive": false,
+      "hb_age": null
+    },
+    {
+      "name": "rand3",
+      "files": 0,
+      "done_utc": null,
+      "live": null,
+      "alive": false,
+      "hb_age": null
+    },
+    {
+      "name": "old_s7",
+      "files": 0,
+      "done_utc": null,
+      "live": null,
+      "alive": false,
+      "hb_age": null
+    }
+  ]
+}

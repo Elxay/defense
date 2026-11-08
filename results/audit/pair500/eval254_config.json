@@ -124,10 +124,13 @@
     "results/audit/pair500/config.json": "9e46b2e78bb191363b1dadbe458815871a00f8e9f91cea0202687ca70a83fca1",
     "tools/handoff_20261106/pair500_read_gate.py": "31363aedb29697a1fddd8291b04587ae2960c519fc927ebaf3c07a21d5ba2284",
     "tools/handoff_20261106/pair500_priority_deadline.py": "a6921f6a026eb4ad9a7509d329ca86cbe1c66af82ff60ee38cb3824796d5a16b",
-    "tools/handoff_20261106/pair500_wildguard_queue.py": "4fdae41c1b95ddcab298498befeee7f73663ee1b63dd64f7183f62a31ff058c4",
+    "tools/handoff_20261106/pair500_wildguard_queue.py": "bdc0685d6383000a3cbe4fe4a28ee10f7f3427cbc426e822964d4c2f3403a328",
     "tools/handoff_20261106/pair500_wildguard_run.py": "e5b3e918c79fca57ac861de16b48c9af29e68cf7ba7378d43e42950e34abdd1d",
-    "tools/handoff_20261106/wjb_eval255_stage.py": "5630f3f73efd69ba9d2de8af4e80ea32e7f58501b176b48134924698ed610e28",
-    "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c"
+    "tools/handoff_20261106/wjb_eval255_stage.py": "3b03de33450c9bec911f5a16d13d65a8835ed65d895cec39bea3d76c1e78a22d",
+    "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
+    "tools/handoff_20261106/pair500_priority480.py": "42c564f0e4741772bb76becff9169ca50b583e0ef94acf45611487ae836bdf31",
+    "tools/handoff_20261106/wjb_tail_resume_queue.sh": "8bf9a177ce5a460d4efecbf5737c6ab01879f70d2ffef3ce5a3c0c429ca034ec",
+    "docs/254_ADDENDUM2_PAIR480_PAUSE_AND_RESUME.md": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd"
   },
   "evaluation_revision": 2,
   "evaluation_addendum": "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md",
@@ -148,5 +151,11 @@
     "SYS_A",
     "SYS_B"
   ],
-  "both_judges_required_before_effect_read": true
+  "both_judges_required_before_effect_read": true,
+  "priority_amendment": {
+    "utc": "2026-11-08T13:28:16.023688+00:00",
+    "doc": "docs/254_ADDENDUM2_PAIR480_PAUSE_AND_RESUME.md",
+    "sha256": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd",
+    "actual_rows_trigger": 480
+  }
 }
