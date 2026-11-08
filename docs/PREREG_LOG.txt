@@ -307,3 +307,5 @@
 2026-11-08T08:54:32.000514+00:00 WILDGUARD_FORMAT5_COMPLETE labels saved; no dataset batch started. Cross-node20 remains pending.
 2026-11-08T09:01:07.875738+00:00 WILDGUARD_FORMAT5_FIRST_CONVERSATIONAL_READ all5 structural parses valid, formatSHA=699ccfd3bcf95ddf0deab12bf8e620063a2981d2b6e6a8d435ce66e140c581ac; dataset judge output unread.
 2026-11-08T09:01:07.875738+00:00 WILDGUARD_ALPHA0_EXECUTION_FROZEN input2000 and runtime hashes saved before batch. Single node01GPU0 only; cross-node20 pending, no pooling and no condition batch; wait_gpu and launch_job required.
+2026-11-08T09:05:59.403975+00:00 PAIR_RESTART1_AUDITED cause CUDA OOM logical0 physical1; attempt1 before/after237 rows all hashes unchanged; frozenConfigSHA9e46b2e78bb191363b1dadbe458815871a00f8e9f91cea0202687ca70a83fca1 unchanged; restarted allocator expandable_segments:True already authorized. OOM preceded first WildGuard fixture launch. Worker2295103 healthy.
+2026-11-08T09:05:59.403975+00:00 WILDGUARD_ALPHA0_RUNNING node01 physicalGPU0, only baseline, no condition batch or dataset outcome read; five format observations read, cross-node20 pending, all score provenance single-node.

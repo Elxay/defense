@@ -1,0 +1,16 @@
+{
+  "cause": "torch.OutOfMemoryError",
+  "detected_before_restart_utc": "2026-11-08T08:28:08.393493+00:00",
+  "before_n": 237,
+  "after_n": 237,
+  "all_preexisting_hashes_unchanged": true,
+  "logical_oom_device": 0,
+  "physical_device": 1,
+  "cuda_visible_devices": "1,2",
+  "allocation_requested_MiB": 566,
+  "free_MiB": 496.31,
+  "allocator_after_restart": "expandable_segments:True",
+  "config_sha256": "9e46b2e78bb191363b1dadbe458815871a00f8e9f91cea0202687ca70a83fca1",
+  "first_wildguard_fixture_launch_utc": "2026-11-08T08:52:20+00:00",
+  "configuration_changed": false
+}
