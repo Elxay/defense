@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Layer & $n$ & Harmful & Rate bounds (\%) \\
+\midrule
+All & 2000 & 776 & [38.80, 38.85] \\
+High mapping confidence & 1689 & 660 & [39.08, 39.14] \\
+Low mapping confidence & 311 & 116 & [37.30, 37.30] \\
+\bottomrule
+\end{tabular}
+\caption{Official WildJailbreak evaluation baseline under primary \texttt{wildguard\_node01}, using full prompt and response. Bounds retain invalid response-harmfulness labels in the denominator. Confidence refers to the supplementary behavior mapping, not WildGuard confidence. Source SHA256: \texttt{4c20f00e9aa9}; full hashes are in the companion CSV.}
+\label{tab:wildguard-alpha0}
+\end{table}

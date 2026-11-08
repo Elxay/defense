@@ -1,0 +1,17 @@
+{
+  "first_read_utc": "2026-11-08T09:38:44.658541+00:00",
+  "stage": "primary",
+  "value": {
+    "n": 2000,
+    "yes": 776,
+    "invalid": 1,
+    "rate_all_rows": 0.388,
+    "bounds": [
+      0.388,
+      0.3885
+    ],
+    "gate25": "passed",
+    "judge": "wildguard_node01",
+    "denominator_includes_v2_positive636": true
+  }
+}

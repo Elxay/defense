@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-08T09:48:01.030997+00:00",
+  "same_uid_environment_findings": [
+    {
+      "pid": 27351,
+      "process_name": "python",
+      "hf_token_nonempty": true,
+      "hf_prefix_present": true,
+      "project_owner_marker_matches": false,
+      "argv0": "python"
+    },
+    {
+      "pid": 3542128,
+      "process_name": "bash",
+      "hf_token_nonempty": true,
+      "hf_prefix_present": true,
+      "project_owner_marker_matches": false,
+      "argv0": "bash"
+    },
+    {
+      "pid": 3581097,
+      "process_name": "python",
+      "hf_token_nonempty": true,
+      "hf_prefix_present": true,
+      "project_owner_marker_matches": false,
+      "argv0": "python"
+    }
+  ],
+  "values_or_hashes_disclosed": false,
+  "processes_modified_or_stopped": false,
+  "scope": "innet same-UID processes; no claim these are the downloaded credential"
+}

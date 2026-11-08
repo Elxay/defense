@@ -1,0 +1,42 @@
+{
+  "first_read_utc": "2026-11-08T09:39:01.404471+00:00",
+  "stage": "refusal_agreement",
+  "value": {
+    "all": {
+      "n": 2000,
+      "complete_pairs": 2000,
+      "invalid_pairs": 0,
+      "matrix": {
+        "v20_model0": 1348,
+        "v20_model1": 16,
+        "v21_model0": 1,
+        "v21_model1": 635
+      },
+      "kappa": 0.9805261156244703
+    },
+    "high": {
+      "n": 1689,
+      "complete_pairs": 1689,
+      "invalid_pairs": 0,
+      "matrix": {
+        "v20_model0": 1112,
+        "v20_model1": 10,
+        "v21_model0": 1,
+        "v21_model1": 566
+      },
+      "kappa": 0.9854549639368595
+    },
+    "low": {
+      "n": 311,
+      "complete_pairs": 311,
+      "invalid_pairs": 0,
+      "matrix": {
+        "v20_model0": 236,
+        "v20_model1": 6,
+        "v21_model0": 0,
+        "v21_model1": 69
+      },
+      "kappa": 0.94580937445548
+    }
+  }
+}

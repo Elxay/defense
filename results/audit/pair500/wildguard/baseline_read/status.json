@@ -1,0 +1,19 @@
+{
+  "first_read_utc": "2026-11-08T09:38:33.879769+00:00",
+  "stage": "status",
+  "value": {
+    "n": 2000,
+    "unique_ids": 2000,
+    "first_saved_utc": "2026-11-08T09:03:30.296822+00:00",
+    "last_saved_utc": "2026-11-08T09:37:55.728319+00:00",
+    "signatures": [
+      "{\"format_gate_sha256\": \"699ccfd3bcf95ddf0deab12bf8e620063a2981d2b6e6a8d435ce66e140c581ac\", \"input_sha256\": \"4f520a9ada7efd9ff4070ef19a64c67599e00f0edb6dd0a2cb7441369442be84\", \"model_manifest_sha256\": \"1339df3a60657a6206816adc6b2ae69d22636540b1bf5172e7a0bb5aa494ffb9\", \"runtime_source_sha256\": \"a5d2555d4ff2e01b5952e92d396e35d1724e371d9ee7b6795568b15d0e820fbc\"}"
+    ],
+    "input_tokens_gt4096": 1,
+    "max_input_tokens": 4817,
+    "invalid_reason_counts": {
+      "None": 1999,
+      "invalid_format": 1
+    }
+  }
+}

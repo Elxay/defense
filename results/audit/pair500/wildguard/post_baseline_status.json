@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-08T09:45:32.295757+00:00",
+  "pair": {
+    "name": "node01 PAIR worker",
+    "pid": 2295103,
+    "gpu": "1,2",
+    "progress": "248/500",
+    "seconds_per_row": 378.9663389254992,
+    "heartbeat_age_s": 11.1,
+    "alert": null,
+    "phase": "running"
+  },
+  "monitor": {
+    "utc": "2026-11-08T09:45:10.405328+00:00",
+    "pid": 2855787,
+    "phase": "monitoring",
+    "attempts": 1,
+    "controller_pid": 242847,
+    "controller_alive": true,
+    "heartbeat_age_s": 20.671954
+  },
+  "wjb": [
+    {
+      "pid": 332244,
+      "utc": "2026-11-08T09:45:30.680242+00:00",
+      "device": "cuda:2",
+      "n": 1840,
+      "total": 2000,
+      "seconds_per_row": 0.11417213903092172,
+      "alive": true,
+      "heartbeat_age_s": 1.010327
+    }
+  ],
+  "wildguard": {
+    "condition": "old_s3",
+    "live": {
+      "utc": "2026-11-08T09:45:23.047203+00:00",
+      "pid": 2310494,
+      "n": 250,
+      "total": 2000,
+      "seconds_per_scored_row": 1.0847182602714747,
+      "host": "node01",
+      "gpu": 0
+    },
+    "scored": 258
+  }
+}

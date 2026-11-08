@@ -1,0 +1,9 @@
+{
+  "paper/data/wildguard_alpha0.csv": "34717ece5caf8c9b63fea67033c5663c02952605512c7af0a59e231cd000a6c0",
+  "paper/tables/wildguard_alpha0.tex": "076b327927b0f0e040c1cefca9fa29cded35015c56de3420d3f0db584e8059f4",
+  "docs/255_WILDGUARD_ALPHA0_ORDERED_READ.md": "df5451cdd14869f86c86b72e9779a3da64c097a7004d2b8806fcd7d1caff2751",
+  "results/audit/pair500/wildguard/baseline_read/status.json": "019691bb43299a16ee81ddc5e77b4c3b18224885f8448cc73290c55c7dc63183",
+  "results/audit/pair500/wildguard/baseline_read/primary.json": "6be2be87100591e9ef53438b039222371e5e78b6b9d22d9d9ab006b346990b4e",
+  "results/audit/pair500/wildguard/baseline_read/labels_and_strata.json": "4c20f00e9aa90b3547a149579177b8d78ae8b6144888bf7283a7f279ca9dc897",
+  "results/audit/pair500/wildguard/baseline_read/refusal_agreement.json": "23c4896625804b3821cc14e00d53ac8538322dd3a56d05068d4b7d7d622267d8"
+}

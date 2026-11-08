@@ -1,0 +1,199 @@
+{
+  "first_read_utc": "2026-11-08T09:38:53.318576+00:00",
+  "stage": "labels_and_strata",
+  "value": {
+    "all": {
+      "Harmful request": {
+        "n": 2000,
+        "yes": 1924,
+        "invalid": 0,
+        "rate_all_rows": 0.962,
+        "bounds": [
+          0.962,
+          0.962
+        ]
+      },
+      "Response refusal": {
+        "n": 2000,
+        "yes": 651,
+        "invalid": 0,
+        "rate_all_rows": 0.3255,
+        "bounds": [
+          0.3255,
+          0.3255
+        ]
+      },
+      "Harmful response": {
+        "n": 2000,
+        "yes": 776,
+        "invalid": 1,
+        "rate_all_rows": 0.388,
+        "bounds": [
+          0.388,
+          0.3885
+        ]
+      }
+    },
+    "high": {
+      "Harmful request": {
+        "n": 1689,
+        "yes": 1631,
+        "invalid": 0,
+        "rate_all_rows": 0.9656601539372409,
+        "bounds": [
+          0.9656601539372409,
+          0.9656601539372409
+        ]
+      },
+      "Response refusal": {
+        "n": 1689,
+        "yes": 576,
+        "invalid": 0,
+        "rate_all_rows": 0.3410301953818828,
+        "bounds": [
+          0.3410301953818828,
+          0.3410301953818828
+        ]
+      },
+      "Harmful response": {
+        "n": 1689,
+        "yes": 660,
+        "invalid": 1,
+        "rate_all_rows": 0.3907637655417407,
+        "bounds": [
+          0.3907637655417407,
+          0.3913558318531676
+        ]
+      }
+    },
+    "low": {
+      "Harmful request": {
+        "n": 311,
+        "yes": 293,
+        "invalid": 0,
+        "rate_all_rows": 0.9421221864951769,
+        "bounds": [
+          0.9421221864951769,
+          0.9421221864951769
+        ]
+      },
+      "Response refusal": {
+        "n": 311,
+        "yes": 75,
+        "invalid": 0,
+        "rate_all_rows": 0.24115755627009647,
+        "bounds": [
+          0.24115755627009647,
+          0.24115755627009647
+        ]
+      },
+      "Harmful response": {
+        "n": 311,
+        "yes": 116,
+        "invalid": 0,
+        "rate_all_rows": 0.3729903536977492,
+        "bounds": [
+          0.3729903536977492,
+          0.3729903536977492
+        ]
+      }
+    },
+    "historically_marked": {
+      "Harmful request": {
+        "n": 1435,
+        "yes": 1380,
+        "invalid": 0,
+        "rate_all_rows": 0.9616724738675958,
+        "bounds": [
+          0.9616724738675958,
+          0.9616724738675958
+        ]
+      },
+      "Response refusal": {
+        "n": 1435,
+        "yes": 466,
+        "invalid": 0,
+        "rate_all_rows": 0.32473867595818817,
+        "bounds": [
+          0.32473867595818817,
+          0.32473867595818817
+        ]
+      },
+      "Harmful response": {
+        "n": 1435,
+        "yes": 564,
+        "invalid": 0,
+        "rate_all_rows": 0.39303135888501745,
+        "bounds": [
+          0.39303135888501745,
+          0.39303135888501745
+        ]
+      }
+    },
+    "historically_unmarked": {
+      "Harmful request": {
+        "n": 565,
+        "yes": 544,
+        "invalid": 0,
+        "rate_all_rows": 0.9628318584070796,
+        "bounds": [
+          0.9628318584070796,
+          0.9628318584070796
+        ]
+      },
+      "Response refusal": {
+        "n": 565,
+        "yes": 185,
+        "invalid": 0,
+        "rate_all_rows": 0.3274336283185841,
+        "bounds": [
+          0.3274336283185841,
+          0.3274336283185841
+        ]
+      },
+      "Harmful response": {
+        "n": 565,
+        "yes": 212,
+        "invalid": 1,
+        "rate_all_rows": 0.3752212389380531,
+        "bounds": [
+          0.3752212389380531,
+          0.3769911504424779
+        ]
+      }
+    },
+    "v2_negative": {
+      "Harmful request": {
+        "n": 1364,
+        "yes": 1295,
+        "invalid": 0,
+        "rate_all_rows": 0.9494134897360704,
+        "bounds": [
+          0.9494134897360704,
+          0.9494134897360704
+        ]
+      },
+      "Response refusal": {
+        "n": 1364,
+        "yes": 16,
+        "invalid": 0,
+        "rate_all_rows": 0.011730205278592375,
+        "bounds": [
+          0.011730205278592375,
+          0.011730205278592375
+        ]
+      },
+      "Harmful response": {
+        "n": 1364,
+        "yes": 775,
+        "invalid": 1,
+        "rate_all_rows": 0.5681818181818182,
+        "bounds": [
+          0.5681818181818182,
+          0.5689149560117303
+        ]
+      }
+    },
+    "invalid_any": 1
+  }
+}
