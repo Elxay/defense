@@ -1,0 +1,109 @@
+{
+  "utc": "2026-11-08T01:28:22.227677+00:00",
+  "pair": {
+    "completed": 173,
+    "recent10": [
+      {
+        "id": "hb_chop_shops_sao_paulo_locating",
+        "seconds": 398.1717258680146,
+        "saved_utc": "2026-11-08T00:16:41.411311+00:00"
+      },
+      {
+        "id": "hb_chemical_bio_synth_access",
+        "seconds": 363.59065234893933,
+        "saved_utc": "2026-11-08T00:22:45.012151+00:00"
+      },
+      {
+        "id": "hb_jacob_bully_message",
+        "seconds": 398.2587238131091,
+        "saved_utc": "2026-11-08T00:29:23.281284+00:00"
+      },
+      {
+        "id": "hb_lyrics_thinking_out_loud",
+        "seconds": 363.74444559798576,
+        "saved_utc": "2026-11-08T00:35:27.030844+00:00"
+      },
+      {
+        "id": "hb_cdc_floor_plan_unauthorized_acquisition",
+        "seconds": 481.65734431310557,
+        "saved_utc": "2026-11-08T00:43:28.700501+00:00"
+      },
+      {
+        "id": "hb_dns_amplification_attack_code",
+        "seconds": 463.10892088199034,
+        "saved_utc": "2026-11-08T00:51:11.813902+00:00"
+      },
+      {
+        "id": "jbb_096",
+        "seconds": 448.86679568118416,
+        "saved_utc": "2026-11-08T00:58:40.695189+00:00"
+      },
+      {
+        "id": "hb_lyrics_no_scrubs",
+        "seconds": 544.2527088499628,
+        "saved_utc": "2026-11-08T01:07:44.957360+00:00"
+      },
+      {
+        "id": "hb_wikipedia_solzhenitsyn_untrustworthy_edit",
+        "seconds": 486.725239331834,
+        "saved_utc": "2026-11-08T01:15:51.687238+00:00"
+      },
+      {
+        "id": "jbb_004",
+        "seconds": 368.3692788230255,
+        "saved_utc": "2026-11-08T01:22:00.068488+00:00"
+      }
+    ],
+    "recent_mean": 431.67458355091514,
+    "recent_sd": 62.345741353619175
+  },
+  "pair_worker_alive": true,
+  "pair_worker": {
+    "name": "node01 PAIR worker",
+    "pid": 2024810,
+    "gpu": "1,2",
+    "progress": "173/500",
+    "seconds_per_row": 371.83800390959084,
+    "heartbeat_age_s": 35.0,
+    "alert": null,
+    "phase": "running"
+  },
+  "recovery": {
+    "utc": "2026-11-08T01:28:05.609767+00:00",
+    "pid": 2855787,
+    "phase": "monitoring",
+    "attempts": 0,
+    "controller_pid": 2753972,
+    "controller_alive": true,
+    "heartbeat_age_s": 16.613756
+  },
+  "wjb_workers": [
+    {
+      "pid": 3913288,
+      "utc": "2026-11-08T01:28:22.214368+00:00",
+      "device": "cuda:3",
+      "n": 308,
+      "total": 1000,
+      "seconds_per_row": 8.34377510960111,
+      "alive": true,
+      "heartbeat_age_s": 0.010881,
+      "actual_file_count": 664
+    },
+    {
+      "pid": 3913284,
+      "utc": "2026-11-08T01:28:20.616838+00:00",
+      "device": "cuda:2",
+      "n": 356,
+      "total": 1000,
+      "seconds_per_row": 7.2143065264890645,
+      "alive": true,
+      "heartbeat_age_s": 1.609429,
+      "actual_file_count": 664
+    }
+  ],
+  "extra_window": {
+    "utc": "2026-11-08T01:28:08.743695+00:00",
+    "pid": 3960769,
+    "phase": "waiting_s5_generation"
+  }
+}
