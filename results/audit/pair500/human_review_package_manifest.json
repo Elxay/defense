@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-11-08T01:24:10.467365+00:00",
+  "deadline": "2026-12-10",
+  "human_review_status": "not_started",
+  "delivery_status": "prepared locally; not sent",
+  "source_hashes": {
+    "results/audit/pair500/wjb_mapping_review60.private.json": "4b81edfafd049bf3589824a21ac41775d1b4a6e8667877602bddf811ee62df69",
+    "results/audit/pair500/refusal80.private.json": "7c6782caed4ec540720dc25d8a2287f3fd7c4c79bbd8bf0ee57f56c42754e234",
+    "results/audit/FLIPS51_texts.json": "156d07e71390662ed9e3d8a03dd3b001b96ff21165eaa627fbb3dd6ed0f938ec",
+    "results/audit/FLIPS51_READ.csv": "e2fafb4e47866046acb589b18d64c900840c92a261e22d3707bb7a2f812829d2"
+  },
+  "packages": {
+    "mapping60": {
+      "n": 60,
+      "private_path": "/data/HZX/Def/results/audit/human_review_20261210.private/mapping60.json",
+      "sha256": "98336a445f3aa8acfae625fd78986e9fe4c9ad56db0c9b4f14019997a4b20646",
+      "private_key_sha256": "aedded252fec3bd2b4524f5250c6e5da7c981444d125e00a16d278f75a7adbb5",
+      "review_id_list_sha256": "30b4808a2999f2254b31d84594697a0acd762d35dac619dff7e4711d0160b5bb",
+      "displayed_fields": [
+        "candidate_behavior",
+        "human_label",
+        "human_notes",
+        "prompt",
+        "review_id"
+      ],
+      "shuffle_seed": 20261122
+    },
+    "refusal80": {
+      "n": 80,
+      "private_path": "/data/HZX/Def/results/audit/human_review_20261210.private/refusal80.json",
+      "sha256": "0e149e1766d363ad07ec62f0205a69a9648218f1504b2cacb376da46dfe5512f",
+      "private_key_sha256": "acb65fe350097e0e4e08b5bfb382b2349fc215af4f387363594041aaf2f03d84",
+      "review_id_list_sha256": "d1aca5976f4e347d1cd12f9c06c4da7ed8e063e93627b6e0cb3216f108adf5e2",
+      "displayed_fields": [
+        "human_label",
+        "human_notes",
+        "prompt",
+        "response",
+        "review_id"
+      ],
+      "shuffle_seed": 20261123
+    },
+    "flips51": {
+      "n": 51,
+      "private_path": "/data/HZX/Def/results/audit/human_review_20261210.private/flips51.json",
+      "sha256": "04910d3caf0ebbe47483258fd54507fae6cb128846a661663287f811f2d461d7",
+      "private_key_sha256": "f85c11938c9256fd66ef88f5723295b43559e219aba7a783a80f6fad6ee6ae92",
+      "review_id_list_sha256": "17ba11109c645fa5e6dec8d5481fa7b996bdbdb7a76b6c558684afe8336c1eae",
+      "displayed_fields": [
+        "behavior",
+        "human_label",
+        "human_notes",
+        "response",
+        "review_id"
+      ],
+      "shuffle_seed": 20261124
+    }
+  },
+  "private_readme_sha256": "c63f136b05ef233525eb788db11e198be97b2a96a419e50617a8756649b2c4e5"
+}

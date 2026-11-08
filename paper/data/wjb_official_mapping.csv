@@ -1,0 +1,8 @@
+analysis,layer,n,top1_yes,top2_yes,yes_to_no,no_to_yes,both_no,both_yes,file,sha256,reference,difference_pp,row95_low,row95_high,group95_low,group95_high
+baseline_reference,all,2000,993,304,711,22,985,282,results/audit/pair500/public255/alpha0_reference_directional.json,047db362c25cc4017b163bf1ccbf419f0d6bfad20a74f76970153eac93885a72,,,,,,
+baseline_reference,high,1689,874,251,628,5,810,246,results/audit/pair500/public255/alpha0_reference_directional.json,047db362c25cc4017b163bf1ccbf419f0d6bfad20a74f76970153eac93885a72,,,,,,
+baseline_reference,low,311,119,53,83,17,175,36,results/audit/pair500/public255/alpha0_reference_directional.json,047db362c25cc4017b163bf1ccbf419f0d6bfad20a74f76970153eac93885a72,,,,,,
+baseline_reference,small_margin,270,103,52,68,17,150,35,results/audit/pair500/public255/alpha0_reference_directional.json,047db362c25cc4017b163bf1ccbf419f0d6bfad20a74f76970153eac93885a72,,,,,,
+learned_minus_random,all,2000,,,,,,,results/audit/pair500/public255/four_condition_analysis.json,74bd73a25322f592e92321efc99412bfcfff4331416500c602cd74e7d62d0c2e,top1,-22.175,-24.025,-20.375,-24.365186369543842,-19.999877330716387
+learned_minus_random,high,1689,,,,,,,results/audit/pair500/public255/four_condition_analysis.json,74bd73a25322f592e92321efc99412bfcfff4331416500c602cd74e7d62d0c2e,top1,-23.38661930136175,-25.400384843102426,-21.40245707519242,-25.679715718843102,-21.16867135715088
+learned_minus_random,low,311,,,,,,,results/audit/pair500/public255/four_condition_analysis.json,74bd73a25322f592e92321efc99412bfcfff4331416500c602cd74e7d62d0c2e,top1,-15.594855305466238,-19.774919614147908,-11.571543408360114,-20.89000893018629,-10.97953115733288
