@@ -1,12 +1,13 @@
 {
   "utc": "2026-11-08T22:56:00.929750+00:00",
-  "script_sha256": "929c614fbe667e7e487b1ef477778329f20a2e3e6273d66c8f55940619f645a0",
-  "doc_sha256": "53adedcdbce4c500a56ab22748cec1fdc6fd2a50a3cf9ddbadefd5a96e64f065",
+  "script_sha256": "2f0683d57213b2807c3849529e0b1c940af94b4579b07f97074edf483471ca68",
+  "doc_sha256": "d3c130711451ddcb34dc0dd291292004214e315d84df17af2b735fe1d363d958",
   "unlock_utc": "2026-11-08T23:00:00Z",
   "source_sha256": {
     "src/judge/refusal.py": "498dfd485d3dce6b05551784d698cc9716016f4a2614d06738261e96f5323948",
     "tools/handoff_20261106/audit.py": "cd5b40df5069783bd439c63d1dd3e9d9e30c8846cb83d3fde670a6d22da587a3",
     "results/audit/pair500/wjb_mapping255.json": "2bd530b849dff02f3136a70b0bc1755fd218db100274a77981cc8ede889f02f5"
   },
-  "stages_started": 0
+  "stages_started": 0,
+  "implementation_checked_utc": "2026-11-08T22:58:44.084137+00:00"
 }

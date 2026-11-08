@@ -147,6 +147,14 @@ def do_stage(stage):
             mp=directory_manifest(score_dir(judge,'alpha0'));assert len(mp)==2000
             report[judge]={'files':2000,'directory_fingerprint_sha256':fingerprint(mp)}
             save(OUT/(judge+'_alpha0_file_manifest.json'),mp)
+        previous_hb=load(BASE/'wildguard/alpha0_harmbench_source_hashes.json')
+        assert len(previous_hb)==2000
+        for name,expected in previous_hb.items():assert sha(ROOT/name)==expected
+        previous_wg={x['id']:x for x in load(BASE/'wildguard/alpha0_labels.private.json')}
+        current_wg={x['id']:x for x in (load(p) for p in score_dir('WildGuard','alpha0').glob('*.json'))}
+        assert fingerprint(previous_wg)==fingerprint(current_wg)
+        report['historical_bytes_verified']={'HB_prior_2000_file_hashes_match':True,'WG_prior_cached_records_match':True,
+            'HB_prior_manifest_sha256':sha(BASE/'wildguard/alpha0_harmbench_source_hashes.json'),'WG_prior_cache_sha256':sha(BASE/'wildguard/alpha0_labels.private.json')}
         report['interpretation']='Previously read alpha0 outputs: byte hashes only, no baseline rate recalculation or new interpretation.'
         return report
     if stage=='main_contrast':
