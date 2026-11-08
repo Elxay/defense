@@ -1,0 +1,17 @@
+{
+  "results/audit/pair500/nine_read_20261109/01_status.json": "4bcac8887aa85de12bee571c66e1422c3781105075170d0ce148ec12e008d6e8",
+  "results/audit/pair500/nine_read_20261109/02_baseline_hashes.json": "3e3bd50e26edd762494f7ed10646442ed6b78f4103f8c0e763df3cdad2258e41",
+  "results/audit/pair500/nine_read_20261109/03_main_contrast.json": "789d708702e21dee2226026277ea8e0bd1a2d1452b9252baaf6435e03b877fb0",
+  "results/audit/pair500/nine_read_20261109/04_sign_consistency.json": "e0cef8addb309d9200d74119ba4e36ec4bb035e003f2eb030404b0665faebd81",
+  "results/audit/pair500/nine_read_20261109/05_unit_permutation.json": "f15d96212170b8f78daf9a0ac88bc12c1ff55dc1ee660c9a534d40700caf7216",
+  "results/audit/pair500/nine_read_20261109/06_downflip_refusal.json": "aee894fc0114faea032ea87aef2118b67176eee8fa7cd013d173d9bc41e04cfd",
+  "results/audit/pair500/nine_read_20261109/07_refusal_agreement.json": "f121b6de4d149258dc9cb5bc08ab1ab6bedb30977177be592b6cb4ee85e13c79",
+  "results/audit/pair500/nine_read_20261109/08_invalid_ids.json": "022993f980dea67854184205b53ce96b4b855ca80e0ba1b4e12eb22e5e6af913",
+  "results/audit/pair500/nine_read_20261109/09_prediction.json": "a7777424dd7e56e887049ee770638d30a203758ef6ca985f2bccef6fc87533c0",
+  "results/audit/pair500/nine_read_20261109/step_ledger.json": "2a642dcda6725e3a9ca490e92e74b4b8b1de8f22cc6ccf66ecb7220046d9b647",
+  "results/audit/pair500/nine_read_20261109/current_progress.json": "6545a5a49103e4127eb325bb52dad46f6480169558c28642507109729b4f7337",
+  "results/audit/pair500/nine_read_20261109/score_file_manifest.json": "fdc33c6a46b21042d9ce3a70158df4f74040ad3569e0877852e1050ff7486906",
+  "docs/255_NINE_UNIT_ORDERED_READ_RESULTS.md": "a1f604686ece5b9de5d0b47dbb1d1dbcb978dff9a2375855524d03bfdb244eaf",
+  "paper/data/wjb_official_nine.csv": "e3f52e9802479fda4948665509be034a5264e39e2fb792fd25effbb2ac866c64",
+  "paper/tables/wjb_official_nine.tex": "a9b87c24ca380675c5906559c9a972c473338e8e4b48c08a2aea0de60285cd41"
+}

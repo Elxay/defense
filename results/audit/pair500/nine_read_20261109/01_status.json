@@ -1,0 +1,331 @@
+{
+  "step": 1,
+  "stage": "status",
+  "started_utc": "2026-11-08T23:00:16.946781+00:00",
+  "saved_utc": "2026-11-08T23:00:50.281609+00:00",
+  "unlock_utc": "2026-11-08T23:00:00+00:00",
+  "previous_steps": [],
+  "script_sha256": "2f0683d57213b2807c3849529e0b1c940af94b4579b07f97074edf483471ca68",
+  "result": {
+    "operational_status": {
+      "utc": "2026-11-08T23:00:17.671528+00:00",
+      "pair": {
+        "pid": 2295103,
+        "utc": "2026-11-08T22:59:39.437265+00:00",
+        "gpus": [
+          "1",
+          "2"
+        ],
+        "phase": "search",
+        "alive": true,
+        "completed_rows": 369,
+        "mean_seconds_per_row": 384.3483067827803,
+        "recent10_seconds": [
+          537.4426409669686,
+          471.302408198826,
+          494.4266185448505,
+          502.7757658942137,
+          168.0548211298883,
+          358.58430740004405,
+          471.37334783189,
+          403.1302503310144,
+          344.58727629994974,
+          476.7451047140639
+        ],
+        "heartbeat_age_s": 38.143876
+      },
+      "node01_active_classifiers": [],
+      "gpu_memory": [
+        "0, 659",
+        "1, 22843",
+        "2, 17367"
+      ],
+      "innet_active_workers": [],
+      "wjb_generation_coverage": {
+        "rand3": 2000,
+        "old_s7": 2000,
+        "old_s0": 0,
+        "SYS_A": 0,
+        "SYS_B": 0
+      },
+      "judge_coverage": {
+        "old_s3": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        },
+        "rand0": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        },
+        "old_s4": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        },
+        "rand1": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        },
+        "old_s5": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        },
+        "rand2": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        },
+        "old_s6": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        },
+        "rand3": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        },
+        "old_s7": {
+          "hb_top1_files": 2000,
+          "wg_files": 2000
+        }
+      },
+      "harmful_wg_queue": {
+        "utc": "2026-11-08T22:59:48.718907+00:00",
+        "pid": 750029,
+        "phase": "waiting_complete_target_outputs",
+        "condition": "old_s0"
+      },
+      "public_wg_queue": {
+        "utc": "2026-11-08T21:48:15.321471+00:00",
+        "pid": 750027,
+        "phase": "all_ten_complete_no_effect_read",
+        "condition": null
+      },
+      "morning_capture": {
+        "utc": "2026-11-08T22:59:46.390566+00:00",
+        "pid": 784257,
+        "phase": "waiting_0800_JST",
+        "due_utc": "2026-11-08T23:00:00+00:00"
+      },
+      "external_gpu3_last_observation": {
+        "utc": "2026-11-08T21:52:54.535931+00:00",
+        "pid": 592686,
+        "environment_read": false,
+        "action": "observe_only",
+        "same_process_alive": false,
+        "pid_reused": false,
+        "gpu3_total_memory_mib": 15
+      },
+      "innet_gpu_memory": [
+        "2, 16443",
+        "3, 15"
+      ],
+      "imports_analysis_code": false,
+      "reads_outcome_labels": false,
+      "prefix_generation": {
+        "utc": "2026-11-08T23:00:12.169644+00:00",
+        "pid": 885736,
+        "phase": "early_generation",
+        "condition": "rand3",
+        "n": 50,
+        "source_rows": 50
+      },
+      "prefix_generation_coverage": {
+        "alpha0": 367,
+        "old_s3": 70,
+        "rand0": 70,
+        "old_s4": 70,
+        "rand1": 70,
+        "old_s5": 70,
+        "rand2": 70,
+        "old_s6": 70,
+        "rand3": 58,
+        "old_s7": 20,
+        "old_s0": 20,
+        "SYS_A": 20,
+        "SYS_B": 20
+      }
+    },
+    "units": {
+      "old_s3": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "707bb461c5e6cefc78389377f3f9b3f5e62d10126943d300712e0472cf458819",
+          "directory": "results/audit/pair500/public255/mapped_scores/old_s3"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 0,
+            "Harmful response": 0,
+            "Response refusal": 0
+          },
+          "directory_fingerprint_sha256": "e335b1390b02c526a5c7719bebfd9413926ed8eee1b283841e7af4eec7d4a1f9",
+          "directory": "results/audit/pair500/wildguard/old_s3_scores"
+        }
+      },
+      "old_s4": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "c77af5fa1ec8f803a31bbafebc106cb58b602ff927b4d985aa08597186eeb7d0",
+          "directory": "results/audit/pair500/public255/mapped_scores/old_s4"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 0,
+            "Harmful response": 0,
+            "Response refusal": 0
+          },
+          "directory_fingerprint_sha256": "db73e789bd5f6f790e20adaa431a244f0b4c5a623c92016a8e76c7149e736b7e",
+          "directory": "results/audit/pair500/wildguard/old_s4_scores"
+        }
+      },
+      "old_s5": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "f5090fb3b350e731dfad23ef8db97dfbd8809a22f510e8fffbfa70bd6f14b147",
+          "directory": "results/audit/pair500/public255/mapped_scores/old_s5"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 0,
+            "Harmful response": 0,
+            "Response refusal": 0
+          },
+          "directory_fingerprint_sha256": "a21a07e2ae8f0b7e96078225bd69884914e7832a4b0531191832aef25120380b",
+          "directory": "results/audit/pair500/wildguard/old_s5_scores"
+        }
+      },
+      "old_s6": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "ee597ad38b1d9668191bd44d0d3039ac652ba87a6a3f20f15abd76cdee706e57",
+          "directory": "results/audit/pair500/public255/mapped_scores/old_s6"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 0,
+            "Harmful response": 0,
+            "Response refusal": 0
+          },
+          "directory_fingerprint_sha256": "6c90e15ca8d8356efc5e5de58f11506424d2f29aabbc07d76133626382444f68",
+          "directory": "results/audit/pair500/wildguard/old_s6_scores"
+        }
+      },
+      "old_s7": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "1f7976a3006cee0b119f5410b360d4a4c7477e97f5c120859e0fc88cf0341382",
+          "directory": "results/audit/pair500/public255/mapped_scores/old_s7"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 0,
+            "Harmful response": 0,
+            "Response refusal": 0
+          },
+          "directory_fingerprint_sha256": "4a47b39e3fa3cba336693ce774f6b0917572067cc26e974b1041e4292cfcc1c1",
+          "directory": "results/audit/pair500/wildguard/old_s7_scores"
+        }
+      },
+      "rand0": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "d5cdcdd06ce1b8f713872073b0b00f4ee64dd33822a513a92e53c3704468f49d",
+          "directory": "results/audit/pair500/public255/mapped_scores/rand0"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 2,
+            "Harmful response": 2,
+            "Response refusal": 1
+          },
+          "directory_fingerprint_sha256": "22636cde732f2ecf9ab67fe8190dd3b9628bb87b4d35e2248e2b61bd31e60c44",
+          "directory": "results/audit/pair500/wildguard/rand0_scores"
+        }
+      },
+      "rand1": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "818cd6dc5dedc213a32d83ca7d6296faeceeee22a6a939a81c43795234a44a33",
+          "directory": "results/audit/pair500/public255/mapped_scores/rand1"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 0,
+            "Harmful response": 0,
+            "Response refusal": 0
+          },
+          "directory_fingerprint_sha256": "c064762699744182bab3640c199439d342205c1764046572226dc5e0ddaf5099",
+          "directory": "results/audit/pair500/wildguard/rand1_scores"
+        }
+      },
+      "rand2": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "37addaba52424fec15c6f7db4eed715c09e848c2e08d658b06239d526262c2e9",
+          "directory": "results/audit/pair500/public255/mapped_scores/rand2"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 0,
+            "Harmful response": 0,
+            "Response refusal": 0
+          },
+          "directory_fingerprint_sha256": "42271141f8de4f11d758d13ffc78fc41a31fd70384b669a86881df75cfeebca7",
+          "directory": "results/audit/pair500/wildguard/rand2_scores"
+        }
+      },
+      "rand3": {
+        "HB_top1": {
+          "files": 2000,
+          "invalid_counts": {
+            "label": 0
+          },
+          "directory_fingerprint_sha256": "41373ad0045543f5b7f1bb856adf4ab160aace2ce8918d740d4d3c3708089205",
+          "directory": "results/audit/pair500/public255/mapped_scores/rand3"
+        },
+        "WildGuard": {
+          "files": 2000,
+          "invalid_counts": {
+            "Harmful request": 1,
+            "Harmful response": 1,
+            "Response refusal": 2
+          },
+          "directory_fingerprint_sha256": "37b869b34a615afdeb070fd168c098eef733c78848bcb519f649e00a8d929c57",
+          "directory": "results/audit/pair500/wildguard/rand3_scores"
+        }
+      }
+    },
+    "score_manifest_sha256": "fdc33c6a46b21042d9ce3a70158df4f74040ad3569e0877852e1050ff7486906",
+    "labels_used_only_for_invalid_counts": true
+  }
+}

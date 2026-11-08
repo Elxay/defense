@@ -1,0 +1,31 @@
+{
+  "step": 2,
+  "stage": "baseline_hashes",
+  "started_utc": "2026-11-08T23:01:01.197217+00:00",
+  "saved_utc": "2026-11-08T23:01:02.381184+00:00",
+  "unlock_utc": "2026-11-08T23:00:00+00:00",
+  "previous_steps": [
+    {
+      "file": "results/audit/pair500/nine_read_20261109/01_status.json",
+      "sha256": "4bcac8887aa85de12bee571c66e1422c3781105075170d0ce148ec12e008d6e8"
+    }
+  ],
+  "script_sha256": "2f0683d57213b2807c3849529e0b1c940af94b4579b07f97074edf483471ca68",
+  "result": {
+    "HB_top1": {
+      "files": 2000,
+      "directory_fingerprint_sha256": "50d814c94977f33cfd1e429e56c9ee765fa193b9bd557dc271e6c4c56db8b642"
+    },
+    "WildGuard": {
+      "files": 2000,
+      "directory_fingerprint_sha256": "4efbce325c815ee2b83f435d3ee1e338cac907c04e8f4c3184250cf256d6a303"
+    },
+    "historical_bytes_verified": {
+      "HB_prior_2000_file_hashes_match": true,
+      "WG_prior_cached_records_match": true,
+      "HB_prior_manifest_sha256": "46d5068d0fef5b2a72a8bcd14b72c799ce2c99fc527e19da19578c66d553c426",
+      "WG_prior_cache_sha256": "5a048ef874d6cb1d9559a117633e51ffff55cf0a10543249fe04821e05391a59"
+    },
+    "interpretation": "Previously read alpha0 outputs: byte hashes only, no baseline rate recalculation or new interpretation."
+  }
+}

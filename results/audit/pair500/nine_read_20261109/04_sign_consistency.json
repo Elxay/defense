@@ -1,0 +1,853 @@
+{
+  "step": 4,
+  "stage": "sign_consistency",
+  "started_utc": "2026-11-08T23:01:38.614963+00:00",
+  "saved_utc": "2026-11-08T23:01:40.171095+00:00",
+  "unlock_utc": "2026-11-08T23:00:00+00:00",
+  "previous_steps": [
+    {
+      "file": "results/audit/pair500/nine_read_20261109/01_status.json",
+      "sha256": "4bcac8887aa85de12bee571c66e1422c3781105075170d0ce148ec12e008d6e8"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/02_baseline_hashes.json",
+      "sha256": "3e3bd50e26edd762494f7ed10646442ed6b78f4103f8c0e763df3cdad2258e41"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/03_main_contrast.json",
+      "sha256": "789d708702e21dee2226026277ea8e0bd1a2d1452b9252baaf6435e03b877fb0"
+    }
+  ],
+  "script_sha256": "2f0683d57213b2807c3849529e0b1c940af94b4579b07f97074edf483471ca68",
+  "result": {
+    "HB_top1": {
+      "all": {
+        "retained_rows": 2000,
+        "complete_pair_rows": 2000,
+        "invalid_pair_rows": 0,
+        "all_rows_identification_bounds_pp": [
+          -22.92,
+          -22.92
+        ],
+        "conditions": {
+          "old_s3": {
+            "yes": 438,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 21.9,
+            "bounds_pct": [
+              21.9,
+              21.9
+            ]
+          },
+          "old_s4": {
+            "yes": 511,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 25.55,
+            "bounds_pct": [
+              25.55,
+              25.55
+            ]
+          },
+          "old_s5": {
+            "yes": 498,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 24.9,
+            "bounds_pct": [
+              24.9,
+              24.9
+            ]
+          },
+          "old_s6": {
+            "yes": 456,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 22.8,
+            "bounds_pct": [
+              22.8,
+              22.8
+            ]
+          },
+          "old_s7": {
+            "yes": 475,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 23.75,
+            "bounds_pct": [
+              23.75,
+              23.75
+            ]
+          },
+          "rand0": {
+            "yes": 903,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 45.15,
+            "bounds_pct": [
+              45.15,
+              45.15
+            ]
+          },
+          "rand1": {
+            "yes": 933,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 46.65,
+            "bounds_pct": [
+              46.65,
+              46.65
+            ]
+          },
+          "rand2": {
+            "yes": 961,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 48.05,
+            "bounds_pct": [
+              48.05,
+              48.05
+            ]
+          },
+          "rand3": {
+            "yes": 939,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 46.95,
+            "bounds_pct": [
+              46.95,
+              46.95
+            ]
+          }
+        },
+        "all_behavior_identification_bounds_pp": [
+          -22.219460849547513,
+          -22.219460849547513
+        ],
+        "conditional_complete_pair_mean_pp": -22.92,
+        "row_bootstrap95_pp": [
+          -24.630125,
+          -21.287375
+        ],
+        "behavior_cluster_bootstrap95_pp": [
+          -24.86470894219302,
+          -20.973480231211727
+        ],
+        "behavior_count": 200,
+        "behaviors_with_valid_pairs": 200,
+        "conditional_equal_behavior_mean_pp": -22.219460849547513,
+        "equal_behavior_bootstrap95_pp": [
+          -24.396438397153364,
+          -19.98845361745404
+        ],
+        "all_rows_behavior_bootstrap_identification_envelope95_pp": [
+          -24.86470894219302,
+          -20.973480231211727
+        ],
+        "interpretation": "Point/ordinary intervals condition on explicitly counted complete pairs; all retained rows also have identification bounds. Intervals condition on the observed vector units, not unit populations."
+      },
+      "high": {
+        "retained_rows": 1689,
+        "complete_pair_rows": 1689,
+        "invalid_pair_rows": 0,
+        "all_rows_identification_bounds_pp": [
+          -24.11782119597395,
+          -24.11782119597395
+        ],
+        "conditions": {
+          "old_s3": {
+            "yes": 380,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 22.498519834221433,
+            "bounds_pct": [
+              22.498519834221433,
+              22.498519834221433
+            ]
+          },
+          "old_s4": {
+            "yes": 441,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 26.1101243339254,
+            "bounds_pct": [
+              26.1101243339254,
+              26.1101243339254
+            ]
+          },
+          "old_s5": {
+            "yes": 435,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 25.75488454706927,
+            "bounds_pct": [
+              25.75488454706927,
+              25.75488454706927
+            ]
+          },
+          "old_s6": {
+            "yes": 395,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 23.38661930136175,
+            "bounds_pct": [
+              23.38661930136175,
+              23.38661930136175
+            ]
+          },
+          "old_s7": {
+            "yes": 411,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 24.33392539964476,
+            "bounds_pct": [
+              24.33392539964476,
+              24.33392539964476
+            ]
+          },
+          "rand0": {
+            "yes": 797,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 47.18768502072232,
+            "bounds_pct": [
+              47.18768502072232,
+              47.18768502072232
+            ]
+          },
+          "rand1": {
+            "yes": 814,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 48.194197750148014,
+            "bounds_pct": [
+              48.194197750148014,
+              48.194197750148014
+            ]
+          },
+          "rand2": {
+            "yes": 842,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 49.85198342214328,
+            "bounds_pct": [
+              49.85198342214328,
+              49.85198342214328
+            ]
+          },
+          "rand3": {
+            "yes": 826,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 48.90467732386027,
+            "bounds_pct": [
+              48.90467732386027,
+              48.90467732386027
+            ]
+          }
+        },
+        "all_behavior_identification_bounds_pp": [
+          -22.454099130841797,
+          -22.454099130841797
+        ],
+        "conditional_complete_pair_mean_pp": -24.11782119597395,
+        "row_bootstrap95_pp": [
+          -25.95337477797513,
+          -22.320899940793367
+        ],
+        "behavior_cluster_bootstrap95_pp": [
+          -26.246415181756323,
+          -22.076825026490553
+        ],
+        "behavior_count": 197,
+        "behaviors_with_valid_pairs": 197,
+        "conditional_equal_behavior_mean_pp": -22.454099130841797,
+        "equal_behavior_bootstrap95_pp": [
+          -24.973300453808505,
+          -19.954574746585152
+        ],
+        "all_rows_behavior_bootstrap_identification_envelope95_pp": [
+          -26.246415181756323,
+          -22.076825026490553
+        ],
+        "interpretation": "Point/ordinary intervals condition on explicitly counted complete pairs; all retained rows also have identification bounds. Intervals condition on the observed vector units, not unit populations."
+      },
+      "low": {
+        "retained_rows": 311,
+        "complete_pair_rows": 311,
+        "invalid_pair_rows": 0,
+        "all_rows_identification_bounds_pp": [
+          -16.414790996784564,
+          -16.414790996784564
+        ],
+        "conditions": {
+          "old_s3": {
+            "yes": 58,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 18.64951768488746,
+            "bounds_pct": [
+              18.64951768488746,
+              18.64951768488746
+            ]
+          },
+          "old_s4": {
+            "yes": 70,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 22.508038585209004,
+            "bounds_pct": [
+              22.508038585209004,
+              22.508038585209004
+            ]
+          },
+          "old_s5": {
+            "yes": 63,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 20.257234726688104,
+            "bounds_pct": [
+              20.257234726688104,
+              20.257234726688104
+            ]
+          },
+          "old_s6": {
+            "yes": 61,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 19.614147909967844,
+            "bounds_pct": [
+              19.614147909967844,
+              19.614147909967844
+            ]
+          },
+          "old_s7": {
+            "yes": 64,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 20.578778135048232,
+            "bounds_pct": [
+              20.578778135048232,
+              20.578778135048232
+            ]
+          },
+          "rand0": {
+            "yes": 106,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 34.08360128617363,
+            "bounds_pct": [
+              34.08360128617363,
+              34.08360128617363
+            ]
+          },
+          "rand1": {
+            "yes": 119,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 38.263665594855304,
+            "bounds_pct": [
+              38.263665594855304,
+              38.263665594855304
+            ]
+          },
+          "rand2": {
+            "yes": 119,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 38.263665594855304,
+            "bounds_pct": [
+              38.263665594855304,
+              38.263665594855304
+            ]
+          },
+          "rand3": {
+            "yes": 113,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 36.334405144694536,
+            "bounds_pct": [
+              36.334405144694536,
+              36.334405144694536
+            ]
+          }
+        },
+        "all_behavior_identification_bounds_pp": [
+          -18.9907619047619,
+          -18.9907619047619
+        ],
+        "conditional_complete_pair_mean_pp": -16.414790996784564,
+        "row_bootstrap95_pp": [
+          -20.35369774919614,
+          -12.652733118971062
+        ],
+        "behavior_cluster_bootstrap95_pp": [
+          -21.28803997421019,
+          -12.007919817873127
+        ],
+        "behavior_count": 125,
+        "behaviors_with_valid_pairs": 125,
+        "conditional_equal_behavior_mean_pp": -18.9907619047619,
+        "equal_behavior_bootstrap95_pp": [
+          -24.391188095238093,
+          -13.929685714285714
+        ],
+        "all_rows_behavior_bootstrap_identification_envelope95_pp": [
+          -21.28803997421019,
+          -12.007919817873127
+        ],
+        "interpretation": "Point/ordinary intervals condition on explicitly counted complete pairs; all retained rows also have identification bounds. Intervals condition on the observed vector units, not unit populations."
+      }
+    },
+    "WildGuard": {
+      "all": {
+        "retained_rows": 2000,
+        "complete_pair_rows": 1997,
+        "invalid_pair_rows": 3,
+        "all_rows_identification_bounds_pp": [
+          -18.705,
+          -18.6675
+        ],
+        "conditions": {
+          "old_s3": {
+            "yes": 314,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 15.7,
+            "bounds_pct": [
+              15.7,
+              15.7
+            ]
+          },
+          "old_s4": {
+            "yes": 369,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 18.45,
+            "bounds_pct": [
+              18.45,
+              18.45
+            ]
+          },
+          "old_s5": {
+            "yes": 385,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 19.25,
+            "bounds_pct": [
+              19.25,
+              19.25
+            ]
+          },
+          "old_s6": {
+            "yes": 312,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 15.6,
+            "bounds_pct": [
+              15.6,
+              15.6
+            ]
+          },
+          "old_s7": {
+            "yes": 357,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 17.85,
+            "bounds_pct": [
+              17.85,
+              17.85
+            ]
+          },
+          "rand0": {
+            "yes": 687,
+            "valid": 1998,
+            "invalid": 2,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 34.35,
+            "bounds_pct": [
+              34.35,
+              34.45
+            ]
+          },
+          "rand1": {
+            "yes": 722,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 36.1,
+            "bounds_pct": [
+              36.1,
+              36.1
+            ]
+          },
+          "rand2": {
+            "yes": 756,
+            "valid": 2000,
+            "invalid": 0,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 37.8,
+            "bounds_pct": [
+              37.8,
+              37.8
+            ]
+          },
+          "rand3": {
+            "yes": 718,
+            "valid": 1999,
+            "invalid": 1,
+            "denominator": 2000,
+            "yes_over_all_rows_pct": 35.9,
+            "bounds_pct": [
+              35.9,
+              35.95
+            ]
+          }
+        },
+        "all_behavior_identification_bounds_pp": [
+          -17.832087852722868,
+          -17.792599216359232
+        ],
+        "conditional_complete_pair_mean_pp": -18.680520781171758,
+        "row_bootstrap95_pp": [
+          -20.200425638457688,
+          -17.093014521782674
+        ],
+        "behavior_cluster_bootstrap95_pp": [
+          -20.501331737258305,
+          -16.882548065665894
+        ],
+        "behavior_count": 200,
+        "behaviors_with_valid_pairs": 200,
+        "conditional_equal_behavior_mean_pp": -17.822173530933547,
+        "equal_behavior_bootstrap95_pp": [
+          -19.729701981479423,
+          -15.817012899876435
+        ],
+        "all_rows_behavior_bootstrap_identification_envelope95_pp": [
+          -20.52349844361932,
+          -16.878888326870115
+        ],
+        "interpretation": "Point/ordinary intervals condition on explicitly counted complete pairs; all retained rows also have identification bounds. Intervals condition on the observed vector units, not unit populations."
+      },
+      "high": {
+        "retained_rows": 1689,
+        "complete_pair_rows": 1686,
+        "invalid_pair_rows": 3,
+        "all_rows_identification_bounds_pp": [
+          -19.026050917702783,
+          -18.981645944345768
+        ],
+        "conditions": {
+          "old_s3": {
+            "yes": 261,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 15.452930728241563,
+            "bounds_pct": [
+              15.452930728241563,
+              15.452930728241563
+            ]
+          },
+          "old_s4": {
+            "yes": 306,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 18.117229129662523,
+            "bounds_pct": [
+              18.117229129662523,
+              18.117229129662523
+            ]
+          },
+          "old_s5": {
+            "yes": 323,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 19.123741859088216,
+            "bounds_pct": [
+              19.123741859088216,
+              19.123741859088216
+            ]
+          },
+          "old_s6": {
+            "yes": 254,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 15.038484310242747,
+            "bounds_pct": [
+              15.038484310242747,
+              15.038484310242747
+            ]
+          },
+          "old_s7": {
+            "yes": 293,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 17.347542924807577,
+            "bounds_pct": [
+              17.347542924807577,
+              17.347542924807577
+            ]
+          },
+          "rand0": {
+            "yes": 576,
+            "valid": 1687,
+            "invalid": 2,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 34.10301953818828,
+            "bounds_pct": [
+              34.10301953818828,
+              34.22143280047365
+            ]
+          },
+          "rand1": {
+            "yes": 609,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 36.05683836589698,
+            "bounds_pct": [
+              36.05683836589698,
+              36.05683836589698
+            ]
+          },
+          "rand2": {
+            "yes": 639,
+            "valid": 1689,
+            "invalid": 0,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 37.83303730017762,
+            "bounds_pct": [
+              37.83303730017762,
+              37.83303730017762
+            ]
+          },
+          "rand3": {
+            "yes": 608,
+            "valid": 1688,
+            "invalid": 1,
+            "denominator": 1689,
+            "yes_over_all_rows_pct": 35.99763173475429,
+            "bounds_pct": [
+              35.99763173475429,
+              36.05683836589698
+            ]
+          }
+        },
+        "all_behavior_identification_bounds_pp": [
+          -17.566502374888813,
+          -17.52299258518613
+        ],
+        "conditional_complete_pair_mean_pp": -18.997627520759192,
+        "row_bootstrap95_pp": [
+          -20.628781138790035,
+          -17.333778173190982
+        ],
+        "behavior_cluster_bootstrap95_pp": [
+          -20.91725821704079,
+          -17.187875333370634
+        ],
+        "behavior_count": 197,
+        "behaviors_with_valid_pairs": 197,
+        "conditional_equal_behavior_mean_pp": -17.55058907217348,
+        "equal_behavior_bootstrap95_pp": [
+          -19.63392678381115,
+          -15.546108686470916
+        ],
+        "all_rows_behavior_bootstrap_identification_envelope95_pp": [
+          -20.93684503002969,
+          -17.171476036622792
+        ],
+        "interpretation": "Point/ordinary intervals condition on explicitly counted complete pairs; all retained rows also have identification bounds. Intervals condition on the observed vector units, not unit populations."
+      },
+      "low": {
+        "retained_rows": 311,
+        "complete_pair_rows": 311,
+        "invalid_pair_rows": 0,
+        "all_rows_identification_bounds_pp": [
+          -16.961414790996784,
+          -16.961414790996784
+        ],
+        "conditions": {
+          "old_s3": {
+            "yes": 53,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 17.041800643086816,
+            "bounds_pct": [
+              17.041800643086816,
+              17.041800643086816
+            ]
+          },
+          "old_s4": {
+            "yes": 63,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 20.257234726688104,
+            "bounds_pct": [
+              20.257234726688104,
+              20.257234726688104
+            ]
+          },
+          "old_s5": {
+            "yes": 62,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 19.935691318327976,
+            "bounds_pct": [
+              19.935691318327976,
+              19.935691318327976
+            ]
+          },
+          "old_s6": {
+            "yes": 58,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 18.64951768488746,
+            "bounds_pct": [
+              18.64951768488746,
+              18.64951768488746
+            ]
+          },
+          "old_s7": {
+            "yes": 64,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 20.578778135048232,
+            "bounds_pct": [
+              20.578778135048232,
+              20.578778135048232
+            ]
+          },
+          "rand0": {
+            "yes": 111,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 35.69131832797428,
+            "bounds_pct": [
+              35.69131832797428,
+              35.69131832797428
+            ]
+          },
+          "rand1": {
+            "yes": 113,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 36.334405144694536,
+            "bounds_pct": [
+              36.334405144694536,
+              36.334405144694536
+            ]
+          },
+          "rand2": {
+            "yes": 117,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 37.62057877813505,
+            "bounds_pct": [
+              37.62057877813505,
+              37.62057877813505
+            ]
+          },
+          "rand3": {
+            "yes": 110,
+            "valid": 311,
+            "invalid": 0,
+            "denominator": 311,
+            "yes_over_all_rows_pct": 35.369774919614144,
+            "bounds_pct": [
+              35.369774919614144,
+              35.369774919614144
+            ]
+          }
+        },
+        "all_behavior_identification_bounds_pp": [
+          -17.290428571428574,
+          -17.290428571428574
+        ],
+        "conditional_complete_pair_mean_pp": -16.961414790996784,
+        "row_bootstrap95_pp": [
+          -20.884244372990352,
+          -13.231511254019292
+        ],
+        "behavior_cluster_bootstrap95_pp": [
+          -21.688855335058957,
+          -12.477270099882853
+        ],
+        "behavior_count": 125,
+        "behaviors_with_valid_pairs": 125,
+        "conditional_equal_behavior_mean_pp": -17.290428571428574,
+        "equal_behavior_bootstrap95_pp": [
+          -22.165130952380952,
+          -12.924328571428573
+        ],
+        "all_rows_behavior_bootstrap_identification_envelope95_pp": [
+          -21.688855335058957,
+          -12.477270099882853
+        ],
+        "interpretation": "Point/ordinary intervals condition on explicitly counted complete pairs; all retained rows also have identification bounds. Intervals condition on the observed vector units, not unit populations."
+      }
+    },
+    "cross_judge_and_strata_same_sign": true,
+    "all_negative": true,
+    "top2_coverage": {
+      "old_s3": 2000,
+      "old_s4": 2000,
+      "old_s5": 0,
+      "old_s6": 0,
+      "old_s7": 0,
+      "rand0": 2000,
+      "rand1": 2000,
+      "rand2": 0,
+      "rand3": 0
+    },
+    "top2_full_robustness": "pending",
+    "wording": "cross-judge sign criterion satisfied; retain earlier top2 requirement, no automatic abstract edit"
+  }
+}

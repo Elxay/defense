@@ -1,0 +1,240 @@
+{
+  "step": 5,
+  "stage": "unit_permutation",
+  "started_utc": "2026-11-08T23:01:48.407755+00:00",
+  "saved_utc": "2026-11-08T23:01:49.782332+00:00",
+  "unlock_utc": "2026-11-08T23:00:00+00:00",
+  "previous_steps": [
+    {
+      "file": "results/audit/pair500/nine_read_20261109/01_status.json",
+      "sha256": "4bcac8887aa85de12bee571c66e1422c3781105075170d0ce148ec12e008d6e8"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/02_baseline_hashes.json",
+      "sha256": "3e3bd50e26edd762494f7ed10646442ed6b78f4103f8c0e763df3cdad2258e41"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/03_main_contrast.json",
+      "sha256": "789d708702e21dee2226026277ea8e0bd1a2d1452b9252baaf6435e03b877fb0"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/04_sign_consistency.json",
+      "sha256": "e0cef8addb309d9200d74119ba4e36ec4bb035e003f2eb030404b0665faebd81"
+    }
+  ],
+  "script_sha256": "2f0683d57213b2807c3849529e0b1c940af94b4579b07f97074edf483471ca68",
+  "result": {
+    "HB_top1": {
+      "row": {
+        "complete_pair_rows": 2000,
+        "unit_means_pct": {
+          "old_s3": 21.9,
+          "old_s4": 25.55,
+          "old_s5": 24.9,
+          "old_s6": 22.8,
+          "old_s7": 23.75,
+          "rand0": 45.15,
+          "rand1": 46.650000000000006,
+          "rand2": 48.05,
+          "rand3": 46.949999999999996
+        },
+        "contrast_pp": -22.920000000000005,
+        "allocations": 126,
+        "p_lower": 0.007936507936507936,
+        "p_two_sided_absolute": 0.007936507936507936,
+        "all20_seed_direction_differences_pp": {
+          "old_s3-rand0": -23.25,
+          "old_s3-rand1": -24.750000000000007,
+          "old_s3-rand2": -26.15,
+          "old_s3-rand3": -25.049999999999997,
+          "old_s4-rand0": -19.599999999999998,
+          "old_s4-rand1": -21.100000000000005,
+          "old_s4-rand2": -22.499999999999996,
+          "old_s4-rand3": -21.399999999999995,
+          "old_s5-rand0": -20.25,
+          "old_s5-rand1": -21.750000000000007,
+          "old_s5-rand2": -23.15,
+          "old_s5-rand3": -22.049999999999997,
+          "old_s6-rand0": -22.349999999999998,
+          "old_s6-rand1": -23.850000000000005,
+          "old_s6-rand2": -25.249999999999996,
+          "old_s6-rand3": -24.149999999999995,
+          "old_s7-rand0": -21.4,
+          "old_s7-rand1": -22.900000000000006,
+          "old_s7-rand2": -24.299999999999997,
+          "old_s7-rand3": -23.199999999999996
+        },
+        "leave_one_out_pp": {
+          "old_s3": -22.450000000000003,
+          "old_s4": -23.362500000000004,
+          "old_s5": -23.200000000000003,
+          "old_s6": -22.675000000000004,
+          "old_s7": -22.912500000000005,
+          "rand0": -23.43666666666667,
+          "rand1": -22.936666666666664,
+          "rand2": -22.470000000000002,
+          "rand3": -22.836666666666677
+        },
+        "caveat": "Exploratory unit-exchangeability assumption; five training seeds and four random directions. Missing rows explicitly conditioned upon; full-row bounds are in stage3."
+      },
+      "equal_behavior": {
+        "complete_pair_rows": 2000,
+        "unit_means_pct": {
+          "old_s3": 22.418818518050106,
+          "old_s4": 25.762559785853828,
+          "old_s5": 25.231335773009146,
+          "old_s6": 22.505260329409996,
+          "old_s7": 23.491588284445037,
+          "rand0": 44.4425490614795,
+          "rand1": 45.959746729639726,
+          "rand2": 47.130287808123704,
+          "rand3": 46.87290995156157
+        },
+        "contrast_pp": -22.21946084954751,
+        "allocations": 126,
+        "p_lower": 0.007936507936507936,
+        "p_two_sided_absolute": 0.007936507936507936,
+        "all20_seed_direction_differences_pp": {
+          "old_s3-rand0": -22.02373054342939,
+          "old_s3-rand1": -23.54092821158962,
+          "old_s3-rand2": -24.711469290073598,
+          "old_s3-rand3": -24.45409143351146,
+          "old_s4-rand0": -18.67998927562567,
+          "old_s4-rand1": -20.197186943785898,
+          "old_s4-rand2": -21.367728022269876,
+          "old_s4-rand3": -21.11035016570774,
+          "old_s5-rand0": -19.21121328847035,
+          "old_s5-rand1": -20.72841095663058,
+          "old_s5-rand2": -21.898952035114558,
+          "old_s5-rand3": -21.64157417855242,
+          "old_s6-rand0": -21.9372887320695,
+          "old_s6-rand1": -23.45448640022973,
+          "old_s6-rand2": -24.625027478713708,
+          "old_s6-rand3": -24.36764962215157,
+          "old_s7-rand0": -20.95096077703446,
+          "old_s7-rand1": -22.46815844519469,
+          "old_s7-rand2": -23.638699523678667,
+          "old_s7-rand3": -23.38132166711653
+        },
+        "leave_one_out_pp": {
+          "old_s3": -21.85368734452163,
+          "old_s4": -22.689622661472562,
+          "old_s5": -22.55681665826139,
+          "old_s6": -21.875297797361604,
+          "old_s7": -22.121879786120363,
+          "rand0": -22.772402291621376,
+          "rand1": -22.266669735567973,
+          "rand2": -21.87648937607331,
+          "rand3": -21.96228199492736
+        },
+        "caveat": "Exploratory unit-exchangeability assumption; five training seeds and four random directions. Missing rows explicitly conditioned upon; full-row bounds are in stage3."
+      }
+    },
+    "WildGuard": {
+      "row": {
+        "complete_pair_rows": 1997,
+        "unit_means_pct": {
+          "old_s3": 15.723585378067101,
+          "old_s4": 18.477716574862292,
+          "old_s5": 19.228843264897346,
+          "old_s6": 15.623435152729092,
+          "old_s7": 17.876815222834253,
+          "rand0": 34.40160240360541,
+          "rand1": 36.10415623435153,
+          "rand2": 37.80671006509765,
+          "rand3": 35.95393089634452
+        },
+        "contrast_pp": -18.68052078117176,
+        "allocations": 126,
+        "p_lower": 0.007936507936507936,
+        "p_two_sided_absolute": 0.007936507936507936,
+        "all20_seed_direction_differences_pp": {
+          "old_s3-rand0": -18.67801702553831,
+          "old_s3-rand1": -20.38057085628443,
+          "old_s3-rand2": -22.083124687030548,
+          "old_s3-rand3": -20.230345518277417,
+          "old_s4-rand0": -15.923885828743117,
+          "old_s4-rand1": -17.626439659489236,
+          "old_s4-rand2": -19.328993490235355,
+          "old_s4-rand3": -17.476214321482225,
+          "old_s5-rand0": -15.172759138708063,
+          "old_s5-rand1": -16.875312969454182,
+          "old_s5-rand2": -18.5778668002003,
+          "old_s5-rand3": -16.72508763144717,
+          "old_s6-rand0": -18.778167250876315,
+          "old_s6-rand1": -20.480721081622434,
+          "old_s6-rand2": -22.183274912368553,
+          "old_s6-rand3": -20.330495743615423,
+          "old_s7-rand0": -16.524787180771156,
+          "old_s7-rand1": -18.227341011517275,
+          "old_s7-rand2": -19.929894842263394,
+          "old_s7-rand3": -18.077115673510264
+        },
+        "leave_one_out_pp": {
+          "old_s3": -18.264897346019033,
+          "old_s4": -18.95343014521783,
+          "old_s5": -19.141211817726592,
+          "old_s6": -18.23985978968453,
+          "old_s7": -18.80320480721082,
+          "rand0": -19.235519946586546,
+          "rand1": -18.668002003004506,
+          "rand2": -18.100484059422474,
+          "rand3": -18.718077115673513
+        },
+        "caveat": "Exploratory unit-exchangeability assumption; five training seeds and four random directions. Missing rows explicitly conditioned upon; full-row bounds are in stage3."
+      },
+      "equal_behavior": {
+        "complete_pair_rows": 1997,
+        "unit_means_pct": {
+          "old_s3": 16.349306779496136,
+          "old_s4": 19.5308439561166,
+          "old_s5": 19.407199235837588,
+          "old_s6": 16.474486329507243,
+          "old_s7": 18.115203594434924,
+          "rand0": 34.12932227739123,
+          "rand1": 36.00987336190146,
+          "rand2": 37.184813044252124,
+          "rand3": 35.866317356503345
+        },
+        "contrast_pp": -17.822173530933544,
+        "allocations": 126,
+        "p_lower": 0.007936507936507936,
+        "p_two_sided_absolute": 0.007936507936507936,
+        "all20_seed_direction_differences_pp": {
+          "old_s3-rand0": -17.780015497895096,
+          "old_s3-rand1": -19.660566582405327,
+          "old_s3-rand2": -20.83550626475599,
+          "old_s3-rand3": -19.51701057700721,
+          "old_s4-rand0": -14.598478321274634,
+          "old_s4-rand1": -16.479029405784864,
+          "old_s4-rand2": -17.653969088135526,
+          "old_s4-rand3": -16.335473400386746,
+          "old_s5-rand0": -14.722123041553644,
+          "old_s5-rand1": -16.602674126063874,
+          "old_s5-rand2": -17.777613808414536,
+          "old_s5-rand3": -16.459118120665757,
+          "old_s6-rand0": -17.65483594788399,
+          "old_s6-rand1": -19.53538703239422,
+          "old_s6-rand2": -20.71032671474488,
+          "old_s6-rand3": -19.3918310269961,
+          "old_s7-rand0": -16.01411868295631,
+          "old_s7-rand1": -17.89466976746654,
+          "old_s7-rand2": -19.0696094498172,
+          "old_s7-rand3": -17.75111376206842
+        },
+        "leave_one_out_pp": {
+          "old_s3": -17.41564823103795,
+          "old_s4": -18.211032525193062,
+          "old_s5": -18.18012134512331,
+          "old_s6": -17.446943118540727,
+          "old_s7": -17.85712243477265,
+          "rand0": -18.378259941807148,
+          "rand1": -17.75140958030374,
+          "rand2": -17.359763019520184,
+          "rand3": -17.79926158210311
+        },
+        "caveat": "Exploratory unit-exchangeability assumption; five training seeds and four random directions. Missing rows explicitly conditioned upon; full-row bounds are in stage3."
+      }
+    }
+  }
+}

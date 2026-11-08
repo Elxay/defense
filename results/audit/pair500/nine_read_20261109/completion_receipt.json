@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-08T23:07:26.181966+00:00",
+  "reader_publication_commit": "49db48a5ee287aaefe9feb5974304aba847ef225",
+  "report_sha256": "a1f604686ece5b9de5d0b47dbb1d1dbcb978dff9a2375855524d03bfdb244eaf",
+  "step_ledger_sha256": "2a642dcda6725e3a9ca490e92e74b4b8b1de8f22cc6ccf66ecb7220046d9b647",
+  "all_nine_read_steps_complete": true,
+  "first_read_started_utc": "2026-11-08T23:00:16.946781+00:00",
+  "last_read_saved_utc": "2026-11-08T23:03:58.429757+00:00",
+  "schedule_and_stopping_rules_changed": false,
+  "abstract_edited": false,
+  "top2_full_nine_sensitivity": "pending",
+  "no_raw_prompts_or_completions_published": true
+}

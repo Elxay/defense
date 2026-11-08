@@ -1,0 +1,54 @@
+{
+  "step": 9,
+  "stage": "prediction",
+  "started_utc": "2026-11-08T23:03:58.409203+00:00",
+  "saved_utc": "2026-11-08T23:03:58.429757+00:00",
+  "unlock_utc": "2026-11-08T23:00:00+00:00",
+  "previous_steps": [
+    {
+      "file": "results/audit/pair500/nine_read_20261109/01_status.json",
+      "sha256": "4bcac8887aa85de12bee571c66e1422c3781105075170d0ce148ec12e008d6e8"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/02_baseline_hashes.json",
+      "sha256": "3e3bd50e26edd762494f7ed10646442ed6b78f4103f8c0e763df3cdad2258e41"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/03_main_contrast.json",
+      "sha256": "789d708702e21dee2226026277ea8e0bd1a2d1452b9252baaf6435e03b877fb0"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/04_sign_consistency.json",
+      "sha256": "e0cef8addb309d9200d74119ba4e36ec4bb035e003f2eb030404b0665faebd81"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/05_unit_permutation.json",
+      "sha256": "f15d96212170b8f78daf9a0ac88bc12c1ff55dc1ee660c9a534d40700caf7216"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/06_downflip_refusal.json",
+      "sha256": "aee894fc0114faea032ea87aef2118b67176eee8fa7cd013d173d9bc41e04cfd"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/07_refusal_agreement.json",
+      "sha256": "f121b6de4d149258dc9cb5bc08ab1ab6bedb30977177be592b6cb4ee85e13c79"
+    },
+    {
+      "file": "results/audit/pair500/nine_read_20261109/08_invalid_ids.json",
+      "sha256": "022993f980dea67854184205b53ce96b4b855ca80e0ba1b4e12eb22e5e6af913"
+    }
+  ],
+  "script_sha256": "2f0683d57213b2807c3849529e0b1c940af94b4579b07f97074edf483471ca68",
+  "result": {
+    "frozen_prediction_pp": -17.33,
+    "observed_WG_complete_pair_contrast_pp": -18.680520781171758,
+    "observed_all2000_identification_bounds_pp": [
+      -18.705,
+      -18.6675
+    ],
+    "observed_minus_prediction_pp": -1.3505207811717597,
+    "same_negative_sign": true,
+    "numerical_tolerance": null,
+    "interpretation": "Descriptive comparison only; the prediction used a four-unit HB anchor whereas this is nine units. No pass/fail threshold, mechanism claim, scheduling or stopping change."
+  }
+}
