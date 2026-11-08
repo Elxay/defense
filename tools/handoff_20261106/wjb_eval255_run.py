@@ -11,7 +11,7 @@ import time
 from pathlib import Path
 
 import numpy as np
-from pair500_eval254 import CFG, OUT, ROOT, clip, harmbench_scope, require_cards, signed
+from pair500_eval254 import OUT, ROOT, clip, harmbench_scope, require_cards, signed
 from pair500_generate import digest, load, official_functions, write
 from public_wjb_alpha0_gate import LLAMA, PLAN, rows as harmful_rows
 from wjb_eval255_map import csv_rows
@@ -19,6 +19,22 @@ from wjb_eval255_map import csv_rows
 EVAL = OUT / "public255"
 PROTOCOL = ROOT / "docs/255_WJB_PUBLIC_EVAL_PROTOCOL.md"
 SNAPSHOT = OUT / "frozen_prompt_snapshot.json"
+CFG = OUT / "eval255_frozen_runtime_config.json"
+
+
+def snapshot_preempts(condition=None):
+    if not SNAPSHOT.exists():
+        return False
+    mode = os.environ.get("WJB_POST_SNAPSHOT_MODE", "")
+    if mode == "post_pair":
+        assert load(OUT / "full_queue_live.json").get("phase") == "complete", "PAIR GPU work must finish before tail resume"
+        return False
+    if mode == "last_condition":
+        decision = load(OUT / "pair_priority_trigger.json")
+        assert decision.get("last_condition_exemption") and decision.get("remaining_conditions") == [condition]
+        assert not decision.get("active")
+        return False
+    return True
 
 
 def pulse(stage, done, total, start, condition, shard=0, timed_rows=None):
@@ -181,7 +197,7 @@ def generate(kind, name, shard, config):
     for dataset, data in datasets:
         offsets = range(shard * 8, len(data), 16) if kind == "public" else range(len(data))
         for offset in offsets:
-            if SNAPSHOT.exists():
+            if snapshot_preempts(name):
                 return
             batch = data[offset:offset + (8 if kind == "public" else 1)]
             out = EVAL / f"{kind}.private" / name / dataset / f"{batch[0][0]}.json"
@@ -261,7 +277,7 @@ def score(names, config, sensitivity=False):
         start = time.monotonic()
         n = 0
         for row in mapping["rows"]:
-            if SNAPSHOT.exists():
+            if snapshot_preempts(name):
                 return
             key = row["id"]
             if name == "alpha0":
@@ -332,7 +348,7 @@ def guard_public(config):
     write(EVAL / "guard20_gate.json", {"n": len(keys), "max_abs_delta": delta, "passed": True})
     for folder in sorted((EVAL / "public.private" / "alpha0").glob("*")):
         for path in sorted(folder.glob("*.json")):
-            if SNAPSHOT.exists():
+            if snapshot_preempts():
                 return
             dest = EVAL / "public_guard_scores" / folder.name / path.name
             sig = {"generation_sha256": digest(path), "guard_source_sha256": digest(source)}

@@ -2,7 +2,7 @@
   "utc": "2026-11-07T07:36:51.377462+00:00",
   "commit": "5b388c35f84a37934f3bdcbfad6e070ef8a2a616",
   "doc_sha256": "5a882d3aa9983600d2860982d9b91aa9eeb20c3872591e0b69c05b03a1a7a0d0",
-  "config_sha256": "2fb7a6e957e9724cf532a8aa9a8acfb59fe5865c6cbc407dbbdeedc2382957a9",
+  "config_sha256": "098b2d189598f7206bf7a5761b5b60f29dae74394129684f0928b8b2eadcee53",
   "amended_utc": "2026-11-08T12:52:59.970204+00:00",
   "evaluation_addendum_sha256": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
   "previous_publication_file": "eval254_publication_v1.json",
@@ -10,5 +10,7 @@
   "priority_addendum_sha256": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd",
   "priority_addendum_commit": "29a3a189be74766270a9d52b96851b6734dcf356",
   "one_remaining_addendum_sha256": "ceba407e077af1ba3e50d2fdb934d9966ee516d991f6796a5234725570eb13e8",
-  "one_remaining_addendum_commit": "ed694860f39c49f06c92d1f870e62d26da049719"
+  "one_remaining_addendum_commit": "ed694860f39c49f06c92d1f870e62d26da049719",
+  "hb_delay_addendum_sha256": "256b42214f180ee2b447745b5ef68b84f1b53ebde3764724954dde668c424519",
+  "hb_delay_addendum_commit": "pending_push"
 }

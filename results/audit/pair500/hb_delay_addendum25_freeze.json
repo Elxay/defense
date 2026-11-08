@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-08T14:30:34.633768+00:00",
+  "doc_sha256": "256b42214f180ee2b447745b5ef68b84f1b53ebde3764724954dde668c424519",
+  "config_sha256": "098b2d189598f7206bf7a5761b5b60f29dae74394129684f0928b8b2eadcee53",
+  "search_rows": 291,
+  "s7_outputs_at_freeze": 0,
+  "canonical_outputs": 0,
+  "conditional_wg_effects_read": false,
+  "user_authorized_exception": true,
+  "checks_passed": true
+}
