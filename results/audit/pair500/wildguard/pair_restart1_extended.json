@@ -1,0 +1,14 @@
+{
+  "new_worker_pid": 2295103,
+  "new_worker_start_utc": "2026-11-08T08:28:08.990000+00:00",
+  "prefix242_n": 242,
+  "prefix242_unique_ids": 242,
+  "prefix242_valid_json": true,
+  "current_complete_n": 245,
+  "current_unique_ids": 245,
+  "current_tmp_files": 0,
+  "row237_saved_utc": "2026-11-08T08:23:00.134605+00:00",
+  "row238_saved_utc": "2026-11-08T08:37:13.812380+00:00",
+  "row238_stored_seconds": 511.3796651279554,
+  "extra_wall_gap_seconds": 342.29811001662165
+}

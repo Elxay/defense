@@ -1,0 +1,9 @@
+{
+  "pid": 2031591,
+  "node": "node01",
+  "gpu": 0,
+  "phase": "grid complete",
+  "utc": "2026-11-07T09:45:00.551809+00:00",
+  "source": "node01:results/audit/handoff_round11/generate_grid_s3_live.json",
+  "heldout_arm_status": "incomplete closeout preserved; no checkpoint effects read"
+}
