@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-08T11:08:35.243275+00:00",
+  "canonical_token_owner_description": "项目负责人个人的 Hugging Face token，用于多个项目",
+  "historical_statement_index": [
+    {
+      "file": "docs/255_WILDGUARD_BASELINE_SECURITY_AND_RECOVERY.md",
+      "line": 15,
+      "superseded_owner_wording": true
+    }
+  ],
+  "manuscript_owner_wording_matches": [],
+  "old_lines_and_frozen_files_unchanged": true
+}

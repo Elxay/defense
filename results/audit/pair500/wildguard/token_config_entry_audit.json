@@ -1,0 +1,85 @@
+{
+  "utc": "2026-11-08T11:02:00.525615+00:00",
+  "checked_files": [
+    "/home/kemove/.bashrc",
+    "/home/kemove/.profile",
+    "/etc/profile",
+    "/etc/bash.bashrc",
+    "/etc/profile.d/01-locale-fix.sh",
+    "/etc/profile.d/Z99-cloud-locale-test.sh",
+    "/etc/profile.d/Z99-cloudinit-warnings.sh",
+    "/etc/profile.d/apps-bin-path.sh",
+    "/etc/profile.d/bash_completion.sh",
+    "/etc/profile.d/cedilla-portuguese.sh",
+    "/etc/profile.d/clash.sh",
+    "/etc/profile.d/debuginfod.csh",
+    "/etc/profile.d/debuginfod.sh",
+    "/etc/profile.d/gnome-session_gnomerc.sh",
+    "/etc/profile.d/im-config_wayland.sh",
+    "/etc/profile.d/vte-2.91.sh",
+    "/etc/profile.d/vte.csh",
+    "/etc/profile.d/xdg_dirs_desktop_session.sh"
+  ],
+  "matches_variable_names_only": [
+    {
+      "path": "/home/kemove/.bashrc",
+      "line": 156,
+      "variable_names": [
+        "HF_TOKEN"
+      ],
+      "comment_only": false,
+      "export_keyword": true
+    }
+  ],
+  "unreadable": [],
+  "tmux_environment_names_only": [
+    {
+      "target": "global",
+      "exit": 0,
+      "variables": []
+    },
+    {
+      "target": "$8",
+      "exit": 0,
+      "variables": []
+    },
+    {
+      "target": "$10",
+      "exit": 0,
+      "variables": []
+    },
+    {
+      "target": "$1",
+      "exit": 0,
+      "variables": []
+    },
+    {
+      "target": "$5",
+      "exit": 0,
+      "variables": []
+    },
+    {
+      "target": "$9",
+      "exit": 0,
+      "variables": []
+    },
+    {
+      "target": "$7",
+      "exit": 0,
+      "variables": []
+    },
+    {
+      "target": "$0",
+      "exit": 0,
+      "variables": []
+    },
+    {
+      "target": "$6",
+      "exit": 0,
+      "variables": []
+    }
+  ],
+  "cache_token_exists": false,
+  "permission_scope_of_deleted_token": "not verified; deleted cached credential no longer available; do not substitute unverified third-project credentials",
+  "process_chain": "3542128 run_all_auto.sh ->3581097 python ->27351 python; MTA working directory; not identified as Codex sessions"
+}

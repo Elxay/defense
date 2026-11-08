@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-08T11:06:09.586468+00:00",
+  "path": "/home/kemove/.bashrc",
+  "before_mode": "0o664",
+  "after_mode": "0o600",
+  "content_changed": false,
+  "reason": "literal personal multi-project HF_TOKEN configuration was group/world-readable; tighten only mode, keep export and other projects running",
+  "same_uid_exposure_remains": true
+}

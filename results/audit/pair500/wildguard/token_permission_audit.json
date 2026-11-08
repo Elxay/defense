@@ -1,0 +1,19 @@
+{
+  "source": "personal shell configuration literal, read only in memory",
+  "literal_credential_resolved": true,
+  "credential_value_disclosed": false,
+  "auth_type": "access_token",
+  "token_role": "fineGrained",
+  "token_metadata_keys": [
+    "displayName",
+    "role",
+    "createdAt",
+    "fineGrained"
+  ],
+  "can_read_gated_repos": true,
+  "global_permissions": [],
+  "scoped_permissions": [
+    "repo.content.read"
+  ],
+  "identity_fields_removed": true
+}

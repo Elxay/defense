@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-08T11:03:36.240978+00:00",
+  "comparison_results": [
+    {
+      "pid": 27351,
+      "matches_home_configuration": true
+    },
+    {
+      "pid": 3542128,
+      "matches_home_configuration": true
+    },
+    {
+      "pid": 3581097,
+      "matches_home_configuration": true
+    }
+  ],
+  "credential_values_or_hashes_disclosed": false,
+  "download_deleted_cached_value_comparison": "unavailable; original cache value not retained",
+  "bashrc_mode": "-rw-rw-r--"
+}
