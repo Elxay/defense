@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Behavior reference & $n$ & Harmful & Rate (\%) \\
+\midrule
+Top-1 & 2000 & 993 & 49.65 \\
+Top-2 & 2000 & 304 & 15.20 \\
+Random mismatch & 200 & 2 & 1.00 \\
+\bottomrule
+\end{tabular}
+\caption{Same official WildJailbreak baseline outputs with different behavior references. Absolute mapped rates are descriptive, not independently validated WildJailbreak ASR. The random mismatch uses a 200-row subset. The frozen dynamic-range gate uses top-1 alone; top-2 would fall below it. Source SHA256: \texttt{a55494fe379f}; full hashes are in the companion CSV.}
+\label{tab:wjb-reference-three}
+\end{table}

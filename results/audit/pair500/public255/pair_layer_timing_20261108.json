@@ -1,0 +1,110 @@
+{
+  "utc": "2026-11-08T07:49:35.113126+00:00",
+  "host": "node01",
+  "completed": 231,
+  "layers": {
+    "standard": {
+      "total": 200,
+      "completed": 88,
+      "remaining": 112,
+      "mean_seconds": 353.51933931840045,
+      "sd_seconds": 123.83427840632633
+    },
+    "jbb": {
+      "total": 100,
+      "completed": 52,
+      "remaining": 48,
+      "mean_seconds": 325.1293759482214,
+      "sd_seconds": 118.56075220794752
+    },
+    "contextual": {
+      "total": 100,
+      "completed": 40,
+      "remaining": 60,
+      "mean_seconds": 434.8502590375545,
+      "sd_seconds": 101.02335469502039
+    },
+    "copyright": {
+      "total": 100,
+      "completed": 51,
+      "remaining": 49,
+      "mean_seconds": 432.0942771894556,
+      "sd_seconds": 62.32699299197287
+    }
+  },
+  "remaining_seconds_layer_weighted": 102464.01117371208,
+  "eta_jst": "2026-11-09T21:17:19.124300+09:00",
+  "recent10": [
+    {
+      "order": 222,
+      "layer": "standard",
+      "seconds": 461.16512434603646
+    },
+    {
+      "order": 223,
+      "layer": "standard",
+      "seconds": 426.6492601770442
+    },
+    {
+      "order": 224,
+      "layer": "jbb",
+      "seconds": 384.51774880313314
+    },
+    {
+      "order": 225,
+      "layer": "jbb",
+      "seconds": 430.60076078912243
+    },
+    {
+      "order": 226,
+      "layer": "jbb",
+      "seconds": 341.1700500191655
+    },
+    {
+      "order": 227,
+      "layer": "standard",
+      "seconds": 402.97877370612696
+    },
+    {
+      "order": 228,
+      "layer": "jbb",
+      "seconds": 476.7245684079826
+    },
+    {
+      "order": 229,
+      "layer": "standard",
+      "seconds": 240.5613788489718
+    },
+    {
+      "order": 230,
+      "layer": "jbb",
+      "seconds": 159.10819418705069
+    },
+    {
+      "order": 231,
+      "layer": "jbb",
+      "seconds": 370.3856864790432
+    }
+  ],
+  "recent10_mean": 369.3861545763677,
+  "recent10_expected_from_layer_means": 336.48536129629304,
+  "recent10_layers": {
+    "standard": 4,
+    "jbb": 6
+  },
+  "loadavg": [
+    22.82,
+    22.77,
+    22.36
+  ],
+  "cpu_count": 40,
+  "gpu_snapshot": [
+    "0, 678 MiB, 4 %, 210 MHz, 405 MHz, 25.06 W, 36",
+    "1, 23515 MiB, 68 %, 2745 MHz, 10251 MHz, 245.82 W, 57",
+    "2, 18155 MiB, 0 %, 2520 MHz, 10251 MHz, 61.62 W, 46"
+  ],
+  "gpu_processes": [
+    "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 2024810, 23478 MiB",
+    "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 2024810, 18118 MiB"
+  ]
+}

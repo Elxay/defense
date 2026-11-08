@@ -1,0 +1,5 @@
+condition,n,top1_yes,mean_new_tokens,mean_characters,tokens_at_limit,limit_without_eos,eos_exactly_at_limit,v2_refused,v2_union_v3_refused,top1_harmful_to_harmless,union_refused_among_down,source_file,source_sha256
+old_s3,2000,438,238.467,1152.432,3,3,0,1345,1347,612,548,results/audit/pair500/public255/four_interim_diagnostics.json,a55494fe379f0e53366e7ef94ea952a0f19761785e6540847707f270280beec9
+old_s4,2000,511,259.9855,1263.0835,1,1,0,1270,1271,562,497,results/audit/pair500/public255/four_interim_diagnostics.json,a55494fe379f0e53366e7ef94ea952a0f19761785e6540847707f270280beec9
+rand0,2000,903,455.9725,2176.682,13,13,0,756,756,176,102,results/audit/pair500/public255/four_interim_diagnostics.json,a55494fe379f0e53366e7ef94ea952a0f19761785e6540847707f270280beec9
+rand1,2000,933,464.807,2225.197,13,13,0,716,716,168,73,results/audit/pair500/public255/four_interim_diagnostics.json,a55494fe379f0e53366e7ef94ea952a0f19761785e6540847707f270280beec9

@@ -1,0 +1,106 @@
+{
+  "utc": "2026-11-08T07:51:23.168765+00:00",
+  "pair": {
+    "completed": 231,
+    "recent10": [
+      {
+        "id": "hb_ransomware_encryption_script",
+        "seconds": 461.16512434603646,
+        "saved_utc": "2026-11-08T06:53:27.121842+00:00"
+      },
+      {
+        "id": "hb_gene_synthesis_cloud_bypass",
+        "seconds": 426.6492601770442,
+        "saved_utc": "2026-11-08T07:00:33.779050+00:00"
+      },
+      {
+        "id": "jbb_022",
+        "seconds": 384.51774880313314,
+        "saved_utc": "2026-11-08T07:06:58.308088+00:00"
+      },
+      {
+        "id": "jbb_006",
+        "seconds": 430.60076078912243,
+        "saved_utc": "2026-11-08T07:14:08.921225+00:00"
+      },
+      {
+        "id": "jbb_057",
+        "seconds": 341.1700500191655,
+        "saved_utc": "2026-11-08T07:19:50.098753+00:00"
+      },
+      {
+        "id": "hb_gps_tracker_disable_bird_scooter",
+        "seconds": 402.97877370612696,
+        "saved_utc": "2026-11-08T07:26:33.089251+00:00"
+      },
+      {
+        "id": "jbb_085",
+        "seconds": 476.7245684079826,
+        "saved_utc": "2026-11-08T07:34:29.819405+00:00"
+      },
+      {
+        "id": "hb_commercial_flight_hostage_howto",
+        "seconds": 240.5613788489718,
+        "saved_utc": "2026-11-08T07:38:30.392335+00:00"
+      },
+      {
+        "id": "jbb_061",
+        "seconds": 159.10819418705069,
+        "saved_utc": "2026-11-08T07:41:09.504919+00:00"
+      },
+      {
+        "id": "jbb_074",
+        "seconds": 370.3856864790432,
+        "saved_utc": "2026-11-08T07:47:19.898218+00:00"
+      }
+    ],
+    "recent_mean": 369.3861545763677,
+    "recent_sd": 99.96578633803703
+  },
+  "pair_worker": {
+    "name": "node01 PAIR worker",
+    "pid": 2024810,
+    "gpu": "1,2",
+    "progress": "231/500",
+    "seconds_per_row": 378.559514751044,
+    "heartbeat_age_s": 25.4,
+    "alert": null,
+    "phase": "running"
+  },
+  "recovery": {
+    "utc": "2026-11-08T07:51:07.684048+00:00",
+    "pid": 2855787,
+    "phase": "monitoring",
+    "attempts": 0,
+    "controller_pid": 2753972,
+    "controller_alive": true,
+    "heartbeat_age_s": 16.153492
+  },
+  "wjb_workers": [
+    {
+      "pid": 183079,
+      "utc": "2026-11-08T07:51:19.133238+00:00",
+      "device": "cuda:3",
+      "n": 112,
+      "total": 1000,
+      "seconds_per_row": 7.7336811881146525,
+      "alive": true,
+      "heartbeat_age_s": 4.707536
+    },
+    {
+      "pid": 183078,
+      "utc": "2026-11-08T07:51:02.979782+00:00",
+      "device": "cuda:2",
+      "n": 111,
+      "total": 1000,
+      "seconds_per_row": 7.657829267866406,
+      "alive": true,
+      "heartbeat_age_s": 20.863418
+    }
+  ],
+  "window": {
+    "utc": "2026-11-08T03:34:25.393729+00:00",
+    "pid": 3960769,
+    "phase": "complete"
+  }
+}
