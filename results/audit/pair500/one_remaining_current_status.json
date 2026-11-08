@@ -1,0 +1,207 @@
+{
+  "utc": "2026-11-08T13:58:18.261129+00:00",
+  "pair": {
+    "name": "node01 PAIR worker",
+    "pid": 2295103,
+    "gpu": "1,2",
+    "progress": "287/500",
+    "seconds_per_row": 380.77765501265657,
+    "heartbeat_age_s": 34.1,
+    "alert": null,
+    "phase": "running"
+  },
+  "pair_restarts": 1,
+  "wjb_stage": {
+    "utc": "2026-11-08T13:56:42.073869+00:00",
+    "pid": 644288,
+    "supervisor_pid": 3070416,
+    "stage": "harmful_generation",
+    "detail": "rand3",
+    "complete": true,
+    "manifest_sha256": "a04e290f4ab40128def237711f8e1f36022f105a6802bccd0c7d1b5e0a2458fa",
+    "heartbeat_age_s": 94.771548,
+    "supervisor_alive": true
+  },
+  "wjb_live_workers": [],
+  "rand3_shards": [
+    {
+      "pid": 337921,
+      "utc": "2026-11-08T13:28:16.619780+00:00",
+      "device": "cuda:2",
+      "n": 1000,
+      "total": 1000,
+      "seconds_per_row": 13.341411635112948
+    },
+    {
+      "pid": 337922,
+      "utc": "2026-11-08T13:56:39.790806+00:00",
+      "device": "cuda:3",
+      "n": 1000,
+      "total": 1000,
+      "seconds_per_row": 15.044583130667917
+    }
+  ],
+  "wildguard": {
+    "utc": "2026-11-08T13:58:18.120926+00:00",
+    "units": [
+      {
+        "name": "old_s3",
+        "n": 2000,
+        "first_utc": "2026-11-08T09:40:53.884839+00:00",
+        "done_utc": "2026-11-08T10:16:08.437875+00:00",
+        "live": {
+          "utc": "2026-11-08T10:16:08.059163+00:00",
+          "pid": 2310494,
+          "n": 2000,
+          "total": 2000,
+          "seconds_per_scored_row": 1.058095759775024,
+          "host": "node01",
+          "gpu": 0
+        },
+        "alive": false,
+        "hb_age_s": 13330.061763
+      },
+      {
+        "name": "rand0",
+        "n": 2000,
+        "first_utc": "2026-11-08T10:18:02.993997+00:00",
+        "done_utc": "2026-11-08T10:53:50.949608+00:00",
+        "live": {
+          "utc": "2026-11-08T10:53:50.521649+00:00",
+          "pid": 2318019,
+          "n": 2000,
+          "total": 2000,
+          "seconds_per_scored_row": 1.0747604298799998,
+          "host": "node01",
+          "gpu": 0
+        },
+        "alive": false,
+        "hb_age_s": 11067.599277
+      },
+      {
+        "name": "old_s4",
+        "n": 2000,
+        "first_utc": "2026-11-08T10:55:40.728952+00:00",
+        "done_utc": "2026-11-08T11:38:32.124051+00:00",
+        "live": {
+          "utc": "2026-11-08T11:38:31.707111+00:00",
+          "pid": 2326209,
+          "n": 2000,
+          "total": 2000,
+          "seconds_per_scored_row": 1.2864946828745305,
+          "host": "node01",
+          "gpu": 0
+        },
+        "alive": false,
+        "hb_age_s": 8386.413815
+      },
+      {
+        "name": "rand1",
+        "n": 2000,
+        "first_utc": "2026-11-08T11:40:29.927927+00:00",
+        "done_utc": "2026-11-08T12:15:39.603127+00:00",
+        "live": {
+          "utc": "2026-11-08T12:15:39.159646+00:00",
+          "pid": 2340077,
+          "n": 2000,
+          "total": 2000,
+          "seconds_per_scored_row": 1.0556461707074196,
+          "host": "node01",
+          "gpu": 0
+        },
+        "alive": false,
+        "hb_age_s": 6158.96128
+      },
+      {
+        "name": "old_s5",
+        "n": 2000,
+        "first_utc": "2026-11-08T12:17:34.928144+00:00",
+        "done_utc": "2026-11-08T12:52:58.470173+00:00",
+        "live": {
+          "utc": "2026-11-08T12:52:58.063353+00:00",
+          "pid": 2351368,
+          "n": 2000,
+          "total": 2000,
+          "seconds_per_scored_row": 1.062549845212954,
+          "host": "node01",
+          "gpu": 0
+        },
+        "alive": false,
+        "hb_age_s": 3920.057573
+      },
+      {
+        "name": "rand2",
+        "n": 2000,
+        "first_utc": "2026-11-08T12:54:47.578659+00:00",
+        "done_utc": "2026-11-08T13:29:53.542936+00:00",
+        "live": {
+          "utc": "2026-11-08T13:29:53.110912+00:00",
+          "pid": 2363259,
+          "n": 2000,
+          "total": 2000,
+          "seconds_per_scored_row": 1.0538272530795074,
+          "host": "node01",
+          "gpu": 0
+        },
+        "alive": false,
+        "hb_age_s": 1705.010014
+      },
+      {
+        "name": "old_s6",
+        "n": 1544,
+        "first_utc": "2026-11-08T13:31:45.107311+00:00",
+        "done_utc": null,
+        "live": {
+          "utc": "2026-11-08T13:58:13.474130+00:00",
+          "pid": 2373136,
+          "n": 1540,
+          "total": 2000,
+          "seconds_per_scored_row": 1.0326685772720399,
+          "host": "node01",
+          "gpu": 0
+        },
+        "alive": true,
+        "hb_age_s": 4.646796
+      },
+      {
+        "name": "rand3",
+        "n": 0,
+        "first_utc": null,
+        "done_utc": null,
+        "live": null,
+        "alive": false,
+        "hb_age_s": null
+      },
+      {
+        "name": "old_s7",
+        "n": 0,
+        "first_utc": null,
+        "done_utc": null,
+        "live": null,
+        "alive": false,
+        "hb_age_s": null
+      }
+    ],
+    "all_nine_done": false
+  },
+  "row_trigger": {
+    "utc": "2026-11-08T13:58:15.367309+00:00",
+    "pid": 647101,
+    "phase": "waiting_actual_480_rows",
+    "n": 287,
+    "ids_sha256": "6d69bb0a5a29b273903cd35d48c675a7a1dec84495ce7515bf92e347e830817c"
+  },
+  "conditional_effects_read": false,
+  "gpu3_gate_observation": {
+    "utc": "2026-11-08T14:00:16.733868+00:00",
+    "gpu": 3,
+    "memory_mib": 6273,
+    "other_process_pid": 592686,
+    "other_process_alloc_mib": 6250,
+    "project_marker": false,
+    "operation": "wait only; no process modified",
+    "wjb_rand3_generation_complete": true,
+    "harmbench_window": "waiting_for_gpu3_memory_gate",
+    "s7_generation": "not_started; after rand3 judge"
+  }
+}
