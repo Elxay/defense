@@ -211,14 +211,21 @@ def generate(kind, name, shard, config):
             else:
                 messages = ([{"role": "system", "content": system}] if system else []) + [
                     {"role": "user", "content": batch[0][1]}]
-                ids = tok.apply_chat_template(messages, add_generation_prompt=True,
-                                              return_tensors="pt").to("cuda:0")
+                render_metadata = {}
+                if name in {"SYS_A", "SYS_B"}:
+                    from prefix_support import render_audit
+                    ids, render_metadata = render_audit(tok, batch[0][1], name, system)
+                    ids = ids.to("cuda:0")
+                else:
+                    ids = tok.apply_chat_template(messages, add_generation_prompt=True,
+                                                  return_tensors="pt").to("cuda:0")
                 runtime = np.zeros(4096, dtype=np.float32) if vec is None else vec
                 result = generate_with_injection(
                     model, tok, ids, runtime, layer=9, max_new_tokens=2400, device="cuda:0",
                     src_vec_sha256=spec.get("file_sha256"), alpha=spec["alpha"])
                 result.update(host=socket.gethostname(), physical_device=os.environ["DEVICE"],
                               rho_runtime=float(np.linalg.norm(runtime)))
+                result.update(render_metadata)
                 texts = [result["text"]]
             record = {"signature": signature, "items": [
                 {"id": key, "text": text, "v2_refusal": new_rule(text)}

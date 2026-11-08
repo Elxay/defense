@@ -53,4 +53,6 @@ print(json.dumps({'utc':now.isoformat(),'pair':worker,'node01_active_classifiers
     result['innet_gpu_memory']=subprocess.check_output(['nvidia-smi','--query-gpu=index,memory.used','--format=csv,noheader,nounits','-i','2,3'],text=True).splitlines()
     result['imports_analysis_code']=False
     result['reads_outcome_labels']=False
+    result['prefix_generation']=small_metadata(BASE/'prefix254/controller_live.json',['utc','pid','phase','condition','n','source_rows'])
+    result['prefix_generation_coverage']={name:len(list((BASE/'prefix254/generation.private'/name).glob('*.json'))) for name in ['alpha0','old_s3','rand0','old_s4','rand1','old_s5','rand2','old_s6','rand3','old_s7','old_s0','SYS_A','SYS_B']}
     return result

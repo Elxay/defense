@@ -36,4 +36,10 @@ for name in rand3 old_s7; do
   "$py" "$stage" harmful_judge --detail "$name" --complete
 done
 flock -u 7; flock -u 8
-bash tools/handoff_20261106/wjb_tail_resume_queue.sh --normal-tail old_s0 SYS_A SYS_B
+"$py" - <<'PY'
+from pathlib import Path
+import datetime,json
+p=Path('results/audit/pair500/prefix254/wjb_primary_hb_window_complete.json')
+p.parent.mkdir(parents=True,exist_ok=True)
+p.write_text(json.dumps({'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'s0_systems_deferred_until_PAIR_evaluation':True},indent=2)+'\n')
+PY

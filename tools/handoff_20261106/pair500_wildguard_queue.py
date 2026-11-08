@@ -56,6 +56,9 @@ def main():
         keys = [r['id'] for r in snapshot['rows']]
         while not all((folder / (k + '.json')).exists() for k in keys):
             pulse('waiting_complete_target_condition', name); time.sleep(30)
+        route=BASE/'prefix254/resource_route.json'
+        while route.exists() and json.loads(route.read_text()).get('fallback') and not (BASE/'prefix254/node_lane0_complete.json').exists():
+            pulse('waiting_node01_gpu0_target_lane',name);time.sleep(15)
         payload = []; hashes = {}
         for key in keys:
             g = folder / (key + '.json'); a = BASE / 'generations.private' / (key + '.json')

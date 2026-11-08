@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-08T17:06:04.308959+00:00",
+  "n_benign_fixtures": 20,
+  "tokenization_and_300_50_window_minhash_equal": true,
+  "fixtures_fingerprint": "36549a7c292620e52de2017fef7d4502a05313f32216da4edee21055e4b1c861",
+  "temporary_checks": [
+    "valid_signature_accepted",
+    "changed_prompt_rejected",
+    "backend_metadata_replacement_unique",
+    "all_adapter_sources_parse",
+    "node_gate_20_identical_passed",
+    "node_gate_one_difference_stopped"
+  ],
+  "versions": {
+    "innet": {
+      "numpy": "1.26.4",
+      "spacy": "3.8.5",
+      "thinc": "8.3.6",
+      "datasketch": "1.6.5",
+      "typer": "0.15.2",
+      "pydantic": "2.12.5"
+    },
+    "node01_hash_env": {
+      "numpy": "2.2.6",
+      "spacy": "3.8.5",
+      "thinc": "8.3.11",
+      "datasketch": "1.6.5",
+      "typer": "0.15.2",
+      "pydantic": "2.12.5"
+    }
+  },
+  "scope": "CPU synthetic fixtures; not a GPU cross-node generation gate"
+}
