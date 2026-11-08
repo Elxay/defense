@@ -248,6 +248,8 @@ def score(names, config, sensitivity=False):
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     require_cards(pair=True)
+    from hb_judge_preflight import prepare, reference_failed, reference_passed
+    launch_dir, launch_record = prepare(names, config["judge"])
     if sensitivity:
         assert digest(ROOT / "docs/255_ADDENDUM3_RANDOM_REFERENCE.md") == "939abf789acb028d632d1caf2288c78b121bdcef98a9ce3cf6e3d72937f8d6fb"
         assert len(list((OUT / "public_wjb_a0.private").glob("*.json"))) == 2000, "Wait for all alpha0 rows"
@@ -264,9 +266,15 @@ def score(names, config, sensitivity=False):
     ).eval()
     assert not {"cpu", "disk"} & set(model.hf_device_map.values())
     gate = official_functions(ROOT / "tools/handoff_20261106/pair500_eval254.py", {"legacy_gate"})
-    gate.update(ROOT=ROOT, EVAL=EVAL, official_functions=official_functions, load=load, write=write,
+    gate.update(ROOT=ROOT, EVAL=launch_dir, official_functions=official_functions, load=load, write=write,
                 utc=lambda: datetime.datetime.now(datetime.timezone.utc).isoformat())
-    gate["legacy_gate"](tokenizer, model, torch)
+    try:
+        gate["legacy_gate"](tokenizer, model, torch)
+    except Exception as exc:
+        reference_failed(launch_dir, exc)
+        raise
+    write(EVAL / "judge20_gate.json", load(launch_dir / "judge20_gate.json"))
+    reference_passed(launch_dir, launch_record)
     template = harmbench_scope(ROOT / "repos/HarmBench/eval_utils.py", "classifier")["LLAMA2_CLS_PROMPT"]["prompt"]
     mapping_sha = digest(mapping_path)
     random_refs = {r["id"]: r["random_behavior"] for r in load(OUT / "wjb_random_reference200.json")} if sensitivity else {}

@@ -1,0 +1,18 @@
+{
+  "prepared_utc": "2026-11-08T14:52:00.952692+00:00",
+  "status": "waiting_both_innet_cards_NOT_STARTED",
+  "conditions": [
+    "rand3"
+  ],
+  "backend": "hf_innet",
+  "devices": [
+    "innet:2",
+    "innet:3"
+  ],
+  "model_manifest_sha256": "35df6528783271ff63b0dd44537f50c4d09c022b9fdb786cd1de0c574e43af99",
+  "model_preflight_at_launch_passed": false,
+  "reference20_at_launch_passed": false,
+  "launch_record_root": "results/audit/pair500/public255/judge_launches",
+  "read_gate": "both judges, all nine complete",
+  "addendum26_sha256": "cc7466e29ab0eada988da9ce0fdf958256156be152ae74475516f15c45a01c51"
+}
