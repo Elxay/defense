@@ -8,7 +8,10 @@ stage=tools/handoff_20261106/wjb_eval255_stage.py
 export HF_HUB_OFFLINE=1 USE_TF=0 USE_FLAX=0
 exec 8>>logs/idle_gpu2.lock
 exec 7>>logs/idle_gpu3.lock
-for name in old_s7 old_s0 SYS_A SYS_B; do
+names=(old_s7 old_s0 SYS_A SYS_B)
+if [ "$#" -gt 0 ]; then names=("$@"); fi
+for name in "${names[@]}"; do
+  case "$name" in old_s7|old_s0|SYS_A|SYS_B) ;; *) exit 2 ;; esac
   while true; do
     if flock -n 8 && flock -n 7 && wait_gpu cuda:2 && wait_gpu cuda:3; then break; fi
     flock -u 7; flock -u 8; sleep 30

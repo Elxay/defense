@@ -55,6 +55,42 @@ def checkpoint():
     return files
 
 
+def remaining_conditions():
+    allowed = {str(row['id']) for row in json.loads((BASE / 'wjb_mapping255.json').read_text())['rows']}
+    assert len(allowed) == 2000
+    counts = {}
+    for name in sorted(TAIL):
+        gen = BASE / 'public255/harmful.private' / name / 'wildjailbreak_harmful'
+        score = BASE / 'public255/mapped_scores' / name
+        g = {p.stem for p in gen.glob('*.json')}
+        s = {p.stem for p in score.glob('*.json')}
+        assert g <= allowed and s <= allowed
+        counts[name] = {'generation': len(g), 'harmbench_top1': len(s)}
+    return [name for name, x in counts.items() if min(x.values()) < 2000], counts
+
+
+def exempt_last_condition(trigger, state):
+    remaining = state['remaining_conditions']
+    assert len(remaining) <= 1
+    manifest = BASE / 'pair_priority_one_remaining_checkpoint.json'
+    if not manifest.exists():
+        save(manifest, {'utc': utc(), 'files': checkpoint(), 'remaining_conditions': remaining})
+    before = json.loads(manifest.read_text())['files']
+    pulse('allow_last_condition_to_finish', remaining_conditions=remaining)
+    if remaining:
+        # This waits on the same leases: the old queue may finish its current
+        # operation first. Cached rows are checked and only missing work runs.
+        subprocess.run(['bash', str(ROOT / 'tools/handoff_20261106/wjb_tail_resume_queue.sh'), remaining[0]], cwd=ROOT, check=True)
+    for rel, expected in before.items(): assert sha(BASE / rel) == expected, rel
+    pending, counts = remaining_conditions()
+    assert not pending, counts
+    state.update(exemption_completed_utc=utc(), completion_counts=counts)
+    save(trigger, state)
+    with (ROOT / 'docs/PREREG_LOG.txt').open('a') as f:
+        f.write(f'{utc()} PAIR480_LAST_CONDITION_EXEMPTION_COMPLETED checkpointSHA={sha(manifest)} retained_files_verified={len(before)}; no pause, both generation and HB judge complete.\n')
+    pulse('wjb_tails_completed_without_pause')
+
+
 def stop_owned_tails():
     stopped = []
     for proc in Path('/proc').iterdir():
@@ -79,10 +115,22 @@ def main():
             pulse('row_count_unavailable_no_action', error=type(e).__name__); time.sleep(30); continue
         snapshot = (BASE / 'frozen_prompt_snapshot.json').exists()
         if should_pause(observed['n'], snapshot):
-            save(trigger, {'utc': utc(), 'active': True, 'reason': 'actual_rows_ge480' if observed['n']>=480 else 'frozen_cutoff_prefix', **observed})
+            remaining, counts = remaining_conditions()
+            exempt = len(remaining) <= 1
+            state = {'utc': utc(), 'active': not exempt,
+                     'reason': 'actual_rows_ge480' if observed['n']>=480 else 'frozen_cutoff_prefix',
+                     'last_condition_exemption': exempt, 'remaining_conditions': remaining,
+                     'condition_counts': counts, **observed}
+            save(trigger, state)
+            with (ROOT / 'docs/PREREG_LOG.txt').open('a') as f:
+                f.write(f'{utc()} PAIR480_TRIGGER remaining_conditions={remaining} last_condition_exemption={exempt} triggerSHA={sha(trigger)}; remaining means incomplete generation OR HB top1 scoring, metadata only.\n')
             break
         pulse('waiting_actual_480_rows', **observed); time.sleep(30)
-    if not json.loads(trigger.read_text()).get('active'): return
+    state = json.loads(trigger.read_text())
+    if not state.get('active'):
+        if state.get('last_condition_exemption') and not state.get('exemption_completed_utc'):
+            exempt_last_condition(trigger, state)
+        return
     stopped = []
     for _ in range(4):
         stopped += stop_owned_tails(); time.sleep(2)

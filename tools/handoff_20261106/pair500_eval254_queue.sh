@@ -4,6 +4,16 @@ cd /data/HZX/Def
 source night/launch.sh
 exec 8>>logs/idle_gpu2.lock
 exec 7>>logs/idle_gpu3.lock
+# Wait for the row-count controller's decision, including the one-condition
+# exemption, before acquiring the cards from an unfinished WJB tail.
+while ! test -f results/audit/pair500/pair_priority_trigger.json; do sleep 5; done
+while ! python3 - <<'PY'
+import json
+from pathlib import Path
+x=json.loads(Path('results/audit/pair500/pair_priority_trigger.json').read_text())
+raise SystemExit(int(bool(x.get('last_condition_exemption')) and not x.get('exemption_completed_utc')))
+PY
+do sleep 5; done
 while true; do
   if flock -n 8 && flock -n 7 && wait_gpu cuda:2 && wait_gpu cuda:3; then break; fi
   flock -u 7

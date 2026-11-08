@@ -103,7 +103,7 @@
   "generated_nonzero_at_freeze": 0,
   "source_sha256": {
     "tools/handoff_20261106/pair500_eval254.py": "4984ac507cb60c0d776afc04ac0f1077f4adc612a5ccb7e75aaa4e421f193684",
-    "tools/handoff_20261106/pair500_eval254_queue.sh": "d956c88a683434cd47bfbe99a125938783194914e0add3fc2c971f970726ecee",
+    "tools/handoff_20261106/pair500_eval254_queue.sh": "c70a31ea52056a306ff2b3a3d6dd170617350cbb8e379213b6b49a94a57ccbca",
     "tools/handoff_20261106/pair500_report.py": "03595e18f226be4afcc23adcf48322c3ba2f09c069e7dd7da6bd2736e6830099",
     "tools/handoff_20261106/pair500_score.py": "013aa2527ff477b83f2866bb284ee745954b068bfcf3a9c20172817520da1da3",
     "src/gen/common.py": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
@@ -128,9 +128,10 @@
     "tools/handoff_20261106/pair500_wildguard_run.py": "e5b3e918c79fca57ac861de16b48c9af29e68cf7ba7378d43e42950e34abdd1d",
     "tools/handoff_20261106/wjb_eval255_stage.py": "3b03de33450c9bec911f5a16d13d65a8835ed65d895cec39bea3d76c1e78a22d",
     "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
-    "tools/handoff_20261106/pair500_priority480.py": "42c564f0e4741772bb76becff9169ca50b583e0ef94acf45611487ae836bdf31",
-    "tools/handoff_20261106/wjb_tail_resume_queue.sh": "8bf9a177ce5a460d4efecbf5737c6ab01879f70d2ffef3ce5a3c0c429ca034ec",
-    "docs/254_ADDENDUM2_PAIR480_PAUSE_AND_RESUME.md": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd"
+    "tools/handoff_20261106/pair500_priority480.py": "f90bdae881300f1e06c0f7c6649477351b84c32ad376ac5b383a6a93d0a53927",
+    "tools/handoff_20261106/wjb_tail_resume_queue.sh": "4634c8cec95683d14caf6ba632a387da543771b910ccec97eeadd9a284777011",
+    "docs/254_ADDENDUM2_PAIR480_PAUSE_AND_RESUME.md": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd",
+    "docs/254_ADDENDUM3_ONE_REMAINING_WJB_EXEMPTION.md": "ceba407e077af1ba3e50d2fdb934d9966ee516d991f6796a5234725570eb13e8"
   },
   "evaluation_revision": 2,
   "evaluation_addendum": "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md",
@@ -157,5 +158,10 @@
     "doc": "docs/254_ADDENDUM2_PAIR480_PAUSE_AND_RESUME.md",
     "sha256": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd",
     "actual_rows_trigger": 480
+  },
+  "one_remaining_exception": {
+    "utc": "2026-11-08T13:56:45.165094+00:00",
+    "doc_sha256": "ceba407e077af1ba3e50d2fdb934d9966ee516d991f6796a5234725570eb13e8",
+    "unfinished_includes": "generation and HB top1 scores"
   }
 }

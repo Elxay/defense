@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-07T07:36:51.377462+00:00",
+  "commit": "5b388c35f84a37934f3bdcbfad6e070ef8a2a616",
+  "doc_sha256": "5a882d3aa9983600d2860982d9b91aa9eeb20c3872591e0b69c05b03a1a7a0d0",
+  "config_sha256": "3a5d007bffaa9a2cec8fd2b940b11565778a9e537dbd1a650b9beb85521b56c8",
+  "amended_utc": "2026-11-08T12:52:59.970204+00:00",
+  "evaluation_addendum_sha256": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
+  "previous_publication_file": "eval254_publication_v1.json",
+  "amendment_publication_commit": "d7be9f337623b625be4ea4eb306b76b77afd5edf",
+  "priority_addendum_sha256": "a6785f28319f03151094107ec99c307ce29ada26811c08c1571afef68a1ac9bd",
+  "priority_addendum_commit": "29a3a189be74766270a9d52b96851b6734dcf356"
+}

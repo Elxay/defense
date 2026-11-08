@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-08T13:56:45.165094+00:00",
+  "actual_search_rows": 286,
+  "canonical_files": 0,
+  "one_remaining_doc_sha256": "ceba407e077af1ba3e50d2fdb934d9966ee516d991f6796a5234725570eb13e8",
+  "wg24_sha256": "6865b53ba177be60bf1c30caad2631f7f416da9cb06d39c3b230571324a83323",
+  "config_sha256": "2fb7a6e957e9724cf532a8aa9a8acfb59fe5865c6cbc407dbbdeedc2382957a9",
+  "checks_passed": true,
+  "current_tail_coverage": {
+    "SYS_A": {
+      "generation": 0,
+      "harmbench_top1": 0
+    },
+    "SYS_B": {
+      "generation": 0,
+      "harmbench_top1": 0
+    },
+    "old_s0": {
+      "generation": 0,
+      "harmbench_top1": 0
+    },
+    "old_s7": {
+      "generation": 0,
+      "harmbench_top1": 0
+    }
+  }
+}
