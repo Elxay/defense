@@ -1,0 +1,66 @@
+{
+  "utc": "2026-11-08T10:33:51.447520+00:00",
+  "pair": {
+    "name": "node01 PAIR worker",
+    "pid": 2295103,
+    "gpu": "1,2",
+    "progress": "257/500",
+    "seconds_per_row": 377.6881378248836,
+    "heartbeat_age_s": 28.5,
+    "alert": null,
+    "phase": "running"
+  },
+  "monitor": {
+    "utc": "2026-11-08T10:33:40.833835+00:00",
+    "pid": 2855787,
+    "phase": "monitoring",
+    "attempts": 1,
+    "controller_pid": 242847,
+    "controller_alive": true,
+    "heartbeat_age_s": 9.372556
+  },
+  "wjb": [
+    {
+      "pid": 337921,
+      "utc": "2026-11-08T10:33:46.213792+00:00",
+      "device": "cuda:2",
+      "n": 210,
+      "total": 1000,
+      "seconds_per_row": 13.671455444781376,
+      "alive": true,
+      "heartbeat_age_s": 4.053795
+    },
+    {
+      "pid": 337922,
+      "utc": "2026-11-08T10:33:37.989511+00:00",
+      "device": "cuda:3",
+      "n": 185,
+      "total": 1000,
+      "seconds_per_row": 15.474496424809804,
+      "alive": true,
+      "heartbeat_age_s": 12.370755
+    }
+  ],
+  "wjb_stage": {
+    "utc": "2026-11-08T09:45:51.779255+00:00",
+    "pid": 337850,
+    "supervisor_pid": 3070416,
+    "stage": "harmful_generation",
+    "detail": "rand3",
+    "complete": false
+  },
+  "wildguard": {
+    "condition": "rand0",
+    "live": {
+      "utc": "2026-11-08T10:33:49.966258+00:00",
+      "pid": 2318019,
+      "n": 870,
+      "total": 2000,
+      "seconds_per_scored_row": 1.090764911799028,
+      "host": "node01",
+      "gpu": 0
+    },
+    "scored_files": 871
+  },
+  "wildguard_unit_effects_read": false
+}
