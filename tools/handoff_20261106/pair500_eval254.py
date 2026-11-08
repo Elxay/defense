@@ -298,6 +298,8 @@ def main():
     elif a.stage == "guard":
         guard(config, rows)
     else:
+        from pair500_read_gate import status
+        assert status()["both_judges_all_nine_ready"], "Both judges must finish all nine units before baseline or effect reads"
         report(config, rows, a.stage == "baseline-report")
 
 

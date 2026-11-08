@@ -30,13 +30,15 @@ evaluate() {
 }
 generate alpha0
 evaluate --condition alpha0
-DEVICE=cpu "$py" "$worker" baseline-report
+DEVICE=cpu "$py" tools/handoff_20261106/pair500_read_gate.py --prepare-baseline
 conditions=()
-for condition in old_s3 old_s4 old_s5 old_s6 old_s7 old_s0 rand0 rand1 rand2 rand3 SYS_A SYS_B; do
+for condition in old_s3 rand0 old_s4 rand1 old_s5 rand2 old_s6 rand3 old_s7 old_s0 SYS_A SYS_B; do
   generate "$condition"
   conditions+=(--condition "$condition")
 done
 evaluate "${conditions[@]}"
 until wait_gpu cuda:2; do sleep 5; done
 DEVICE=cuda:2 launch_job env CUDA_VISIBLE_DEVICES=2 DEVICE=cuda:2 "$py" -u "$worker" guard
-DEVICE=cpu "$py" "$worker" report
+# Conditional summaries require all nine units under BOTH judges. The previous
+# automatic HB-only full report is intentionally not invoked here.
+DEVICE=cpu "$py" tools/handoff_20261106/pair500_read_gate.py --status

@@ -102,8 +102,8 @@
   "canonical_backend": "hf_innet",
   "generated_nonzero_at_freeze": 0,
   "source_sha256": {
-    "tools/handoff_20261106/pair500_eval254.py": "4877d7c077facf536025eef84ff71f106b1e49d08e76f6dc16ce1ca39f9115ef",
-    "tools/handoff_20261106/pair500_eval254_queue.sh": "3a1c287df6691d29bd35e8f3e1a62040e7a1ef65268c7368972172646d7f2861",
+    "tools/handoff_20261106/pair500_eval254.py": "4984ac507cb60c0d776afc04ac0f1077f4adc612a5ccb7e75aaa4e421f193684",
+    "tools/handoff_20261106/pair500_eval254_queue.sh": "d956c88a683434cd47bfbe99a125938783194914e0add3fc2c971f970726ecee",
     "tools/handoff_20261106/pair500_report.py": "03595e18f226be4afcc23adcf48322c3ba2f09c069e7dd7da6bd2736e6830099",
     "tools/handoff_20261106/pair500_score.py": "013aa2527ff477b83f2866bb284ee745954b068bfcf3a9c20172817520da1da3",
     "src/gen/common.py": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
@@ -121,6 +121,32 @@
     "configs/stage0_data/wjb300.json": "971d8b3d9185a51a982b83b449886a8a286f7fd9cb8bda0796a38de4654d164a",
     "results/audit/pair500/rows.private.json": "ca4ad4d0de93bff5719d60404fd86db9b3d532ae0114cba5a2fb153b791e6f99",
     "results/audit/pair500/copyright_hash_manifest.json": "8e014550cd2a4b91c737ea4d26f7968fd6a4deb39d44e61ba46cad291f146394",
-    "results/audit/pair500/config.json": "9e46b2e78bb191363b1dadbe458815871a00f8e9f91cea0202687ca70a83fca1"
-  }
+    "results/audit/pair500/config.json": "9e46b2e78bb191363b1dadbe458815871a00f8e9f91cea0202687ca70a83fca1",
+    "tools/handoff_20261106/pair500_read_gate.py": "31363aedb29697a1fddd8291b04587ae2960c519fc927ebaf3c07a21d5ba2284",
+    "tools/handoff_20261106/pair500_priority_deadline.py": "a6921f6a026eb4ad9a7509d329ca86cbe1c66af82ff60ee38cb3824796d5a16b",
+    "tools/handoff_20261106/pair500_wildguard_queue.py": "4fdae41c1b95ddcab298498befeee7f73663ee1b63dd64f7183f62a31ff058c4",
+    "tools/handoff_20261106/pair500_wildguard_run.py": "e5b3e918c79fca57ac861de16b48c9af29e68cf7ba7378d43e42950e34abdd1d",
+    "tools/handoff_20261106/wjb_eval255_stage.py": "5630f3f73efd69ba9d2de8af4e80ea32e7f58501b176b48134924698ed610e28",
+    "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c"
+  },
+  "evaluation_revision": 2,
+  "evaluation_addendum": "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md",
+  "evaluation_addendum_sha256": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
+  "evaluation_amended_utc": "2026-11-08T12:52:59.970204+00:00",
+  "condition_order": [
+    "alpha0",
+    "old_s3",
+    "rand0",
+    "old_s4",
+    "rand1",
+    "old_s5",
+    "rand2",
+    "old_s6",
+    "rand3",
+    "old_s7",
+    "old_s0",
+    "SYS_A",
+    "SYS_B"
+  ],
+  "both_judges_required_before_effect_read": true
 }
