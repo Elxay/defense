@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-08T17:11:04.808764+00:00",
+  "freeze_commit": "7826c13aadc768e02487e3e43eca3fa363493f81",
+  "launch_record_sha256": "7c9229e15cbba8b0998cf443776d7e5bf12767efed372257f618861d7adb9b1c",
+  "node_and_innet_code_manifest_verified": true,
+  "reference_assets_check_sha256": "b52562cb161d91228d143a54b92bc07b28d3624f475d3c48728d614b8144efab",
+  "status_sha256": "338e468eceae33d796e69d0826d4dbd1802b3ebb17c61a625d3c889ddb1c8b5c",
+  "controller_waiting_s7": true,
+  "morning_capture_pid": 784257,
+  "morning_capture_due_utc": "2026-11-08T23:00:00+00:00",
+  "effect_numbers_read": false
+}

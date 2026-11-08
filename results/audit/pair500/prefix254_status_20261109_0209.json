@@ -1,0 +1,193 @@
+{
+  "utc": "2026-11-08T17:08:42.401868+00:00",
+  "pair": {
+    "pid": 2295103,
+    "utc": "2026-11-08T17:08:25.450655+00:00",
+    "gpus": [
+      "1",
+      "2"
+    ],
+    "phase": "saved",
+    "alive": true,
+    "completed_rows": 315,
+    "mean_seconds_per_row": 383.3960366628968,
+    "recent10_seconds": [
+      449.02995112608187,
+      529.6858525578864,
+      478.81037757289596,
+      444.034127865918,
+      187.75098640401848,
+      413.07860680599697,
+      466.34320447500795,
+      223.99617177201435,
+      163.15745122288354,
+      470.78882022900507
+    ],
+    "heartbeat_age_s": 16.77663
+  },
+  "node01_active_classifiers": [
+    {
+      "group": "wildguard_public",
+      "file": "old_s5_live.json",
+      "utc": "2026-11-08T17:08:36.344318+00:00",
+      "pid": 2452591,
+      "n": 50,
+      "total": 1979,
+      "seconds_per_scored_row": 1.0236598121374845,
+      "host": "node01",
+      "gpu": 0,
+      "heartbeat_age_s": 5.882967
+    }
+  ],
+  "gpu_memory": [
+    "0, 15069",
+    "1, 22843",
+    "2, 17247"
+  ],
+  "innet_active_workers": [
+    {
+      "pid": 848720,
+      "utc": "2026-11-08T17:08:28.087696+00:00",
+      "device": "cuda:2",
+      "n": 213,
+      "total": 1000,
+      "seconds_per_row": 8.173421817422875,
+      "file": "live_harmful_old_s7_1.json",
+      "heartbeat_age_s": 14.979995
+    }
+  ],
+  "wjb_generation_coverage": {
+    "rand3": 2000,
+    "old_s7": 1213,
+    "old_s0": 0,
+    "SYS_A": 0,
+    "SYS_B": 0
+  },
+  "judge_coverage": {
+    "old_s3": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand0": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s4": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand1": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s5": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand2": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s6": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand3": {
+      "hb_top1_files": 0,
+      "wg_files": 2000
+    },
+    "old_s7": {
+      "hb_top1_files": 0,
+      "wg_files": 0
+    }
+  },
+  "harmful_wg_queue": {
+    "utc": "2026-11-08T17:08:38.621505+00:00",
+    "pid": 750029,
+    "phase": "waiting_complete_target_outputs",
+    "condition": "old_s7"
+  },
+  "public_wg_queue": {
+    "utc": "2026-11-08T17:05:59.847204+00:00",
+    "pid": 750027,
+    "phase": "remote_gpu0_job_dispatched",
+    "condition": "old_s5"
+  },
+  "morning_capture": {
+    "utc": "2026-11-08T17:08:41.362375+00:00",
+    "pid": 784257,
+    "phase": "waiting_0800_JST",
+    "due_utc": "2026-11-08T23:00:00+00:00"
+  },
+  "external_gpu3_last_observation": {
+    "utc": "2026-11-08T16:52:50.491612+00:00",
+    "pid": 592686,
+    "environment_read": false,
+    "action": "observe_only",
+    "same_process_alive": true,
+    "pid_reused": false,
+    "elapsed_s": 12932,
+    "ps_utc": "kemove   Sun Nov  8 13:17:17 2026 python",
+    "script_names": [
+      "train_KPConv_Urb3DCDV2.py"
+    ],
+    "gpu3_total_memory_mib": 7513
+  },
+  "innet_gpu_memory": [
+    "2, 16165",
+    "3, 7513"
+  ],
+  "imports_analysis_code": false,
+  "reads_outcome_labels": false,
+  "prefix_generation": {
+    "utc": "2026-11-08T17:08:42.802202+00:00",
+    "pid": 885736,
+    "phase": "waiting_s7_generation_complete"
+  },
+  "prefix_generation_coverage": {
+    "alpha0": 0,
+    "old_s3": 0,
+    "rand0": 0,
+    "old_s4": 0,
+    "rand1": 0,
+    "old_s5": 0,
+    "rand2": 0,
+    "old_s6": 0,
+    "rand3": 0,
+    "old_s7": 0,
+    "old_s0": 0,
+    "SYS_A": 0,
+    "SYS_B": 0
+  },
+  "date_u": "2026-11-08T17:08:43Z",
+  "all_innet_gpus": [
+    "0, 17104, 24564, 99",
+    "1, 11441, 24564, 68",
+    "2, 16165, 24564, 69",
+    "3, 7513, 24564, 71"
+  ],
+  "innet_compute_pids": [
+    "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0, 367114, 8630 MiB, /home/hzx/miniconda3/envs/siamkpconv/bin/python",
+    "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0, 367112, 8444 MiB, /home/hzx/miniconda3/envs/siamkpconv/bin/python",
+    "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 27351, 11418 MiB, /home/kemove/anaconda3/envs/mta/bin/python",
+    "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 848720, 16142 MiB, /home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+    "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 592686, 7490 MiB, python"
+  ],
+  "node01_compute_pids": [
+    "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 2452591, 14402 MiB, /data/ray/env/bin/python",
+    "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 2295103, 22806 MiB, /data/ray/env/bin/python",
+    "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 2295103, 17210 MiB, /data/ray/env/bin/python"
+  ],
+  "public_wg_completed_conditions": [
+    "alpha0",
+    "old_s3",
+    "old_s4"
+  ],
+  "own_cpu_processes": [
+    " 784245    01:20:35 python",
+    " 784257    01:20:35 python",
+    " 885701       00:31 bash",
+    " 885713       00:31 bash",
+    " 885736       00:31 python"
+  ]
+}

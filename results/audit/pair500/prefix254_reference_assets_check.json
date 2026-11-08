@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-08T17:10:13.937226+00:00",
+  "node_required_reference_files": 6,
+  "all_equal": true,
+  "files": {
+    "results/hfjudge/JUDGE_HF_wjb_a0_innet_round2": "6968176203df23e74d0681a63ce12dd9187e8c81a13f4c2092f296a4eb675dc2",
+    "results/audit/WJB_A0_merged.json": "0cf759a3fb1ac023463e8125f244c68fd7e403d13ca8a422292dfa736b6d9e5d",
+    "configs/stage0_data/wjb300.json": "971d8b3d9185a51a982b83b449886a8a286f7fd9cb8bda0796a38de4654d164a",
+    "results/audit/pair500/copyright_hash_manifest.json": "8e014550cd2a4b91c737ea4d26f7968fd6a4deb39d44e61ba46cad291f146394",
+    "results/audit/pair500/rows.private.json": "ca4ad4d0de93bff5719d60404fd86db9b3d532ae0114cba5a2fb153b791e6f99",
+    "configs/stage0_data/val70_ids.json": "b8f62434eb4b883ca4a22a48118aef2262f91c45e1a559fdd798a46a66651e21"
+  },
+  "guard_reference_scope": "Guard scoring and its old reference artifacts stay on innet only. Existing node copies of two Guard reference files differ and are not used or overwritten.",
+  "reads": "byte hashes only; no labels aggregated"
+}

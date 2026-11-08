@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-08T17:08:12.329115+00:00",
+  "freeze_commit": "7826c13aadc768e02487e3e43eca3fa363493f81",
+  "doc_sha256": "96822d6413a42cf8256a40a0d10d3f5724ff01cbb19388dfdd59616e6fb0a1bf",
+  "launch_shell_pids": {
+    "joint_hb": 885701,
+    "pair_wg": 885713,
+    "prefix_controller": 885716
+  },
+  "replaced_own_waiting_cpu_processes": [
+    {
+      "pid": 750019,
+      "command_sha256": "ce0090bba79ce4f02249c311134e7e19a6a7cf9faf9c5d7f7c834c09021a18f8",
+      "utc": "2026-11-08T17:08:12.106503+00:00"
+    },
+    {
+      "pid": 608250,
+      "command_sha256": "99f97c1e4d0fdc4bd9d04a0d3e181a04f904033cd0224b856b854d6de49f0904",
+      "utc": "2026-11-08T17:08:12.185766+00:00"
+    }
+  ],
+  "search_and_s7_workers_restarted": false,
+  "external_processes_touched": false
+}
