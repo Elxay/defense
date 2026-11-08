@@ -16,7 +16,10 @@ OUT=ROOT/'results/audit/pair500/wildguard'
 
 
 def sha(p):
-    with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
+    result=hashlib.sha256()
+    with p.open('rb') as f:
+        for chunk in iter(lambda:f.read(8*1024*1024),b''):result.update(chunk)
+    return result.hexdigest()
 
 
 def main():
@@ -46,7 +49,7 @@ def main():
         labels={key:re.search(r'^'+re.escape(key)+r':\s*(yes|no)\s*$',continuation,re.M|re.I) for key in ['Harmful request','Response refusal','Harmful response']}
         row={'case':i,'labels':{k:v.group(1).lower() if v else None for k,v in labels.items()},'output':continuation,'format_valid':all(labels.values()),'input_tokens':inputs.input_ids.shape[1]}
         output.append(row)
-    report={'model_revision':manifest['revision'],'model_card_sha256':sha(MODEL/'README.md'),'template_sha256':hashlib.sha256(template.encode()).hexdigest(),'host':socket.gethostname(),'device':os.environ.get('DEVICE'),'cases':output,'passed_format':all(x['format_valid'] for x in output)}
+    report={'model_revision':manifest['revision'],'model_card_sha256':sha(MODEL/'README.md'),'runtime_source_sha256':sha(Path(__file__)),'template_sha256':hashlib.sha256(template.encode()).hexdigest(),'host':socket.gethostname(),'device':os.environ.get('DEVICE'),'cases':output,'passed_format':all(x['format_valid'] for x in output)}
     p=OUT/'format5.json';p.write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report),flush=True)
     assert report['passed_format'],'Invalid format: stop before dataset scoring'
