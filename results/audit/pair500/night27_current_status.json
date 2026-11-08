@@ -1,0 +1,135 @@
+{
+  "utc": "2026-11-08T15:22:54.364553+00:00",
+  "pair": {
+    "name": "node01 PAIR worker",
+    "pid": 2295103,
+    "gpu": "1,2",
+    "progress": "299/500",
+    "seconds_per_row": 382.13553937621583,
+    "heartbeat_age_s": 17.7,
+    "alert": null,
+    "phase": "running"
+  },
+  "active_wjb_workers": [
+    {
+      "pid": 690461,
+      "utc": "2026-11-08T15:22:33.838072+00:00",
+      "device": "cuda:2",
+      "n": 397,
+      "total": 1000,
+      "seconds_per_row": 7.614151299566322,
+      "alive": true,
+      "heartbeat_age_s": 19.9248
+    }
+  ],
+  "s7_generation_files": 397,
+  "peer_public_metadata": {
+    "public_alpha0_files": 61,
+    "first_saved_utc": "2026-11-08T15:21:52.005914+00:00",
+    "public_alpha0_live": {
+      "utc": "2026-11-08T15:22:53.030670+00:00",
+      "pid": 2414873,
+      "n": 60,
+      "total": 1979,
+      "seconds_per_scored_row": 1.0495437045659248,
+      "host": "node01",
+      "gpu": 0
+    },
+    "gpu0_priority_requests": []
+  },
+  "harmful_wg_queue": {
+    "utc": "2026-11-08T15:22:34.217335+00:00",
+    "pid": 750029,
+    "phase": "waiting_complete_target_outputs",
+    "condition": "old_s7"
+  },
+  "public_wg_queue": {
+    "utc": "2026-11-08T15:20:05.443137+00:00",
+    "pid": 750027,
+    "phase": "remote_gpu0_job_dispatched",
+    "condition": "alpha0"
+  },
+  "morning_capture": {
+    "utc": "2026-11-08T15:22:33.487085+00:00",
+    "pid": 750035,
+    "phase": "waiting_0800_JST",
+    "due_utc": "2026-11-08T23:00:00+00:00"
+  },
+  "night_launches": {
+    "utc": "2026-11-08T15:20:03.044196+00:00",
+    "launch_shell_pids": {
+      "joint_hb": 749974,
+      "harmful_wg": 749987,
+      "public_wg": 749988,
+      "morning_status": 749989
+    },
+    "s7_generator_restarted": false
+  },
+  "joint_read_gate": {
+    "utc": "2026-11-08T15:22:54.528785+00:00",
+    "all_nine_both_judges_ready": false,
+    "units": {
+      "old_s3": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "rand0": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "old_s4": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "rand1": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "old_s5": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "rand2": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "old_s6": {
+        "hb_top1": 2000,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "rand3": {
+        "hb_top1": 0,
+        "wg": 2000,
+        "wg_done_manifest": true
+      },
+      "old_s7": {
+        "hb_top1": 0,
+        "wg": 0,
+        "wg_done_manifest": false
+      }
+    },
+    "labels_loaded": false
+  },
+  "latest_external_gpu3_observation": {
+    "utc": "2026-11-08T15:22:47.830959+00:00",
+    "pid": 592686,
+    "environment_read": false,
+    "action": "observe_only",
+    "same_process_alive": true,
+    "pid_reused": false,
+    "elapsed_s": 7530,
+    "ps_utc": "kemove   Sun Nov  8 13:17:17 2026 python",
+    "script_names": [
+      "train_KPConv_Urb3DCDV2.py"
+    ],
+    "gpu3_total_memory_mib": 7189
+  },
+  "conditional_effects_read": false
+}
