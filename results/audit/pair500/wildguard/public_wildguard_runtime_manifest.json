@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-08T11:16:24.892520+00:00",
+  "order": [
+    "alpha0",
+    "old_s3",
+    "old_s4",
+    "old_s5",
+    "old_s6",
+    "old_s7",
+    "rand0",
+    "rand1",
+    "rand2",
+    "rand3"
+  ],
+  "per_condition_n": 1979,
+  "benign_per_condition": 1779,
+  "unsafe_control_per_condition": 200,
+  "queue_after_all_wjb_wildguard_conditions": true,
+  "rule": "v2 remains primary; WG sensitivity",
+  "files": {
+    "tools/handoff_20261106/wildguard_public_run.py": "39919e9b01184be23de32f67ef9c14e7f5518e72e22185c30b73059f59f19c4d",
+    "tools/handoff_20261106/wildguard_public_queue.py": "59b3d9efba8ab4e328f1ec11f8e0920ced397ecc90464debea33442dfff98f89"
+  }
+}

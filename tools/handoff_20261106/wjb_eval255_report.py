@@ -143,8 +143,8 @@ def proxy_report():
 
 if __name__ == "__main__":
     write(EVAL / "report.json", {
-        "wildguard_available": False, "human_mapping_review_n": 0,
-        "wildjailbreak_judge": "exploratory mapped-reference HarmBench ASR",
+        "wildguard_available": (ROOT / "models/WildGuard/DOWNLOAD_SHA256.json").exists(), "human_mapping_review_n": 0,
+        "wildjailbreak_judge": "wildguard_node01 primary when scored; mapped-reference HarmBench supplementary",
         "wildjailbreak_harmful": harmful_report(), "mapped_learned_random_prefix_pairs": paired_prefix_report(), "public_v2": public_report(), "public_alpha0_guard3_output_filter": public_guard_report(),
         "wildjailbreak_alpha0_non_asr_proxies": proxy_report(),
     })

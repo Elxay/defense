@@ -5,7 +5,12 @@
     {
       "file": "docs/255_WILDGUARD_BASELINE_SECURITY_AND_RECOVERY.md",
       "line": 15,
-      "superseded_owner_wording": true
+      "owner_description_superseded_by_canonical_record": true
+    },
+    {
+      "file": "docs/255_WILDGUARD_VERIFIED_FORMAT5.md",
+      "line": 5,
+      "owner_description_superseded_by_canonical_record": true
     }
   ],
   "manuscript_owner_wording_matches": [],
