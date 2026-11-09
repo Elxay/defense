@@ -1,0 +1,56 @@
+{
+  "recorded_utc": "2026-11-09T14:34:43.054372+00:00",
+  "read_plan_steps": 8,
+  "step_count_source": "docs/254_ADDENDUM10_FINAL_READ_ORDER_AND_CACHE_ASSERTIONS.md",
+  "user_corrected_prior_nine_step_count": true,
+  "all_eight_steps_complete": true,
+  "window_markers": {
+    "HB_classifier": {
+      "utc": "2026-11-09T12:02:50.846128+00:00",
+      "sha256": "30582a07cf964aee3ae261bf131567fde941f4bd0ec0043ef2a04cb4511c8540",
+      "source": "results/audit/pair500/canonical254/classifier_complete_innet.json"
+    },
+    "MinHash": {
+      "utc": "2026-11-09T12:05:01.378555+00:00",
+      "sha256": "1d47dc953e0d4ad7a2511cfd662e9ad29bb2ebdbe8fb8551666e91fab667bfc7",
+      "source": "results/audit/pair500/canonical254/hash_complete_innet.json"
+    },
+    "WildGuard_all13": {
+      "utc": "2026-11-09T12:23:32.611501+00:00",
+      "sha256": "f326db98ffb3f91e1e3b2be549e25cf7de7dd8b953e62c979dd81c26248144e3",
+      "source": "results/audit/pair500/wildguard_pair254/queue_live.json"
+    }
+  },
+  "score_file_coverage_metadata_only": {
+    "HB": {
+      "n_score_files": 6500,
+      "latest_score_relative_path": "canonical254/scores/SYS_B/hb_passage_mindset_success.json",
+      "latest_score_file_mtime_utc": "2026-11-09T12:05:01.373820+00:00"
+    },
+    "WG": {
+      "n_score_files": 6500,
+      "latest_score_relative_path": "wildguard_pair254/SYS_B_scores/hb_ivermectin_improved_outcomes_edit.json",
+      "latest_score_file_mtime_utc": "2026-11-09T12:23:29.291918+00:00"
+    }
+  },
+  "step1_status_receipt_utc": "2026-11-09T13:32:27.404615+00:00",
+  "step2_alpha0_receipt_utc": "2026-11-09T13:33:02.846427+00:00",
+  "first_alpha_nonzero_numeric_access_time_bound": {
+    "after_step3_receipt_utc": "2026-11-09T13:33:20.785542+00:00",
+    "no_later_than_step4_receipt_utc": "2026-11-09T13:35:18.510728+00:00"
+  },
+  "entrypoint_start_not_separately_timestamped": true,
+  "pre_read_statement": "Within this assistant session and the registered audited project paths, no formal PAIR-500 alpha!=0 outcome labels or effects were selected for display or aggregation before step4. Scoring workers wrote signed row caches; admission checked file coverage and signatures only. This statement does not certify unobserved third-party shared-account sessions. Parsing a cache to select its signature is distinguished from inspecting its outcome fields.",
+  "no_global_nobody_ever_read_claim": true,
+  "read_receipt_sha256": {
+    "1": "0f060375fd2330d2fb52d20fee4c12c90a430df6d3fe510b6fc4e8f3c1cd3487",
+    "2": "96611fc19442324795d9ee5e0cbafec40897168dd970f80617db922304ee32c8",
+    "3": "9f5dfcfeec860a495ecfcf61ab8968f0d9cae9f1ac594d7fa98f70e66ed514b2",
+    "4": "a27d3a15a4e6bae2e6997c0b252175805d17fb37bef6112d9b34a40e87bf34e2",
+    "5": "cbc77fd5fea10c360db7ad28c9500e1bfad259bb9e6f4a96f9f1cf703c393542",
+    "6": "4aad362a159ca2ca8c9d81a5430a6c8ae3eb70114b05c3afb1b414771a001204",
+    "7": "a56d5590c2fbb8094cc0516d69099deb7b6f5319fa7f8d65774a0f312f59f1eb",
+    "8": "8c41720874c594a201901aed08118661578ae4bea257f290329c0300c29cb4dd"
+  },
+  "past_receipts_not_modified": true
+}

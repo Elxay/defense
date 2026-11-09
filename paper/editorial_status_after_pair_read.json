@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-09T14:57:57Z",
+  "status": "numeric table awaiting user verification; previously inserted narrative abstract is an unverified draft",
+  "abstract_finalized": false,
+  "manuscript_table_sha256": "0c254dcc9bbdf116938a85dcf7c1a3239ff1ccc1c263dbd499ee174dfc42f1b1",
+  "no_paper_text_or_numeric_cell_changed_in_this_reconciliation": true,
+  "main_tex_sha256": "2fca62ae64a1a72b8664ea76689803bf02a0e98beb0821b488e58eca5c785eb4"
+}

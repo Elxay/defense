@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-09T14:29:44.067392+00:00",
+  "launcher_pid": 2805064,
+  "physical_gpu": 2,
+  "registered_worker_uses_launch_job": true,
+  "shared_lock": "logs/idle_gpu2.lock",
+  "memory_gate_MiB": 2000,
+  "no_other_process_signalled": true
+}

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-09T14:57:57Z",
+  "files": {
+    "docs/290_PAIR_READ_TIMING_AND_NUMERIC_RECONCILIATION.md": "73a909f9355190bd5b0f35bfef7ca86de87b20868fd7badad82bd1cbf8aaa336",
+    "docs/287_VICUNA_NORM_LOAD_BLOCK.md": "8d35c25ab5b203e0ca7277693ba461d562c2baba61b30811185a87b6e4909c5b",
+    "docs/287_U1_LLAMA_SEED3_RESULT.md": "171f1394d1f81f33466d5c57a41bc96558871ecb58e5332a3b4bc4fa2c580fed",
+    "docs/PREREG_LOG.txt": "ca7936e8374d389e9534aa2fc82408595d1a43a477063c91841b1b61ad440feb",
+    "docs/OPS_LOG.txt": "879057f517dc0355b0472b8314466c610d11140d7df0cc17888b73b1f8d79d69",
+    "paper/editorial_status_after_pair_read.json": "54347773da7bb729bc6278fd2f29c152676492ed6c5ed19203a3b1d740f82bc9",
+    "results/audit/crossmodel287/ops_snapshot_after_U1_llama.json": "41da8f8311e7d4a806aa65ae17a827b46ace919cecf85e0cd519d2c950929af2",
+    "results/audit/pair500/read_order10/reconciliation/manuscript_table_verbatim.tex": "0c254dcc9bbdf116938a85dcf7c1a3239ff1ccc1c263dbd499ee174dfc42f1b1",
+    "results/audit/pair500/read_order10/reconciliation/functional_layers_both_estimands.csv": "54e4796050ddb6815bef0b7af8caa557fe625f0c5ca1f97e661b96e9a00735ab",
+    "results/audit/pair500/read_order10/reconciliation/timing_and_read_scope.json": "977318936fb20e12376bc6b4ffccb6c094ff16670e48814ed0f9ba9ab6e3f2f0",
+    "results/audit/crossmodel287/U1_llama_seed3_check/launch.json": "ba5c1d5fec797d46fcd9ed591f86fe4b382c515f088ff2d7b9f8ae0664df7536",
+    "results/audit/crossmodel287/U1_llama_seed3_check/complete.json": "7cf25d57c2d921aab6b5979d8068e21312a89badc6c9b98bb636fbbd42c82c63",
+    "results/audit/crossmodel287/vicuna_node01_transfer/launch.json": "e450304d7d02cbf698f98e837b0f676b1534fe48636b2a86e8445885da0aa114",
+    "tools/handoff_20261106/pair254_reconcile_timing_and_tables.py": "3e7c9fcf98d9802ce8a097b57d48bc9ab9103c8b595d0af0064c61e6de844aee",
+    "tools/handoff_20261106/publish_pair_timing_llama_U1_result.py": "f6ff8586b3e0571a7f3c61feb1566faa113cd93c25678dde9d469c8ef0896b4d",
+    "tools/handoff_20261106/crossmodel287_vicuna_norm_node01.py": "268dda7c722739b15a473d496d46a59674b2ff1accc111d28421e59d535c89ad",
+    "tools/handoff_20261106/crossmodel287_queue_vicuna_norm.py": "28d2fcbc4e512e6bc8913f2b2a4e8313f58b67eaa3aae6e9655097475d8c71f9",
+    "results/audit/pair500/canonical254/classifier_complete_innet.json": "30582a07cf964aee3ae261bf131567fde941f4bd0ec0043ef2a04cb4511c8540",
+    "results/audit/pair500/canonical254/hash_complete_innet.json": "1d47dc953e0d4ad7a2511cfd662e9ad29bb2ebdbe8fb8551666e91fab667bfc7",
+    "results/audit/pair500/wildguard_pair254/queue_live.json": "f326db98ffb3f91e1e3b2be549e25cf7de7dd8b953e62c979dd81c26248144e3",
+    "results/audit/crossmodel287/vicuna_norm_node01/controller_launch.json": "43ca41fff43a837ca61642b9c4a9bbc1738b5c467afceb8f6dc0f27f563d9663",
+    "results/audit/crossmodel287/vicuna_norm_node01/plan.json": "8e08e6e3f6385397f6930e35548efb479268024dd2e494704439fa9ba0d54a03",
+    "results/audit/crossmodel287/vicuna_norm_node01/execution.json": "ed5b517b5614016d18ce02d23ad0a2a3682ea18d3360f43a686ce8be113a937f",
+    "results/audit/crossmodel287/vicuna_norm_node01/load_failure.json": "dbf5f91deedf4814aa8f5e8d462040f24264eddcacee9244ee21286236aeabb2"
+  },
+  "no_raw_attack_prompt_reply_target_or_weight": true,
+  "original_eight_receipts_unchanged": true
+}

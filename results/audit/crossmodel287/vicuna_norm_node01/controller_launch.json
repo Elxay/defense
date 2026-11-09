@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-09T14:47:55.571082+00:00",
+  "CPU_launcher_pid": 2829970,
+  "stage": "norm_only_after_verified_asset_copy",
+  "physical_node01_cards": [
+    1,
+    2
+  ],
+  "native_bf16": true,
+  "training_started": false,
+  "no_external_process_signalled": true
+}

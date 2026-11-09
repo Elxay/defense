@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-09T14:40:12.148399+00:00",
+  "launcher_pid": 2820060,
+  "transport": "registered rsync CPU only; resumable --partial; no source deletion",
+  "source": "innet verified official Vicuna1.5 revision c8327bf999adbd2efe2e75f6509fa01436100dc2",
+  "destination": "node01:/home/dell/Def/models/crossmodel287/vicuna/c8327bf999adbd2efe2e75f6509fa01436100dc2",
+  "reason": "innet has one project-available24GB card; prepare node01 GPU1+2 bf16 norm route, no quantization",
+  "GPU_started": false,
+  "training_started": false,
+  "node_destination_disk_free_precheck_bytes": 58403999744,
+  "no_credentials_transferred": true
+}

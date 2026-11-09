@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-09T12:02:50.846128+00:00",
+  "conditions": [
+    "alpha0",
+    "old_s3",
+    "rand0",
+    "old_s4",
+    "rand1",
+    "old_s5",
+    "rand2",
+    "old_s6",
+    "rand3",
+    "old_s7",
+    "old_s0",
+    "SYS_A",
+    "SYS_B"
+  ],
+  "n": 500,
+  "backend": "hf_innet",
+  "no_effect_report": true
+}

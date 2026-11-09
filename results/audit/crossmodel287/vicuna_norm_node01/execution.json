@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-09T14:50:43.776974+00:00",
+  "plan_sha256": "8e08e6e3f6385397f6930e35548efb479268024dd2e494704439fa9ba0d54a03",
+  "worker_sha256": "268dda7c722739b15a473d496d46a59674b2ff1accc111d28421e59d535c89ad",
+  "model_files_verified": {
+    "pytorch_model-00001-of-00003.bin": "e9b54ba4bf8f87c6129f1e35c63d1ed248971d827ee5559f1a3bb48b39e43187",
+    "pytorch_model-00002-of-00003.bin": "ade40ae3180cbe5553278edb8e61ff4f2059f62be12b06f253b373838c199221",
+    "pytorch_model-00003-of-00003.bin": "b4bd8cf2ab7e7bf22aaaf9b35ec5d41602d83f5a97bb82e17662ffe0a20ab215",
+    "config.json": "ff01ad505c4699a6be3bfc9365dce9e4205d35cb3a2a1df10a79ceb52ab5d2ed",
+    "tokenizer_config.json": "1cbc84c8a5b41e0ec24e0da66677773569fb0ccfa753d5d184e343e2ec3815a0",
+    "tokenizer.model": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+    "special_tokens_map.json": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7",
+    "generation_config.json": "684451ef5b02bb2883d15bff0aef7be79726bdd936ea45e599248e073d5b4d2f"
+  },
+  "render_checks": 60,
+  "torch": "2.5.1+cu124",
+  "transformers": "4.52.4",
+  "cuda": "12.4",
+  "dtype": "bfloat16",
+  "host": "node01",
+  "physical_gpus": [
+    1,
+    2
+  ],
+  "device_uuids": [
+    "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+    "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0"
+  ],
+  "native_injection_block_output": 12,
+  "hidden_states_array_not_used": true,
+  "no_training_or_generation": true
+}

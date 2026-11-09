@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-11-09T14:57:13.923271+00:00",
+  "remote_attempt_finished_observed_utc": "2026-11-09T14:50:49.699088+00:00",
+  "returncode": 1,
+  "phase": "model_load_refused_before_any_norm_forward",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.52.4",
+  "execution_sha256": "ed5b517b5614016d18ce02d23ad0a2a3682ea18d3360f43a686ce8be113a937f",
+  "verified_model_weight_shards": 3,
+  "native_template_input_hash_checks": 60,
+  "norm_rows": 0,
+  "exception_class": "ValueError",
+  "error_summary": "Transformers refuses original .bin checkpoint loading with installed torch below2.6",
+  "safety_check_overridden": false,
+  "quantization_changed": false,
+  "runtime_packages_modified": false,
+  "new_model_training_started": false
+}

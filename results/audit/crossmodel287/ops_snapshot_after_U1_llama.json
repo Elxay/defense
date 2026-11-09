@@ -1,0 +1,87 @@
+{
+  "date_u": "2026-11-09T14:57:57Z",
+  "models": {
+    "qwen": {
+      "alpha0_counts": {
+        "legal400": 400,
+        "val70": 70
+      },
+      "training_started": false,
+      "norm_source_sha256": "9171217b06bbcfeacef5e1b227633fa2873f4ae8d6ebce659b87ba23033ed9a6",
+      "keep60_median": 35.94707107543945,
+      "rho": 32.352363967895506,
+      "injection_block": 8,
+      "refusal_samples_fixed": 60,
+      "review_labels_collected": false
+    },
+    "gemma": {
+      "alpha0_counts": {
+        "legal400": 0,
+        "val70": 0
+      },
+      "training_started": false,
+      "norm_source_sha256": "e04cecc949bf99ca201ba0a371605cf64f1aa5a2857a5a088f1af585093c8460",
+      "keep60_median": 141.80365753173828,
+      "rho": 127.62329177856445,
+      "injection_block": 12
+    },
+    "vicuna": {
+      "alpha0_counts": {
+        "legal400": 0,
+        "val70": 0
+      },
+      "training_started": false,
+      "keep60_median": null,
+      "rho": null,
+      "injection_block": 12,
+      "weights_innet": "official revision, complete verified",
+      "norm_stage": "not_complete",
+      "norm_failure": {
+        "recorded_utc": "2026-11-09T14:57:13.923271+00:00",
+        "remote_attempt_finished_observed_utc": "2026-11-09T14:50:49.699088+00:00",
+        "returncode": 1,
+        "phase": "model_load_refused_before_any_norm_forward",
+        "torch": "2.5.1+cu124",
+        "transformers": "4.52.4",
+        "execution_sha256": "ed5b517b5614016d18ce02d23ad0a2a3682ea18d3360f43a686ce8be113a937f",
+        "verified_model_weight_shards": 3,
+        "native_template_input_hash_checks": 60,
+        "norm_rows": 0,
+        "exception_class": "ValueError",
+        "error_summary": "Transformers refuses original .bin checkpoint loading with installed torch below2.6",
+        "safety_check_overridden": false,
+        "quantization_changed": false,
+        "runtime_packages_modified": false,
+        "new_model_training_started": false
+      }
+    }
+  },
+  "llama_seed3_complete_sha256": "7cf25d57c2d921aab6b5979d8068e21312a89badc6c9b98bb636fbbd42c82c63",
+  "GPU_inventory_innet": [
+    "0, 16 MiB, 0 %",
+    "1, 6793 MiB, 71 %",
+    "2, 16101 MiB, 69 %",
+    "3, 16083 MiB, 67 %"
+  ],
+  "GPU_compute_innet": [
+    "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 1727458, 6770 MiB",
+    "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 2839978, 16078 MiB",
+    "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 2840967, 16060 MiB"
+  ],
+  "GPU_inventory_node01": [
+    "0, 14864 MiB, 13 %",
+    "1, 29 MiB, 0 %",
+    "2, 29 MiB, 0 %"
+  ],
+  "GPU_compute_node01": [
+    "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 3114327, 14212 MiB"
+  ],
+  "known_external_innet_processes": {
+    "2763505": "other point-cloud project stage2 onGPU0",
+    "1727458": "external MTA onGPU1",
+    "2763506": "other point-cloud project stage3 onGPU3"
+  },
+  "external_processes_signalled": false,
+  "new_model_training_locks_retained": true,
+  "weights_or_raw_outputs_published": false
+}

@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-09T14:48:00.610748+00:00",
+  "model_relative_path": "models/crossmodel287/vicuna/c8327bf999adbd2efe2e75f6509fa01436100dc2",
+  "model_files_sha256": {
+    "pytorch_model-00001-of-00003.bin": "e9b54ba4bf8f87c6129f1e35c63d1ed248971d827ee5559f1a3bb48b39e43187",
+    "pytorch_model-00002-of-00003.bin": "ade40ae3180cbe5553278edb8e61ff4f2059f62be12b06f253b373838c199221",
+    "pytorch_model-00003-of-00003.bin": "b4bd8cf2ab7e7bf22aaaf9b35ec5d41602d83f5a97bb82e17662ffe0a20ab215",
+    "config.json": "ff01ad505c4699a6be3bfc9365dce9e4205d35cb3a2a1df10a79ceb52ab5d2ed",
+    "tokenizer_config.json": "1cbc84c8a5b41e0ec24e0da66677773569fb0ccfa753d5d184e343e2ec3815a0",
+    "tokenizer.model": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+    "special_tokens_map.json": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7",
+    "generation_config.json": "684451ef5b02bb2883d15bff0aef7be79726bdd936ea45e599248e073d5b4d2f"
+  },
+  "private_inputs_sha256": "bcdd92807549aef25581d7e459df8e20810299305be39b41745c39250e8af7d4",
+  "source_teacher_sha256": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+  "effective_U1_protocol_sha256": "1a91bd203261801912a6b7a276d28b5496904f629dc8d6929d2934aa1f8b8294",
+  "worker_sha256": "268dda7c722739b15a473d496d46a59674b2ff1accc111d28421e59d535c89ad",
+  "fastchat_template": {
+    "name": "vicuna_v1.1",
+    "system_message": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.",
+    "roles": [
+      "USER",
+      "ASSISTANT"
+    ],
+    "sep": " ",
+    "sep2": "</s>"
+  },
+  "physical_gpus": [
+    1,
+    2
+  ],
+  "norm_rule": "native model.layers[12] output at last prompt token; all60; float32 CPU L2 then median; rho=0.9M",
+  "allocation_deadline_utc": "2026-11-09T15:00:00+00:00",
+  "model_native_bf16_no_quantization_no_CPU_offload": true,
+  "registered_launch_job_shared_locks_unchanged_gate": true,
+  "node_backend_is_reported": true,
+  "norm_only_no_targets_or_alpha0_generation_or_training": true
+}

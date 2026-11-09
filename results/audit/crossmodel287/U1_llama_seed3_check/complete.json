@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-09T14:34:41.601552+00:00",
+  "training_started_utc": "2026-11-09T14:31:06.579741+00:00",
+  "seed": 3,
+  "steps": 40,
+  "plan_sha256": "b6a53c8a58072da274acff1f00b5cacb6ce3c2bdfaa8eb6d513d4955df1bf23f",
+  "worker_sha256": "78de95565c1c7f6fe4d3562b9fe16b1b7476c5a5c6a3d07864b4b878bdfe13f1",
+  "teacher_sha256": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+  "vector_sha256": "49e527abf3566815a48539c3fc42493adba4f0bdab9c72dde231fcbad80555fe",
+  "frozen_vector_sha256": "033c4189b40642d3b800e90f9e5c1ba0dad61aacaa6e3a80304974cfea5a3eee",
+  "cosine_float64": 0.9999307502009886,
+  "difference_l2": 0.061314328710283514,
+  "new_vector_norm": 5.209999898896215,
+  "reference_vector_norm": 5.210000054615275,
+  "elapsed_training_seconds": 215.04696683073416,
+  "suggested_0_999_closeness_cutoff_met": true,
+  "interpretation": "one fixed-cache retrain; closeness is not target-byte identity, statistical equivalence, or a variance decomposition",
+  "model_weights_updated": false,
+  "val70_or_test_outputs_generated": false
+}
