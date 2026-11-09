@@ -31,17 +31,6 @@ The five-seed mean wrapper gap on all 300 WildJailbreak benign pairs is 6.87 pp.
 Full-text review of 20 vanilla rule additions identifies nine condition-item outputs whose baseline was already a nonanswer, two substantive fictional-email responses falsely flagged by the rule, and nine content-response-to-refusal changes. Removing the four implicated pair IDs across all seeds changes the mean from 6.71 to 7.22 pp on 288 pairs; this is post-hoc sensitivity, not a revision of the frozen analysis.
 
 
-\subsection{Evaluation choices move the reported quantities}
-The same outputs and interventions can receive different measurements when reference behaviors, baseline membership, refusal definitions, output scope, or decoding paths change. We distinguish large judge-dependent differences from smaller shifts that are comparable to some of the contrasts being tested; the detailed audit is in Section~\ref{sec:pitfalls}.
-
-\input{tables/wildguard_alpha0}
-\input{tables/wjb_reference_three}
-\input{tables/wjb_official_mapping}
-The official 2,000-row evaluation baseline is retained in full, including rule-refused rows. Mapped-reference absolute rates are descriptive: the alternate behavior reference changes many harmfulness labels, and a low score under random behavior mismatch demonstrates that this classifier depends on the supplied behavior. The mismatch experiment does not validate the nearest-neighbor mapping. Confidence strata are reported separately. Learned-versus-random paired comparisons are reported under the completed cross-judge and confidence-stratum rule; alternate-reference scoring is a separate sensitivity analysis. This evaluation shares source behaviors with HarmBench and does not constitute an independent behavior collection.
-
-
-The magnitude of a paired judge difference, its uncertainty conditional on the vectors, and its sensitivity to the measurement path are separate reporting obligations. Similarity between retrained vectors does not imply identical decoded responses or stable item-level rankings.
-
 \subsection{Positioning zero-training baselines}
 
 \input{tables/zero_training}

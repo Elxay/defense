@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-09T10:09:12.922100+00:00",
+  "files": {
+    "docs/288_ARGUMENT_READINGS_AND_ARR_CHECK.md": "70bb8c5dd8561b38f283628fb627d90ef2dc1d2875a64458063ac238f649846d",
+    "docs/PREREG_LOG.txt": "20fafbb9e0cf268e5225afe857403112d31a07e441e54e8bbb5c8781010d8fcf",
+    "docs/OPS_LOG.txt": "05e407cf8ebdffe2d77f085dda23f36ebea5c03b9bd6c8a540b27383e87bd9fd",
+    "tools/handoff_20261106/revise_argument_and_readings287.py": "78234ab5ca9a4447a7220aa3b0ecda06666be4514cbb68ba41a99c313f810a4c",
+    "tools/handoff_20261106/finalize_manuscript287.py": "fd095b62281637d77226775906478a0a04b64bc698b5e0ac324052fa3ae66807",
+    "tools/handoff_20261106/crossmodel287_template_checks.py": "08a2638877fc989878a3551480990dc60c9896b39ca6fbc91c7aed66a7258b08",
+    "tools/handoff_20261106/crossmodel287_vicuna_http_download.py": "bbc2816bf516923175bca0e9927622828e77cb48cb750b7c571ba7fca7ed8044",
+    "results/audit/crossmodel287/argument_numeric_receipt.json": "39dd2242eaca8e8fac6993bbf7ca2b11616ae6a430ee5308d0cf9dc157994d53",
+    "results/audit/crossmodel287/manuscript_revision_receipt.json": "7167e3999811f60f49698da55cd6bd2ebd4841d11254814d182f5125d1c16c8b",
+    "paper/main.tex": "1325c5a106adb198e07bbc1cdf4f926002471822129ac535a448d1a60f6fb202",
+    "paper/data/measurement_checklist.csv": "2558bb91cc759410293b07fb77865fefcb834e2933e54baf1b59e23ca6cff952",
+    "paper/tables/measurement_checklist.tex": "cbe0f16afc7c1b9d057a63cbde2350ed5aeed242365fcfe52e66738b519fb410",
+    "paper/generated/argument_numbers.tex": "06d0c6704e56575be97022c14d4b4720a74732fa1ed31d328ad702e17b184e04",
+    "paper/sections/01_introduction.tex": "054a62afa7a8cd2e109168cebd3bf5c82a27fca5045ac37d4eb67069c2bd32ea",
+    "paper/sections/02_related_work.tex": "8394ee7bd41a4557ec2b14af16bf35d42f9716e7824d7f56efa73a112a656efe",
+    "paper/sections/04_results.tex": "91e992d69f4e9a5b90973f32b367651d56bdf195f0ae49a7bdc25910cb6bb1b9",
+    "paper/sections/05_traps.tex": "9499263830e6de7faf3ae7afa5dd30db6f03a4bc0fddc3ee0442687983760cdd",
+    "paper/sections/06_limitations.tex": "0132f11f25cac2fb36530318b2ea7c779cec96b5f9171da0beb19f6ed9fd40ce",
+    "paper/sections/07_ethics.tex": "01534ffe085f1fe173621a00eda070c16b5df5914f1bf8d6e164ed07d1557901",
+    "paper/sections/appendix_pitfalls.tex": "d2d9f1199be9afe2122b407039771fcdda5a65125cf43c0681058b838af69ee7",
+    "results/audit/crossmodel287/qwen_actual_AB_render.json": "8772385fe50ebac10bddeadc0e8b817a0b4e02b197c96f9229da5fb65217b1e7",
+    "results/audit/crossmodel287/gemma_actual_AB_render.json": "698915e3bb4b20304e587035a720ba4a9d53921e17b4a4ebf59bb4da665a99d3",
+    "results/audit/crossmodel287/qwen_preflight_published_snapshot.json": "e4f6356da0e8e07218e464838060edc2c2dff9dd3ba65355c574f93be09a7f04"
+  },
+  "PAIR_effects_read": false,
+  "raw_attack_or_output_added": false,
+  "PDF_rebuilt": false,
+  "publication_retry_utc": "2026-11-09T10:09:43.442637+00:00",
+  "publication_retry_reason": "Normalize newly generated CSV line endings before commit; no numeric edits"
+}

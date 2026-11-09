@@ -1,0 +1,258 @@
+{
+  "model": "qwen",
+  "norm_rows": {
+    "cp_adv_0031": {
+      "norm_l2_float32": 37.8186149597168,
+      "input_ids_sha256": "e2badef288513f35f8c4ffd2df59a8deffda4bd3f4463fb8b2813b42a4e29bf6"
+    },
+    "cp_adv_0116": {
+      "norm_l2_float32": 36.3023681640625,
+      "input_ids_sha256": "eee20aac7471185697e94fe8e7727b585e6f24949709896393a5c02e1fcf7ced"
+    },
+    "cp_adv_0151": {
+      "norm_l2_float32": 36.70978546142578,
+      "input_ids_sha256": "3f4d51d404bce8a9bfe4e077965a840946e7e9bcf66918bb2e8f6f1c760c3115"
+    },
+    "cp_adv_0178": {
+      "norm_l2_float32": 37.348636627197266,
+      "input_ids_sha256": "4822a88adab85aa8ea059bb8a7abfe202ca068da88955351049dba026489fadd"
+    },
+    "cp_adv_0102": {
+      "norm_l2_float32": 37.24696350097656,
+      "input_ids_sha256": "4ee2114ebcc1b56d79d42233ca595314cd789bea2bc05350758644cf4d0847d2"
+    },
+    "cp_adv_0219": {
+      "norm_l2_float32": 36.61021041870117,
+      "input_ids_sha256": "ff7d07566821140b747bb616467312e848d1d9e595cb45e343e5ec3508e573d8"
+    },
+    "plain_0": {
+      "norm_l2_float32": 36.548099517822266,
+      "input_ids_sha256": "81d6de6b3e20862bd9b9a9442a178b878b0c3b5de142ba5feaac3c77ccec5bda"
+    },
+    "plain_1": {
+      "norm_l2_float32": 36.961753845214844,
+      "input_ids_sha256": "a8a59e682009413f7db30a0136eb6b19bb81e84f60a736f18ee9fb40c8a30ce9"
+    },
+    "plain_2": {
+      "norm_l2_float32": 36.71819305419922,
+      "input_ids_sha256": "4c6df91dae5f08128b3a4bb0004a6bb1d5ad035295599acc42c5122bdbbe6ecd"
+    },
+    "plain_3": {
+      "norm_l2_float32": 36.58500289916992,
+      "input_ids_sha256": "57ac46324665e4d5aa225cdcb45e5b0ede4189b0b9497f044e5852783a6dc218"
+    },
+    "plain_4": {
+      "norm_l2_float32": 36.77045440673828,
+      "input_ids_sha256": "ae38a5512ab4bfb009e4912d3d730db394cfffb7776ee9e40141e382e9660414"
+    },
+    "plain_5": {
+      "norm_l2_float32": 35.18890380859375,
+      "input_ids_sha256": "8a79354be415c25c2b1685932fc9a7c39f88044dbfdf70f29ccb511d961e7177"
+    },
+    "plain_6": {
+      "norm_l2_float32": 35.52934646606445,
+      "input_ids_sha256": "a927e91671ed42d2157319c9b4feac3bbb9d2d782f9cb0636897f0c2bf825dc4"
+    },
+    "plain_7": {
+      "norm_l2_float32": 35.31846237182617,
+      "input_ids_sha256": "6f15a0daefa624bb5338dde56fcce6ed971c78864ec867c8a4acf04f86e6deac"
+    },
+    "plain_8": {
+      "norm_l2_float32": 35.17618179321289,
+      "input_ids_sha256": "0889e4aa7cc222cc7d19ca3bac26bff6c2a084130b1b7f651e3ec511b02321d8"
+    },
+    "plain_9": {
+      "norm_l2_float32": 35.8725700378418,
+      "input_ids_sha256": "51fd0887886654094b359c25403fa3929629c0e35a20f8fbbcb257f0d5470ec5"
+    },
+    "plain_10": {
+      "norm_l2_float32": 35.73625564575195,
+      "input_ids_sha256": "6a12155eaa16fdcd4ee26639d277bc406c4eac44e24366abb74a330817362141"
+    },
+    "plain_11": {
+      "norm_l2_float32": 36.16383361816406,
+      "input_ids_sha256": "afad3b57ce8cf437e1c3158d4fdb62c8f0a6750dd0081f08389d915f735adcb6"
+    },
+    "sens_0": {
+      "norm_l2_float32": 35.55992126464844,
+      "input_ids_sha256": "60a17cf35cf5f5dad4596393f0d9c2998c3bc671b5b3807c413db0e5570f3d57"
+    },
+    "sens_1": {
+      "norm_l2_float32": 35.62055969238281,
+      "input_ids_sha256": "9036fd639f9b66346796ebf2fc3b7276e480855abc0141b5c1de6b73bd319dd7"
+    },
+    "sens_2": {
+      "norm_l2_float32": 36.53119659423828,
+      "input_ids_sha256": "6ff76f163159b35b7b96ac1223f55d0da39d4ab4bb215e09ad1c525aea7bb723"
+    },
+    "sens_3": {
+      "norm_l2_float32": 36.28169631958008,
+      "input_ids_sha256": "189d43c771668dba10faa8d988b49d55482b4672322e212c06f8bc2537c04adc"
+    },
+    "sens_4": {
+      "norm_l2_float32": 36.904808044433594,
+      "input_ids_sha256": "e5994125985662975c03f13e754d51b3a4bcaeb129b3debfa722c2582dc01c14"
+    },
+    "sens_5": {
+      "norm_l2_float32": 36.19348907470703,
+      "input_ids_sha256": "7b39420aac9f0dd2b444ee4485a73e7858f1327381e86a1de3955e424db50c9e"
+    },
+    "sens_6": {
+      "norm_l2_float32": 35.44084548950195,
+      "input_ids_sha256": "6576720c1d9e3c27d1f89f6cbc8fe0cde35bc85d18fe5d3545f57dca2aeb2eee"
+    },
+    "sens_7": {
+      "norm_l2_float32": 35.75468444824219,
+      "input_ids_sha256": "a2254c5be057194b33c0e8f866d2be314b8ad76594a7ef7ea4fc7ede464b121e"
+    },
+    "long_0": {
+      "norm_l2_float32": 35.68571472167969,
+      "input_ids_sha256": "78d59b4ef92c279fc4708d7dcbf89e11e56d582fd76821e671d29d0ff6f6796e"
+    },
+    "long_1": {
+      "norm_l2_float32": 35.71257400512695,
+      "input_ids_sha256": "d61f033f277a9d54c093d14eed6487cdaee53fb4ec7516fc9f3845b70163a124"
+    },
+    "long_2": {
+      "norm_l2_float32": 35.92960739135742,
+      "input_ids_sha256": "64b0498fe453113f04eb1c17d597b4692c284a9cf0286943fa5aeaa743c69f86"
+    },
+    "long_3": {
+      "norm_l2_float32": 34.53453826904297,
+      "input_ids_sha256": "89f98d7bddbc7d2e7e231a414533ca4c0f8d763fe1e763b2354a99f815479f23"
+    },
+    "xsens_0": {
+      "norm_l2_float32": 35.440799713134766,
+      "input_ids_sha256": "283b0cb30821f4476fbc82d8be946fbaa8fd778664372c03b999f9d7f2e1483b"
+    },
+    "xsens_1": {
+      "norm_l2_float32": 36.062007904052734,
+      "input_ids_sha256": "022a1dc3a450976a4b827c659ae39dab45997f9a70b1e9e092a8902affb1c490"
+    },
+    "xsens_2": {
+      "norm_l2_float32": 34.950469970703125,
+      "input_ids_sha256": "c96df96e1137fec02780501db05848253c8e24ad5ce9d6838b56fb3c03c9215d"
+    },
+    "xsens_3": {
+      "norm_l2_float32": 36.104637145996094,
+      "input_ids_sha256": "75d6bc864c8d9607bb3fcd1a57412ecaf73a3cf0a4029b73f57bb8007874698f"
+    },
+    "xsens_4": {
+      "norm_l2_float32": 36.27306365966797,
+      "input_ids_sha256": "b38ceb329a7272d65d511e70879823ccd7052a3cfd3d4738941247d0cc180c5f"
+    },
+    "xsens_5": {
+      "norm_l2_float32": 36.500057220458984,
+      "input_ids_sha256": "b700aa4ae8243ee14af2931090c3305f9335f57850dd2b52dc75f35bc7e12598"
+    },
+    "xsens_6": {
+      "norm_l2_float32": 36.008460998535156,
+      "input_ids_sha256": "2cb19c5383f11c7599d16d77a7e477a30f8bf2230d104b896052cc005c87d46c"
+    },
+    "xsens_7": {
+      "norm_l2_float32": 35.773128509521484,
+      "input_ids_sha256": "174ef41717305c435c9a9e105a105447a27a490652112007854603987862f43a"
+    },
+    "xsens_8": {
+      "norm_l2_float32": 35.42601776123047,
+      "input_ids_sha256": "4ae4fc9d0ec301499c82c4642a586dc7564553e4fe9a64d70b6fa9d46ea24ca9"
+    },
+    "xsens_9": {
+      "norm_l2_float32": 36.21992492675781,
+      "input_ids_sha256": "ed5acf3688240b911d075bc5380a05ec28ad93524aa073e9816044c6170b86e0"
+    },
+    "new_0": {
+      "norm_l2_float32": 34.59946060180664,
+      "input_ids_sha256": "e440b7089219768faf14cc91a0a5bb57f9acbf0bde499d122b81347abcee8c5f"
+    },
+    "new_1": {
+      "norm_l2_float32": 35.90275192260742,
+      "input_ids_sha256": "ca8fd29fee98634774c80b293bb9a0dd22db828f7ad0070943b6aaef035736b2"
+    },
+    "new_2": {
+      "norm_l2_float32": 35.14608383178711,
+      "input_ids_sha256": "d40b76b6e89f35b1fcd6c7b56d0ed0c5d5a2a47c255f17bd07ae197415a6c28a"
+    },
+    "new_3": {
+      "norm_l2_float32": 35.6723518371582,
+      "input_ids_sha256": "a842fe7f4b3da40b35319f663a68b73269458567be2f6be51311be6c458638e7"
+    },
+    "new_4": {
+      "norm_l2_float32": 36.003963470458984,
+      "input_ids_sha256": "4c41fdc0e20989053d7737f977856e14fc00e829cfe27ce64d4bd7fb013c9ef1"
+    },
+    "new_5": {
+      "norm_l2_float32": 35.53619384765625,
+      "input_ids_sha256": "5bd8ca0a78e7f515c2053f97f2e9c499cf5b092068995d95dc36b45cf7e0ba53"
+    },
+    "new_6": {
+      "norm_l2_float32": 35.745277404785156,
+      "input_ids_sha256": "54b99bd2f290c210db8984528ceb41c08d5b4ea346383427dc505ecdbeb98fb2"
+    },
+    "new_7": {
+      "norm_l2_float32": 34.796142578125,
+      "input_ids_sha256": "311a1f3f98c226ad16c06bb4e6d62f0104e54437daa73dfbbb2c7a6a5ae6fbce"
+    },
+    "new2_0": {
+      "norm_l2_float32": 36.860347747802734,
+      "input_ids_sha256": "188447239a4d37e4e1d0410df6ccb85f102c4e859d29e90d4f5a3fb54266c16e"
+    },
+    "new2_1": {
+      "norm_l2_float32": 35.688446044921875,
+      "input_ids_sha256": "c90a3c86b175eab25782117173e836fb3da674df349939042a664e93e0bcd5aa"
+    },
+    "new2_2": {
+      "norm_l2_float32": 35.663230895996094,
+      "input_ids_sha256": "1acf5707aeafdeb1074adebe35f292e19223daa5bbd7324c931bae6d42b66b97"
+    },
+    "new2_3": {
+      "norm_l2_float32": 35.87543487548828,
+      "input_ids_sha256": "ce12874452fe879892b2a7157921280f711ed6eee3ef5f8eb6288a882225a8ff"
+    },
+    "new2_4": {
+      "norm_l2_float32": 36.679588317871094,
+      "input_ids_sha256": "26f06903a6be5b618dc961be5a21b6a947b2c5a254d60ae5269126a42c6a35b7"
+    },
+    "new2_5": {
+      "norm_l2_float32": 36.38571548461914,
+      "input_ids_sha256": "5441f1a77014521107f92de78efa1ca89f568d73b11c46b5ba6e9cbe2860b78a"
+    },
+    "new3_0": {
+      "norm_l2_float32": 36.338985443115234,
+      "input_ids_sha256": "067c865af646d4ddc53584fb30cc63d6ffa3a4764aede7d6c0fc68f63d13a7d2"
+    },
+    "new3_1": {
+      "norm_l2_float32": 35.75632095336914,
+      "input_ids_sha256": "d4b39625a128327aa03a63774f70b36025fbf4b24486309146e5a1225c816652"
+    },
+    "new3_2": {
+      "norm_l2_float32": 35.964534759521484,
+      "input_ids_sha256": "4a79ab1bba4ee8742bcade5fdf575e2650ec702ee3f072458f89db767b60b8ce"
+    },
+    "new3_3": {
+      "norm_l2_float32": 35.9080810546875,
+      "input_ids_sha256": "791e4057de95b5abc514a2eb08c6358578171f7ed7433ba278fe3931ceb59a96"
+    },
+    "new3_4": {
+      "norm_l2_float32": 37.08284378051758,
+      "input_ids_sha256": "8bd9479ce05bb422e3ff8bd1ebfa9630c03e97b1ce47cf4e74ad0034c4ecafed"
+    },
+    "new3_5": {
+      "norm_l2_float32": 36.03179168701172,
+      "input_ids_sha256": "c2219f58beb091aa9d08c6f77e91edb09869c9392c8134fc9b30ea947eec80ce"
+    }
+  },
+  "targets_completed": {
+    "fit_alpha0": 12,
+    "fit_donor": 5
+  },
+  "created_utc": "2026-11-09T09:59:25.498430+00:00",
+  "utc": "2026-11-09T10:01:32.051523+00:00",
+  "phase": "norm_and_donor_complete",
+  "rho": 35.94707107543945,
+  "native_donor_sha256": "965ea1fcd05bb52b057e24bba5bb090d889c1425afc581a62753486b1427c286",
+  "donor_block": 11,
+  "injection_block": 8,
+  "asset_receipt_sha256": "2fc8db396699aa5a2e68f0757c2bbcfc3b3e019b277426d348eae355719c6589",
+  "last_execution_manifest_sha256": "0f7ed6ff184ec679dc8c345dff1a677a75628aba42dbc228b243dd5df2893950"
+}

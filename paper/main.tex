@@ -7,6 +7,7 @@
 \title{A Lower Attack Success Rate Is Not a Better Defense:\\Auditing One-Vector Prefill Steering for Jailbreak Robustness}
 \author{Anonymous ACL submission}
 \begin{document}
+\input{generated/argument_numbers}
 \maketitle
 \begin{abstract}
 We audit learned additive steering at a single position, the final prompt token during prefill, in Llama-3.1-8B-Instruct. Qwen2.5-7B-Instruct is used for zero-training baselines. Our protocol compares learned vectors, norm-matched random directions, system prompts, and output filters using fixed prompts and versioned analysis decisions. HarmBench contextual behaviors receive their context during generation and contextual judging, while copyright behaviors use MinHash evaluation. We audit reference mapping, historical data exposure, generation metadata, refusal annotation, and run-to-run variation in our own pipeline.
@@ -17,9 +18,11 @@ We audit learned additive steering at a single position, the final prompt token 
 \input{sections/04_results}
 \input{sections/05_traps}
 \input{sections/06_limitations}
+\input{sections/07_ethics}
 \bibliography{references}
 \appendix
 \input{sections/appendix_support}
+\input{sections/appendix_pitfalls}
 \section{Provenance and protocol chronology}
 All numeric tables are generated from CSV files, which in turn are exported from versioned analysis files. The table provenance manifest records complete source SHA256 hashes. Raw attack prompts, model outputs, and training caches are excluded from the manuscript repository. Decisions were specified in a versioned log. External timestamps begin on 2026-11-06 at 00:34 JST; earlier states are supported only by server logs. Several thresholds and protocol amendments followed earlier observations and are identified as such.
 The original five-seed WJB criterion remains unsuccessful (3/5). Later random directions, a retrained-control design, a third data arm, and interpolation supplements do not revise that original outcome. The third-arm amendment was written after the original matching table had been frozen and holdout generation had begun. A fourth amendment expanded the plain arm to five seeds before the added seeds were trained and before any plain-arm holdout was generated or read; the first three-seed training queue had already started. These amendments do not revise the original criterion.

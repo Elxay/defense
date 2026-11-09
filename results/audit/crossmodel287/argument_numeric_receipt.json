@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-09T09:58:51.938280+00:00",
+  "source_sha256": {
+    "zero_line.csv": "db83822e0cff605f079364ecc6b9b051d65465cb2561ff8b20ab6a90729e164e",
+    "wjb_official_units.csv": "151690c7449c44a8131a6ebbff0fdc54e27868bbd5d53befa21ff4e733c7eeec",
+    "wjb_official_nine.csv": "e3f52e9802479fda4948665509be034a5264e39e2fb792fd25effbb2ac866c64",
+    "benefit_cost_posthoc.csv": "35e364f08dba0ef4190de29573c34f3bcd7b4b0518d205cb288e690807903bd6"
+  },
+  "val_random_maximum_drop_pp": 21.42857142857143,
+  "WJB_additional_drop_pp": [
+    18.680520781171758,
+    22.92
+  ],
+  "WJB_random_drop_range_pp": [
+    1.0005002501250626,
+    4.506760140210315
+  ],
+  "public_learned_minus_alpha0_pp": {
+    "wrapped": 9.047619047619047,
+    "OR": 5.883244882486736,
+    "Xsafe": 0.39999999999999947
+  },
+  "public_learned_minus_random_pp": {
+    "wrapped": 9.047619047619047,
+    "OR": 3.9499620924943173,
+    "Xsafe": -1.2000000000000002
+  },
+  "PAIR_outcome_reads": false,
+  "refusal_decomposition": "post-hoc association, not causal attribution"
+}
