@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-09T09:53:54.862857+00:00",
+  "files": {
+    "tools/handoff_20261106/crossmodel287_probe.py": "295ecfeb643dae568c1421132d666025fa751a1149542ab87ca486d3240609c6",
+    "tools/handoff_20261106/crossmodel287_preflight_queue.py": "0b484ac23c72da8e89156e877c481731802f4d1a0c8aa04fe69d250fc4b7661c",
+    "results/audit/crossmodel287/qwen_asset_render_receipt.json": "2fc8db396699aa5a2e68f0757c2bbcfc3b3e019b277426d348eae355719c6589"
+  },
+  "scope": "norm/donor/targets only, no optimization or test outcomes",
+  "render_scope": "216 native/benign-template-fixture checks; actual A/B template-body rendering still required before A/B test generation"
+}
