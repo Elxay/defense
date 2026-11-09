@@ -565,3 +565,5 @@
 2026-11-09T11:26:35.750752+00:00 CROSSMODEL287_PREFLIGHT_BEFORE_GPU model=gemma manifest_SHA=8138029a689335bc2c75eb9fc65d031e2592d0d22d1ed662252f0a201d17f2a0 no optimization/test effects.
 2026-11-09T11:28:19.633536+00:00 PAIR_PREFIX_CAUGHT_UP n=496 all13conditions SHA=6bb6ee85ee0fb127ec3eac346dabd13955c13d39915f95ea2f7526e27f6d9397 no outcome reads.
 2026-11-09T11:31:28.791989+00:00 PAIR254_ORDERED_READER_IMPLEMENTATION_FROZEN SHA=c2d503872ddb6fa0ca2e694b66fbb7041ba1a54f8cf9853e53186a43ad708956 codeSHA=6a44b70123dd135953ed72814e4953b0164f2c62a41306f07d086ac39da036ec strict all500/all13/both gate;8 separate manual invocations with preceding hash; no mixed MinHash harmfulness mean; INVALID bounds and unresolved gate when straddling25; no test outcome values read.
+2026-11-09T11:35:26.753791+00:00 PAIR_PREFIX_CAUGHT_UP n=497 all13conditions SHA=f2a2e94b69fe996c5e9f3ade034e4972665e392c67af019d456b2ceb079b72f8 no outcome reads.
+2026-11-09T11:35:41.361108+00:00 PAIR254_READER_IMMUTABILITY_GUARD_FROZEN SHA=43c3d244954beb26cd8747a65a79e169540947a4cb1ca6dfa62e551b53199fea before any ordered outcome read; previous implementation receipt preserved.

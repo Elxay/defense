@@ -141,11 +141,15 @@ def diagnostics(rows):
   result[panel]=total
  return {'by_panel':result,'source_metadata_file_sha256':source,'source_missing_trace_ids':[r['id']for r in rows if(r['id']+'.json')not in source],'missing_trace_is_not_zero_cap_hits':True}
 def main():
+ implementation=load(B/'read_order10/reader_implementation_v2.json')
+ assert sha(Path(__file__))==implementation['code_sha256'],'Reader changed after its pre-read freeze'
+ assert sha(R/'docs/254_ADDENDUM10_FINAL_READ_ORDER_AND_CACHE_ASSERTIONS.md')==implementation['read_plan_sha256']
+ assert sha(R/'tools/handoff_20261106/pair254_all13_read_gate.py')==implementation['admission_code_sha256']
  ap=argparse.ArgumentParser();ap.add_argument('--step',type=int,choices=range(1,9),required=True);args=ap.parse_args();s=readiness();assert s['full500_all13_ready'],'No read before all500/all13/both judges'
  expected=load(B/'frozen_prompt_snapshot.json');ids=[r['id']for r in expected['rows']];audit=load(B/'row_audit.json');lookup={r['id']:r for r in audit['flags']};rows=[lookup[k]for k in ids];assert len(rows)==500 and len(groups(rows))==479
  previous=None
  if args.step>1:
-  prior=D/f'{args.step-1:02d}.json';assert prior.exists();previous=sha(prior);assert load(prior)['snapshot_sha256']==sha(B/'frozen_prompt_snapshot.json')
+  prior=D/f'{args.step-1:02d}.json';assert prior.exists();previous=sha(prior);assert load(prior)['snapshot_sha256']==sha(B/'frozen_prompt_snapshot.json');assert load(prior)['reader_code_sha256']==sha(Path(__file__))and load(prior)['step']==args.step-1
  dest=D/f'{args.step:02d}.json';assert not dest.exists(),'Each read step is immutable; corrections require an appended artifact'
  if args.step==1:
   data={'readiness':s,'signature_chains_verified':verify_prompt_chain(),'source_audit_sha256':sha(B/'row_audit.json'),'lifecycle_receipts':{p.name:load(p)for p in(B/'read_order10/lifecycle').glob('*.json')if p.name!='observer_live.json'},'no_outcome_values_selected':True}
@@ -167,7 +171,7 @@ def main():
  elif args.step==7:data=exposure(rows)
  else:data=diagnostics(rows)
  artifact={'utc':utc(),'step':args.step,'previous_receipt_sha256':previous,'snapshot_sha256':sha(B/'frozen_prompt_snapshot.json'),'reader_code_sha256':sha(Path(__file__)),'frozen_read_plan_sha256':sha(R/'docs/254_ADDENDUM10_FINAL_READ_ORDER_AND_CACHE_ASSERTIONS.md'),'data':data}
- write(dest,artifact)
+ write(dest,artifact);dest.chmod(0o444)
  with(R/'docs/PREREG_LOG.txt').open('a')as f:f.write(f'{artifact["utc"]} PAIR254_ORDERED_READ step={args.step} SHA={sha(dest)} previous={previous} all500/all13/both admitted, snapshotSHA={artifact["snapshot_sha256"]}; step saved before next read.\n')
  print(json.dumps({'utc':artifact['utc'],'step':args.step,'file':str(dest.relative_to(R)),'sha256':sha(dest),'previous_sha256':previous}))
 if __name__=='__main__':main()
