@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-09T11:31:28.791989+00:00",
+  "code_sha256": "6a44b70123dd135953ed72814e4953b0164f2c62a41306f07d086ac39da036ec",
+  "read_plan_sha256": "13142b579b8bbe89e7067fe1a164a54432010722d42df9d5c6c0cadaca32601c",
+  "admission_code_sha256": "7f6154cc1ad68a1eaee6615bc27521271835891c2e7db045a55aac0f1fd5e37e",
+  "execution": "one explicit step per invocation; no automatic numerical read",
+  "all13_required": true,
+  "steps": 8,
+  "source_schemas_checked_without_outcome_values": true,
+  "synthetic_group_weight_invalid_checks_passed": true,
+  "harmfulness_and_copyright_metrics_never_averaged_together": true,
+  "INVALID_threshold_straddling": "unresolved, retain bounds, no default harmless",
+  "actual_PAIREffects_read": false
+}
