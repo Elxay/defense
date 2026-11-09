@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-09T11:20:41.437073+00:00",
+  "files": {
+    "tools/handoff_20261106/crossmodel287_prepare_transfer_and_inputs.py": "322bc1707a4517923c9cb7d8068fef9d22fc66ac60773e009500e75df1867949",
+    "tools/handoff_20261106/crossmodel287_native_baseline.py": "a3ce45febbd94a308369d6f15fa5ed72404194e12894ffc01b3703ed0a4228f1",
+    "tools/handoff_20261106/crossmodel287_sample_refusal_admission.py": "80c776c32fb7cfcffbe482428edbfe86c81c8ff7d181ed7dd4e75d22e01d2bf3",
+    "tools/handoff_20261106/crossmodel287_baseline_admission_queue.py": "aedd6c5ec425039be92612d4af503f33b8e8e6537976adbf6354148b7e11eedb",
+    "results/audit/crossmodel287/baseline_admission_implementation.json": "bc2cb47141e268ee9cc4715c558d274295d10002cb68ad37f176f9bdf1c487e9",
+    "results/audit/crossmodel287/transfer_and_native_selection_inputs_manifest.json": "2f66fd39c1e7bcd0bed423712c2f8b1812ebcbdd112092bbf16c95ba3e7d7006",
+    "docs/PREREG_LOG.txt": "e4e2a904782e7e95056b534b708c9b5ef4b93ed20db1a38abf5e8ede5c0dbf48",
+    "docs/OPS_LOG.txt": "c92de30e992da1bc39cb1b4348960d88c5fe0ac7dfbc87c4c18907bed9d5cad6"
+  },
+  "raw_prompt_or_target_text_published": false
+}
