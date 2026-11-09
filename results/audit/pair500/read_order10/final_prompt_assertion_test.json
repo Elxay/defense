@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-09T05:28:12.842150+00:00",
+  "same_prompt_and_source": "PASS",
+  "changed_final_prompt_rejected_before_reuse": "PASS",
+  "changed_source_bytes_rejected_before_reuse": "PASS",
+  "synthetic_data_only": true,
+  "real_classifier_outputs_read": false,
+  "real_generation_or_cache_files_changed": false
+}

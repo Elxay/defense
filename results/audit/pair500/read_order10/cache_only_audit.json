@@ -1,0 +1,201 @@
+{
+  "utc": "2026-11-09T05:28:02.319341+00:00",
+  "signature_audit_passed": true,
+  "cache_file_counts_not_outcomes": {
+    "HB": 4420,
+    "WG": 5574
+  },
+  "explicit_prompt_index_sha256": "2427dfa0dea56dacf1d5277a26c539253bfe6eb77c245f278607657dc7e417e3",
+  "source_audit": {
+    "prefix_hb_incremental_worker.py": {
+      "sha256": "b52aae1a1a67826557a147188927b166e633572d234b9cbaa8b79b93acab5190",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "Behavior",
+        "BehaviorID",
+        "CUDA_VISIBLE_DEVICES",
+        "DEVICE",
+        "LLAMA2_CLS_PROMPT",
+        "behavior",
+        "behavior_id",
+        "candidates",
+        "check_yield",
+        "condition",
+        "context",
+        "generation_sha256",
+        "hb_sha256",
+        "id",
+        "innet",
+        "items",
+        "judge",
+        "layer",
+        "models",
+        "passed",
+        "prompt",
+        "result",
+        "row_sha256",
+        "rows",
+        "score",
+        "signature",
+        "text"
+      ]
+    },
+    "prefix_hb_cache_reuse.py": {
+      "sha256": "049cfbb1ed5e7c9102d9a87dfdf96afbeb287e1a8d1d4cff00e6987c05d1f6a2",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "id",
+        "prefix_generation_sha256",
+        "prefix_source",
+        "signature"
+      ]
+    },
+    "prefix_wildguard_queue.py": {
+      "sha256": "de5b2c26cb54d149b2da748b8082f5c73574b3af46d7c30121289b7965c30fc8",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "best",
+        "code_sha256",
+        "id",
+        "input_sha256",
+        "layer",
+        "order",
+        "pair_wildguard_source_sha256",
+        "prompt",
+        "prompt_sha256",
+        "result",
+        "runtime_source_sha256",
+        "signature",
+        "text"
+      ]
+    },
+    "prefix_wg_batch_runner.py": {
+      "sha256": "1bdd1fb526a1c090e8cdd51def71502cc6b1eb8548d066a635e27c32ed464a11",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "OUT",
+        "code_sha256",
+        "condition",
+        "input_sha256",
+        "main",
+        "pair_wildguard_source_sha256"
+      ]
+    },
+    "pair500_wildguard_run.py": {
+      "sha256": "e5b3e918c79fca57ac861de16b48c9af29e68cf7ba7378d43e42950e34abdd1d",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "DEVICE",
+        "Harmful request",
+        "Harmful response",
+        "files",
+        "id",
+        "layer",
+        "max_position_embeddings",
+        "passed_format",
+        "prompt",
+        "response",
+        "revision",
+        "signature",
+        "sliding_window",
+        "template_sha256"
+      ]
+    },
+    "prefix_wg_reuse.py": {
+      "sha256": "d3484141ce1460886338627044045d24e3bc190bf3ee69fe8e260c19fde14f9a",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "batch_manifest_sha256",
+        "generation_sha256",
+        "id",
+        "pair_wildguard_source_sha256",
+        "prefix_generation_sha256",
+        "prefix_inference_provenance",
+        "prompt",
+        "prompt_sha256",
+        "response",
+        "response_sha256",
+        "score_file",
+        "score_file_sha256",
+        "signature",
+        "wildguard_format_gate_sha256",
+        "wildguard_model_manifest_sha256"
+      ]
+    },
+    "pair500_read_gate.py": {
+      "sha256": "31363aedb29697a1fddd8291b04587ae2960c519fc927ebaf3c07a21d5ba2284",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "both_judges_all_nine_ready",
+        "counts",
+        "id",
+        "passed",
+        "rows",
+        "utc"
+      ]
+    },
+    "lease_priority_controller.py": {
+      "sha256": "080301f383b75cc1d424fde70113d127b361f121a6ba3c4166db0ee5932effba",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "alpha0",
+        "cards",
+        "condition",
+        "hb",
+        "id",
+        "ids",
+        "items",
+        "kind",
+        "layer",
+        "log",
+        "prefix_generation_sha256",
+        "proc",
+        "row_sha256",
+        "rows",
+        "shard",
+        "signature",
+        "tail_kind"
+      ]
+    },
+    "prefix_controller.py": {
+      "sha256": "fb7772df749e88372d2a56028cb322498bda55fa78b461d6cbc114de87347cbb",
+      "syntactically_valid": true,
+      "literal_subscript_keys": [
+        "alpha0",
+        "best",
+        "byte_identical",
+        "config_sha256",
+        "fallback",
+        "fallback_target_placements",
+        "file_sha256",
+        "generation_node",
+        "host",
+        "id",
+        "order",
+        "physical_gpu",
+        "prompt",
+        "prompt_sha256",
+        "reference_sha256",
+        "result",
+        "rows",
+        "signature",
+        "source_file_sha256",
+        "text",
+        "utc"
+      ]
+    }
+  },
+  "root_summary_like_paths": [],
+  "outcome_values_selected": false,
+  "INVALID_counted": false,
+  "cache_files_modified": false,
+  "scope": "Inspected HB/WG workers, queues and reuse/readiness paths. Classification writes individual labels/invalid fields; signature checks and progress are permitted. No outcome-summary/aggregation entry is called in these paths. This is not a claim about unobserved third-party sessions.",
+  "final_assertions": [
+    "prefix_controller.sync_search: accepted source file hashes unchanged",
+    "prefix_controller.materialize: final prompt SHA and source file SHA equal accepted prefix",
+    "prefix_support.verify_record: complete generation signature equality",
+    "HB cache import: generation/row/template/model/runtime equality",
+    "WG cache import: explicit prompt/response/generation equality"
+  ],
+  "mismatch_policy": "assertion blocks reuse; preserve original; invalidate affected row, regenerate if final prompt changed, then rejudge with UTC/hashes; no silent repair"
+}

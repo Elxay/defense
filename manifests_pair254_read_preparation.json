@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-09T05:32:22.679182+00:00",
+  "files": {
+    "docs/254_READ_PREPARATION_SIGNATURE_AUDIT.md": "d75df259e9327a4c0f0fbb9302288c830402f5759ff020aed646961c959a3b02",
+    "docs/PREREG_LOG.txt": "df1bed5a8f0a290825cbf813e49e1e244f83fca4bed694a128ef0ec6a8e0fd93",
+    "docs/OPS_LOG.txt": "8d9907a633686d33192c420e2bdf83fc06441988580e53c1ac93d854363f1622",
+    "results/audit/pair500/read_order10/cache_only_audit.json": "d56b932f6f562f6b1ebd3e2aad49df38ff21228106c6f1ae03b92f235e15b010",
+    "results/audit/pair500/read_order10/final_prompt_assertion_test.json": "ab5cd9e5752544be3f3497c26b58a28875841a81aca3e3aa310b4dc64ddbb974",
+    "results/audit/pair500/read_order10/unsafe_cautioned_content_ids.json": "648d0489b0a29b31ced413330ebf5500d2e2460f98b1afd7a8b50e84ed32dee9",
+    "tools/handoff_20261106/audit_pair254_cache_chain.py": "1f406e23c1e2643ba8f708398eb6048309368cbe350fb2cdecce5a400ba0bd57",
+    "tools/handoff_20261106/test_pair254_final_prompt_assertions.py": "00059793e1a8c838f220fc910bb4159a16fd939f4d22b7eab3125b82e72ca0fb",
+    "tools/handoff_20261106/pair254_lifecycle_receipts.py": "9f90dba9753215f3c62a24b19a2b5d929ba6bf926e6a60bf9cf180ae9d263b5b",
+    "tools/handoff_20261106/publish_pair254_read_preparation.py": "9daeb000b7d2f7e67dc5700a9dd6ebf9fee5814c1004450e99768097907132ee"
+  },
+  "PAIR_outcomes_read": false,
+  "no_raw_prompts_or_outputs": true
+}
