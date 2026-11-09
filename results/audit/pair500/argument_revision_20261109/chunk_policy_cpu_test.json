@@ -1,0 +1,8 @@
+{
+  "cases": 9,
+  "coverage_and_max_length": "PASS",
+  "legacy_midpoint_indices": "PASS",
+  "model_inference_performed": false,
+  "utc": "2026-11-09T08:43:01.333068+00:00",
+  "policy_source_sha256": "7b32d669d611408e629aab84e436ea74e4f14e5a4796f9670db889df652c48fe"
+}
