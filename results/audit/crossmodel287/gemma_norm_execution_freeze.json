@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-09T10:37:21.845659+00:00",
+  "mode": "Gemma norm/donor-state extraction only; no target text/training/test effects",
+  "protocol_sha256": "2d1ce0fc3dbbadf6b3bc57c1561fb6e7442dd8602902011fd7c004f6e33fd3a7",
+  "code_sha256": {
+    "tools/handoff_20261106/crossmodel287_probe_v2.py": "cd48ae2b391140c517ffd6d877ce667dee36da87bca9cbd70b9de62c20a62b92",
+    "tools/handoff_20261106/crossmodel287_gemma_norm_queue.py": "51c255fe1ae7b98bf0ff40da873c20af9462305d4c393f89b020414ee7198398"
+  },
+  "PAIR_priority": true,
+  "authorization_end_UTC": "2026-11-09T15:00:00+00:00"
+}
