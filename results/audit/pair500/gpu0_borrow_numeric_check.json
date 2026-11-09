@@ -1,0 +1,7 @@
+{
+  "original_generator_sha256": "3c05302ed14344460052120623ca820fb74455f15ff82cbdd3069c1e4ecae2c4",
+  "extended_generator_sha256": "d4af1731f2305791d9632c6be51e534981220d9c4cc4d8e1cdb5b9b45f016424",
+  "numeric_model_and_generation_calls_AST_equal": true,
+  "old_runtime_sha256": "cf4c7167b76276c7019c8ad4267079e42e6c4cf994713b90655d908c0c4d517c",
+  "no_existing_source_modified": true
+}
