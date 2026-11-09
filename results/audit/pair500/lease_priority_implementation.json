@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-09T04:09:50.458294+00:00",
+  "code_sha256": {
+    "tools/handoff_20261106/lease_priority_support.py": "20e3d7dc07794021a6e9b554d658ebae49a1b6b9489395c7e97d7ebdd4eae367",
+    "tools/handoff_20261106/wjb_tail_priority_worker.py": "26668494cdf13265b86d2fc1fa14a247011a99a644dae7ba7a63620eabc650e7",
+    "tools/handoff_20261106/auxiliary_output_guard_worker.py": "7a4f11444491dee693dc5d9c5d349645c73c46e36bec35cf7b2d9e4bd51554ec",
+    "tools/handoff_20261106/prefix_hb_incremental_worker.py": "b52aae1a1a67826557a147188927b166e633572d234b9cbaa8b79b93acab5190",
+    "tools/handoff_20261106/prefix_hb_cache_reuse.py": "049cfbb1ed5e7c9102d9a87dfdf96afbeb287e1a8d1d4cff00e6987c05d1f6a2",
+    "tools/handoff_20261106/lease_priority_controller.py": "080301f383b75cc1d424fde70113d127b361f121a6ba3c4166db0ee5932effba",
+    "tools/handoff_20261106/lease_auxiliary_finish_queue.py": "0b83522aa0a77b0062aecf5a9059485b8fb47bfe02ad70db04eeaebd3a8a45fc",
+    "tools/handoff_20261106/resume_wjb_wg_after_pair.py": "f01ffd86e5649083cc414a77dc84438c5b42700d14200fa94705205ab28886d3",
+    "tools/handoff_20261106/lease_priority_handoff.py": "b41967aee35fe8154112adcce84e21b5747a190072eae45a65402f2f7b7a0f7d",
+    "tools/handoff_20261106/test_lease_priority_cpu.py": "dad1f3171c9f915c4bf4c58fb2a2167ff30d5160814a270a8f00033a9c1736ee",
+    "tools/handoff_20261106/freeze_lease_priority_implementation.py": "70568c49b7013df3b2228c59cd872a1bdf3dde174a2dad22fced0443d7709211"
+  },
+  "dependencies_sha256": {
+    "results/audit/pair500/prefix254_publication.json": "b1a2c0a07adb7e8ee01f4d6151f044619db9170c064bd1efd789be5dcaecff62",
+    "results/audit/pair500/gpu0_borrow_publication.json": "971dc246097a80a149abf6a0c766bda620d094eaa96c6ee10588d5ef7363fffb",
+    "results/audit/pair500/eval255_frozen_runtime_config.json": "ff59424129efa47df4fa0201e6998a9d4d7cdbc4230fbcdb1adc0450be8f2a0c",
+    "results/audit/pair500/prefix254_runtime.json": "cf4c7167b76276c7019c8ad4267079e42e6c4cf994713b90655d908c0c4d517c",
+    "docs/254_ADDENDUM9_LEASE_PRIORITY_AND_INCREMENTAL_JUDGE.md": "dc8804ac8af01b6f73e773b2601066ef3dbf2eeeb46601941c02904e77192766",
+    "src/gen/common.py": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+    "src/eval/legal_val_batch.py": "575bf04c90ebe5b6735dd735b2330d7379dc9cf490d7a07fb701dc760751a766",
+    "src/judge/refusal.py": "498dfd485d3dce6b05551784d698cc9716016f4a2614d06738261e96f5323948",
+    "repos/HarmBench/eval_utils.py": "46f1db751866848834d45d5128a18d4cc0a820828e89796ab51bc605d10c7058",
+    "tools/handoff_20261106/wjb_eval255_run.py": "a4485d2467a31576edcc8dde20510f0aadc1c89cd45eca586de1f356025074e3",
+    "tools/handoff_20261106/guard_qwen_output.py": "770bb06af67178f2c7e9b2ed217beb2888c70e137b95771f51b3e09040fb9c4b",
+    "tools/handoff_20261106/pair500_eval254.py": "4984ac507cb60c0d776afc04ac0f1077f4adc612a5ccb7e75aaa4e421f193684",
+    "tools/handoff_20261106/wjb_top2_shared_window.py": "7d54044a3d37fb8bc298cc1aed3b009f88a835cf27d9b42b0d4ca6ca07fc4c82"
+  },
+  "scheduling_only": true,
+  "PAIR_effects_read": false,
+  "tests": "PASS: alpha0 precedence; disjoint reservations; fixed tail condition order; cache rebinding keeps inference bytes and rejects changed generation",
+  "classifier_numeric_generate_calls_AST_equal": true,
+  "AST_comparison_normalization": "receiver identifier mdl/model canonicalized to MODEL; argument ASTs unchanged",
+  "old_running_sources_modified": false
+}
