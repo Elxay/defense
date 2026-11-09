@@ -1,0 +1,116 @@
+{
+  "started_scope": "Current generated prefix only; no outcome labels, probabilities or INVALID fields read.",
+  "utc": "2026-11-09T05:51:53.260784+00:00",
+  "source_contextual_rows": 100,
+  "measured_generated_inputs": 1144,
+  "model_max_positions": 2048,
+  "min_tokens": 413,
+  "max_tokens": 1962,
+  "over1900": 23,
+  "over2048": 0,
+  "chunked_inputs": 0,
+  "actual_path": "PAIR incremental/final HF scorer formats original context+behavior+512-token-clipped generation, then refuses >max_position_embeddings; does not call night/judge_all.py.",
+  "legacy_path": "night/judge_all.py uses legacy CLS_PROMPT/behavior[:600], splits full rendered input >1900 into overlapping pieces. It is not the official contextual template path and is not used here.",
+  "per_condition": {
+    "SYS_A": {
+      "n": 88,
+      "min": 441,
+      "max": 1960,
+      "over1900": 1,
+      "over2048": 0
+    },
+    "SYS_B": {
+      "n": 88,
+      "min": 413,
+      "max": 1908,
+      "over1900": 1,
+      "over2048": 0
+    },
+    "alpha0": {
+      "n": 88,
+      "min": 432,
+      "max": 1961,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "old_s0": {
+      "n": 88,
+      "min": 413,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "old_s3": {
+      "n": 88,
+      "min": 413,
+      "max": 1960,
+      "over1900": 1,
+      "over2048": 0
+    },
+    "old_s4": {
+      "n": 88,
+      "min": 413,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "old_s5": {
+      "n": 88,
+      "min": 413,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "old_s6": {
+      "n": 88,
+      "min": 423,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "old_s7": {
+      "n": 88,
+      "min": 413,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "rand0": {
+      "n": 88,
+      "min": 431,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "rand1": {
+      "n": 88,
+      "min": 431,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "rand2": {
+      "n": 88,
+      "min": 431,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    },
+    "rand3": {
+      "n": 88,
+      "min": 431,
+      "max": 1962,
+      "over1900": 2,
+      "over2048": 0
+    }
+  },
+  "overflow_rows": [],
+  "without_generation_max": 1450,
+  "all100_contextual_rows_reviewed_for_source_length": true,
+  "future_rule": "Stop on overflow; no silent truncation or unlogged switch to chunking. Re-audit after complete generation.",
+  "source_sha256": {
+    "night/judge_all.py": "38657019374ababbc9c83df1f810e85cdbfcff339f8c78718d086f7b7e34f0c7",
+    "tools/handoff_20261106/prefix_hb_incremental_worker.py": "b52aae1a1a67826557a147188927b166e633572d234b9cbaa8b79b93acab5190",
+    "tools/handoff_20261106/pair500_eval254.py": "4984ac507cb60c0d776afc04ac0f1077f4adc612a5ccb7e75aaa4e421f193684"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-09T05:54:27.411147+00:00",
+  "doc_sha256": "7ba5ee6ad20fa3e1997919f81b614021ad15a11b282edde976d7ee18c37f32e6",
+  "template_sha256": "c5a47d8cfdc033b1ca4ad865fe1e05e39712d8701c21636a821945b13c0581b3",
+  "controller_sha256": "211798d1d65fa2f6362de8fc6136a7e88f383c13ebcad849ce70ea87dc291120",
+  "tail_wrapper_sha256": "c34e40aaad664dfc6016851cbe8d0d4b9485a883bffb5483d0cd57bebb3195c6",
+  "base_implementation_sha256": "d4cd86ca24a1dfd0c99e3d43e78d310eb38e007901002a568ab6eb8eb1d5c492",
+  "unchanged_numeric_source_sha256": {
+    "src/gen/common.py": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+    "tools/handoff_20261106/wjb_eval255_run.py": "a4485d2467a31576edcc8dde20510f0aadc1c89cd45eca586de1f356025074e3",
+    "tools/handoff_20261106/prefix_hb_incremental_worker.py": "b52aae1a1a67826557a147188927b166e633572d234b9cbaa8b79b93acab5190"
+  },
+  "generate_call_AST_identical": true,
+  "PAIR_outcomes_read": false
+}

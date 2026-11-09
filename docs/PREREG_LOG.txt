@@ -484,3 +484,6 @@
 2026-11-09T05:32:23.166957+00:00 PAIR254_READ_PREPARATION_CONTENT_COMMIT=0fc01d25eed60bf3352a1f6c27b6fc0e376afa5b; coded IDs/counts/signatures only.
 2026-11-09T05:32:47.957298+00:00 PAIR_PREFIX_CAUGHT_UP n=432 all13conditions SHA=52de4fa4f9a4e5a3df22b19d9c73551a6b5a5363bc783faefb3d6744af76294a no outcome reads.
 2026-11-09T05:33:02.914453+00:00 PAIR254_LIFECYCLE_CPU_LAUNCHED launcher=1850627 source_SHA=9f90dba9753215f3c62a24b19a2b5d929ba6bf926e6a60bf9cf180ae9d263b5b registered via launch_job NOGPU1; record actual search-end/target-generation/readiness times only, no labels.
+2026-11-09T05:42:32.707140+00:00 PAIR_PREFIX_CAUGHT_UP n=433 all13conditions SHA=4b704e7b89f8943e3d3b00578e36c08a5e94232bf1b3bd682c166d4a42ed71e4 no outcome reads.
+2026-11-09T05:51:02.664809+00:00 PAIR_PREFIX_CAUGHT_UP n=434 all13conditions SHA=811034c41abb9613f5330185cd92742f91ceec9d1b4e4bf6dd1698236df76967 no outcome reads.
+2026-11-09T05:54:27.411147+00:00 PAIR254_RESOURCE_ADDENDUM11_FROZEN SHA=7ba5ee6ad20fa3e1997919f81b614021ad15a11b282edde976d7ee18c37f32e6 controller_v2_SHA=211798d1d65fa2f6362de8fc6136a7e88f383c13ebcad849ce70ea87dc291120 remove auxiliary-only HB windows; no outcome read; raw hook count preserved/nonzero count explicit. Draft methods/traps/datasets/limits ready now; results/abstract/intro claims wait.

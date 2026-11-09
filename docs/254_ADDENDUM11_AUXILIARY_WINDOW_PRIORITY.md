@@ -1,0 +1,21 @@
+# PAIR500 addendum11: auxiliary judging must not repeatedly reserve two cards
+
+Frozen UTC 2026-11-09T05:54:27.411147+00:00, before controller_v2 or metadata wrapper_v2 starts. PAIR search is ongoing and PAIR outcome labels remain unread. A progress-only audit found the original auxiliary-pending trigger repeatedly opening GPU2/3 windows for WJB top2/tail caches. Tail generation progressed slowly despite prefix catch-up. This correction changes scheduling, not numerical generation/classification or analysis.
+
+The incremental two-card window opens only when at least256 PAIR prefix classifier rows are pending, or through the unchanged final-search-closure scorer. WJB top2/tail pending files alone never open a new pre-closure window. An already-needed PAIR window may still use remaining bounded residency for the frozen sensitivities. Remaining auxiliary classification waits for a necessary PAIR window or the post-PAIR auxiliary queue; it does not gate PAIR reading. WJB/public generation keeps fixed s0,A,B order within each family, original shards and public batch8 composition. PAIR generation has priority; low-priority workers yield at existing atomic boundaries. GPU0 still releases18:00 JST; no colleague card/process or memory gate is changed.
+
+Do not hot-edit a source used by a running worker. Preserve the old implementation and manifest. Request the old owned controller to drain; use its existing cooperative HB-yield signal and row/batch yielding, record before/after file-hash evidence, then launch the separately pinned v2 dispatcher through launch_job. The old four-line ownership/source checks remain; failure stops/checkpoints and never relaxes a gate. The new controller's only dispatch-policy change removes the auxiliary-only trigger; it additionally pins its own source and selects the metadata-only v2 tail wrapper. Underlying original generate calls are AST-identical.
+
+## Metadata semantics for systemA/B
+
+Public batch8 records already use injection_count=0 with a zero vector and prefill_hook_count=1. The common single-row generator's historical injection_count means hook calls, even for a zero vector, so its raw generation.injection_count remains1. Do not overwrite it or remove the zero hook to make a field equal0. The new wrapper additionally records nonzero_vector_injection_count=0, rho_runtime=0, prefill_hook_count=1 for systemA/B, system_text_sha256 and exact input hash, new_tokens, eos/observed EOS and cap flags. Original generation metadata remains intact. Existing and new wrapper provenance are distinguished by wrapper SHA, with no backfill. This is metadata observation only and preserves the passed zero-vector path and numeric behavior.
+
+## Contextual and copyright reporting
+
+PAIR does not call night/judge_all.py. It uses the official contextual template with original context, behavior and the frozen512-token generation clip. Both incremental and final HF classifiers stop on input>2048; the legacy >1900 overlapping split is not this path. Current CPU-only token-length audit is reported without outcome labels; repeat after full generation. No silent truncation or new chunking is introduced. WildGuard's >4096 sliding-window count remains separately reported at the frozen read.
+
+Main tables retain the HarmBench400-row dataset inventory and separate standard200/contextual100/copyright100 rows, plus JBB100. Copyright MinHash is not harmfulness: do not show a pooled mixed-type ASR or average it with the other layers in the main table/abstract. Earlier permission for a labelled heterogeneous operational total is historical; this presentation is narrowed at user request before PAIR outcome reading. Raw per-layer results and all rows are retained.
+
+## Draft dependencies
+
+Before11/12, methods, dataset inventory/table, documented pipeline traps and limitations can be finalized now; results, abstract and introduction contribution claims await the locked PAIR read. The abstract result template is fixed separately with numeric placeholders, no absolute ASR and no mechanism sentence. Fill only from generated tables after both judges and benefit/cost results are read. Human review12/10 and manual token-expiry verification remain incomplete.
