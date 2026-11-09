@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-09T05:33:26.300060+00:00",
+  "PAIR_search": {
+    "rows": 432,
+    "worker_pid": 2295103,
+    "heartbeat_utc": "2026-11-09T05:32:58.154795+00:00",
+    "phase": "search",
+    "mean_seconds_per_row": 382.46466377094015,
+    "remaining_hours_cumulative": 7.2243325378955365
+  },
+  "snapshot_exists": false,
+  "search_end_utc": null,
+  "target_generation_complete_utc": null,
+  "observer": {
+    "utc": "2026-11-09T05:33:18.955623+00:00",
+    "pid": 1850645,
+    "phase": "waiting_lifecycle_events",
+    "snapshot_exists": false,
+    "labels_read": false
+  },
+  "scheduler": {
+    "utc": "2026-11-09T05:33:22.885655+00:00",
+    "pid": 1735804,
+    "phase": "lease_priority_running",
+    "source_rows": 432
+  },
+  "jobs": [
+    {
+      "kind": "tail",
+      "cards": [
+        "0"
+      ],
+      "condition": "old_s0",
+      "launcher_pid": 1848960
+    },
+    {
+      "kind": "hb",
+      "cards": [
+        "2",
+        "3"
+      ],
+      "launcher_pid": 1850348
+    }
+  ],
+  "no_effect_labels_read": true,
+  "INVALID_counted": false
+}
