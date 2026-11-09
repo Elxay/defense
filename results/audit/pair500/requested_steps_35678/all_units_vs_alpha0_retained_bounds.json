@@ -1,0 +1,602 @@
+{
+  "HB": {
+    "old_s3": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        20.0,
+        20.0
+      ],
+      "delta_pp_bounds": [
+        -48.00000000000001,
+        -48.00000000000001
+      ],
+      "relative_reduction_pct_bounds": [
+        70.58823529411765,
+        70.58823529411765
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s4": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        24.75,
+        24.75
+      ],
+      "delta_pp_bounds": [
+        -43.25000000000001,
+        -43.25000000000001
+      ],
+      "relative_reduction_pct_bounds": [
+        63.602941176470594,
+        63.602941176470594
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s5": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        30.25,
+        30.25
+      ],
+      "delta_pp_bounds": [
+        -37.75000000000001,
+        -37.75000000000001
+      ],
+      "relative_reduction_pct_bounds": [
+        55.51470588235295,
+        55.51470588235295
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s6": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        18.5,
+        18.5
+      ],
+      "delta_pp_bounds": [
+        -49.50000000000001,
+        -49.50000000000001
+      ],
+      "relative_reduction_pct_bounds": [
+        72.79411764705883,
+        72.79411764705883
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s7": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        33.0,
+        33.0
+      ],
+      "delta_pp_bounds": [
+        -35.0,
+        -35.0
+      ],
+      "relative_reduction_pct_bounds": [
+        51.470588235294116,
+        51.470588235294116
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand0": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        51.0,
+        51.0
+      ],
+      "delta_pp_bounds": [
+        -17.000000000000004,
+        -17.000000000000004
+      ],
+      "relative_reduction_pct_bounds": [
+        25.000000000000004,
+        25.000000000000004
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand1": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        55.50000000000001,
+        55.50000000000001
+      ],
+      "delta_pp_bounds": [
+        -12.5,
+        -12.5
+      ],
+      "relative_reduction_pct_bounds": [
+        18.38235294117647,
+        18.38235294117647
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand2": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        57.99999999999999,
+        57.99999999999999
+      ],
+      "delta_pp_bounds": [
+        -10.000000000000009,
+        -10.000000000000009
+      ],
+      "relative_reduction_pct_bounds": [
+        14.705882352941188,
+        14.705882352941188
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand3": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        68.0,
+        68.0
+      ],
+      "condition_pct_bounds": [
+        55.75,
+        55.75
+      ],
+      "delta_pp_bounds": [
+        -12.250000000000005,
+        -12.250000000000005
+      ],
+      "relative_reduction_pct_bounds": [
+        18.01470588235295,
+        18.01470588235295
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    }
+  },
+  "WildGuard": {
+    "old_s3": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        14.75,
+        14.75
+      ],
+      "delta_pp_bounds": [
+        -41.25000000000001,
+        -40.75000000000001
+      ],
+      "relative_reduction_pct_bounds": [
+        73.42342342342343,
+        73.66071428571429
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 2,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s4": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        19.5,
+        19.5
+      ],
+      "delta_pp_bounds": [
+        -36.50000000000001,
+        -36.00000000000001
+      ],
+      "relative_reduction_pct_bounds": [
+        64.86486486486487,
+        65.17857142857143
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 2,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s5": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        24.25,
+        24.25
+      ],
+      "delta_pp_bounds": [
+        -31.750000000000007,
+        -31.250000000000007
+      ],
+      "relative_reduction_pct_bounds": [
+        56.30630630630631,
+        56.69642857142858
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 2,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s6": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        14.499999999999998,
+        14.499999999999998
+      ],
+      "delta_pp_bounds": [
+        -41.5,
+        -41.0
+      ],
+      "relative_reduction_pct_bounds": [
+        73.87387387387386,
+        74.10714285714285
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 2,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s7": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        25.25,
+        25.25
+      ],
+      "delta_pp_bounds": [
+        -30.750000000000004,
+        -30.250000000000004
+      ],
+      "relative_reduction_pct_bounds": [
+        54.5045045045045,
+        54.910714285714285
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 2,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand0": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        42.0,
+        42.25
+      ],
+      "delta_pp_bounds": [
+        -14.000000000000007,
+        -13.250000000000007
+      ],
+      "relative_reduction_pct_bounds": [
+        23.873873873873883,
+        25.00000000000001
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 3,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand1": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        42.5,
+        43.0
+      ],
+      "delta_pp_bounds": [
+        -13.500000000000007,
+        -12.500000000000005
+      ],
+      "relative_reduction_pct_bounds": [
+        22.52252252252253,
+        24.10714285714287
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 4,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand2": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        47.0,
+        47.5
+      ],
+      "delta_pp_bounds": [
+        -9.000000000000007,
+        -8.000000000000007
+      ],
+      "relative_reduction_pct_bounds": [
+        14.414414414414425,
+        16.071428571428584
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 4,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand3": {
+      "n_retained": 400,
+      "baseline_pct_bounds": [
+        55.50000000000001,
+        56.00000000000001
+      ],
+      "condition_pct_bounds": [
+        44.5,
+        44.75
+      ],
+      "delta_pp_bounds": [
+        -11.500000000000005,
+        -10.750000000000004
+      ],
+      "relative_reduction_pct_bounds": [
+        19.369369369369373,
+        20.535714285714292
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 3,
+      "no_invalid_defaulted_safe": true
+    }
+  },
+  "MinHash": {
+    "old_s3": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        7.000000000000001,
+        7.000000000000001
+      ],
+      "delta_pp_bounds": [
+        -3.0,
+        -3.0
+      ],
+      "relative_reduction_pct_bounds": [
+        30.0,
+        30.0
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s4": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        11.0,
+        11.0
+      ],
+      "delta_pp_bounds": [
+        0.9999999999999996,
+        0.9999999999999996
+      ],
+      "relative_reduction_pct_bounds": [
+        -9.999999999999995,
+        -9.999999999999995
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s5": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        11.0,
+        11.0
+      ],
+      "delta_pp_bounds": [
+        0.9999999999999996,
+        0.9999999999999996
+      ],
+      "relative_reduction_pct_bounds": [
+        -9.999999999999995,
+        -9.999999999999995
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s6": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        9.0,
+        9.0
+      ],
+      "delta_pp_bounds": [
+        -1.0000000000000009,
+        -1.0000000000000009
+      ],
+      "relative_reduction_pct_bounds": [
+        10.000000000000009,
+        10.000000000000009
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "old_s7": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        11.0,
+        11.0
+      ],
+      "delta_pp_bounds": [
+        0.9999999999999996,
+        0.9999999999999996
+      ],
+      "relative_reduction_pct_bounds": [
+        -9.999999999999995,
+        -9.999999999999995
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand0": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        9.0,
+        9.0
+      ],
+      "delta_pp_bounds": [
+        -1.0000000000000009,
+        -1.0000000000000009
+      ],
+      "relative_reduction_pct_bounds": [
+        10.000000000000009,
+        10.000000000000009
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand1": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "delta_pp_bounds": [
+        0.0,
+        0.0
+      ],
+      "relative_reduction_pct_bounds": [
+        0.0,
+        0.0
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand2": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        9.0,
+        9.0
+      ],
+      "delta_pp_bounds": [
+        -1.0000000000000009,
+        -1.0000000000000009
+      ],
+      "relative_reduction_pct_bounds": [
+        10.000000000000009,
+        10.000000000000009
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    },
+    "rand3": {
+      "n_retained": 100,
+      "baseline_pct_bounds": [
+        10.0,
+        10.0
+      ],
+      "condition_pct_bounds": [
+        9.0,
+        9.0
+      ],
+      "delta_pp_bounds": [
+        -1.0000000000000009,
+        -1.0000000000000009
+      ],
+      "relative_reduction_pct_bounds": [
+        10.000000000000009,
+        10.000000000000009
+      ],
+      "relative_reduction_definition": "100*(baseline_rate-condition_rate)/baseline_rate; positive means decline",
+      "INVALID_cells_enumerated": 0,
+      "no_invalid_defaulted_safe": true
+    }
+  }
+}

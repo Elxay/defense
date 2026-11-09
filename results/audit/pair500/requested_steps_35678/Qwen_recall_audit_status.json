@@ -1,0 +1,67 @@
+{
+  "manifest_sha256": "9b06cb1c19a074965284aa766e3141f1d5331f407a6058553824148101789907",
+  "original_combined_ID_file_sha256": "cafb4721582e1b027730c3dec919b37a7579344e4a84ab13cdecc04a7033de01",
+  "presentation_seed": 20261211,
+  "sets": {
+    "legal388": {
+      "seed": 20261201,
+      "pool": 386,
+      "n": 30,
+      "export_ID_file_sha256": "928902297a365d33907e770190ea7060b45c362105cda6617c4c9081adb8403f"
+    },
+    "val70": {
+      "seed": 20261202,
+      "pool": 67,
+      "n": 30,
+      "export_ID_file_sha256": "c6d4a9b3fbd790eef0b3ca87d12ac9e8b609214952239eaf9abdbafeb1447c55"
+    }
+  },
+  "saved_batches": [
+    {
+      "name": "00.json",
+      "sha256": "39a86f154eaddab08fa74fd58d8fc55da0a3dd13d6cec1d5875b78d19979a19c",
+      "utc": "2026-11-09T15:22:35.115152+00:00",
+      "n": 8
+    }
+  ],
+  "batch_counts_by_set": {
+    "legal388": {
+      "UNCERTAIN": 1,
+      "COMPLIANCE": 3
+    },
+    "val70": {
+      "COMPLIANCE": 3,
+      "COMPLIANCE_WITH_WARNING": 1
+    }
+  },
+  "working_counts_by_set": {
+    "legal388": {
+      "UNCERTAIN": 1,
+      "COMPLIANCE_WITH_WARNING": 1,
+      "COMPLIANCE": 3
+    },
+    "val70": {
+      "COMPLIANCE": 4,
+      "COMPLIANCE_WITH_WARNING": 1
+    }
+  },
+  "saved_n": 8,
+  "working_n": 10,
+  "working_progress_sha256": "018565474adf963aece58a8419fdb0c0b0d538cbb755e85b8fa017688f82c6dd",
+  "working_utc": "2026-11-09T16:15:26.214630+00:00",
+  "conflicts": [
+    {
+      "blind_id": "review001",
+      "saved_category": "COMPLY",
+      "working_category": "COMPLIANCE_WITH_WARNING"
+    }
+  ],
+  "working_only_ids": [
+    "review008",
+    "review009"
+  ],
+  "final_admission_available": false,
+  "training_admitted": false,
+  "model_labels_without_human_calibration": true,
+  "shared_context_not_independent": true
+}

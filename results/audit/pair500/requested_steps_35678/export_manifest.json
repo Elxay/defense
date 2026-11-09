@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-09T16:24:12.161624+00:00",
+  "source_steps": {
+    "2": "96611fc19442324795d9ee5e0cbafec40897168dd970f80617db922304ee32c8",
+    "3": "9f5dfcfeec860a495ecfcf61ab8968f0d9cae9f1ac594d7fa98f70e66ed514b2",
+    "4": "a27d3a15a4e6bae2e6997c0b252175805d17fb37bef6112d9b34a40e87bf34e2",
+    "5": "cbc77fd5fea10c360db7ad28c9500e1bfad259bb9e6f4a96f9f1cf703c393542",
+    "6": "4aad362a159ca2ca8c9d81a5430a6c8ae3eb70114b05c3afb1b414771a001204",
+    "7": "a56d5590c2fbb8094cc0516d69099deb7b6f5319fa7f8d65774a0f312f59f1eb",
+    "8": "8c41720874c594a201901aed08118661578ae4bea257f290329c0300c29cb4dd"
+  },
+  "files": {
+    "qwen_legal388_ids_only.json": "928902297a365d33907e770190ea7060b45c362105cda6617c4c9081adb8403f",
+    "qwen_val70_ids_only.json": "c6d4a9b3fbd790eef0b3ca87d12ac9e8b609214952239eaf9abdbafeb1447c55",
+    "all_units_vs_alpha0_retained_bounds.json": "a8cd86fa3ccfc80a79501959b46e19f9fd650941b2386ab2e8e556d795166090",
+    "unused139_and_complete_marked272.json": "e341907daadad26f8a299ef574669cf8672e235cd6150e556d9edf2120803448",
+    "Qwen_recall_audit_status.json": "2b50d1ac1b02507cd11d6961c2b354ac4768936e22d645234985972166a514ae"
+  },
+  "source_steps_not_modified": true,
+  "new_poolings_and_missing_label_bounds_are_post_read_requested_exports": true,
+  "raw_prompts_responses_not_exported": true
+}

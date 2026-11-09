@@ -1,0 +1,47 @@
+from pathlib import Path
+import datetime,fcntl,hashlib,json,shutil,subprocess
+R=Path('/data/HZX/Def');B=R/'results/audit/pair500';D=B/'read_order10/ordered_results';O=B/'requested_steps_35678';G=R/'prereg_repo'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def main():
+ now=datetime.datetime.now(datetime.timezone.utc).isoformat();s={i:json.loads((D/f'{i:02d}.json').read_text())['data']for i in [2,3,4,5,6,7,8]};q=json.loads((O/'Qwen_recall_audit_status.json').read_text());p=json.loads((O/'unused139_and_complete_marked272.json').read_text());r=json.loads((O/'all_units_vs_alpha0_retained_bounds.json').read_text());out=[]
+ def table(head,rows):out.append('| '+' | '.join(head)+' |\n|'+ '|'.join(['---']*len(head))+'|\n'+'\n'.join('| '+' | '.join(str(c)for c in row)+' |'for row in rows)+'\n')
+ def f(x):return '--'if x is None else f'{x:.2f}'
+ def bounds(v):return f(v[0])if abs(v[0]-v[1])<1e-9 else f'[{f(v[0])}, {f(v[1])}]'
+ out +=['# Requested PAIR-500 step3,5,6,7,8 exports\n',f'ExportUTC {now}. Existing eight read receipts are unchanged. New139-row pooling, complete272-row exposure correction and relative-rate missing-label bounds are post-read requested exports. Percentages are not pp; no INVALID is defaulted safe.\n','## Step3: alpha0, original denominator retained\n']
+ table(['Layer','HB yes/n (%)','WG yes/valid; retained % bounds','Gate'],[[layer,f"{s[2]['alpha0']['HB'][layer]['conditions']['alpha0']['yes']}/{s[2]['alpha0']['HB'][layer]['n_applicable']} ({f(s[2]['alpha0']['HB'][layer]['conditions']['alpha0']['valid_only_pct'])})",f"{s[2]['alpha0']['WildGuard'][layer]['conditions']['alpha0']['yes']}/{s[2]['alpha0']['WildGuard'][layer]['n_applicable']-s[2]['alpha0']['WildGuard'][layer]['conditions']['alpha0']['invalid']}; {bounds(s[2]['alpha0']['WildGuard'][layer]['conditions']['alpha0']['retained_bounds_pct'])}",'dynamic']for layer in ['standard','contextual','jbb']])
+ out.append('Copyright10/100 MinHash matches; below25%, no dynamic range. Not a harmfulness ASR. Pooled harmfulness baseline HB272/400=68%; WG222yes+2INVALID/400 gives55.5--56%.\n')
+ out.append('## Step5:126 allocations; row-weighted differences and leave-one-unit ranges\n')
+ table(['Judge','Layer','L-R pp','lower p','absolute-two-sided p','doubled-tail p','LOO pp'],[[j,layer,f(x['difference_pp']),f"{x['directional_lower_p']:.6f}",f"{x['two_sided_absolute_mean_statistic_p']:.6f}",f"{x['doubled_smaller_tail_p']:.6f}",bounds([min(x['leave_one_unit_pp'].values()),max(x['leave_one_unit_pp'].values())])]for j in ['HB','WildGuard','MinHash']for layer,vals in s[5][j].items()if layer in ['all_retained','standard','contextual','jbb']and(x:=vals['row_weighted'])])
+ out.append('Two-sided definitions differ on asymmetric5-versus4 allocations. Exchangeability is exploratory; intervals and allocation tests do not establish vector-population sampling.\n')
+ for j in ['HB','WildGuard']:
+  out.append(f'### Every seed versus direction, {j}, pp\n');x=s[5][j]['all_retained']['row_weighted']['seed_direction_pp'];table(['Seed','rand0','rand1','rand2','rand3'],[[n,*[f(v[f'rand{i}'])for i in range(4)]]for n,v in x.items()])
+ out.append('## Step6:downflip refusal attribution\nAll rows below have identical v2 and v2-union-v3 counts; each cell is v2 / union / WG-refusal / total-downflips. Repeated prompts across vectors are not independent.\n')
+ table(['Unit','HB downflips','WG downflips'],[[n,*[' / '.join(str(v[j][k])for k in ['v2_refusal','v2_union_v3_refusal','WG_refusal','down_flips'])for j in ['HB','WildGuard']]]for n,v in s[6]['downflip_attribution'].items()])
+ table(['Unit','valid n','v2-/WG-','v2-/WG+','v2+/WG-','v2+/WG+','kappa'],[[n,v['n'],*[v['counts'][k]for k in ['00','01','10','11']],f"{v['kappa']:.6f}"]for n,v in s[6]['v2_WG_refusal_agreement'].items()])
+ out.append('Refusal agreement uses500 retained rows including copyright refusal fields, with invalid pairs separately omitted from this conditional agreement table.\n## Step7:exposure layers\n')
+ table(['Stratum','retained n','HB applicable n','HB row pp','WG complete n','WG row pp','MinHash pp'],[[n,v['n_rows'],v['results']['HB']['all_retained']['n_retained'],f(v['results']['HB']['all_retained']['estimate']['row_mean_pp']),v['results']['WildGuard']['all_retained']['n_complete'],f(v['results']['WildGuard']['all_retained']['estimate']['row_mean_pp']),f(v['results']['MinHash']['all_retained']['estimate']['row_mean_pp'])]for n,v in s[7].items()])
+ out.append('The historical_group_used field is a narrower173-row group: it excludes99 train_strat97-only marked rows. It is NOT the complement of228 untouched rows. Original step7 remains unchanged; the complete complement is272 rows (261 harmfulness +11copyright), added explicitly below. This affects the exposure report label/coverage, not the original all400 main comparison.\n')
+ table(['New requested pooling','Judge','retained/applicable n','complete n','row pp [CI]','behavior pp [CI]','full-retained row bound'],[[name,j,x['n_retained'],x['n_complete'],f"{f(x['estimate']['row_mean_pp'])} {bounds(x['estimate']['row_cluster_ci95_pp'])}",f"{f(x['estimate']['behavior_mean_pp'])} {bounds(x['estimate']['behavior_cluster_ci95_pp'])}",bounds(x['retained_bounds']['row_pp'])]for name in ['unused139','marked272']for j in ['HB','WildGuard']if(x:=p[name]['results'][j]['all_retained'])])
+ out.append('## Step8:fixed-search diagnostics\n')
+ table(['Layer','n','zero score','fallback','<40 candidates','mean candidates among shortfall','exact cap hits / known selected tokens','pilot missing trace'],[[n,v['n'],v['zero_score'],v['fallback'],v['candidates_below40'],f(v['valid_candidate_sum_shortfall']/v['candidates_below40'])if v['candidates_below40']else'--',f"{v['exact_reached512']}/{v['exact_selected_tokens_known_n']}",v['pilot_no_trace_n']]for n,v in s[8]['by_panel'].items()if n in ['standard','contextual','copyright','jbb','all_retained']])
+ out.append('490 postpilot trace files but488 known selected-token counts;2 fallback rows lack a selected-candidate token count. Ten pilot rows have no exact trace. All-candidates-refusal status remains unknown; zero-score does not mean every candidate was a refusal.\n## Random directions versus alpha0\nRelative reduction=100*(alpha0_rate-condition_rate)/alpha0_rate; positive is decline. Full400-row ranges enumerate all possible missing binary labels; they are identification bounds, not CIs.\n')
+ for j in ['HB','WildGuard','MinHash']:
+  out.append(j+'\n');table(['Unit','condition %','change pp','relative decline %'],[[n,bounds(v['condition_pct_bounds']),bounds(v['delta_pp_bounds']),bounds(v['relative_reduction_pct_bounds'])]for n,v in r[j].items()if n.startswith('rand')])
+ out.append('## Standard harmful-response INVALID IDs\n')
+ for n,v in s[4]['field_diagnostics']['INVALID_ids_by_condition_field'].items():
+  if v['WG_Harmful_response']:out.append(n+': '+', '.join(v['WG_Harmful_response'])+'\n')
+ out +=['## Qwen refusal audit: not complete\n',f"Seeds legal={q['sets']['legal388']['seed']}, val70={q['sets']['val70']['seed']}, presentation={q['presentation_seed']}. Original combined ID-fileSHA256 `{q['original_combined_ID_file_sha256']}`.\n"]
+ for k,v in q['sets'].items():out.append(f"{k}: original v2-negative pool={v['pool']}, sample30; split ID JSON SHA256 `{v['export_ID_file_sha256']}`. These split files are exported now in original list order, not new samples or new pre-read hashes.\n")
+ out.append(f"Saved annotation batch has{q['saved_n']} rows; working progress has{q['working_n']}. Saved counts={q['batch_counts_by_set']}; working counts={q['working_counts_by_set']}. Conflict={q['conflicts']}; working-only IDs={q['working_only_ids']}. No full30/30 gate or final recall estimate exists. All saved/working labels are model annotations without human calibration, shared-context field masking rather than independent blind review. Training not admitted.\n")
+ out.append('Source receiptSHA256:\n'+'\n'.join(f'- Step{i}: `{sha(D/f"{i:02d}.json")}`'for i in [3,5,6,7,8]))
+ doc=R/'docs/291_PAIR_REQUESTED_STEPS_AND_QWEN_AUDIT_STATUS.md';assert not doc.exists();doc.write_text('\n'.join(out)+'\n')
+ log=f'{now} PAIR_REQUESTED_TABLES doc_SHA={sha(doc)}; postread_unused139_pooling_and_complete272_marked_layer; step7_old173_is_narrow_and_omits99_train_strat; original_steps_unchanged; Qwen_saved8_working10_conflict_review001_no_final_admission.\n'
+ for n in ['PREREG_LOG.txt','OPS_LOG.txt']:
+  with(R/'docs'/n).open('a')as f:f.write(log)
+ files=[str(doc.relative_to(R)),'docs/PREREG_LOG.txt','docs/OPS_LOG.txt',*[str(p.relative_to(R))for p in O.glob('*.json')],*['tools/handoff_20261106/'+n for n in ['pair254_requested_tables.py','publish_pair254_requested_tables.py']]]
+ with(R/'logs/prereg_publish.lock').open('a')as lock:
+  fcntl.flock(lock,fcntl.LOCK_EX);assert not subprocess.check_output(['git','status','--porcelain'],cwd=G,text=True).strip(),'Preserve unrelated changes'
+  for n in files:p=G/n;p.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(R/n,p)
+  subprocess.run(['git','add',*files],cwd=G,check=True);subprocess.run(['git','diff','--cached','--check'],cwd=G,check=True);subprocess.run(['git','commit','-m','Export requested PAIR tables, unused139 pooling and incomplete Qwen audit evidence'],cwd=G,check=True);subprocess.run(['git','push','origin','main'],cwd=G,check=True)
+ print(json.dumps({'utc':now,'commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=G,text=True).strip(),'report_sha256':sha(doc)}))
+if __name__=='__main__':main()
