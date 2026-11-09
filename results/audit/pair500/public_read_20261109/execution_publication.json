@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-09T00:06:10.708725+00:00",
+  "doc_sha256": "fc2630c0e7d7e0198ac5e8d40b8cfc89add58fefaad737ba2dd3c5fcbac04d05",
+  "script_sha256": "b16b84d2eac4e8de24a73992d1482321dd75ba4946a598cc9e63971eb8643f19",
+  "source_sha256": {
+    "src/judge/refusal.py": "498dfd485d3dce6b05551784d698cc9716016f4a2614d06738261e96f5323948",
+    "tools/handoff_20261106/audit.py": "cd5b40df5069783bd439c63d1dd3e9d9e30c8846cb83d3fde670a6d22da587a3",
+    "tools/handoff_20261106/analyze_doc246_complete.py": "b991b647614b3d1b295535121fe698b3cf18828bdfdaf880759d041cca2e7c0a",
+    "results/audit/pair500/wildguard_public/alpha0_inputs.private.json": "fb7c0e94a59db22bc33cdc65c9705872b1901fe796768b666b2d04e70aae9f28",
+    "results/audit/pair500/wildguard_public/old_s3_inputs.private.json": "cfd38f6291f4677f6c065a2c521bd44f941a7925453ccef8f2ad3797e91de826",
+    "results/audit/pair500/wildguard_public/old_s4_inputs.private.json": "bd8213f161bb25265afac625e03c4394ab7c985356aebfe57d090b9f8574aac6",
+    "results/audit/pair500/wildguard_public/old_s5_inputs.private.json": "15014366ac5564c76feb26c1b80e2c1bf7da0f6f87f4554be07c664465400657",
+    "results/audit/pair500/wildguard_public/old_s6_inputs.private.json": "1a0d04e997b22992e8ff5df8f0ba8c5f7e42e48178dcec5239e3a6c1eac68920",
+    "results/audit/pair500/wildguard_public/old_s7_inputs.private.json": "820d1e7943578b93498b226b96cb5a370429c06e61512080d54bb163e7753766",
+    "results/audit/pair500/wildguard_public/rand0_inputs.private.json": "1b562f7fdb1eb9dfb03dc8d6751e917c646879e967c5b5e4a30a06a66b85d5c7",
+    "results/audit/pair500/wildguard_public/rand1_inputs.private.json": "59df4e327043b2a14ddb2befbfd40939d25db52d369047527c83ad1783790e76",
+    "results/audit/pair500/wildguard_public/rand2_inputs.private.json": "cd08dba60dc69fce5cf77a00e8f7750db0a71db80d81127a5aeb9db6b41872b0",
+    "results/audit/pair500/wildguard_public/rand3_inputs.private.json": "9f999a90d313cd2d5f85483aaf8ca7cc3cc8178418f65d3d5a6e3495127eeae3"
+  },
+  "public_effects_read": false
+}
