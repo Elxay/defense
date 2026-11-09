@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-09T13:33:02.002263+00:00",
+  "archived_reservation": "results/audit/pair500/lease_priority/completed_reservations/gpu0_20261109_133302.json",
+  "reservation_sha256": "4047062c20cc02674e6832b82f417e23d212f0c986d27bb7f13380dcc65899ed",
+  "dead_registered_owner_pid": 2215464,
+  "PAIR_GPU_complete_sha256": "37273a2b2a7ae5ccad16c854776d7ec265d924d2f6b8c3698e11c0e61b5d53f1",
+  "reason": "expired closure reservation predates completed main stage; no owner process remains",
+  "GPU_memory_gate_unchanged": true,
+  "no_other_project_process_or_generation_modified": true
+}

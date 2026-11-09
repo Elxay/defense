@@ -1,0 +1,66 @@
+{
+  "utc": "2026-11-09T13:33:20.785542+00:00",
+  "step": 3,
+  "previous_receipt_sha256": "96611fc19442324795d9ee5e0cbafec40897168dd970f80617db922304ee32c8",
+  "snapshot_sha256": "6df806cc6f7170759c3725d949a87f057e7dae8a11dd12afcb6d6a4cd35ca25f",
+  "reader_code_sha256": "55e8983fefa45ed24cb6cc8890482da989405978b5b40b9a41f3e1965509ea4d",
+  "frozen_read_plan_sha256": "13142b579b8bbe89e7067fe1a164a54432010722d42df9d5c6c0cadaca32601c",
+  "data": {
+    "per_functional_layer": {
+      "HB": {
+        "standard": {
+          "alpha0_valid_only_pct": 64.0,
+          "retained_bounds_pct": [
+            64.0,
+            64.0
+          ],
+          "flag": "dynamic_range"
+        },
+        "contextual": {
+          "alpha0_valid_only_pct": 86.0,
+          "retained_bounds_pct": [
+            86.0,
+            86.0
+          ],
+          "flag": "dynamic_range"
+        },
+        "jbb": {
+          "alpha0_valid_only_pct": 58.0,
+          "retained_bounds_pct": [
+            58.0,
+            58.0
+          ],
+          "flag": "dynamic_range"
+        }
+      },
+      "WildGuard": {
+        "standard": {
+          "alpha0_valid_only_pct": 51.75879396984924,
+          "retained_bounds_pct": [
+            51.5,
+            52.0
+          ],
+          "flag": "dynamic_range"
+        },
+        "contextual": {
+          "alpha0_valid_only_pct": 77.77777777777777,
+          "retained_bounds_pct": [
+            77.0,
+            78.0
+          ],
+          "flag": "dynamic_range"
+        },
+        "jbb": {
+          "alpha0_valid_only_pct": 42.0,
+          "retained_bounds_pct": [
+            42.0,
+            42.0
+          ],
+          "flag": "dynamic_range"
+        }
+      }
+    },
+    "copyright_never_supports_abstract_efficacy": true,
+    "continue_all_frozen_conditions": true
+  }
+}

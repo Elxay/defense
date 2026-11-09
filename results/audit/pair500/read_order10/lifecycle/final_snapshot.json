@@ -1,0 +1,8 @@
+{
+  "observed_utc": "2026-11-09T11:56:26.879125+00:00",
+  "outcome_labels_read": false,
+  "snapshot_sha256": "6df806cc6f7170759c3725d949a87f057e7dae8a11dd12afcb6d6a4cd35ca25f",
+  "n": 500,
+  "snapshot_record_utc": "2026-11-09T11:56:11.867775+00:00",
+  "source": "actual final snapshot, not an early prefix"
+}

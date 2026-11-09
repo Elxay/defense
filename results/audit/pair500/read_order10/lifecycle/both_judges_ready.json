@@ -1,0 +1,9 @@
+{
+  "observed_utc": "2026-11-09T12:17:48.739625+00:00",
+  "outcome_labels_read": false,
+  "n": 500,
+  "units": 9,
+  "alpha0_included": true,
+  "snapshot_sha256": "6df806cc6f7170759c3725d949a87f057e7dae8a11dd12afcb6d6a4cd35ca25f",
+  "coverage_only": true
+}

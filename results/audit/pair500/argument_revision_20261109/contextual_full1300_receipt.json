@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-09T11:59:56.935669+00:00",
+  "file": "results/audit/pair500/tail_contextual_followup_20261109/contextual_all1300_length_audit.json",
+  "sha256": "0af80870bc659555772d6f605ca91533c2fab468a81a3fb43bbc4e235551a8ef",
+  "source_audit_script_sha256": "0b71fc558cea3dfb9ed841d8f26e2db8c0a225a6fe021ce6c9dcc60d4633c585",
+  "observer_sha256": "0580461052386c7f94ed114de0d13b612c93ac9c51a78e92721a2cb998958c5e",
+  "total": 1300,
+  "max_tokens": 1962,
+  "over1900": 23,
+  "over2048": 0,
+  "outcome_labels_read": false
+}

@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-09T13:43:16.448650+00:00",
+  "source_read_receipts": {
+    "01": "0f060375fd2330d2fb52d20fee4c12c90a430df6d3fe510b6fc4e8f3c1cd3487",
+    "02": "96611fc19442324795d9ee5e0cbafec40897168dd970f80617db922304ee32c8",
+    "03": "9f5dfcfeec860a495ecfcf61ab8968f0d9cae9f1ac594d7fa98f70e66ed514b2",
+    "04": "a27d3a15a4e6bae2e6997c0b252175805d17fb37bef6112d9b34a40e87bf34e2",
+    "05": "cbc77fd5fea10c360db7ad28c9500e1bfad259bb9e6f4a96f9f1cf703c393542",
+    "06": "4aad362a159ca2ca8c9d81a5430a6c8ae3eb70114b05c3afb1b414771a001204",
+    "07": "a56d5590c2fbb8094cc0516d69099deb7b6f5319fa7f8d65774a0f312f59f1eb",
+    "08": "8c41720874c594a201901aed08118661578ae4bea257f290329c0300c29cb4dd"
+  },
+  "modified_files": {
+    "paper/main.tex": "2fca62ae64a1a72b8664ea76689803bf02a0e98beb0821b488e58eca5c785eb4",
+    "paper/sections/04_results.tex": "71f4e03207814d8a78dcd171f3f6c3f14d635e9879593ae99f6128ad57d77e26",
+    "paper/sections/01_introduction.tex": "56176ced10b6ed534c145106d0fc063b42bd73652044710eecf3b276758c0c8b",
+    "paper/sections/06_limitations.tex": "2c5d2860f322666044f44eb57493464c8fcf953a9ea461b2a74854cb5b68b393",
+    "paper/generated/pair500_numbers.tex": "e17c77b548921f4ba9b8bcc4e7ee26f19fa6a69a26ed93c91c613e20e0fdc517"
+  },
+  "tex_inputs_checked": 39,
+  "missing_inputs": [],
+  "duplicate_labels": [],
+  "unresolved_refs": [],
+  "PDF_rebuilt": false,
+  "abstract_differences": "all harmfulness contrasts learned-minus-random; benign costs also learned-minus-random; paired-model judgments uncalibrated",
+  "new_model_vectors_counted": false
+}

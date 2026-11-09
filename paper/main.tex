@@ -8,9 +8,10 @@
 \author{Anonymous ACL submission}
 \begin{document}
 \input{generated/argument_numbers}
+\input{generated/pair500_numbers}
 \maketitle
 \begin{abstract}
-We audit learned additive steering at a single position, the final prompt token during prefill, in Llama-3.1-8B-Instruct. Qwen2.5-7B-Instruct is used for zero-training baselines. Our protocol compares learned vectors, norm-matched random directions, system prompts, and output filters using fixed prompts and versioned analysis decisions. HarmBench contextual behaviors receive their context during generation and contextual judging, while copyright behaviors use MinHash evaluation. We audit reference mapping, historical data exposure, generation metadata, refusal annotation, and run-to-run variation in our own pipeline.
+A lower automated attack success rate (ASR) does not by itself establish a better jailbreak defense. We audit a minimal learned intervention: one vector added once at the final prompt token of Llama-3.1-8B-Instruct. Our evaluation pairs harmfulness scores with norm-matched random controls, public refusal benchmarks, and benign requests with and without adversarial wrappers. Random vectors alone lower judged ASR by up to \valRandomMaxDrop{} percentage points on success-filtered prompts but at most about \wjbRandomMaxDrop{} on the WildJailbreak evaluation. Learned vectors lower it a further \wjbExtraMinDrop{}--\wjbExtraMaxDrop{} points there; on a new fixed rule-scored PAIR-style prompt set, the additional decrease is about \pairExtraWG{}--\pairExtraHB{} points across two model judges. In a post-hoc decomposition, most decreases accompany refusals. Benign refusal costs relative to random controls are about 9 points on wrapped WildJailbreak requests and 4 on OR-Bench-Hard; the XSTest safe difference is small and uncertain. Paired benign tests reproduce a wrapper-associated refusal gap. In our own pipeline, truncation, reference behaviors, decoding paths, refusal rules, and retraining variation also shift reported quantities. Model judgments remain uncalibrated by humans. We recommend reporting harmfulness scores alongside random controls, benign costs, and the measurement choices needed to interpret them.
 \end{abstract}
 \input{sections/01_introduction}
 \input{sections/02_related_work}

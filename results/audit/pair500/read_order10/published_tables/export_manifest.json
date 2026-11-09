@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-09T13:43:08.432167+00:00",
+  "read_receipts": {
+    "01": "0f060375fd2330d2fb52d20fee4c12c90a430df6d3fe510b6fc4e8f3c1cd3487",
+    "02": "96611fc19442324795d9ee5e0cbafec40897168dd970f80617db922304ee32c8",
+    "03": "9f5dfcfeec860a495ecfcf61ab8968f0d9cae9f1ac594d7fa98f70e66ed514b2",
+    "04": "a27d3a15a4e6bae2e6997c0b252175805d17fb37bef6112d9b34a40e87bf34e2",
+    "05": "cbc77fd5fea10c360db7ad28c9500e1bfad259bb9e6f4a96f9f1cf703c393542",
+    "06": "4aad362a159ca2ca8c9d81a5430a6c8ae3eb70114b05c3afb1b414771a001204",
+    "07": "a56d5590c2fbb8094cc0516d69099deb7b6f5319fa7f8d65774a0f312f59f1eb",
+    "08": "8c41720874c594a201901aed08118661578ae4bea257f290329c0300c29cb4dd"
+  },
+  "files": {
+    "results/audit/pair500/read_order10/published_tables/primary.csv": "5bbe2faa170505f781e546941cef2f37c26d8827a2b9d15034834f162dcc0148",
+    "results/audit/pair500/read_order10/published_tables/unit_rates.csv": "af4687ef8d8e5a56c9db0e614f43143f0f6bbc8528c110ef108df71f7f70ea43",
+    "results/audit/pair500/read_order10/published_tables/exposure.csv": "9c64144d487d28de9d9ee98f0f5125a24272130109907b9ebb230ab0622cbe05",
+    "results/audit/pair500/read_order10/published_tables/invalid_fields.csv": "37b54b4872afcb6fc573be20a2773f9b3d1fc58c68c63843e35ef7481cb22fa4",
+    "results/audit/pair500/read_order10/published_tables/downflip_attribution.csv": "b7b70cd46569850209f0cd48b0b8ab2371e93333532b0b42585ccb621f5263ca",
+    "paper/tables/pair500_primary.tex": "0c254dcc9bbdf116938a85dcf7c1a3239ff1ccc1c263dbd499ee174dfc42f1b1",
+    "paper/generated/pair500_completed_read.tex": "09289013dc2221c7aa955ab708d0ab081dfaae913d56dffa38b0d6a75be33dca",
+    "docs/289_PAIR500_COMPLETED_ORDERED_READ.md": "a51f5210328d1cdf43de0283e895c8da84c337e3a421511ac5488c2c459a2d33"
+  },
+  "raw_inference_text_opened": false,
+  "no_condition_or_queue_change_from_results": true
+}

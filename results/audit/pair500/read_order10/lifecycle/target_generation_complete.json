@@ -1,0 +1,9 @@
+{
+  "observed_utc": "2026-11-09T11:59:27.770861+00:00",
+  "outcome_labels_read": false,
+  "n": 500,
+  "conditions": 13,
+  "snapshot_sha256": "6df806cc6f7170759c3725d949a87f057e7dae8a11dd12afcb6d6a4cd35ca25f",
+  "last_atomic_file_mtime_utc": "2026-11-09T11:59:13.755903+00:00",
+  "mtime_scope": "Prefix output mtime; observed_utc is the completeness observation, not inferred search end. No generation text or labels selected."
+}
