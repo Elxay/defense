@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-09T09:46:17.301430+00:00",
+  "files": {
+    "docs/287_CROSSMODEL_DONOR_AUDIT_PROTOCOL.md": "46020ae8a764ba9a3fcc2988996e1d05c50eaa9828d7ba992c20a2d960a54111",
+    "results/audit/crossmodel287/protocol.json": "4faefb7b24bffd9c6914d8751168070266d2bbc71a97df9bb00218de30278f26",
+    "docs/PREREG_LOG.txt": "36f8a65a908be9ed3974d271107310c07f01fa3aee418533851e80439354ec5b",
+    "docs/OPS_LOG.txt": "5d8eb8ad2e0fc4fa9080c8bb01353bbb9f0eca661e2530b478b8214cf7d0f2f8",
+    "tools/handoff_20261106/freeze_crossmodel287.py": "97b2ee63235a7f6c0700f98c6a157ef95661daa52ee5279f4d346157a4108045",
+    "tools/handoff_20261106/crossmodel287_download.py": "9fa0d0bc8c79327470294645f54e20d80e4c0040816c9f57c0e03f75130ca6be",
+    "tools/handoff_20261106/probe_crossmodel_assets.py": "080f3c78660c59c3601b22fb6db3c779191294e3e48ed9c755aa6957deac6531",
+    "results/audit/crossmodel287/model_access_probe.json": "009616a17d705e810f72e5a63e8cc4f3c0e198ca8f78c9e25c3de1cf688c48ec"
+  },
+  "raw_text_published": false
+}

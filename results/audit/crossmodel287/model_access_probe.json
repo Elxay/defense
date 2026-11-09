@@ -1,0 +1,204 @@
+{
+  "utc": "2026-11-09T09:29:18.122611+00:00",
+  "credential_available": false,
+  "disk_free_bytes": 2908370702336,
+  "models": {
+    "gemma": {
+      "repo": "google/gemma-2-9b-it",
+      "attempts": [
+        {
+          "endpoint": "https://huggingface.co",
+          "error_type": "ConnectionError"
+        },
+        {
+          "endpoint": "https://hf-mirror.com",
+          "metadata_status": 200
+        }
+      ],
+      "endpoint": "https://hf-mirror.com",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "gated": "manual",
+      "files": [
+        {
+          "name": "model-00001-of-00004.safetensors",
+          "bytes": 4903351912,
+          "lfs_sha256": "a0d4eb4fcbddfe01b0dc7a58386a3980826ededaf0ecd67d1ef38995b89615ba"
+        },
+        {
+          "name": "model-00002-of-00004.safetensors",
+          "bytes": 4947570872,
+          "lfs_sha256": "712a589c333f49f7b6f3870838a9e0ab4b3c0260abd5130e8c54316e6c99640b"
+        },
+        {
+          "name": "model-00003-of-00004.safetensors",
+          "bytes": 4962221464,
+          "lfs_sha256": "5a9f84eb9846840802200c6502ccaaebf0a146ee89dcb8822fab795c392dd667"
+        },
+        {
+          "name": "model-00004-of-00004.safetensors",
+          "bytes": 3670322200,
+          "lfs_sha256": "3349b4960bbc0bf7e47a624e5c520881adb06e2da4bda6ed14b51c7f647fe26c"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 39072,
+          "lfs_sha256": null
+        }
+      ],
+      "metadata_sha256": "e6b7b84ae614e97e28c1c76fcb6cacee529fa7cc968cd0d08ad1d37f51e19f59",
+      "config_access": {
+        "config.json": {
+          "status": 403
+        },
+        "tokenizer_config.json": {
+          "status": 403
+        },
+        "README.md": {
+          "status": 200,
+          "sha256": "8a652ed735e12e4d8241edad2d974aa64ff6e13e8327ec17c9922d9577e9b216"
+        }
+      }
+    },
+    "qwen": {
+      "repo": "Qwen/Qwen2.5-7B-Instruct",
+      "attempts": [
+        {
+          "endpoint": "https://huggingface.co",
+          "error_type": "ConnectionError"
+        },
+        {
+          "endpoint": "https://hf-mirror.com",
+          "metadata_status": 200
+        }
+      ],
+      "endpoint": "https://hf-mirror.com",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "gated": false,
+      "files": [
+        {
+          "name": "model-00001-of-00004.safetensors",
+          "bytes": 3945441440,
+          "lfs_sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7"
+        },
+        {
+          "name": "model-00002-of-00004.safetensors",
+          "bytes": 3864726352,
+          "lfs_sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185"
+        },
+        {
+          "name": "model-00003-of-00004.safetensors",
+          "bytes": 3864726424,
+          "lfs_sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5"
+        },
+        {
+          "name": "model-00004-of-00004.safetensors",
+          "bytes": 3556377672,
+          "lfs_sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 27752,
+          "lfs_sha256": null
+        }
+      ],
+      "metadata_sha256": "7726608dc75ee803b9e34e61827a16a4d1856e9954ceaa6c1d189fed0e76fbc9",
+      "config_access": {
+        "config.json": {
+          "status": 200,
+          "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+        },
+        "tokenizer_config.json": {
+          "status": 200,
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+        },
+        "README.md": {
+          "status": 200,
+          "sha256": "f366f33bbf6bcadbb7d87f0a21a7b65584a56b8d58b0743c77c88bee625b93a6"
+        }
+      },
+      "config": {
+        "model_type": "qwen2",
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "hidden_size": 3584,
+        "num_hidden_layers": 28,
+        "max_position_embeddings": 32768,
+        "torch_dtype": "bfloat16",
+        "sliding_window": 131072,
+        "num_attention_heads": 28,
+        "num_key_value_heads": 4
+      },
+      "tokenizer_template_present": true,
+      "system_rejection_literal": false
+    },
+    "vicuna": {
+      "repo": "lmsys/vicuna-13b-v1.5",
+      "attempts": [
+        {
+          "endpoint": "https://huggingface.co",
+          "error_type": "ConnectionError"
+        },
+        {
+          "endpoint": "https://hf-mirror.com",
+          "metadata_status": 200
+        }
+      ],
+      "endpoint": "https://hf-mirror.com",
+      "revision": "c8327bf999adbd2efe2e75f6509fa01436100dc2",
+      "gated": false,
+      "files": [
+        {
+          "name": "pytorch_model-00001-of-00003.bin",
+          "bytes": 9948728430,
+          "lfs_sha256": "e9b54ba4bf8f87c6129f1e35c63d1ed248971d827ee5559f1a3bb48b39e43187"
+        },
+        {
+          "name": "pytorch_model-00002-of-00003.bin",
+          "bytes": 9904165024,
+          "lfs_sha256": "ade40ae3180cbe5553278edb8e61ff4f2059f62be12b06f253b373838c199221"
+        },
+        {
+          "name": "pytorch_model-00003-of-00003.bin",
+          "bytes": 6178983625,
+          "lfs_sha256": "b4bd8cf2ab7e7bf22aaaf9b35ec5d41602d83f5a97bb82e17662ffe0a20ab215"
+        },
+        {
+          "name": "pytorch_model.bin.index.json",
+          "bytes": 33444,
+          "lfs_sha256": null
+        }
+      ],
+      "metadata_sha256": "be2169571f0e9d6df6cf96b3e5e5cdf44c5e1c1bb1644848885d53b81ac565a3",
+      "config_access": {
+        "config.json": {
+          "status": 200,
+          "sha256": "ff01ad505c4699a6be3bfc9365dce9e4205d35cb3a2a1df10a79ceb52ab5d2ed"
+        },
+        "tokenizer_config.json": {
+          "status": 200,
+          "sha256": "1cbc84c8a5b41e0ec24e0da66677773569fb0ccfa753d5d184e343e2ec3815a0"
+        },
+        "README.md": {
+          "status": 200,
+          "sha256": "85ad8c42579b1f14c60ae46ec324f42a4da748d23b47dab837c7b8e5636abd85"
+        }
+      },
+      "config": {
+        "model_type": "llama",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "hidden_size": 5120,
+        "num_hidden_layers": 40,
+        "max_position_embeddings": 4096,
+        "torch_dtype": "float16",
+        "sliding_window": null,
+        "num_attention_heads": 40,
+        "num_key_value_heads": 40
+      },
+      "tokenizer_template_present": false,
+      "system_rejection_literal": false
+    }
+  }
+}
