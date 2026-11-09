@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-09T05:06:24.558348+00:00",
+  "files": {
+    "docs/254_LEASE_PRIORITY_DEPLOYMENT_STATUS.md": "c8a2718c16144f0a46705de0f08ae3fd38232eeed7d2d283a96542b427ba7c61",
+    "docs/PREREG_LOG.txt": "81934232d1f9accb9893d7223347c65aa11fee16b3f77d3a9bbddc6af83007d6",
+    "docs/OPS_LOG.txt": "97e7039a9c2a3a8210b26e6c1d2d945742e8893654415a15d551c5b965f2e109",
+    "tools/handoff_20261106/export_lease_deployment_status.py": "433cb73ceeba412edcf5147170fc0f212d1789eaf2f12276cbe4c761ea41ff90",
+    "tools/handoff_20261106/publish_lease_deployment_evidence.py": "40c62dd8996b6a1e925b13cb694e681b146c33d0fc61a96ac024c312a96f84d1",
+    "results/audit/pair500/lease_priority_followup_20261109/deployment/snapshot_20261109T050607.json": "6d731bccc3684075b731d9db1ce0ade6eab52ef2e16c5fe298c3a3b2c736e032",
+    "results/audit/pair500/lease_priority/first_tail_metadata_qa.json": "e5a50b125a4084d50ed26251a562ebae24a38030a99c2d5c7d4ed66c66d3dcd4",
+    "results/audit/pair500/lease_priority/first_tail_metadata_qa_addendum.json": "8d74ee04069c0c9f8fce04c4baa068c82839bc19791aec261533308594a8e21f",
+    "results/audit/pair500/lease_priority/caught_up/428.json": "bd7f715879e890b50c3019c43e8f8b361c2b40f3a984c946834efaa930f2cc43"
+  },
+  "PAIR_outcomes_read": false,
+  "no_raw_attacks_or_outputs": true
+}

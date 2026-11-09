@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-09T05:00:34.355146+00:00",
+  "source_rows": 428,
+  "coverage": {
+    "alpha0": 428,
+    "old_s3": 428,
+    "rand0": 428,
+    "old_s4": 428,
+    "rand1": 428,
+    "old_s5": 428,
+    "rand2": 428,
+    "old_s6": 428,
+    "rand3": 428,
+    "old_s7": 428,
+    "old_s0": 428,
+    "SYS_A": 428,
+    "SYS_B": 428
+  },
+  "source_manifest_sha256": "4c96b25b23bf8be25d76e77cd2563c3b6864ace9f84e648dddd994174a186661",
+  "effects_read": false
+}

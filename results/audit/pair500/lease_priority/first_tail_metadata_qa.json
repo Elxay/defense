@@ -1,0 +1,95 @@
+{
+  "utc": "2026-11-09T05:01:23.620949+00:00",
+  "scope": "first deployed auxiliary records; metadata only, no refusal or harm labels",
+  "families": {
+    "public": {
+      "files": 3,
+      "rows": 24,
+      "field_coverage": {
+        "prompt_sha256": 24,
+        "input_ids_sha256": 24,
+        "device_uuid": 24,
+        "vector_sha256": 24,
+        "new_tokens": 24,
+        "eos_hit_generation_config": 24,
+        "hit_max_new_tokens": 24,
+        "execution_signature_sha256": 24,
+        "injection_count": 24,
+        "rho_runtime": 24
+      },
+      "item_keys": [
+        "id",
+        "text",
+        "v2_refusal",
+        "vector_sha256",
+        "injection_count",
+        "prefill_hook_count",
+        "rho_runtime",
+        "delta_norm_runtime",
+        "host",
+        "physical_device",
+        "device_uuid",
+        "metadata_origin",
+        "prompt_sha256",
+        "input_ids_sha256",
+        "condition",
+        "new_tokens",
+        "eos_hit_generation_config",
+        "hit_max_new_tokens",
+        "execution_signature",
+        "execution_signature_sha256"
+      ],
+      "record_keys": [
+        "signature",
+        "items",
+        "execution_observation"
+      ],
+      "physical_devices": [
+        "cuda:3"
+      ],
+      "source_files_manifest_sha256": "24607fa024901021fcfdec6c05f4d575c775f65d261f18f4eaeb02370154d6a9"
+    },
+    "harmful": {
+      "files": 4,
+      "rows": 4,
+      "field_coverage": {
+        "prompt_sha256": 4,
+        "input_ids_sha256": 4,
+        "device_uuid": 4,
+        "vector_sha256": 4,
+        "new_tokens": 4,
+        "eos_hit_generation_config": 4,
+        "hit_max_new_tokens": 4,
+        "execution_signature_sha256": 4,
+        "injection_count": 0,
+        "rho_runtime": 0
+      },
+      "item_keys": [
+        "id",
+        "text",
+        "v2_refusal",
+        "prompt_sha256",
+        "input_ids_sha256",
+        "device_uuid",
+        "physical_device",
+        "condition",
+        "vector_sha256",
+        "new_tokens",
+        "eos_hit_generation_config",
+        "hit_max_new_tokens",
+        "execution_signature",
+        "execution_signature_sha256"
+      ],
+      "record_keys": [
+        "signature",
+        "items",
+        "generation",
+        "execution_observation"
+      ],
+      "physical_devices": [
+        "cuda:0"
+      ],
+      "source_files_manifest_sha256": "80dac0be3f5b2f6412f167a76921c6074907245e4098767930800e959634f066"
+    }
+  }
+}

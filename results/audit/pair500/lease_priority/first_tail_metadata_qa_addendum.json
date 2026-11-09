@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-09T05:01:51.343836+00:00",
+  "clarification": "Harmful injection metadata is stored at record.generation; public injection metadata at each item. No generation record edited.",
+  "families": {
+    "harmful": {
+      "rows": 10,
+      "injection_metadata_complete": 10,
+      "injection_count_values": [
+        1
+      ],
+      "rho_min": 5.210000038146973,
+      "rho_max": 5.210000038146973
+    },
+    "public": {
+      "rows": 24,
+      "injection_metadata_complete": 24,
+      "injection_count_values": [
+        1
+      ],
+      "rho_min": 5.210000038146973,
+      "rho_max": 5.210000038146973
+    }
+  }
+}
