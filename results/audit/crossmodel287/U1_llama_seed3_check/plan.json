@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-09T14:29:21.991604+00:00",
+  "seed": 3,
+  "teacher_file": "results/style_intervention/old_recipe_targets.json",
+  "teacher_sha256": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+  "old_trainer_sha256": "e7dc6b09cd6f2d6b2f5702a0393c0fc812e7762acba0fde5b884fce36ef56106",
+  "worker_sha256": "78de95565c1c7f6fe4d3562b9fe16b1b7476c5a5c6a3d07864b4b878bdfe13f1",
+  "initialization_file": "results/style_intervention/init_theta_s3.npy",
+  "initialization_sha256": "7b3c5b8e979b38248c884f2ba7cb095d69f464a9ee886832bb4376378d323c8c",
+  "frozen_vector_sha256": "033c4189b40642d3b800e90f9e5c1ba0dad61aacaa6e3a80304974cfea5a3eee",
+  "same_40_steps_lr0_005_keep_weight0_075": true,
+  "generate_new_targets": false,
+  "generate_eval_outputs": false,
+  "physical_gpu": 2,
+  "launch_job_wait_gpu_2000MiB_shared_flock_required": true,
+  "allocation_deadline_utc": "2026-11-09T15:00:00+00:00",
+  "read_cosine_only_after_complete": true,
+  "interpretation": "Report cosine and L2 distance to frozen same seed; >=0.999 is the user-suggested descriptive closeness reference, not a proof of target equivalence or quantified training noise. Preserve every result.",
+  "new_model_training_waits_for_this_check_and_individual_refusal_admission": true
+}
