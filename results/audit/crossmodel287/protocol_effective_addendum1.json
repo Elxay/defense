@@ -1,0 +1,66 @@
+{
+  "utc": "2026-11-09T09:46:17.301430+00:00",
+  "status": "before_new_model_norm_probes_targets_training_and_test_conditions",
+  "learned_seeds": [
+    3,
+    4,
+    5
+  ],
+  "random_seeds": [
+    61000,
+    61001
+  ],
+  "optional_random_seed": 61002,
+  "sources": {
+    "configs/stage0_data/attacks_fit12.json": "5b8886a62359507fab970ff3297c36951503a910a10393a663beb0ebd2188bc7",
+    "configs/keep60_ids.json": "79739bba96f014e53807b58a26a0ecd4b7079a35c630c4494184553337dfb8be",
+    "results/style_intervention/old_recipe_targets.json": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+    "stage136/keep60_seed.py": "e7dc6b09cd6f2d6b2f5702a0393c0fc812e7762acba0fde5b884fce36ef56106",
+    "src/judge/refusal.py": "498dfd485d3dce6b05551784d698cc9716016f4a2614d06738261e96f5323948"
+  },
+  "model_access_probe_sha256": "009616a17d705e810f72e5a63e8cc4f3c0e198ca8f78c9e25c3de1cf688c48ec",
+  "models": {
+    "qwen": {
+      "repo": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "layers": 28,
+      "hidden_size": 3584,
+      "injection_block_zero_based": 8,
+      "donor_block_zero_based": 11,
+      "donor_hidden_index": 12
+    },
+    "gemma": {
+      "repo": "google/gemma-2-9b-it",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "layers": 42,
+      "hidden_size": 3584,
+      "injection_block_zero_based": 12,
+      "donor_block_zero_based": 17,
+      "donor_hidden_index": 18
+    },
+    "vicuna": {
+      "repo": "lmsys/vicuna-13b-v1.5",
+      "revision": "c8327bf999adbd2efe2e75f6509fa01436100dc2",
+      "layers": 40,
+      "hidden_size": 5120,
+      "injection_block_zero_based": 12,
+      "donor_block_zero_based": 16,
+      "donor_hidden_index": 17
+    }
+  },
+  "alpha_grid": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5
+  ],
+  "norm_rule": "median float32 L2 of native block-output residual at final rendered prompt token over all keep60",
+  "selection_target": "R0 + 0.5*(1-R0), v2 refusal on val70; model-shared alpha across three learned seeds",
+  "native_donor_preserved": true,
+  "new_test_effects_read": false,
+  "effective_addendum1_utc": "2026-11-09T09:49:13.461257+00:00",
+  "donor_index_correction_sha256": "339d7d0e4841b7b30fcade3cac196925ece15532493890b05a66056f85a68c72"
+}
