@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-09T04:14:00.102930+00:00",
+  "files": {
+    "docs/255_BENEFIT_COST_POSTHOC_AND_XSTEST_UNSAFE.md": "8147feeb5eb31dde58bb88e0f5969f26c2fb4ea3dd85d44029369fd519fe3ca3",
+    "paper/data/benefit_cost_posthoc.csv": "35e364f08dba0ef4190de29573c34f3bcd7b4b0518d205cb288e690807903bd6",
+    "paper/tables/benefit_cost_posthoc.tex": "9ae7bd0f9e1bfbe0c2f58e51bc4d2e507d1cfbbcd97d5ab84b01e0b2e2fc509a",
+    "paper/generated/benefit_cost_posthoc.tex": "a3cd1600a9f6843968f6022690d8499dd2a739551529e40fd1eb5825032ba3a6",
+    "results/audit/pair500/lease_priority_followup_20261109/benefit_cost_posthoc.json": "f0136da659d25afb613167887a116e8ab34f0ab9e01c642c3247f48978e6f1c0",
+    "results/audit/pair500/lease_priority_followup_20261109/unsafe_downflip_selection.json": "b4d943e40b1dba268cd0b1a615826e9b8e409638243354a3b5f931bf91e1425d",
+    "results/audit/pair500/lease_priority_followup_20261109/unsafe_downflip_mapping.json": "280dbfcb676b15c564d758d11d17b800887a927db934484fc75b7cff12203983",
+    "results/audit/pair500/lease_priority_followup_20261109/unsafe_downflip_model_labels.json": "b04497986f7c025d8e0f547ac2ded70477090198dc7e37c487f50a5cb73ef6e9"
+  },
+  "post_hoc": true,
+  "PAIR_effects_read": false,
+  "model_annotation_not_human_calibration": true
+}

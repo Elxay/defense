@@ -1,0 +1,296 @@
+[
+  {
+    "review_index": 1,
+    "condition": "old_s7",
+    "id": "7dd8724e6045e47c54a04214e2d20e3fde9f783282349299e7ba35bf42fcbb5c",
+    "original_id": "xst_310"
+  },
+  {
+    "review_index": 2,
+    "condition": "old_s7",
+    "id": "005c0d447ba63fb2366170be17f507913c4f6230ac1dbd703aa9806e6e8ed307",
+    "original_id": "xst_238"
+  },
+  {
+    "review_index": 3,
+    "condition": "old_s6",
+    "id": "f2e2e881b56338563f286bcfc6a006dfd750e0856c6acfc10599302cd5765e6f",
+    "original_id": "xst_185"
+  },
+  {
+    "review_index": 4,
+    "condition": "old_s5",
+    "id": "26a3f803b538ddf8386d1c7cb4d470c092dab739b482cd0857819e196cb48fa7",
+    "original_id": "xst_48"
+  },
+  {
+    "review_index": 5,
+    "condition": "old_s6",
+    "id": "7dd8724e6045e47c54a04214e2d20e3fde9f783282349299e7ba35bf42fcbb5c",
+    "original_id": "xst_310"
+  },
+  {
+    "review_index": 6,
+    "condition": "old_s6",
+    "id": "c36aabe6a537c14960a696b86ac1db154b33e4d664730640c26e68dbdaeba561",
+    "original_id": "xst_323"
+  },
+  {
+    "review_index": 7,
+    "condition": "old_s4",
+    "id": "70cbd58560270895ec0885e2bfda8def28487edc4a9963cd04be941710dd66aa",
+    "original_id": "xst_41"
+  },
+  {
+    "review_index": 8,
+    "condition": "old_s3",
+    "id": "4b974382b538f38ca0b269d807d25014771920f59fc231f5ea2f90f6869697e3",
+    "original_id": "xst_313"
+  },
+  {
+    "review_index": 9,
+    "condition": "old_s3",
+    "id": "52c86cfd3d966b82681671a5d5d091974d3a318d2150a645e0872afcbfd21ceb",
+    "original_id": "xst_98"
+  },
+  {
+    "review_index": 10,
+    "condition": "old_s7",
+    "id": "52c86cfd3d966b82681671a5d5d091974d3a318d2150a645e0872afcbfd21ceb",
+    "original_id": "xst_98"
+  },
+  {
+    "review_index": 11,
+    "condition": "old_s5",
+    "id": "0567e773b20478bf95a8519de0c2cb8030698ad9ccc5a6e204fb0abca4f5b553",
+    "original_id": "xst_137"
+  },
+  {
+    "review_index": 12,
+    "condition": "old_s5",
+    "id": "7dd8724e6045e47c54a04214e2d20e3fde9f783282349299e7ba35bf42fcbb5c",
+    "original_id": "xst_310"
+  },
+  {
+    "review_index": 13,
+    "condition": "old_s3",
+    "id": "f2e2e881b56338563f286bcfc6a006dfd750e0856c6acfc10599302cd5765e6f",
+    "original_id": "xst_185"
+  },
+  {
+    "review_index": 14,
+    "condition": "old_s5",
+    "id": "4b974382b538f38ca0b269d807d25014771920f59fc231f5ea2f90f6869697e3",
+    "original_id": "xst_313"
+  },
+  {
+    "review_index": 15,
+    "condition": "old_s6",
+    "id": "d752a601ee7a510cda7d19dcd2a4570083606d3fa129956d38bd9b332202406e",
+    "original_id": "xst_449"
+  },
+  {
+    "review_index": 16,
+    "condition": "old_s5",
+    "id": "a66dc181c12f5c148d1aeaf5311a06beeef714c5cd7a3cfbf95e4a8f202baffd",
+    "original_id": "xst_361"
+  },
+  {
+    "review_index": 17,
+    "condition": "old_s7",
+    "id": "c36aabe6a537c14960a696b86ac1db154b33e4d664730640c26e68dbdaeba561",
+    "original_id": "xst_323"
+  },
+  {
+    "review_index": 18,
+    "condition": "old_s7",
+    "id": "63513fc10d899482caf03f552e12650f0a56ba099d67f09e656461665983e0ed",
+    "original_id": "xst_80"
+  },
+  {
+    "review_index": 19,
+    "condition": "old_s6",
+    "id": "2d047c21e6ab99c8c43ac7ecc7a89ba94680c9c3fa5dc5018d59c88d75360219",
+    "original_id": "xst_308"
+  },
+  {
+    "review_index": 20,
+    "condition": "old_s4",
+    "id": "f2e2e881b56338563f286bcfc6a006dfd750e0856c6acfc10599302cd5765e6f",
+    "original_id": "xst_185"
+  },
+  {
+    "review_index": 21,
+    "condition": "old_s7",
+    "id": "2d047c21e6ab99c8c43ac7ecc7a89ba94680c9c3fa5dc5018d59c88d75360219",
+    "original_id": "xst_308"
+  },
+  {
+    "review_index": 22,
+    "condition": "old_s7",
+    "id": "b9cbc3ced4a30e380c0a939e881097d64d572ae4cd9f8c4e2e792537eac5bf40",
+    "original_id": "xst_324"
+  },
+  {
+    "review_index": 23,
+    "condition": "old_s4",
+    "id": "4b974382b538f38ca0b269d807d25014771920f59fc231f5ea2f90f6869697e3",
+    "original_id": "xst_313"
+  },
+  {
+    "review_index": 24,
+    "condition": "old_s7",
+    "id": "6fb82fc086f03b8b692b779812690d7d06c153c7ffb7844bd66ff5c20217ab5c",
+    "original_id": "xst_303"
+  },
+  {
+    "review_index": 25,
+    "condition": "old_s7",
+    "id": "6161f54c5f4354a7711d875009e891e87a91ab1d51cf7325105d7222de5a7ce8",
+    "original_id": "xst_176"
+  },
+  {
+    "review_index": 26,
+    "condition": "old_s3",
+    "id": "c36aabe6a537c14960a696b86ac1db154b33e4d664730640c26e68dbdaeba561",
+    "original_id": "xst_323"
+  },
+  {
+    "review_index": 27,
+    "condition": "old_s7",
+    "id": "a66dc181c12f5c148d1aeaf5311a06beeef714c5cd7a3cfbf95e4a8f202baffd",
+    "original_id": "xst_361"
+  },
+  {
+    "review_index": 28,
+    "condition": "old_s6",
+    "id": "a66dc181c12f5c148d1aeaf5311a06beeef714c5cd7a3cfbf95e4a8f202baffd",
+    "original_id": "xst_361"
+  },
+  {
+    "review_index": 29,
+    "condition": "old_s6",
+    "id": "4b974382b538f38ca0b269d807d25014771920f59fc231f5ea2f90f6869697e3",
+    "original_id": "xst_313"
+  },
+  {
+    "review_index": 30,
+    "condition": "old_s4",
+    "id": "6161f54c5f4354a7711d875009e891e87a91ab1d51cf7325105d7222de5a7ce8",
+    "original_id": "xst_176"
+  },
+  {
+    "review_index": 31,
+    "condition": "old_s5",
+    "id": "6161f54c5f4354a7711d875009e891e87a91ab1d51cf7325105d7222de5a7ce8",
+    "original_id": "xst_176"
+  },
+  {
+    "review_index": 32,
+    "condition": "old_s4",
+    "id": "7dd8724e6045e47c54a04214e2d20e3fde9f783282349299e7ba35bf42fcbb5c",
+    "original_id": "xst_310"
+  },
+  {
+    "review_index": 33,
+    "condition": "old_s4",
+    "id": "52c86cfd3d966b82681671a5d5d091974d3a318d2150a645e0872afcbfd21ceb",
+    "original_id": "xst_98"
+  },
+  {
+    "review_index": 34,
+    "condition": "old_s7",
+    "id": "6a9f9cacbd7c34ffb8941d1caf5735a284604f2f96d8e27d8c224896cf8a128a",
+    "original_id": "xst_44"
+  },
+  {
+    "review_index": 35,
+    "condition": "old_s5",
+    "id": "f2e2e881b56338563f286bcfc6a006dfd750e0856c6acfc10599302cd5765e6f",
+    "original_id": "xst_185"
+  },
+  {
+    "review_index": 36,
+    "condition": "old_s5",
+    "id": "c36aabe6a537c14960a696b86ac1db154b33e4d664730640c26e68dbdaeba561",
+    "original_id": "xst_323"
+  },
+  {
+    "review_index": 37,
+    "condition": "old_s5",
+    "id": "70cbd58560270895ec0885e2bfda8def28487edc4a9963cd04be941710dd66aa",
+    "original_id": "xst_41"
+  },
+  {
+    "review_index": 38,
+    "condition": "old_s3",
+    "id": "70cbd58560270895ec0885e2bfda8def28487edc4a9963cd04be941710dd66aa",
+    "original_id": "xst_41"
+  },
+  {
+    "review_index": 39,
+    "condition": "old_s7",
+    "id": "4b974382b538f38ca0b269d807d25014771920f59fc231f5ea2f90f6869697e3",
+    "original_id": "xst_313"
+  },
+  {
+    "review_index": 40,
+    "condition": "old_s4",
+    "id": "2d047c21e6ab99c8c43ac7ecc7a89ba94680c9c3fa5dc5018d59c88d75360219",
+    "original_id": "xst_308"
+  },
+  {
+    "review_index": 41,
+    "condition": "old_s5",
+    "id": "63513fc10d899482caf03f552e12650f0a56ba099d67f09e656461665983e0ed",
+    "original_id": "xst_80"
+  },
+  {
+    "review_index": 42,
+    "condition": "old_s7",
+    "id": "70cbd58560270895ec0885e2bfda8def28487edc4a9963cd04be941710dd66aa",
+    "original_id": "xst_41"
+  },
+  {
+    "review_index": 43,
+    "condition": "old_s5",
+    "id": "52c86cfd3d966b82681671a5d5d091974d3a318d2150a645e0872afcbfd21ceb",
+    "original_id": "xst_98"
+  },
+  {
+    "review_index": 44,
+    "condition": "old_s4",
+    "id": "c9b0f323c3c8d68bf99a388823c2af29a68c1c79a7e8f00c1373504b18fea299",
+    "original_id": "xst_29"
+  },
+  {
+    "review_index": 45,
+    "condition": "old_s7",
+    "id": "f2e2e881b56338563f286bcfc6a006dfd750e0856c6acfc10599302cd5765e6f",
+    "original_id": "xst_185"
+  },
+  {
+    "review_index": 46,
+    "condition": "old_s3",
+    "id": "6161f54c5f4354a7711d875009e891e87a91ab1d51cf7325105d7222de5a7ce8",
+    "original_id": "xst_176"
+  },
+  {
+    "review_index": 47,
+    "condition": "old_s5",
+    "id": "005c0d447ba63fb2366170be17f507913c4f6230ac1dbd703aa9806e6e8ed307",
+    "original_id": "xst_238"
+  },
+  {
+    "review_index": 48,
+    "condition": "old_s5",
+    "id": "6777ea5bb211f3b28cd85e1217a4ca7fde9f12f81d566d9b73413bec34231f6d",
+    "original_id": "xst_194"
+  },
+  {
+    "review_index": 49,
+    "condition": "old_s3",
+    "id": "c9b0f323c3c8d68bf99a388823c2af29a68c1c79a7e8f00c1373504b18fea299",
+    "original_id": "xst_29"
+  }
+]

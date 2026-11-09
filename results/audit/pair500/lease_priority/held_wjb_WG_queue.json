@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-09T04:17:42.568634+00:00",
+  "pid": 750029,
+  "start_ticks": "226740474",
+  "phase_before": "waiting_complete_target_outputs",
+  "reason": "PAIR WildGuard priority; not an external process"
+}

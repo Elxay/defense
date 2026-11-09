@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lrrrrr}
+\toprule
+Prompt set & $n$ & Zero (\%) & Learned mean (\%) & Random mean (\%) & Learned--zero (pp) \\
+\midrule
+WildJailbreak harmful, wrapped & 2000 & 31.80 & 65.24 & 35.79 & +33.44 \\
+WildJailbreak benign, wrapped & 210 & 1.43 & 10.48 & 1.43 & +9.05 \\
+OR-Bench-Hard & 1319 & 28.35 & 34.24 & 30.29 & +5.88 \\
+XSTest safe & 250 & 6.80 & 7.20 & 8.40 & +0.40 \\
+XSTest unsafe & 200 & 96.00 & 92.10 & 96.00 & -3.90 \\
+\bottomrule
+\end{tabular}
+\caption{Post-hoc juxtaposition of v2 operational refusal rates. Five learned vectors and four norm-matched random directions are averaged separately. Harmful responses use a single-row2400-token path; public responses use the matched batch8,120-token path. Datasets differ in content, construction and size; this is not a paired selectivity estimate. Source CSV and JSON hashes are preserved.}
+\label{tab:benefit-cost-posthoc}
+\end{table*}

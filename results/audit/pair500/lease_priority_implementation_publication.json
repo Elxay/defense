@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-09T04:09:50.458294+00:00",
+  "implementation_sha256": "d4cd86ca24a1dfd0c99e3d43e78d310eb38e007901002a568ab6eb8eb1d5c492",
+  "commit": "7cf65aae83d2fead5a9385331daef0e828437a00",
+  "CPU_tests": "PASS: alpha0 precedence; disjoint reservations; fixed tail condition order; cache rebinding keeps inference bytes and rejects changed generation"
+}

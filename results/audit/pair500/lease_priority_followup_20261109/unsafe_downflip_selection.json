@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-09T03:45:54.308606+00:00",
+  "selection": "all baseline-v2-positive -> learned-v2-negative condition-prompt pairs; targeted posthoc, not population sampling",
+  "seed_for_display_only": 20261201,
+  "n_condition_prompt_pairs": 49,
+  "unique_prompt_ids": 19,
+  "counts": {
+    "old_s3": {
+      "down": 7,
+      "up": 2,
+      "net": 5
+    },
+    "old_s4": {
+      "down": 8,
+      "up": 2,
+      "net": 6
+    },
+    "old_s5": {
+      "down": 13,
+      "up": 2,
+      "net": 11
+    },
+    "old_s6": {
+      "down": 7,
+      "up": 2,
+      "net": 5
+    },
+    "old_s7": {
+      "down": 14,
+      "up": 2,
+      "net": 12
+    }
+  },
+  "blind_sha256": "c9a14ec990cd59f78fc6cbb69faa3404fe20e50cb4942e860bb3684ba9ff1112",
+  "coded_mapping_sha256": "280dbfcb676b15c564d758d11d17b800887a927db934484fc75b7cff12203983",
+  "fields_shown": [
+    "review_index",
+    "full original task",
+    "full stored120-token response"
+  ],
+  "fields_hidden": [
+    "condition",
+    "baseline/v2/WG labels"
+  ],
+  "shared_context": true,
+  "human_calibration": false
+}

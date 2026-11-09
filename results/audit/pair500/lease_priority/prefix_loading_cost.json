@@ -1,0 +1,1034 @@
+{
+  "utc": "2026-11-09T04:27:06.220873+00:00",
+  "conditions": {
+    "SYS_A": {
+      "completed_batches": 5,
+      "rows": 250,
+      "net_seconds_per_row": 7.70629673076421,
+      "wall_seconds_per_row": 7.890061391830445,
+      "median_startup_seconds": 8.350055129732937
+    },
+    "SYS_B": {
+      "completed_batches": 4,
+      "rows": 200,
+      "net_seconds_per_row": 4.399191677044146,
+      "wall_seconds_per_row": 4.665069069862366,
+      "median_startup_seconds": 8.487915834179148
+    },
+    "alpha0": {
+      "completed_batches": 30,
+      "rows": 33,
+      "net_seconds_per_row": 19.907306885417324,
+      "wall_seconds_per_row": 31.660923076398443,
+      "median_startup_seconds": 8.597095529315993
+    },
+    "old_s0": {
+      "completed_batches": 5,
+      "rows": 230,
+      "net_seconds_per_row": 8.253463184278782,
+      "wall_seconds_per_row": 8.501288891875225,
+      "median_startup_seconds": 8.47240572469309
+    },
+    "old_s3": {
+      "completed_batches": 7,
+      "rows": 199,
+      "net_seconds_per_row": 7.1945248365767265,
+      "wall_seconds_per_row": 7.533947008938046,
+      "median_startup_seconds": 8.580965547822416
+    },
+    "old_s4": {
+      "completed_batches": 7,
+      "rows": 299,
+      "net_seconds_per_row": 8.730562128994091,
+      "wall_seconds_per_row": 8.995138236910204,
+      "median_startup_seconds": 8.51138465711847
+    },
+    "old_s5": {
+      "completed_batches": 5,
+      "rows": 250,
+      "net_seconds_per_row": 9.681882172597572,
+      "wall_seconds_per_row": 9.919550720214843,
+      "median_startup_seconds": 8.529276555404067
+    },
+    "old_s6": {
+      "completed_batches": 4,
+      "rows": 200,
+      "net_seconds_per_row": 7.849182405080646,
+      "wall_seconds_per_row": 8.04464723467827,
+      "median_startup_seconds": 8.510184965096414
+    },
+    "old_s7": {
+      "completed_batches": 5,
+      "rows": 250,
+      "net_seconds_per_row": 10.124854032248258,
+      "wall_seconds_per_row": 10.316614236831665,
+      "median_startup_seconds": 8.428353704046458
+    },
+    "rand0": {
+      "completed_batches": 6,
+      "rows": 249,
+      "net_seconds_per_row": 16.247540799549306,
+      "wall_seconds_per_row": 16.504663666568128,
+      "median_startup_seconds": 8.453724907943979
+    },
+    "rand1": {
+      "completed_batches": 5,
+      "rows": 250,
+      "net_seconds_per_row": 16.511544084586202,
+      "wall_seconds_per_row": 16.72672237968445,
+      "median_startup_seconds": 8.45301484875381
+    },
+    "rand2": {
+      "completed_batches": 5,
+      "rows": 250,
+      "net_seconds_per_row": 16.62544678827934,
+      "wall_seconds_per_row": 16.818678071975707,
+      "median_startup_seconds": 8.322086323052645
+    },
+    "rand3": {
+      "completed_batches": 5,
+      "rows": 250,
+      "net_seconds_per_row": 16.34375741352886,
+      "wall_seconds_per_row": 16.55540738105774,
+      "median_startup_seconds": 8.53266878053546
+    }
+  },
+  "n_batches": 93,
+  "small_batches": 33,
+  "large_batches": 58,
+  "small_median_wall_s_per_row": 27.682141065597534,
+  "large_median_wall_s_per_row": 10.877752572695414,
+  "rows": [
+    {
+      "condition": "old_s6",
+      "card": "cuda:3",
+      "worker_pid": 1655111,
+      "n": 50,
+      "net_generation_seconds": 419.8989071934484,
+      "observed_startup_seconds": 8.59458160540089,
+      "wall_seconds": 428.61186695098877,
+      "wall_s_per_row": 8.572237339019775
+    },
+    {
+      "condition": "old_s7",
+      "card": "cuda:2",
+      "worker_pid": 1561084,
+      "n": 50,
+      "net_generation_seconds": 617.5823046900332,
+      "observed_startup_seconds": 8.634758804459125,
+      "wall_seconds": 626.2502942085266,
+      "wall_s_per_row": 12.525005884170533
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1702982,
+      "n": 1,
+      "net_generation_seconds": 24.53634733799845,
+      "observed_startup_seconds": 33.42495375033468,
+      "wall_seconds": 57.96139407157898,
+      "wall_s_per_row": 57.96139407157898
+    },
+    {
+      "condition": "rand1",
+      "card": "cuda:3",
+      "worker_pid": 1634588,
+      "n": 50,
+      "net_generation_seconds": 842.9658412318677,
+      "observed_startup_seconds": 8.256349259521812,
+      "wall_seconds": 853.3332769870758,
+      "wall_s_per_row": 17.066665539741518
+    },
+    {
+      "condition": "old_s3",
+      "card": "cuda:3",
+      "worker_pid": 1682289,
+      "n": 6,
+      "net_generation_seconds": 13.187557004392147,
+      "observed_startup_seconds": 8.342959411907941,
+      "wall_seconds": 21.534141063690186,
+      "wall_s_per_row": 3.5890235106150308
+    },
+    {
+      "condition": "rand3",
+      "card": "cuda:3",
+      "worker_pid": 1693356,
+      "n": 50,
+      "net_generation_seconds": 765.3657963899896,
+      "observed_startup_seconds": 8.605043317656964,
+      "wall_seconds": 774.4912490844727,
+      "wall_s_per_row": 15.489824981689454
+    },
+    {
+      "condition": "old_s6",
+      "card": "cuda:0",
+      "worker_pid": 1553791,
+      "n": 50,
+      "net_generation_seconds": 518.6729052183218,
+      "observed_startup_seconds": 8.425788324791938,
+      "wall_seconds": 532.0748569965363,
+      "wall_s_per_row": 10.641497139930726
+    },
+    {
+      "condition": "old_s6",
+      "card": "cuda:2",
+      "worker_pid": 1489855,
+      "n": 50,
+      "net_generation_seconds": 316.8598211049102,
+      "observed_startup_seconds": 8.285200137179345,
+      "wall_seconds": 325.17731404304504,
+      "wall_s_per_row": 6.503546280860901
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1585242,
+      "n": 1,
+      "net_generation_seconds": 18.37085329601541,
+      "observed_startup_seconds": 25.874680885579437,
+      "wall_seconds": 44.258471965789795,
+      "wall_s_per_row": 44.258471965789795
+    },
+    {
+      "condition": "SYS_A",
+      "card": "cuda:3",
+      "worker_pid": 1710892,
+      "n": 50,
+      "net_generation_seconds": 352.79419264243916,
+      "observed_startup_seconds": 11.571553654503077,
+      "wall_seconds": 365.1274538040161,
+      "wall_s_per_row": 7.302549076080322
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:2",
+      "worker_pid": 1560307,
+      "n": 1,
+      "net_generation_seconds": 19.811057299375534,
+      "observed_startup_seconds": 8.254600077867508,
+      "wall_seconds": 28.065757036209106,
+      "wall_s_per_row": 28.065757036209106
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1654507,
+      "n": 1,
+      "net_generation_seconds": 14.588805299252272,
+      "observed_startup_seconds": 8.788358587771654,
+      "wall_seconds": 23.377275943756104,
+      "wall_s_per_row": 23.377275943756104
+    },
+    {
+      "condition": "SYS_B",
+      "card": "cuda:0",
+      "worker_pid": 1623159,
+      "n": 50,
+      "net_generation_seconds": 185.3847127747722,
+      "observed_startup_seconds": 8.442254405934364,
+      "wall_seconds": 198.77662706375122,
+      "wall_s_per_row": 3.975532541275024
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:2",
+      "worker_pid": 1735872,
+      "n": 2,
+      "net_generation_seconds": 47.07887700712308,
+      "observed_startup_seconds": 10.092348400503397,
+      "wall_seconds": 57.172698974609375,
+      "wall_s_per_row": 28.586349487304688
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1595150,
+      "n": 1,
+      "net_generation_seconds": 22.49574917415157,
+      "observed_startup_seconds": 93.71550899883732,
+      "wall_seconds": 116.21152114868164,
+      "wall_s_per_row": 116.21152114868164
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1704389,
+      "n": 1,
+      "net_generation_seconds": 5.767935357987881,
+      "observed_startup_seconds": 8.38185254484415,
+      "wall_seconds": 14.149883031845093,
+      "wall_s_per_row": 14.149883031845093
+    },
+    {
+      "condition": "old_s5",
+      "card": "cuda:2",
+      "worker_pid": 1642593,
+      "n": 50,
+      "net_generation_seconds": 633.2470070025884,
+      "observed_startup_seconds": 8.24837716249749,
+      "wall_seconds": 644.776515007019,
+      "wall_s_per_row": 12.895530300140381
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1669954,
+      "n": 1,
+      "net_generation_seconds": 17.433328687679023,
+      "observed_startup_seconds": 8.417282760608941,
+      "wall_seconds": 25.850707054138184,
+      "wall_s_per_row": 25.850707054138184
+    },
+    {
+      "condition": "rand0",
+      "card": "cuda:2",
+      "worker_pid": 1524469,
+      "n": 50,
+      "net_generation_seconds": 683.6444329018705,
+      "observed_startup_seconds": 8.296983191277832,
+      "wall_seconds": 692.4773499965668,
+      "wall_s_per_row": 13.849546999931336
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1539377,
+      "n": 2,
+      "net_generation_seconds": 27.697850686032325,
+      "observed_startup_seconds": 8.670509486924857,
+      "wall_seconds": 36.48540782928467,
+      "wall_s_per_row": 18.242703914642334
+    },
+    {
+      "condition": "old_s3",
+      "card": "cuda:3",
+      "worker_pid": 1466703,
+      "n": 50,
+      "net_generation_seconds": 284.9029463455081,
+      "observed_startup_seconds": 8.707747380714864,
+      "wall_seconds": 293.6434609889984,
+      "wall_s_per_row": 5.872869219779968
+    },
+    {
+      "condition": "rand0",
+      "card": "cuda:3",
+      "worker_pid": 1582938,
+      "n": 50,
+      "net_generation_seconds": 864.3521825433709,
+      "observed_startup_seconds": 8.331768482457846,
+      "wall_seconds": 877.1896600723267,
+      "wall_s_per_row": 17.543793201446533
+    },
+    {
+      "condition": "old_s0",
+      "card": "cuda:0",
+      "worker_pid": 1704889,
+      "n": 50,
+      "net_generation_seconds": 314.50773913785815,
+      "observed_startup_seconds": 8.47240572469309,
+      "wall_seconds": 328.61896204948425,
+      "wall_s_per_row": 6.572379240989685
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1602536,
+      "n": 1,
+      "net_generation_seconds": 15.005985408555716,
+      "observed_startup_seconds": 8.162109941709787,
+      "wall_seconds": 23.168190002441406,
+      "wall_s_per_row": 23.168190002441406
+    },
+    {
+      "condition": "old_s4",
+      "card": "cuda:0",
+      "worker_pid": 1586396,
+      "n": 50,
+      "net_generation_seconds": 365.3696560342796,
+      "observed_startup_seconds": 8.51138465711847,
+      "wall_seconds": 379.41770815849304,
+      "wall_s_per_row": 7.5883541631698606
+    },
+    {
+      "condition": "rand2",
+      "card": "cuda:3",
+      "worker_pid": 1487781,
+      "n": 50,
+      "net_generation_seconds": 785.1181848892011,
+      "observed_startup_seconds": 8.25994684221223,
+      "wall_seconds": 793.415990114212,
+      "wall_s_per_row": 15.86831980228424
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:2",
+      "worker_pid": 1711622,
+      "n": 1,
+      "net_generation_seconds": 20.928713969886303,
+      "observed_startup_seconds": 8.913635797798634,
+      "wall_seconds": 29.842458963394165,
+      "wall_s_per_row": 29.842458963394165
+    },
+    {
+      "condition": "rand1",
+      "card": "cuda:2",
+      "worker_pid": 1587661,
+      "n": 50,
+      "net_generation_seconds": 783.7072119070217,
+      "observed_startup_seconds": 8.65938317310065,
+      "wall_seconds": 793.9705541133881,
+      "wall_s_per_row": 15.879411082267762
+    },
+    {
+      "condition": "rand3",
+      "card": "cuda:0",
+      "worker_pid": 1606646,
+      "n": 50,
+      "net_generation_seconds": 725.3963734391145,
+      "observed_startup_seconds": 8.53266878053546,
+      "wall_seconds": 738.9231939315796,
+      "wall_s_per_row": 14.778463878631591
+    },
+    {
+      "condition": "old_s7",
+      "card": "cuda:2",
+      "worker_pid": 1612226,
+      "n": 50,
+      "net_generation_seconds": 446.45030713966116,
+      "observed_startup_seconds": 8.35106670949608,
+      "wall_seconds": 455.31028413772583,
+      "wall_s_per_row": 9.106205682754517
+    },
+    {
+      "condition": "rand2",
+      "card": "cuda:2",
+      "worker_pid": 1540718,
+      "n": 50,
+      "net_generation_seconds": 893.6206649285741,
+      "observed_startup_seconds": 8.664302784018219,
+      "wall_seconds": 902.5814759731293,
+      "wall_s_per_row": 18.051629519462587
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:2",
+      "worker_pid": 1466699,
+      "n": 1,
+      "net_generation_seconds": 25.637485096231103,
+      "observed_startup_seconds": 9.036962440237403,
+      "wall_seconds": 34.67454814910889,
+      "wall_s_per_row": 34.67454814910889
+    },
+    {
+      "condition": "old_s3",
+      "card": "cuda:3",
+      "worker_pid": 1520963,
+      "n": 50,
+      "net_generation_seconds": 504.65888177603483,
+      "observed_startup_seconds": 8.333452330436558,
+      "wall_seconds": 513.0361139774323,
+      "wall_s_per_row": 10.260722279548645
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1664741,
+      "n": 1,
+      "net_generation_seconds": 21.153515106998384,
+      "observed_startup_seconds": 8.308234685100615,
+      "wall_seconds": 29.461847066879272,
+      "wall_s_per_row": 29.461847066879272
+    },
+    {
+      "condition": "rand1",
+      "card": "cuda:3",
+      "worker_pid": 1719483,
+      "n": 50,
+      "net_generation_seconds": 767.9296704870649,
+      "observed_startup_seconds": 8.45301484875381,
+      "wall_seconds": 776.4188868999481,
+      "wall_s_per_row": 15.528377737998962
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1717728,
+      "n": 1,
+      "net_generation_seconds": 1.3510267660021782,
+      "observed_startup_seconds": 8.664560802280903,
+      "wall_seconds": 10.015665054321289,
+      "wall_s_per_row": 10.015665054321289
+    },
+    {
+      "condition": "SYS_B",
+      "card": "cuda:0",
+      "worker_pid": 1711944,
+      "n": 50,
+      "net_generation_seconds": 225.13123522745445,
+      "observed_startup_seconds": 8.892904790583998,
+      "wall_seconds": 242.96475887298584,
+      "wall_s_per_row": 4.859295177459717
+    },
+    {
+      "condition": "old_s4",
+      "card": "cuda:0",
+      "worker_pid": 1468523,
+      "n": 30,
+      "net_generation_seconds": 233.0565757243894,
+      "observed_startup_seconds": 8.767237786669284,
+      "wall_seconds": 244.72556900978088,
+      "wall_s_per_row": 8.157518966992695
+    },
+    {
+      "condition": "SYS_A",
+      "card": "cuda:2",
+      "worker_pid": 1577037,
+      "n": 50,
+      "net_generation_seconds": 473.80723115755245,
+      "observed_startup_seconds": 8.315649842377752,
+      "wall_seconds": 482.2409031391144,
+      "wall_s_per_row": 9.644818062782287
+    },
+    {
+      "condition": "rand3",
+      "card": "cuda:3",
+      "worker_pid": 1555777,
+      "n": 50,
+      "net_generation_seconds": 910.5599386636168,
+      "observed_startup_seconds": 8.216965336352587,
+      "wall_seconds": 918.8114130496979,
+      "wall_s_per_row": 18.37622826099396
+    },
+    {
+      "condition": "rand2",
+      "card": "cuda:0",
+      "worker_pid": 1647440,
+      "n": 50,
+      "net_generation_seconds": 933.8281082916074,
+      "observed_startup_seconds": 8.72505901241675,
+      "wall_seconds": 947.7435519695282,
+      "wall_s_per_row": 18.954871039390564
+    },
+    {
+      "condition": "SYS_A",
+      "card": "cuda:2",
+      "worker_pid": 1514516,
+      "n": 50,
+      "net_generation_seconds": 399.0658238870092,
+      "observed_startup_seconds": 8.478198053315282,
+      "wall_seconds": 407.5776391029358,
+      "wall_s_per_row": 8.151552782058715
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1533332,
+      "n": 1,
+      "net_generation_seconds": 22.654710263945162,
+      "observed_startup_seconds": 10.685147314332426,
+      "wall_seconds": 33.34018588066101,
+      "wall_s_per_row": 33.34018588066101
+    },
+    {
+      "condition": "rand3",
+      "card": "cuda:0",
+      "worker_pid": 1494948,
+      "n": 50,
+      "net_generation_seconds": 849.5293256142177,
+      "observed_startup_seconds": 8.734460073523223,
+      "wall_seconds": 863.2198371887207,
+      "wall_s_per_row": 17.264396743774412
+    },
+    {
+      "condition": "old_s4",
+      "card": "cuda:0",
+      "worker_pid": 1718123,
+      "n": 50,
+      "net_generation_seconds": 547.4522204804234,
+      "observed_startup_seconds": 8.42888777796179,
+      "wall_seconds": 560.8700819015503,
+      "wall_s_per_row": 11.217401638031006
+    },
+    {
+      "condition": "old_s5",
+      "card": "cuda:2",
+      "worker_pid": 1737435,
+      "n": 50,
+      "net_generation_seconds": 392.95249291183427,
+      "observed_startup_seconds": 9.023618191946298,
+      "wall_seconds": 402.013160943985,
+      "wall_s_per_row": 8.0402632188797
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1552963,
+      "n": 1,
+      "net_generation_seconds": 25.872099245898426,
+      "observed_startup_seconds": 8.591747437603772,
+      "wall_seconds": 34.46395993232727,
+      "wall_s_per_row": 34.46395993232727
+    },
+    {
+      "condition": "rand0",
+      "card": "cuda:2",
+      "worker_pid": 1467795,
+      "n": 50,
+      "net_generation_seconds": 852.5564276105724,
+      "observed_startup_seconds": 8.465020345989615,
+      "wall_seconds": 861.4646909236908,
+      "wall_s_per_row": 17.229293818473817
+    },
+    {
+      "condition": "rand2",
+      "card": "cuda:3",
+      "worker_pid": 1603178,
+      "n": 50,
+      "net_generation_seconds": 643.4526951098815,
+      "observed_startup_seconds": 8.189437284134328,
+      "wall_seconds": 651.679211139679,
+      "wall_s_per_row": 13.033584222793579
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1508911,
+      "n": 1,
+      "net_generation_seconds": 68.14592387201265,
+      "observed_startup_seconds": 8.518796186428517,
+      "wall_seconds": 76.66483092308044,
+      "wall_s_per_row": 76.66483092308044
+    },
+    {
+      "condition": "old_s7",
+      "card": "cuda:0",
+      "worker_pid": 1694519,
+      "n": 50,
+      "net_generation_seconds": 346.3276468110271,
+      "observed_startup_seconds": 8.428353704046458,
+      "wall_seconds": 359.83366894721985,
+      "wall_s_per_row": 7.196673378944397
+    },
+    {
+      "condition": "SYS_B",
+      "card": "cuda:3",
+      "worker_pid": 1577330,
+      "n": 50,
+      "net_generation_seconds": 257.48642931832,
+      "observed_startup_seconds": 8.503064332529902,
+      "wall_seconds": 266.0217080116272,
+      "wall_s_per_row": 5.320434160232544
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1518537,
+      "n": 1,
+      "net_generation_seconds": 19.063824048731476,
+      "observed_startup_seconds": 8.511070141103119,
+      "wall_seconds": 27.57499599456787,
+      "wall_s_per_row": 27.57499599456787
+    },
+    {
+      "condition": "SYS_A",
+      "card": "cuda:2",
+      "worker_pid": 1622282,
+      "n": 50,
+      "net_generation_seconds": 352.35725877806544,
+      "observed_startup_seconds": 8.245083109941334,
+      "wall_seconds": 360.63479590415955,
+      "wall_s_per_row": 7.212695918083191
+    },
+    {
+      "condition": "rand2",
+      "card": "cuda:2",
+      "worker_pid": 1690134,
+      "n": 50,
+      "net_generation_seconds": 900.3420438505709,
+      "observed_startup_seconds": 8.322086323052645,
+      "wall_seconds": 909.2492887973785,
+      "wall_s_per_row": 18.18498577594757
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:2",
+      "worker_pid": 1641787,
+      "n": 1,
+      "net_generation_seconds": 26.206652514170855,
+      "observed_startup_seconds": 8.270660527516156,
+      "wall_seconds": 34.477413177490234,
+      "wall_s_per_row": 34.477413177490234
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:2",
+      "worker_pid": 1746151,
+      "n": 1,
+      "net_generation_seconds": 16.75192915694788,
+      "observed_startup_seconds": 8.712384588550776,
+      "wall_seconds": 25.464410066604614,
+      "wall_s_per_row": 25.464410066604614
+    },
+    {
+      "condition": "old_s7",
+      "card": "cuda:2",
+      "worker_pid": 1498373,
+      "n": 50,
+      "net_generation_seconds": 565.7305927244015,
+      "observed_startup_seconds": 8.507665222510695,
+      "wall_seconds": 574.2717878818512,
+      "wall_s_per_row": 11.485435757637024
+    },
+    {
+      "condition": "rand0",
+      "card": "cuda:2",
+      "worker_pid": 1713580,
+      "n": 48,
+      "net_generation_seconds": 850.4437431371771,
+      "observed_startup_seconds": 8.442429469898343,
+      "wall_seconds": 858.9493029117584,
+      "wall_s_per_row": 17.89477714399497
+    },
+    {
+      "condition": "old_s4",
+      "card": "cuda:3",
+      "worker_pid": 1683473,
+      "n": 50,
+      "net_generation_seconds": 322.1061880639754,
+      "observed_startup_seconds": 8.37664703372866,
+      "wall_seconds": 330.5169599056244,
+      "wall_s_per_row": 6.610339198112488
+    },
+    {
+      "condition": "rand0",
+      "card": "cuda:0",
+      "worker_pid": 1735893,
+      "n": 1,
+      "net_generation_seconds": 1.3803866328671575,
+      "observed_startup_seconds": 10.091639476828277,
+      "wall_seconds": 11.472110986709595,
+      "wall_s_per_row": 11.472110986709595
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1626311,
+      "n": 1,
+      "net_generation_seconds": 19.341447290964425,
+      "observed_startup_seconds": 8.340599360875785,
+      "wall_seconds": 27.682141065597534,
+      "wall_s_per_row": 27.682141065597534
+    },
+    {
+      "condition": "rand1",
+      "card": "cuda:0",
+      "worker_pid": 1474943,
+      "n": 50,
+      "net_generation_seconds": 753.0210287310183,
+      "observed_startup_seconds": 8.650119794066995,
+      "wall_seconds": 768.28928399086,
+      "wall_s_per_row": 15.3657856798172
+    },
+    {
+      "condition": "old_s3",
+      "card": "cuda:3",
+      "worker_pid": 1627070,
+      "n": 38,
+      "net_generation_seconds": 336.2232937286608,
+      "observed_startup_seconds": 8.27561919670552,
+      "wall_seconds": 344.5473029613495,
+      "wall_s_per_row": 9.067034288456565
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1486946,
+      "n": 1,
+      "net_generation_seconds": 22.93263502093032,
+      "observed_startup_seconds": 8.31139950780198,
+      "wall_seconds": 31.244136095046997,
+      "wall_s_per_row": 31.244136095046997
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1646925,
+      "n": 1,
+      "net_generation_seconds": 8.466779993847013,
+      "observed_startup_seconds": 9.05670971982181,
+      "wall_seconds": 17.523601055145264,
+      "wall_s_per_row": 17.523601055145264
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1494233,
+      "n": 1,
+      "net_generation_seconds": 16.768211684655398,
+      "observed_startup_seconds": 8.400024094153196,
+      "wall_seconds": 25.16833209991455,
+      "wall_s_per_row": 25.16833209991455
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1474486,
+      "n": 1,
+      "net_generation_seconds": 28.0585255487822,
+      "observed_startup_seconds": 9.239009632263333,
+      "wall_seconds": 37.29763698577881,
+      "wall_s_per_row": 37.29763698577881
+    },
+    {
+      "condition": "old_s0",
+      "card": "cuda:0",
+      "worker_pid": 1567211,
+      "n": 50,
+      "net_generation_seconds": 542.2879669386894,
+      "observed_startup_seconds": 8.464288449846208,
+      "wall_seconds": 555.7219579219818,
+      "wall_s_per_row": 11.114439158439636
+    },
+    {
+      "condition": "rand1",
+      "card": "cuda:3",
+      "worker_pid": 1534199,
+      "n": 50,
+      "net_generation_seconds": 980.2622687895782,
+      "observed_startup_seconds": 8.414204018190503,
+      "wall_seconds": 989.6685929298401,
+      "wall_s_per_row": 19.793371858596803
+    },
+    {
+      "condition": "old_s4",
+      "card": "cuda:3",
+      "worker_pid": 1736439,
+      "n": 19,
+      "net_generation_seconds": 100.81860543228686,
+      "observed_startup_seconds": 9.105193353723735,
+      "wall_seconds": 109.93658709526062,
+      "wall_s_per_row": 5.786136162908454
+    },
+    {
+      "condition": "SYS_B",
+      "card": "cuda:0",
+      "worker_pid": 1519353,
+      "n": 50,
+      "net_generation_seconds": 211.8359580882825,
+      "observed_startup_seconds": 8.472767335828394,
+      "wall_seconds": 225.2507200241089,
+      "wall_s_per_row": 4.505014400482178
+    },
+    {
+      "condition": "old_s4",
+      "card": "cuda:2",
+      "worker_pid": 1630198,
+      "n": 50,
+      "net_generation_seconds": 445.6838626130484,
+      "observed_startup_seconds": 8.517237550579011,
+      "wall_seconds": 454.23451685905457,
+      "wall_s_per_row": 9.084690337181092
+    },
+    {
+      "condition": "old_s3",
+      "card": "cuda:3",
+      "worker_pid": 1735876,
+      "n": 1,
+      "net_generation_seconds": 0.8072995068505406,
+      "observed_startup_seconds": 10.106755840592086,
+      "wall_seconds": 10.914140939712524,
+      "wall_s_per_row": 10.914140939712524
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1566061,
+      "n": 1,
+      "net_generation_seconds": 2.853183083701879,
+      "observed_startup_seconds": 8.602705426048487,
+      "wall_seconds": 11.455965042114258,
+      "wall_s_per_row": 11.455965042114258
+    },
+    {
+      "condition": "old_s0",
+      "card": "cuda:3",
+      "worker_pid": 1511727,
+      "n": 50,
+      "net_generation_seconds": 369.4422698500566,
+      "observed_startup_seconds": 8.648280123714358,
+      "wall_seconds": 378.1232900619507,
+      "wall_s_per_row": 7.562465801239013
+    },
+    {
+      "condition": "old_s5",
+      "card": "cuda:0",
+      "worker_pid": 1597656,
+      "n": 50,
+      "net_generation_seconds": 397.1910001509823,
+      "observed_startup_seconds": 8.517854569945484,
+      "wall_seconds": 410.7036771774292,
+      "wall_s_per_row": 8.214073543548585
+    },
+    {
+      "condition": "old_s5",
+      "card": "cuda:3",
+      "worker_pid": 1475635,
+      "n": 50,
+      "net_generation_seconds": 419.0105103580281,
+      "observed_startup_seconds": 8.529276555404067,
+      "wall_seconds": 429.7422249317169,
+      "wall_s_per_row": 8.594844498634338
+    },
+    {
+      "condition": "old_s3",
+      "card": "cuda:0",
+      "worker_pid": 1579321,
+      "n": 50,
+      "net_generation_seconds": 264.49248943571,
+      "observed_startup_seconds": 8.580965547822416,
+      "wall_seconds": 278.0529170036316,
+      "wall_s_per_row": 5.5610583400726314
+    },
+    {
+      "condition": "rand3",
+      "card": "cuda:2",
+      "worker_pid": 1656458,
+      "n": 50,
+      "net_generation_seconds": 835.0879192752764,
+      "observed_startup_seconds": 8.283104089088738,
+      "wall_seconds": 843.406152009964,
+      "wall_s_per_row": 16.86812304019928
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:3",
+      "worker_pid": 1617039,
+      "n": 2,
+      "net_generation_seconds": 24.8399217328988,
+      "observed_startup_seconds": 8.214297883678228,
+      "wall_seconds": 33.05489993095398,
+      "wall_s_per_row": 16.52744996547699
+    },
+    {
+      "condition": "old_s7",
+      "card": "cuda:3",
+      "worker_pid": 1665450,
+      "n": 50,
+      "net_generation_seconds": 555.1226566969417,
+      "observed_startup_seconds": 8.330421798396856,
+      "wall_seconds": 563.4875240325928,
+      "wall_s_per_row": 11.269750480651856
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:0",
+      "worker_pid": 1686188,
+      "n": 1,
+      "net_generation_seconds": 33.05325361620635,
+      "observed_startup_seconds": 8.570612226612866,
+      "wall_seconds": 41.624006032943726,
+      "wall_s_per_row": 41.624006032943726
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:2",
+      "worker_pid": 1575865,
+      "n": 1,
+      "net_generation_seconds": 38.630836695898324,
+      "observed_startup_seconds": 8.40097764087841,
+      "wall_seconds": 47.03191900253296,
+      "wall_s_per_row": 47.03191900253296
+    },
+    {
+      "condition": "alpha0",
+      "card": "cuda:2",
+      "worker_pid": 1678691,
+      "n": 1,
+      "net_generation_seconds": 1.443662955891341,
+      "observed_startup_seconds": 8.602443621028215,
+      "wall_seconds": 10.046201944351196,
+      "wall_s_per_row": 10.046201944351196
+    },
+    {
+      "condition": "old_s4",
+      "card": "cuda:0",
+      "worker_pid": 1525047,
+      "n": 50,
+      "net_generation_seconds": 595.95096822083,
+      "observed_startup_seconds": 8.303480664733797,
+      "wall_seconds": 609.8449099063873,
+      "wall_s_per_row": 12.196898198127746
+    },
+    {
+      "condition": "old_s3",
+      "card": "cuda:2",
+      "worker_pid": 1712493,
+      "n": 4,
+      "net_generation_seconds": 27.437974681612104,
+      "observed_startup_seconds": 9.952539467718452,
+      "wall_seconds": 37.52737784385681,
+      "wall_s_per_row": 9.381844460964203
+    },
+    {
+      "condition": "old_s0",
+      "card": "cuda:0",
+      "worker_pid": 1670678,
+      "n": 30,
+      "net_generation_seconds": 321.7539578746073,
+      "observed_startup_seconds": 8.616844130679965,
+      "wall_seconds": 333.4202401638031,
+      "wall_s_per_row": 11.114008005460104
+    },
+    {
+      "condition": "SYS_A",
+      "card": "cuda:2",
+      "worker_pid": 1679400,
+      "n": 50,
+      "net_generation_seconds": 348.54967622598633,
+      "observed_startup_seconds": 8.350055129732937,
+      "wall_seconds": 356.93455600738525,
+      "wall_s_per_row": 7.138691120147705
+    },
+    {
+      "condition": "old_s5",
+      "card": "cuda:0",
+      "worker_pid": 1540327,
+      "n": 50,
+      "net_generation_seconds": 578.06953272596,
+      "observed_startup_seconds": 8.715756482444704,
+      "wall_seconds": 592.6521019935608,
+      "wall_s_per_row": 11.853042039871216
+    },
+    {
+      "condition": "rand0",
+      "card": "cuda:0",
+      "worker_pid": 1627584,
+      "n": 50,
+      "net_generation_seconds": 793.2604862619191,
+      "observed_startup_seconds": 8.744042048696429,
+      "wall_seconds": 808.1081380844116,
+      "wall_s_per_row": 16.162162761688233
+    },
+    {
+      "condition": "old_s6",
+      "card": "cuda:2",
+      "worker_pid": 1605072,
+      "n": 50,
+      "net_generation_seconds": 314.4048474994488,
+      "observed_startup_seconds": 8.62515371851623,
+      "wall_seconds": 323.0654089450836,
+      "wall_s_per_row": 6.461308178901672
+    },
+    {
+      "condition": "old_s0",
+      "card": "cuda:3",
+      "worker_pid": 1617869,
+      "n": 50,
+      "net_generation_seconds": 350.3045985829085,
+      "observed_startup_seconds": 8.257794819306582,
+      "wall_seconds": 359.41199493408203,
+      "wall_s_per_row": 7.1882398986816405
+    }
+  ],
+  "interpretation": "Launch-to-first-save minus measured first-row generation estimates startup/metadata time, not a precise model-loading profiler. Wall time includes startup and file operations; net rates omit them. Timing associations use original batch IDs/card/UTC windows; no output labels read."
+}

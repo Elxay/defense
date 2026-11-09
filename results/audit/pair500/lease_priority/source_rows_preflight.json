@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-09T04:21:24.518985+00:00",
+  "public_prompts_byte_matched": 1979,
+  "public_original_batch_compositions_matched": 249,
+  "WJB_harmful_prompts_byte_matched": 2000,
+  "target_files_full_hash_verified": true,
+  "system_text_hashes": {
+    "SYS_A": "d33c70fdd0c40dc6d2b38a6be972bb8806bd5ac174db361930bb85341be974c3",
+    "SYS_B": "3606acab20daf5f70bde6b186c9b498ada1b0de51e4b67dd4a81a1e1745c4957"
+  },
+  "source_payload_sha256": {
+    "public": "fb7c0e94a59db22bc33cdc65c9705872b1901fe796768b666b2d04e70aae9f28",
+    "harmful": "4f520a9ada7efd9ff4070ef19a64c67599e00f0edb6dd0a2cb7441369442be84"
+  },
+  "PAIR_effects_read": false
+}
