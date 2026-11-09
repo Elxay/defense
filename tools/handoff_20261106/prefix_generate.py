@@ -6,6 +6,7 @@ from pathlib import Path
 import socket
 import sys
 import time
+import collections
 
 from prefix_support import ROOT,BASE,PREFIX,RUNTIME,load,save,sha,utc,node,verify_role,verify_code,signature,verify_record,render_audit
 
@@ -29,6 +30,14 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--task',required=True);a=p.parse_args()
     verify_code();cfg=load(RUNTIME);task=load(a.task);name=task['condition'];assert name in cfg['conditions']
     assert task['runtime_sha256']==sha(RUNTIME)
+    rows={r['id']:r for r in load(BASE/'rows.private.json')}
+    snapshot=BASE/'frozen_prompt_snapshot.json'
+    prefix_ids=([x['id'] for x in load(snapshot)['rows']] if snapshot.exists() else list(load(PREFIX/'accepted_source_files.json')))
+    save(PREFIX/'launch_metadata'/(Path(a.task).stem+'_'+node()+'_'+str(os.getpid())+'.json'),{
+        'utc':utc(),'pid':os.getpid(),'task_sha256':sha(a.task),'condition':name,'node':node(),'physical_device':os.environ.get('DEVICE'),
+        'prefix_n':len(prefix_ids),'prefix_layers':dict(collections.Counter(rows[k]['layer'] for k in prefix_ids)),
+        'batch_n':len(task['items']),'batch_layers':dict(collections.Counter(rows[x['id']]['layer'] for x in task['items'])),
+        'before_model_load_and_generation':True})
     assert os.environ['DEVICE']=='cuda:'+os.environ['CUDA_VISIBLE_DEVICES'] and ',' not in os.environ['CUDA_VISIBLE_DEVICES']
     assert os.environ['CUDA_VISIBLE_DEVICES'] in (['2','3'] if node()=='innet' else ['0','1','2'])
     out=PREFIX/('node_gate_generated' if task.get('gate') else 'generation.private')/name

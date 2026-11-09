@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-09T00:01:31.450222+00:00",
+  "model_load_and_injection_call_AST_equal": true,
+  "common_helper_sha256": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+  "changes": "dispatch metadata only in target worker; dual scheduling and classifier wrapper are separate sources",
+  "old_running_batch_finished_before_source_change": true
+}

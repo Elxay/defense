@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-08T17:06:32.538280+00:00",
+  "doc_sha256": "96822d6413a42cf8256a40a0d10d3f5724ff01cbb19388dfdd59616e6fb0a1bf",
+  "runtime_sha256": "cf4c7167b76276c7019c8ad4267079e42e6c4cf994713b90655d908c0c4d517c",
+  "asset_manifest_sha256": "e33e75174d3c5b5b09be52c2f3a6e995f8533bdb732f96653b5bf163ce01155f",
+  "code_sha256": {
+    "tools/handoff_20261106/prefix_support.py": "95a54947162430f6c9db62f920450d477487740bc5aa66f7f53e035571ee801a",
+    "tools/handoff_20261106/prefix_generate.py": "d54855aea9758011fd13c29a86da9ad73c7b58252de797eb11c06e01fc58c4af",
+    "tools/handoff_20261106/prefix_controller.py": "fb7772df749e88372d2a56028cb322498bda55fa78b461d6cbc114de87347cbb",
+    "tools/handoff_20261106/prefix_evaluate.py": "fb5b2306e5b4c5e08f32a7cfb021f534871143391cd2520262fb0a25d08322fd",
+    "tools/handoff_20261106/prefix_compare_gate.py": "37f7b222eade93a352c4da179f8ff3cb3e640f67764eca2ec21b408e06304720",
+    "tools/handoff_20261106/prefix_eval_handoff.sh": "edf41d1bc20efdd068339acb6cfd20595759b8392cf1067dc5315f1a39a0a127",
+    "tools/handoff_20261106/prefix_cpu_check.py": "a3324cbe8a93323ecb5ec6d352e1f73e27b1794c0297277c8f1d929943738be5",
+    "tools/handoff_20261106/pair500_eval254_queue.sh": "edf41d1bc20efdd068339acb6cfd20595759b8392cf1067dc5315f1a39a0a127",
+    "tools/handoff_20261106/guard_qwen_output.py": "770bb06af67178f2c7e9b2ed217beb2888c70e137b95771f51b3e09040fb9c4b"
+  },
+  "prefix_outputs_at_freeze": 0,
+  "commit": null
+}

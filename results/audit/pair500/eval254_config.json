@@ -124,7 +124,7 @@
     "results/audit/pair500/config.json": "9e46b2e78bb191363b1dadbe458815871a00f8e9f91cea0202687ca70a83fca1",
     "tools/handoff_20261106/pair500_read_gate.py": "31363aedb29697a1fddd8291b04587ae2960c519fc927ebaf3c07a21d5ba2284",
     "tools/handoff_20261106/pair500_priority_deadline.py": "a6921f6a026eb4ad9a7509d329ca86cbe1c66af82ff60ee38cb3824796d5a16b",
-    "tools/handoff_20261106/pair500_wildguard_queue.py": "0fab97ff9f8f2ad3eacee52845504ed8f221378266120eb080a06003791608f9",
+    "tools/handoff_20261106/pair500_wildguard_queue.py": "1755723461c8d8ebc40010c58fe4276dacc92860d8d765de33d5a82eb8f5b3f5",
     "tools/handoff_20261106/pair500_wildguard_run.py": "e5b3e918c79fca57ac861de16b48c9af29e68cf7ba7378d43e42950e34abdd1d",
     "tools/handoff_20261106/wjb_eval255_stage.py": "462ce1e19129d1803931bd0b87c101e2dbec991964e62fa50c06b59efa2145d6",
     "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md": "2202c7bbc3232ec9cdb2063ffb4736f94b2d3552ac1a67515a669dc2cd2d902c",
@@ -155,15 +155,20 @@
     "results/audit/pair500/pair500_node_fallback_policy.json": "bc2257b2a74b354a2ea22ff9adf91968695982ce2abe0d95ded350887de9748f",
     "results/audit/pair500/pair_node_fallback_gate20_ids.txt": "bee1b69c93df3ac2101d2fff4c9d6ab3b7052526c2e7120da274c2e57a6c9171",
     "tools/handoff_20261106/prefix_support.py": "95a54947162430f6c9db62f920450d477487740bc5aa66f7f53e035571ee801a",
-    "tools/handoff_20261106/prefix_generate.py": "d54855aea9758011fd13c29a86da9ad73c7b58252de797eb11c06e01fc58c4af",
+    "tools/handoff_20261106/prefix_generate.py": "3c05302ed14344460052120623ca820fb74455f15ff82cbdd3069c1e4ecae2c4",
     "tools/handoff_20261106/prefix_controller.py": "fb7772df749e88372d2a56028cb322498bda55fa78b461d6cbc114de87347cbb",
-    "tools/handoff_20261106/prefix_evaluate.py": "fb5b2306e5b4c5e08f32a7cfb021f534871143391cd2520262fb0a25d08322fd",
+    "tools/handoff_20261106/prefix_evaluate.py": "4ee9d0a6227935389b75cec98308ab170d823394b2a984478b0cb78dfb1cc9c7",
     "tools/handoff_20261106/prefix_compare_gate.py": "37f7b222eade93a352c4da179f8ff3cb3e640f67764eca2ec21b408e06304720",
     "tools/handoff_20261106/prefix_eval_handoff.sh": "edf41d1bc20efdd068339acb6cfd20595759b8392cf1067dc5315f1a39a0a127",
     "tools/handoff_20261106/prefix_cpu_check.py": "a3324cbe8a93323ecb5ec6d352e1f73e27b1794c0297277c8f1d929943738be5",
     "docs/254_ADDENDUM6_IMMUTABLE_PREFIX_SCHEDULING.md": "96822d6413a42cf8256a40a0d10d3f5724ff01cbb19388dfdd59616e6fb0a1bf",
     "tools/handoff_20261106/prepare_prefix_assets.py": "d088d7cf5dd5acc511af0781e2fd97ec565a39e48424e3199df9f27ec47016c7",
-    "tools/handoff_20261106/freeze_prefix254.py": "66d47e1d79bb1e288da30f174f70a6b437917f96b734307edc0d7d5c98caed25"
+    "tools/handoff_20261106/freeze_prefix254.py": "66d47e1d79bb1e288da30f174f70a6b437917f96b734307edc0d7d5c98caed25",
+    "tools/handoff_20261106/prefix_controller_dual.py": "2bfb6d3e7979e8c84db2e461f80a1f6721c044948bfc449c8191975cc8fd4ac5",
+    "tools/handoff_20261106/prefix_wildguard_queue.py": "de5b2c26cb54d149b2da748b8082f5c73574b3af46d7c30121289b7965c30fc8",
+    "tools/handoff_20261106/prefix_wg_batch_runner.py": "1bdd1fb526a1c090e8cdd51def71502cc6b1eb8548d066a635e27c32ed464a11",
+    "tools/handoff_20261106/prefix_wg_reuse.py": "d3484141ce1460886338627044045d24e3bc190bf3ee69fe8e260c19fde14f9a",
+    "tools/handoff_20261106/wjb_top2_shared_window.py": "7d54044a3d37fb8bc298cc1aed3b009f88a835cf27d9b42b0d4ca6ca07fc4c82"
   },
   "evaluation_revision": 2,
   "evaluation_addendum": "docs/254_ADDENDUM1_PAIR500_DUAL_JUDGE_READ_PLAN.md",
@@ -226,5 +231,9 @@
     "doc_sha256": "96822d6413a42cf8256a40a0d10d3f5724ff01cbb19388dfdd59616e6fb0a1bf",
     "runtime_sha256": "cf4c7167b76276c7019c8ad4267079e42e6c4cf994713b90655d908c0c4d517c",
     "effects_unread": true
+  },
+  "dual_prefix_scheduling": {
+    "utc": "2026-11-09T00:00:09.782424+00:00",
+    "doc_sha256": "b1b790dd9c0d1dffcc7b929283c692f06501571deae7fc3876a980cb0ab96ee5"
   }
 }

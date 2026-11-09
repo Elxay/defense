@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-08T23:47:36.519329+00:00",
+  "pid": 885736,
+  "action": "SIGSTOP only own CPU dispatcher; existing CUDA child finishes untouched",
+  "old_script_sha256": "fb7772df749e88372d2a56028cb322498bda55fa78b461d6cbc114de87347cbb"
+}

@@ -37,6 +37,8 @@ def main():
                 save(d/'failed.json',{'utc':utc(),'error_type':type(exc).__name__});raise
             finally:old.EVAL=previous
             save(BASE/'canonical254/judge20_gate.json',load(d/'judge20_gate.json'))
+            from wjb_top2_shared_window import score as complete_top2
+            complete_top2(tok,mdl,torch,backend)
         old.legacy_gate=gate
     else:
         assert os.environ['DEVICE']=='cpu'

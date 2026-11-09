@@ -35,6 +35,8 @@ def main():
     os.umask(0o077)
     while not (BASE / 'frozen_prompt_snapshot.json').exists():
         pulse('waiting_search_snapshot'); time.sleep(30)
+    while not (BASE/'prefix_wg_drained.json').exists():
+        pulse('waiting_prefix_wildguard_batch_boundary');time.sleep(15)
     # This queue does not pre-empt the higher-priority WJB harmful classifier.
     nine = ['old_s3', 'rand0', 'old_s4', 'rand1', 'old_s5', 'rand2', 'old_s6', 'rand3', 'old_s7']
     while not all(len(list((BASE / 'wildguard' / (name + '_scores')).glob('*.json'))) == 2000 for name in nine):
@@ -71,6 +73,11 @@ def main():
         save(OUT / (name + '_input_manifest.json'), {'n': len(keys), 'input_sha256': sha(private),
              'snapshot_sha256': sha(BASE / 'frozen_prompt_snapshot.json'), 'generation_sha256': hashes,
              'worker_sha256': sha(worker)})
+        from prefix_wg_reuse import import_verified
+        reused=import_verified(name,payload,sha(private))
+        if reused:
+            subprocess.run(['rsync','-a','--ignore-existing',str(OUT/(name+'_scores'))+'/', 'node01:'+REMOTE+'/'+name+'_scores/'],check=True)
+        save(OUT/(name+'_prefix_reuse_receipt.json'),{'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'reused_rows':reused,'no_effect_summary':True})
         subprocess.run(['scp', str(private), 'node01:' + REMOTE + '/' + private.name], check=True)
         pulse('remote_gpu0_dispatched', name)
         shell = f'''set -euo pipefail
