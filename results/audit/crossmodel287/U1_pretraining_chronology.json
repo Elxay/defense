@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-09T14:17:36.905016+00:00",
+  "scope": "registered crossmodel287 queues and artifacts; not a claim about unrelated shared-account processes",
+  "training_started": {
+    "qwen": false,
+    "gemma": false,
+    "vicuna": false
+  },
+  "known_tensor_artifacts": [
+    "gemma_private/native_donor.npy",
+    "qwen_private/native_donor.npy"
+  ],
+  "queue_evidence": {
+    "qwen_admission_queue_live.json": {
+      "sha256": "430c90074251ff0cd76e87103a4ba2956588a738282e25e2f4a328a45a99cd5a",
+      "phase": "waiting_model_review_before_training",
+      "utc": "2026-11-09T14:00:33.968519+00:00",
+      "training_started": false
+    },
+    "qwen_native_selection_live.json": {
+      "sha256": "fc49ce458a7968873ea8e51b034c7ea6a3d8380553c65fcd6712b6f2b3b28c5e",
+      "phase": "complete_waiting_refusal_audit",
+      "utc": "2026-11-09T14:00:17.433930+00:00",
+      "training_started": false
+    },
+    "gemma_norm_queue_live.json": {
+      "sha256": "5190b45a6021737cdbadf179683d6e984b47ef33b64d527cdc3cf5345a6242ac",
+      "phase": "norm_complete_no_training",
+      "utc": "2026-11-09T11:27:00.934500+00:00",
+      "training_started": false
+    }
+  },
+  "prior_protocol_sha256": "28148e37edec1e96354444b8bd5d4ead1ba6b11e9e5f015a146075bc88b27474",
+  "native_gate_original_utc": "2026-11-09T09:46:17.301430Z",
+  "Qwen_native_gate_observed_utc": "2026-11-09T10:36:00.800908Z",
+  "native_gate_result_preserved": "2/12 v2-positive donor targets; original >=3/12 failed",
+  "U1_after_known_Qwen_baseline_and_native_gate": true,
+  "U1_before_new_model_training_and_condition_effects": true
+}

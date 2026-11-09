@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-09T14:17:36.905016+00:00",
+  "files": {
+    "docs/287_ADDENDUM5_UNIFIED_FIXED_LLAMA_TARGETS.md": "4d5fa91edf70a0d49c1e6ec76282cfd846a23013754f6bfc94b15f706f8c55c0",
+    "results/audit/crossmodel287/protocol_effective_addendum5_U1.json": "1a91bd203261801912a6b7a276d28b5496904f629dc8d6929d2934aa1f8b8294",
+    "results/audit/crossmodel287/U1_pretraining_chronology.json": "792e5008916411ac7765177bf2a5b8dfc71f516660f6a7878eb985055ce1ff7c",
+    "results/audit/crossmodel287/U1_training_target_binding.json": "df46b7399e64af4974bc45cd2c61d280a3f0959e54490caa17684490f8c6c3d0",
+    "tools/handoff_20261106/crossmodel287_freeze_U1.py": "978d2c638afe16af1fd3f99951042fcca2ece7d1a1591f068ca855e6ccc272f6",
+    "docs/PREREG_LOG.txt": "d7747869fd6e5fac0cd5e132c3b00cf82bac2ceb1adced9c39cec1e614b06335",
+    "docs/OPS_LOG.txt": "73a94ba79b3b672b32e0e203123abbb0948583b20be482fbd483176648f58e3f"
+  },
+  "training_started_before_amendment": false,
+  "private_target_text_published": false
+}

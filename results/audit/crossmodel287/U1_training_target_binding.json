@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-09T14:17:36.905016+00:00",
+  "effective_protocol_sha256": "1a91bd203261801912a6b7a276d28b5496904f629dc8d6929d2934aa1f8b8294",
+  "target_rule": "U1_same12_fixed_Llama_texts_for_all_new_models",
+  "teacher_file_sha256": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+  "ordered_target_texts_sha256": "223085ad8221c3a4b4f0f1d8c6ea432aa7c4eb912ac35d474d36275b8f99a8b9",
+  "models": {
+    "qwen": {
+      "fit_target_source": "fixed_Llama_cache",
+      "native_fit_donor_outputs": "diagnostic_only",
+      "training_allowed": false,
+      "waiting_for": "addendum4 hashed refusal admission; native keep60 targets and model-specific execution signature"
+    },
+    "gemma": {
+      "fit_target_source": "fixed_Llama_cache",
+      "native_fit_donor_outputs": "diagnostic_only",
+      "training_allowed": false,
+      "waiting_for": "addendum4 hashed refusal admission; native keep60 targets and model-specific execution signature"
+    },
+    "vicuna": {
+      "fit_target_source": "fixed_Llama_cache",
+      "native_fit_donor_outputs": "diagnostic_only",
+      "training_allowed": false,
+      "waiting_for": "addendum4 hashed refusal admission; native keep60 targets and model-specific execution signature"
+    }
+  },
+  "Qwen_existing_private_pack_unchanged_sha256": "d2146f1d0b593ea5cabaf86b3c9c7cd2bb57ab4398aec89c7d6d379ff0fda94c",
+  "Qwen_existing_private_pack_reusable_payload_only": true,
+  "Qwen_legacy_branch_metadata_not_effective_authorization": true
+}
