@@ -1,0 +1,112 @@
+{
+  "utc": "2026-11-09T10:16:46.702721+00:00",
+  "qwen_rho": 35.94707107543945,
+  "qwen_norm_prompts": 60,
+  "qwen_target_progress": {
+    "fit_alpha0": 12,
+    "fit_donor": 5
+  },
+  "Qwen_fit12_native_alpha0_v2_refusal": 2,
+  "Qwen_fit12_native_alpha0_n": 12,
+  "Qwen_fit12_harmful_compliance": "not_scored",
+  "new_training_started": false,
+  "new_test_effects_read": false,
+  "render": {
+    "qwen": {
+      "phase": "passed",
+      "n": 216,
+      "file_sha256": "3e62c5d449b39492ad08a53991989e8b00faf954aeee28e64d808b3bece20e9e",
+      "config_sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+      "tokenizer_config_sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    },
+    "gemma": {
+      "phase": "passed",
+      "n": 216,
+      "file_sha256": "373d00fb8cab6deb7fafb71e83477cbd4304a3bbaf97a24af137c43f00945a9c",
+      "config_sha256": "8ecc124513fdb0bb31bf51b4f0dd6c8658a68296dc8cd30af612205ff4a1bc49",
+      "tokenizer_config_sha256": "cb32b7929c62608d46572e813112b3ad8a841fb98fdd6a4da8559e368a951c89"
+    },
+    "vicuna": {
+      "phase": "passed",
+      "n": 216,
+      "file_sha256": "e4e1e2715de01b7f0df732e3529cd8ba6516c6b64d2cdf7305635c91b1dd0878",
+      "config_sha256": "ff01ad505c4699a6be3bfc9365dce9e4205d35cb3a2a1df10a79ceb52ab5d2ed",
+      "tokenizer_config_sha256": "1cbc84c8a5b41e0ec24e0da66677773569fb0ccfa753d5d184e343e2ec3815a0"
+    }
+  },
+  "gemma_download": {
+    "phase": "downloading",
+    "current_file": "model-00003-of-00004.safetensors",
+    "verified_weight_shards": 2,
+    "files": {
+      "README.md": {
+        "bytes": 25789,
+        "sha256": "8a652ed735e12e4d8241edad2d974aa64ff6e13e8327ec17c9922d9577e9b216",
+        "expected_lfs_sha256": null,
+        "verified": true
+      },
+      "config.json": {
+        "bytes": 857,
+        "sha256": "8ecc124513fdb0bb31bf51b4f0dd6c8658a68296dc8cd30af612205ff4a1bc49",
+        "expected_lfs_sha256": null,
+        "verified": true
+      },
+      "generation_config.json": {
+        "bytes": 173,
+        "sha256": "99b4f0bfe91aa4a78fc10018c17de56706db39d6ca87bc76f9be17aed7fe18c9",
+        "expected_lfs_sha256": null,
+        "verified": true
+      },
+      "model.safetensors.index.json": {
+        "bytes": 39072,
+        "sha256": "c38b39b80b2d7aa422464a9b816af4c30d2177e471b89e5325df1336a23ad284",
+        "expected_lfs_sha256": null,
+        "verified": true
+      },
+      "special_tokens_map.json": {
+        "bytes": 636,
+        "sha256": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351",
+        "expected_lfs_sha256": null,
+        "verified": true
+      },
+      "tokenizer.json": {
+        "bytes": 17525357,
+        "sha256": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922",
+        "expected_lfs_sha256": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922",
+        "verified": true
+      },
+      "tokenizer.model": {
+        "bytes": 4241003,
+        "sha256": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2",
+        "expected_lfs_sha256": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2",
+        "verified": true
+      },
+      "tokenizer_config.json": {
+        "bytes": 46996,
+        "sha256": "cb32b7929c62608d46572e813112b3ad8a841fb98fdd6a4da8559e368a951c89",
+        "expected_lfs_sha256": null,
+        "verified": true
+      },
+      "model-00001-of-00004.safetensors": {
+        "bytes": 4903351912,
+        "sha256": "a0d4eb4fcbddfe01b0dc7a58386a3980826ededaf0ecd67d1ef38995b89615ba",
+        "expected_lfs_sha256": "a0d4eb4fcbddfe01b0dc7a58386a3980826ededaf0ecd67d1ef38995b89615ba",
+        "verified": true
+      },
+      "model-00002-of-00004.safetensors": {
+        "bytes": 4947570872,
+        "sha256": "712a589c333f49f7b6f3870838a9e0ab4b3c0260abd5130e8c54316e6c99640b",
+        "expected_lfs_sha256": "712a589c333f49f7b6f3870838a9e0ab4b3c0260abd5130e8c54316e6c99640b",
+        "verified": true
+      }
+    },
+    "current_file_downloaded_bytes": null
+  },
+  "vicuna_download": {
+    "phase": "downloading",
+    "current_file": "pytorch_model-00001-of-00003.bin",
+    "verified_weight_shards": 0,
+    "files": {},
+    "current_file_downloaded_bytes": 4398776320
+  }
+}

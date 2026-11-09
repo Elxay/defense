@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-09T10:16:46.702721+00:00",
+  "files": {
+    "paper/main.tex": "1d62d7e179ef7a834fb9dae4ff99971a82df18ae8c7219d0086a1465577186bb",
+    "paper/sections/05_traps.tex": "5fed66cdca8b621671968d24c11de696cfacec743b1146809a886839854cc19f",
+    "paper/sections/conclusion.tex": "c69869f475b900c9c94e3c9bf9504cbf2be074031b39404374f5b8b66a2825c6",
+    "paper/sections/07_ethics.tex": "2f03912b538684263a239cf45e8838b9a92fe0c5cd6d365d22e8a977502eea73",
+    "results/audit/crossmodel287/preflight_status_20261109_1017.json": "657f76cc1bacf93cd386ca66e450f5342aec1f6c1cf3cd026fe398eb2c3af812",
+    "results/audit/crossmodel287/metadata/fastchat_source.json": "5563c987af2375b93dc56db9405d40fc9c61dc9b1419e1d490feb08c8dc6dc30",
+    "results/audit/crossmodel287/qwen_actual_AB_render.json": "3e62c5d449b39492ad08a53991989e8b00faf954aeee28e64d808b3bece20e9e",
+    "results/audit/crossmodel287/gemma_actual_AB_render.json": "373d00fb8cab6deb7fafb71e83477cbd4304a3bbaf97a24af137c43f00945a9c",
+    "results/audit/crossmodel287/vicuna_actual_AB_render.json": "e4e1e2715de01b7f0df732e3529cd8ba6516c6b64d2cdf7305635c91b1dd0878",
+    "docs/PREREG_LOG.txt": "993271d76f99bf1da2fdaaa827e5af7ea3003704e0e2c3822a7e78b0e69cd1f3",
+    "docs/OPS_LOG.txt": "9a70c343d84edc924164a5d5d68db2758b55f84d558c56fb16745b9033fdc0e1"
+  },
+  "raw_attack_text_added": false,
+  "PAIR_effects_read": false,
+  "publication_retry_utc": "2026-11-09T10:18:53.104417+00:00",
+  "publication_retry_reason": "Normalize newly transferred metadata JSON line endings before commit; source content SHA unchanged"
+}
