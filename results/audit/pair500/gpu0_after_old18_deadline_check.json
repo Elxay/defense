@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-09T09:01:01.636191+00:00",
+  "scheduler_pid": 2215464,
+  "phase": "lease_priority_running",
+  "GPU0_worker_pid": 2216262,
+  "GPU0_last_saved_utc": "2026-11-09T09:00:58.967332+00:00",
+  "GPU0_new_rows_in_invocation": 30,
+  "authorized_bootstrap_in_worker_command": true,
+  "GPU0_memory": "16105 MiB",
+  "valid_until_utc": "2026-11-09T15:00:00+00:00",
+  "no_effect_labels_read": true
+}

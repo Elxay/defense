@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-09T09:04:51.971146+00:00",
+  "snapshot_sha256": "793237b4c1e1b9aeecdd776bc7018a84e6acbab2a6d49739e30d8910a37b927d",
+  "s0_remaining_rows": 559,
+  "s0_remaining_card_hours": 1.2997973611334952,
+  "s0_calendar_ETA_utc": "2026-11-09T10:20:16.357285+00:00",
+  "recent_three_batches": [
+    {
+      "utc": "2026-11-09T09:02:03.226744+00:00",
+      "shard": 1,
+      "new_rows": 35,
+      "elapsed_seconds": 359.7039987919852,
+      "yielded": true,
+      "seconds_per_row": 10.277257108342434,
+      "gap_to_same_shard_restart_or_now_seconds": 168.744402,
+      "gap_ongoing": true
+    },
+    {
+      "utc": "2026-11-09T09:02:19.512935+00:00",
+      "shard": 0,
+      "new_rows": 44,
+      "elapsed_seconds": 376.2644255850464,
+      "yielded": true,
+      "seconds_per_row": 8.551464217841964,
+      "gap_to_same_shard_restart_or_now_seconds": 4.049954,
+      "gap_ongoing": false
+    },
+    {
+      "utc": "2026-11-09T09:02:51.610214+00:00",
+      "shard": 0,
+      "new_rows": 1,
+      "elapsed_seconds": 28.04732531681657,
+      "yielded": true,
+      "seconds_per_row": 28.04732531681657,
+      "gap_to_same_shard_restart_or_now_seconds": 120.360932,
+      "gap_ongoing": true
+    }
+  ],
+  "unit_clarification": "seconds/row is per worker/card; two shards may overlap. Calendar ETA accounts for observed yielding and is not remaining card hours treated as single-card wall time. Old17:55 forecast is obsolete.",
+  "GPU0_18_deadline_cancelled": true,
+  "post18_proof_sha256": "50bf6251d1f585cbb1eb28d29c1d2e550d477fa8197c054c9fd05c8d694b5e74",
+  "PAIR_outcomes_read": false,
+  "abstract_placeholder_template_use": "superseded; narrative abstract after PAIR read",
+  "manuscript_commit": "765e22369fcf8d5c2b23fae3893e7f54a810c99e"
+}

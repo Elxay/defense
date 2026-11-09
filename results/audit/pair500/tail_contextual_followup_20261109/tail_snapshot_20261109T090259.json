@@ -1,0 +1,215 @@
+{
+  "utc": "2026-11-09T09:02:59.479383+00:00",
+  "jst": "2026-11-09T18:02:59.479383+09:00",
+  "public_denominator": {
+    "benign": 1779,
+    "unsafe_control": 200,
+    "total": 1979
+  },
+  "v2_handoff": {
+    "utc": "2026-11-09T05:56:46.179680+00:00",
+    "retired_controller": 1735804,
+    "new_launcher_pid": 1886502,
+    "unchanged_existing_files": 26385,
+    "unchanged_files_manifest_sha256": "a60b1ed5e6c177693aacfc8d50dee5f64570615168d7e44bdd02326c1d4ff2e6",
+    "v2_publication_sha256": "de3734501552553f55872e75e649c37d02554f7ad86ef42c23fe2b62cdbf5293",
+    "effects_read": false
+  },
+  "conditions": {
+    "old_s0": {
+      "harmful": {
+        "dataset_counts": {
+          "wildjailbreak_harmful": 1441
+        },
+        "total_rows": 1441,
+        "metadata_field_counts": {
+          "rows": 1441,
+          "new_tokens": 1441,
+          "eos": 1441,
+          "eos_hit_generation_config": 1441,
+          "nonzero_vector_injection_count": 1344,
+          "prefill_hook_count_1": 1441
+        },
+        "timed_new_rows": 1441,
+        "measured_wall_seconds_per_new_row": 8.375488488388163,
+        "v2_timed_rows": 1344,
+        "v2_seconds_per_row": 8.370788014455425,
+        "remaining_rows": 559,
+        "remaining_card_hours_at_current_rate": 1.2997973611334952,
+        "new_rows_since_v2": 1347,
+        "calendar_rows_per_hour_since_v2": 433.9989196475239,
+        "calendar_ETA_utc_since_v2_rate": "2026-11-09T10:20:16.357285+00:00",
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      },
+      "public": {
+        "dataset_counts": {
+          "xstest_unsafe": 200,
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210
+        },
+        "total_rows": 1979,
+        "metadata_field_counts": {
+          "rows": 1979,
+          "new_tokens": 1979,
+          "eos": 914,
+          "eos_hit_generation_config": 1979,
+          "nonzero_vector_injection_count": 914,
+          "prefill_hook_count_1": 1979
+        },
+        "timed_new_rows": 1979,
+        "measured_wall_seconds_per_new_row": 0.5390405246313565,
+        "v2_timed_rows": 914,
+        "v2_seconds_per_row": 0.5216029278635449,
+        "remaining_rows": 0,
+        "remaining_card_hours_at_current_rate": 0.0,
+        "new_rows_since_v2": 914,
+        "calendar_rows_per_hour_since_v2": 294.48775987961164,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      }
+    },
+    "SYS_A": {
+      "harmful": {
+        "dataset_counts": {},
+        "total_rows": 0,
+        "metadata_field_counts": {},
+        "timed_new_rows": 0,
+        "measured_wall_seconds_per_new_row": null,
+        "v2_timed_rows": 0,
+        "v2_seconds_per_row": null,
+        "remaining_rows": 2000,
+        "remaining_card_hours_at_current_rate": null,
+        "new_rows_since_v2": 0,
+        "calendar_rows_per_hour_since_v2": null,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      },
+      "public": {
+        "dataset_counts": {
+          "xstest_unsafe": 200,
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210
+        },
+        "total_rows": 1979,
+        "metadata_field_counts": {
+          "rows": 1979,
+          "new_tokens": 1979,
+          "eos": 1979,
+          "eos_hit_generation_config": 1979,
+          "nonzero_vector_injection_count": 1979,
+          "system_text_sha256": 1979,
+          "prefill_hook_count_1": 1979
+        },
+        "timed_new_rows": 1979,
+        "measured_wall_seconds_per_new_row": 0.8863956251474847,
+        "v2_timed_rows": 1979,
+        "v2_seconds_per_row": 0.8863956251474847,
+        "remaining_rows": 0,
+        "remaining_card_hours_at_current_rate": 0.0,
+        "new_rows_since_v2": 1979,
+        "calendar_rows_per_hour_since_v2": 683.365115105913,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      }
+    },
+    "SYS_B": {
+      "harmful": {
+        "dataset_counts": {},
+        "total_rows": 0,
+        "metadata_field_counts": {},
+        "timed_new_rows": 0,
+        "measured_wall_seconds_per_new_row": null,
+        "v2_timed_rows": 0,
+        "v2_seconds_per_row": null,
+        "remaining_rows": 2000,
+        "remaining_card_hours_at_current_rate": null,
+        "new_rows_since_v2": 0,
+        "calendar_rows_per_hour_since_v2": null,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      },
+      "public": {
+        "dataset_counts": {
+          "xstest_unsafe": 200,
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210
+        },
+        "total_rows": 1979,
+        "metadata_field_counts": {
+          "rows": 1979,
+          "new_tokens": 1979,
+          "eos": 1979,
+          "eos_hit_generation_config": 1979,
+          "nonzero_vector_injection_count": 1979,
+          "system_text_sha256": 1979,
+          "prefill_hook_count_1": 1979
+        },
+        "timed_new_rows": 1979,
+        "measured_wall_seconds_per_new_row": 0.8979258516588319,
+        "v2_timed_rows": 1979,
+        "v2_seconds_per_row": 0.8979258516588319,
+        "remaining_rows": 0,
+        "remaining_card_hours_at_current_rate": 0.0,
+        "new_rows_since_v2": 1979,
+        "calendar_rows_per_hour_since_v2": 851.7379322288641,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      }
+    }
+  },
+  "no_outcome_labels_selected": true,
+  "scheduler": {
+    "utc": "2026-11-09T09:02:55.962011+00:00",
+    "pid": 2215464,
+    "phase": "lease_priority_running",
+    "source_rows": 471,
+    "caught_up_observed": true,
+    "stop_requested": false,
+    "effects_read": false
+  },
+  "active_leases": [
+    {
+      "kind": "prefix",
+      "cards": [
+        "0"
+      ],
+      "condition": "old_s3",
+      "launcher_pid": 2228810
+    },
+    {
+      "kind": "prefix",
+      "cards": [
+        "2"
+      ],
+      "condition": "rand0",
+      "launcher_pid": 2228987
+    },
+    {
+      "kind": "prefix",
+      "cards": [
+        "3"
+      ],
+      "condition": "old_s4",
+      "launcher_pid": 2228988
+    }
+  ],
+  "search_complete_receipt": null,
+  "target_generation_complete_receipt": null,
+  "observer_live": {
+    "utc": "2026-11-09T09:02:54.747996+00:00",
+    "pid": 1850645,
+    "phase": "waiting_lifecycle_events",
+    "snapshot_exists": false,
+    "labels_read": false
+  },
+  "PAIR_search": {
+    "n": 471,
+    "mean_seconds_per_row": 377.8643082340867,
+    "phase": "search",
+    "worker_pid": 2295103,
+    "heartbeat_utc": "2026-11-09T09:02:40.350112+00:00"
+  }
+}
