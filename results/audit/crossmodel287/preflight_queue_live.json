@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-09T10:41:03.859514+00:00",
+  "pid": 2339491,
+  "phase": "stopped_native_donor_gate_failed",
+  "GPU_used": false,
+  "process_alive": false,
+  "gate_receipt_sha256": "cc4fd0fb000c06b68e98b3487e4aacd2e9e560cedbd7c5c8209e83cdf91df09e"
+}

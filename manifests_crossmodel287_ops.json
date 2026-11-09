@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-09T10:41:03.859514+00:00",
+  "files": {
+    "tools/handoff_20261106/crossmodel287_current_status.py": "e70baaeba6c779f568d36828d545c54bdf7861cd5e5605b509068af97bed3e5e",
+    "results/audit/crossmodel287/ops_snapshot_20261109_103820.json": "e81d0f085b90e92227f2b79e38ac5ebc6c46478701ab92701d30c7217359aa49",
+    "results/audit/crossmodel287/preflight_queue_live.json": "b9d6c3281293670f6cbf4ba2d107d9e42c6a66a9c278a22a92bbc744a60b730a",
+    "docs/PREREG_LOG.txt": "b6b54f79dd0856b80867a790669441fd7d99cdf86c4a80e8e8406805c39f524d",
+    "docs/OPS_LOG.txt": "f809a7be8aa1e06a12558f39b9d4917686c276405bc3a6b94473cb93be5c7c24"
+  },
+  "test_labels_read": false
+}

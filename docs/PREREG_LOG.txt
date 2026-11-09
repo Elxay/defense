@@ -552,3 +552,4 @@
 2026-11-09T10:34:53.693534+00:00 PAIR_PREFIX_CAUGHT_UP n=487 all13conditions SHA=70d50d5f34fc5675180d966dacfa644f23818cd91ca57fc8f5d934b6461a00f6 no outcome reads.
 2026-11-09T10:35:17.824703+00:00 CROSSMODEL287_PREFLIGHT_BEFORE_GPU model=qwen manifest_SHA=43c7165caf80ab95613d0ce4d047ebc11f8624843229fbe311fb792008e9bc85 no optimization/test effects.
 2026-11-09T10:36:00.800908+00:00 QWEN_NATIVE_DONOR_GATE_FAILED2of12 below_frozen3of12; all12native_Qwen_generated,0Llama; stop_registered_dispatch2339491, no_gradient/test. gate_receipt_SHA=cc4fd0fb000c06b68e98b3487e4aacd2e9e560cedbd7c5c8209e83cdf91df09e
+2026-11-09T10:40:50.131803+00:00 PAIR_PREFIX_CAUGHT_UP n=489 all13conditions SHA=7610ff29c70026a7d1760dbcabdb897dd6ace06f3841bfe0fed05ffab98dfcbb no outcome reads.
