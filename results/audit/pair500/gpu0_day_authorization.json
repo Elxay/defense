@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-09T08:54:19.470005+00:00",
+  "valid_until_utc": "2026-11-09T15:00:00+00:00",
+  "supersedes_18_JST_cutoff": true,
+  "authorization_source": "user in current chat:18:00不需要让出GPU，今天都是属于我的",
+  "document": "docs/254_ADDENDUM13_GPU0_DAY_AUTHORIZATION.md",
+  "document_sha256": "755d237447222f7dd2b82db7793610441a03f339309df48233ecd073e033b35a",
+  "original_borrow_publication_sha256": "971dc246097a80a149abf6a0c766bda620d094eaa96c6ee10588d5ef7363fffb",
+  "new_code_sha256": {
+    "tools/handoff_20261106/gpu0_day_authorization.py": "ac2f0e0fa030ef555e1a6e04a5e09f8794cd527f12def38ee60311463718abcb",
+    "tools/handoff_20261106/gpu0_authorized_bootstrap.py": "947057cab8dc06c2553e1d2be483ee89052f2883538f2381f225095e48da729f",
+    "tools/handoff_20261106/lease_priority_controller_v3.py": "5403a1d529719a0341d5d40a559479f8bf92dbc967db593cb5281fab54fca878"
+  },
+  "workers_sha256": {
+    "prefix_generate_borrowed.py": "d4af1731f2305791d9632c6be51e534981220d9c4cc4d8e1cdb5b9b45f016424",
+    "wjb_tail_priority_worker_v2.py": "c34e40aaad664dfc6016851cbe8d0d4b9485a883bffb5483d0cd57bebb3195c6",
+    "auxiliary_output_guard_worker.py": "7a4f11444491dee693dc5d9c5d349645c73c46e36bec35cf7b2d9e4bd51554ec",
+    "prefix_hb_incremental_worker.py": "b52aae1a1a67826557a147188927b166e633572d234b9cbaa8b79b93acab5190"
+  },
+  "controller_sha256": "5403a1d529719a0341d5d40a559479f8bf92dbc967db593cb5281fab54fca878",
+  "PAIR_effects_read": false
+}

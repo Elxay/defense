@@ -1,0 +1,7 @@
+# GPU0 scheduling authorization for the rest of today
+
+UTC 2026-11-09T08:54:19.470005+00:00. The user explicitly cancels the18:00 JST handback and says today's cards belong to the project owner. GPU0 may continue today; the old18:00 cutoff is superseded. Interpret today's authorization through2026-11-09 24:00 JST (2026-11-09 15:00 UTC), without extending it into the next day. No18:00 reclaim signal is sent. Existing reclaim-on-explicit-request, compute-context checks, leases, >2GB memory admission and the passed20-row gate remain.
+
+Preserve the original borrowed-card publication and all pinned numerical sources. A separate authorization adapter replaces only the deadline-config lookup in the existing eligibility function. A pinned bootstrap applies this adapter to unchanged worker files; target generation, vector hashes, prompt order, model/reference gates and all reading locks remain unchanged. Do not edit any source of an active worker. Drain the registered owned dispatcher at its existing atomic boundaries, preserve/check existing generation bytes, then start dispatcher_v3 through launch_job. A brief checkpoint handoff is permitted; no colleague or unrelated process is stopped.
+
+GPU0/2/3 continue by the existing leases. Existing jobs on other cards are preserved; the authorization is not an instruction to terminate them. The token, human-review and manuscript tasks are unchanged. This amendment is scheduling-only and is not based on PAIR effect labels, which remain unread.
