@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-09T11:11:49.621708+00:00",
+  "model": "Qwen2.5-7B-Instruct",
+  "branch": "Llama_donor_target_text_transfer",
+  "target_count": 12,
+  "target_source_model": "Llama-3.1-8B-Instruct",
+  "native_branch_gate_passed": false,
+  "transfer_branch_authorized": true,
+  "training_allowed": false,
+  "phase": "awaiting_fresh_alpha0_refusal_audits",
+  "effective_protocol_sha256": "28148e37edec1e96354444b8bd5d4ead1ba6b11e9e5f015a146075bc88b27474",
+  "public_target_source_sha256": "f5a97f88c7d044fb049e13888cdda4353891a9d372ed6f31cb4a8a0a62246cac"
+}

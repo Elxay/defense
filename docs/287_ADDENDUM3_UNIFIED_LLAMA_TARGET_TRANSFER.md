@@ -1,0 +1,26 @@
+# Addendum3: choose B, a unified Llama donor-target text-transfer branch
+
+Frozen UTC 2026-11-09T11:11:49.621708+00:00. Decision by the assistant after the user proposed A/B and recommended B. Qwen's native donor failure is already known; no Qwen gradient, alpha grid, selected-alpha test or transferred-target run has occurred. This is an outcome-triggered protocol amendment, NOT a blindly specified original branch. Original native failure remains immutable.
+
+## Origin and timing of the3/12 threshold
+
+The threshold first appears in docs287 frozen2026-11-09T09:46:17.301430Z (18:46:17 JST), document SHA46020ae8a764ba9a3fcc2988996e1d05c50eaa9828d7ba992c20a2d960a54111. It was generalized by the assistant from the user's earlier Vicuna feasibility suggestion of roughly three native refusals. There was no power calculation or empirical justification for the cutoff. The discussion already knew the Qwen fit12 baseline count of2 refusals/12 (often described as10/12 compliance; nonrefusal itself does not certify harmful compliance). Thus the threshold is POST-HOC RELATIVE TO THE KNOWN QWEN BASELINE. It was written BEFORE the new Qwen donor continuations and their2/12 result, so it is not described as a threshold chosen after observing that donor result. The old fit12 output file mtime precedes this freeze, but mtime alone is not evidence of first reading; the conversation establishes prior knowledge.
+
+The3/12 gate specifically measured refusal-like NATIVE DONOR-GENERATED TARGET continuations under the frozen v2 rule. It is not a test of overall model safety and not a power-based success criterion. For Qwen those continuations are complete and2/12 are v2-positive; failure recorded2026-11-09T10:36:00.800908Z, receipt SHAcc4fd0fb000c06b68e98b3487e4aacd2e9e560cedbd7c5c8209e83cdf91df09e. We retain the failed native branch and never lower its threshold to2 or reinterpret it as passed using another judge.
+
+## Decision B, applied uniformly before further runs
+
+For EVERY new model, complete the fixed native donor-generation procedure first. If at least3/12 native donor targets are v2-positive, keep ALL12 native-generated target continuations in their original order. If fewer than3/12 are v2-positive, mark native target generation failed and use ALL12 texts from the fixed Llama donor-target cache as a separate target-transfer arm. This replaces the former Vicuna-only fallback and applies to Qwen, Gemma and Vicuna. Qwen now enters the transfer arm. No per-item native/Llama mixture, no picking a donor layer or text after seeing efficacy, no native-versus-transfer winner selection on test data. Passing native models do not later switch target sources because their effects are small.
+
+Teacher source: results/style_intervention/old_recipe_targets.json, SHA31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0, fields fit/ref_targets, Llama-3.1-8B-Instruct revision0e9e39f249a16976918f6564b8830bc894c89659. These are cached donor-replacement-generated continuations from the old-recipe reconstruction, not Llama alpha-zero replies and not freshly optimized target strings. Their generation procedure matches the old recipe; byte identity to every historical per-seed target was not preserved or independently established. The fixed cache has12 nonempty targets and9/12 v2 positives. We do not call all12 independently validated refusals, filter out the other three, or replace them. Transfer results are labeled Llama-generated donor-target text transfer; their source and rule labels remain reported.
+
+The NEW MODEL still supplies its own KEEP60 alpha-zero continuations. Training prompts remain exactly fit12+keep60; no test prompts enter training. The model-specific tokenizer consumes the transferred plain continuation text; Llama chat delimiters are not transplanted. Training recipe, seeds3/4/5, weights1/12 and0.075,40 optimizer steps, selected layer, rho0.9*keep60 residual median and alpha/legal-budget rules stay fixed. Transfer-data signature, per-item source/hash, model revision and effective protocol must be frozen before gradients. Refusal-rule admission in addendum4 is also REQUIRED BEFORE TRAINING.
+
+| Model | target source state at this amendment |
+|---|---|
+| Historical Llama | Native Llama donor-generated procedure; completed historical results remain unchanged |
+| Qwen2.5-7B-Instruct | Native donor2/12 failed; trainable arm now fixed12/12 Llama donor-target TEXT TRANSFER, awaiting admission |
+| Gemma-2-9B-it | Native donor gate not yet evaluated; source set by the same branch, not by test effects |
+| Vicuna-13B-v1.5 | Native donor gate not yet evaluated; source set by the same branch, not by test effects |
+
+Per-model result tables must show native versus transferred target source. Source differences and the different alpha operating points confound direct cross-model magnitude comparisons. Do not pool these as identical native-method replications. The original Qwen native failure and later transfer experiment are both reported, rather than replacing the failure with a positive result. Models not completed by the original docs230 deadline are unfinished; this amendment does not change that deadline or criterion. PAIR-500 leases/read locks retain priority.

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-09T11:11:49.621708+00:00",
+  "files": {
+    "docs/287_ADDENDUM3_UNIFIED_LLAMA_TARGET_TRANSFER.md": "0796f248f73d83a2239e2dd78be8e7e8a52f3fdaf66395435fd88ec6102e9daf",
+    "docs/287_ADDENDUM4_REFUSAL_RULE_ADMISSION.md": "3b68fa42117dca5d49834a466f185b0ab214f214a3ea9b44810f320426d77d2b",
+    "results/audit/crossmodel287/protocol_effective_addenda3_4.json": "28148e37edec1e96354444b8bd5d4ead1ba6b11e9e5f015a146075bc88b27474",
+    "results/audit/crossmodel287/qwen_transfer_target_sources.csv": "f5a97f88c7d044fb049e13888cdda4353891a9d372ed6f31cb4a8a0a62246cac",
+    "results/audit/crossmodel287/threshold_origin_and_branch_B.json": "f00bcfee4b19ced7b9638cf055f18e98b4bbd433eb762276dfe216a0b89dff39",
+    "results/audit/crossmodel287/qwen_transfer_branch_status.json": "b34e24ee60dbb2b786cf946e0b9eaa11b00762016326de279905b424e392e883",
+    "paper/sections/03_setup.tex": "1dac26181783177661fcb6c24320c5ab1f20911f06ce8f45ad9a86af04536945",
+    "tools/handoff_20261106/freeze_crossmodel287_addenda3_4.py": "b7602ebd9571005ea39fb9bad8fb0b44975690480bb2b26fc16fba292d2e25f3",
+    "docs/PREREG_LOG.txt": "1f5adbba799e25d7dbeed01830971a8761a4710e9cd828fd714320b32c1e80f2",
+    "docs/OPS_LOG.txt": "df8db471c7b6ecb7e19abc09d0645dbe5982170808814240a63ab3077057fde4"
+  },
+  "training_started": false,
+  "raw_prompt_or_target_text_added": false
+}

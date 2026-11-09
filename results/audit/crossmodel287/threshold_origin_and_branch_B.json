@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-09T11:11:49.621708+00:00",
+  "threshold_first_frozen_utc": "2026-11-09T09:46:17.301430+00:00",
+  "origin": "assistant generalized earlier user Vicuna feasibility suggestion",
+  "empirical_or_power_justification": null,
+  "baseline_Qwen_2of12_already_known": true,
+  "posthoc_relative_to_known_baseline": true,
+  "before_new_donor_outcomes": true,
+  "native_failure_receipt_sha256": "cc4fd0fb000c06b68e98b3487e4aacd2e9e560cedbd7c5c8209e83cdf91df09e",
+  "native_failure_observed_utc": "2026-11-09T10:36:00.800908+00:00",
+  "old_fit12_output_mtime_utc": "2026-11-05T23:34:58.949090+00:00",
+  "mtime_is_not_read_time": true,
+  "branch_B_decision_utc": "2026-11-09T11:11:49.621708+00:00",
+  "new_port_gradients_started": false
+}
