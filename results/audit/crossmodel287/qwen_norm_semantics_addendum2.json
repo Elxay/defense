@@ -1,0 +1,27 @@
+{
+  "measured_residual_norm_median": 35.94707107543945,
+  "training_vector_norm_rho": 32.352363967895506,
+  "rho_multiplier": 0.9,
+  "measurement_layers_zero_based": 8,
+  "n": 60,
+  "utc": "2026-11-09T10:33:31.480249+00:00",
+  "source_file": "results/audit/crossmodel287/qwen_preflight.json",
+  "source_sha256": "4bc5ae63095f07d49a12a0d6fe4c1641006f4452daf081896403f5d9998c2d92",
+  "source_field_rho_is_historical_misnamed_residual_median": true,
+  "normalization_amendment_after_Qwen_measurement_before_training": true,
+  "execution_manifest_sha256": "7e28a6c57e8545481d1a41b5df405c7657120224c105df49cb3d456286e3bfc8",
+  "historical_probe": {
+    "script": "night/qwen_lastnorm.py",
+    "script_sha256": "b468e07a3119cb7edc87ce6ef40c04168bce9b403e61b0341619dbbcb47e2962",
+    "data": "status/qwen_layer8_last_norms.json",
+    "data_sha256": "898b63afda6bd0c9fb19bfae48d579ecf224dad92606b702d5241780f39e93f1",
+    "log_sha256": "dce9e2480f13758e5bc902aa59c1fea81bc7e1fc9c60f551912ab082544021c0",
+    "module_hook": "mdl.model.layers[8]",
+    "prompts": 20,
+    "prompt_source": "20 fixed generic benign questions embedded in original script",
+    "mean": 36.15535984039307,
+    "median": 36.14762496948242,
+    "population_sd": 0.44115858087027604,
+    "snapshot_resolution": "glob snapshots/* first entry; exact historical revision not independently pinned"
+  }
+}

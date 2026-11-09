@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-09T10:33:31.480249+00:00",
+  "files": {
+    "docs/287_ADDENDUM2_ALPHA_LEGAL_BUDGET_AND_NORM.md": "6c5686603d35a2d877c7ad300801d0da82a5e3f7ccc76b3d184979078b9d3f5d",
+    "results/audit/crossmodel287/protocol_effective_addendum2.json": "2d1ce0fc3dbbadf6b3bc57c1561fb6e7442dd8602902011fd7c004f6e33fd3a7",
+    "results/audit/crossmodel287/qwen_norm_semantics_addendum2.json": "9171217b06bbcfeacef5e1b227633fa2873f4ae8d6ebce659b87ba23033ed9a6",
+    "results/audit/crossmodel287/qwen_donor_source_addendum2.csv": "f05f4e2aac26455973f156e75b6843944cd1c905179a8447ac88d77083e9821c",
+    "paper/sections/01_introduction.tex": "6ea66877550865615330f5f579faa84f6446b388d0805e30b81d1a8b64ccd03a",
+    "paper/sections/03_setup.tex": "1d18511731d5904779b804bae7c7482a4111a0d89fce6090ee64fdc43ce82a88",
+    "docs/PREREG_LOG.txt": "e606f6efd326c6a02589e23fefe0ffd2af5677bd265396d575e3706474d17e3d",
+    "docs/OPS_LOG.txt": "841f74763f69c2f8aa4f1347ad858fe066407d87c635fc5f060711d7612815a8",
+    "tools/handoff_20261106/crossmodel287_selection_policy.py": "61461e226c3da406ede334f52b5459b65d8f1cc0738ad190577dfb0bbdc25631",
+    "tools/handoff_20261106/freeze_crossmodel287_addendum2.py": "7368058b23b352914065f105ec19a598e0e08a0bffe4f9ab69b08501ea9401b0",
+    "status/qwen_layer8_last_norms.json": "898b63afda6bd0c9fb19bfae48d579ecf224dad92606b702d5241780f39e93f1"
+  },
+  "training_started": false,
+  "selection_outputs_read": false,
+  "raw_attack_or_output_added": false
+}
