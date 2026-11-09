@@ -1,0 +1,92 @@
+[
+  {
+    "stage": "status",
+    "utc": "2026-11-09T00:06:41.308207+00:00",
+    "file": "results/audit/pair500/public_read_20261109/01_status.json",
+    "sha256": "8b7a75ef7c5dea850c6a70b941b3a657825316b9315eb65e25f916a5dcaaba40"
+  },
+  {
+    "stage": "baseline",
+    "utc": "2026-11-09T00:06:50.721720+00:00",
+    "file": "results/audit/pair500/public_read_20261109/02_baseline.json",
+    "sha256": "aac2d029f061952cbe6528178a02925a9985b776e35121e1f7e758a2c6fbfc6b"
+  },
+  {
+    "stage": "main",
+    "utc": "2026-11-09T00:06:59.683595+00:00",
+    "file": "results/audit/pair500/public_read_20261109/03_main.json",
+    "sha256": "3ace5abfaad581e3dccb1216bc0adab1fb545d47900d3bc3e6fb6040c19b300c"
+  },
+  {
+    "stage": "unsafe",
+    "utc": "2026-11-09T00:07:12.878456+00:00",
+    "file": "results/audit/pair500/public_read_20261109/04_unsafe.json",
+    "sha256": "5e57ce60218c8ee04597c640a454c76e9a0900fa546875a72028ae0f17fce3b5"
+  },
+  {
+    "stage": "unseen",
+    "utc": "2026-11-09T00:07:21.930913+00:00",
+    "file": "results/audit/pair500/public_read_20261109/05_unseen.json",
+    "sha256": "0dbcb508aa8710c4b5dadfda9f1be32c50a8ab949fc8b984bd333ad3e38912c9"
+  },
+  {
+    "stage": "sensitivity",
+    "utc": "2026-11-09T00:07:46.908312+00:00",
+    "file": "results/audit/pair500/public_read_20261109/06_sensitivity.json",
+    "sha256": "5f95b40feb09159b29308ab60c562cf33480875558ee3b069000e915cd0e290f"
+  },
+  {
+    "stage": "samples",
+    "utc": "2026-11-09T00:08:19.711093+00:00",
+    "file": "results/audit/pair500/public_read_20261109/07_samples.json",
+    "sha256": "2e04d41b1038d4e70527a07c295bd5702f0691132bb9c893415c1ecebbf737b4"
+  },
+  {
+    "stage": "xstest_safe_learned",
+    "utc": "2026-11-09T00:16:02.701873+00:00",
+    "file": "results/audit/pair500/public_read_20261109/08_recall_group1.json",
+    "sha256": "2f279a831857f2cfe2b450c9b8faa1389ebc1918d96ed92fbc1115b88e1c59a9"
+  },
+  {
+    "stage": "xstest_safe_random",
+    "utc": "2026-11-09T00:16:10.797135+00:00",
+    "file": "results/audit/pair500/public_read_20261109/08_recall_group2.json",
+    "sha256": "8153f698e93af1018b61d646edd3da62811cfcd5a84be797862e06ecbdba6cf2"
+  },
+  {
+    "stage": "or_hard_learned",
+    "utc": "2026-11-09T00:16:20.474976+00:00",
+    "file": "results/audit/pair500/public_read_20261109/08_recall_group3.json",
+    "sha256": "a41f0c90160210add6ee8b8d799c14582e481718ee4ac63c3e76e4c725c5e5a0"
+  },
+  {
+    "stage": "or_hard_random",
+    "utc": "2026-11-09T00:16:28.852533+00:00",
+    "file": "results/audit/pair500/public_read_20261109/08_recall_group4.json",
+    "sha256": "fc426e2797f6ee49b3192f8fb219e119239dd11315bfdf3845f792f2c7dda49a"
+  },
+  {
+    "stage": "wildjailbreak_benign_learned",
+    "utc": "2026-11-09T00:16:37.536684+00:00",
+    "file": "results/audit/pair500/public_read_20261109/08_recall_group5.json",
+    "sha256": "e35ed0725205e2d00bd425168ea238c5cf586b664006f07a44ec2cc4032960c5"
+  },
+  {
+    "stage": "wildjailbreak_benign_random",
+    "utc": "2026-11-09T00:16:46.329490+00:00",
+    "file": "results/audit/pair500/public_read_20261109/08_recall_group6.json",
+    "sha256": "b61ee265572aba4c3d19e19b6f2c426ea2446505b6737b712ad22a6c3c913293"
+  },
+  {
+    "stage": "09_scatter.json",
+    "utc": "2026-11-09T00:19:18.584482+00:00",
+    "file": "results/audit/pair500/public_read_20261109/09_scatter.json",
+    "sha256": "96e53f966fdc20002c9847c9e7bd54aa93dcbbdaf92ac9785aed5f58bac05473"
+  },
+  {
+    "stage": "09_scatter_labels_v2.json",
+    "utc": "2026-11-09T00:21:22.414765+00:00",
+    "file": "results/audit/pair500/public_read_20261109/09_scatter_labels_v2.json",
+    "sha256": "c1ae96182f19a2029a2cdafc09cd91ac2555776001445507d384f08cf6437ca6"
+  }
+]

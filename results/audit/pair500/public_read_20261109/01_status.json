@@ -1,0 +1,114 @@
+{
+  "step": 1,
+  "stage": "status",
+  "started_utc": "2026-11-09T00:06:36.277615+00:00",
+  "saved_utc": "2026-11-09T00:06:41.308207+00:00",
+  "previous_steps": [],
+  "result": {
+    "coverage": {
+      "alpha0": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 0,
+        "all_three_rules_scored": true
+      },
+      "old_s3": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 1,
+        "all_three_rules_scored": true
+      },
+      "old_s4": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 0,
+        "all_three_rules_scored": true
+      },
+      "old_s5": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 2,
+        "all_three_rules_scored": true
+      },
+      "old_s6": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 1,
+        "all_three_rules_scored": true
+      },
+      "old_s7": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 1,
+        "all_three_rules_scored": true
+      },
+      "rand0": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 1,
+        "all_three_rules_scored": true
+      },
+      "rand1": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 0,
+        "all_three_rules_scored": true
+      },
+      "rand2": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 0,
+        "all_three_rules_scored": true
+      },
+      "rand3": {
+        "rows": {
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210,
+          "xstest_unsafe": 200
+        },
+        "WG_response_refusal_invalid": 0,
+        "all_three_rules_scored": true
+      }
+    },
+    "rule_labels_sha256": "572f4438065d8311bd9f3f0af24d488253ada576188843f182e9a4d7e81ae3f6",
+    "WG_source_manifest_sha256": "b020d66e38ae6638b23f2d7a31215b95e5dfb213460bc90a3416dcd17c41a231",
+    "primary_effects_not_aggregated": true
+  }
+}

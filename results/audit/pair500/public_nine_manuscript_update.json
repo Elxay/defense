@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-09T00:33:57.075286+00:00",
+  "files": {
+    "docs/255_PUBLIC_ORDERED_READ_RESULTS.md": "89849c6ef2e956fe9f57eb649869479e7ca2e5fa8b4070ce37eee54edc6e4645",
+    "docs/255_NINE_UNIT_SUPPLEMENTAL_TABLES.md": "14c25c85a0f29c83da9311831d88bbafcacbad9605404eb23885ece933cb12b4",
+    "results/audit/pair500/nine_read_20261109/supplemental_tables.json": "d064f12f286c0c5fb0525a240f7e2dbd17d77b756fa0c223139719df359509a8",
+    "results/audit/pair500/nine_read_20261109/token_length_diagnostic.json": "2b7c31215e422a92e99ad6b8d6e44a60e661a0ea05e1dd76c5e4ef54f926c491",
+    "results/audit/pair500/nine_read_20261109/alpha0_701_prompt_length_correction.json": "abef7b489067f52c74767c708d1dbc5c420a35b6da002170b4ee8ec6b9adcb56",
+    "paper/tables/public_refusal_nine.tex": "cb6a71f9990e41c15c1732938ae2f8d66cbdb808d34c28122889971b5039750e",
+    "paper/tables/wjb_official_units.tex": "a402203776184131f2666afe1f07fd2e8232a7bbd8b9bf18b700223162b0e1d4",
+    "paper/tables/wjb_exposure.tex": "5b6cc2313830a14bebd0912f1216a01bcd09d135da3eb7bc7501752982401695",
+    "paper/generated/wjb_nine_scope.tex": "0f693953053205d1e29a841223ff604e42e87fb34f27782fad3deeb69515f47b",
+    "paper/generated/public_refusal_results.tex": "4da4d57063c8dbcdafcf126066c82df0d470333737030c0621b1b1fbde3d7754",
+    "paper/sections/04_results.tex": "88851ef3cb0d61ba9b1545dd367054f6ee9cd7609e1a6486c8c40e77865ef014",
+    "paper/sections/05_traps.tex": "2795027f71ec87d1cf66af84ea22ff938054ed87e88cfaf9409b8ab3e69d707d",
+    "paper/sections/06_limitations.tex": "ea14f92a794c9f08fda66e190a0845ff231322d0b5999a18767fe1af45a158b5"
+  },
+  "public_step_ledger_sha256": "25b20787b69ad92bedab5dfc4e73a93ff9439cef7ff47c99104283712ab9291a",
+  "previous_export_manifest_sha256": "a7812e922f39f6c390911d2ba939169930aac1bdacfc54620dcd6b127f7d92ed",
+  "abstract": "methods only pending completed PAIR500 two-judge read",
+  "model_annotations": "GPT-6 family in current session; exact serving snapshot unavailable; shared context; no independent human calibration",
+  "PAIR500_outcomes_read": false,
+  "export_checks_sha256": "a18b9a393a04d7a3b7122b20cac3877630e602721ffbe1b210870e904665e11d"
+}

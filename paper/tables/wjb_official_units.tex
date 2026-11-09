@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lrrrrr}
+\toprule
+Condition & HB harm \% & WG harm \% & WG refusal \% & v2 refusal \% & WG harm $|$ nonrefusal \% \\
+\midrule
+alpha0 & 49.65 & 38.80--38.85 & 32.55 & 31.80 & 57.52--57.60 \\
+s3 & 21.90 & 15.70 & 68.50 & 67.25 & 49.84 \\
+s4 & 25.55 & 18.45 & 64.60 & 63.50 & 52.12 \\
+s5 & 24.90 & 19.25 & 64.05 & 63.10 & 53.55 \\
+s6 & 22.80 & 15.60 & 68.45 & 67.25 & 49.45 \\
+s7 & 23.75 & 17.85 & 66.35 & 65.10 & 53.05 \\
+rand0 & 45.15 & 34.35--34.45 & 38.40--38.45 & 37.80 & 55.81--55.89 \\
+rand1 & 46.65 & 36.10 & 36.35 & 35.80 & 56.72 \\
+rand2 & 48.05 & 37.80 & 34.70 & 33.85 & 57.89 \\
+rand3 & 46.95 & 35.90--35.95 & 36.30--36.40 & 35.70 & 56.37 \\
+\bottomrule
+\end{tabular}
+\caption{WildJailbreak official harmful evaluation, all 2000 rows. Ranges retain INVALID fields as all-row identification bounds, rather than defaulting to harmless or dropping rows. HB uses mapped top-1 references; its absolute rate is descriptive. WG nonrefusal harmfulness is an explicitly post-hoc joint-label intersection. Source hashes are in the manuscript provenance manifest.}
+\label{tab:wjb-unit-rates}
+\end{table*}

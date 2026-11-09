@@ -1,0 +1,14 @@
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lrrrrr}
+\toprule
+Benign-labelled set & Full $n$ & V2 difference (pp) & Prompt bootstrap 95\% & Unseen difference (pp) & WG sensitivity (pp) \\
+\midrule
+XSTest safe & 250 & -1.20 & [-2.78, 0.16] & -1.26 & -0.96 \\
+OR-Bench-Hard & 1319 & +3.95 & [2.54, 5.41] & +4.01 & +3.84 \\
+WildJailbreak benign & 210 & +9.05 & [6.05, 12.40] & +9.05 & +9.12 \\
+\bottomrule
+\end{tabular}
+\caption{Five learned vectors minus four norm-matched random directions: operational refusal differences on benign-labelled public sets. V2 is primary; WildGuard is sensitivity, not human calibration. Unseen layers retain 238, 1301, and 210 rows respectively. All responses are capped at 120 target tokens; intervals condition on the observed vectors. WildGuard has 204 complete nine-unit pairs on the 210-row benign WildJailbreak set; its all-row difference bounds are 8.83--9.43 pp. Source CSV contains complete file hashes.}
+\label{tab:public-refusal-nine}
+\end{table*}

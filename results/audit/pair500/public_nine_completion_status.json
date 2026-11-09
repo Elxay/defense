@@ -1,0 +1,205 @@
+{
+  "utc": "2026-11-09T00:34:59.318834+00:00",
+  "pair": {
+    "pid": 2295103,
+    "utc": "2026-11-09T00:34:26.959087+00:00",
+    "gpus": [
+      "1",
+      "2"
+    ],
+    "phase": "search",
+    "alive": true,
+    "completed_rows": 385,
+    "mean_seconds_per_row": 382.78441501305946,
+    "recent10_seconds": [
+      408.7613223742228,
+      425.35844011302106,
+      390.11416715802625,
+      385.25865908782,
+      425.5944102869835,
+      505.58881842996925,
+      275.33222961984575,
+      167.6109177940525,
+      372.3668109839782,
+      456.2302878741175
+    ],
+    "heartbeat_age_s": 32.050301
+  },
+  "node01_active_classifiers": [],
+  "gpu_memory": [
+    "0, 659",
+    "1, 22843",
+    "2, 17367"
+  ],
+  "innet_active_workers": [],
+  "wjb_generation_coverage": {
+    "rand3": 2000,
+    "old_s7": 2000,
+    "old_s0": 0,
+    "SYS_A": 0,
+    "SYS_B": 0
+  },
+  "judge_coverage": {
+    "old_s3": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand0": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s4": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand1": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s5": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand2": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s6": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "rand3": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    },
+    "old_s7": {
+      "hb_top1_files": 2000,
+      "wg_files": 2000
+    }
+  },
+  "harmful_wg_queue": {
+    "utc": "2026-11-09T00:34:48.914032+00:00",
+    "pid": 750029,
+    "phase": "waiting_complete_target_outputs",
+    "condition": "old_s0"
+  },
+  "public_wg_queue": {
+    "utc": "2026-11-08T21:48:15.321471+00:00",
+    "pid": 750027,
+    "phase": "all_ten_complete_no_effect_read",
+    "condition": null
+  },
+  "morning_capture": {
+    "utc": "2026-11-08T22:59:46.390566+00:00",
+    "pid": 784257,
+    "phase": "waiting_0800_JST",
+    "due_utc": "2026-11-08T23:00:00+00:00"
+  },
+  "external_gpu3_last_observation": {
+    "utc": "2026-11-08T21:52:54.535931+00:00",
+    "pid": 592686,
+    "environment_read": false,
+    "action": "observe_only",
+    "same_process_alive": false,
+    "pid_reused": false,
+    "gpu3_total_memory_mib": 15
+  },
+  "innet_gpu_memory": [
+    "2, 16345",
+    "3, 16335"
+  ],
+  "imports_analysis_code": false,
+  "reads_outcome_labels": false,
+  "prefix_generation": {
+    "utc": "2026-11-09T00:34:58.682781+00:00",
+    "pid": 1380947,
+    "phase": "early_generation_dual",
+    "source_rows": 385
+  },
+  "prefix_generation_coverage": {
+    "alpha0": 384,
+    "old_s3": 170,
+    "rand0": 170,
+    "old_s4": 120,
+    "rand1": 120,
+    "old_s5": 120,
+    "rand2": 94,
+    "old_s6": 98,
+    "rand3": 70,
+    "old_s7": 70,
+    "old_s0": 70,
+    "SYS_A": 70,
+    "SYS_B": 70
+  },
+  "prefix_active_workers": [
+    {
+      "utc": "2026-11-09T00:34:50.858676+00:00",
+      "pid": 1412711,
+      "phase": "generation",
+      "condition": "rand2",
+      "device": "cuda:2",
+      "done": 24,
+      "total": 50,
+      "seconds_per_row": 18.683282500113517,
+      "heartbeat_age_s": 8.460158
+    },
+    {
+      "utc": "2026-11-09T00:34:57.646691+00:00",
+      "pid": 1416123,
+      "phase": "generation",
+      "condition": "old_s6",
+      "device": "cuda:3",
+      "done": 28,
+      "total": 50,
+      "seconds_per_row": 10.088433347858622,
+      "heartbeat_age_s": 1.672143
+    }
+  ],
+  "dual_controller": {
+    "utc": "2026-11-09T00:34:58.682781+00:00",
+    "pid": 1380947,
+    "phase": "early_generation_dual",
+    "source_rows": 385,
+    "lanes": {
+      "2": {
+        "launcher_pid": 1412696,
+        "condition": "rand2",
+        "batch_n": 50,
+        "dispatch_metadata_sha256": "863fda655ef5c7e4a6166e4fddc37571739e9283d4435cfb4ec4054a3f3ed195"
+      },
+      "3": {
+        "launcher_pid": 1416109,
+        "condition": "old_s6",
+        "batch_n": 50,
+        "dispatch_metadata_sha256": "184736bc56b25eaa9955d9c310a482ebb35cb83b273ed32af3c2be31d75dc02e"
+      }
+    },
+    "stop_requested": false
+  },
+  "early_wg_progress": {
+    "utc": "2026-11-09T00:34:46.810393+00:00",
+    "pid": 1380948,
+    "phase": "scoring_no_effect_read",
+    "condition": "old_s6",
+    "batch_n": 89,
+    "batch_sha256": "522eaa14b67713d4c84ab910b4f6c52d8fda7b823df7e7471a4bb4e5a420a235"
+  },
+  "early_wg_cached_rows": {
+    "old_s4": 120,
+    "rand1": 91,
+    "rand0": 160,
+    "alpha0": 200,
+    "rand2": 81,
+    "old_s5": 118,
+    "old_s3": 170
+  },
+  "nvidia_processes_innet": [
+    "27351, GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 11418 MiB",
+    "1412711, GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 16322 MiB",
+    "1416123, GPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 16312 MiB"
+  ],
+  "node01_processes": [
+    "2295103, GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 22806 MiB",
+    "2295103, GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 17330 MiB"
+  ]
+}

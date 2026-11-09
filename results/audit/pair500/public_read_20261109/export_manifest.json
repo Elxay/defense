@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-09T00:25:58.273531+00:00",
+  "files": {
+    "docs/255_PUBLIC_ORDERED_READ_RESULTS.md": "85471c5be9b76c40b87fd1792141be690a22584c0204aff2fb0d455a88f1d3b4",
+    "paper/data/public_refusal_nine.csv": "7d9673597e8e55db7752f45732fe338c66e1fea5637416b77700056e6677e386",
+    "paper/tables/public_refusal_nine.tex": "0436dbea0ad314e829cd153d1c02f0597db315f7e6f3d309d611bf34786a9572",
+    "paper/generated/public_refusal_results.tex": "de5fef6cc13f2e397699a7c7d822167454f6bab8719f99e13757152c84e8f096"
+  },
+  "step_ledger_sha256": "25b20787b69ad92bedab5dfc4e73a93ff9439cef7ff47c99104283712ab9291a",
+  "selection_manifest_sha256": "e94cfac24904a4d27ca16a287226b37666e7c2c4c919379357e72a477966bb90",
+  "primary_rule": "v2 unchanged",
+  "human_calibration": false
+}

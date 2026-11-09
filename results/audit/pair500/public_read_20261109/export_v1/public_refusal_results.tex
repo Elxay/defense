@@ -1,0 +1,7 @@
+\subsection{Public benign refusal costs}
+\input{tables/public_refusal_nine}
+The harmful-side advantage does not imply uniform benign costs. The frozen v2 comparison gives -1.20, +3.95, and +9.05 pp on XSTest safe, OR-Bench-Hard, and official WildJailbreak benign prompts, respectively. Full and keep60-unseen layers are shown together; the training overlap is retained, not removed from the main result. WildGuard refusal sensitivity has the same signs, but it sees the same120-token truncated outputs and is not human ground truth.
+
+In six fixed30-pair model reviews, no response was read as a clear task refusal or refusal with alternative. The benign WildJailbreak random group has five uncertain responses and fails the conservative rule that treats uncertainty as a miss. Thus these samples do not validate absolute refusal accuracy. The samples repeat some prompts across vector conditions, use shared conversation context, and lack independent human calibration.
+
+On the separately reported200-row unsafe XSTest control, the v2 refusal difference is-3.90 pp; this refusal-capability reading is not an attack-success estimate.

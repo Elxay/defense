@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-09T00:36:04.375951+00:00",
+  "tex_input_paths_checked": 25,
+  "prior_export_bytes_recovered_and_hash_verified": {
+    "results/audit/pair500/public_read_20261109/export_v1/255_PUBLIC_ORDERED_READ_RESULTS.md": "85471c5be9b76c40b87fd1792141be690a22584c0204aff2fb0d455a88f1d3b4",
+    "results/audit/pair500/public_read_20261109/export_v1/public_refusal_nine.csv": "7d9673597e8e55db7752f45732fe338c66e1fea5637416b77700056e6677e386",
+    "results/audit/pair500/public_read_20261109/export_v1/public_refusal_nine.tex": "0436dbea0ad314e829cd153d1c02f0597db315f7e6f3d309d611bf34786a9572",
+    "results/audit/pair500/public_read_20261109/export_v1/public_refusal_results.tex": "de5fef6cc13f2e397699a7c7d822167454f6bab8719f99e13757152c84e8f096"
+  },
+  "current_report_sha256": "89849c6ef2e956fe9f57eb649869479e7ca2e5fa8b4070ce37eee54edc6e4645",
+  "pdf_rebuilt": false,
+  "tex_engine_available": false,
+  "PAIR500_outcomes_read": false
+}

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-09T00:19:18.584482+00:00",
+  "points_csv_sha256": "5b4434131674134458ccd4988923a9faa6271822cc5fd5260f919b078140ea21",
+  "plot_files_sha256": {
+    "paper/figures/wjb_harm_public_refusal_all.png": "26097b4c6527f1fb1baab89f1817f84f5624331f5fee9c415f289d63bbb8ab33",
+    "paper/figures/wjb_harm_public_refusal_all.pdf": "3c63698ec8c49c879ac148f8f9b285dd73e6a23b1f8ea8ea6842b25edcd5302c",
+    "paper/figures/wjb_harm_public_refusal_keep60_unseen.png": "59d788e6e2aba2a7b00da7c7d0e806474d3b03e0ee75ef680ed8594513a7e512",
+    "paper/figures/wjb_harm_public_refusal_keep60_unseen.pdf": "0ac1ed534fb9c68d10e0b713c939dae4e84eaffe95a3c30de559c5cf233ba680"
+  },
+  "recall_group_hashes": {
+    "08_recall_group1.json": "2f279a831857f2cfe2b450c9b8faa1389ebc1918d96ed92fbc1115b88e1c59a9",
+    "08_recall_group2.json": "8153f698e93af1018b61d646edd3da62811cfcd5a84be797862e06ecbdba6cf2",
+    "08_recall_group3.json": "a41f0c90160210add6ee8b8d799c14582e481718ee4ac63c3e76e4c725c5e5a0",
+    "08_recall_group4.json": "fc426e2797f6ee49b3192f8fb219e119239dd11315bfdf3845f792f2c7dda49a",
+    "08_recall_group5.json": "e35ed0725205e2d00bd425168ea238c5cf586b664006f07a44ec2cc4032960c5",
+    "08_recall_group6.json": "b61ee265572aba4c3d19e19b6f2c426ea2446505b6737b712ad22a6c3c913293"
+  },
+  "scope": "Nine observed vectors; no fitting or decision threshold. X is all2000 official WJB harmful prompts, per-unit complete model-label pairs where required; Y is public full or keep60-unseen prompts. Model/rule operational labels, not calibrated human outcomes. Baseline-zero lines are references, not thresholds."
+}
