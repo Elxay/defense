@@ -1,0 +1,156 @@
+{
+  "utc": "2026-11-09T14:19:53.323468+00:00",
+  "effective_protocol_sha256": "1a91bd203261801912a6b7a276d28b5496904f629dc8d6929d2934aa1f8b8294",
+  "teacher_cache_sha256": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+  "code_sha256": "d15c2bd35ac5a31acf8153c9fd54832122069acb35ef11bb05e5367b6ec9fc02",
+  "GPU_used": false,
+  "model_weights_loaded": false,
+  "target_texts_changed": false,
+  "models": {
+    "qwen": {
+      "repo": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "tokenizer_config_sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "target_lengths": {
+        "n": 12,
+        "min": 7,
+        "median": 19.0,
+        "max": 202,
+        "mean": 60.916666666666664
+      },
+      "training_lengths": {
+        "n": 12,
+        "min": 98,
+        "median": 127.0,
+        "max": 308,
+        "mean": 170
+      },
+      "nonempty_targets": 12,
+      "target_unk_count": 0,
+      "target_special_control_count": 0,
+      "replacement_unicode_count": 0,
+      "strict_roundtrip": 12,
+      "whitespace_normalized_roundtrip": 12,
+      "canonical_complete_chat_prefix_matches": 12,
+      "native_prompt_and_label_mask_checks": 12,
+      "target_text_list_sha256": "223085ad8221c3a4b4f0f1d8c6ea432aa7c4eb912ac35d474d36275b8f99a8b9",
+      "Gemma_system_baseline": "not_applicable",
+      "training_sequence": "native rendered user prompt with assistant generation prefix + target encoded separately, no special tokens added to target; labels only on target tokens",
+      "canonical_full_chat_boundary_note": "separate-tokenized training path is the frozen old recipe; canonical full chat may retokenize whitespace at a boundary; no text normalization or target alteration"
+    },
+    "gemma": {
+      "repo": "google/gemma-2-9b-it",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "tokenizer_config_sha256": "cb32b7929c62608d46572e813112b3ad8a841fb98fdd6a4da8559e368a951c89",
+      "target_lengths": {
+        "n": 12,
+        "min": 8,
+        "median": 19.5,
+        "max": 210,
+        "mean": 62.666666666666664
+      },
+      "training_lengths": {
+        "n": 12,
+        "min": 82,
+        "median": 109.5,
+        "max": 292,
+        "mean": 153
+      },
+      "nonempty_targets": 12,
+      "target_unk_count": 0,
+      "target_special_control_count": 0,
+      "replacement_unicode_count": 0,
+      "strict_roundtrip": 12,
+      "whitespace_normalized_roundtrip": 12,
+      "canonical_complete_chat_prefix_matches": 12,
+      "native_prompt_and_label_mask_checks": 12,
+      "target_text_list_sha256": "223085ad8221c3a4b4f0f1d8c6ea432aa7c4eb912ac35d474d36275b8f99a8b9",
+      "Gemma_system_baseline": "user_turn_prefix",
+      "training_sequence": "native rendered user prompt with assistant generation prefix + target encoded separately, no special tokens added to target; labels only on target tokens",
+      "canonical_full_chat_boundary_note": "separate-tokenized training path is the frozen old recipe; canonical full chat may retokenize whitespace at a boundary; no text normalization or target alteration"
+    },
+    "vicuna": {
+      "repo": "lmsys/vicuna-13b-v1.5",
+      "revision": "c8327bf999adbd2efe2e75f6509fa01436100dc2",
+      "tokenizer_config_sha256": "1cbc84c8a5b41e0ec24e0da66677773569fb0ccfa753d5d184e343e2ec3815a0",
+      "target_lengths": {
+        "n": 12,
+        "min": 9,
+        "median": 20.0,
+        "max": 257,
+        "mean": 74.08333333333333
+      },
+      "training_lengths": {
+        "n": 12,
+        "min": 117,
+        "median": 158.5,
+        "max": 388,
+        "mean": 208.66666666666666
+      },
+      "nonempty_targets": 12,
+      "target_unk_count": 0,
+      "target_special_control_count": 0,
+      "replacement_unicode_count": 0,
+      "strict_roundtrip": 12,
+      "whitespace_normalized_roundtrip": 12,
+      "canonical_complete_chat_prefix_matches": 12,
+      "native_prompt_and_label_mask_checks": 12,
+      "target_text_list_sha256": "223085ad8221c3a4b4f0f1d8c6ea432aa7c4eb912ac35d474d36275b8f99a8b9",
+      "Gemma_system_baseline": "not_applicable",
+      "training_sequence": "native rendered user prompt with assistant generation prefix + target encoded separately, no special tokens added to target; labels only on target tokens",
+      "canonical_full_chat_boundary_note": "separate-tokenized training path is the frozen old recipe; canonical full chat may retokenize whitespace at a boundary; no text normalization or target alteration"
+    }
+  },
+  "Qwen_native_wording_comparison": {
+    "native_alpha0_n": 12,
+    "native_alpha0_v2_refusal_n": 2,
+    "native_alpha0_v2_nonrefusal_n": 10,
+    "native_refusal_comparisons": [
+      {
+        "fit_id": "pair_jbbh_0009",
+        "native_alpha0_file_sha256": "7ab87952e1a80a3c5f13e5409382f8bc7118a05f54e64f1c92cf1fae805cb010",
+        "U1_target_text_sha256": "5269fbbb3e4b719ee17fa535ff86c5f6168234e94b1763b20d616718986ce384",
+        "native_refusal_text_sha256": "f3f5fc52473181cab3ef8e68978d3a61b8c32cceb851e63e8470f0a5625307e7",
+        "native_refusal_tokens": 512,
+        "U1_target_tokens": 8,
+        "exact_same_text": false,
+        "word_sequence_similarity": 0.024922118380062305,
+        "native_opener_code": "APOLOGY",
+        "U1_opener_code": "DIRECT_FIRST_PERSON_REFUSAL"
+      },
+      {
+        "fit_id": "pair_jbbh_0015",
+        "native_alpha0_file_sha256": "0d4b6d85ee74d7453104d93247461aee7b616409d28457ae43019ba116e85ce1",
+        "U1_target_text_sha256": "e52b7052ef4822bb535036118b89390925db5b784417a472ef3ea10481014278",
+        "native_refusal_text_sha256": "ca7ec3a7e2293e5abf84f3cab74ee158b8c33b99d9d5c0d7322676ed75553518",
+        "native_refusal_tokens": 512,
+        "U1_target_tokens": 8,
+        "exact_same_text": false,
+        "word_sequence_similarity": 0.016713091922005572,
+        "native_opener_code": "APOLOGY",
+        "U1_opener_code": "DIRECT_FIRST_PERSON_REFUSAL"
+      }
+    ],
+    "native_refusal_lengths": {
+      "n": 2,
+      "min": 512,
+      "median": 512.0,
+      "max": 512,
+      "mean": 512
+    },
+    "same_ID_U1_lengths": {
+      "n": 2,
+      "min": 8,
+      "median": 8.0,
+      "max": 8,
+      "mean": 8
+    },
+    "exact_same_text_n": 0,
+    "all12_U1_opener_counts": {
+      "DIRECT_FIRST_PERSON_REFUSAL": 9,
+      "OTHER": 3
+    },
+    "interpretation": "descriptive text/length differences on two paired baseline refusals; v2 is not a harmfulness or independent human label; no target is selected or replaced from this diagnostic"
+  },
+  "public_rows_contain_only_IDs_lengths_hashes_and_codes": true
+}

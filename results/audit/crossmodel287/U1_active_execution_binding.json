@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-09T14:19:53.323468+00:00",
+  "effective_protocol_file": "results/audit/crossmodel287/protocol_effective_addendum5_U1.json",
+  "effective_protocol_sha256": "1a91bd203261801912a6b7a276d28b5496904f629dc8d6929d2934aa1f8b8294",
+  "target_rule": "U1",
+  "tokenization_check_sha256": "c00471b7be81f1562e184569c38f29d5dfd123d5521d624357548e6f46e297fe",
+  "tokenization_rows_sha256": "13f1e01ec60de14250b5ee1ed704d2ccf64911e3bc1a50856f0a29b1b5e2c346",
+  "ordered_target_texts_sha256": "223085ad8221c3a4b4f0f1d8c6ea432aa7c4eb912ac35d474d36275b8f99a8b9",
+  "model_targets": {
+    "qwen": {
+      "private_pack": "results/audit/crossmodel287/qwen_U1_targets.private.json",
+      "private_pack_sha256": "1442d90d5ae22decd8b932b1e4265df443aec94e3f427f8fdad72df26262f1c2",
+      "fit12_source": "fixed_Llama_cache",
+      "keep60_source": "native_Qwen_alpha0",
+      "training_allowed": false,
+      "waiting_for": "hashed addendum4 refusal review and admission"
+    },
+    "gemma": {
+      "fit12_source": "fixed_Llama_cache",
+      "keep60_source": "must_generate_native_Gemma_alpha0",
+      "training_allowed": false
+    },
+    "vicuna": {
+      "fit12_source": "fixed_Llama_cache",
+      "keep60_source": "must_generate_native_Vicuna_alpha0",
+      "training_allowed": false
+    }
+  },
+  "all_native_donor_fit_outputs_excluded": true,
+  "old_native_gate_not_a_training_condition": true,
+  "old_private_pack_unchanged_sha256": "d2146f1d0b593ea5cabaf86b3c9c7cd2bb57ab4398aec89c7d6d379ff0fda94c"
+}

@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-09T14:22:20.675884+00:00",
+  "files": {
+    "docs/287_U1_TOKENIZATION_AND_EXECUTION_CHECK.md": "e4dcbd047b40a7a8684b03109c06f0690a8ee3e6a62e1b518c1f87bb6221612e",
+    "paper/sections/03_setup.tex": "d6868260fe7850f19c0928960c79875699330a18a6862056eaad4c2b810ce17c",
+    "paper/sections/06_limitations.tex": "b408719cf483b89c34824ca399466d1b4e2726f39e54afd954f7ffdb83a7a34e",
+    "tools/handoff_20261106/crossmodel287_U1_tokenization.py": "d15c2bd35ac5a31acf8153c9fd54832122069acb35ef11bb05e5367b6ec9fc02",
+    "tools/handoff_20261106/publish_crossmodel287_U1_checks.py": "c48364c483bb0079742ba9138be699b5c5976689f5c6ec00fb4cffecc6d2c755",
+    "results/audit/crossmodel287/U1_tokenization_check.json": "c00471b7be81f1562e184569c38f29d5dfd123d5521d624357548e6f46e297fe",
+    "results/audit/crossmodel287/U1_tokenization_rows.csv": "13f1e01ec60de14250b5ee1ed704d2ccf64911e3bc1a50856f0a29b1b5e2c346",
+    "results/audit/crossmodel287/U1_active_execution_binding.json": "7ffbecb0ed5759ab60d38dda8f487cd8e55a5da95087aeada798c65012e731b1",
+    "results/audit/crossmodel287/U1_Qwen_wording_cap_note.json": "a91d02813b0e5fb04d850c357b6c09f82d4af6fea5b36133e9aef228b9745a99",
+    "results/audit/crossmodel287/U1_requested_PAIR_read_receipts.json": "1989627e06068453ebb84da8c5724ca60e2eb20fee4baa93b40dd658a2c89e12",
+    "docs/PREREG_LOG.txt": "c369f8c61e326f31bc9f9fc0c4a0db8e765dc6bd9be6ebef8fc3f29fd0d43544",
+    "docs/OPS_LOG.txt": "969fbe3bc63ede83642715ba25d531a2ae90f566ebac875c91669c6146e30461"
+  },
+  "no_raw_prompt_response_or_target_text": true,
+  "new_models_trained": false,
+  "tokenization_CPU_only": true
+}
