@@ -1,0 +1,389 @@
+{
+  "utc": "2026-11-09T03:28:38.563118+00:00",
+  "innet": {
+    "compute": [
+      {
+        "pid": 1647440,
+        "ppid": 1647426,
+        "gpu_uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+        "memory": "16350 MiB",
+        "account": "kemove",
+        "project": "Def/prefix-generation",
+        "registry_pids": [
+          "1647440"
+        ],
+        "command": "/home/kemove/anaconda3/envs/HZX_GLA/bin/python -u tools/handoff_20261106/prefix_generate_borrowed.py --task results/audit/pair500/prefix254/tasks.private/rand2_87b70f9fe1eabcc910ea.json "
+      },
+      {
+        "pid": 1509408,
+        "ppid": 1,
+        "gpu_uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+        "memory": "5586 MiB",
+        "account": "kemove",
+        "project": "Urban3D point-cloud project (external; operator unconfirmed)",
+        "registry_pids": [],
+        "command": "python train_unregistered_stage2.py --data_train /data/PanTeng/Urban3D/Urb3DCD_lab/data_urb3d/1-Lidar05/Train --data_val /data/PanTeng/Urban3D/Urb3DCD_lab/data_urb3d/1-Lidar05/Val --cache_dir /data/PanTeng/Urban3D/cache_lidar05 --samples_per_epoch 2000 --epochs 50 --batch_size 8 --cuda 0 --num_workers 4 --eval_frequency 2 --early_stop 50 --lr 0.001 --seed 42 --weighting inv_sqrt --train_perturb_rot_deg 5 --train_perturb_trans_min 1 --train_perturb_trans_max 5 --val_perturb_rot_deg 5 --val_perturb_trans 5 --resume /data/PanTeng/Urban3D/checkpoints_stage2/perturb_start/best.pt --weight_name best "
+      },
+      {
+        "pid": 1655983,
+        "ppid": 3581097,
+        "gpu_uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+        "memory": "15120 MiB",
+        "account": "kemove",
+        "project": "MTA (external to Def)",
+        "registry_pids": [],
+        "command": "/home/kemove/anaconda3/envs/mta/bin/python -B -u -m week34_supplement.cli stage --config /data/wangjiahui/MTA/runs/week34_supplement_bf16_v3/main/seed99/GP_swap_TPA/config.json --stage evaluate "
+      },
+      {
+        "pid": 1656458,
+        "ppid": 1656434,
+        "gpu_uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+        "memory": "16120 MiB",
+        "account": "kemove",
+        "project": "Def/prefix-generation",
+        "registry_pids": [
+          "1656458"
+        ],
+        "command": "/home/kemove/anaconda3/envs/HZX_GLA/bin/python -u tools/handoff_20261106/prefix_generate_borrowed.py --task results/audit/pair500/prefix254/tasks.private/rand3_5d30210ea482ca7a648a.json "
+      },
+      {
+        "pid": 1655111,
+        "ppid": 1655093,
+        "gpu_uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+        "memory": "16324 MiB",
+        "account": "kemove",
+        "project": "Def/prefix-generation",
+        "registry_pids": [
+          "1655111"
+        ],
+        "command": "/home/kemove/anaconda3/envs/HZX_GLA/bin/python -u tools/handoff_20261106/prefix_generate_borrowed.py --task results/audit/pair500/prefix254/tasks.private/old_s6_c867398e353dbd8369f2.json "
+      }
+    ],
+    "gpu": [
+      "0, GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0, 16375 MiB, 60 %, 75, 2625 MHz",
+      "1, GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 20735 MiB, 100 %, 67, 2580 MHz",
+      "2, GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 16143 MiB, 71 %, 73, 2655 MHz",
+      "3, GPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 16347 MiB, 69 %, 79, 2685 MHz"
+    ]
+  },
+  "node01": {
+    "utc": "2026-11-09T03:28:38.190443+00:00",
+    "compute": [
+      {
+        "pid": 2295103,
+        "ppid": 2295099,
+        "gpu_uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+        "memory": "22806 MiB",
+        "account": "dell",
+        "project": "Def/PAIR-search",
+        "registry_pids": [
+          "2295099"
+        ],
+        "command": "/data/ray/env/bin/python -u tools/handoff_20261106/pair500_search_telemetry.py --root /home/dell/Def --attacker /data/ray/pair500_models/qwen3_8b --target /data/ray/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659 --limit 500 "
+      },
+      {
+        "pid": 2295103,
+        "ppid": 2295099,
+        "gpu_uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+        "memory": "17330 MiB",
+        "account": "dell",
+        "project": "Def/PAIR-search",
+        "registry_pids": [
+          "2295099"
+        ],
+        "command": "/data/ray/env/bin/python -u tools/handoff_20261106/pair500_search_telemetry.py --root /home/dell/Def --attacker /data/ray/pair500_models/qwen3_8b --target /data/ray/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659 --limit 500 "
+      }
+    ],
+    "early_WG_batch_workers": [
+      {
+        "pid": 2733601,
+        "account": "dell",
+        "registry_pids": [
+          "2733601"
+        ],
+        "command": "/data/ray/env/bin/python -u tools/handoff_20261106/prefix_wg_batch_runner.py --batch results/audit/pair500/prefix_wg_batches/rand1/72fd627f425f2d004e66b6248447e54cbb6d7003cedc24f1fbfce01bf6cfcb75 ",
+        "CUDA_context_currently_listed": false
+      }
+    ],
+    "display_processes": [
+      {
+        "pid": 2142,
+        "account": "gdm",
+        "command_name": "Xorg",
+        "project": "system desktop/remote desktop, not Def compute"
+      },
+      {
+        "pid": 2311,
+        "account": "gdm",
+        "command_name": "gnome-shell",
+        "project": "system desktop/remote desktop, not Def compute"
+      },
+      {
+        "pid": 4155,
+        "account": "dell",
+        "command_name": "Xorg",
+        "project": "system desktop/remote desktop, not Def compute"
+      },
+      {
+        "pid": 4270,
+        "account": "dell",
+        "command_name": "gnome-shell",
+        "project": "system desktop/remote desktop, not Def compute"
+      },
+      {
+        "pid": 4522,
+        "account": "dell",
+        "command_name": "sunloginclient",
+        "project": "system desktop/remote desktop, not Def compute"
+      },
+      {
+        "pid": 4595,
+        "account": "dell",
+        "command_name": "sunloginclient",
+        "project": "system desktop/remote desktop, not Def compute"
+      },
+      {
+        "pid": 4617,
+        "account": "dell",
+        "command_name": "sunloginclient",
+        "project": "system desktop/remote desktop, not Def compute"
+      },
+      {
+        "pid": 4684,
+        "account": "dell",
+        "command_name": "chrome",
+        "project": "system desktop/remote desktop, not Def compute"
+      }
+    ],
+    "gpu": [
+      "0, GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 650 MiB, 0 %, 42, 210 MHz",
+      "1, GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 22843 MiB, 61 %, 56, 2745 MHz",
+      "2, GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 17367 MiB, 0 %, 45, 2520 MHz"
+    ],
+    "pair": {
+      "completed_rows": 412,
+      "seconds_per_row": 383.19435025073045,
+      "worker_pid": 2295103,
+      "heartbeat_utc": "2026-11-09T03:28:27.929007+00:00",
+      "historical_restart_count": 1
+    }
+  },
+  "triple_dispatcher": {
+    "utc": "2026-11-09T03:28:38.183361+00:00",
+    "pid": 1466633,
+    "phase": "early_generation_borrowed_three_lanes",
+    "source_rows": 412,
+    "lanes": {
+      "0": {
+        "launcher_pid": 1647426,
+        "condition": "rand2",
+        "batch_n": 50,
+        "dispatch_metadata_sha256": "0e86b32f9a18a8c24d2c54678f6133a58ee4301059598bf2b7c2ced7b74da17d"
+      },
+      "3": {
+        "launcher_pid": 1655093,
+        "condition": "old_s6",
+        "batch_n": 50,
+        "dispatch_metadata_sha256": "80ee0175cef3cee39277a6ea394c02989995ab774a1a4915cfae9b5efd8e4ef4"
+      },
+      "2": {
+        "launcher_pid": 1656434,
+        "condition": "rand3",
+        "batch_n": 50,
+        "dispatch_metadata_sha256": "a5e7401575b5f1a4f24b62cd2d66e1f59d0ccfdc5b3c44af63967240052813c3"
+      }
+    },
+    "stop_requested": false
+  },
+  "active_prefix_workers": [
+    {
+      "utc": "2026-11-09T03:28:31.074619+00:00",
+      "pid": 1655111,
+      "phase": "generation",
+      "condition": "old_s6",
+      "device": "cuda:3",
+      "done": 36,
+      "total": 50,
+      "seconds_per_row": 10.228544841649839
+    },
+    {
+      "utc": "2026-11-09T03:28:24.825838+00:00",
+      "pid": 1656458,
+      "phase": "generation",
+      "condition": "rand3",
+      "device": "cuda:2",
+      "done": 17,
+      "total": 50,
+      "seconds_per_row": 17.537418496603255
+    },
+    {
+      "utc": "2026-11-09T03:28:30.514797+00:00",
+      "pid": 1647440,
+      "phase": "generation",
+      "condition": "rand2",
+      "device": "cuda:0",
+      "done": 37,
+      "total": 50,
+      "seconds_per_row": 20.120188840073407
+    }
+  ],
+  "measured_new_worker_throughput": {
+    "SYS_A/cuda:2": {
+      "n": 150,
+      "seconds_per_row": 8.168202092150848,
+      "rows_per_hour": 440.7334636663048
+    },
+    "rand1/cuda:3": {
+      "n": 100,
+      "seconds_per_row": 18.232281100214458,
+      "rows_per_hour": 197.45197982701433
+    },
+    "rand1/cuda:2": {
+      "n": 50,
+      "seconds_per_row": 15.674144238140434,
+      "rows_per_hour": 229.6776108031465
+    },
+    "rand1/cuda:0": {
+      "n": 50,
+      "seconds_per_row": 15.060420574620366,
+      "rows_per_hour": 239.03714920595746
+    },
+    "rand2/cuda:0": {
+      "n": 37,
+      "seconds_per_row": 20.013072545124167,
+      "rows_per_hour": 179.88242394479684
+    },
+    "rand2/cuda:3": {
+      "n": 100,
+      "seconds_per_row": 14.285708799990825,
+      "rows_per_hour": 252.000096768199
+    },
+    "rand2/cuda:2": {
+      "n": 50,
+      "seconds_per_row": 17.872413298571484,
+      "rows_per_hour": 201.42775012302022
+    },
+    "rand0/cuda:3": {
+      "n": 50,
+      "seconds_per_row": 17.287043650867417,
+      "rows_per_hour": 208.24844737517404
+    },
+    "rand0/cuda:2": {
+      "n": 100,
+      "seconds_per_row": 15.362008605124428,
+      "rows_per_hour": 234.34435512548268
+    },
+    "rand0/cuda:0": {
+      "n": 50,
+      "seconds_per_row": 15.865209725238383,
+      "rows_per_hour": 226.91159224155217
+    },
+    "old_s3/cuda:3": {
+      "n": 138,
+      "seconds_per_row": 8.15786320181307,
+      "rows_per_hour": 441.2920284321397
+    },
+    "old_s3/cuda:0": {
+      "n": 50,
+      "seconds_per_row": 5.2898497887142,
+      "rows_per_hour": 680.5486249686211
+    },
+    "old_s0/cuda:3": {
+      "n": 100,
+      "seconds_per_row": 7.197468684329651,
+      "rows_per_hour": 500.17584763347844
+    },
+    "old_s0/cuda:0": {
+      "n": 50,
+      "seconds_per_row": 10.845759338773787,
+      "rows_per_hour": 331.92696680350764
+    },
+    "alpha0/cuda:0": {
+      "n": 9,
+      "seconds_per_row": 15.732061245892611,
+      "rows_per_hour": 228.8320610841699
+    },
+    "alpha0/cuda:3": {
+      "n": 9,
+      "seconds_per_row": 23.951994937482393,
+      "rows_per_hour": 150.30063297009022
+    },
+    "alpha0/cuda:2": {
+      "n": 4,
+      "seconds_per_row": 27.571507901418954,
+      "rows_per_hour": 130.56957250476415
+    },
+    "old_s7/cuda:2": {
+      "n": 150,
+      "seconds_per_row": 10.865088030360639,
+      "rows_per_hour": 331.3364778951089
+    },
+    "old_s5/cuda:2": {
+      "n": 50,
+      "seconds_per_row": 12.664940140051767,
+      "rows_per_hour": 284.2492708366867
+    },
+    "old_s5/cuda:0": {
+      "n": 100,
+      "seconds_per_row": 9.752605328769423,
+      "rows_per_hour": 369.1321322498596
+    },
+    "old_s5/cuda:3": {
+      "n": 50,
+      "seconds_per_row": 8.380210207160562,
+      "rows_per_hour": 429.5834962378319
+    },
+    "old_s4/cuda:2": {
+      "n": 50,
+      "seconds_per_row": 8.913677252260968,
+      "rows_per_hour": 403.87372103772935
+    },
+    "old_s4/cuda:0": {
+      "n": 130,
+      "seconds_per_row": 9.187516922919222,
+      "rows_per_hour": 391.83601295138004
+    },
+    "old_s6/cuda:3": {
+      "n": 36,
+      "seconds_per_row": 10.22549208425658,
+      "rows_per_hour": 352.0612964477914
+    },
+    "old_s6/cuda:2": {
+      "n": 100,
+      "seconds_per_row": 6.31264668604359,
+      "rows_per_hour": 570.283777794679
+    },
+    "old_s6/cuda:0": {
+      "n": 50,
+      "seconds_per_row": 10.373458104366437,
+      "rows_per_hour": 347.0395275886518
+    },
+    "rand3/cuda:2": {
+      "n": 17,
+      "seconds_per_row": 17.536687408409573,
+      "rows_per_hour": 205.28392370577635
+    },
+    "rand3/cuda:0": {
+      "n": 100,
+      "seconds_per_row": 15.749256990533322,
+      "rows_per_hour": 228.58221198396308
+    },
+    "rand3/cuda:3": {
+      "n": 50,
+      "seconds_per_row": 18.211198773272336,
+      "rows_per_hour": 197.68056155004686
+    },
+    "SYS_B/cuda:0": {
+      "n": 100,
+      "seconds_per_row": 3.972206708630547,
+      "rows_per_hour": 906.2972458553477
+    },
+    "SYS_B/cuda:3": {
+      "n": 50,
+      "seconds_per_row": 5.1497285863664,
+      "rows_per_hour": 699.0659681620475
+    }
+  },
+  "read_PAIR_outcomes": false,
+  "interpretation": "OS account does not identify project. PAIR target/attacker alternate; instantaneous0 utilization is not a waiting/stall diagnosis. Historical PAIR restart count remains1."
+}

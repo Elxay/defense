@@ -1,0 +1,13 @@
+{
+  "request_utc": "2026-11-09T01:12:51.643761+00:00",
+  "released_utc": "2026-11-09T01:13:08.688367+00:00",
+  "worker_pid": 1468523,
+  "condition": "old_s4",
+  "previous_rows_unchanged": 149,
+  "rows_added_before_release": 1,
+  "worker_phase": "borrowed_gpu0_yield",
+  "passed": true,
+  "scope": "only our registered borrowed GPU0 worker; no PAIR restart or external process signal",
+  "live_sha256": "4b328546f6d042dcf6672a7b9ddac609d6bf5605eed56fd84ed2cd4c889c231b",
+  "own_test_flag_removed_utc": "2026-11-09T01:13:08.688591+00:00"
+}

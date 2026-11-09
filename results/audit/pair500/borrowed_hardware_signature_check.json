@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-09T03:28:39.112986+00:00",
+  "checked_rows_per_card": {
+    "2": 721,
+    "3": 683,
+    "0": 726
+  },
+  "all_passed": true,
+  "no_PAIR_outcome_labels_read": true,
+  "uuid_format_note": "PyTorch stores bare UUID; nvidia-smi adds GPU- prefix. Validation strips only that prefix and normalizes case. Original execution signatures and generated rows are unchanged."
+}

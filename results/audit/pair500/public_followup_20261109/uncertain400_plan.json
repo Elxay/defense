@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-09T01:06:52.227586+00:00",
+  "review_indices": [
+    23,
+    25,
+    44,
+    129,
+    144
+  ],
+  "worker_sha256": "63aa90788d9a1794b550b1ee78c915c0802bd87813a13148cbbee3d87b92ac9e",
+  "original120_selection_sha256": "b61ee265572aba4c3d19e19b6f2c426ea2446505b6737b712ad22a6c3c913293",
+  "status": "posthoc400-token follow-up, same original batch8 composition, original120 labels and conservative failure retained",
+  "gate_passed": true
+}

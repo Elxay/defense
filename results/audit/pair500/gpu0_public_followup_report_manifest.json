@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-09T03:28:39.112986+00:00",
+  "report_sha256": "86a1fdd18545b992fc9d00ce54c12fa463ca14c2c71931b290c445f6ef380719",
+  "files": {
+    "docs/255_PUBLIC_FOLLOWUP_AND_GPU0_HANDOFF.md": "86a1fdd18545b992fc9d00ce54c12fa463ca14c2c71931b290c445f6ef380719",
+    "results/audit/pair500/gpu0_zero20_result.json": "2fdb35cc98c63ba1785d3d1c135f1ac52d14aaf4230ffb1eb387b03d987fde04",
+    "results/audit/pair500/gpu0_borrow_publication.json": "971dc246097a80a149abf6a0c766bda620d094eaa96c6ee10588d5ef7363fffb",
+    "results/audit/pair500/gpu0_cooperative_release_check.json": "dcf49568c5492862255ff3e64c6717b1ea18b17a9b5c428b0c0d0f68597940aa",
+    "results/audit/pair500/borrowed_hardware_signature_check.json": "a4fe09cfc12c90567a391c3ba2bc1d7ca5a7b8927cea146321f12e82a3d32938",
+    "results/audit/pair500/gpu23_thermal_counter_comparison.json": "f9a9ef2ab9c94493c96a193e12112673a022015ed994bcb9b4566226de4a0a27",
+    "paper/generated/public_refusal_followup.tex": "fefbd05f81eeaa4d940f75f66ade8059f2672337d353364296d0055340353c80",
+    "results/audit/pair500/public_followup_20261109/uncertain400_model_labels.json": "1dcb588d691ad16bf1362a807c6b965a3a22f3aaeb1db2e43973038f95449288",
+    "results/audit/pair500/public_followup_20261109/cpu_followup_manifest.json": "ad5940d66178b87e2407d3442c90313a6b23af556b27c5cc98858c6361236964",
+    "results/audit/pair500/public_followup_20261109/uncertain400_generation_check.json": "71a2b677bc194d70953670d70903a03e1ac6482d02cb58acd95bc1f142221376",
+    "results/audit/pair500/public_followup_20261109/uncertain400_plan.json": "60cf023da88fa61043ca8ad04983bfd9d7cf40da24c6138e210992aa56d34e9c",
+    "results/audit/pair500/public_followup_20261109/uncertain400_live.json": "8a5361b23e063d130791fc1bed63e4211a5f0e19688dc8f8b7e73a519e4ef956",
+    "results/audit/pair500/public_followup_20261109/refusal_decomposition.json": "58a94e1db8ce0e284ca0a4a43610fa727cbba58f99fc5d30f80216f1b4bdb244",
+    "results/audit/pair500/public_followup_20261109/harmful_refusal_baseline_changes.json": "7cf557d9c3941fc08a616c7c8bc1cdbe46ffd7f404ef47efea83744f4aa9f949",
+    "results/audit/pair500/public_followup_20261109/sampling_replay_checks.json": "c812c35d0ec1462f98085f6fc809264c80668792d86c03f84506825bbfa42aef",
+    "results/audit/pair500/public_followup_20261109/absolute_refusal_and_baseline_changes.json": "e19fd966a28d335f00021f6211cb3a5df70d07f9628cfa1227da408f5e5b67ba"
+  },
+  "PAIR_outcomes_read": false,
+  "no_raw_prompt_or_response_text": true
+}

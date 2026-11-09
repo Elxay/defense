@@ -1,0 +1,53 @@
+{
+  "first_file_sha256": "dd126a517bed711a9c388dff297cb45f68080b9ca42b38aad1540b8234e39714",
+  "last_file_sha256": "55d19f561e010a69f9c85c28d7839f73650eb553db913861fc2a50f3e9ba807a",
+  "first_utc_header": "UTC 2026-11-09T01:04:04.763314+00:00",
+  "last_utc": "2026-11-09T03:28:39.112986+00:00",
+  "gpus": {
+    "2": {
+      "counters_us": {
+        "SW Thermal Slowdown": 123556655546,
+        "HW Thermal Slowdown": 0,
+        "SW Power Capping": 152086334710,
+        "HW Power Braking": 0
+      },
+      "reasons": {
+        "SW Thermal Slowdown": "Not Active",
+        "HW Thermal Slowdown": "Not Active",
+        "SW Power Cap": "Not Active",
+        "HW Slowdown": "Not Active",
+        "HW Power Brake Slowdown": "Not Active"
+      },
+      "current_SM_MHz": 2655,
+      "counter_increase_us": {
+        "SW Thermal Slowdown": 0,
+        "HW Thermal Slowdown": 0,
+        "SW Power Capping": 700486,
+        "HW Power Braking": 0
+      }
+    },
+    "3": {
+      "counters_us": {
+        "SW Thermal Slowdown": 55164985429,
+        "HW Thermal Slowdown": 20046,
+        "SW Power Capping": 39413272894,
+        "HW Power Braking": 0
+      },
+      "reasons": {
+        "SW Thermal Slowdown": "Not Active",
+        "HW Thermal Slowdown": "Not Active",
+        "SW Power Cap": "Not Active",
+        "HW Slowdown": "Not Active",
+        "HW Power Brake Slowdown": "Not Active"
+      },
+      "current_SM_MHz": 2685,
+      "counter_increase_us": {
+        "SW Thermal Slowdown": 14471,
+        "HW Thermal Slowdown": 0,
+        "SW Power Capping": 241983,
+        "HW Power Braking": 0
+      }
+    }
+  },
+  "interpretation": "No active thermal slowdown and no additional thermal-counter time in this window if deltas are zero. Lower-than-max dynamic clocks alone are not throttling. No counterfactual estimate of MTA impact on throughput."
+}

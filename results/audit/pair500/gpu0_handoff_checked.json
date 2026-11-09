@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-09T01:07:56.393123+00:00",
+  "old_controller_pid": 1380947,
+  "old_controller_exited": true,
+  "preexisting_rows_verified_unchanged": 1900,
+  "gate_passed": true,
+  "handoff_supervisor_pid": 1463235
+}

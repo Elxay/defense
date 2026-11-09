@@ -1,0 +1,74 @@
+{
+  "started_utc": "2026-11-09T01:07:32.732327+00:00",
+  "completed_utc": "2026-11-09T01:08:58.048691+00:00",
+  "rows": [
+    {
+      "review_index": 23,
+      "condition": "rand0",
+      "original_id": "101",
+      "original_batch_sha256": "ec3712cb2b97ccc81c23f3a3bf404965140e881c06055f6c5a56777ff103dced",
+      "stored120_vs_replay120_byte_equal": true,
+      "replay400_starts_with_replay120": true,
+      "replay400_starts_with_stored120": true,
+      "stored120_sha256": "f42b48727a3103228b71fb7be0a44f487e19774e2a88c518edfb7b88dd44ab2c",
+      "replay120_sha256": "f42b48727a3103228b71fb7be0a44f487e19774e2a88c518edfb7b88dd44ab2c",
+      "replay400_sha256": "6858669e2578ec3678f9385fc09198e50288c23d17e212f1ca019b85d777ad47",
+      "400_retokenized_length": 400
+    },
+    {
+      "review_index": 25,
+      "condition": "rand3",
+      "original_id": "169",
+      "original_batch_sha256": "11fe3f1271b50b3efd2804c33e4a2adaeaa85e84e31850c538628a0b581352b4",
+      "stored120_vs_replay120_byte_equal": true,
+      "replay400_starts_with_replay120": true,
+      "replay400_starts_with_stored120": true,
+      "stored120_sha256": "5a5eafd7f70f019a366ca1c4e11031a7f63c160bd2804c986566037f2cd9a70e",
+      "replay120_sha256": "5a5eafd7f70f019a366ca1c4e11031a7f63c160bd2804c986566037f2cd9a70e",
+      "replay400_sha256": "50406bce8043d7d27794c6bbb5e1388260abb9ff89534686e10ccdbaa2d04731",
+      "400_retokenized_length": 400
+    },
+    {
+      "review_index": 44,
+      "condition": "rand1",
+      "original_id": "22",
+      "original_batch_sha256": "edc648aea584680099ebe0dcfc57b7d7f8b4bb4af4874f613760aabd51c1b531",
+      "stored120_vs_replay120_byte_equal": true,
+      "replay400_starts_with_replay120": true,
+      "replay400_starts_with_stored120": true,
+      "stored120_sha256": "88c6212bfeb4c85e9b83c2ed1a72c4eefbf6d4c6d83eb32e2d4f72dec633c5a7",
+      "replay120_sha256": "88c6212bfeb4c85e9b83c2ed1a72c4eefbf6d4c6d83eb32e2d4f72dec633c5a7",
+      "replay400_sha256": "d650ed6f359352a5d75f4aeb8f0d169f1af93b2824efe1a6ae2c070d2b652743",
+      "400_retokenized_length": 400
+    },
+    {
+      "review_index": 129,
+      "condition": "rand2",
+      "original_id": "34",
+      "original_batch_sha256": "e1a67b477d737621a70a474df145d22c63da1915bb5a8d63129fa6e6046e961f",
+      "stored120_vs_replay120_byte_equal": true,
+      "replay400_starts_with_replay120": true,
+      "replay400_starts_with_stored120": true,
+      "stored120_sha256": "970f73514d118ae18bce36436237ba7ad5eda57b2b1075e55a0971ec1dea536d",
+      "replay120_sha256": "970f73514d118ae18bce36436237ba7ad5eda57b2b1075e55a0971ec1dea536d",
+      "replay400_sha256": "4510ae9e167a295cf3876ef6874f1ce4a71b287fc7b12744fb2d53b10873875a",
+      "400_retokenized_length": 400
+    },
+    {
+      "review_index": 144,
+      "condition": "rand0",
+      "original_id": "104",
+      "original_batch_sha256": "992ce451832aa5862b5d528c1bf0e1c9ac764837a741c64c2da282af440fdd50",
+      "stored120_vs_replay120_byte_equal": true,
+      "replay400_starts_with_replay120": true,
+      "replay400_starts_with_stored120": true,
+      "stored120_sha256": "ca19892a977b9434e9c1d3f3b66e60ca507edb7e33f350beeac3e7a81734b660",
+      "replay120_sha256": "ca19892a977b9434e9c1d3f3b66e60ca507edb7e33f350beeac3e7a81734b660",
+      "replay400_sha256": "aeac995c1e87c638d45d7e565482c19d788aedb43d66ba79b62ea6886ce568e4",
+      "400_retokenized_length": 204
+    }
+  ],
+  "original120_labels_unchanged": true,
+  "physical_gpu": "cuda:0",
+  "scope": "same original batch8 composition; fresh120 replay checks physical-card reproducibility;400 is posthoc follow-up, not replacement of frozen120-token guard"
+}

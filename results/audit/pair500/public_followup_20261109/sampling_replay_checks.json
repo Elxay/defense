@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-09T01:03:33.539337+00:00",
+  "checks": [
+    {
+      "file": "recall_blind.private.json",
+      "old_sha256": "33e6819835b0c2334daf8c8d2efe4d8415712b78d31427fcf1180380a1e37998",
+      "regenerated_sha256": "33e6819835b0c2334daf8c8d2efe4d8415712b78d31427fcf1180380a1e37998",
+      "byte_equal": true
+    },
+    {
+      "file": "recall_mapping.private.json",
+      "old_sha256": "f3d8f623582848c2103b3633cfc4911049a31385924a2f531649b29cfa578a09",
+      "regenerated_sha256": "f3d8f623582848c2103b3633cfc4911049a31385924a2f531649b29cfa578a09",
+      "byte_equal": true
+    },
+    {
+      "file": "recall_selection_groups.json",
+      "old_sha256": "d9afc2fdeee050a260c2db50aaaf40a9bfb999a35cc2a7ee7008344caa14fe72",
+      "regenerated_sha256": "d9afc2fdeee050a260c2db50aaaf40a9bfb999a35cc2a7ee7008344caa14fe72",
+      "byte_equal": true
+    }
+  ],
+  "manifest_equal_excluding_new_creation_utc": true,
+  "old_files_untouched": true,
+  "source_sha256": "b16b84d2eac4e8de24a73992d1482321dd75ba4946a598cc9e63971eb8643f19"
+}

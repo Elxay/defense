@@ -1,0 +1,180 @@
+{
+  "utc": "2026-11-09T03:27:51.292615+00:00",
+  "rows": [
+    {
+      "condition": "alpha0",
+      "saved_rows": 411,
+      "timed_completed_rows": 144,
+      "completed_batches_used": 3,
+      "seconds_per_row": 18.83737174740074,
+      "rows_per_hour_per_active_card": 191.1094630543002,
+      "source_worker_pids": [
+        1075308,
+        1095394,
+        1115214
+      ]
+    },
+    {
+      "condition": "old_s3",
+      "saved_rows": 408,
+      "timed_completed_rows": 138,
+      "completed_batches_used": 3,
+      "seconds_per_row": 8.047430890207382,
+      "rows_per_hour_per_active_card": 447.3477373233122,
+      "source_worker_pids": [
+        1520963,
+        1579321,
+        1627070
+      ]
+    },
+    {
+      "condition": "rand0",
+      "saved_rows": 370,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 15.683356725865353,
+      "rows_per_hour_per_active_card": 229.54269694464048,
+      "source_worker_pids": [
+        1524469,
+        1582938,
+        1627584
+      ]
+    },
+    {
+      "condition": "old_s4",
+      "saved_rows": 300,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 9.455802862265458,
+      "rows_per_hour_per_active_card": 380.7185970814009,
+      "source_worker_pids": [
+        1525047,
+        1586396,
+        1630198
+      ]
+    },
+    {
+      "condition": "rand1",
+      "saved_rows": 320,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 17.411013482864945,
+      "rows_per_hour_per_active_card": 206.7656775720116,
+      "source_worker_pids": [
+        1534199,
+        1587661,
+        1634588
+      ]
+    },
+    {
+      "condition": "old_s5",
+      "saved_rows": 320,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 10.819227179232985,
+      "rows_per_hour_per_active_card": 332.74095648070283,
+      "source_worker_pids": [
+        1540327,
+        1597656,
+        1642593
+      ]
+    },
+    {
+      "condition": "rand2",
+      "saved_rows": 304,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 15.483764912790308,
+      "rows_per_hour_per_active_card": 232.50159249229063,
+      "source_worker_pids": [
+        1487781,
+        1540718,
+        1603178
+      ]
+    },
+    {
+      "condition": "old_s6",
+      "saved_rows": 302,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 7.700670888225238,
+      "rows_per_hour_per_active_card": 467.4917357531282,
+      "source_worker_pids": [
+        1489855,
+        1553791,
+        1605072
+      ]
+    },
+    {
+      "condition": "rand3",
+      "saved_rows": 285,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 16.63785837561513,
+      "rows_per_hour_per_active_card": 216.37400191338637,
+      "source_worker_pids": [
+        1494948,
+        1555777,
+        1606646
+      ]
+    },
+    {
+      "condition": "old_s7",
+      "saved_rows": 270,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 10.868936721502493,
+      "rows_per_hour_per_active_card": 331.21915162850865,
+      "source_worker_pids": [
+        1498373,
+        1561084,
+        1612226
+      ]
+    },
+    {
+      "condition": "old_s0",
+      "saved_rows": 270,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 8.453256834692633,
+      "rows_per_hour_per_active_card": 425.8713618194352,
+      "source_worker_pids": [
+        1511727,
+        1567211,
+        1617869
+      ]
+    },
+    {
+      "condition": "SYS_A",
+      "saved_rows": 270,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 8.169580831835047,
+      "rows_per_hour_per_active_card": 440.6590832630724,
+      "source_worker_pids": [
+        1514516,
+        1577037,
+        1622282
+      ]
+    },
+    {
+      "condition": "SYS_B",
+      "saved_rows": 270,
+      "timed_completed_rows": 150,
+      "completed_batches_used": 3,
+      "seconds_per_row": 4.432226816490292,
+      "rows_per_hour_per_active_card": 812.2328005881927,
+      "source_worker_pids": [
+        1519353,
+        1577330,
+        1623159
+      ]
+    }
+  ],
+  "accepted_source_rows": 412,
+  "remaining_to_accepted_prefix_gpu_hours": 3.7587490923090208,
+  "remaining_to500_gpu_hours": 7.474316827773172,
+  "load_wait_excluded": true,
+  "reading_labels": false,
+  "ETA_interpretation": "Work estimate uses the last up-to-three completed >=25-row timing batches per condition, not a1.5x throughput claim. Counts are moving snapshots. Loading, contention, future prompt lengths, search closure and classifier windows add time. Borrowed GPU0 expires18JST. Final completion cannot precede the still-running PAIR search; do not turn card-hours into a promised finish time."
+}
