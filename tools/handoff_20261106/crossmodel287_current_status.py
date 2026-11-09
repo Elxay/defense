@@ -40,7 +40,14 @@ print(json.dumps({'cards':local_cards(Path('/home/dell/Def')),'PAIR':{'n':len(pa
         p=O/(key+'_preflight.json')
         if p.exists():
             x=json.loads(p.read_text());result['new_models'][key]={k:x.get(k)for k in ['phase','rho','measured_residual_norm_median','rho_multiplier','targets_completed','injection_block','donor_block']if k in x}
-            if key=='qwen':result['new_models'][key]['rho_field_superseded_use_addendum2']=True;result['new_models'][key]['training_allowed']=False
+            if key=='qwen':
+                summary=result['new_models'][key]
+                summary['historical_probe_field_rho']=summary.pop('rho',None)
+                effective=json.loads((O/'qwen_norm_semantics_addendum2.json').read_text())
+                summary['measured_residual_norm_median']=effective['measured_residual_norm_median']
+                summary['rho']=effective['training_vector_norm_rho']
+                summary['rho_multiplier']=0.9
+                summary['training_allowed']=False
     for key,file in [('gemma','gemma_download.json'),('vicuna','vicuna_download_http.json')]:
         x=json.loads((O/file).read_text());result['new_models'].setdefault(key,{})['download']={'phase':x['phase'],'pid':x['pid'],'verified_weight_shards':sum(n.endswith(('.safetensors','.bin'))for n in x['files']),'current_file_downloaded_bytes':x.get('downloaded_bytes')}
     p=O/'gemma_norm_queue_live.json'

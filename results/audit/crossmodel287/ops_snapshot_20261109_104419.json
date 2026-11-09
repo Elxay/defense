@@ -1,0 +1,198 @@
+{
+  "utc": "2026-11-09T10:44:19.742554+00:00",
+  "date_u": "2026-11-09 10:44:19 UTC",
+  "innet": [
+    {
+      "GPU": 0,
+      "memory_MiB": 16371,
+      "utilization_pct": 0,
+      "processes": [
+        {
+          "pid": 2420203,
+          "account": "kemove",
+          "project": "Def/gpu0_authorized_bootstrap.py",
+          "registered": true,
+          "command_name": "gpu0_authorized_bootstrap.py",
+          "etime": "03:42",
+          "memory_MiB": "16346"
+        }
+      ]
+    },
+    {
+      "GPU": 1,
+      "memory_MiB": 14033,
+      "utilization_pct": 94,
+      "processes": [
+        {
+          "pid": 1727458,
+          "account": "kemove",
+          "project": "external/unregistered; leave untouched",
+          "registered": false,
+          "command_name": "python",
+          "etime": "06:33:34",
+          "memory_MiB": "6770"
+        },
+        {
+          "pid": 2001941,
+          "account": "kemove",
+          "project": "external/unregistered; leave untouched",
+          "registered": false,
+          "command_name": "train_stage3.py",
+          "etime": "03:41:46",
+          "memory_MiB": "7234"
+        }
+      ]
+    },
+    {
+      "GPU": 2,
+      "memory_MiB": 15,
+      "utilization_pct": 0,
+      "processes": []
+    },
+    {
+      "GPU": 3,
+      "memory_MiB": 16041,
+      "utilization_pct": 65,
+      "processes": [
+        {
+          "pid": 2420041,
+          "account": "kemove",
+          "project": "Def/gpu0_authorized_bootstrap.py",
+          "registered": true,
+          "command_name": "gpu0_authorized_bootstrap.py",
+          "etime": "03:43",
+          "memory_MiB": "16018"
+        }
+      ]
+    }
+  ],
+  "node01": [
+    {
+      "GPU": 0,
+      "memory_MiB": 643,
+      "utilization_pct": 0,
+      "processes": []
+    },
+    {
+      "GPU": 1,
+      "memory_MiB": 22843,
+      "utilization_pct": 84,
+      "processes": [
+        {
+          "pid": 2295103,
+          "account": "dell",
+          "project": "Def/PAIR search",
+          "registered": false,
+          "command_name": "pair500_search_telemetry.py",
+          "etime": "1-02:16:12",
+          "memory_MiB": "22806"
+        }
+      ]
+    },
+    {
+      "GPU": 2,
+      "memory_MiB": 17367,
+      "utilization_pct": 0,
+      "processes": [
+        {
+          "pid": 2295103,
+          "account": "dell",
+          "project": "Def/PAIR search",
+          "registered": false,
+          "command_name": "pair500_search_telemetry.py",
+          "etime": "1-02:16:12",
+          "memory_MiB": "17330"
+        }
+      ]
+    }
+  ],
+  "PAIR": {
+    "n": 489,
+    "PID": 2295103,
+    "heartbeat_utc": "2026-11-09T10:43:59.750708+00:00",
+    "seconds_per_row_recent10": 269.19503995766866,
+    "seconds_per_row_all": 375.85003171578444,
+    "restart_count": 1,
+    "heartbeat_age_seconds": 21.214276
+  },
+  "main_dispatch": {
+    "utc": "2026-11-09T10:44:14.278946+00:00",
+    "pid": 2215464,
+    "phase": "lease_priority_running",
+    "source_rows": 489,
+    "jobs": [
+      {
+        "kind": "tail",
+        "cards": [
+          "3"
+        ],
+        "condition": "old_s0",
+        "launcher_pid": 2420013
+      },
+      {
+        "kind": "guard",
+        "cards": [
+          "0"
+        ],
+        "condition": null,
+        "launcher_pid": 2420183
+      }
+    ]
+  },
+  "PAIR_generation_coverage": {
+    "alpha0": 489,
+    "old_s3": 489,
+    "rand0": 489,
+    "old_s4": 489,
+    "rand1": 489,
+    "old_s5": 489,
+    "rand2": 489,
+    "old_s6": 489,
+    "rand3": 489,
+    "old_s7": 489,
+    "old_s0": 489,
+    "SYS_A": 489,
+    "SYS_B": 489
+  },
+  "new_models": {
+    "qwen": {
+      "phase": "targets_complete_no_training",
+      "targets_completed": {
+        "fit_alpha0": 12,
+        "fit_donor": 12,
+        "keep_alpha0": 60
+      },
+      "injection_block": 8,
+      "donor_block": 11,
+      "historical_probe_field_rho": 35.94707107543945,
+      "measured_residual_norm_median": 35.94707107543945,
+      "rho": 32.352363967895506,
+      "rho_multiplier": 0.9,
+      "training_allowed": false
+    },
+    "gemma": {
+      "download": {
+        "phase": "complete_verified",
+        "pid": 2313841,
+        "verified_weight_shards": 4,
+        "current_file_downloaded_bytes": null
+      }
+    },
+    "vicuna": {
+      "download": {
+        "phase": "downloading",
+        "pid": 2353840,
+        "verified_weight_shards": 1,
+        "current_file_downloaded_bytes": 7446986752
+      }
+    }
+  },
+  "Gemma_norm_queue": {
+    "utc": "2026-11-09T10:44:10.357829+00:00",
+    "pid": 2413951,
+    "phase": "attempting_idle_GPU0_lease",
+    "training_started": false
+  },
+  "PAIR_outcome_labels_read": false,
+  "new_model_training_started": false
+}
