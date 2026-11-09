@@ -1,4 +1,5 @@
 \section{Evaluation Pitfalls}
+\label{sec:pitfalls}
 \subsection{Baseline membership and backend alignment}
 On the 400-row composite legal set, two Llama baseline generation paths disagree on four refusal labels. Both leave 388 rule-negative outputs, but the sets differ. Applying the single-item baseline to batched curve outputs undercounts new refusals by one or two items (0.26--0.52 pp), comparable to the frontier effect under discussion. File-level alternative-baseline recomputation is a sensitivity audit, not proof that every historical analysis used the wrong baseline. Qwen's batch-8 files have a matching Qwen batch-8 baseline; absence of a second single-item path does not invalidate that actual comparison.
 

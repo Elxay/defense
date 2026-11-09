@@ -1,0 +1,58 @@
+{
+  "utc": "2026-11-09T08:47:47.766133+00:00",
+  "scope": "Completed and previously read WJB/val70/public results only; no PAIR outcomes. This verifies future prose candidates, not a filled abstract.",
+  "val70_random_drop_pp": [
+    4.285714285714292,
+    21.42857142857143
+  ],
+  "WJB_HB_random_drop_pp": [
+    1.6000000000000014,
+    4.5
+  ],
+  "WJB_learned_minus_random_pp": {
+    "HB_top1": -22.92,
+    "WildGuard": -18.680520781171758
+  },
+  "public_contrast_definitions": {
+    "WJB evaluation adversarial harmful": {
+      "learned_minus_alpha0_pp": 33.44000000000001,
+      "learned_minus_random_pp": 29.452500000000015
+    },
+    "wildjailbreak_benign": {
+      "learned_minus_alpha0_pp": 9.047619047619047,
+      "learned_minus_random_pp": 9.047619047619047
+    },
+    "or_hard": {
+      "learned_minus_alpha0_pp": 5.883244882486736,
+      "learned_minus_random_pp": 3.9499620924943173
+    },
+    "xstest_safe": {
+      "learned_minus_alpha0_pp": 0.39999999999999947,
+      "learned_minus_random_pp": -1.2000000000000002
+    },
+    "xstest_unsafe": {
+      "learned_minus_alpha0_pp": -3.9000000000000057,
+      "learned_minus_random_pp": -3.9000000000000057
+    }
+  },
+  "rounding_for_prose": {
+    "val70_up_to": 21,
+    "WJB_random_at_most_about": 5,
+    "learned_additional_rounded": [
+      23,
+      19
+    ],
+    "public_costs_relative_alpha0": {
+      "wildjailbreak_benign": 9,
+      "or_hard": 6,
+      "xstest_safe": 0
+    }
+  },
+  "interpretation": "WJB19--23 is learned-minus-random; public9/6/0 is learned-minus-alpha0. OR learned-minus-random is3.95, not5.88. XSTest point rounding to0 is not an equivalence claim. Refusal decomposition is post-hoc association, not mechanism.",
+  "source_sha256": {
+    "zero_line": "db83822e0cff605f079364ecc6b9b051d65465cb2561ff8b20ab6a90729e164e",
+    "wjb_official_units": "151690c7449c44a8131a6ebbff0fdc54e27868bbd5d53befa21ff4e733c7eeec",
+    "wjb_official_nine": "e3f52e9802479fda4948665509be034a5264e39e2fb792fd25effbb2ac866c64",
+    "benefit_cost_posthoc": "35e364f08dba0ef4190de29573c34f3bcd7b4b0518d205cb288e690807903bd6"
+  }
+}

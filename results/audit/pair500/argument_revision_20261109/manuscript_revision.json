@@ -1,0 +1,192 @@
+{
+  "utc": "2026-11-09T08:38:15.677513+00:00",
+  "before_sha256": {
+    "paper/main.tex": "416d29cecf0ec1fbec1231bffb80b483221c9f0add1c13d06addde84b82dc241",
+    "paper/sections/01_introduction.tex": "710af17c7cfc2121a71ef8a9ecc5489cfbc3f43f0a62fa5a2f2d829b42bfaac1",
+    "paper/sections/02_related_work.tex": "8275823fd2a9e1203fc77f7134973f6c8a58151a08455a7f9c869fd28b01dabd",
+    "paper/sections/03_setup.tex": "ae699544bcd9c6d336c7cad2398dd0b3c4de6e1c19a8a3880f6f0582801080a9",
+    "paper/sections/04_results.tex": "4515dc9cccab4226265a76889a0f879117f2767157df356391a883893a64281b",
+    "paper/sections/05_traps.tex": "2795027f71ec87d1cf66af84ea22ff938054ed87e88cfaf9409b8ab3e69d707d",
+    "paper/sections/06_limitations.tex": "ea14f92a794c9f08fda66e190a0845ff231322d0b5999a18767fe1af45a158b5"
+  },
+  "after_sha256": {
+    "paper/sections/appendix_support.tex": "7a640a2cfabbfb87fd35797609123480eb770eb7c20fa99aef55cd1eb17965f5",
+    "paper/sections/05_traps.tex": "1bfda7b5b7108984254189ab17383f4121c0e4c730e6aeedfb951481ab485e9f",
+    "paper/tables/wildguard_harmbench_alpha0.tex": "0e36da38680f76934076fd8a634c4e854e76ca31cf2da89b2747b50f8e6826a5",
+    "paper/tables/zero_line.tex": "e697844a96c5852e212e28ce83f7ff6ba719e98b3f95bf86fa6f119daf20997d",
+    "paper/tables/wildguard_alpha0.tex": "076b327927b0f0e040c1cefca9fa29cded35015c56de3420d3f0db584e8059f4",
+    "paper/tables/dataset_scope.tex": "a9aa9a2d00f6b0330f9a8a547fddfa1fd57b6a8d81188ebf9429fba74a5a514b",
+    "paper/generated/public_refusal_followup.tex": "fefbd05f81eeaa4d940f75f66ade8059f2672337d353364296d0055340353c80",
+    "paper/tables/benefit_cost_posthoc.tex": "9ae7bd0f9e1bfbe0c2f58e51bc4d2e507d1cfbbcd97d5ab84b01e0b2e2fc509a",
+    "paper/tables/wjb_official_alpha0_dataset.tex": "94d8536f65954cd2bb86f3ae13712fcaabd3b29a19e0337acb95ed6f46c445cf",
+    "paper/generated/benefit_cost_posthoc.tex": "a3cd1600a9f6843968f6022690d8499dd2a739551529e40fd1eb5825032ba3a6",
+    "paper/tables/public_refusal_nine.tex": "cb6a71f9990e41c15c1732938ae2f8d66cbdb808d34c28122889971b5039750e",
+    "paper/tables/wjb_official_units.tex": "a402203776184131f2666afe1f07fd2e8232a7bbd8b9bf18b700223162b0e1d4",
+    "paper/sections/04_results.tex": "bef626d570d65b128e503087326d10af76c3aecab9406fee5a2edd2b11716b8f",
+    "paper/tables/wjb_exposure.tex": "5b6cc2313830a14bebd0912f1216a01bcd09d135da3eb7bc7501752982401695",
+    "paper/tables/c2.tex": "5a90c1db6b5658da06fec3055727c5fe27fbfe01b9600f9f62497c908d2c2389",
+    "paper/tables/zero_training.tex": "bed8ed75fe806ff2426a736b7657a81041da9e7b4da47935c92e66ff63e68657",
+    "paper/tables/wjb_official_nine.tex": "a9b87c24ca380675c5906559c9a972c473338e8e4b48c08a2aea0de60285cd41",
+    "paper/generated/wjb_nine_contrast_view.tex": "20a18a369c50d7ac6c375b3b01f8ba2c185f9c461252149e856c4851b39a7d78",
+    "paper/sections/01_introduction.tex": "24a3726d72ddfbebb270ddec67232a75e1760c4574a5ebb754f79d28c6aa278a",
+    "paper/tables/wjb_official_mapping.tex": "6beb26698af577b41f27e7f2cf824ed05bede49a4bdbd0af6ce2e58643abacb0",
+    "paper/tables/matching.tex": "5b36a2a848a71d23db9df670bbe1678f8ddb3fa4f1a499b8db0b5ace01f0781d",
+    "paper/sections/02_related_work.tex": "8275823fd2a9e1203fc77f7134973f6c8a58151a08455a7f9c869fd28b01dabd",
+    "paper/tables/repeats.tex": "974e107976a655af33ade809c76e7f0f73ad71a731dc154eb8f7c97ca7b1b200",
+    "paper/sections/06_limitations.tex": "ea14f92a794c9f08fda66e190a0845ff231322d0b5999a18767fe1af45a158b5",
+    "paper/sections/03_setup.tex": "259ad0f4ed9b3013c4a3ca1f01bc4225f66c47acb57de25df0cdb96d7b868a32",
+    "paper/generated/public_refusal_body.tex": "c97604a169478041fb14f6935662efcb0a8fb890dbae5e38b0a335d048dd8a77",
+    "paper/tables/frontier_joint.tex": "7ea733d2b4d9d627baf839acc97a2e4931f85c39ba68d5d57ea0fccf59742e62",
+    "paper/main.tex": "ba9fb7b95711fd4725d0d6158bb607790a9ccf369d49a547180ade63e27174d2",
+    "paper/tables/wjb_reference_three.tex": "4cfddbccf885b1de7791774edca3b8d5158cb6550ca8ed9a1421701de3ebcb46"
+  },
+  "missing_inputs": [],
+  "duplicate_labels": [],
+  "PAIR_outcomes_read": false,
+  "abstract_text_unchanged": true,
+  "abstract_placeholder_template_use": "superseded by user narrative direction; do not fill docs284",
+  "new_result_numbers_added": false,
+  "directory": [
+    {
+      "file": "paper/main.tex",
+      "heading": "\\section{Provenance and protocol chronology}"
+    },
+    {
+      "file": "paper/main.tex",
+      "heading": "\\section{Auxiliary frontier sensitivity}"
+    },
+    {
+      "file": "paper/sections/01_introduction.tex",
+      "heading": "\\section{Introduction}"
+    },
+    {
+      "file": "paper/sections/02_related_work.tex",
+      "heading": "\\section{Related Work}"
+    },
+    {
+      "file": "paper/sections/03_setup.tex",
+      "heading": "\\section{Experimental Setup}"
+    },
+    {
+      "file": "paper/sections/03_setup.tex",
+      "heading": "\\subsection{Models and intervention}"
+    },
+    {
+      "file": "paper/sections/03_setup.tex",
+      "heading": "\\subsection{Prompt samples and historical use}"
+    },
+    {
+      "file": "paper/sections/03_setup.tex",
+      "heading": "\\subsection{Outcomes and model judges}"
+    },
+    {
+      "file": "paper/sections/03_setup.tex",
+      "heading": "\\subsection{Statistics and versioned decisions}"
+    },
+    {
+      "file": "paper/sections/04_results.tex",
+      "heading": "\\section{Results}"
+    },
+    {
+      "file": "paper/sections/04_results.tex",
+      "heading": "\\subsection{Random controls change the interpretation of lower ASR}"
+    },
+    {
+      "file": "paper/sections/04_results.tex",
+      "heading": "\\subsection{The additional decline accompanies more refusals}"
+    },
+    {
+      "file": "paper/sections/04_results.tex",
+      "heading": "\\subsection{Benign costs concentrate on wrapped requests}"
+    },
+    {
+      "file": "paper/sections/04_results.tex",
+      "heading": "\\subsection{Evaluation choices move the reported quantities}"
+    },
+    {
+      "file": "paper/sections/04_results.tex",
+      "heading": "\\subsection{Positioning zero-training baselines}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\section{Evaluation Pitfalls}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\subsection{Baseline membership and backend alignment}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\subsection{Reading scope, nonanswers, and truncation}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\subsection{Judge flips and refusal labels}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\subsection{Classifier position and threshold convention}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\subsection{Interpolation and unsupported draws}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\subsection{Training repeat variation and decoding amplification}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\subsection{Missing generation metadata}"
+    },
+    {
+      "file": "paper/sections/05_traps.tex",
+      "heading": "\\subsection{Restart provenance}"
+    },
+    {
+      "file": "paper/sections/06_limitations.tex",
+      "heading": "\\section{Limitations}"
+    },
+    {
+      "file": "paper/sections/appendix_support.tex",
+      "heading": "\\section{Initialization and residual decomposition}"
+    },
+    {
+      "file": "paper/sections/appendix_support.tex",
+      "heading": "\\section{Exposure strata and closed data-composition evaluation}"
+    }
+  ],
+  "latex_engine": null,
+  "pre_whitespace_normalization_after_sha256": {
+    "paper/sections/appendix_support.tex": "cae93c39befd3dbaf26627644760101f287e343bc9d920ba52694b0269636dd8",
+    "paper/sections/05_traps.tex": "1bfda7b5b7108984254189ab17383f4121c0e4c730e6aeedfb951481ab485e9f",
+    "paper/tables/wildguard_harmbench_alpha0.tex": "0e36da38680f76934076fd8a634c4e854e76ca31cf2da89b2747b50f8e6826a5",
+    "paper/tables/zero_line.tex": "e697844a96c5852e212e28ce83f7ff6ba719e98b3f95bf86fa6f119daf20997d",
+    "paper/tables/wildguard_alpha0.tex": "076b327927b0f0e040c1cefca9fa29cded35015c56de3420d3f0db584e8059f4",
+    "paper/tables/dataset_scope.tex": "a9aa9a2d00f6b0330f9a8a547fddfa1fd57b6a8d81188ebf9429fba74a5a514b",
+    "paper/generated/public_refusal_followup.tex": "fefbd05f81eeaa4d940f75f66ade8059f2672337d353364296d0055340353c80",
+    "paper/tables/benefit_cost_posthoc.tex": "9ae7bd0f9e1bfbe0c2f58e51bc4d2e507d1cfbbcd97d5ab84b01e0b2e2fc509a",
+    "paper/tables/wjb_official_alpha0_dataset.tex": "94d8536f65954cd2bb86f3ae13712fcaabd3b29a19e0337acb95ed6f46c445cf",
+    "paper/generated/benefit_cost_posthoc.tex": "a3cd1600a9f6843968f6022690d8499dd2a739551529e40fd1eb5825032ba3a6",
+    "paper/tables/public_refusal_nine.tex": "cb6a71f9990e41c15c1732938ae2f8d66cbdb808d34c28122889971b5039750e",
+    "paper/tables/wjb_official_units.tex": "a402203776184131f2666afe1f07fd2e8232a7bbd8b9bf18b700223162b0e1d4",
+    "paper/sections/04_results.tex": "fbaf9124d1d52443be9bb1646719a9ae1c9f62954c4752a5c7c501a731f3efb3",
+    "paper/tables/wjb_exposure.tex": "5b6cc2313830a14bebd0912f1216a01bcd09d135da3eb7bc7501752982401695",
+    "paper/tables/c2.tex": "5a90c1db6b5658da06fec3055727c5fe27fbfe01b9600f9f62497c908d2c2389",
+    "paper/tables/zero_training.tex": "bed8ed75fe806ff2426a736b7657a81041da9e7b4da47935c92e66ff63e68657",
+    "paper/tables/wjb_official_nine.tex": "a9b87c24ca380675c5906559c9a972c473338e8e4b48c08a2aea0de60285cd41",
+    "paper/generated/wjb_nine_contrast_view.tex": "20a18a369c50d7ac6c375b3b01f8ba2c185f9c461252149e856c4851b39a7d78",
+    "paper/sections/01_introduction.tex": "24a3726d72ddfbebb270ddec67232a75e1760c4574a5ebb754f79d28c6aa278a",
+    "paper/tables/wjb_official_mapping.tex": "6beb26698af577b41f27e7f2cf824ed05bede49a4bdbd0af6ce2e58643abacb0",
+    "paper/tables/matching.tex": "5b36a2a848a71d23db9df670bbe1678f8ddb3fa4f1a499b8db0b5ace01f0781d",
+    "paper/sections/02_related_work.tex": "8275823fd2a9e1203fc77f7134973f6c8a58151a08455a7f9c869fd28b01dabd",
+    "paper/tables/repeats.tex": "974e107976a655af33ade809c76e7f0f73ad71a731dc154eb8f7c97ca7b1b200",
+    "paper/sections/06_limitations.tex": "ea14f92a794c9f08fda66e190a0845ff231322d0b5999a18767fe1af45a158b5",
+    "paper/sections/03_setup.tex": "220829ccb87b675e7fc1d80db35a3a2d21e53b21feed279b51245bce1743af59",
+    "paper/generated/public_refusal_body.tex": "c97604a169478041fb14f6935662efcb0a8fb890dbae5e38b0a335d048dd8a77",
+    "paper/tables/frontier_joint.tex": "7ea733d2b4d9d627baf839acc97a2e4931f85c39ba68d5d57ea0fccf59742e62",
+    "paper/main.tex": "ba9fb7b95711fd4725d0d6158bb607790a9ccf369d49a547180ade63e27174d2",
+    "paper/tables/wjb_reference_three.tex": "4cfddbccf885b1de7791774edca3b8d5158cb6550ca8ed9a1421701de3ebcb46"
+  },
+  "whitespace_normalization_utc": "2026-11-09T08:58:46.247561+00:00"
+}

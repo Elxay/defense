@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-09T08:58:47.113899+00:00",
+  "files": {
+    "docs/286_ARGUMENT_AND_MANUSCRIPT_STRUCTURE.md": "3d672daa2982c82e391b53e44d1aa4669eff5f20700d867ccdae5336f99277d5",
+    "docs/227_LLAMA_RENDERING_ADDENDUM.md": "93d586c69fc9a70d2058009b4c40ff38e3711eead428cd6dc30a5624819f8176",
+    "docs/PREREG_LOG.txt": "ccc1eb36d6c5704415a2266101b9305a2c76076eff7c425b602e453b8320a44b",
+    "docs/OPS_LOG.txt": "4ec358ac85f9bb4557a79248c958a15d41eaf38c19e4faf95a814365cfbbd830",
+    "paper/main.tex": "ba9fb7b95711fd4725d0d6158bb607790a9ccf369d49a547180ade63e27174d2",
+    "paper/sections/01_introduction.tex": "24a3726d72ddfbebb270ddec67232a75e1760c4574a5ebb754f79d28c6aa278a",
+    "paper/sections/03_setup.tex": "259ad0f4ed9b3013c4a3ca1f01bc4225f66c47acb57de25df0cdb96d7b868a32",
+    "paper/sections/04_results.tex": "bef626d570d65b128e503087326d10af76c3aecab9406fee5a2edd2b11716b8f",
+    "paper/sections/05_traps.tex": "1bfda7b5b7108984254189ab17383f4121c0e4c730e6aeedfb951481ab485e9f",
+    "paper/sections/appendix_support.tex": "7a640a2cfabbfb87fd35797609123480eb770eb7c20fa99aef55cd1eb17965f5",
+    "paper/generated/public_refusal_body.tex": "c97604a169478041fb14f6935662efcb0a8fb890dbae5e38b0a335d048dd8a77",
+    "paper/generated/wjb_nine_contrast_view.tex": "20a18a369c50d7ac6c375b3b01f8ba2c185f9c461252149e856c4851b39a7d78",
+    "tools/handoff_20261106/reframe_paper_argument.py": "e94cab9b3c308f964e33b684e829519553bb12d8c02f88e653c897952b5d886a",
+    "tools/handoff_20261106/audit_llama_system_header_and_eta.py": "c8a09ab9d2e89512dc60b7a6853fdc6db6250c255843bebd272ec9ab4494c822",
+    "tools/handoff_20261106/observe_contextual_all1300.py": "0580461052386c7f94ed114de0d13b612c93ac9c51a78e92721a2cb998958c5e",
+    "tools/handoff_20261106/publish_argument_revision.py": "24769637ab15d4c6589338ef0ffbddeb4426478c3588030456c141bfc75d3698",
+    "tools/handoff_20261106/handoff_lease_priority_v3.py": "692e6141fcd257914d222f136bcae14b91e786bb9b5400f107935c4a76183574",
+    "results/audit/pair500/argument_revision_20261109/prose_numeric_candidates_check.json": "84b74db7ac33e65d6b9ebfea89f801fe7c3985ad84ba052938be9965116f74a5",
+    "results/audit/pair500/argument_revision_20261109/llama_system_header_audit.json": "a78163ea4aad55636dd2685c11715529de7e8f444402b5a7cca39dc51fe7a5ec",
+    "results/audit/pair500/argument_revision_20261109/s0_recent_three_and_release.json": "73f68c74a6666e6d44f6d5a99f5e97f9a123e55a89544fd633543e9cee7bf729",
+    "results/audit/pair500/argument_revision_20261109/before_sources.json": "d0d573a8e578fc2deeb52283aa3fa6a1379f46e3929d773502da96d102245345",
+    "results/audit/pair500/argument_revision_20261109/chunk_policy_cpu_test.json": "af57fbffb89b4c26c59f4c5ab18ac8617ad741191a35f2ce04aa2a09a63f4186",
+    "results/audit/pair500/argument_revision_20261109/manuscript_revision.json": "e9eb0d4e1d7d534de65c34c131e899ba390dd2b918b927227f280497c986e442",
+    "results/audit/pair500/lease_priority/v3_handoff_complete.json": "394baa9b9fb99580cc4b7e6fd96217965617c155d99550962e88d16849811bb7"
+  },
+  "PAIR_outcomes_read": false,
+  "raw_attack_text_or_outputs_added": false,
+  "PDF_rebuilt": false
+}

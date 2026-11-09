@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-09T08:45:15.528904+00:00",
+  "recent_three_completed_batches": [
+    {
+      "pid": 2181328,
+      "utc": "2026-11-09T08:43:43.776542+00:00",
+      "shard": 1,
+      "new_rows": 22,
+      "elapsed_seconds": 233.2799554420635,
+      "yielded": true,
+      "seconds_per_row": 10.603634338275613,
+      "until_same_shard_next_start_or_now_seconds": 21.976088,
+      "wait_ongoing": false
+    },
+    {
+      "pid": 2181243,
+      "utc": "2026-11-09T08:43:44.222861+00:00",
+      "shard": 0,
+      "new_rows": 32,
+      "elapsed_seconds": 234.07971172593534,
+      "yielded": true,
+      "seconds_per_row": 7.314990991435479,
+      "until_same_shard_next_start_or_now_seconds": 91.306043,
+      "wait_ongoing": true
+    },
+    {
+      "pid": 2189955,
+      "utc": "2026-11-09T08:44:31.517273+00:00",
+      "shard": 1,
+      "new_rows": 1,
+      "elapsed_seconds": 25.764643265865743,
+      "yielded": true,
+      "seconds_per_row": 25.764643265865743,
+      "until_same_shard_next_start_or_now_seconds": 44.011631,
+      "wait_ongoing": true
+    }
+  ],
+  "timing_scope": "Per-worker card time includes model/startup; shards0/1 can execute concurrently. Gaps include scheduler/priority waits and reload, not necessarily idle GPU.",
+  "GPU0_release": "2026-11-09T09:00:00+00:00; no new leases; finish current row or original batch then yield; continue on eligibleGPU2/3 by leases, not automatically halve a per-card speed.",
+  "render_audit_sha256": "a78163ea4aad55636dd2685c11715529de7e8f444402b5a7cca39dc51fe7a5ec"
+}
