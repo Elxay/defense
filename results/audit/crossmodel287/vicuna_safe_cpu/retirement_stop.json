@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-09T15:59:57.861195+00:00",
+  "cancelled_registered_parent": 2887580,
+  "cancelled_verified_owned_child": 2915803,
+  "reason": "user replaces Vicuna with Mistral; abandon further use of already converted intermediates",
+  "smoke_private_files_at_stop": [
+    {
+      "file": "cp_adv_0151.json",
+      "sha256": "0e8018d4feede027b7e2079a5363ed090668965d7761301b37e56d94cb220c74"
+    },
+    {
+      "file": "cp_adv_0116.json",
+      "sha256": "0ceea959bb9c1a6ef23a2cabce9681d38879859fee940d4bbfc7a94ec77be781"
+    },
+    {
+      "file": "cp_adv_0031.json",
+      "sha256": "1c64e879502391c668b6b63ff1fd0151aa73cd50f05a6f0446d0553e61ab38a2"
+    },
+    {
+      "file": "cp_adv_0178.json",
+      "sha256": "7be4ed6c9313140afd6a658acc6a58c69b2a4ad6f909c7c27ea2bca9ff6b0e0e"
+    }
+  ],
+  "formal_selection_legal400": 0,
+  "formal_selection_val70": 0,
+  "trained_vectors": 0,
+  "no_Vicuna_effect_labels_reviewed_this_session": true
+}
