@@ -1,0 +1,206 @@
+{
+  "utc": "2026-11-09T06:11:13.883860+00:00",
+  "jst": "2026-11-09T15:11:13.883860+09:00",
+  "public_denominator": {
+    "benign": 1779,
+    "unsafe_control": 200,
+    "total": 1979
+  },
+  "v2_handoff": {
+    "utc": "2026-11-09T05:56:46.179680+00:00",
+    "retired_controller": 1735804,
+    "new_launcher_pid": 1886502,
+    "unchanged_existing_files": 26385,
+    "unchanged_files_manifest_sha256": "a60b1ed5e6c177693aacfc8d50dee5f64570615168d7e44bdd02326c1d4ff2e6",
+    "v2_publication_sha256": "de3734501552553f55872e75e649c37d02554f7ad86ef42c23fe2b62cdbf5293",
+    "effects_read": false
+  },
+  "conditions": {
+    "old_s0": {
+      "harmful": {
+        "dataset_counts": {
+          "wildjailbreak_harmful": 249
+        },
+        "total_rows": 249,
+        "metadata_field_counts": {
+          "rows": 249,
+          "new_tokens": 249,
+          "eos": 249,
+          "eos_hit_generation_config": 249,
+          "nonzero_vector_injection_count": 152,
+          "prefill_hook_count_1": 249
+        },
+        "timed_new_rows": 249,
+        "measured_wall_seconds_per_new_row": 8.436268029749453,
+        "v2_timed_rows": 152,
+        "v2_seconds_per_row": 8.433492888607649,
+        "remaining_rows": 1751,
+        "remaining_card_hours_at_current_rate": 4.10195723554222,
+        "new_rows_since_v2": 155,
+        "calendar_rows_per_hour_since_v2": 643.0763074115882,
+        "calendar_ETA_utc_since_v2_rate": "2026-11-09T08:54:36.142048+00:00",
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      },
+      "public": {
+        "dataset_counts": {
+          "xstest_unsafe": 200,
+          "xstest_safe": 250,
+          "or_hard": 1319,
+          "wildjailbreak_benign": 210
+        },
+        "total_rows": 1979,
+        "metadata_field_counts": {
+          "rows": 1979,
+          "new_tokens": 1979,
+          "eos": 914,
+          "eos_hit_generation_config": 1979,
+          "nonzero_vector_injection_count": 914,
+          "prefill_hook_count_1": 1979
+        },
+        "timed_new_rows": 1979,
+        "measured_wall_seconds_per_new_row": 0.5390405246313565,
+        "v2_timed_rows": 914,
+        "v2_seconds_per_row": 0.5216029278635449,
+        "remaining_rows": 0,
+        "remaining_card_hours_at_current_rate": 0.0,
+        "new_rows_since_v2": 914,
+        "calendar_rows_per_hour_since_v2": 3792.0757740270424,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      }
+    },
+    "SYS_A": {
+      "harmful": {
+        "dataset_counts": {},
+        "total_rows": 0,
+        "metadata_field_counts": {},
+        "timed_new_rows": 0,
+        "measured_wall_seconds_per_new_row": null,
+        "v2_timed_rows": 0,
+        "v2_seconds_per_row": null,
+        "remaining_rows": 2000,
+        "remaining_card_hours_at_current_rate": null,
+        "new_rows_since_v2": 0,
+        "calendar_rows_per_hour_since_v2": null,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      },
+      "public": {
+        "dataset_counts": {
+          "xstest_unsafe": 8,
+          "xstest_safe": 128
+        },
+        "total_rows": 136,
+        "metadata_field_counts": {
+          "rows": 136,
+          "new_tokens": 136,
+          "eos": 136,
+          "eos_hit_generation_config": 136,
+          "nonzero_vector_injection_count": 136,
+          "system_text_sha256": 136,
+          "prefill_hook_count_1": 136
+        },
+        "timed_new_rows": 136,
+        "measured_wall_seconds_per_new_row": 0.8781935417004313,
+        "v2_timed_rows": 136,
+        "v2_seconds_per_row": 0.8781935417004313,
+        "remaining_rows": 1843,
+        "remaining_card_hours_at_current_rate": 0.4495863048205263,
+        "new_rows_since_v2": 136,
+        "calendar_rows_per_hour_since_v2": 4084.3971598723892,
+        "calendar_ETA_utc_since_v2_rate": "2026-11-09T06:38:18.309630+00:00",
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      }
+    },
+    "SYS_B": {
+      "harmful": {
+        "dataset_counts": {},
+        "total_rows": 0,
+        "metadata_field_counts": {},
+        "timed_new_rows": 0,
+        "measured_wall_seconds_per_new_row": null,
+        "v2_timed_rows": 0,
+        "v2_seconds_per_row": null,
+        "remaining_rows": 2000,
+        "remaining_card_hours_at_current_rate": null,
+        "new_rows_since_v2": 0,
+        "calendar_rows_per_hour_since_v2": null,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      },
+      "public": {
+        "dataset_counts": {},
+        "total_rows": 0,
+        "metadata_field_counts": {},
+        "timed_new_rows": 0,
+        "measured_wall_seconds_per_new_row": null,
+        "v2_timed_rows": 0,
+        "v2_seconds_per_row": null,
+        "remaining_rows": 1979,
+        "remaining_card_hours_at_current_rate": null,
+        "new_rows_since_v2": 0,
+        "calendar_rows_per_hour_since_v2": null,
+        "calendar_ETA_utc_since_v2_rate": null,
+        "ETA_interpretation": "Calendar ETA includes observed v2 priority waits but is a short-run extrapolation. Service time excludes priority waits. Neither guarantees future throughput. A/B have no measured rate before first rows; do not infer their rate from s0."
+      }
+    }
+  },
+  "no_outcome_labels_selected": true,
+  "scheduler": {
+    "utc": "2026-11-09T06:11:10.557371+00:00",
+    "pid": 1886520,
+    "phase": "lease_priority_running",
+    "source_rows": 438,
+    "caught_up_observed": true,
+    "stop_requested": false,
+    "effects_read": false
+  },
+  "active_leases": [
+    {
+      "kind": "tail",
+      "cards": [
+        "0"
+      ],
+      "tail_kind": "harmful",
+      "condition": "old_s0",
+      "shard": 0,
+      "launcher_pid": 1901112
+    },
+    {
+      "kind": "tail",
+      "cards": [
+        "2"
+      ],
+      "tail_kind": "harmful",
+      "condition": "old_s0",
+      "shard": 1,
+      "launcher_pid": 1902106
+    },
+    {
+      "kind": "tail",
+      "cards": [
+        "3"
+      ],
+      "tail_kind": "public",
+      "condition": "SYS_A",
+      "shard": 0,
+      "launcher_pid": 1906109
+    }
+  ],
+  "search_complete_receipt": null,
+  "target_generation_complete_receipt": null,
+  "observer_live": {
+    "utc": "2026-11-09T06:11:03.254870+00:00",
+    "pid": 1850645,
+    "phase": "waiting_lifecycle_events",
+    "snapshot_exists": false,
+    "labels_read": false
+  },
+  "PAIR_search": {
+    "n": 439,
+    "mean_seconds_per_row": 382.071661333815,
+    "phase": "saved",
+    "worker_pid": 2295103,
+    "heartbeat_utc": "2026-11-09T06:11:06.314492+00:00"
+  }
+}

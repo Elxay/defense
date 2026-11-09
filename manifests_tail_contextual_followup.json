@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-09T06:12:29.933459+00:00",
+  "files": {
+    "docs/254_TAIL_RESOURCE_AND_CONTEXTUAL_FOLLOWUP.md": "17ef4eca6f772bfa41355743e94b74ecf6fd85a718a60f6c1fa998467f3e0be1",
+    "docs/285_DRAFT_SECTION_DEPENDENCIES.md": "5d2926fa5bc3d4fbc26339c8bb824014dd748a0913c4a6c44fa585de4981b857",
+    "results/audit/pair500/tail_contextual_followup_20261109/tail_snapshot_20261109T061113.json": "66df6de8983cf889a04a3a6e7e4b64b8c9648003af05a635c9442135738f7aee",
+    "docs/PREREG_LOG.txt": "c65aabece3c8b6c9db7b95d637a3c3578c2cec6e628134ad3a65ee06c4efb478",
+    "docs/OPS_LOG.txt": "534facc501b7ab5875a178eacd6b59568a4d9f7852addbdeddf338780600f8df",
+    "tools/handoff_20261106/report_tail_and_contextual_progress.py": "6043080c90e8b65cdf9eac1c2d1451b0306c10c2e042467c89658d049e0b96ac",
+    "tools/handoff_20261106/publish_tail_contextual_followup.py": "703b57da3351b625141c94e5f3517646c36416d996e6b35c55cb2352091b399f",
+    "tools/handoff_20261106/handoff_lease_priority_v2.py": "90ef303420ad3b12acad0976d8ca39ed63024ee7c8523ee378970b1ff64f0235",
+    "results/audit/pair500/lease_priority/v2_handoff_complete.json": "a262f8472e096dd372d12b15bdfa79d2a3637255162d2d2f6e78364365130802",
+    "results/audit/pair500/tail_contextual_followup_20261109/first_SYS_A_metadata.json": "499cf2fd87a27ca12b499a2fae4b774049d2e9c24ee49cee707a6b556a78c37b"
+  },
+  "no_outcome_labels_selected": true
+}
