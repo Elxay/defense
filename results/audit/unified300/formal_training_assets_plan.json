@@ -1,0 +1,25 @@
+{
+  "utc_frozen": "2026-11-10T14:34:18.261708+00:00",
+  "S0_asset_completion_not_alpha_selection": true,
+  "target_files": {
+    "results/style_intervention/old_recipe_targets.json": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+    "results/audit/crossmodel287/qwen_train_targets.json": "930511523545f89dca5db2a8aa01420783c8eedffbe65253325dff067a2d4da1"
+  },
+  "same12_Llama_target_payload": true,
+  "teacher_cache_rebuilt": false,
+  "Llama_seed3_existing_generic_bound_vector": "/data/HZX/Def/results/audit/crossmodel287/generic_equiv_llama_s3/v.npy",
+  "Llama_seed3_training_log_sha256": "be5baaa4fe654d8b53708056183c4818eb61048e7319c7058fda9f3ae68c50b7",
+  "training_source_sha256": "4a7b1d2f7db5fa06d032b18ed70a399e80f3e6ddc9af0774884db1d1dde629d8",
+  "completion_worker_sha256": "bdadb6be13ee93b247d156e0bfd2a427aba036412fc614e0387857bce9b7510b",
+  "config_sha256": {
+    "4": "3e4319e1477816e8729a698b92aee7d25ea48f655dd8a4e1247751d40085641c",
+    "5": "78cfeffaa598c4b46158fe9a0c8d17507fd56c45cb5302f0670eb66b0b69c495"
+  },
+  "initial_sha256": {
+    "4": "d49d5511c64a9cdf1a50abe72691bfe986d1ece8eee295aa208e0f21a2e225e1",
+    "5": "cc41cd891bf6ae7a8e65df4860fdef8165d79617e763aabefc0b398f077c4568"
+  },
+  "reason": "Complete same generic trainer and fixed U1 cache for three Llama seeds; do not substitute unknown historical-target bindings. No SORRY/700 calibration results used.",
+  "attention_backend": "same generic source default, no source numerical change",
+  "formal_calibration_requires_completion": true
+}

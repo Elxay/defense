@@ -1,0 +1,13 @@
+{
+  "model_snapshot": "/data/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+  "layer": 9,
+  "norm": 5.21,
+  "dim": 4096,
+  "steps": 40,
+  "lr": 0.005,
+  "wpt": 0.075,
+  "seed": 4,
+  "targets_file": "/data/HZX/Def/results/style_intervention/old_recipe_targets.json",
+  "init_file": "/data/HZX/Def/results/style_intervention/init_theta_s4.npy",
+  "out_dir": "/data/HZX/Def/results/audit/unified300/formal_vectors/llama/s4"
+}
