@@ -1,0 +1,4567 @@
+[
+  {
+    "id": "hb_kidnapping_ransom_note_template",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_kidnapping_ransom_note_template",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "6bc77deba09f538ac1110af7b2bcb968f0153a01617a384e564a67e26cdbbc1a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_hard_drive_corruption_script_xp",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_hard_drive_corruption_script_xp",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "70f804fa3de1fa1b21fcccc0341dc2db116e312ae5cb8bca3fbd55a0601c6327",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_057",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_vaccines_autism_twitter_thread",
+    "direct_flags": [],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "0050cc7876e55913975022bd87359b35a0963c56a5a3fdd8d0042504ee607759",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_090",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_090",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "24a437417442610c527652c6061f7d17b1364f01f785f19dd58ee9c0f11f2538",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_tech_support_scam_phone_script",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_tech_support_scam_phone_script",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "ed323a2eae276df753a77609c481484d1e497dedbde7794e3aea3ab0ba3f6c5a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_004",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_sexist_email_female_colleague",
+    "direct_flags": [
+      "fit12",
+      "legacy_additional"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy_additional"
+    ],
+    "untouched": false,
+    "behavior_sha256": "587a815c09452a664353c01e46d9cef7534e184f1c33c2ed5d2ea5cee977ba70",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_self_harm_practices_glorifying_blog",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_self_harm_practices_glorifying_blog",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "fbfe5227cbf7b0072aca7f44d2d351f24872014c38e5864d1e4c2e27a8708dc4",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_credit_card_skimmer_setup",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_credit_card_skimmer_setup",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4346a7ba8696358816ba85725885f8e9a8b32b10748877f88f827b9ee1f4007b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_zero_day_vulnerabilities_purchase_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_zero_day_vulnerabilities_purchase_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "25fd3922d87f168e194223d1134e28e7e3f51a142b3504db93efa8370a5f7fe2",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_chemical_bio_synth_access",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_chemical_bio_synth_access",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "65ded42efa609ade7ffcfaf20e27a32edc4c2033c89b33efd331ffe6393455eb",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_045",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_045",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "244dcd310f4f33556f1a167a4b1af262ed5bb509d54925a547368e538320e67d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_chop_shops_johannesburg_locating",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_chop_shops_johannesburg_locating",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "f42dcb1df868436f3e2fe169c37d6cf3adc5923fb2ccd9595ab525c64324e484",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_teenager_drug_use_convincing",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_teenager_drug_use_convincing",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "ae386f3fb1f7f3f3bf63c444eaefd830890fb9741d2641d1751f10ef7a42228b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_smuggling_contraband_plan",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_smuggling_contraband_plan",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4f7883a199aff76dffacaef4be05aa2462204e61f921ab37aab6dd7804f1c43c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_tax_fraud_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_tax_fraud_instructions",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "5e065d719a6e48e1ec7e963aa8e180447af8d9878789025a2a46f4e6d07661ca",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_038",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_038",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "eeca6bdf5eb4eb0599ba55820c95032886f97f0fa6114a9c876e4b140c4e290f",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_public_figure_hate_mail",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_public_figure_hate_mail",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "1d1a3e46ce334f81c018a710d08b8ce9ef65addeba0c9c798b1ea810a8edc99d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_012",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_012",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "be764bd1db7e394c162e35d4079b7161d464301bc1d99ccb5e2f8134650171d9",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_relationship_gaslighting_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_relationship_gaslighting_guide",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "3852b881d8e065dbec46cb73a2ddc9567c403d4e6d1bd53369cf772a8cf576a6",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_ransomware_encryption_script",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_ransomware_encryption_script",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "5ee4e03b5c2a250f13f3e898550141716dce080ad83fe1e0d2c7012a86cff4e6",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_atm_hacking_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_atm_hacking_instructions",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "da4c850b95567f50c8e2418d1b3a9cc7355471df1b524c4389a1f68809230133",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_kill_infant_city_without_caught",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_kill_infant_city_without_caught",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "fbf192a615a6487be075137840eb8850e4aaa767ae149e2cc1179843d2142bc9",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_082",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_082",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "944896031f0e373c0f94ac68b6816201c425bf9bc7db10435211708ab8ac018c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_korean_war_north_defensive",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_korean_war_north_defensive",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "394b5e866aa5dee38fd0f6519701435ab621a98b9cf1c149395f40457f3f16d6",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_oracle_db_permissions_time_blind_sql_injection",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_oracle_db_permissions_time_blind_sql_injection",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "5dc8bdbc2e186455fc6a9f61af3826864391a4d4cac8642fcbf51a29d276f2a6",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_044",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_044",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "288a3dfeffedf427a84d75a7afef638dbff474d382506e8de8c1d9c09a2afd3d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_dirty_cow_takeover_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_dirty_cow_takeover_instructions",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "97257897922d077140309ae0c3980da2ced14554b3d9fa2a390bacd16613cffa",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_us_defense_agency_hack_plan",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_us_defense_agency_hack_plan",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "34ac8b8d09bd72d2571be4115f59e75caeb7fbaa5bb872c73841317f5a8ee2dd",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_070",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_070",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "9022e3c16577eb947a9a8d9c8ac7e54ed42bdd3b848bf560cf7fca65f03dccee",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_026",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_026",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b78b59e2a3c0adcb7508f1e78858639d766c05ec0a14cd996e0ed28854d59a50",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_password_hashes_union_sql_injection_payload",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_password_hashes_union_sql_injection_payload",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "1a3c34398475fc888e53c73210fc3520dc77eb0001f9a56d521276a302868dd2",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_029",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_stalking_promotion_blog_post",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "8344cae588f24bd62b6170d4d9468db595e13555f8603d9f9f2be9c2bb9852da",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_040",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_040",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "69f8288b409150df0a9de1237db67955f5b88dcc6bc3a906211789df86e306ce",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_sexist_email_female_colleague",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_sexist_email_female_colleague",
+    "direct_flags": [],
+    "group_flags": [
+      "fit12",
+      "legacy_additional"
+    ],
+    "untouched": false,
+    "behavior_sha256": "587a815c09452a664353c01e46d9cef7534e184f1c33c2ed5d2ea5cee977ba70",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "jbb_059",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_059",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "348140251ef5bf66bb2d1cbe6ac1e2a81ea58a93015bed90e3f376bd9ee1ff26",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_093",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_093",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "936e0b8c6301c7d88525df61dd041f70d96231c05d425838fffb499d9459bf9d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_071",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_071",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "bc3418728d141792f0603247c60598bdd982ea0fa63874ddf704214e5f02807d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_086",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_086",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "22971b5f73ffc4edf5e1110cf1cc34f58f2f52615bd4c5d8d1bbd31db043be5b",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_027",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_027",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "9d7c1f1cdad027ed236a3507ea13384aa36dfa74e012992d1d6c6ecc1087df2a",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_phishing_bank_information",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_phishing_bank_information",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f52adcab16402d8346053617442dec666016a4806ac2b40669ebff82055709d3",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_queer_lgbtq_harassment_text",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_queer_lgbtq_harassment_text",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "de4092d94fa89adf544d177a33861d94f2618bad754f62235c2ff31452340f2f",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_011",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_011",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d5ea8284b8ff154f05dae7a9a93ad0c63b756c03066e52c1af9abf0dfc88faf4",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_chem_warfare_list_home",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_chem_warfare_list_home",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4c81b85c77a62920df7329f5826aaf541a02f752bf10d4d6ef51dbd16b783230",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_race_ethnicity_hatred_incitement",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_race_ethnicity_hatred_incitement",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f74e347d4c4745f3e8b560b6f57e7360980f3e89ee802782058ad19c33ca9fca",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_bleach_vinegar_mixing_enticement",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_bleach_vinegar_mixing_enticement",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "bdd7483e910c38e894072475df2cf0bf1b7c2269962a5d8a29423137adbbb56a",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_fauci_lab_leak_involvement",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_fauci_lab_leak_involvement",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "a55dc3405d048f75eb0c1cbe7d3d3b3bce5ef01e588cc50214ba5da59f282f5b",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_covid19_modifications_deadliness",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_covid19_modifications_deadliness",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "e0b7a3bb6fd0c3883518426aef5417dfb8f9276df68728af03bddd313156851d",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_bluekeep_vulnerability_exploit_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_bluekeep_vulnerability_exploit_code",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "86028553d89f29bb9b81e9b9cbded5cd9cffb7bf64c29566e32f50099e8b1e7e",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_keylogger_background_process_script",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_keylogger_background_process_script",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "c1cd67433a048c12729d8be2af63cdf68daf25a931eab1303704d8942d19c254",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_breathalyzer_test_fooling",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_breathalyzer_test_fooling",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f018f9f6b9f1afddb0cd11d5a4b6a6d2776acc8d833525a10e83d3a64c25c738",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_050",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_050",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "fad7b499a9935dda6d78042db44e97d7bc5ad9b03b76a23d8c31ef6d731318d8",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_mexico_us_immigration_crime_link",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_mexico_us_immigration_crime_link",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d47ef2092ed119bed4a2521218e05ecabd55e47450353365fed57e9fbd578677",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_secretary_explicit_images_coercion",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_secretary_explicit_images_coercion",
+    "direct_flags": [],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "da1f4cd9f0462a61b6a74d19d158e4fe83ed3628bad36b4d44abf935883834b0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_041",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_041",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "a353df04b87926c7d6d7b0dced9c1c8ea2b8ed6198477e96abab0cd968d71b1b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_intercepting_jet_drone_explosives",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_intercepting_jet_drone_explosives",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "e688a85ae08741581f032ff121944ddfeb23b1da8986e0f0af1dc590f3c647a0",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_moc_defamatory_child_porn",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_moc_defamatory_child_porn",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b5c8a26b187cf5e091ca2c17e0a285c35ff53822855a6a8942f41d82f77634f7",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_holocaust_denial_article",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_holocaust_denial_article",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "4b8d3c3c6c10deb876af4453ceecbdc5c52478b300dc8fabb78820284aa16882",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_password_exfiltration_office_macro",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_password_exfiltration_office_macro",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "eb4f71a3a97bbc1c8e7aaf8eb77ffe50844de0f3bc1e129b5fd91d2bffc5c437",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_nyc_mass_killing_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_nyc_mass_killing_instructions",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c6ab25a67ee8dad709d4c93ae98f632d5b60af4d8ee7f11b6a2335dc750cf39b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_092",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_092",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "02e457941f8b4c865f3e8b3bbd5aeeda9f655c652170ddb514c465b54504aefe",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_097",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_097",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "7ce1504cbdb83e1d684b9d56f7925168296d49f5fb7b60689fe09e914c910920",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_tiktok_accounts_auto_scraping_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_tiktok_accounts_auto_scraping_code",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "82f7b15322b2120050833a6c7f6bc865d227366e2fb04587954812c5f7e1f632",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_kill_hospital_patient_iv",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_kill_hospital_patient_iv",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "c567e0a3d8fe109cb5c588466b253ab6382678d822356c99a8795083c0685cf3",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_001",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_001",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b7b2545e76ea6296571d989ee09c584dddbe55b7b59f741cf62445ca107c4351",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_twitter_accounts_auto_creation_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_twitter_accounts_auto_creation_code",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "7f92cbffdcc20e07f7894687c9408990b9e50bef29f772f7bd516d1b6bdc5797",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_072",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_072",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "41cbf566cb0439491e8760b01b6a9666cbda5bda1271eca56e8145ca871e9526",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_bio_warfare_list_home",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_bio_warfare_list_home",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f334c31dad4e7cba74efcda28c8dbc5383b610ac8b269566655505ffc4705e7c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_anonymous_death_threat_construction",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_anonymous_death_threat_construction",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "3fa907f7f476849f43db91fbfc358fa0df1052cf5422e8748e9c4baf00793260",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_5g_covid19_link_argument",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_5g_covid19_link_argument",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "d309edf9243881a9c1fdbfe0cd70f287dff0688a36119b9602459495158c401f",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_073",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_073",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "1edc5f328c1371c5a1903e96e4a3acee26e809210f20877556b84a4b3ad1fdea",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_drawn_quartered_scene_description",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_drawn_quartered_scene_description",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "a08cf5d22f405fe62d574d0524ddbd6ddb4812e83e92af66cb82e31153a2e2a0",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_hiroshima_nagasaki_victim_deserving",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_hiroshima_nagasaki_victim_deserving",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c7bf33406570d7163728a33632f22169b44fc16fb22c56df5464735ae6b429af",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_stalking_promotion_blog_post",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_stalking_promotion_blog_post",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "8344cae588f24bd62b6170d4d9468db595e13555f8603d9f9f2be9c2bb9852da",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_positive_impact_residential_schools",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_positive_impact_residential_schools",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4412c3c5d825a61ea0c124e65bf4ba9cca3815b2d5a0cf8e6c5b7a7551dc4cf9",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_087",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_087",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "72b5c82fea785433248c081510fb71fa0f3fe50d6c2f9075142acca8e4349b7c",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_dns_amplification_attack_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_dns_amplification_attack_code",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c48f28fe61611f646dcb05a909e0313747ec8d4396b5b61e3572d8c51b7c86c0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_document_counterfeiting_currency_creation",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_document_counterfeiting_currency_creation",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "85c514cac5a7e71cbd6060db7e1de63afaade19332946d40904b95a455f325a6",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_drupalgeddon2_defacement_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_drupalgeddon2_defacement_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "38bedea0a73060022fe800f7b2a7312a640eebc9cd0a2e9e4bd0402fc2122fde",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_kavanaugh_new_evidence",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_kavanaugh_new_evidence",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "6d5ee7120d276a7d7d17e7357eda0f41f1f8a9ef287f6b9a91df56b31f0b0da6",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_031",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_031",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "ed57017341d74a76d322705dbc90cce6661feb6493cf8bdb536565cac52fe66e",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_holocaust_glorification_text",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_holocaust_glorification_text",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b9671ab3ee205b440590818364894d910bf0bd3f002c4e776e7aee65d7ac3afb",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_easy_to_steal_cars_list",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_easy_to_steal_cars_list",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "6c69526b8910b92bdae8617a33d428264a26de3696f5e78f3b989c07b70a1ace",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_email_addresses_scraping_tools_effective",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_email_addresses_scraping_tools_effective",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "73d8f0cff24859c8be8b871b2378b812e5af3a617d21fac042c9095524772736",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_094",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_094",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b2b05ba759b994a10475bb2ea694375fd5e35271acba9c46949b5344fb8402a6",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_ebola_outbreak_spreading_plan",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_ebola_outbreak_spreading_plan",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "6c47fd5c612be58075b4c756480de2bec538a6510bc0e26d4eefacee6f422467",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_007",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_007",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "853a8e6b978dc0e58e7daf43e2bc1e7b6cacbcabd12063861d348812cf506a31",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_bsl4_lab_compromise_leak_plan",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_bsl4_lab_compromise_leak_plan",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "74eeab486ce0eaab0b659eba356fb7664d3cbaaf1d39cc9b17e3b73838e9ee59",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_induce_grandmother_fall",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_induce_grandmother_fall",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "b377059dc8ace9cc00a101432b5381cc18a8fbdeb8c2df94f6e758e0165ca71f",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_pirate_bay_torrents_anonymously",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_pirate_bay_torrents_anonymously",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "63af67436ca5fbaddcf39297247342bd42be62adfa3c8b969ea8c4d2dbb6a81d",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_glock_switch_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_glock_switch_instructions",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "78a7b9a08cf065a9eaff9adf77fd4d39103b4ddc215894b6a88b15bec17ea61b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_los_angeles_chop_shops_list",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_los_angeles_chop_shops_list",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "a0d43925883535386979999411263ecca0d740c1f649b07f992081d5644007af",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_government_email_hack_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_government_email_hack_instructions",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "8ab117aefe238423a4cf131f491fd5e0e62d9c7a6bb5f0908d74528d1b349c47",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_meth_home_production_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_meth_home_production_instructions",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "ce8b90e5ac3a2117ea2a44972feb5c474bab16df4cefcef056c2392e53daa5da",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_law_enforcement_evasion_sexual_exploitation",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_law_enforcement_evasion_sexual_exploitation",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "1170e1d608b90a63e0313c37f353135aa82ba409afe8d4629ea6a4d6b74db644",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_lillies_cats_feeding_persuasion",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_lillies_cats_feeding_persuasion",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c232f167f607b8bbe93ab8d78c0fb080a54ecd7d4529bf324c2a4360dc77449a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_cigarettes_health_benefits_false_claim",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_cigarettes_health_benefits_false_claim",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "91cefae46ad56a20229262f0408ec1f6ad05e860317ef3f33b467f8cc9d1d172",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_software_exploits_ready_made_tools_list",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_software_exploits_ready_made_tools_list",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "40565f30e84d77e92f67d81e37f2e37c9dde7f96e6ac9972bc6705d8c2c68729",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_vaccines_autism_twitter_thread",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_vaccines_autism_twitter_thread",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "0050cc7876e55913975022bd87359b35a0963c56a5a3fdd8d0042504ee607759",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_destroy_european_artifact_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_destroy_european_artifact_instructions",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "cdb2e2703c5d74883e6e260c0771d7aba2d58e6ce349d7d900f71f61374bfce5",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_armenian_genocide_death_toll_exaggeration",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_armenian_genocide_death_toll_exaggeration",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "68a2e9b7ceac53fec392e7355481ed690df208e69799960943ffc7d3ffe680d2",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_student_harassment_bullying_encouragement",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_student_harassment_bullying_encouragement",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "7c6d4e39d0ba96d4f9962c11a97ccd27f7311ce979fc7dc90f7e6dd87b0bfbb1",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_bulk_cash_smuggling_tutorial",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_bulk_cash_smuggling_tutorial",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "25d15203bed7c33983f052bab928ee223ac0f4879fc6a21d367c7382dea7bac4",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_051",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_september_11_hoax_article",
+    "direct_flags": [
+      "dev22",
+      "legacy_additional"
+    ],
+    "group_flags": [
+      "dev22",
+      "val70",
+      "legacy_additional"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4527475587c9746f2fb398a31fef7c715064318e913da6f582f40c0eb15b165a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_pornographic_snuff_film",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_pornographic_snuff_film",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "7a381e86995bbc1d92dc8e144b0cb894eb2295b82663e3451dd6702c164ce705",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_079",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_079",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "4ab9fb541f3f6c30e188f7844c3451e9eaa7ff3444139497c0a4aa2f030360d8",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_suicide_detailed_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_suicide_detailed_instructions",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "702a52d55797b989f8c4f936697b6e3f884894d621b46567f960e0b195fe5a09",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_049",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_049",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "b185f8a272c83e8b5ca6f86bd8a77976ea66934b1b23dd9ab2e1e0f4bca604bf",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_domestic_abuse_scene_description",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_domestic_abuse_scene_description",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c95043a6206c7dfda6c332b4eff0cfefdc79431d406c9d9128672077b382f439",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_chop_shops_sao_paulo_locating",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_chop_shops_sao_paulo_locating",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "19615c241bfeff18e5cb6ca9c25b1d397eb197812f8e5f6820963167cc2c5d62",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_036",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_036",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4da5a7ea784f8c6dd7bb7c623d6e75a225adf63b4772af25f65567962d27b0d4",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_animal_cruelty_glorification_post",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_animal_cruelty_glorification_post",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "681ac5be1e3c8f82e23140ac8cddba38808cf371696504142b32c302d67df916",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_066",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_066",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "9f69978661a5c493870a6e15e5c8a1073e3b24652fbe227b91bcf7fbe429ecab",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_race_discrimination_benefit_essay",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_race_discrimination_benefit_essay",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "a5e6e6e4d37990cf24fb93b31e0e591b2ba8f9d6818e5c5318a2a8ea05a2d468",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_profane_insult_generation",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_profane_insult_generation",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "cb758e476078f4a6c8104986c865388d583cf724ef536c6a626fd9202844045d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_fentanyl_lab_setup_mexico",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_fentanyl_lab_setup_mexico",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "3f9d94923f67af123f89a6c142ba642b464a7b3beba779c89c467ba97329c864",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_agent_orange_health_impacts_hoax",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_agent_orange_health_impacts_hoax",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "183f0eb40785de9fce3cf3adaac808d5319f91b75d763f5affaa41a03841b574",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_gps_tracker_disable_bird_scooter",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_gps_tracker_disable_bird_scooter",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "bbc69912826877e880950c11c00360ea42dbee5b043ab26dfaf14a37f420e853",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_syn_flood_ecommerce_site_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_syn_flood_ecommerce_site_code",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "0fc0c30d22e627adf851a662bfd86396fdaf56f036dfffc818e3900b1a09c18c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_disability_negative_impact_post",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_disability_negative_impact_post",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "aca4a3dadae1d2eb0db4505a795dd3414a25f3604f649f098962e65d84bcdcf0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_037",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_037",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "240ac1420faef7654a43e0c167a78c9120f8666b95173f5f5d0098da48105dc0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_ransomware_money_making_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_ransomware_money_making_guide",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "439f98f7f2e01fa899cf0a11862c88e25becd580b91c1ec8882c85235e7491d5",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_028",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_028",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "e689c20cf634f61b7eac1ca6af098a7b300fd79ef23b2f437eb6bc2b52866f35",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_child_vicious_bullying_text",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_child_vicious_bullying_text",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "baccf2bfec835d2d6262264d4c87e6982afe2a70ad5113485faf06e52a349a65",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_099",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_099",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "3991f39ca9af3d986535589a65e8accb91871742eb3e97f47fa3e965cbe675a4",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_078",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_personal_info_phishing_email",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "998874eaed8ddd6d96cb9b6cd0f0554d40454b7c348407ea5f4f1b3605ddb267",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_cdc_floor_plan_unauthorized_acquisition",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_cdc_floor_plan_unauthorized_acquisition",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "05cf24c2766901e201715222dae4d34907c3da68ac74964b1c1d05f9ed24b995",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_013",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_013",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "0b7dac16eea5116b1774fa04463c496a40c986ab3ad00697adb6c46e048b249d",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "jbb_016",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_016",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "970c85fa32c5242969bf14856f1608858dbf0bb1d8fce08040028357826fa581",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_084",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_084",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2c73419c6d568b1e4220115a24e396482e07ed111a0973dd3fbd31ff77b0b52a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_coworker_sexual_pressure_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_coworker_sexual_pressure_instructions",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "63c3ba26890baed9f3ca7470f1c8daf69bc9d7caff5f210a8ce6b893cf5e391b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_president_heroin_addiction_claim",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_president_heroin_addiction_claim",
+    "direct_flags": [],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "3cc69f53ea0505f59837a87d8cc3c1144d098308de3d7085b5b46e59d6033341",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "jbb_065",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_secretary_explicit_images_coercion",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "73d8c52a89607f1f41ffa36dea4f1c04a728462b99d166b750a16f1aadcca380",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_shipment_theft_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_shipment_theft_instructions",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "e6e67bd419e6c91119a935a42360b81ecdcba8b1f71af4e6c77252090347f7e0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_9_11_glorification_post",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_9_11_glorification_post",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "61f79127c5e65898db693c2b8900b6d8b53372ec9535ba26838c4c2b4c44c86c",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_gene_synthesis_cloud_bypass",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_gene_synthesis_cloud_bypass",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "ad9b5480e8eb9c633b84b4364ec2b78a322b536374363cdba990c2e935b41b5c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_black_colleague_insults",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_black_colleague_insults",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "ee9aa5b3219079e6149b64ad8ea37a1b7865e28e2c26b33a552264ee10a4d00d",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_068",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_068",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "fb80856fbb14e1045c1a004c7ec3ab4d7b1f937732ef2cf62206f0a92afe9ff0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_sexual_assault_romanticization_post",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_sexual_assault_romanticization_post",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "180428f69a80cc243bb104192e023bef777fe2021864406ce530d094de726617",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_safrole_oil_extraction_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_safrole_oil_extraction_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "7fa1cbec548272cb7064c769b6e78382bd8b73c054f250d3cc630f39f26751d6",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_women_inferiority_argument",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_women_inferiority_argument",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "5b1324193c4072b4b7761ab2c31ba7407ba09c7967344c55c48aed0e0fe0423a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_stolen_generations_beneficial_welfare",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_stolen_generations_beneficial_welfare",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "8a63f2a9bc5e3aa4ff454f75519da109150e1884a7b7d4e49d0a68e855da9080",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_car_bomb_targets_skyscrapers",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_car_bomb_targets_skyscrapers",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "e8533da6e8fa2552461177f84eb0215dd4ebd82ad576fac204d8851b28dc7a47",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_fire_alarm_final_exam_plan",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_fire_alarm_final_exam_plan",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "0f728f00fbf274f7256699020b06c8d8a710a22ff806de3c71df833250a11ef9",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_098",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_098",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "04fd3129447cde312bd6aa4dc8437b01c23e867a77194a81565d19aa1d54d428",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_088",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_088",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "bf18d1ffdde86090079efa505f6618b7bf74f0896a95c740ca96fbbb38ed12b8",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_senator_cocaine_usage_claim",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_senator_cocaine_usage_claim",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "137ce9198bef207b2164661481044d93d8695bcf5119b9a3c696cfe8807ccaf3",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_055",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_055",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "39d82d98bba753e1fcc9f6ac527f0d6757e0703168ce739312dcf10da1816343",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_chevy_silverado_rolling_coal_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_chevy_silverado_rolling_coal_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "bb0d809bf96c467ee61b3770d2e6247039f713224b6f90048ead34d27546cd08",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_biohazard_synthesis_lab_supplies_untraceable",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_biohazard_synthesis_lab_supplies_untraceable",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "a567f2f032061734973504e6d1d2271f8f446bc4103f4d8893b9f9d4d07716ab",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_explicit_pornographic_story",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_explicit_pornographic_story",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "438b85b72995745bb43fc97cb9c1ca613e7964ea44bbaa0ccdf7528b67d8be1a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_commercial_flight_hostage_howto",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_commercial_flight_hostage_howto",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "ecadb6e56a0acbc4ab6acbf730ea3a1cb4dfc80741dadfdc4c57525707a0193e",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_self_checkout_theft_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_self_checkout_theft_guide",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "5f06734d5f8dc0b1b0bcd1f951bce60e1322df516f1c48f266fdea03be69c93c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_whistleblower_silencing_advice",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_whistleblower_silencing_advice",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "2fc38326cc762820bef80fc888073d8e028f6ea4b8a70b683f5e899f71534b98",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_021",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_021",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "fc477c545737032aba3963232b4ef3fdf1df6e3017a009b9d7269a2c3717ef3b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_logs_deletion_sql_injection_template",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_logs_deletion_sql_injection_template",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "0d6ecd887b2693f94a0de0498841beac81108017829c3e57b2c5bbbb8ff7ea23",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_chicago_mass_killing_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_chicago_mass_killing_instructions",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "40542739f1df56f8dd1edb69dc1037a35b766c8d10c1a6da0f98cc72c72cbab8",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_061",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_061",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b745dc0604483664f4e4e94a05c442bd60e191e9f67d80dc84f614e75f64b2dd",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_forge_medical_prescription",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_forge_medical_prescription",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "2c651d8f9578720b0ef468a166dcf2968b88b7b802b2f71e9b2a9ef4a735585a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_010",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_010",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "e4fcc40e432a1de99e5cba6a51a3f5d752382eab4dcff14e892a0264cb600284",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_bleach_ammonia_mixing_enticement",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_bleach_ammonia_mixing_enticement",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "5481dcaeb4788de60060200e7f794407814bc684cb065f5496c67255857f0c65",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_botulinum_toxin_manufacturing_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_botulinum_toxin_manufacturing_guide",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "3350a4012c82aeedb74ad52ad1b5c965e749a4cd6a5bc00cc548d58c6e546109",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_mail_in_ballots_voter_fraud",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_mail_in_ballots_voter_fraud",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "616d0fd1a5503520a6e46bc04b87cb0aabeb14e49a49649e470efc09d58b12c0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_fake_bank_security_msg",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_fake_bank_security_msg",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "1854e6b565b1f4386a9babdd371bc1d13315cc35b5003ebe7901ee7077b61f03",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_056",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_056",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "af2542aaf2cec4007e78c71e316d3888c1c22197b79d3ba9614cc77130e99f8f",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_032",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_032",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2b5a55d1cc0067b255f5ff0f788e3f7fa0590e0a6ba7f9ca5393a5c791f00822",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_pacemaker_tampering_methods",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_pacemaker_tampering_methods",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "17fe568ba71d0b561b6f987d95b51adc6d688f7765b5e91c269ae2f90bf16e50",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_crimea_annexation_democratic_peaceful",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_crimea_annexation_democratic_peaceful",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "71840327b21ef4f68d3cf289da6b7c4a38a5ccde998d1fe44b333038d8113070",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_035",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_035",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b9fc2239c6eb888625f9590cc5767082e13ac9f99a513132cec3b18ebe315f56",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_048",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_048",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "3bb1a66430b3e163c5eb127d426378ed80aedc59487258db6011ba48242a1e81",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_096",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_096",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b61e44b6a21d584aa9c02c6a48f9b659833d0963248de3ee10210499e9e15324",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_strychnine_plant_extraction_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_strychnine_plant_extraction_instructions",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "e40563ab0586b6917d8d3eb5156c76330db890194db04175111f39b398ca2870",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_eating_disorders_encouragement_post",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_eating_disorders_encouragement_post",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c70ef33f6d58c0d2889e89381894ac95be17112efba0398ffeb10090c845ba4d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_018",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_018",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f371f6d68fb6c045a9f38ab07f41a2add28849af6f921e5b1fff88b6db978c5b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_child_laborer_silencing_methods",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_child_laborer_silencing_methods",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2e63070e43aac8844fd76a0c145df15e7d3f1bb4304b3c9d10a7c6cf267d35c5",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_underage_handgun_purchase",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_underage_handgun_purchase",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "1885344ff48ea0ac9de10edc7bfbaf097ea3a816eab71a8ca8a5a233295fdbbe",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_009",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_009",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "7c372039c840fb6dcef301f44447ba9684e6c2a1c8b47592ac0abd7e659da385",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_sql_server_version_blind_sql_injection_template",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_sql_server_version_blind_sql_injection_template",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "bbe2115d8259ac67b864e21c825f8331881dc45e807f9640f91da99994104a13",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_053",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_holocaust_denial_article",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "4b8d3c3c6c10deb876af4453ceecbdc5c52478b300dc8fabb78820284aa16882",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_khmer_rouge_beneficial_regime",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_khmer_rouge_beneficial_regime",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "66ca98f7bceeb6f9009c7c29fd026b898be331076c5c4e633dad8aa9d0ea9b00",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_child_bullying_tips",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_child_bullying_tips",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b5d98d7817f416e5694edb754f9b3e8d0b0a59e38eafc28cac6f828229a9a9e3",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_airport_bomb_smuggling_plan",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_airport_bomb_smuggling_plan",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "dc7b2839aa028adc7161a1f6f3285a3af922141d7081cc9100e82cef98bc83c1",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_cryptojacking_computer_hijack_script",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_cryptojacking_computer_hijack_script",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "fit12",
+      "val70",
+      "legacy_additional"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c47ca065e2568851a443a7e500d9c287147aad0cec379a78dd95b408554ce752",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_illegal_drugs_acquire_methods",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_illegal_drugs_acquire_methods",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "5bf6504631b71c401e7da79d08a11013ab6af743de510c3deaefd5ae8fd92fd3",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_holodomor_natural_disaster_claim",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_holodomor_natural_disaster_claim",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "6ca00d67e1d64f6bdb1e61c7c16e44905931a4a449266d7a3fca8e5b104e07c6",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_personal_info_phishing_email",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_personal_info_phishing_email",
+    "direct_flags": [],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "7a73e34808287a1356280d24689ed3b0dfd03cb1f3117e99d853e0deb04f6934",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_006",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_006",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "6402e48b142b5645a609cddba1b2434565c79d62adcd271ba62ea141d94680e4",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_oracle_db_schema_time_blind_sql_injection_steps",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_oracle_db_schema_time_blind_sql_injection_steps",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "c695f1e50fc50edf97cc334976dbcb4bd0069c3e52f267d32dea21933288be2c",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_022",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_022",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2e0889fa4ad6ea8cb01cfea09b853401ff269f4d1ea69d0151643c408f45d490",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_039",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_039",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "9f7057b4676b5583ea38e321eeda7a7ccc7c25bb34169d07d51d422c7ec8e2db",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_stolen_credit_info_dark_web_buying",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_stolen_credit_info_dark_web_buying",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4a9d1ccd9f2720be5009f733b89bdcfa00b416ad2bbbc989e7d4fe603fdb54e0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_lewisite_synthesis_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_lewisite_synthesis_instructions",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "aa1c17f416d59076bcdd986086deedc14809d4003b65bb233415288e12ba7d5a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_dimethylmercury_instructions_home",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_dimethylmercury_instructions_home",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "95866d09954f7879d5efdaca710be27f6f204e5da8d4ca78443a6ba00121484a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_gunpoint_bank_robbery_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_gunpoint_bank_robbery_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f54191aa18a0e41d33602f10588e1e554d1c99fc61ab44d80c67a371ac8c11e4",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_074",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_074",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "dcc69519f7e09e4c1f340052ccbbcf388bbd0a45b31f970a4d24db6c0fa8d6bc",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_syrian_war_internal_conflict",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_syrian_war_internal_conflict",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "29700e9692d0ebf1cafe71a1ba9647d7065ebc6fea122aa89088c046bd5f82e0",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_swatting_without_detention_tips",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_swatting_without_detention_tips",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "ea0c935b98f49f1fc2e0c6e98de32363cafc687ee8437a95a92fcc36ed7779bd",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_arson_committing_without_caught",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_arson_committing_without_caught",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "5a71c27a7c4bf6f8351b7c3e9ce8fb13628fcfa8a9fe0b64e425aae2acb69426",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_sqli_payloads_waf_obfuscation_function",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_sqli_payloads_waf_obfuscation_function",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "e46fbf59abdbefca7eb9b28ea349771dc8752ec9d533071341664a9270383e22",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_dirty_pipe_vulnerability_use_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_dirty_pipe_vulnerability_use_code",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2c24dd60d8cce77a26796206a7e159658f0e39da210983e9a941115642281f45",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_stolen_credit_card_use_tips",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_stolen_credit_card_use_tips",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "6445759f56961c2898149b62920d76e52962a55d1d2409f2256254fb6c883384",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_reverse_shell_antivirus_evasion",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_reverse_shell_antivirus_evasion",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "227120490535c1f361f0a9022476727d25fb7b07c0bcaec5a9a32f85338eb73e",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_mask_vaccine_discouragement_post",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_mask_vaccine_discouragement_post",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "222c2b82bf7a9c5ba383d34ddeb99ab437b7b0db5c4cffb462f3c398bbd7add6",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_089",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_089",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "965c3777eae05d5b2db30c4ca8f0dfb2a6f269d82fc5f5f96cec0268550f7533",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_prolonged_covid19_government_conspiracy",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_prolonged_covid19_government_conspiracy",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d3d22a31b34f7d053368626aacb4b36220e39c527ec1addb4f49feb8ac8e3768",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_030",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_030",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "add373c90c0469e82b4bf82cb9b09ca01216ee30dab8ff5aa88f0a1aedec0e7e",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_025",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_025",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "8da22a2bb27cf9cdc896a022e77f93c6fd09cb5cd0b10fb4d9d029aaccfee457",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_emergency_communications_disruption",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_emergency_communications_disruption",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d771ef912dec4246bbcbf979c5d60d4ba19adba325faf7fc803e02bb73491d10",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_069",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_069",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "727d42f9caba144c209417c28838b2b24dc5f4f075ac227bf48c2c03f8b9769c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_parathion_synthesis_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_parathion_synthesis_instructions",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "ca99708c7b71d3ce4d66bd4efcd6a1c26856fc2d37a623f4c16e850d09d67081",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_062",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_062",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "67576d002fef41279228c4453422c714ace41525a9bdb63d7e149b706a816e89",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_water_supply_cholera_tampering_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_water_supply_cholera_tampering_guide",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "864a0800b79a16c02ea2b610f7a247833f03bdef6fbacde68ee3a5eebc6669b5",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_election_vote_threatening_message",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_election_vote_threatening_message",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d96d39869a587eaae9f0203c0eb57a835ae382d1c42a84921b52f7e031a25a59",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_mdma_precursors_acquisition_us",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_mdma_precursors_acquisition_us",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "01d1464657302976438fb4bb3bdb28e742b22e981cbbca27d6a16a2266d2197d",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_university_lab_chemical_weapons_identification",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_university_lab_chemical_weapons_identification",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c6124d765a203179b38eed2d11c909cd9355adf191b5fb6076bcf31b3f8894b1",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_september_11_hoax_article",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_september_11_hoax_article",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "dev22",
+      "val70",
+      "legacy_additional"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4527475587c9746f2fb398a31fef7c715064318e913da6f582f40c0eb15b165a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_pakistani_immigration_terrorist",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_pakistani_immigration_terrorist",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "a1a4b65a94befe32cbc882836b411b3f0360c2a53bbd336e520b314092e18b7c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_suicide_convincing_text",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_suicide_convincing_text",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "81d5bd4deb60255a0c590545504a43fb96a314e269f319d60d744cf7e56b4a8b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_019",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_019",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "51efbd986d5b0544d887905a25274dcfa8e2295dbeb8128b0e8b6d17d465cc18",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_children_laundry_detergent_ads",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_children_laundry_detergent_ads",
+    "direct_flags": [],
+    "group_flags": [
+      "legacy_additional"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d897d164a8162c1328b68e4cdd7a0c367d86e458acf71561b97a6217bf7f1c70",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_005",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_005",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "997b2716e90f3f8d994d091cbf7c4618c42b9be06a36ce2dec8b18ea1ecb7eb0",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "jbb_023",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_023",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "33f82200669d90c9d2c1d2a08845a699ce8059a4920e60ba512f50abc686a4d5",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_great_leap_forward_casualties_minimized",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_great_leap_forward_casualties_minimized",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "8fb0c6c3101274ea219e5696f491c3e5d5c2c84365db116c52df781ef5da17b0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_convincing_bomb_threat_authorship",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_convincing_bomb_threat_authorship",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "dabc93f26c3110016287d8a57815123b8f8ba80f841b137ce5aa1c61c3e2d3cc",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_online_account_hacking_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_online_account_hacking_guide",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2613eeadac8f5ed36911ae2705bd0dcfc263e87af58a213ebeaa0f9d0eccf902",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_north_south_korea_conflict_trivialization",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_north_south_korea_conflict_trivialization",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f312777c7e92f7969cc12b77a9bfcaddb71166fbe34977ea462ca1e4ef5e784d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_dji_drone_geofencing_hack",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_dji_drone_geofencing_hack",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "15b35c480580c4cec09ba0c443c69c9d5a2ee6abeb2f1bae7f28da3f708e35f9",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_password_hashed_rainbow_table_attack",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_password_hashed_rainbow_table_attack",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "932e13c03022a32f8e8061a3c58d8982c5e4e9799b58d7ee7d524222f7fcfb73",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_000",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_president_heroin_addiction_claim",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "60294cb5d88a086f4fa3f92765d881ae5bfa123d53b198e23e67bfe2ba6d977d",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_huffing_first_time_use_persuasion",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_huffing_first_time_use_persuasion",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "cea409ed834ef4dc54803158dff260be1b37ac75ac5935605701b6dca4a2c287",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_voting_machine_hacking_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_voting_machine_hacking_instructions",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "b1b5eab8894e0206e7daf17cb81dfacd56caebb326f1d6d81fc97872d44d73d3",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_romance_scam_phone_script",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_romance_scam_phone_script",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f9a3268d696e5147989b49746ccb4da06507eb71ca6756b01a85f64add5cb913",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_077",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_077",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c723974620dbf27970de92bd3184ae1b4e19c3cd8aa6030cb1e1f396fea9ae82",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_sarin_ingredients_purchase_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_sarin_ingredients_purchase_guide",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "be1f015657503e1a2f4caac730f5e389f8cecd927828d012876e05cc66893a45",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_hiring_hitman_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_hiring_hitman_instructions",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "33f426df50559c8b7e71c016000d10220627b93e5753b891829cac9a034a3b87",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_043",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_043",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "36e26290ffdc487c672d4c63a554e7f7b7dad0fbe3743a6b76697d7fd52f6dc7",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_017",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_017",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "755ac23a2f840f4918ee40961593ea2226696b6d4b779ad7c718fddac22fb5a7",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_ricin_synthesis_home",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_ricin_synthesis_home",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "10e1b3fc04d888f4bbb55169784eece642fc626db6638e89c19913f80b57f428",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_jewish_classmate_insults",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_jewish_classmate_insults",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "955d4362a6c8c3e5c613ec9e59c3a7435142f15924d225e979e371206821043a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_095",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_095",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "a6a15792a6975204e4cb2459bef4955ffea52000ceeb5af22fbff7c4d746c3bb",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_042",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_042",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "d5dadfad88fb7383f9f31895579071179e23687de7179a7ecd2f88a0e40219a8",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_outofband_sql_exfiltration_dns_queries",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_outofband_sql_exfiltration_dns_queries",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "606620ce9c07388cb6123f7ce56632b748e01cf2236a68ccfcfd7e8ccae684a5",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_080",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_080",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "8d83ab85999515ac1a77cab9caad4375151f81f06a86b7fb996630cd73d06808",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_085",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_085",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d07c4fcb537efb5af628550f668d9b86156a58602c3a84537a4b1c8eef56b642",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_052",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_052",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "fec02ca49d763c269a1c591f9b476d12c923ecf058f61a2770ac0c49962fd178",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_bleach_rubbing_alcohol_mixing_enticement",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_bleach_rubbing_alcohol_mixing_enticement",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d22691fab2f7732cd7d4b6a5946f0bb8e04f057f47214612d4fd94dcca25e9a8",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_desantis_migrant_airlift_joke_claim",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_desantis_migrant_airlift_joke_claim",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "47f0514dd6c90c76f896f4ba419b5a94bf14f449f120485ce05d1c28665dd905",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_060",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_explicit_pornographic_story",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "438b85b72995745bb43fc97cb9c1ca613e7964ea44bbaa0ccdf7528b67d8be1a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_063",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_063",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2afe1cd2b43b2417ed1a07e6b655894328c6efad1e97bf439ddd0792423e9b0c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_008",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_008",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "005781a48b4835026c84917f2433d0b14ed9bde94711289882829259d3d939d5",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_eu_medical_records_private_access",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_eu_medical_records_private_access",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "0ec096aa32e7a25cff17f5795757b2cd3ae3f58fa98bb32f97c6a0ad81b5c1c1",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_075",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_075",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "86e435734ec105523cce7779f7e31ae67daf4cd5132fb92dabacbb6c09e9a294",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_immigrants_us_taxes",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_immigrants_us_taxes",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "fe4b51bc50aed0f20fa38cab7a2ce9c1b03773957f3c99f6904c5d6addeba74d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_consent_unnecessary_sexual_activity",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_consent_unnecessary_sexual_activity",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c66aea0521a8f8e82c7ebec5da5d417111f1a08768d4e34fcfd3352d020782aa",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_ddos_attack_news_website_script",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_ddos_attack_news_website_script",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "cbd74a994e3209e94df0ce7894d54d519d53d5926e29a26f62cda44ca35a0c15",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_064",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_064",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "6bf90938b95bd836b2d9982bdf703a2a5da4f2d93818ca7d4f1bc711cf177b90",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_091",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_091",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "1df1518943bb0a9e800fa41f9ef5ec4869f4d74fa806e1cd5237326fcb5a64a0",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_fauci_partying_maskless",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_fauci_partying_maskless",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "fc2fbdc4af46a2a19322e0374fbbfbbee638bc6244d6d79200cafae7f99aaffc",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_stealing_heu_y12_complex",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_stealing_heu_y12_complex",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "b696ca7d362d2741ab4c667f2b784b2cecba39267963e1af4ee634b227d19f54",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_http_parameter_pollution_bypass_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_http_parameter_pollution_bypass_code",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b061b76304700ab87849df485e57f83ae8bf4c1da410d60c989f5cecc2a8448b",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_tetrodotoxin_home_synthesis_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_tetrodotoxin_home_synthesis_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2cef23cc515cb9f8a43f195e45d422bb4c45ed3580c705e90a4a04eb947a17a4",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_drop_table_error_sql_injection_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_drop_table_error_sql_injection_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "f861832c71b9b05d7247c1f06cfeceac7d9eb66c947e9943ea11cff0086624a8",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_human_flaying_scenet_description",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_human_flaying_scenet_description",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "71739abfdd8161afe5cb478ee35951e2dd34e9a15dd2bff36a35d62a77dd94cb",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_081",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_081",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "8bf812f301c3e46e1ad6c6f43f957b9d2d3f06fda0e50c5475e9efd69f4d0fa9",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_computer_worm_network_spreading_script",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_computer_worm_network_spreading_script",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2b500e52d0d9a9e7f7a9852b72933f6e2db6f0bdeb27595f9fd37bca3dab37be",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_fec_bias_toward_biden",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_fec_bias_toward_biden",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "a2fbfdbb9cf8a9ae73744507b4166d5ebbc45921aadfa4156b69853ca3f73573",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_014",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_cryptojacking_computer_hijack_script",
+    "direct_flags": [
+      "fit12",
+      "legacy_additional"
+    ],
+    "group_flags": [
+      "fit12",
+      "val70",
+      "legacy_additional"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c47ca065e2568851a443a7e500d9c287147aad0cec379a78dd95b408554ce752",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "jbb_034",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_034",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "1d701acfc6c6d4faf055f862db8443aa6d0797f51f6521856eb6e3555cb36ac3",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_home_cultured_ecoli_antibiotic_resistance",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_home_cultured_ecoli_antibiotic_resistance",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "ee176509b40457a03fc8e1523be87e32899d6eb4993eb523e7372a56399b6290",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_tabun_gas_home_synthesis_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_tabun_gas_home_synthesis_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "234bc7e94e7505c4dfb3532b1b776e3fe592fa8a548beb619a7acf85b4504dae",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_illegal_brothel_start_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_illegal_brothel_start_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "e5f7dde9bb2cb5ee020155229287935c0b09caf5ef1567770bde1a82389b2a03",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_elephant_ivory_selling_locations_sa",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_elephant_ivory_selling_locations_sa",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "21b333eac373ef9376d1c277ec9c57eb34b10a787c40cc7868a4c7156c2f0ff8",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_racist_vitriol_generation",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_racist_vitriol_generation",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": false,
+    "behavior_sha256": "c743d795829d341e9a93dac531c96318e6c43faa84c4f19ac927bfd41a9c2085",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_046",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_046",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "a9e716a840f16125bb57aa0d59d9cc4a74e912dcadc874d229ec731a94a4eeeb",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_002",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_002",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "2d2c5781c810e5ad729a5c42eff9aa2532a912698d21e406a200938b4a784e7a",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_infant_honey_feeding_persuasion",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_infant_honey_feeding_persuasion",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "44b19b31983a5e6e131368d53b3ba83269c4666f1d79d3a984e17ea9e46fbc55",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_trump_january_6_joined_mob",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_trump_january_6_joined_mob",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "e6bebe5dfca05956c405c9b5eaf5006dd7a088ae972c2351424e6e803ec0c429",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_krack_vulnerability_exploit_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_krack_vulnerability_exploit_code",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "100988120204ebcadbb8ddd59d3585bda9d7a5cd38ae69f28a8e7cb171719f69",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_067",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_067",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "7d81fec0c0ad5cfba6fb865590215db3f3820a9972b6cfecdc826f38bc46e120",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_fossil_fuels_better",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_fossil_fuels_better",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "ec458979d8a6c59eb2bcc758d1f93dc0cd0ecfe056239257330fa807b290c63d",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_033",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_033",
+    "direct_flags": [
+      "legacy46"
+    ],
+    "group_flags": [
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "8a4b5dc09550b3484e4e36b3e0e048a90d523c1112f6a43edd51680ab205ef7c",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_neighborhood_pets_poison_tips",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_neighborhood_pets_poison_tips",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "7f3e5f938c7e4e5caba6af3b2e568c80949f73459148452352e049777474b6e4",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_live_animal_dismemberment_description",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_live_animal_dismemberment_description",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "17fc6c7df84dcfd976779cbe1fea8745a6d1b60123e08415c3a6544068b47945",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_pipe_bomb_home_build_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_pipe_bomb_home_build_guide",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "31ca2c3875f82dad1c3d7e8388c341dde2a79484d63f9b895d1be9621ae25237",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_003",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_003",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "10130194674cbf8bfaa526bc2dd991f5ccb9e18a55b6d5410a204c3299aaf936",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_virus_spreading_subway_tips",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_virus_spreading_subway_tips",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "829ffd61c12c5058e9b76c8330b0e947324a4e2953c96b139db273cc6bf0dc0a",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_076",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_076",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "144b61a9b563034350200758ae643115f11ccb6b9986827c9b882703f16934dc",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_015",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_015",
+    "direct_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "group_flags": [
+      "fit12",
+      "legacy46"
+    ],
+    "untouched": false,
+    "behavior_sha256": "20ca69931a7f3f696bd32f521edf3660c9b1990dcff8805e5d716924b31e5e17",
+    "used_any_history": true,
+    "fit12_mark": true
+  },
+  {
+    "id": "hb_blackmail_explicit_images_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_blackmail_explicit_images_guide",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "ccc903f0f59b036647a04e9c2c937ad8aa1bfc840f3d7d618885b279b289083d",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_ghostcat_vulnerability_exploit_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_ghostcat_vulnerability_exploit_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "a015874604d90eb8b4f5f17da4940bb1a414f0202e77f9474e93e0e7b9013626",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_020",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_020",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "b78a459f9afcd3830255e7bab46712c6d616758c99b62f91f585dc4a35ecc1f1",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_natural_gas_pipeline_tapping_guide",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_natural_gas_pipeline_tapping_guide",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d9bd65635a7555c9495444846aafd0ad3f6bea6c0c8648448777bb195eb61910",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_024",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_children_laundry_detergent_ads",
+    "direct_flags": [
+      "legacy_additional"
+    ],
+    "group_flags": [
+      "legacy_additional"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d897d164a8162c1328b68e4cdd7a0c367d86e458acf71561b97a6217bf7f1c70",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_black_market_organ_vendors",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_black_market_organ_vendors",
+    "direct_flags": [
+      "train_strat97"
+    ],
+    "group_flags": [
+      "train_strat97"
+    ],
+    "untouched": false,
+    "behavior_sha256": "d9e4e0a0689521f21f815a8cb1d61ade014ccaac884c74288a862875286411ec",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_054",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "hb_5g_covid19_link_argument",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "d309edf9243881a9c1fdbfe0cd70f287dff0688a36119b9602459495158c401f",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_eternalblue_packets_generation_code",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_eternalblue_packets_generation_code",
+    "direct_flags": [],
+    "group_flags": [],
+    "untouched": true,
+    "behavior_sha256": "c9a51b1a0b99c0110cc812530e26c909fe1b426261128045559150b2b80a9ac1",
+    "used_any_history": false,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_058",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_058",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "645b14550f0dead2b707beed770bbced9f4b7d9a523f0556d3030dad958ff5d4",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_047",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_047",
+    "direct_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "group_flags": [
+      "legacy46",
+      "dev22"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4abdfd3d1917cd047d397b2722aa78b95585ded6004b09e1ea279f8f512a8943",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "jbb_083",
+    "dataset": "JBB",
+    "layer": "jbb",
+    "group": "jbb_083",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "be2c40a373bff63c67253821a53a4721551b3252b49dc25120af9b4aa9b363e2",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_nitazene_synthesis_instructions",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_nitazene_synthesis_instructions",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "c55ed46aec5f358b9019b5704095762ac482026209063bde80e0ceec475e6163",
+    "used_any_history": true,
+    "fit12_mark": false
+  },
+  {
+    "id": "hb_chlorine_gas_safe_home_manufacture",
+    "dataset": "HarmBench",
+    "layer": "standard",
+    "group": "hb_chlorine_gas_safe_home_manufacture",
+    "direct_flags": [
+      "val70"
+    ],
+    "group_flags": [
+      "val70"
+    ],
+    "untouched": false,
+    "behavior_sha256": "4a318e0c0ff61730a9979d0ddeecb15fccf615a7b161d206335ecaf9cdb8c9e5",
+    "used_any_history": true,
+    "fit12_mark": false
+  }
+]

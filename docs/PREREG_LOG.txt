@@ -618,3 +618,5 @@
 - 2026-11-10T01:36:49.927504+00:00 docs293 clarifies unchanged original287 INVALID-ambiguous third-random trigger; no candidate effect read or new rule.
 
 - 2026-11-10T01:43:08.494259+00:00 New-model scope prospectively drops PAIR-500 by user recommendation (original287 DID include it); no new-model test effects read. Random61002 INVALID ambiguity now deterministic with all-row bounds, integer5pp boundary. Addendum13 SHA 0e5d9c4412544f78bfcd677af83f8878dd551d1fac820a398659b1afde5bd7f4. Qwen selection unchanged.
+
+- 2026-11-10T02:00:02.530424+00:00 Addendum14 before new-family outputs0: fixed global5templates[38, 82, 22, 72, 107],direct300/human1500/prefill300,300rows/288groups,marked147+87/unseen66. All4models fixed before Llama pilot, QwenWJB priority. SHA 05ddc4152d62654858f4be089eceafbcb788e2ddaee3e9c57ad53d029acbd3d1.

@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-10T02:00:02.530424+00:00",
+  "local_archive_has_git_metadata": false,
+  "files": {
+    "baselines/human_jailbreaks/jailbreaks.py": {
+      "local_sha256": "62e53558de1da3e67d1aec15c0dff59c848c0b374fd262ffad8f723fda0cd099",
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/baselines/human_jailbreaks/jailbreaks.py",
+      "fetch_exception": "ConnectionError"
+    },
+    "baselines/human_jailbreaks/human_jailbreaks.py": {
+      "local_sha256": "b9cff82e0dc11a4dc110b644d9af26052f5be8e9e00b51c3787d84eab0ec295d",
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/baselines/human_jailbreaks/human_jailbreaks.py",
+      "fetch_exception": "ConnectionError"
+    },
+    "configs/method_configs/HumanJailbreaks_config.yaml": {
+      "local_sha256": "adfb2a82d122e1d67f83f723e750313011272ab185de7a0c67659793a1f3d77f",
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/configs/method_configs/HumanJailbreaks_config.yaml",
+      "http_status": 200,
+      "remote_sha256": "adfb2a82d122e1d67f83f723e750313011272ab185de7a0c67659793a1f3d77f",
+      "matches_current_upstream": true
+    }
+  }
+}

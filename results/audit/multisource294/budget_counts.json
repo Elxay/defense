@@ -1,0 +1,7 @@
+{
+  "Llama_conditions": 10,
+  "Llama_generations": 21000,
+  "new_model_conditions_including_alpha0": 6,
+  "new_model_generations_each": 12600,
+  "generations_per_optional_direction": 2100
+}
