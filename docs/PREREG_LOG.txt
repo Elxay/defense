@@ -626,3 +626,5 @@
 - 2026-11-10T02:18:59.423025+00:00 #15 before prefix outputs0: P1primary finalprefill/P2diagnostic nativeboundary; continuation-onlyv2/v3, complete-native-replyWG/HB, render4SHA 8fc12f79991c5d394e588c2305ff84f61bbc942ab17ced555383e583d73a7e66; retention direct>P1>P2>human frozenorder, incomplete labeling. Nonprefix calibrations continue after unchanged20gate. DocSHA 0421b31dd239606dd1cc20689637ec3d768f915b2457eb9fc0d70f0ed27f91ac.
 
 - 2026-11-10T02:23:17.863957+00:00 #15 position gate execution pinned before technical prefix outputs: first20benignkeep60,120tokens,old_s3 buffer, P1helper/legacy20byte gate and P2position/count checks, node01GPU2; no attack labels. PlanSHA f8538307d62f78b1d49f8f5005477eb54506156b46e0539ced900737ad74ae69. Prefix calibration remains paused.
+
+- 2026-11-10T02:37:06.095848+00:00 Original reference gate20/20; benign position gateP1legacy20/20 andP2position20/20. Direct25/human25 timing collected without labels; attack prefixcalibration0 remains paused. SnapshotSHA ae8dee26eb12181b64e68560530e4424bde59918adde47f5809716a5a90c95f2.

@@ -1,0 +1,20 @@
+{
+  "pid": 3152200,
+  "host": "node01",
+  "physical_gpu": 1,
+  "plan_sha256": "1e01e89907138f8d585988a430047fe6ae2bed49e64d83f56b1a70257705659f",
+  "no_labels_read": true,
+  "utc": "2026-11-10T02:36:36.412519+00:00",
+  "by_family": {
+    "direct": {
+      "n": 25,
+      "total_seconds": 224.39735329779796,
+      "seconds_per_row": 8.975894131911918
+    },
+    "human5": {
+      "n": 25,
+      "total_seconds": 668.2428444747347,
+      "seconds_per_row": 26.72971377898939
+    }
+  }
+}

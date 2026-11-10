@@ -1,0 +1,94 @@
+{
+  "utc": "2026-11-10T02:37:04.308821+00:00",
+  "families": {
+    "direct": {
+      "n": 25,
+      "mean_seconds": 8.975894131911918,
+      "sample_SD": 16.38883458419413,
+      "total_seconds": 224.39735329779796
+    },
+    "human5": {
+      "n": 25,
+      "mean_seconds": 26.72971377898939,
+      "sample_SD": 38.540479192241996,
+      "total_seconds": 668.2428444747347
+    }
+  },
+  "templates": {
+    "38": {
+      "n": 5,
+      "mean_seconds": 43.515415489533915
+    },
+    "82": {
+      "n": 5,
+      "mean_seconds": 0.629427561443299
+    },
+    "22": {
+      "n": 5,
+      "mean_seconds": 28.59730312898755
+    },
+    "72": {
+      "n": 5,
+      "mean_seconds": 0.9900806134101003
+    },
+    "107": {
+      "n": 5,
+      "mean_seconds": 59.916342101572084
+    }
+  },
+  "prefix_attack_calibration_rows": 0,
+  "prefix_paused": true,
+  "qwen_selection": {
+    "complete_conditions": 8,
+    "planned_conditions": 21,
+    "completed_names": [
+      "s3_a0.1",
+      "s3_a0.25",
+      "s3_a0.5",
+      "s3_a0.75",
+      "s3_a1",
+      "s3_a1.25",
+      "s3_a1.5",
+      "s4_a0.1"
+    ],
+    "live": [
+      {
+        "utc": "2026-11-10T02:37:04.555145+00:00",
+        "pid": 3546015,
+        "physical_gpu": 2,
+        "shard": 0,
+        "phase": "generating",
+        "labels_read": false,
+        "condition": "s4_a0.25",
+        "new_rows": 1960,
+        "seconds_per_new_row": 2.853970881284224
+      },
+      {
+        "utc": "2026-11-10T02:36:58.240125+00:00",
+        "pid": 3546019,
+        "physical_gpu": 3,
+        "shard": 1,
+        "phase": "generating",
+        "labels_read": false,
+        "condition": "s4_a0.25",
+        "new_rows": 2083,
+        "seconds_per_new_row": 2.682236373966423
+      }
+    ],
+    "WG_queue": {
+      "utc": "2026-11-10T02:36:44.401979+00:00",
+      "pid": 3545994,
+      "phase": "scoring",
+      "condition_effects_read": false,
+      "condition": "s4_a0.1"
+    },
+    "candidate_labels_or_effects_read": false
+  },
+  "snapshot_UTC": "2026-11-10T02:37:06.095848+00:00",
+  "reference_gate20_sha256": "f9b1cb5722bdecb228809977882824371c8b7d3ab780c198c4ea932f00dfcd70",
+  "position_gate20_sha256": "052913cb746c87c649c448098722c5eddf7e38e6a189bc1ccdc3734daf6a6339",
+  "policy15_sha256": "3074a165e99cf1909e7e82b8360cc6a2c031e9a5e572663aecf73b42aa4414b5",
+  "doc15_sha256": "0421b31dd239606dd1cc20689637ec3d768f915b2457eb9fc0d70f0ed27f91ac",
+  "no_labels_read": true,
+  "limits": "timings are alpha0 only, direct25behavior rows; human25outputs from5behavior rows x5templates; not measured all-unit budget"
+}

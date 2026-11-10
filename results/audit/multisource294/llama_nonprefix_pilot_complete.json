@@ -1,0 +1,10 @@
+{
+  "pid": 3152200,
+  "host": "node01",
+  "physical_gpu": 1,
+  "plan_sha256": "1e01e89907138f8d585988a430047fe6ae2bed49e64d83f56b1a70257705659f",
+  "no_labels_read": true,
+  "utc": "2026-11-10T02:36:36.413377+00:00",
+  "n": 50,
+  "labels_or_effects_read": false
+}
