@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-10T10:03:16.649083+00:00",
+  "stage": "S0",
+  "S1_frozen": false,
+  "new_test_generation_allowed": false,
+  "master_candidate_sha256": "8fc217550102a98a95535e3421371dbfe5f22203a689a084baef66581684eaa0",
+  "protocol_commit": "8583f2763fc8840f4ac47d1ef9708b02c9365c97",
+  "acceptance_plan_sha256": "859ada8440c0c5c025272d14ca7e405b1dc1185f16b57815ccd8f49b9100eb9a",
+  "acceptance_generation": {
+    "llama": {
+      "utc": "2026-11-10T10:03:15.148331+00:00",
+      "pid": 7019,
+      "host": "kemove-X12DAI-N6",
+      "physical_gpu": 2,
+      "phase": "generating",
+      "test_effect_read": false,
+      "cap": 120,
+      "condition": "alpha0",
+      "path": "legacy_single",
+      "batch_size": 1,
+      "completed_rows": 29,
+      "total": 100,
+      "total_saved_files": 29,
+      "ps_utc": [
+        "PID                  STARTED     ELAPSED COMMAND",
+        "   7019 Tue Nov 10 10:01:33 2026       01:42 python"
+      ]
+    },
+    "qwen": {
+      "utc": "2026-11-10T10:03:14.829914+00:00",
+      "pid": 6938,
+      "host": "kemove-X12DAI-N6",
+      "physical_gpu": 0,
+      "phase": "generating",
+      "test_effect_read": false,
+      "cap": 120,
+      "condition": "alpha0",
+      "path": "legacy_single",
+      "batch_size": 1,
+      "completed_rows": 30,
+      "total": 100,
+      "total_saved_files": 30,
+      "ps_utc": [
+        "PID                  STARTED     ELAPSED COMMAND",
+        "   6938 Tue Nov 10 10:01:33 2026       01:42 python"
+      ]
+    }
+  },
+  "GPU_snapshot": {
+    "innet": [
+      "0, 15067 MiB, 9015 MiB, 69 %",
+      "1, 11441 MiB, 12640 MiB, 100 %",
+      "2, 15857 MiB, 8224 MiB, 68 %",
+      "3, 15 MiB, 24066 MiB, 0 %"
+    ],
+    "node01": [
+      "0, 643 MiB, 23436 MiB, 0 %",
+      "1, 29 MiB, 24053 MiB, 0 %",
+      "2, 29 MiB, 24053 MiB, 0 %"
+    ]
+  },
+  "human_result_sha256": "36d106561e8ba1f79b2e18a08fa9e9e6b005c02d57afeca35393b63fd4d92b94",
+  "projects": {
+    "innet_GPU0": "unified300 Qwen S0 acceptance, registered PID 6938",
+    "innet_GPU2": "unified300 Llama S0 acceptance, registered PID 7019",
+    "innet_GPU1": "external MTA; operator not inferred from Unix account; untouched",
+    "innet_GPU3": "idle at snapshot",
+    "node01_GPU0_1_2": "idle at snapshot after WG gate completion"
+  }
+}
