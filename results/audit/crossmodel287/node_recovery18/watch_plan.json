@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-10T04:21:55.761398+00:00",
+  "watcher_sha256": "b2a28e56ed2e10c05e1f6be683454442698de21decda9fe1d698bcff9d2d80ac",
+  "route_sha256": "a31a6eff373ee8f772a67c0417e8a904f17dd866d41154d69369b14001546e1b",
+  "original_failure_only": true,
+  "no_effects_read": true,
+  "adoption_and_return_SHA_verification_required": true,
+  "original_signatures_preserved": true,
+  "preempts_our_Gemma_WG_only": true,
+  "no_external_process_action": true,
+  "runtime_recovery_not_exercised_without_real_failure": true
+}
