@@ -1,0 +1,83 @@
+{
+  "utc": "2026-11-10T05:04:47.215931+00:00",
+  "resources": [
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "type": "datasets",
+      "sha": "b34822276edde97592eda99c0b56d306f8830469",
+      "gated": "auto",
+      "license": "other",
+      "files": [
+        ".gitattributes",
+        "LICENSE",
+        "README.md",
+        "assets/sorry-bench-taxonomy.jpg",
+        "meta_info.py",
+        "question.jsonl",
+        "question_ascii.jsonl",
+        "question_atbash.jsonl",
+        "question_authority_endorsement.jsonl",
+        "question_caesar.jsonl",
+        "question_evidence-based_persuasion.jsonl",
+        "question_expert_endorsement.jsonl",
+        "question_logical_appeal.jsonl",
+        "question_misrepresentation.jsonl",
+        "question_misspellings.jsonl",
+        "question_morse.jsonl",
+        "question_question.jsonl",
+        "question_role_play.jsonl",
+        "question_slang.jsonl",
+        "question_technical_terms.jsonl",
+        "question_translate-fr.jsonl",
+        "question_translate-ml.jsonl",
+        "question_translate-mr.jsonl",
+        "question_translate-ta.jsonl",
+        "question_translate-zh-cn.jsonl",
+        "question_uncommon_dialects.jsonl",
+        "sorry_bench_202406.csv"
+      ]
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-human-judgment-202406",
+      "type": "datasets",
+      "sha": "395ff7e7ea75f6d328845c3743d127a6477054a7",
+      "gated": "auto",
+      "license": "other",
+      "files": [
+        ".gitattributes",
+        "LICENSE",
+        "README.md",
+        "assets/meta-eval-demo-hf-original.jpg",
+        "human_rating.jsonl",
+        "test.jsonl",
+        "train.jsonl"
+      ]
+    },
+    {
+      "repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+      "type": "models",
+      "sha": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+      "gated": "auto",
+      "license": "mit",
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "assets/meta-eval-demo-hf.png",
+        "config.json",
+        "generation_config.json",
+        "model-00001-of-00006.safetensors",
+        "model-00002-of-00006.safetensors",
+        "model-00003-of-00006.safetensors",
+        "model-00004-of-00006.safetensors",
+        "model-00005-of-00006.safetensors",
+        "model-00006-of-00006.safetensors",
+        "model.safetensors.index.json",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer.model",
+        "tokenizer_config.json"
+      ]
+    }
+  ],
+  "token_value_logged": false
+}

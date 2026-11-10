@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-10T05:04:10.028964+00:00",
+  "stops": [
+    {
+      "pid": 3790001,
+      "signal": "SIGTERM",
+      "script": "qwen287_recovery_watch18.py",
+      "utc": "2026-11-10T05:04:03.324178+00:00"
+    },
+    {
+      "pid": 3545994,
+      "signal": "SIGTERM",
+      "script": "qwen287_selection_score_queue.py",
+      "utc": "2026-11-10T05:04:05.012999+00:00"
+    },
+    {
+      "pid": 3546015,
+      "already_exited": true
+    },
+    {
+      "pid": 3546019,
+      "signal": "SIGTERM",
+      "script": "qwen287_selection_generate.py",
+      "utc": "2026-11-10T05:04:05.013158+00:00"
+    }
+  ],
+  "generation_files_before": 9867,
+  "generation_files_after": 9867,
+  "all_prior_file_hashes_unchanged": true,
+  "before_manifest_sha256": "bf94912bb631d35d5fe4085b57b7c6d4158cc899129b799864b2471907b64775",
+  "after_manifest_sha256": "bf94912bb631d35d5fe4085b57b7c6d4158cc899129b799864b2471907b64775",
+  "node01": {
+    "utc": "2026-11-10T05:04:07.638716+00:00",
+    "stopped_old_grid_WG_pids": [
+      3171648
+    ],
+    "before_files": 9382,
+    "saved_files_unchanged": true,
+    "labels_or_effects_read": false,
+    "gpu_processes": ""
+  },
+  "labels_or_effects_read": false,
+  "status": "archived old calibration sensitivity; no new alpha admitted",
+  "innet_gpu_processes": "3098274, GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 6770 MiB\n"
+}

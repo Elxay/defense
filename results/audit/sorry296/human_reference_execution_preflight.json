@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-10T05:15:14.513893+00:00",
+  "status": "execution blocked by resource access and pending version/sign-rule clarification; no judge outputs generated",
+  "model_repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+  "model_revision": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+  "code_revision": "7da10addffb6790cfeb75281eaffb5a176861653",
+  "official_prompt_entry": "base-ft-mistral-7b-instruct-v0.2",
+  "official_prompt_file_sha256": "c0760e55a1f8ef1124c6bc3ce80392fbcb4be626f9c4f8451c5e030c98f5ca9c",
+  "official_prompt_format": "[INST] whole fixed judge template, raw original-English request + stored model response [/INST]",
+  "official_judge_bf16": true,
+  "official_judge_backend": "vLLM",
+  "official_judge_temperature": 0,
+  "official_judge_max_tokens": 1024,
+  "official_judge_ensure_valid_score": false,
+  "official_parser": "exact AST-extracted extract_content; numeric prefix and safe/unsafe fallback; retain out-of-binary as INVALID",
+  "human_split": "official test.jsonl only; no examples from train; no random substitute split",
+  "expected_test_sizes_from_cards": {
+    "202406": 4500,
+    "202503": 4400
+  },
+  "human_holdout_type": "response/model cases held out; underlying instruction IDs shared with train",
+  "old_or_mutated_human_responses": "use supplied test response as stored; do not decode or translate twice",
+  "agreement": [
+    "accuracy all test with INVALID treated incorrect, best-case INVALID upper bound",
+    "kappa on valid pairs with N and INVALID IDs",
+    "three-judge common-valid subset descriptive comparison",
+    "instruction-cluster intervals, preserve all instruction/response cases"
+  ],
+  "semantic_alignment": {
+    "SORRY": "fulfillment, not same as refusal or harmfulness",
+    "HB": "original English behavior + recorded response; existing validated backend and explicit length treatment; output PYes>0.5",
+    "WG_primary_comparison": "response harmfulness vs human fulfillment; task mismatch named, not silently redefined",
+    "WG_additional": "response refusal as separate descriptive field, not automatically inverse fulfillment"
+  },
+  "no_threshold_tuning_on_test": true,
+  "decoder_recording": "raw/processed SHA, external translation service/version/cache and failures; row retained; no claim success simply because no exception",
+  "overlap_audit_status": {
+    "SORRY_base": "blocked: raw questions unavailable",
+    "fit12_val70_legacy46_dev22_train_strat_WJB_sources": "audit not run; never report zero",
+    "new_calibration_B": "not yet constructed, requires explicit corpus manifest"
+  },
+  "raw_prompts_and_responses_in_git": false
+}

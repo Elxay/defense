@@ -1,0 +1,113 @@
+{
+  "utc": "2026-11-10T05:10:59.277286+00:00",
+  "source_sha256": "8e65362e0dceb2e32c583f474a17de4faf3d08ca8e308dca5ddcedea6b4232c7",
+  "only_harmless_fixtures": true,
+  "model_generation": false,
+  "checks": [
+    {
+      "method": "ascii",
+      "fixture": "lower",
+      "roundtrip_exact": true,
+      "roundtrip_casefold_equal": true,
+      "expected_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+      "decoded_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+      "n_input_chars": 11,
+      "n_decoded_chars": 11,
+      "normalized_whitespace_casefold_equal": true
+    },
+    {
+      "method": "ascii",
+      "fixture": "mixed",
+      "roundtrip_exact": true,
+      "roundtrip_casefold_equal": true,
+      "expected_sha256": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+      "decoded_sha256": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+      "n_input_chars": 11,
+      "n_decoded_chars": 11,
+      "normalized_whitespace_casefold_equal": true
+    },
+    {
+      "method": "caesar",
+      "fixture": "lower",
+      "roundtrip_exact": true,
+      "roundtrip_casefold_equal": true,
+      "expected_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+      "decoded_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+      "n_input_chars": 11,
+      "n_decoded_chars": 11,
+      "normalized_whitespace_casefold_equal": true
+    },
+    {
+      "method": "caesar",
+      "fixture": "mixed",
+      "roundtrip_exact": true,
+      "roundtrip_casefold_equal": true,
+      "expected_sha256": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+      "decoded_sha256": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+      "n_input_chars": 11,
+      "n_decoded_chars": 11,
+      "normalized_whitespace_casefold_equal": true
+    },
+    {
+      "method": "morse",
+      "fixture": "lower",
+      "roundtrip_exact": false,
+      "roundtrip_casefold_equal": false,
+      "expected_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+      "decoded_sha256": "f2206563bb71234af8920c9de522c2eda74b885d5133f2ce58e2305e04ac1122",
+      "n_input_chars": 11,
+      "n_decoded_chars": 13,
+      "normalized_whitespace_casefold_equal": true
+    },
+    {
+      "method": "morse",
+      "fixture": "mixed",
+      "roundtrip_exact": false,
+      "roundtrip_casefold_equal": false,
+      "expected_sha256": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+      "decoded_sha256": "f2206563bb71234af8920c9de522c2eda74b885d5133f2ce58e2305e04ac1122",
+      "n_input_chars": 11,
+      "n_decoded_chars": 13,
+      "normalized_whitespace_casefold_equal": true
+    },
+    {
+      "method": "atbash",
+      "fixture": "lower",
+      "roundtrip_exact": true,
+      "roundtrip_casefold_equal": true,
+      "expected_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+      "decoded_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+      "n_input_chars": 11,
+      "n_decoded_chars": 11,
+      "normalized_whitespace_casefold_equal": true
+    },
+    {
+      "method": "atbash",
+      "fixture": "mixed",
+      "roundtrip_exact": false,
+      "roundtrip_casefold_equal": false,
+      "expected_sha256": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+      "decoded_sha256": "ffca40ff002837c365311e8a710c60fead3075a6f6211d2ec7b2046bc5ef6bd9",
+      "n_input_chars": 11,
+      "n_decoded_chars": 11,
+      "normalized_whitespace_casefold_equal": false
+    }
+  ],
+  "checks_additional": [
+    {
+      "fixture": "morse_missing_final_separator",
+      "output_sha256": "2b07327c0568e42501842d685081cbb7afc82dce276fa01d2fbda5f50a380ee7",
+      "output_ascii": true,
+      "n_output_chars": 5,
+      "word_hello_preserved": false
+    },
+    {
+      "fixture": "atbash_mixed_plaintext_decode",
+      "output_sha256": "29846e7bb7d7fdbcd4916a83756bbd37b24aa13169018b6063345ca9ff0461fb",
+      "output_ascii": false,
+      "n_output_chars": 11,
+      "word_hello_preserved": false
+    }
+  ],
+  "recorded_UTC": "2026-11-10T05:11:24.486807+00:00"
+}

@@ -1,0 +1,208 @@
+{
+  "utc": "2026-11-10T05:15:14.513566+00:00",
+  "dataset_revision": "b34822276edde97592eda99c0b56d306f8830469",
+  "all_twenty_metadata_verified": true,
+  "selected_transform_count": 14,
+  "rows": [
+    {
+      "family": "writing_style",
+      "method": "question",
+      "filename": "question_question.jsonl",
+      "included_by_user_rule": false,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "writing_style",
+      "method": "slang",
+      "filename": "question_slang.jsonl",
+      "included_by_user_rule": false,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "writing_style",
+      "method": "uncommon_dialects",
+      "filename": "question_uncommon_dialects.jsonl",
+      "included_by_user_rule": false,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "writing_style",
+      "method": "technical_terms",
+      "filename": "question_technical_terms.jsonl",
+      "included_by_user_rule": false,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "writing_style",
+      "method": "role_play",
+      "filename": "question_role_play.jsonl",
+      "included_by_user_rule": false,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "writing_style",
+      "method": "misspellings",
+      "filename": "question_misspellings.jsonl",
+      "included_by_user_rule": false,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "persuasion",
+      "method": "logical_appeal",
+      "filename": "question_logical_appeal.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "persuasion",
+      "method": "authority_endorsement",
+      "filename": "question_authority_endorsement.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "persuasion",
+      "method": "misrepresentation",
+      "filename": "question_misrepresentation.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "persuasion",
+      "method": "evidence-based_persuasion",
+      "filename": "question_evidence-based_persuasion.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "persuasion",
+      "method": "expert_endorsement",
+      "filename": "question_expert_endorsement.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "encoding",
+      "method": "ascii",
+      "filename": "question_ascii.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "encoding",
+      "method": "caesar",
+      "filename": "question_caesar.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "encoding",
+      "method": "morse",
+      "filename": "question_morse.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "encoding",
+      "method": "atbash",
+      "filename": "question_atbash.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "language",
+      "method": "translate-ml",
+      "filename": "question_translate-ml.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "language",
+      "method": "translate-ta",
+      "filename": "question_translate-ta.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "language",
+      "method": "translate-mr",
+      "filename": "question_translate-mr.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "language",
+      "method": "translate-zh-cn",
+      "filename": "question_translate-zh-cn.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    },
+    {
+      "family": "language",
+      "method": "translate-fr",
+      "filename": "question_translate-fr.jsonl",
+      "included_by_user_rule": true,
+      "rows_reported_by_202406_card": 450,
+      "rows_locally_counted": null,
+      "file_sha256": null,
+      "status": "403; not downloaded; card count is not a local count"
+    }
+  ]
+}

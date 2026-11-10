@@ -1,0 +1,225 @@
+{
+  "utc": "2026-11-10T05:05:16.279406+00:00",
+  "files": [
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "LICENSE",
+      "http_status": 200,
+      "bytes": 3382,
+      "sha256": "667a3edd172ba0c2cb11ddb02b280b0653baaa0a003729e5d195fb022b9d1f80",
+      "saved_path": "/data/HZX/Def/results/audit/sorry296/downloads.private/sorry-bench-202406/LICENSE"
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "README.md",
+      "http_status": 200,
+      "bytes": 11799,
+      "sha256": "f4de17d4b46ec41b646a381ad04e92ff214ca26abde52b76af9bb12a07653b4d",
+      "saved_path": "/data/HZX/Def/results/audit/sorry296/downloads.private/sorry-bench-202406/README.md"
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "meta_info.py",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_ascii.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_atbash.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_authority_endorsement.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_caesar.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_evidence-based_persuasion.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_expert_endorsement.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_logical_appeal.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_misrepresentation.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_misspellings.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_morse.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_question.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_role_play.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_slang.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_technical_terms.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_translate-fr.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_translate-ml.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_translate-mr.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_translate-ta.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_translate-zh-cn.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "revision": "b34822276edde97592eda99c0b56d306f8830469",
+      "file": "question_uncommon_dialects.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-human-judgment-202406",
+      "revision": "395ff7e7ea75f6d328845c3743d127a6477054a7",
+      "file": "LICENSE",
+      "http_status": 200,
+      "bytes": 3487,
+      "sha256": "7f0e8e8832a30e948fad318e881507e2d5b111b57f1e5e5328d8e4d82753125b",
+      "saved_path": "/data/HZX/Def/results/audit/sorry296/downloads.private/sorry-bench-human-judgment-202406/LICENSE"
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-human-judgment-202406",
+      "revision": "395ff7e7ea75f6d328845c3743d127a6477054a7",
+      "file": "README.md",
+      "http_status": 200,
+      "bytes": 8627,
+      "sha256": "16db7547ff3ba79135373e749e9889d9c59bc843ab6091173d437d12a1c5403e",
+      "saved_path": "/data/HZX/Def/results/audit/sorry296/downloads.private/sorry-bench-human-judgment-202406/README.md"
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-human-judgment-202406",
+      "revision": "395ff7e7ea75f6d328845c3743d127a6477054a7",
+      "file": "human_rating.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-human-judgment-202406",
+      "revision": "395ff7e7ea75f6d328845c3743d127a6477054a7",
+      "file": "test.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/sorry-bench-human-judgment-202406",
+      "revision": "395ff7e7ea75f6d328845c3743d127a6477054a7",
+      "file": "train.jsonl",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+      "revision": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+      "file": "README.md",
+      "http_status": 200,
+      "bytes": 5365,
+      "sha256": "c7910aa76d7b1cae7dcd624e38a80e15a6f6237e19b9c49e5d141b315d1ace00",
+      "saved_path": "/data/HZX/Def/results/audit/sorry296/downloads.private/ft-mistral-7b-instruct-v0.2-sorry-bench-202406/README.md"
+    },
+    {
+      "repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+      "revision": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+      "file": "config.json",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+      "revision": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+      "file": "generation_config.json",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+      "revision": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+      "file": "model.safetensors.index.json",
+      "http_status": 403
+    },
+    {
+      "repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+      "revision": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+      "file": "tokenizer_config.json",
+      "http_status": 403
+    }
+  ],
+  "credentials_logged": false
+}

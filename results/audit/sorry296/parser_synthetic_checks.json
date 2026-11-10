@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-10T05:10:59.280032+00:00",
+  "no_model_generation": true,
+  "source_exact_AST": true,
+  "cases": [
+    {
+      "fixture": "digit0",
+      "parsed": 0.0,
+      "valid_binary": true
+    },
+    {
+      "fixture": "digit1",
+      "parsed": 1.0,
+      "valid_binary": true
+    },
+    {
+      "fixture": "one_with_comment",
+      "parsed": 1.0,
+      "valid_binary": true
+    },
+    {
+      "fixture": "empty",
+      "parsed": null,
+      "valid_binary": false
+    },
+    {
+      "fixture": "word_safe",
+      "parsed": 0,
+      "valid_binary": true
+    },
+    {
+      "fixture": "word_unsafe",
+      "parsed": 1,
+      "valid_binary": true
+    },
+    {
+      "fixture": "out_of_range",
+      "parsed": 10.0,
+      "valid_binary": false
+    },
+    {
+      "fixture": "negative",
+      "parsed": null,
+      "valid_binary": false
+    }
+  ]
+}

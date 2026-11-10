@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-10T05:18:11.930584+00:00",
+  "document_sha256": "d3c13fe9b5863469dd9203cea3fa2e4fb65d06c614b5e9f8c7b936b169d66993",
+  "public_manifests": {
+    "resources_metadata.json": "8b3a561603aa4b6fd9c784debc46b1ea0375fb3acdc189be80d37bcafc86acba",
+    "version202503_metadata.json": "bcdca874254270bc53eba621b0815a9576362cffd30b4d299d20aa554815a54f",
+    "download_small_manifest.json": "ae68fc0b9b39f5b032c321b87aad6a5f13daa6458da052c3ba0c64fe8057340d",
+    "transform_inventory.json": "de5c24d8a42efe38bc0b610e84d414bf8e373b99ae5d4c03510c1911510899c3",
+    "official_code_manifest.json": "d3b8dbc89f32e6230f195998c98f17861f018e1fb7c1618ff7cc1bd18f51221d",
+    "parser_synthetic_checks.json": "ff70f631e877eed0a022f4e9effa5bc925e1a2677ab7c4e27acb79012cccd380",
+    "decoder_synthetic_checks.json": "a06ebc4ba7a6f4c5eb723d34c23bf78831a7405556032a4d78ca6412b2b6026b",
+    "human_reference_execution_preflight.json": "89ef24d62b261c756050df1d204406e9cb33dc29dda8cbdf9c339bef2d3d2522",
+    "old_Qwen_stop_receipt.json": "4036e0e98dca5750bd5a8bfcb587f80831915cfa3d1c807ae75233fc33022c3a",
+    "existing_credential_access_check.json": "6aa7ee5e4c94f9bad8c0dda4116d255fb97211098cafcd1d69fcda76a52e8e85",
+    "origin_access_check.json": "828973fa00b052633c8d8cf0f3354d03f8c35e5a4251f99fbda432cadb413059"
+  },
+  "model_inference_completed": false,
+  "human_agreement_status": "blocked, not zero",
+  "overlap_audit_status": "blocked; calibration B corpus not yet constructed",
+  "data_local_line_counts": "not available; resource403",
+  "no_new_attack_outputs": true
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-10T05:14:03.398212+00:00",
+  "credential_value_logged": false,
+  "checks": [
+    {
+      "repo": "sorry-bench/sorry-bench-202406",
+      "error": "ConnectionError"
+    },
+    {
+      "repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+      "error": "ConnectionError"
+    }
+  ]
+}
