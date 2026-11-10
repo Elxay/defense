@@ -1,0 +1,26 @@
+{
+  "utc_frozen": "2026-11-10T15:02:15.423623+00:00",
+  "freeze_worker_sha256": "9c6dac7db87b2d9d4e4ae7adf6d96c90fb9f7558f137997fbe8e2a58feedfd45",
+  "scope_sha256": "54be82ae657ec7ab3086c3fbeb5b7d7cfd0317620666c7019c389a19254949fd",
+  "code_sha256": {
+    "tools/handoff_20261106/unified300_freeze_S1a.py": "9c6dac7db87b2d9d4e4ae7adf6d96c90fb9f7558f137997fbe8e2a58feedfd45",
+    "tools/handoff_20261106/unified300_calibration_generate.py": "e716306a4e2f7a996b6c7d395ee6bd34e6f50ee614480cf50ef702d96cb2781e",
+    "tools/handoff_20261106/unified300_calibration_wg.py": "c8e73402803b9e4e0847dd4e47e547f00a8c6e5ec829daf878291fa9eef90116",
+    "tools/handoff_20261106/unified300_calibration_bridge.py": "49ea545d7934594d1dfc6e53d26c02d70544145fc8de6d42232c89face24bb44",
+    "tools/handoff_20261106/utility300_injected_forward.py": "90bb17fc9f7e95afaca9b55392896da49f5e878ec9af408c860f8b2819c89313",
+    "tools/handoff_20261106/utility300_scoring.py": "06bc9c439cc8425a80bc8d1a9357d2ac89def612c82b79fc1cefe5ce7202ca46",
+    "tools/handoff_20261106/batched_injection300.py": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+    "tools/handoff_20261106/unified300_static_render.py": "1fc6ef1cf8e49337c670dee7fdec94b72b68544b774fef73ad0b18f8a59e6867",
+    "tools/handoff_20261106/hb300_reference.py": "e80a8c3fbe4f09bce5319a64b7054ee46bba1fc44db68d25d367afec4252bfce",
+    "tools/handoff_20261106/sorry300_reference_v4.py": "cdf32d5fa670a2106b92cd91951d65a5057f6b13e98b9a5b37eb15e7c979205e",
+    "tools/handoff_20261106/wg300_reference.py": "742f63fb01b609ae7743ab03d2a5f1f0fcb8b64b7548d4318ec0ab545fb34992",
+    "tools/handoff_20261106/launch300_calibration_llama.sh": "9b0a2af8f48ea857f9d230af757caa94acdb06f9cb1848d3db0204c3e7b9675c",
+    "tools/handoff_20261106/launch300_calibration_qwen.sh": "d8f3fb7a9273b5a8b6a1a2f9fb1557fee79229b5cc01eed04a7662c7ca5dcd92",
+    "tools/handoff_20261106/launch300_calibration_WG.sh": "3e55a6210132cacbd31865ef6e9cba33ac780ae25a731c43fbb28a273f3bfac3",
+    "src/gen/common.py": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+    "src/judge/refusal.py": "498dfd485d3dce6b05551784d698cc9716016f4a2614d06738261e96f5323948"
+  },
+  "B4_gate_action": "pass -> B4; fail -> original B1; no outcome based discretion",
+  "S1b_outputs_before_freeze": 0,
+  "new_calibration_outputs_before_S1a": 0
+}

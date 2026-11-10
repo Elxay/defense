@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-10T15:01:17.492544+00:00",
+  "official_test_sha256": "2ee0d444ffea60869f583a986bcf9f98b19502f72bbc3877ed94dfd1ac94b3dd",
+  "derived_input_sha256": "0e4b964e3cdd2b3126d8e0b23108e1e61c7db1bd380140996cf57f079a494d48",
+  "N": 4400,
+  "byte_identical_supplied_response_field": 4400,
+  "translation_style_rows": 626,
+  "disagreements": [],
+  "preprocessing_by_our_human_preparation": false,
+  "meaning": "Language audit is on byte-identical released choices[0].turns[0], not translations introduced by our reference preparation. No original-language/translated pairs supplied."
+}
