@@ -1,0 +1,195 @@
+{
+  "utc": "2026-11-10T04:25:32.657318+00:00",
+  "innet_gpus": "0, 16 MiB, 0 %\n1, 6793 MiB, 87 %\n2, 16689 MiB, 71 %\n3, 15861 MiB, 71 %\n",
+  "innet_processes": "3098274, GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 6770 MiB\n3546015, GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 16666 MiB\n3546019, GPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 15838 MiB\n",
+  "external_stage3_pids_present": {
+    "3699504": false,
+    "3699505": false
+  },
+  "labels_read": false,
+  "Qwen_complete_conditions": [
+    "s3_a0.1",
+    "s3_a0.25",
+    "s3_a0.5",
+    "s3_a0.75",
+    "s3_a1",
+    "s3_a1.25",
+    "s3_a1.5",
+    "s4_a0.1",
+    "s4_a0.25",
+    "s4_a0.5",
+    "s4_a0.75",
+    "s4_a1",
+    "s4_a1.25",
+    "s4_a1.5",
+    "s5_a0.1",
+    "s5_a0.25",
+    "s5_a0.5"
+  ],
+  "Qwen_live": {
+    "0": {
+      "utc": "2026-11-10T04:25:20.643581+00:00",
+      "pid": 3546015,
+      "physical_gpu": 2,
+      "shard": 0,
+      "phase": "generating",
+      "labels_read": false,
+      "condition": "s5_a0.75",
+      "new_rows": 4206,
+      "seconds_per_new_row": 2.874434465390094
+    },
+    "1": {
+      "utc": "2026-11-10T04:25:21.478591+00:00",
+      "pid": 3546019,
+      "physical_gpu": 3,
+      "shard": 1,
+      "phase": "generating",
+      "labels_read": false,
+      "condition": "s5_a0.75",
+      "new_rows": 4197,
+      "seconds_per_new_row": 2.8807092764905695
+    }
+  },
+  "Qwen_WG_queue": {
+    "utc": "2026-11-10T04:23:42.130253+00:00",
+    "pid": 3545994,
+    "phase": "scoring",
+    "condition_effects_read": false,
+    "condition": "s5_a0.5"
+  },
+  "recovery_watch": {
+    "utc": "2026-11-10T04:25:21.317004+00:00",
+    "pid": 3790001,
+    "phase": "original_running_no_migration",
+    "effects_read": false,
+    "heartbeat_age_seconds": 13.6
+  },
+  "last_condition_minutes": [
+    11.191298883333333,
+    10.393653616666667,
+    13.418637200000001,
+    12.400603816666667,
+    11.72463235
+  ],
+  "node01": {
+    "utc": "2026-11-10T04:25:33.369507+00:00",
+    "gpus": "0, 15054 MiB, 37 %\n1, 29 MiB, 0 %\n2, 29 MiB, 0 %\n",
+    "processes": "3167510, GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 14402 MiB\n",
+    "WG_reference20_result.json": {
+      "utc": "2026-11-10T04:12:15.635350+00:00",
+      "pid": 3165394,
+      "passed": true
+    },
+    "WG_complete.json": {
+      "utc": "2026-11-10T04:20:36.793399+00:00",
+      "n": 470,
+      "summary_read": false
+    },
+    "WG_live.json": {
+      "utc": "2026-11-10T04:20:36.793666+00:00",
+      "pid": 3165394,
+      "phase": "WG_complete_waiting_separate_review_read",
+      "physical_gpu": 2,
+      "no_summary_read": true,
+      "n": 470,
+      "total": 470
+    },
+    "llama_direct_alpha0_complete.json": {
+      "pid": 3160050,
+      "host": "node01",
+      "physical_gpu": 1,
+      "plan_sha256": "acc73e0fe8d20b0d722306b8f346f9e4ab4e8334b9b19e858b74aed428af16ea",
+      "no_labels_read": true,
+      "utc": "2026-11-10T04:07:26.797790+00:00",
+      "n": 300,
+      "labels_or_effects_read": false
+    },
+    "WG_latest_progress": [
+      "2026-11-10T04:22:07.809427+00:00",
+      "s5_a0.25_live.json",
+      {
+        "utc": "2026-11-10T04:22:07.809427+00:00",
+        "pid": 3165891,
+        "n": 470,
+        "total": 470,
+        "seconds_per_scored_row": 1.0750500970549801,
+        "gpu": 0
+      }
+    ]
+  },
+  "external_project": {
+    "project_cwd": "/data/PanTeng/Urban3D/Urb3DCD_lab",
+    "operator": "not verified",
+    "requested_epochs": 45,
+    "both_prior_stage3_PIDs_absent_at_snapshot": true,
+    "no_action_taken_on_external_jobs": true,
+    "remaining_time": "not estimable from available progress; now exited"
+  },
+  "budget_coefficients": {
+    "Llama": {
+      "initial_conditions": 5,
+      "initial_after_alpha0_coefficient": 4,
+      "seed_only_conditions": 8,
+      "seed_only_after_alpha0_coefficient": 7,
+      "both_extensions_conditions": 10,
+      "both_after_alpha0_coefficient": 9,
+      "initial_randoms": [
+        "rand0",
+        "rand1"
+      ]
+    },
+    "Qwen": {
+      "initial_conditions": 5,
+      "initial_after_alpha0_coefficient": 4,
+      "seed_only_conditions": 6,
+      "seed_only_after_alpha0_coefficient": 5,
+      "both_extensions_conditions": 7,
+      "both_after_alpha0_coefficient": 6,
+      "initial_randoms": [
+        61000,
+        61001
+      ]
+    },
+    "Gemma": {
+      "initial_conditions": 5,
+      "initial_after_alpha0_coefficient": 4,
+      "seed_only_conditions": 6,
+      "seed_only_after_alpha0_coefficient": 5,
+      "both_extensions_conditions": 7,
+      "both_after_alpha0_coefficient": 6,
+      "initial_randoms": [
+        61000,
+        61001
+      ]
+    },
+    "Mistral": {
+      "initial_conditions": 5,
+      "initial_after_alpha0_coefficient": 4,
+      "seed_only_conditions": 6,
+      "seed_only_after_alpha0_coefficient": 5,
+      "both_extensions_conditions": 7,
+      "both_after_alpha0_coefficient": 6,
+      "initial_randoms": [
+        61000,
+        61001
+      ]
+    }
+  },
+  "budget_is_not_trigger": true,
+  "template_gate": "EACH model EACH template: HB original-behavior >=75/300 active; never pooled over1500; INVALID bounds per17",
+  "direct_metadata_correction": {
+    "files_verified": 300,
+    "unique_ids": 300,
+    "seconds_per_row": 6.353048316773493,
+    "old_timing_n25_is_stale_literal": true,
+    "original_files_untouched": true,
+    "no_labels_read": true
+  },
+  "public_gate_hashes": {
+    "results/audit/crossmodel287/node_recovery18/alpha0_gate20.json": "22abc431b290eef4f8e379a573ec0cfc524390ac52ad24a8a5ab7fff2d48008d",
+    "results/audit/crossmodel287/node_recovery18/s3_a1_gate20.json": "e0697553ec3d4945926b2d143bd1a65078d0bfbea9ddd26c3d850539233fe607",
+    "results/audit/crossmodel287/node_recovery18/generation_gates_complete.json": "ee94b7f5a068c287bab4e2983760e8cffe614be5232658fe49d0417bc5c651e2",
+    "results/audit/crossmodel287/gemma_admission18/WG_reference20_result.json": "72c7a9d4a5e9df7da916ab4c0c531b52ce986b9013b15071378c8f71ab115ee8",
+    "results/audit/crossmodel287/gemma_admission18/WG_complete.json": "454f842857691bb3f91abecc4a86389d6cd0be48233d8a16f050e3d94239eb8b"
+  }
+}
