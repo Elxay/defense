@@ -1,0 +1,61 @@
+{
+  "utc": "2026-11-10T09:49:09.508489+00:00",
+  "source_sha256": {
+    "pair/language_models.py": "9df08699d2529ab3150590d7720cf57b44be3391f148978af3c01391b76e2fd7",
+    "pair/conversers.py": "b91e63ee7d1ba05ffb6bf6730fadbc55186bb84d040840231aad026c6116c812",
+    "tap/language_models.py": "afe8cc6ca0065803109c2fb982b86df0d5b73601af14cf9dea658f811691ceb5",
+    "tap/conversers.py": "bcc0f9824d38678fe1aca2e402b2724f11a1732f4827cb4bde00cab863122194"
+  },
+  "source_facts": {
+    "HF_default_batch_size": 32,
+    "HF_has_find_executable_batch_size_OOM_retry": true,
+    "HF_eos_includes_first_close_brace_token": true,
+    "target_get_response_passes_stop_tokens_close_brace": true,
+    "HF_zero_patch_gate_must_match_explicit_EOS_not_just_native_generation_config": true
+  },
+  "model_stop_token_ids": {
+    "llama": {
+      "source_HF_eos_ids": [
+        128009,
+        92
+      ],
+      "native_generation_config_eos": [
+        128001,
+        128008,
+        128009
+      ]
+    },
+    "qwen": {
+      "source_HF_eos_ids": [
+        151645,
+        92
+      ],
+      "native_generation_config_eos": [
+        151645,
+        151643
+      ]
+    },
+    "gemma": {
+      "source_HF_eos_ids": [
+        1,
+        235270
+      ],
+      "native_generation_config_eos": 1
+    },
+    "mistral": {
+      "source_HF_eos_ids": [
+        2,
+        1211
+      ],
+      "native_generation_config_eos": 2
+    }
+  },
+  "implementation_requirements": [
+    "Bind identical HF tokenizer/template/EOS/attention kwargs for patched and unpatched zero20 gate",
+    "Do not count generic common.py B1 zero20 as search-wrapper admission",
+    "Formal replay keeps native greedy2400 separate from source search150",
+    "Freeze role nonthinking/template and chosen resource batching before search; no unsupported service assumption"
+  ],
+  "actual_search_adapter_admitted": false,
+  "search_outputs": 0
+}

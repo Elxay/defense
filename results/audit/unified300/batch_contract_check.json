@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-10T09:55:06.165935+00:00",
+  "test_sha256": "4b8d83211484200120c306643795b5555d96f1ec91a8d6d7bd65b4cb7919de4f",
+  "core_sha256": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+  "passed": true,
+  "scope": "CPU contract only: unequal left padding, P1/P2 positions, one per-row injection, cached decoding not injected, multi-EOS accounting, zero delta; not 100x3 empirical label gate"
+}
