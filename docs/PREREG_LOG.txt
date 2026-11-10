@@ -632,3 +632,5 @@
 - 2026-11-10T03:15:05.275636+00:00 #16 explicitly after50alpha0pilot outputs/timing, before new-family labels/nonzero rows: initial2learned+2random+baseline; independent seed/random extensions, user-confirmed s3/s5 for all new models; verified pools3/4/5. TemplateHBalpha0<25 gate prospective. Prefix remains paused. DocSHA 104c785e3a3af2573a848273f71ef5e168530d10df538bdbe59de9f2a1a439fd.
 
 - 2026-11-10T03:37:40.950192+00:00 #17 before templategate label reads: primaryHB,all5low humanfamilyalpha0-only whiledirect/prefix scopecontinues; gate-table model-specific. ResourceBASEseedexpanded=8conditionsLlama/6new, actual#16predicatesunchanged. Directalpha0remaining275samepathqueued, prefixcalibrationstillpaused. DocSHA 27df2cafa386ff309de2c9a1d34ae5368d38f49d7ccf2720d7a9db1d69d6cc1c.
+
+- 2026-11-10T04:03:22.466891+00:00 #18 cross-node Qwen40bytepairs before recovery; same ASTbatch/single, no effect read. Gemma470WG/admission sampling prepared under frozen seeds and explicit fieldmask; Qwenrecoverypriority. EACHtemplate75/300; budgetnotextension. SHA 1bc8aa83224d7e15a5a19933a2c1a16a3522799e064fc29eacadfa60aa5e1c87.

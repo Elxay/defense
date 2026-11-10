@@ -1,0 +1,14 @@
+{
+  "written_UTC": "2026-11-10T04:03:22.466891+00:00",
+  "target": "/data/ray/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "worker_sha256": "b536ba0bda9987f0cbaddfbcb78be531213602c722836bf40298ef650446e451",
+  "source_grid_worker_sha256": "b350ad1c0a76510f8b70ecad1084fc838b72aed978a3d68cd291a35298eb932f",
+  "core_sha256": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+  "renderer_sha256": "762ebbc745f7aa7eba5ac0c787f45901b79affdba264c5b53e05f5cf1c60d2c4",
+  "inputs_sha256": "fa2b31bb3d89d70a81c1cda6af04e59e62bb6b95f421c45d59196bfc2385722f",
+  "vector_file": "results/audit/crossmodel287/qwen_vec_s3/v.npy",
+  "vector_sha256": "d30e4286fbd5a66d1b7c7a21428bbbc82cb70dc438588153488fd2c33181ae26",
+  "zero20_and_nonzero20": true,
+  "sampling": "same frozen16legal in two originalbatch8 groups plus first4val70, native120/2400 caps",
+  "tests_do_not_select_alpha_or_read_effects": true
+}
