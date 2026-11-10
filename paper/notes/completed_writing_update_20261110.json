@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-10T03:40:58.619579+00:00",
+  "scope": "completed Llama numerical results and observed backend error only; no new-family or new-model efficacy result introduced",
+  "files": {
+    "paper/data/unit_variation.csv": "0ad5efa6ab6666608a80cf32c882340154aee9bf67c427e21ffa7d19214e471e",
+    "paper/generated/unit_variation.tex": "017afabd728206d27de30d3f97c1999cad0efeca7df786db465ddb3877bf3125",
+    "paper/sections/04_results.tex": "f124aa4d83ac6985f1ac50083d8bca4deb446c8ba05af33eec2716e4f4854d64",
+    "paper/sections/appendix_pitfalls.tex": "c3dbf511a079f2cc9217902eddc00c7ddb14a613a4998fed4417bb8977edd910"
+  },
+  "audit_source_sha256": "fc7e0036c46fcade5555299afe6f943045c1b8208cb5753238b4491ed4c38c2a",
+  "backend_correction_source_sha256": "0d4b457c81d2452f680bc04bb9d7c02a32dc82213c24366718069c73f9cb2349",
+  "new_attack_outcomes_read": false
+}
