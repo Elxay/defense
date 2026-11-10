@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-10T11:33:32.767728+00:00",
+  "fixture": "benign French greeting only; no benchmark content sent",
+  "installed_googletrans_version": null,
+  "error_type": "ConnectTimeout",
+  "success": false,
+  "official_library_e2e_validated": false
+}

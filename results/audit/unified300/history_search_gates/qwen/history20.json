@@ -1,0 +1,130 @@
+{
+  "utc": "2026-11-10T11:55:34.714415+00:00",
+  "passed": true,
+  "N": 20,
+  "batch_size": 8,
+  "cap": 120,
+  "checks": [
+    {
+      "id": "ord:0",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:1",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:2",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:3",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:4",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:5",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:6",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:7",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:8",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:9",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:10",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:11",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:12",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:13",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:14",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:15",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:16",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:17",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:18",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    },
+    {
+      "id": "ord:19",
+      "byte_equal": true,
+      "injection_count": 1,
+      "rho_runtime": 0.0
+    }
+  ],
+  "meaning": "same historical membership/B8; no claim that newly selected B differs byte-identically"
+}

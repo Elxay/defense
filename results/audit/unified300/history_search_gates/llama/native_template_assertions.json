@@ -1,0 +1,126 @@
+{
+  "utc": "2026-11-10T11:54:43.065351+00:00",
+  "rows": [
+    {
+      "id": "wjb_train_000060788",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "8e0e7b3f8bbbf91a10f533f42a82f8d0dcd5e70e6178a569ab9478d3a2e117a0"
+    },
+    {
+      "id": "wjb_train_000073790",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "538693dd74bc919b3e8038d24f5e1aa62420af18379d85db39c3e500206a02d3"
+    },
+    {
+      "id": "wjb_train_000129542",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "8d00956a3ed63b5c73bf7d42521e2885e084d60341e478db5e30f92e0f36ca8a"
+    },
+    {
+      "id": "wjb_train_000059107",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "bacec96e64f657755b957a30b28cafe22c268d536a022d33c70be0eb2dfe398f"
+    },
+    {
+      "id": "wjb_train_000056697",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "1ff8710d5e9b0684db4d78dd0af8d6fef94bdabe7887ffdf7a7b0b8ecb13ed7b"
+    },
+    {
+      "id": "wjb_train_000083067",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "3818a76a061a1a283a4f8ce1721b480d69dad28f69de382419349e382730a6e7"
+    },
+    {
+      "id": "wjb_train_000109442",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "687e7ebc2d87222d7d1d7298db760bb5b763cbdfab85132626e5074d856c9ffd"
+    },
+    {
+      "id": "wjb_train_000094209",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "d04b9191797d4e4c533a339ffd910f50bb6b0728823a51d7b4f050bac4d9dcc2"
+    },
+    {
+      "id": "wjb_train_000102391",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "ee75df494919c51504e14bad5716aa092a62e8aa594b3d520c80475f40069095"
+    },
+    {
+      "id": "wjb_train_000069391",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "8eda8d9326df464b4df5cf50b80e13fc512803cb01dcd76354c81b1f61cd3c0d"
+    },
+    {
+      "id": "wjb_train_000130579",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "6c3d1f99d97a9325ee6a086f4fbbb11f3257b89cf4095524dce769ade8e94e48"
+    },
+    {
+      "id": "wjb_train_000092367",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "3807f6ec6764fe1f2b8252665d3924a69b6912e8b58017aed9331ff67bb82ff9"
+    },
+    {
+      "id": "wjb_train_000054003",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "891544ce67b0b577ff13add878376018d04cafc2295f6e4abc91977cada99202"
+    },
+    {
+      "id": "wjb_train_000116867",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "b65396fa3898a697b7035b18536c421c192ca2acb48d33a0c52752728522c549"
+    },
+    {
+      "id": "wjb_train_000129710",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "23137eeb2272cd4ba1cee1773209c5c1c577b0b8195758866188e48c8e39c2da"
+    },
+    {
+      "id": "wjb_train_000076390",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "eb7927069fe843eb358bf4e0ed9ea40fcc60878a546568adc718b224c9e0b1c2"
+    },
+    {
+      "id": "wjb_train_000203165",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "a42d80ef93b46a313e79ad5ef2739e464a420e5716ae9ccaa8e2cae7f8c8bc50"
+    },
+    {
+      "id": "wjb_train_000205757",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "1d99d88d5c50c1d167b4994a092410d25b8f0d1e318bd3f123ce29fc12a7fcae"
+    },
+    {
+      "id": "wjb_train_000232034",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "51112d7d3b5674545fa5344e7226725ab24402259c84ac95de1dcaf1f0f53c16"
+    },
+    {
+      "id": "wjb_train_000198821",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": true,
+      "input_ids_sha256": "a519d8bc851c338e415bf3df750f0ab0551beaa0e52cb06e32a3913902500322"
+    }
+  ],
+  "passed": true
+}

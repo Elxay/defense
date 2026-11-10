@@ -1,0 +1,78 @@
+{
+  "utc": "2026-11-10T12:26:06.402945+00:00",
+  "timing": {
+    "llama": {
+      "start_snapshot_utc": "2026-11-10T11:03:43.362557+00:00",
+      "generation_complete_utc": "2026-11-10T12:04:24.442008+00:00",
+      "new_rows_since_snapshot": 388,
+      "elapsed_seconds": 3641.079451,
+      "actual_mixed_B1_and_batch_rows_per_hour": 383.6224995355093,
+      "marker_sha256": "c2c9cc44e334418ebd933acdbab0e6085b41424e843545860b37540d5862a11d"
+    },
+    "qwen": {
+      "start_snapshot_utc": "2026-11-10T11:03:43.362557+00:00",
+      "generation_complete_utc": "2026-11-10T11:43:37.334088+00:00",
+      "new_rows_since_snapshot": 326,
+      "elapsed_seconds": 2393.971531,
+      "actual_mixed_B1_and_batch_rows_per_hour": 490.23139364976845,
+      "marker_sha256": "84b4dedcd19da1100add20681cc662ff39a31fd94b3310f10a5952bd98c69c6a"
+    }
+  },
+  "zero_gates": {
+    "llama": {
+      "history20": {
+        "utc": "2026-11-10T11:54:43.027400+00:00",
+        "N": 20,
+        "passed": true,
+        "sha256": "ef4ed9619b0603e982552bb7538177992909561e38e873009c5f373ee1760ba8"
+      },
+      "pair_zero20": {
+        "utc": "2026-11-10T11:54:55.781930+00:00",
+        "N": 20,
+        "passed": true,
+        "sha256": "fc6c3f6fc54fad8b249000452b4f1fb107f56a2a6bc3f4abbfaed0d373ae26f0"
+      },
+      "tap_zero20": {
+        "utc": "2026-11-10T11:55:08.571218+00:00",
+        "N": 20,
+        "passed": true,
+        "sha256": "81cfbe0a4ae79884fba024905bd09ad0f6b068b7bab98cfd91256b9200dfe954"
+      },
+      "autodan_zero20": {
+        "utc": "2026-11-10T12:10:06.080548+00:00",
+        "N": 20,
+        "passed": true,
+        "sha256": "3f0a89012318fb6191ad3e42f0ca3b39788a39ad777c50d75375cafbba2ed38f"
+      }
+    },
+    "qwen": {
+      "history20": {
+        "utc": "2026-11-10T11:55:34.714415+00:00",
+        "N": 20,
+        "passed": true,
+        "sha256": "663833b36fb0d1874978ab38518cbd6c40b766aae7bb9b95db68fb1d0e4d5515"
+      },
+      "pair_zero20": {
+        "utc": "2026-11-10T11:55:45.236010+00:00",
+        "N": 20,
+        "passed": true,
+        "sha256": "aaf682e933717c6abec6f5f4ddc8dc988710afe565d792ce652070380862abfc"
+      },
+      "tap_zero20": {
+        "utc": "2026-11-10T11:55:55.705228+00:00",
+        "N": 20,
+        "passed": true,
+        "sha256": "1039894ce0c5d237becab14c02c42e99852fc06a44a1e78296b6429e797efa5e"
+      },
+      "autodan_zero20": {
+        "utc": "2026-11-10T12:20:28.009855+00:00",
+        "N": 20,
+        "passed": true,
+        "sha256": "f439d7aa9fecdf8120befc9a5914bf85f33755043b7c2684e01655be9429c747"
+      }
+    }
+  },
+  "history_caveat": "Original history batch8 composition reproduced; not a byte-equivalence claim between new B16/B32 and old B8.",
+  "source_method_gate_caveat": "Paired target interface only; roleservice and8behavior fusion not admitted.",
+  "main_test_outputs": 0
+}

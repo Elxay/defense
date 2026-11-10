@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-10T12:09:29.508455+00:00",
+  "source_sha256": {
+    "decode.py": "86d02e7642f40a77fce80f9dbfab2f246790bfece21da99cda1730d75cd06a0c",
+    "encode_experts.py": "8e65362e0dceb2e32c583f474a17de4faf3d08ca8e308dca5ddcedea6b4232c7"
+  },
+  "source_revision": "7da10addffb6790cfeb75281eaffb5a176861653",
+  "official_algorithm_changed": false,
+  "benign_fixture_only": true,
+  "plain_and_roundtrip_checks": {
+    "ascii": {
+      "plain_bytes_preserved": false,
+      "official_roundtrip_bytes_equal": true,
+      "official_roundtrip_casefold_trim_equal": true,
+      "plain_decoded_has_nonwhitespace_control": false,
+      "roundtrip_has_C1_controls": false
+    },
+    "caesar": {
+      "plain_bytes_preserved": false,
+      "official_roundtrip_bytes_equal": true,
+      "official_roundtrip_casefold_trim_equal": true,
+      "plain_decoded_has_nonwhitespace_control": false,
+      "roundtrip_has_C1_controls": false
+    },
+    "morse": {
+      "plain_bytes_preserved": false,
+      "official_roundtrip_bytes_equal": false,
+      "official_roundtrip_casefold_trim_equal": true,
+      "plain_decoded_has_nonwhitespace_control": false,
+      "roundtrip_has_C1_controls": false
+    },
+    "atbash": {
+      "plain_bytes_preserved": false,
+      "official_roundtrip_bytes_equal": false,
+      "official_roundtrip_casefold_trim_equal": false,
+      "plain_decoded_has_nonwhitespace_control": false,
+      "roundtrip_has_C1_controls": true
+    }
+  },
+  "translation": "googletrans3.1.0a0, online Translator(), per reply dest=en, forced src from mutation suffix; no official local fallback/retry",
+  "published_human_raw_translated_pairs": false,
+  "local_translation_actual_degradation_measured": false,
+  "reason": "One supplied response per human record, no raw-language/original-response paired column. No synthetic roundtrip is substituted for actual translation validation."
+}

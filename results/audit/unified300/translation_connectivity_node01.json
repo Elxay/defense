@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-10T12:09:20.080877+00:00",
+  "node": "node01",
+  "fixture": "benign greeting only; no benchmark data sent",
+  "googletrans_version": null,
+  "error_type": "ConnectTimeout",
+  "official_library_e2e_validated": false
+}

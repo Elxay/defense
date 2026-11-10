@@ -1,0 +1,698 @@
+{
+  "utc": "2026-11-10T12:20:28.009855+00:00",
+  "N": 20,
+  "passed": true,
+  "pairs": [
+    {
+      "id": "wjb_train_000060788",
+      "byte_equal": true,
+      "reference_sha256": "13a707aae8089f1d902e3e3b19713c0834ebb8a50bfe04f0ec5e8ce0737f2bc7",
+      "patched_sha256": "13a707aae8089f1d902e3e3b19713c0834ebb8a50bfe04f0ec5e8ce0737f2bc7",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 25.987366745714098,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            222
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "ba542b10fbc28cca55ddfb95971609ebb150af4e49c95b1518484e64270be14a",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000073790",
+      "byte_equal": true,
+      "reference_sha256": "a8775a265d6854864f0fe5c9527eaa8a1c8de9bbddace8ec28f52fcfd832215b",
+      "patched_sha256": "a8775a265d6854864f0fe5c9527eaa8a1c8de9bbddace8ec28f52fcfd832215b",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 44.709085708949715,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            314
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "4e3b53c292efe6f6591a0bac82470825b4e5c6eae3a7745d4885763db1184a8d",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000129542",
+      "byte_equal": true,
+      "reference_sha256": "ef732b3285c18020b41a57e98b03335975b16c812c1633211d478057b79e15c4",
+      "patched_sha256": "ef732b3285c18020b41a57e98b03335975b16c812c1633211d478057b79e15c4",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 40.004632256925106,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            130
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "7ab902771703d1f2d69cb00571b9e7bb445a76507d7fc6ea0b2c2e1c8412ea9f",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000059107",
+      "byte_equal": true,
+      "reference_sha256": "a6003ad079e12f808f116861f64b23a41829cf66e36e1d0327a6466b70a637f8",
+      "patched_sha256": "a6003ad079e12f808f116861f64b23a41829cf66e36e1d0327a6466b70a637f8",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 22.36241127224639,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            165
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "2d2a26f285d57a5b36a7a7dffab5c238906fbbf63a2015dc04e47700e02cba66",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000056697",
+      "byte_equal": true,
+      "reference_sha256": "4c78b9d98977ed203a4ed49664c660b02c9264265a1045bd1ee29da24af9515b",
+      "patched_sha256": "4c78b9d98977ed203a4ed49664c660b02c9264265a1045bd1ee29da24af9515b",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 19.288923093117774,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            167
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "c4120876a58b9dcab82821fa1a973375c999d5419eb8806af83d0b637f41f382",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000083067",
+      "byte_equal": true,
+      "reference_sha256": "8d0f2d41e60c0194b8085bf24587fa4bb18e0934438df67c0aa6268b89555e82",
+      "patched_sha256": "8d0f2d41e60c0194b8085bf24587fa4bb18e0934438df67c0aa6268b89555e82",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 17.272973478771746,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            187
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "c34d25d381092e77ba2067525c789d893fe87471aeefc793f1197a345f86b9ef",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000109442",
+      "byte_equal": true,
+      "reference_sha256": "3ed91349417862df9edbe192a69e012546f3a89ab93eabb73f6df90f74e20e1d",
+      "patched_sha256": "3ed91349417862df9edbe192a69e012546f3a89ab93eabb73f6df90f74e20e1d",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 7.828932410571724,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            147
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "6480eefbcae47e27d71c3c9e2f6064f4c52c420e616fecacc45a585ce92366c2",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000094209",
+      "byte_equal": true,
+      "reference_sha256": "3be0ecc3a86b8d62323c8dac3c98154837126be534be0cf49246e6a2367ae07a",
+      "patched_sha256": "3be0ecc3a86b8d62323c8dac3c98154837126be534be0cf49246e6a2367ae07a",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 31.656054658349603,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            196
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "dbdc32b9047f9c37f0b2629274fe917f76c637a439637abd3618a45a2c76afe9",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000102391",
+      "byte_equal": true,
+      "reference_sha256": "d499c2a63db58dfb66193bef2460ff9eaa22b1f5e7b014cd11cb7cf97e5a1d46",
+      "patched_sha256": "d499c2a63db58dfb66193bef2460ff9eaa22b1f5e7b014cd11cb7cf97e5a1d46",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 4.097392726689577,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            146
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "2f227c97ec6f9ff62f741a898d6b94359afaa4998b6f3ccac4a1e6e4df7beb72",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000069391",
+      "byte_equal": true,
+      "reference_sha256": "35a8b54177f39256722c63782763c5957d6fb3219d403b496e551ef79558136d",
+      "patched_sha256": "35a8b54177f39256722c63782763c5957d6fb3219d403b496e551ef79558136d",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 14.699623446911573,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            216
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "2003aa6027dc3cfbd40c8ed57a4979941d927081184b0f70b71292649c303d82",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000130579",
+      "byte_equal": true,
+      "reference_sha256": "bf902d8209710028d32fd6d69a067fa00ff6a835d0ff5e0823d2708b11827bf7",
+      "patched_sha256": "bf902d8209710028d32fd6d69a067fa00ff6a835d0ff5e0823d2708b11827bf7",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 34.44201560411602,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            163
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "31ff4d6f3387313077008b5b2ff9a2efe41c6a5469dd59503d121fd3f954776e",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000092367",
+      "byte_equal": true,
+      "reference_sha256": "32852987eea186cedefb36caa5a4af860a4ccbc2bf66d6e1ae11fc8173e3f709",
+      "patched_sha256": "32852987eea186cedefb36caa5a4af860a4ccbc2bf66d6e1ae11fc8173e3f709",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 32.83134894492105,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            345
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "646ea4224cbdcef77ff5360638a736b9a1a8f0bb1e13feb4578cc94d0865c4dd",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000054003",
+      "byte_equal": true,
+      "reference_sha256": "e52dea6f685a617859322b31ed873c571f972df37add733b8f963b6ecdb7d0f5",
+      "patched_sha256": "e52dea6f685a617859322b31ed873c571f972df37add733b8f963b6ecdb7d0f5",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 54.99427538039163,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            170
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "3bf620488d7508c88392c15e7a9dc5be4a2f955787141d5f8ea5540bbfdf7e56",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000116867",
+      "byte_equal": true,
+      "reference_sha256": "9f222a9f7090c8fffe9e83d26dd5ed046c737f54e55ff96b612329787b052179",
+      "patched_sha256": "9f222a9f7090c8fffe9e83d26dd5ed046c737f54e55ff96b612329787b052179",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 16.739901700988412,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            222
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "0ffc3e83bc3321fe7f04e790a2ba4ed66aa61176eb1513c6bd6211d6cae9c6ab",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000129710",
+      "byte_equal": true,
+      "reference_sha256": "30c3731fb83541eed0e6ace5fa3f06c0b840821620088f60f2fded0f6c40454d",
+      "patched_sha256": "30c3731fb83541eed0e6ace5fa3f06c0b840821620088f60f2fded0f6c40454d",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 41.357798718847334,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            175
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "802c149c483142e89ed01458754ba403c35e786251dbb5ad9d21a70824bc841a",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000076390",
+      "byte_equal": true,
+      "reference_sha256": "e4bd9b8b72221a5dcb8fe49e0178c8b16913771848ab9bb9d7ca731cb5ced6b6",
+      "patched_sha256": "e4bd9b8b72221a5dcb8fe49e0178c8b16913771848ab9bb9d7ca731cb5ced6b6",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 50.251384214963764,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            181
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "1202c235612187714908861fa686f98a04bc04af387dae4e27ab0e42ad413b35",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000203165",
+      "byte_equal": true,
+      "reference_sha256": "b243a381dbdcdc2c024ec98eb10603ccf8c52324dfd958acc79456d8fe400ff8",
+      "patched_sha256": "b243a381dbdcdc2c024ec98eb10603ccf8c52324dfd958acc79456d8fe400ff8",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 28.628273891285062,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            99
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "4f3a5c88b802987887158f6cde14f1318e539a6f020de1c2c34fcebf1ebcfd2f",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000205757",
+      "byte_equal": true,
+      "reference_sha256": "01f2abca96e5b10dc16d3ab343e9ea3c7e5dad1363cf5185320b290a1ef33d2b",
+      "patched_sha256": "01f2abca96e5b10dc16d3ab343e9ea3c7e5dad1363cf5185320b290a1ef33d2b",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 49.049451218917966,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            145
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "041ca38e22a691bc175f3bb4735513b1d872bf11c61bcfb2f0eb71deece1473e",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000232034",
+      "byte_equal": true,
+      "reference_sha256": "3d60ba54d0a57d2724be4d1daab656c361ec1cba1a8f49260520098beb63ffbf",
+      "patched_sha256": "3d60ba54d0a57d2724be4d1daab656c361ec1cba1a8f49260520098beb63ffbf",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 43.162792282179,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            179
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "e007a6e6f6487de7120d5f10b4a561eba8dd9b9579d979591b4ed00d59abdfb8",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "wjb_train_000198821",
+      "byte_equal": true,
+      "reference_sha256": "7f374603b9942f283f20685a62c65e758850c0e32e4dac491029f903f99f4c9d",
+      "patched_sha256": "7f374603b9942f283f20685a62c65e758850c0e32e4dac491029f903f99f4c9d",
+      "native_BOS_interface_asserted": true,
+      "removed_already_rendered_BOS": false,
+      "elapsed_seconds_both_paths": 31.118145742919296,
+      "injection_metadata": [
+        {
+          "injection_count_per_row": [
+            1
+          ],
+          "positions": [
+            136
+          ],
+          "rho_runtime": [
+            0.0
+          ],
+          "batch_size": 1,
+          "host": "kemove-X12DAI-N6",
+          "vector_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+          "input_ids_sha256": "62d91378db24dac895ad3f3cc524e104d462f1e9b0cf535ecc72504e2c884f61",
+          "generation_kwargs": {
+            "max_length": 10000,
+            "pad_token_id": 151645,
+            "eos_token_id": 151645,
+            "do_sample": true,
+            "temperature": 0.6,
+            "top_p": 0.9
+          }
+        }
+      ]
+    }
+  ],
+  "same_RNG_state_for_each_pair": true,
+  "source_sampling_preserved": {
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_length_total": 10000
+  },
+  "native_model_interface": "same documented native-template/BOS adapter in unmodified-source reference and injected target",
+  "backend": "HF bf16 sdpa, no quantization",
+  "plan_sha256": "d1e8e7983ed482229f5d219a72eb5ab7ee80f706e05398715a8ee81065e69a32",
+  "role_service_and_eight_behavior_controller_admitted": false
+}

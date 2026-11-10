@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-10T11:55:08.572299+00:00",
+  "history_passed": true,
+  "pair_and_tap_zero20": true,
+  "AutoDAN_zero_gate": false,
+  "does_not_validate_eight_behavior_controller_or_role_service": true,
+  "plan_sha256": "05aeb6fcff7d0e18ffacc4ddf7fa4f37ddfc108ec6514d9b8c1adb4cb13ef801"
+}

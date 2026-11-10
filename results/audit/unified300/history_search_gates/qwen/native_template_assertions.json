@@ -1,0 +1,126 @@
+{
+  "utc": "2026-11-10T11:55:34.751268+00:00",
+  "rows": [
+    {
+      "id": "wjb_train_000060788",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "fe225bd60abb769b3d246dd8d4ac610e9171b81402a611df4fa7419eb6857b43"
+    },
+    {
+      "id": "wjb_train_000073790",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "e528e6152c088a3b67f7d4f7b859add698b45b186dc496fc3bf684fa3ce0090d"
+    },
+    {
+      "id": "wjb_train_000129542",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "b84d2eee2aa9b28d5c69b99ca4cbce6ccf32e4738386d7b6e4eab7ccb47ebd4f"
+    },
+    {
+      "id": "wjb_train_000059107",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "75f1fb5904864bee98756c5e56cd7b31a09aa8e178c1ad7fceac1dca825d7f16"
+    },
+    {
+      "id": "wjb_train_000056697",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "6d2952cc4bd145bdffbd9dd33ca9f37c6f4cc72e4e4ad7cbd821e651566123ad"
+    },
+    {
+      "id": "wjb_train_000083067",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "0bd9c15f89ab1d398670a3b19b294515ef0831dc835a654733f4407bd5e53778"
+    },
+    {
+      "id": "wjb_train_000109442",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "a9af81f0572c78bbd16ab63b3d9c1edd1994dd4475e7f14cb69781c3a10c475c"
+    },
+    {
+      "id": "wjb_train_000094209",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "e2f127da1be993291604094d9f5a81d4e34da550e7e9a6df9694dbecd713f519"
+    },
+    {
+      "id": "wjb_train_000102391",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "13ef85b8879d9f6d88e18f3b47c3f72f0ff2466bb8b508b2250da5c8c4fa2d84"
+    },
+    {
+      "id": "wjb_train_000069391",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "875e35970e5c2e849b8de9d3d57db25a4932842af8058a326d3e1a7a82c7fefc"
+    },
+    {
+      "id": "wjb_train_000130579",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "a26437f3bcd1b63739145a5560b17c1a87cee01cb649647c978077db2b12c7c9"
+    },
+    {
+      "id": "wjb_train_000092367",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "6ff175f6509355c168708809391c8900319e2ac76f4f8daa5b4e80cf3ba75fac"
+    },
+    {
+      "id": "wjb_train_000054003",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "e7f70ccfcdf8ccb3035b9b27aa6266ef61dab917fca7afc34931311f908a323f"
+    },
+    {
+      "id": "wjb_train_000116867",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "4b98296c38efd68e4942be197a567f1eb8ef41877447fe41eb10929d90d04d98"
+    },
+    {
+      "id": "wjb_train_000129710",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "a8f1221350067006ee7fad8ff7881d17ad6555f3485470d3397ce81ea866dc48"
+    },
+    {
+      "id": "wjb_train_000076390",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "7de231b966056f886f0d31a6cf58858780c97f365ffe8094da16166fff5f2ab2"
+    },
+    {
+      "id": "wjb_train_000203165",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "5e038c6891be0cda71f37f839facec64a349ac4cee0e306f344132a5bd6c3276"
+    },
+    {
+      "id": "wjb_train_000205757",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "413470ac8d30dc195b140913c35cfe17cf4a33a94e0f8750b5608d9642e9d9b7"
+    },
+    {
+      "id": "wjb_train_000232034",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "4eb695ec4a925fdfc94f89d2c2347adf8b9335751a9a9f9dbd6efbf75dc2addd"
+    },
+    {
+      "id": "wjb_train_000198821",
+      "source_tokenizer_equals_native": true,
+      "removed_already_rendered_BOS": false,
+      "input_ids_sha256": "ef493b510db2601de3fcb194a3312896032228aece2eb9d6b19c4946c4796f32"
+    }
+  ],
+  "passed": true
+}

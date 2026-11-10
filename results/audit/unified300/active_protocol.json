@@ -2,7 +2,7 @@
   "utc": "2026-11-10T11:35:21.659461+00:00",
   "stage": "S0",
   "master": "docs/300_UNIFIED_PROTOCOL.md",
-  "master_candidate_sha256": "eb5d7064a942541c4cefcaf3f9691ad7845657d20f65e9d9c6e7e6193bf2461b",
+  "master_candidate_sha256": "75962595cd51b8a449f18fe9d17896476ef29879c0459b6efbc40814b5b944fa",
   "S1_frozen": false,
   "new_test_generation_allowed": false,
   "allowed_work": [
@@ -13,9 +13,11 @@
   ],
   "no_result_based_scope_changes": true,
   "pending": [
-    "batch throughput and 100x3 label admission",
-    "search adapters and zero20 gates",
-    "executable utility admission"
+    "Qwen long-panel B8 admission after B32/B16 failures",
+    "native Qwen3 role service and eight-behavior call/isolation validation",
+    "AutoDAN local retrieval/library execution manifest",
+    "ARC injection-forward admission",
+    "executable translated/decoded raw-response processing admission"
   ],
   "SORRY_WG_primary_field": "1-minus-Response-refusal",
   "SORRY_WG_secondary_field": "Harmful-response",
@@ -23,5 +25,8 @@
   "Llama_long_batch_candidate": 8,
   "Llama_cap120_batch_candidate": 16,
   "SORRY_WG_report_name": "non-refusal rate",
-  "Q2_WG_nonrefusal_decomposition": false
+  "Q2_WG_nonrefusal_decomposition": false,
+  "updated_utc": "2026-11-10T12:40:29.283936+00:00",
+  "Qwen_long_batch_candidate": 8,
+  "long_batch_label_gate_passed": false
 }
