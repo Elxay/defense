@@ -1,0 +1,49 @@
+{
+  "utc_frozen": "2026-11-10T12:00:33.570355+00:00",
+  "worker_sha256": "632f625b7ec205ed86ec565ffcb5d159fdef4394f1fa709204f4db16b711f2f2",
+  "adapter_sha256": "881e415490893ddfa9bc8d196cbfed280468c2492fb9b5bc9ece5d0d002eda19",
+  "models": {
+    "llama": {
+      "path": "/data/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+      "layer": 9,
+      "asset_interface_sha256": {
+        "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+        "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424",
+        "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+        "model.safetensors.index.json": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+        "generation_config.json": "189fb0c0d7fd8a527db217c0a60a0e013f0394cd8800f9697a666a9e75e5f7fd"
+      },
+      "history_input_sha256": "264b683d8217e2c323289fada18a2878205015f188a59e816c659e308aba8b30"
+    },
+    "qwen": {
+      "path": "/data/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+      "layer": 8,
+      "asset_interface_sha256": {
+        "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "model.safetensors.index.json": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028",
+        "generation_config.json": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f"
+      },
+      "history_input_sha256": "0d53f03401b4ba60f132dedb68d4b39bf80a228f13f156cf1455770da169f5ae"
+    }
+  },
+  "input_sha256": "61472b8503a6054426669f01df620f7b49be07aa3fe6b1b52c0039bb8f9c8d14",
+  "source_sha256": {
+    "repos/AutoDAN-Turbo/llm/huggingface_models.py": "b88e2dbb4c1633317964d1f8161e31a74dc28ff718fb7b0628d8a5add3b012b5",
+    "repos/AutoDAN-Turbo/framework/target.py": "fab2ceec7056c5a946dc57e885d29b12ada0663e32f632f2950c92a6348f803a"
+  },
+  "seed": 20261266,
+  "gate_N": 20,
+  "default_source_call": {
+    "system": "source fixed helpful-assistant system",
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_length_total": 10000
+  },
+  "pairwise_equivalence": "CPU/CUDA RNG restored before zero-injected pair, exact byte match; source respond and generate method bodies unchanged",
+  "model_interface_adaptation": "Pinned local bf16 native chat instead of source constructor default dtype/custom template; strip already rendered BOS before source tokenizer only when native IDs assert requires it; same interface for both references",
+  "not_claimed": "complete original AutoDAN runtime or eight-behavior/role-service admission",
+  "main_test_outputs": 0
+}
