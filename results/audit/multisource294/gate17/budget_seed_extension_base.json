@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-10T03:37:40.950192+00:00",
+  "scenario_basis": "reserve seed-expansion workload as requested; a resource-planning assumption, not a prediction transferred from PAIR or permission to bypass #16 predicates",
+  "Llama_seed_expansion_conditions": 8,
+  "new_model_seed_expansion_conditions": 6,
+  "same_speed_reference_only": true,
+  "Llama_direct_single_condition_GPUh": 0.7479911776593265,
+  "Llama_direct_seed_scenario_GPUh": 5.983929421274612,
+  "Llama_templates_all5_alpha0_GPUh": 11.137380741245579,
+  "Llama_template_seed_scenario_formula": "all5alpha0_cost + 7*sum(active_template_costs)",
+  "Llama_template_seed_scenario_all5active_GPUh": 89.09904592996463,
+  "Llama_template_both_extensions_all5active_GPUh": 111.37380741245579,
+  "new_model_Llama_speed_reference_direct_GPUh": 4.487947065955959,
+  "new_model_Llama_speed_reference_templates_formula": "all5alpha0_cost + 5*sum(active_template_costs)",
+  "new_model_Llama_speed_reference_templates_all5active_GPUh": 66.82428444747347,
+  "new_model_Llama_speed_reference_both_all5active_GPUh": 77.96166518871905,
+  "prefix_generation_status": "still paused; no measured2400token attack-family throughput",
+  "user15s_placeholder_not_measurement": {
+    "Llama_P1_each8_conditions_GPUh": 10.0,
+    "Llama_P1_plus_P2_GPUh": 20.0,
+    "new_model_each_variant6_conditions_GPUh": 7.5,
+    "new_model_both_variants_GPUh": 15.0
+  },
+  "not_included": [
+    "judges",
+    "model loading",
+    "waiting/preemption",
+    "model/unit-dependent output lengths"
+  ],
+  "prior_measured_budget_sha256": "37a41317b9180ffd1c18f391f0dcadd98841290fdddc0f97e4a927c9be1fd358"
+}

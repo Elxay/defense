@@ -630,3 +630,5 @@
 - 2026-11-10T02:37:06.095848+00:00 Original reference gate20/20; benign position gateP1legacy20/20 andP2position20/20. Direct25/human25 timing collected without labels; attack prefixcalibration0 remains paused. SnapshotSHA ae8dee26eb12181b64e68560530e4424bde59918adde47f5809716a5a90c95f2.
 
 - 2026-11-10T03:15:05.275636+00:00 #16 explicitly after50alpha0pilot outputs/timing, before new-family labels/nonzero rows: initial2learned+2random+baseline; independent seed/random extensions, user-confirmed s3/s5 for all new models; verified pools3/4/5. TemplateHBalpha0<25 gate prospective. Prefix remains paused. DocSHA 104c785e3a3af2573a848273f71ef5e168530d10df538bdbe59de9f2a1a439fd.
+
+- 2026-11-10T03:37:40.950192+00:00 #17 before templategate label reads: primaryHB,all5low humanfamilyalpha0-only whiledirect/prefix scopecontinues; gate-table model-specific. ResourceBASEseedexpanded=8conditionsLlama/6new, actual#16predicatesunchanged. Directalpha0remaining275samepathqueued, prefixcalibrationstillpaused. DocSHA 27df2cafa386ff309de2c9a1d34ae5368d38f49d7ccf2720d7a9db1d69d6cc1c.

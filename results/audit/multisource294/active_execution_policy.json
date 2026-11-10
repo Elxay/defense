@@ -5,5 +5,11 @@
   "immutable_parent_plan_sha256": "7560f9489608100a9ae6bfbf2a5bde7cc103db2fa4e59a54810d1da99e7c8896",
   "require_before_new_main_generation": true,
   "prefix_calibration_paused": true,
-  "WJB_or_selection_jobs_modified": false
+  "WJB_or_selection_jobs_modified": false,
+  "template_gate_addendum17": "results/audit/multisource294/gate17/template_gate_read_policy.json",
+  "template_gate_sha256": "8c216e6b9d776ea97cac560bed5cfa5f3f5e9f4784fc2fe8771c6a48ad7aba58",
+  "budget_scenario17": "results/audit/multisource294/gate17/budget_seed_extension_base.json",
+  "budget_scenario_sha256": "fdc6629e7501d6da2fbeb3d2d1d4bc18ed445c02ea27b22151f11fb2420cd34d",
+  "direct_alpha0_plan": "results/audit/multisource294/plan_direct17.json",
+  "direct_alpha0_plan_sha256": "acc73e0fe8d20b0d722306b8f346f9e4ab4e8334b9b19e858b74aed428af16ea"
 }

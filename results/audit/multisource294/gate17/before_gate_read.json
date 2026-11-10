@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-10T03:37:40.934125+00:00",
+  "new_family_score_cache_files": 0,
+  "alpha0_generated_rows": 50,
+  "classifier_label_keys_in_pilot_records": 0,
+  "prefix_attack_calibration_rows": 0,
+  "prefix_calibration_paused": true,
+  "scope": "known new-family classifier cache roots and all existing pilot record schemas; legacy audit tables excluded"
+}
