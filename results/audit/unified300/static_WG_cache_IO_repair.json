@@ -1,0 +1,17 @@
+{
+  "utc_frozen": "2026-11-10T18:05:52.750566+00:00",
+  "reason": "S0 calibration IDs were strings; main base IDs are integers. File-name conversion failed before first main classification call.",
+  "failure_first_observed_utc": "2026-11-10T18:03:50.215684+00:00",
+  "last_successful_human_gate_utc": "2026-11-10T18:03:31.301869+00:00",
+  "exact_exception_utc_not_recorded": true,
+  "old_worker_pid": 3490694,
+  "worker_restart_count_this_main_WG_cache": 1,
+  "main_score_records_before_repair": 0,
+  "parent_execution_plan_sha256": "4af6c6891df5766a04e4c1da58c851936580db3d261c5039f68941721c8d5e17",
+  "worker_v1_sha256": "5948a8139ee32cb5e412d675fb58217aeffe46a887858fb073ccf29bdb9334d5",
+  "worker_v2_sha256": "cc1b9358d8b8be2d4027be9ba6baecb7e12e49a000b637b07218a0d913641368",
+  "repair_scope": "str(integer ID) for cache filenames, additional provenance/exception metadata; numerical classify/tokenization/template/model/batch unchanged",
+  "human_reference_gate1_sha256": "c55912f151e43e82450e2d373d8e84249b0ac975b5405a5f96b9c6d13ac48192",
+  "preserved_generation_manifest_sha256": "0cf5b26732def805ea88a7ed7dd07bdccb97993692e07bcd4afcd9a485d6a282",
+  "fresh_reference20_required": true
+}
