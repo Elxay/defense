@@ -1,0 +1,15 @@
+{
+  "utc_frozen": "2026-11-10T17:39:59.176076+00:00",
+  "worker_sha256": "d0d617039acfcb1ee08b5bd8372bcfdafc4aad5aec41a2af0e3aad30aab6cf4f",
+  "S1a_manifest_sha256": "44015228cfbf5065953f6e9c83f9d7f5c1622210da4f4dfec2cdb9088db32f42",
+  "S1a_doc_sha256": "a3a4cc602ef1d15176b632287616b6b97a439e6b0f6bde92d838153f17d143c1",
+  "global_cache_complete_sha256": "afd0bc858a4181b8ad1f292d7923ddf854424d7b5920f4488fb95d500787f434",
+  "steps": [
+    "status/hash all22 complete",
+    "alpha0 calibration refusal baseline",
+    "all21 grid, all3seed legal limits, exact error intervals",
+    "unchanged-rule common-alpha decision and freeze"
+  ],
+  "no_main_SORRY_label_access": true,
+  "criterion_not_changed": true
+}

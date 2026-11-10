@@ -1,0 +1,6 @@
+{
+  "utc_frozen": "2026-11-10T17:39:59.175400+00:00",
+  "worker_sha256": "18f92dfce1b18286189d06211bb062e6533ff1d191155f43714ab0c768a1b5c0",
+  "inputs_sha256": "74fbce0c10ab10c7c8071f57ac85e745c771957396e14f5bdd515c9f08aeea03",
+  "method": "same frozen two-sided exact McNemar, each condition N100, only discordants/IDs, no absolute rates"
+}
