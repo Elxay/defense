@@ -1,0 +1,9 @@
+{
+  "utc_frozen": "2026-11-10T12:39:38.375841+00:00",
+  "generation_plan_sha256": "8b4ace8ed0216e2500478ed412c4721e120cc53a553c70d58d3e439d95c5a0f4",
+  "queue_worker_sha256": "e82433040964219a4995d15200c2dc226bbe3820ba23e7f18c38db87eb471dc8",
+  "label_worker_sha256": "6315b8b96b9d279846a7e2ead20d1078ef1e07aca371c8ee0855980fa27aa998",
+  "threshold_unchanged": "<=2/100 for both WG worstcase and v2 in every condition",
+  "formal_admitted": false,
+  "only_Qwen_B8_against_same300_B1_references": true
+}
