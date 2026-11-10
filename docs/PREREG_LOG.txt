@@ -612,3 +612,5 @@
 - 2026-11-10T01:31:23.525882+00:00 Gemma HybridCache auto-compile correction: earlier no-compile evidence superseded; preserve400+14rows, restart distinct explicit disable_compile namespace. Addendum12 SHA 3616d4bf5e01fc1ade9b4caf6f8384bbcb3709b8a36309ce4c98b9e4d6e5caa9. No candidate outcome read.
 
 - 2026-11-10T01:32:57.110668+00:00 Gemma explicit-disable worker syntax failure before outputs; v2 syntax checked, no numerical rule changed. Updated addendum12 SHA 0d4b457c81d2452f680bc04bb9d7c02a32dc82213c24366718069c73f9cb2349.
+
+- 2026-11-10T01:35:17.913615+00:00 Mistral fixed20native layer9/10 audit complete, layer9 maxabsdiff0; Qwen235shard clarification and first-two-condition ETA, no outcome read. docs293 SHA 9928dc2ef61980e23718068ecd8d89722c4a348290344597e445a65ce7cc19b5.

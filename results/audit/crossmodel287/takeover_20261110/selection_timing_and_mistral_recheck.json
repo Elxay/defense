@@ -1,0 +1,182 @@
+{
+  "utc": "2026-11-10T01:35:17.913615+00:00",
+  "qwen_live": [
+    {
+      "utc": "2026-11-10T01:35:11.527204+00:00",
+      "pid": 3546015,
+      "physical_gpu": 2,
+      "shard": 0,
+      "phase": "generating",
+      "labels_read": false,
+      "condition": "s3_a0.5",
+      "new_rows": 687,
+      "seconds_per_new_row": 2.7376346231527693
+    },
+    {
+      "utc": "2026-11-10T01:35:15.124125+00:00",
+      "pid": 3546019,
+      "physical_gpu": 3,
+      "shard": 1,
+      "phase": "generating",
+      "labels_read": false,
+      "condition": "s3_a0.5",
+      "new_rows": 689,
+      "seconds_per_new_row": 2.734372085438844
+    }
+  ],
+  "seed3_alpha_forecast": [
+    {
+      "seed": 3,
+      "alpha": 0.1,
+      "actual_completed": true,
+      "end_UTC": "2026-11-10T01:16:00.467390+00:00",
+      "end_JST": "2026-11-10 10:16:00"
+    },
+    {
+      "seed": 3,
+      "alpha": 0.25,
+      "actual_completed": true,
+      "end_UTC": "2026-11-10T01:28:07.875940+00:00",
+      "end_JST": "2026-11-10 10:28:07"
+    },
+    {
+      "seed": 3,
+      "alpha": 0.5,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T01:40:16.243203+00:00",
+      "end_JST": "2026-11-10 10:40:16"
+    },
+    {
+      "seed": 3,
+      "alpha": 0.75,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T01:52:24.610465+00:00",
+      "end_JST": "2026-11-10 10:52:24"
+    },
+    {
+      "seed": 3,
+      "alpha": 1,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T02:04:32.977728+00:00",
+      "end_JST": "2026-11-10 11:04:32"
+    },
+    {
+      "seed": 3,
+      "alpha": 1.25,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T02:16:41.344990+00:00",
+      "end_JST": "2026-11-10 11:16:41"
+    },
+    {
+      "seed": 3,
+      "alpha": 1.5,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T02:28:49.712253+00:00",
+      "end_JST": "2026-11-10 11:28:49"
+    },
+    {
+      "seed": 4,
+      "alpha": 0.1,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T02:40:58.079515+00:00",
+      "end_JST": "2026-11-10 11:40:58"
+    },
+    {
+      "seed": 4,
+      "alpha": 0.25,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T02:53:06.446778+00:00",
+      "end_JST": "2026-11-10 11:53:06"
+    },
+    {
+      "seed": 4,
+      "alpha": 0.5,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T03:05:14.814040+00:00",
+      "end_JST": "2026-11-10 12:05:14"
+    },
+    {
+      "seed": 4,
+      "alpha": 0.75,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T03:17:23.181303+00:00",
+      "end_JST": "2026-11-10 12:17:23"
+    },
+    {
+      "seed": 4,
+      "alpha": 1,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T03:29:31.548565+00:00",
+      "end_JST": "2026-11-10 12:29:31"
+    },
+    {
+      "seed": 4,
+      "alpha": 1.25,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T03:41:39.915828+00:00",
+      "end_JST": "2026-11-10 12:41:39"
+    },
+    {
+      "seed": 4,
+      "alpha": 1.5,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T03:53:48.283090+00:00",
+      "end_JST": "2026-11-10 12:53:48"
+    },
+    {
+      "seed": 5,
+      "alpha": 0.1,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T04:05:56.650353+00:00",
+      "end_JST": "2026-11-10 13:05:56"
+    },
+    {
+      "seed": 5,
+      "alpha": 0.25,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T04:18:05.017615+00:00",
+      "end_JST": "2026-11-10 13:18:05"
+    },
+    {
+      "seed": 5,
+      "alpha": 0.5,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T04:30:13.384878+00:00",
+      "end_JST": "2026-11-10 13:30:13"
+    },
+    {
+      "seed": 5,
+      "alpha": 0.75,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T04:42:21.752140+00:00",
+      "end_JST": "2026-11-10 13:42:21"
+    },
+    {
+      "seed": 5,
+      "alpha": 1,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T04:54:30.119403+00:00",
+      "end_JST": "2026-11-10 13:54:30"
+    },
+    {
+      "seed": 5,
+      "alpha": 1.25,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T05:06:38.486665+00:00",
+      "end_JST": "2026-11-10 14:06:38"
+    },
+    {
+      "seed": 5,
+      "alpha": 1.5,
+      "actual_completed": false,
+      "end_UTC": "2026-11-10T05:18:46.853928+00:00",
+      "end_JST": "2026-11-10 14:18:46"
+    }
+  ],
+  "seconds_per_complete_condition_first_two": 728.3672625,
+  "no_candidate_labels_or_effects_read": true,
+  "gemma_explicit_uncompiled_live": {
+    "phase": "loading"
+  },
+  "mistral_recheck_sha256": "e440e730244a93574a0c6e33618b4ff6658de23c0d38779a9b489c053ae7fe81"
+}

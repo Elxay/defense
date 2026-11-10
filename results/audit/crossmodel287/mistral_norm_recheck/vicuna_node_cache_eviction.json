@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-10T01:28:39.651862+00:00",
+  "evicted_node_cache_files": {
+    "pytorch_model-00001-of-00003.bin": "e9b54ba4bf8f87c6129f1e35c63d1ed248971d827ee5559f1a3bb48b39e43187",
+    "pytorch_model-00002-of-00003.bin": "ade40ae3180cbe5553278edb8e61ff4f2059f62be12b06f253b373838c199221",
+    "pytorch_model-00003-of-00003.bin": "b4bd8cf2ab7e7bf22aaaf9b35ec5d41602d83f5a97bb82e17662ffe0a20ab215"
+  },
+  "retained_source": "innet source files independently hash-verified immediately before deletion",
+  "no_training_data_or_other_project_files_removed": true,
+  "first_attempt": "system Python lacked is_relative_to; failed before deleting; retry uses project Python3.10 with unchanged guard",
+  "free_before": 8847962112,
+  "free_after": 34879852544
+}

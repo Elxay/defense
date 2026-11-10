@@ -1,0 +1,15 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Reply with the word ready."
+    }
+  ],
+  "add_generation_prompt": true,
+  "rendered": "<s>[INST] You are a helpful assistant.\n\nReply with the word ready.[/INST]",
+  "tokenizer_config_sha256": "0533dec9cfe319163801b6618d0f3ec9cfa126b6288e3df5deca6e32acb09cd2"
+}
