@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-10T04:16:15.376357+00:00",
+  "shard_legal": 200,
+  "shard_val": 35,
+  "completed_marker_coverage_checked": [
+    "s3_a0.1",
+    "s3_a0.25",
+    "s3_a0.5",
+    "s3_a0.75",
+    "s3_a1",
+    "s3_a1.25",
+    "s3_a1.5",
+    "s4_a0.1",
+    "s4_a0.25",
+    "s4_a0.5",
+    "s4_a0.75",
+    "s4_a1",
+    "s4_a1.25",
+    "s4_a1.5",
+    "s5_a0.1",
+    "s5_a0.25"
+  ],
+  "no_generation_or_migration_started": true
+}

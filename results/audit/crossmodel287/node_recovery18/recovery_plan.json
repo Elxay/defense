@@ -1,0 +1,18 @@
+{
+  "written_UTC": "2026-11-10T04:16:15.306044+00:00",
+  "producer_pid": 3546019,
+  "producer_start_ticks": "238871392",
+  "original_plan_sha256": "9ce97eff7df2ca733a5ca862ff77ca8f32eac0d368c1b4293f5613704197f262",
+  "original_inputs_sha256": "1d647c4d14842a9f65708df2f38eb0bea51e56ef5ad24777480c71253d617d85",
+  "original_producer_device_uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+  "recovery_worker_sha256": "227a3c45bab34b0ac990075cb29b9a8564a703f7c4be926d4fb3b0370ce8d4aa",
+  "generation_gate_plan_sha256": "f6c4575656e53d63cd71a3e51c916d424aae1aaf0351f3a966f3322b6c1786da",
+  "target": "/data/ray/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "failure_only": true,
+  "no_early_migration_while_producer_alive": true,
+  "same_batch_single_AST": true,
+  "destination": "node01GPU2",
+  "adoption": "snapshotexistingSHARD1only after failure; preserve signatures/files; only missing new rows carryrouteSHA",
+  "merge": "missing-only atomic rsync then all235SHAs verified before innets conditionmarker",
+  "Gemma_yields_to_pending_recovery": true
+}
