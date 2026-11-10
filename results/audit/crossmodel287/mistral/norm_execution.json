@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-10T00:55:32.111060+00:00",
+  "worker_sha256": "322e62e7197b9308440415cb81ce7b953c747342af8da85a26a83fba7b5247af",
+  "protocol_sha256": "40a9de451691edb4f106ea2785c9d61bb46ad0973b26f9e79723e65e61ef569e",
+  "assets_sha256": "296d8064f10cf270c613e33facaf3fa38a633dd83c7c3c9391f138a84c557b7f",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.52.4",
+  "physical_gpu": 3,
+  "host": "kemove-X12DAI-N6",
+  "device_uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+  "hook": "native model.layers[9] OUTPUT; last prompt token; no padding",
+  "no_training": true
+}

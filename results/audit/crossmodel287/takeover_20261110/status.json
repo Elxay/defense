@@ -1,0 +1,70 @@
+{
+  "date_u": "2026-11-10T01:08:17Z",
+  "qwen_grid": {
+    "live_1.json": {
+      "utc": "2026-11-10T01:08:09.009008+00:00",
+      "pid": 3546019,
+      "physical_gpu": 3,
+      "shard": 1,
+      "phase": "generating",
+      "labels_read": false,
+      "condition": "s3_a0.1",
+      "new_rows": 209,
+      "seconds_per_new_row": 1.233814509306994
+    },
+    "WG_queue_live.json": {
+      "utc": "2026-11-10T01:08:07.603770+00:00",
+      "pid": 3545994,
+      "phase": "waiting_generation",
+      "condition_effects_read": false,
+      "condition": "s3_a0.1"
+    },
+    "live_0.json": {
+      "utc": "2026-11-10T01:07:57.950002+00:00",
+      "pid": 3546015,
+      "physical_gpu": 2,
+      "shard": 0,
+      "phase": "generating",
+      "labels_read": false,
+      "condition": "s3_a0.1",
+      "new_rows": 209,
+      "seconds_per_new_row": 1.182668764491757
+    },
+    "zero20_gpu3.json": {
+      "passed": true,
+      "sha256": "bbd52da120506fb5904ba651608fb9b6ada0038375fc494e8bddb917c1823a86"
+    },
+    "zero20_gpu2.json": {
+      "passed": true,
+      "sha256": "ef2c9eac90dc2a4981ec675169b6743b42fe0dc16c65573f2ea0a90c31b20c7f"
+    }
+  },
+  "Gemma_compile_phase": "complete",
+  "Mistral_norm_sha256": "d02a4df8a794a8ad1a14e106f844003680ca2a28915ba79c313d170c7f56b617",
+  "Gemma_new_eager_baseline": {
+    "gemma_eager_selection_live.json": {
+      "utc": "2026-11-10T01:07:53.709315+00:00",
+      "pid": 3549286,
+      "phase": "legal400_generation",
+      "physical_gpu": 0,
+      "host": "kemove-X12DAI-N6",
+      "training_started": false,
+      "completed": 96,
+      "total": 400
+    },
+    "gemma_eager_norm.json": {
+      "utc": "2026-11-10T01:04:54.661121+00:00",
+      "attention": "eager",
+      "block": 12,
+      "n": 60,
+      "median": 141.91222381591797,
+      "rho": 127.72100143432617
+    }
+  },
+  "GPU_innet": [
+    "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0, 3549286, 20434 MiB",
+    "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 3098274, 6770 MiB",
+    "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 3546015, 16664 MiB",
+    "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 3546019, 15838 MiB"
+  ]
+}

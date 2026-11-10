@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-10T01:08:17.486869+00:00",
+  "files": {
+    "docs/292_TAKEOVER_QWEN_GRADIENT_AND_MODEL_ASSETS.md": "43c7274dab60cadaa004fd98f67abbf6acf2730a0f4ca48f6943a30aaa835e86",
+    "docs/PREREG_LOG.txt": "b764461381027b9ea5c9662a420783a47858ee0bc1f08ee5ca4318347006fc8b",
+    "docs/OPS_LOG.txt": "7d0fa39883b81c3afe2c40d1b1f3a7aa3574d683a877df03e0ef1dff369e9fce",
+    "results/audit/crossmodel287/takeover_20261110/audit_summary.json": "220c3696cb29201f83d61bc3644085ce5258d7f38db2ea04970a6c1fabdeb0d4",
+    "results/audit/crossmodel287/takeover_20261110/qwen_diagnostic.json": "f890969a0908ae9b9d1d288e53ec4c7e766c1fe2075dc6fd4a2abb2ba5b7ee4a",
+    "results/audit/crossmodel287/takeover_20261110/gemma_compile_check.json": "f7ec4f372c034e47aa34dd31404484fcb26674e76db33bb120555862375f43ca",
+    "results/audit/crossmodel287/takeover_20261110/Qwen_training_audit.csv": "0aa1dd4cb8d03deb50d589ac481309a1e28ec3d9f64759974873a39caf1d23ad",
+    "results/audit/crossmodel287/takeover_20261110/status.json": "5b8d0102768827ed634c700e0aa14f4b08ff0a7fd44685e1d9c5d6643c769cb7",
+    "results/audit/crossmodel287/takeover_20261110/mistral_norm_launch_plan.json": "c856216dd7beffa59d71b9c00d4e8a9e7953441d167a45b902500d6565eca547",
+    "results/audit/crossmodel287/mistral/assets_verified_actual_path.json": "296d8064f10cf270c613e33facaf3fa38a633dd83c7c3c9391f138a84c557b7f",
+    "results/audit/crossmodel287/mistral/norm_execution.json": "557a0b36b9ab4a00bebe199e537713e60c8b7383c19743c61288567ea26bb2bb",
+    "results/audit/crossmodel287/mistral/norm_rows.json": "599ec6895487a7b88833087b79857eea81fe8cdc4938151f2e61f89fd196819e",
+    "results/audit/crossmodel287/mistral/norm_complete.json": "d02a4df8a794a8ad1a14e106f844003680ca2a28915ba79c313d170c7f56b617",
+    "results/audit/crossmodel287/gemma_eager_implementation.json": "e69ca189f1196ffe887698ee6320fac93e51eff7975b656aa6aebe8501521fe9",
+    "tools/handoff_20261106/mistral287_prepare_verified_path.py": "322e62e7197b9308440415cb81ce7b953c747342af8da85a26a83fba7b5247af",
+    "tools/handoff_20261106/gemma287_eager_baseline.py": "bc4a78aaf9268e478818c8b6d1fa2059ebb0504874ac17862de4bae1a624a7ff",
+    "results/audit/crossmodel287/gemma_eager_norm.json": "a46f508d5866b89acd13e2c103d9e3c52170fd45266d1e02130ba14f881d97cd"
+  },
+  "no_raw_output_or_weight": true
+}

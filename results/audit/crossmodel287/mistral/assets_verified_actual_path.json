@@ -1,0 +1,99 @@
+{
+  "utc": "2026-11-10T00:55:27.628652+00:00",
+  "model_path": "/data/models/Mistral-7B-Instruct-v0.3",
+  "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "all3_weights_verified": true,
+  "files": {
+    "model-00001-of-00003.safetensors": {
+      "sha256": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19",
+      "expected_sha256": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19",
+      "bytes": 4949453792
+    },
+    "model-00002-of-00003.safetensors": {
+      "sha256": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0",
+      "expected_sha256": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0",
+      "bytes": 4999819336
+    },
+    "model-00003-of-00003.safetensors": {
+      "sha256": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca",
+      "expected_sha256": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca",
+      "bytes": 4546807800
+    }
+  },
+  "template_sha256": "e16746b40344d6c5b5265988e0328a0bf7277be86f1c335156eae07e29c82826",
+  "U1_tokenization_checks": [
+    {
+      "id": "pair_jbbh_0000",
+      "target_tokens": 24,
+      "prompt_ids_sha256": "69cc88b0ed96a7247d8b31039fd4a7d90ccc154cdc4feefb8dd140fc65fcbe46",
+      "target_text_sha256": "0bdb84d2b0d6628f165baec1e2dea5be90d463b350979c88e70a486a6b8280ce"
+    },
+    {
+      "id": "pair_jbbh_0001",
+      "target_tokens": 8,
+      "prompt_ids_sha256": "5ca31eb573fc2201be7421596c389f9c18e0bb6844ee71764cb45aea587d3fb1",
+      "target_text_sha256": "c76f72e9c0a553cd9001d27e1076701df3c57a88b5285ff1bb71428199da95a7"
+    },
+    {
+      "id": "pair_jbbh_0002",
+      "target_tokens": 18,
+      "prompt_ids_sha256": "e98adc6991dae986f4b2b60ea9618f6204a57ece3c8ef4f3cf34e551eab380fc",
+      "target_text_sha256": "758648efd5c69d647c6c35900bdc6c7c1c1d6481150d454d9f2d8ce7cd435893"
+    },
+    {
+      "id": "pair_jbbh_0004",
+      "target_tokens": 13,
+      "prompt_ids_sha256": "daf39a084e1cc42a9ed682a8b9722dd875d23a17750330b148457ede077dfa53",
+      "target_text_sha256": "0b6bc0f6b408757e0f09bf86d4fa04baada7ce63f2d0196523aa693a812ce150"
+    },
+    {
+      "id": "pair_jbbh_0005",
+      "target_tokens": 233,
+      "prompt_ids_sha256": "146ac9bf50bbfa63cf627affdff34678e37418a19c1dbfd372e76f5a88f34af3",
+      "target_text_sha256": "f1990152a5d2742eeae2cd12aadfe065162718d397f6ed3c05d0fb34e266e64f"
+    },
+    {
+      "id": "pair_jbbh_0007",
+      "target_tokens": 22,
+      "prompt_ids_sha256": "4c42fdfdd0c515d1bd9fdbe22c1bedb90e896e22aab39e2852eb4b1a346c9a96",
+      "target_text_sha256": "d1ef2551fc16dd455905f7b70d22642e6d6ea98a5c56cebb40f421c70395a63f"
+    },
+    {
+      "id": "pair_jbbh_0008",
+      "target_tokens": 228,
+      "prompt_ids_sha256": "23968c0658d5e292f9b090f51071651b23286fbab77a759182ffb1a8e77410ee",
+      "target_text_sha256": "1b0e942f0ba69bb7dc79f7ca376a05364e5ac39461aff0fb0bddafba4a53845d"
+    },
+    {
+      "id": "pair_jbbh_0009",
+      "target_tokens": 9,
+      "prompt_ids_sha256": "152522142e721b564b8a64a10b4f3d4bb22b7081b907b2facc5df13ad6c4c74a",
+      "target_text_sha256": "5269fbbb3e4b719ee17fa535ff86c5f6168234e94b1763b20d616718986ce384"
+    },
+    {
+      "id": "pair_jbbh_0011",
+      "target_tokens": 9,
+      "prompt_ids_sha256": "0a68abb426f034b5d7133f09293f6719435031fad8e954b347dac87d4ff6f9ab",
+      "target_text_sha256": "5269fbbb3e4b719ee17fa535ff86c5f6168234e94b1763b20d616718986ce384"
+    },
+    {
+      "id": "pair_jbbh_0013",
+      "target_tokens": 248,
+      "prompt_ids_sha256": "79003db716603c0bc928a891130a92b538f6cb1e96484741e5a64e15a1402816",
+      "target_text_sha256": "d884620c32fddc4d44ad03e1d9d9e6a55470432f54690b09d1011141c47cff20"
+    },
+    {
+      "id": "pair_jbbh_0014",
+      "target_tokens": 26,
+      "prompt_ids_sha256": "da88c288ee14dbd0ac1011709eae6d16af8817f12d48a5bbc2049ea4bc3187cc",
+      "target_text_sha256": "3781c490d14ffb3cb9880129c9fb12143ca64debc97888873fbbfdd2e6d3a553"
+    },
+    {
+      "id": "pair_jbbh_0015",
+      "target_tokens": 9,
+      "prompt_ids_sha256": "f90aec4d5da1130c8dca0979ec18e8a389dc717137283acbfbd1e75f739683d1",
+      "target_text_sha256": "e52b7052ef4822bb535036118b89390925db5b784417a472ef3ea10481014278"
+    }
+  ],
+  "downloaded_extra_consolidated_not_used": true
+}

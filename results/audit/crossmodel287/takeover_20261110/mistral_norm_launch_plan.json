@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-10T00:55:27.668475+00:00",
+  "worker_sha256": "322e62e7197b9308440415cb81ce7b953c747342af8da85a26a83fba7b5247af",
+  "assets_sha256": "296d8064f10cf270c613e33facaf3fa38a633dd83c7c3c9391f138a84c557b7f",
+  "model_path": "/data/models/Mistral-7B-Instruct-v0.3",
+  "physical_gpu": 3,
+  "attention": "sdpa",
+  "stage": "norm60_only_before_training_no_test_outcomes",
+  "no_new_download": true
+}
