@@ -616,3 +616,5 @@
 - 2026-11-10T01:35:17.913615+00:00 Mistral fixed20native layer9/10 audit complete, layer9 maxabsdiff0; Qwen235shard clarification and first-two-condition ETA, no outcome read. docs293 SHA 9928dc2ef61980e23718068ecd8d89722c4a348290344597e445a65ce7cc19b5.
 
 - 2026-11-10T01:36:49.927504+00:00 docs293 clarifies unchanged original287 INVALID-ambiguous third-random trigger; no candidate effect read or new rule.
+
+- 2026-11-10T01:43:08.494259+00:00 New-model scope prospectively drops PAIR-500 by user recommendation (original287 DID include it); no new-model test effects read. Random61002 INVALID ambiguity now deterministic with all-row bounds, integer5pp boundary. Addendum13 SHA 0e5d9c4412544f78bfcd677af83f8878dd551d1fac820a398659b1afde5bd7f4. Qwen selection unchanged.

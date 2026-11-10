@@ -1,0 +1,45 @@
+{
+  "utc_frozen": "2026-11-10T01:43:08.494259+00:00",
+  "prior_effective_protocol_sha256": "9e218a5a64c1f2b8fa311547cd08eadd0af9937a354e20903adc0fadc91c2f07",
+  "active_models": [
+    "Qwen2.5-7B-Instruct",
+    "Gemma-2-9B-it",
+    "Mistral-7B-Instruct-v0.3"
+  ],
+  "test_sets": {
+    "WildJailbreak_evaluation_harmful": 2000,
+    "WildJailbreak_evaluation_benign": 210,
+    "XSTest_safe": 250,
+    "XSTest_unsafe": 200,
+    "OR_Bench_Hard": 1319
+  },
+  "PAIR500_for_new_models": false,
+  "Llama_PAIR500_completed_results_retained": true,
+  "selection_sets_unchanged": {
+    "val70": 70,
+    "legal_generation": 400,
+    "legal_budget_mask": 388
+  },
+  "random_seeds": [
+    61000,
+    61001
+  ],
+  "optional_random_seed": 61002,
+  "third_direction_trigger": {
+    "metric": "WildGuard response harmfulness",
+    "N": 2000,
+    "difference_of_reductions": "abs((p_baseline-p_random0)-(p_baseline-p_random1)) = abs(p_random1-p_random0); common baseline cancels",
+    "random_rate_bounds": "L_i=H_i/N; U_i=(H_i+I_i)/N; I_i counts invalid/missing response-harmfulness labels, never assumed harmless",
+    "gap_lower_pp": "100*max(0,L_1-U_0,L_0-U_1)",
+    "gap_upper_pp": "100*max(U_1-L_0,U_0-L_1)",
+    "definite_trigger": "gap_lower_pp>5",
+    "definite_no_trigger": "gap_upper_pp<=5",
+    "ambiguous_trigger": "gap_lower_pp<=5<gap_upper_pp; add61002 deterministically",
+    "reported_common_valid_mask": "original two direction point comparison still uses same valid-row mask; all2000 row uncertainty bounds govern ambiguity branch",
+    "reference_reporting": "report original2 and augmented3, never silently replace; third direction does not recursively trigger another",
+    "implementation_boundary_rule": "compare integer bounds against0.05*N (100 atN2000), not rounded percentages"
+  },
+  "no_new_model_test_labels_read": true,
+  "reason": "User recommends dropping Llama-optimized transferred PAIR from new-model budget; not a claim that the original protocol excluded it",
+  "boundary_checks_passed": 4
+}
