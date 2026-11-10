@@ -45,3 +45,5 @@ Node01 lacked disk space. Only three retired-project Vicuna .bin REPLICAS were r
 Qwen keep NLL stayed approximately constant, with seed5 slightly higher; this does not establish benign behavior retention. Attack NLL decreased24–33percent, was still declining near step40, and convergence was not demonstrated. Absolute tokenizer-specific NLL cannot be compared as equivalent thresholds across models. Loss components alone do not establish which term causally drives downstream defense behavior. Original40steps/lr/vectors remain frozen.
 
 Gemma eager attention was insufficient to prevent HybridCache automatic compile; the failed400+14row run remains historical. Addendum12 records the correction and explicit disable_compile execution, with a runtime guard. No earlier rows are relabeled as uncompiled.
+
+Clarification 2026-11-10T01:36:49.927504+00:00: original287 also specifies that an INVALID-dependent ambiguity in the >5pp trigger adds61002. Report both the original two-direction and augmented three-direction references when triggered; never replace the original two silently. The brief seed paragraph above did not enumerate this existing ambiguity branch.
