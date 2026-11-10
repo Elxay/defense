@@ -42,11 +42,21 @@ def main():
    z=x['by_cap'].get(cap,{}).get(route);values.append(f"{z['effective_rows_per_hour']:.1f} (n={z['n']})"if z else'pending')
   eta=x['generation_ETA'];v=eta.get('utc_same_speed_range');when='–'.join(jst(t)for t in v)if v else eta.get('status','pending')
   lines.append('| '+key+' | '+str(x['total_saved'])+'/1200 | '+' | '.join(values)+' | '+when+' |')
- lines += ['', 'ETA uses only observed acceptance long-output row rates; same-speed scenario, not upper bound/CI. Excludes labels, historical20 and search20. Different model batch sizes allowed; same-model/family conditions keep identical batching.','',
+ lines += ['', 'Llama B16 long panel self-stopped at10:49:28UTC:1686044672bytes headroom, below3GiB. Its780 original files remain unchanged;80 failed long B16 candidate records are excluded from replacement B8. New Llama logical count includes100 explicitly referenced original B1 rows; copied references are not new throughput. Long B8 regenerates all three candidate conditions. No OOM or forced termination.','',
+ 'ETA uses only observed acceptance long-output row rates; same-speed scenario, not upper bound/CI. Excludes labels, historical20 and search20. Different model batch sizes allowed; same-model/family conditions keep identical batching.','',
  '### Memory telemetry coverage','', 'Successful exact allocator peaks were not persisted by original acceptance worker; its per-batch3GiB margin check remains. No runtime source was edited. Monitor data below is sampled total-card use since its stated start, can include external CUDA contexts, not an exact whole-run or per-process peak.','']
  if 'sampled_memory'in perf:
   m=perf['sampled_memory'];lines += ['Monitor start='+m['started_utc']+'; every5seconds.','', '| Card | sampled peak MiB | sampled minimum free MiB |','|---|---:|---:|']
   for card,peak in m['sampled_peak_card_used_MiB'].items():lines.append(f"| innet GPU{card} | {peak} | {m['sampled_min_card_free_MiB'][card]} |")
+ for model,x in perf['models'].items():
+  if x.get('own_batch_telemetry'):
+   m=x['own_batch_telemetry'];lines += ['',f"{model} new-version per-batch allocator telemetry (not whole v1 run): reserved peak={m['peak_reserved_bytes']/1024**3:.3f}GiB, allocated peak={m['peak_allocated_bytes']/1024**3:.3f}GiB, minimum measured headroom={m['minimum_measured_headroom_bytes']/1024**3:.3f}GiB; batches={m['batches']}."]
+ gatepath=U/'acceptance_cap120_labels/result.json'
+ if gatepath.exists():
+  gate=load(gatepath);lines += ['', '## Completed120-token paired-label gate','', '| Model | Condition | v2 flips/100 | WG known/worst-case flips/100 | Passed |','|---|---|---:|---|---|']
+  for model,x in gate['models'].items():
+   for condition,s in x['conditions'].items():lines.append(f"| {model} | {condition} | {s['v2_flips']} | {s['WG_known_flips']}/{s['WG_worstcase_flips']} | {s['passed']} |")
+  lines += ['', 'Gate covers120 only; does not admit2400, historical batch20 or search patch20. Absolute condition refusal rates were not aggregated. Gate result SHA='+sha(gatepath)+'.']
  lines += ['', 'A transient additional GPU2 context PID54588/2496MiB was observed10:42UTC and exited before its ownership could be inspected. It was not touched and its project is unconfirmed. Card-use peaks cannot all be attributed to this experiment. Three requested admission gates remain unpassed.','',
  '## Provenance','', '- Human diagnostic SHA: '+sha(U/'human_refusal_diagnostics.json'),'- Performance SHA: '+sha(perfpath),'- Field amendment SHA: '+sha(R/'docs/300_ADDENDUM1_EXTERNAL_HUMAN_WG_FIELD.md'),'- Master candidate SHA: '+sha(R/'docs/300_UNIFIED_PROTOCOL.md'),'',
  'Sources: https://arxiv.org/html/2406.14598v2 ; https://github.com/SORRY-Bench/SORRY-Bench .']

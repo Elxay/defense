@@ -1,0 +1,379 @@
+{
+  "utc": "2026-11-10T10:44:28.000998+00:00",
+  "models": {
+    "llama": {
+      "pid": 7019,
+      "physical_gpu": 2,
+      "worker_start_utc": "2026-11-10T10:01:33.440000+00:00",
+      "current": {
+        "utc": "2026-11-10T10:44:25.397879+00:00",
+        "pid": 7019,
+        "host": "kemove-X12DAI-N6",
+        "physical_gpu": 2,
+        "phase": "generating",
+        "test_effect_read": false,
+        "cap": 2400,
+        "condition": "alpha0",
+        "path": "candidate_batch",
+        "batch_size": 16,
+        "completed_rows": 0,
+        "total": 100
+      },
+      "total_saved": 700,
+      "expected": 1200,
+      "phases": [
+        {
+          "cap": 120,
+          "condition": "alpha0",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 305.3601219654083,
+          "effective_rows_per_hour": 1178.9358665529396,
+          "recent20_rows_per_hour": 1235.5204803275335,
+          "first_saved_utc": "2026-11-10T10:01:46.556190+00:00",
+          "last_saved_utc": "2026-11-10T10:06:38.800122+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "alpha0",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 25.663196325302124,
+          "effective_rows_per_hour": 14027.870707791184,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:06:42.171263+00:00",
+          "last_saved_utc": "2026-11-10T10:07:04.463318+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "s3",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 256.6139039993286,
+          "effective_rows_per_hour": 1402.885792193637,
+          "recent20_rows_per_hour": 1643.0990296680222,
+          "first_saved_utc": "2026-11-10T10:07:07.866696+00:00",
+          "last_saved_utc": "2026-11-10T10:11:21.077222+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "s3",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 25.587045907974243,
+          "effective_rows_per_hour": 14069.619497880583,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:11:24.397642+00:00",
+          "last_saved_utc": "2026-11-10T10:11:46.664268+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "random",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 291.4636070728302,
+          "effective_rows_per_hour": 1235.1456280098946,
+          "recent20_rows_per_hour": 1233.2766547503513,
+          "first_saved_utc": "2026-11-10T10:11:47.015586+00:00",
+          "last_saved_utc": "2026-11-10T10:16:38.127875+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "random",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 25.648146152496338,
+          "effective_rows_per_hour": 14036.102175164857,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:16:41.468647+00:00",
+          "last_saved_utc": "2026-11-10T10:17:03.776021+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "alpha0",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 1641.621245622635,
+          "effective_rows_per_hour": 219.29540748813776,
+          "recent20_rows_per_hour": 181.3765415775257,
+          "first_saved_utc": "2026-11-10T10:17:04.154460+00:00",
+          "last_saved_utc": "2026-11-10T10:44:25.397267+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "alpha0",
+          "path": "candidate_batch",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "s3",
+          "path": "legacy_single",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "s3",
+          "path": "candidate_batch",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "random",
+          "path": "legacy_single",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "random",
+          "path": "candidate_batch",
+          "n": 0
+        }
+      ],
+      "by_cap": {
+        "120": {
+          "legacy_single": {
+            "n": 300,
+            "effective_rows_per_hour": 1265.4703263506776
+          },
+          "candidate_batch": {
+            "n": 300,
+            "effective_rows_per_hour": 14044.50759854696
+          }
+        },
+        "2400": {
+          "legacy_single": {
+            "n": 100,
+            "effective_rows_per_hour": 219.29540748813776
+          }
+        }
+      },
+      "generation_ETA": {
+        "scope": "generation only; excludes judge label gate, historical20 and search20; no guarantee or upper bound",
+        "status": "No completed/20-row 2400 batch phase yet; do not extrapolate from short-output tokens/s."
+      },
+      "complete": false
+    },
+    "qwen": {
+      "pid": 6938,
+      "physical_gpu": 0,
+      "worker_start_utc": "2026-11-10T10:01:33.250000+00:00",
+      "current": {
+        "utc": "2026-11-10T10:43:39.740178+00:00",
+        "pid": 6938,
+        "host": "kemove-X12DAI-N6",
+        "physical_gpu": 0,
+        "phase": "generating",
+        "test_effect_read": false,
+        "cap": 2400,
+        "condition": "alpha0",
+        "path": "candidate_batch",
+        "batch_size": 32,
+        "completed_rows": 64,
+        "total": 100
+      },
+      "total_saved": 764,
+      "expected": 1200,
+      "phases": [
+        {
+          "cap": 120,
+          "condition": "alpha0",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 314.3415186405182,
+          "effective_rows_per_hour": 1145.251195441659,
+          "recent20_rows_per_hour": 1169.2472533694652,
+          "first_saved_utc": "2026-11-10T10:01:46.983240+00:00",
+          "last_saved_utc": "2026-11-10T10:06:47.591519+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "alpha0",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 16.51589298248291,
+          "effective_rows_per_hour": 21797.186527051446,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:06:51.252177+00:00",
+          "last_saved_utc": "2026-11-10T10:07:04.107412+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "s3",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 300.6723299026489,
+          "effective_rows_per_hour": 1197.3166939457317,
+          "recent20_rows_per_hour": 1180.549940154278,
+          "first_saved_utc": "2026-11-10T10:07:05.089267+00:00",
+          "last_saved_utc": "2026-11-10T10:12:04.779742+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "s3",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 16.508634090423584,
+          "effective_rows_per_hour": 21806.77081024109,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:12:08.426679+00:00",
+          "last_saved_utc": "2026-11-10T10:12:21.288376+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "random",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 302.2192780971527,
+          "effective_rows_per_hour": 1191.188074654433,
+          "recent20_rows_per_hour": 1185.060704589348,
+          "first_saved_utc": "2026-11-10T10:12:22.277238+00:00",
+          "last_saved_utc": "2026-11-10T10:17:23.507654+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "random",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 16.43962812423706,
+          "effective_rows_per_hour": 21898.305562596604,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:17:27.146252+00:00",
+          "last_saved_utc": "2026-11-10T10:17:39.947282+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "alpha0",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 1473.245922088623,
+          "effective_rows_per_hour": 244.35838891692123,
+          "recent20_rows_per_hour": 214.88533932420324,
+          "first_saved_utc": "2026-11-10T10:17:40.924779+00:00",
+          "last_saved_utc": "2026-11-10T10:42:13.193204+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "alpha0",
+          "path": "candidate_batch",
+          "n": 64,
+          "elapsed_seconds": 86.54642939567566,
+          "effective_rows_per_hour": 2662.1548873686065,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:42:51.050814+00:00",
+          "last_saved_utc": "2026-11-10T10:43:39.739633+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "s3",
+          "path": "legacy_single",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "s3",
+          "path": "candidate_batch",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "random",
+          "path": "legacy_single",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "random",
+          "path": "candidate_batch",
+          "n": 0
+        }
+      ],
+      "by_cap": {
+        "120": {
+          "legacy_single": {
+            "n": 300,
+            "effective_rows_per_hour": 1177.4542028980893
+          },
+          "candidate_batch": {
+            "n": 300,
+            "effective_rows_per_hour": 21833.992629522712
+          }
+        },
+        "2400": {
+          "legacy_single": {
+            "n": 100,
+            "effective_rows_per_hour": 244.35838891692123
+          },
+          "candidate_batch": {
+            "n": 64,
+            "effective_rows_per_hour": 2662.1548873686065
+          }
+        }
+      },
+      "generation_ETA": {
+        "scope": "generation only; excludes judge label gate, historical20 and search20; no guarantee or upper bound",
+        "utc_same_speed_range": [
+          "2026-11-10T11:38:53.632801+00:00",
+          "2026-11-10T11:45:37.765072+00:00"
+        ],
+        "rates_source": "Actual 2400 acceptance phase cumulative rates; also recent20 for singles. Future conditions assumed within this observed range; batch length variation may invalidate it.",
+        "remaining_by_path": {
+          "legacy_single": 200,
+          "candidate_batch": 236
+        }
+      },
+      "complete": false
+    }
+  },
+  "method": "Rows from atomic file counts; phase wall time between consecutive checkpoint completions, first phase includes cold load. Batch write bursts are not mistaken for per-row timing. No response or label read.",
+  "sampled_memory": {
+    "utc": "2026-11-10T10:44:26.299735+00:00",
+    "pid": 43542,
+    "started_utc": "2026-11-10T10:33:12.459856+00:00",
+    "samples": 134,
+    "interval_seconds": 5,
+    "sampled_peak_card_used_MiB": {
+      "0": 18215,
+      "2": 18821
+    },
+    "sampled_min_card_free_MiB": {
+      "0": 5867,
+      "2": 5261
+    },
+    "coverage": "Sampling starts at stated UTC; not full-run allocator peak. No retrospective peak is invented.",
+    "no_response_or_label_reads": true,
+    "latest": {
+      "utc": "2026-11-10T10:44:26.299485+00:00",
+      "states": {
+        "llama": {
+          "pid": 7019,
+          "phase": "generating",
+          "cap": 2400,
+          "condition": "alpha0",
+          "path": "candidate_batch",
+          "saved_files": 700,
+          "alive": true
+        },
+        "qwen": {
+          "pid": 6938,
+          "phase": "generating",
+          "cap": 2400,
+          "condition": "alpha0",
+          "path": "candidate_batch",
+          "saved_files": 764,
+          "alive": true
+        }
+      },
+      "cards": {
+        "0": {
+          "used_MiB": 18215,
+          "free_MiB": 5867
+        },
+        "2": {
+          "used_MiB": 16053,
+          "free_MiB": 8028
+        }
+      }
+    }
+  }
+}

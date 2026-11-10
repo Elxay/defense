@@ -1,0 +1,68 @@
+{
+  "utc": "2026-11-10T10:55:44.609796+00:00",
+  "cap": 120,
+  "plan_sha256": "aff8b790da137285be594da0bf326a2da93e746e8aa88e38f74e7f26c7b2e6b0",
+  "models": {
+    "llama": {
+      "conditions": {
+        "alpha0": {
+          "N": 100,
+          "v2_flips": 0,
+          "WG_known_flips": 0,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 0,
+          "passed": true
+        },
+        "s3": {
+          "N": 100,
+          "v2_flips": 1,
+          "WG_known_flips": 1,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 1,
+          "passed": true
+        },
+        "random": {
+          "N": 100,
+          "v2_flips": 1,
+          "WG_known_flips": 1,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 1,
+          "passed": true
+        }
+      },
+      "cap120_passed": true
+    },
+    "qwen": {
+      "conditions": {
+        "alpha0": {
+          "N": 100,
+          "v2_flips": 0,
+          "WG_known_flips": 0,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 0,
+          "passed": true
+        },
+        "s3": {
+          "N": 100,
+          "v2_flips": 0,
+          "WG_known_flips": 0,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 0,
+          "passed": true
+        },
+        "random": {
+          "N": 100,
+          "v2_flips": 0,
+          "WG_known_flips": 2,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 2,
+          "passed": true
+        }
+      },
+      "cap120_passed": true
+    }
+  },
+  "no_absolute_condition_rates": true,
+  "formal_generation_admitted": false,
+  "other_gates": "2400 panel, historical-batch20 and search-patch20 still required"
+}

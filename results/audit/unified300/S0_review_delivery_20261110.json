@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-10T11:05:01.884686+00:00",
+  "old_files": 780,
+  "all_hashes_unchanged": true,
+  "before_manifest_sha256": "d0fa3196893adb27ffb24f7b2cc274da8814fb332afb50b69d29d38a485cca0b",
+  "after_B8_dispatch": true,
+  "performance_sha256": "20c0fd699b82530d1073261a11477fa690bcde526e23ba0f06cc7140174cb098",
+  "report_sha256": "9d423bf6130ead68d260b6efa94edc6801a86fa5531fd32728cff11b892be146",
+  "cap120_label_result_sha256": "d8c9122a39448b4ca6e6a190f329f2601699bb8aadf589d2377559ad2f8f5ae4",
+  "formal_test_admitted": false
+}

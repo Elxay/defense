@@ -1,0 +1,231 @@
+{
+  "utc": "2026-11-10T11:03:43.350632+00:00",
+  "models": {
+    "qwen": {
+      "pid": 6938,
+      "physical_gpu": 0,
+      "worker_start_utc": "2026-11-10T10:01:33.250000+00:00",
+      "current": {
+        "utc": "2026-11-10T11:03:43.210328+00:00",
+        "pid": 6938,
+        "host": "kemove-X12DAI-N6",
+        "physical_gpu": 0,
+        "phase": "generating",
+        "test_effect_read": false,
+        "cap": 2400,
+        "condition": "s3",
+        "path": "legacy_single",
+        "batch_size": 1,
+        "completed_rows": 74,
+        "total": 100
+      },
+      "total_saved": 874,
+      "expected": 1200,
+      "phases": [
+        {
+          "cap": 120,
+          "condition": "alpha0",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 314.3415186405182,
+          "effective_rows_per_hour": 1145.251195441659,
+          "recent20_rows_per_hour": 1169.2472533694652,
+          "first_saved_utc": "2026-11-10T10:01:46.983240+00:00",
+          "last_saved_utc": "2026-11-10T10:06:47.591519+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "alpha0",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 16.51589298248291,
+          "effective_rows_per_hour": 21797.186527051446,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:06:51.252177+00:00",
+          "last_saved_utc": "2026-11-10T10:07:04.107412+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "s3",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 300.6723299026489,
+          "effective_rows_per_hour": 1197.3166939457317,
+          "recent20_rows_per_hour": 1180.549940154278,
+          "first_saved_utc": "2026-11-10T10:07:05.089267+00:00",
+          "last_saved_utc": "2026-11-10T10:12:04.779742+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "s3",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 16.508634090423584,
+          "effective_rows_per_hour": 21806.77081024109,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:12:08.426679+00:00",
+          "last_saved_utc": "2026-11-10T10:12:21.288376+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "random",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 302.2192780971527,
+          "effective_rows_per_hour": 1191.188074654433,
+          "recent20_rows_per_hour": 1185.060704589348,
+          "first_saved_utc": "2026-11-10T10:12:22.277238+00:00",
+          "last_saved_utc": "2026-11-10T10:17:23.507654+00:00"
+        },
+        {
+          "cap": 120,
+          "condition": "random",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 16.43962812423706,
+          "effective_rows_per_hour": 21898.305562596604,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:17:27.146252+00:00",
+          "last_saved_utc": "2026-11-10T10:17:39.947282+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "alpha0",
+          "path": "legacy_single",
+          "n": 100,
+          "elapsed_seconds": 1473.245922088623,
+          "effective_rows_per_hour": 244.35838891692123,
+          "recent20_rows_per_hour": 214.88533932420324,
+          "first_saved_utc": "2026-11-10T10:17:40.924779+00:00",
+          "last_saved_utc": "2026-11-10T10:42:13.193204+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "alpha0",
+          "path": "candidate_batch",
+          "n": 100,
+          "elapsed_seconds": 205.31080722808838,
+          "effective_rows_per_hour": 1753.439114386516,
+          "recent20_rows_per_hour": null,
+          "first_saved_utc": "2026-11-10T10:42:51.050814+00:00",
+          "last_saved_utc": "2026-11-10T10:45:38.504011+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "s3",
+          "path": "legacy_single",
+          "n": 74,
+          "elapsed_seconds": 1084.705706357956,
+          "effective_rows_per_hour": 245.59656913253784,
+          "recent20_rows_per_hour": 205.0164884634795,
+          "first_saved_utc": "2026-11-10T10:45:39.481791+00:00",
+          "last_saved_utc": "2026-11-10T11:03:43.209718+00:00"
+        },
+        {
+          "cap": 2400,
+          "condition": "s3",
+          "path": "candidate_batch",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "random",
+          "path": "legacy_single",
+          "n": 0
+        },
+        {
+          "cap": 2400,
+          "condition": "random",
+          "path": "candidate_batch",
+          "n": 0
+        }
+      ],
+      "by_cap": {
+        "120": {
+          "legacy_single": {
+            "n": 300,
+            "effective_rows_per_hour": 1177.4542028980893
+          },
+          "candidate_batch": {
+            "n": 300,
+            "effective_rows_per_hour": 21833.992629522712
+          }
+        },
+        "2400": {
+          "legacy_single": {
+            "n": 174,
+            "effective_rows_per_hour": 244.88344229574312
+          },
+          "candidate_batch": {
+            "n": 100,
+            "effective_rows_per_hour": 1753.439114386516
+          }
+        }
+      },
+      "generation_ETA": {
+        "scope": "generation only; excludes judge label gate, historical20 and search20; no guarantee or upper bound",
+        "utc_same_speed_range": [
+          "2026-11-10T11:41:20.903584+00:00",
+          "2026-11-10T11:47:26.477218+00:00"
+        ],
+        "rates_source": "Actual 2400 acceptance phase cumulative rates; also recent20 for singles. Future conditions assumed within this observed range; batch length variation may invalidate it.",
+        "remaining_by_path": {
+          "legacy_single": 126,
+          "candidate_batch": 200
+        }
+      },
+      "complete": false
+    }
+  },
+  "method": "Rows from atomic file counts; phase wall time between consecutive checkpoint completions, first phase includes cold load. Batch write bursts are not mistaken for per-row timing. No response or label read.",
+  "sampled_memory": {
+    "utc": "2026-11-10T11:03:41.837693+00:00",
+    "pid": 43542,
+    "started_utc": "2026-11-10T10:33:12.459856+00:00",
+    "samples": 362,
+    "interval_seconds": 5,
+    "sampled_peak_card_used_MiB": {
+      "0": 19237,
+      "2": 22353
+    },
+    "sampled_min_card_free_MiB": {
+      "0": 4845,
+      "2": 1728
+    },
+    "coverage": "Sampling starts at stated UTC; not full-run allocator peak. No retrospective peak is invented.",
+    "no_response_or_label_reads": true,
+    "latest": {
+      "utc": "2026-11-10T11:03:41.837445+00:00",
+      "states": {
+        "llama": {
+          "pid": 7019,
+          "phase": "candidate_memory_failed",
+          "cap": null,
+          "condition": null,
+          "path": null,
+          "saved_files": 780,
+          "alive": false
+        },
+        "qwen": {
+          "pid": 6938,
+          "phase": "generating",
+          "cap": 2400,
+          "condition": "s3",
+          "path": "legacy_single",
+          "saved_files": 873,
+          "alive": true
+        }
+      },
+      "cards": {
+        "0": {
+          "used_MiB": 15117,
+          "free_MiB": 8965
+        },
+        "2": {
+          "used_MiB": 15871,
+          "free_MiB": 8210
+        }
+      }
+    }
+  }
+}
