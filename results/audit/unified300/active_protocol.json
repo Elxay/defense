@@ -23,7 +23,7 @@
   "Llama_cap120_batch_candidate": 16,
   "SORRY_WG_report_name": "non-refusal rate",
   "Q2_WG_nonrefusal_decomposition": false,
-  "updated_utc": "2026-11-10T17:34:29.755662+00:00",
+  "updated_utc": "2026-11-10T17:41:22.577865+00:00",
   "Qwen_long_batch_candidate": 4,
   "long_batch_label_gate_passed": false,
   "S1a_frozen": true,
@@ -50,5 +50,49 @@
   ],
   "static_alpha0_execution_plan_sha256": "2c0d68e1d775ee20121e4b7a129ed77ab29a85c44fc43c364abdb418ca41b420",
   "main_label_or_effect_reads_allowed": false,
-  "language_encoding_execution_locked": true
+  "language_encoding_execution_locked": true,
+  "calibration_alpha_decisions": {
+    "llama": {
+      "decision": {
+        "status": "selected",
+        "selected_alpha": 0.75,
+        "selected_alpha_exact": "3/4",
+        "target_unreachable_under_feasible_grid": true,
+        "three_seeds_share_alpha": true,
+        "grid_or_threshold_changed": false,
+        "no_main_read_or_schedule_change": true,
+        "reason": "worstcase legal cap, closest mean attack refusal to fixed target; smaller alpha on exact tie",
+        "selected_candidate": {
+          "alpha": {
+            "exact": "3/4",
+            "value": 0.75
+          },
+          "admitted": true,
+          "mean_lo": {
+            "exact": "433/900",
+            "value": 0.4811111111111111
+          },
+          "mean_hi": {
+            "exact": "217/450",
+            "value": 0.4822222222222222
+          },
+          "error_lo": {
+            "exact": "329/1800",
+            "value": 0.1827777777777778
+          },
+          "error_hi": {
+            "exact": "331/1800",
+            "value": 0.18388888888888888
+          },
+          "per_seed_legal_upper": {
+            "s3": 11,
+            "s4": 9,
+            "s5": 14
+          }
+        }
+      },
+      "read_ledger_sha256": "25bd2d63fda506c8599cbe36637b8f96ce55f61de55a3117769cabc83b8bfaba",
+      "utc": "2026-11-10T17:41:22.577856+00:00"
+    }
+  }
 }
