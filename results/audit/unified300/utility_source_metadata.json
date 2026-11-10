@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-10T06:26:15.545640+00:00",
+  "resources": [
+    {
+      "repo": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "license": [
+        "mit"
+      ],
+      "files": [
+        "README.md",
+        "main/test-00000-of-00001.parquet",
+        "socratic/test-00000-of-00001.parquet"
+      ]
+    },
+    {
+      "repo": "allenai/ai2_arc",
+      "revision": "210d026faf9955653af8916fad021475a3f00453",
+      "license": [
+        "cc-by-sa-4.0"
+      ],
+      "files": [
+        "ARC-Challenge/test-00000-of-00001.parquet",
+        "ARC-Easy/test-00000-of-00001.parquet",
+        "README.md"
+      ]
+    }
+  ]
+}

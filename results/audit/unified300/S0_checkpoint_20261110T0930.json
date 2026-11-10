@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-10T09:33:34.912486+00:00",
+  "human_result_sha256": "36d106561e8ba1f79b2e18a08fa9e9e6b005c02d57afeca35393b63fd4d92b94",
+  "human_summary_assembly_utc": "2026-11-10T09:28:17.341242+00:00",
+  "scope": "S0 reference only; no new target test effect",
+  "overlap_complete_sha256": "944f273cb7bcfb487fd4fb27b8319d5fa0cf1aa425c14957600d8439829d0c0c",
+  "calibration_groups_sha256": "07a0f2e2fc153e96096ee193681a1a354a917e50123a0041116bb9c9fb26c615",
+  "utility_manifest_sha256": "e886c42f1495afda0f66c9833125c487521d355d506e1a139bb3b650f016d24a",
+  "throughput_plan_sha256": "9523045c40f68d266c48ecc3b718ce3778f3b349d2f1a55e80f08a82bd9b22d2",
+  "master_candidate_sha256": "b9c6420a2b2d04bd38d777c703cd9bae76795d9563ea8008ae3d2c6eb79d9801",
+  "S1_frozen": false
+}

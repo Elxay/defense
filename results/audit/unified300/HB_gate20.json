@@ -1,0 +1,128 @@
+{
+  "utc": "2026-11-10T06:12:06.656769+00:00",
+  "passed": true,
+  "pairs": [
+    {
+      "id": "wjb_9805",
+      "reference": 0.5000029028291467,
+      "observed": 0.5000029028291467,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_36019",
+      "reference": 0.46879610322373155,
+      "observed": 0.46879610322373155,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_13712",
+      "reference": 0.5312109058712491,
+      "observed": 0.5312109058712491,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_9592",
+      "reference": 0.5312122191594916,
+      "observed": 0.5312122191594916,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_28824",
+      "reference": 0.56217518878779,
+      "observed": 0.56217518878779,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_5381",
+      "reference": 0.6224527603242143,
+      "observed": 0.6224527603242143,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_41132",
+      "reference": 0.37754229693566727,
+      "observed": 0.37754229693566727,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_24038",
+      "reference": 0.34864759691866115,
+      "observed": 0.34864759691866115,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_22215",
+      "reference": 0.6513561819366444,
+      "observed": 0.6513561819366444,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_16367",
+      "reference": 0.3208202378139161,
+      "observed": 0.3208202378139161,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_31401",
+      "reference": 0.6791800645388943,
+      "observed": 0.6791800645388943,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_26442",
+      "reference": 0.6791856389911548,
+      "observed": 0.6791856389911548,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_20450",
+      "reference": 0.2942181911520573,
+      "observed": 0.2942181911520573,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_26770",
+      "reference": 0.29421654499550504,
+      "observed": 0.29421654499550504,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_18655",
+      "reference": 0.7057913383748804,
+      "observed": 0.7057913383748804,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_7157",
+      "reference": 0.7310565795865912,
+      "observed": 0.7310565795865912,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_28027",
+      "reference": 0.754916186081783,
+      "observed": 0.754916186081783,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_25511",
+      "reference": 0.22270325283108056,
+      "observed": 0.22270325283108056,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_9187",
+      "reference": 0.7981876746356584,
+      "observed": 0.7981876746356584,
+      "abs_delta": 0.0
+    },
+    {
+      "id": "wjb_33758",
+      "reference": 0.16451621602910765,
+      "observed": 0.16451621602910765,
+      "abs_delta": 0.0
+    }
+  ],
+  "backend": "hf_innet",
+  "purpose": "existing hardware/function fidelity; main scores use official raw Yes/No classifier below"
+}

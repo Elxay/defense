@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-10T06:26:33.486812+00:00",
+  "n": 4400,
+  "backend": "vllm_0.6.6_bf16_eager",
+  "aggregate_read": false
+}

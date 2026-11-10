@@ -1,0 +1,88 @@
+{
+  "utc": "2026-11-10T06:08:03.653462+00:00",
+  "passed": true,
+  "pairs": [
+    {
+      "id": "legal400__ord:0",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:1",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:2",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:3",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:4",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:5",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:6",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:7",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:8",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:9",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:10",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:11",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:12",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:13",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:14",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:15",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:16",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:17",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:18",
+      "byte_equal": true
+    },
+    {
+      "id": "legal400__ord:19",
+      "byte_equal": true
+    }
+  ],
+  "physical_gpu": 0,
+  "backend": "hf_node01_single"
+}
