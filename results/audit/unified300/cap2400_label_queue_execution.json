@@ -1,0 +1,10 @@
+{
+  "utc_frozen": "2026-11-10T11:56:51.353389+00:00",
+  "queue_worker_sha256": "15617d94e33f7b3d4ee26d9788954e20f6ba97cfc68c6d2db786c8e9b6470106",
+  "scorer_sha256": "d384a0250745a35fc2e88da72fccc2f2f736efd65db1d539faaa4effd12364c6",
+  "IDs100_source_plan_sha256": "859ada8440c0c5c025272d14ca7e405b1dc1185f16b57815ccd8f49b9100eb9a",
+  "Llama_replacement_plan_sha256": "5914557048ef57012407e10ea08f924572d2e848bc059d836b7058a06250e338",
+  "expected_scores": 1200,
+  "condition_rate_read": false,
+  "scope": "S0 path-label admission only; wait complete outputs, freeze input SHA and push before scoring; no S1 auto admission"
+}
