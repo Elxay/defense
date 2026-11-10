@@ -1,0 +1,155 @@
+{
+  "utc": "2026-11-10T09:39:39.790480+00:00",
+  "GSM_gold_roundtrip": 200,
+  "scoring_code_sha256": "06bc9c439cc8425a80bc8d1a9357d2ac89def612c82b79fc1cefe5ce7202ca46",
+  "ARC_native_prefix_checks": {
+    "llama": {
+      "n": 200,
+      "passed": true,
+      "actual_letters": {
+        "A": [
+          32
+        ],
+        "B": [
+          33
+        ],
+        "C": [
+          34
+        ],
+        "D": [
+          35
+        ]
+      },
+      "previous_standalone_letters": {
+        "A": [
+          32
+        ],
+        "B": [
+          33
+        ],
+        "C": [
+          34
+        ],
+        "D": [
+          35
+        ]
+      },
+      "previous_mapping_equal": true,
+      "failure_ids_and_tokens": [],
+      "joint_tokenization_checked": true,
+      "option_records_sha256": "39003d19e1934057900a7f007b3db59ea35e5d73d3f584f3bbed99ff4af82eb0"
+    },
+    "qwen": {
+      "n": 200,
+      "passed": true,
+      "actual_letters": {
+        "A": [
+          32
+        ],
+        "B": [
+          33
+        ],
+        "C": [
+          34
+        ],
+        "D": [
+          35
+        ]
+      },
+      "previous_standalone_letters": {
+        "A": [
+          32
+        ],
+        "B": [
+          33
+        ],
+        "C": [
+          34
+        ],
+        "D": [
+          35
+        ]
+      },
+      "previous_mapping_equal": true,
+      "failure_ids_and_tokens": [],
+      "joint_tokenization_checked": true,
+      "option_records_sha256": "39003d19e1934057900a7f007b3db59ea35e5d73d3f584f3bbed99ff4af82eb0"
+    },
+    "gemma": {
+      "n": 200,
+      "passed": true,
+      "actual_letters": {
+        "A": [
+          235280
+        ],
+        "B": [
+          235305
+        ],
+        "C": [
+          235288
+        ],
+        "D": [
+          235299
+        ]
+      },
+      "previous_standalone_letters": {
+        "A": [
+          235280
+        ],
+        "B": [
+          235305
+        ],
+        "C": [
+          235288
+        ],
+        "D": [
+          235299
+        ]
+      },
+      "previous_mapping_equal": true,
+      "failure_ids_and_tokens": [],
+      "joint_tokenization_checked": true,
+      "option_records_sha256": "926be0b5214047c368b03cfc14792edeab0c8d39b7186f57903f771d0f37a2e4"
+    },
+    "mistral": {
+      "n": 200,
+      "passed": true,
+      "actual_letters": {
+        "A": [
+          29509
+        ],
+        "B": [
+          29528
+        ],
+        "C": [
+          29511
+        ],
+        "D": [
+          29525
+        ]
+      },
+      "previous_standalone_letters": {
+        "A": [
+          1098
+        ],
+        "B": [
+          1133
+        ],
+        "C": [
+          1102
+        ],
+        "D": [
+          1152
+        ]
+      },
+      "previous_mapping_equal": false,
+      "failure_ids_and_tokens": [],
+      "joint_tokenization_checked": true,
+      "option_records_sha256": "61318287bb6f1f140c70130a401e097510eac07e840c611744f4654b7ca9ce9e"
+    }
+  },
+  "actual_model_forward": false,
+  "utility_effect_read": false,
+  "formal_generation_admitted": false,
+  "remaining": "ARC injected forward/logit gate; generation/backend admission"
+}

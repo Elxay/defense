@@ -1,0 +1,127 @@
+{
+  "utc": "2026-11-10T09:39:19.364542+00:00",
+  "passed": true,
+  "pairs": [
+    {
+      "id": "wjb_train_000152449",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000169339",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000175185",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000154508",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000157909",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000180585",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000143781",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000136766",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000203165",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000129542",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000198821",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000254420",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000205757",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000102391",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000109442",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000207410",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000130579",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000059107",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000056697",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    },
+    {
+      "id": "wjb_train_000054003",
+      "text_equal": true,
+      "rho_runtime": 0.0,
+      "injection_count": 1
+    }
+  ],
+  "meaning": "new B1 core versus legacy B1; not historical B8 reproducibility"
+}
