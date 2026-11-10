@@ -1,0 +1,1667 @@
+{
+  "utc": "2026-11-10T01:30:41.092823+00:00",
+  "rows_before_fix": 414,
+  "legal400": 400,
+  "val70": 14,
+  "files": [
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:200.json",
+      "sha256": "99076b5598dc39cde0172ab8f48b1527ae973c5ed2833051dcdb770dd3d17371"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:201.json",
+      "sha256": "ec284ef4892360042ce43d2b4bab1c0f9fbc12f5a0237055e9395f76ef47d5d4"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:202.json",
+      "sha256": "af2ca76149d2c419a482a52dba7396aa9797a54a48e0689574323b20d917e209"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:203.json",
+      "sha256": "3789976b5cc6ca6040d6dc6b5dbc51f1191d748b96db1666a34800a4aef9382a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:204.json",
+      "sha256": "b732df2fd6c179f22ad042ba1c8a347a66e5f7b75611464e586dc30cbb832fbb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:205.json",
+      "sha256": "4e11533dd96f1a41f8157a297fde6fcc88e897a69e607ec0e9313b8b3e05f21d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:206.json",
+      "sha256": "4d92774b720c5e77d1e9bd8c4c503cdc8f0b5e04dfc91c7d6c5fb4a0714cb6c3"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:207.json",
+      "sha256": "5e0fd2f52ca45b552c5b52cb278ee0e4a0f0147c44a6ab5f71a43b242a40bf7a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:208.json",
+      "sha256": "69823aa5ac9c10f176a7021121269a87f84bdc522ba813c4b0bb62035d5fbfcc"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:209.json",
+      "sha256": "543315dfb20138f87d4661cfeb84c310ccecae7173754ac261b0437fc9b05ed7"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:210.json",
+      "sha256": "c2307eca25fa0caa6c6c9189c5ae09ab2d20a8d1666ae76af281dbbea55aade0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:211.json",
+      "sha256": "634f8b816483ca0983797f5c0ea0a1b96ed0ce2169c4cdc0d2d56dd2505a96fd"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:212.json",
+      "sha256": "8be95ac5c78db67fb576e6fc86476998b037129a55129487c45cc3615abdc818"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:213.json",
+      "sha256": "69427e916646ef8dbb6b9957f763b7775bf307e262f693ca3c77ecf4ca91363b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:214.json",
+      "sha256": "4f4513e8f01e8e6d0d51df68fbe2cc6f96824b20232ff50991811daed6a69107"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:215.json",
+      "sha256": "bafac2a3ea4a59c7ad661c428e8c18a13466dd1f842b908818082d3f973fa0d7"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:216.json",
+      "sha256": "70121f68f6b8b9a0e6dd8cf773927e8882ef69be52937f0d6b676c04fdd18de4"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:217.json",
+      "sha256": "20bb216dc729a47442e2b6e0e18e6d774bf800fac324f205233ef23cbad4075d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:218.json",
+      "sha256": "f4c12e308b06ddb28505c66fc43d57889847314930ded1efe00a057dd1bd1bbb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:219.json",
+      "sha256": "aafb8c6d65db17b5edda16499851c33976b0bb497cb0530d3967e2aae303d5bb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:220.json",
+      "sha256": "1ca067336fe86939e1fd8d509016db72f502a32724b02c022ea918231834e128"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:221.json",
+      "sha256": "48cd3adf17c751fd6e0be7ac87f1ad09f9ff099d168e2521c187c80a6c084f1b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:222.json",
+      "sha256": "1c21530a91969b7bb225a540607bd3f95c3a33b962b783acff0b7715f3963660"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:223.json",
+      "sha256": "80097bd3be8310700e6a2eadf1260b753fcff70350f348472393765b6093bc75"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:224.json",
+      "sha256": "93e491cfa0f4185325268b72e44df21f81cdcf43f6a1eccd9bb13bb970126672"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:225.json",
+      "sha256": "9d1acb67ee6c83ae1fa437598603eba55dbd0f119c9a0b987fa248f28df94dd1"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:226.json",
+      "sha256": "54b8ed4ab8860df1846740b52012c994c0a0006ab997cc3f2c72694607018b5e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:227.json",
+      "sha256": "adb2d90024bbbdaa7788a20c952666be02a090460c278a13889e3681956dc7f1"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:228.json",
+      "sha256": "1f2d4782c60b9b1ae008f80761611fa9af5b4244daa4b376f0448dda567b9764"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:229.json",
+      "sha256": "1f3d5c4a958ef164aaed33c0e55e190e309a7e64e592e696124066da966b8977"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:230.json",
+      "sha256": "60e2fe4662974ca2b4bb7db2344d146ad7bff7894dfdcd673d487924fc0a4290"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:231.json",
+      "sha256": "42b728aa29298ebfc204e3a975244452282c41b5a8cba0744a49613ed3086863"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:232.json",
+      "sha256": "40cedc711505ec1280fbb1c4efc49cb042cf85d963b0cf944e9228ccb5336091"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:233.json",
+      "sha256": "d3613dbc4306ab117c7454c10621c6cfee0e4833f7aa26a4a8f2528cefb7094d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:234.json",
+      "sha256": "d89991ecae0e05215db66088c24b15a2fd6f783f16fc6968504c3e19022ba86e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:235.json",
+      "sha256": "bcf90dbe14cec0c260cf487b1914975e65a6a875e78b014a73617bae1a2a18f7"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:236.json",
+      "sha256": "18c097f116bb81c02b6e80c1572085aa528fc5baf23357b2f9c3e3bcccd2a19d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:237.json",
+      "sha256": "9aeb9cb8635bd5bd122ac5f8fab4c35a2697c9e862c3e2ca2244764adec55d18"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:238.json",
+      "sha256": "bd000442f56590ddd2b8fa65bfe6cd9a0d3b9d766a1f761a3336763c473b8eb0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:239.json",
+      "sha256": "99af323312d4bf986dad065966a261aecc16b971a8d63491d0e24638c077d21d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:240.json",
+      "sha256": "d94a130ad81165c4ae89b6850bdf8c8c769b7520781e5afd99f253cd3f647b5d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:241.json",
+      "sha256": "6da63ac851cea0573d5a3404858c2a91fc86312706846554a81b4b66e4502509"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:242.json",
+      "sha256": "932e0ec84e6df22195648981f6ad5d38dec13138937933daeaf5117467904a80"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:243.json",
+      "sha256": "1dd7cb61bc9242ffa35f5e8558f92cd9150a7005a78a88559397e49c38c199cf"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:244.json",
+      "sha256": "cc1fad39809c005be3380125202702ee5b15982759d1d6e54d95c23c0e249a1d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:245.json",
+      "sha256": "4b5193f439c9595301c177285b48081a4b4cba9b88072ea7e9f3d7ece7d4598d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:246.json",
+      "sha256": "089fb9799750cbcc9226282b742c7a5dd9a9751234d953d5e0f7716a41c6953a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:247.json",
+      "sha256": "be39b4095b12153545caf1eeaa700f0f480e3768db00cf8e0d60149854d5104d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:248.json",
+      "sha256": "af398f79a544cec9236f6d894b30e7f7d4308bb2812d272b6639f0676e5285bc"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:249.json",
+      "sha256": "92e484074d0739abeb68cdb6e1cfb806f949229df696ad0078dc118d2db1b98a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:250.json",
+      "sha256": "40d11b93aeb213e101edc9f4eb45b6e715dbdc36f814569d43bef882dbd3f5ac"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:251.json",
+      "sha256": "965fa2211e82851d24c696a59f0c394fa8f323431c791874a12c531741a7ccfe"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:252.json",
+      "sha256": "d4870012a7f65bd9a5859fbb3cbffeb82f1ca0ded4430ff8c1a8406d5c9b4fec"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:253.json",
+      "sha256": "cd15c96e5ce2c815421b4dc13824ffe99ac518bc0ea9d9fcc977d9a6dc80de50"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:254.json",
+      "sha256": "b2a0b9869d3ce1c8052a5e3dbadfe74ecc512f87d4b6d0c4253de3b8ace9d628"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:255.json",
+      "sha256": "8317cc50d2f3f0838700a4d632abd5bed28acc179a5acc569ba7b47b2be0de8f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:256.json",
+      "sha256": "3ae962925b57a91178e9a8ac7344033788d8e8498c238bc4015d38128c25d422"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:257.json",
+      "sha256": "1f64fbc7eb265d3840663ce3650e4c28f7f7e7ce539fe9387d1606ffab980602"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:258.json",
+      "sha256": "1c4c3154281ab5f35de9e391bd5af1edff25852aaf529db5eed0a2600d7a0582"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:259.json",
+      "sha256": "713bf4d33b850081b1fe63938b4df6069aa75166a4e77a554e69f58c4f7d81a0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:260.json",
+      "sha256": "2736e90743fd98874e5ae628d43b15d4ea9dc8066206a6041276dfa238de0e5e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:261.json",
+      "sha256": "a7700158944e32ccea6b8fa0d66ebefe4f989301bc9eb14f7e09c796bfc4c496"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:262.json",
+      "sha256": "e2d0e91195c40ff3c1093c7e21214cb87bb3a27045fde7f5b8be2f50794402cb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:263.json",
+      "sha256": "b6d42020c0cdede8ae0c99aa4b017dc51d7cb7298a3d4bf93772a8a445d2d2d6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:264.json",
+      "sha256": "1cc9e6266a09f5a0f550b5d97a86915db1dcf2fac6e9564a0ae945b67ee96171"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:265.json",
+      "sha256": "93c20f42422395124389f6c9291be25b00ae5187b7a2e6ae799d9f096f724734"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:266.json",
+      "sha256": "d0c2a6bf85aa439547a8c81055192747cbaeb45f03018d4fc9e14515a3a607aa"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:267.json",
+      "sha256": "b153534127b274f68ffd14d3ab9430741f1d531ee1a0c2ff4ee72eb3f00c3609"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:268.json",
+      "sha256": "bea73cb50c28ad89f1528839a89cefa4e648d29dc863f4c891091374ab08fb91"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:269.json",
+      "sha256": "1b5a704987cb6c493666100fa70f08b7ffacb3cbaf7063feb995512533bffa01"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:270.json",
+      "sha256": "bd9dc297b0a4a8038d6cbbbc0dd48ead94247d2d0d9fd8b8e54515eb29a32b03"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:271.json",
+      "sha256": "30114c7514f29d02137257829a4faabe2365490e3f43c7084af74541b5fd8d83"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:272.json",
+      "sha256": "76256907323032b47b22e10659ee12881199d831d85abf683fbc2520a16ec0ab"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:273.json",
+      "sha256": "7a373544396a7a7437a8dc4cb88ef6445dc99423f254e64b627a60ee9f5d178d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:274.json",
+      "sha256": "c0841b050ecbc550b6e4ba9941a318840d3c444a85dca7fe6e1f1c4071a34d27"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:275.json",
+      "sha256": "21378827cc5d9b936fd821d4bc492a20782548c8f19c69f9ca367e5a54303342"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:276.json",
+      "sha256": "a55ef2d73d6cf8b541ca202be5994578a9e4095415dcde9fd12a57bd070a58a4"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:277.json",
+      "sha256": "57116f2825eba8e41c37cd1f84d55571bddfc8f3e2fc12438c7029d4eba441d9"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:278.json",
+      "sha256": "dffa9d4a05694357d5c65031ce50c7b40b813d4a679c5d1d7fd113ff322af4a0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:279.json",
+      "sha256": "14cf2ecaffbb2af691312d358d642c0e46ecaeb4f1376c84b699e3e4e2884974"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:280.json",
+      "sha256": "9ee7435b4d2301cfb68e93e2cc85f9db2dbcd50835f67ccc5029800bcd179dee"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:281.json",
+      "sha256": "91a6c39b53c0f871fc16c4df4df3c0ba8d3eb664e1b0d0f68e2df25626f090d0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:282.json",
+      "sha256": "07ad97833d71c281474d366e1de9d9d823640c161bc60d34103bfcb9afe59ea6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:283.json",
+      "sha256": "d8c02a1bb7ce09bca8aa17eeb3ab69974471aa7ae1de212d87dc2fe7a0acac4f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:284.json",
+      "sha256": "92c7475a73c4b921c380b7b0cff3adf4b0ccb1dfec9dd2bdf1a3d45481ee1872"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:285.json",
+      "sha256": "5244c244432bcf7b0b6834dc6c8d1eec2de3bf23d9b56f7fb50b7ed966e89b98"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:286.json",
+      "sha256": "e4062ae84ee23d61f258b4a072f3ac52fa32cf9a61eb5ddfd1ee0a6a630c2559"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:287.json",
+      "sha256": "51bca47e7fe01ea1a5a5f29d8277a91c3e0689d4141908f2680fd16b12b4c27f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:288.json",
+      "sha256": "eb07d164ffbcf24bcbc97bcbf5cfeb0ad4de57f55b80142f3e61ca399f47936a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:289.json",
+      "sha256": "5724693b3fec93a634dc317998945d7808f2e57f0df4ddd866ac043818daf1f9"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:290.json",
+      "sha256": "1599a957086cdca09abe477cc4b1dd610fbff4c86bd90cb00527828118d4ccfe"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:291.json",
+      "sha256": "af9dc9dd00cdd038b2a163f91ecda023315b536693c243276c1232fc3b802a4a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:292.json",
+      "sha256": "a3fdd948b7447886d34614995c20a49775f162557e19665a57e914551d95e1d2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:293.json",
+      "sha256": "30ff5a71bb954a6e39db9999f60255da6339bdc5f6f4c5440f8549e875395b42"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:294.json",
+      "sha256": "db249ca51ad6039470c7c6703869bd768ab434f711a7cb56eb6c500ca21e9d50"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:295.json",
+      "sha256": "2cadcd93389de006cac54848e29973e92810ee372e7bbd1668e48dda4fba98fc"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:296.json",
+      "sha256": "7f2201d935f99338a6d28c6b288a8fafe32d04d9ae43255d44f4369ef622c21f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:297.json",
+      "sha256": "2ed7f897b55c0c5f787eadea890f6d1852fa93f281fcb1101c2bb3cc711a6516"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:298.json",
+      "sha256": "a111403bc6aeaceeba74794791aaff3f5342da5c09b23a8c01e17d3f2961cb1c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/long:299.json",
+      "sha256": "a30f616b47cf752054545405a761eed0c83ea89b8ead5480f490a354bae5d79d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:0.json",
+      "sha256": "ba9ef3ed62f9bfa5b6d4971db8d4dbdd461ce03688ba3fd3b7012f10d41e8610"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:1.json",
+      "sha256": "38c86761845ed42b440904b9714c6cffd2c9175cd64c530eca9da919c1e449da"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:10.json",
+      "sha256": "f3ef04f787b9685e06fc38a210b75da85445f11d5e6a76c2a416bc58ef093a20"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:11.json",
+      "sha256": "50c2c945f630b3f339fa776828e9119ab4eca45254894aba12861dcb42432117"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:12.json",
+      "sha256": "9e75d9cd562d5d63847b0a36242b709994e8e0e733f6c47255dddb6482066d67"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:13.json",
+      "sha256": "d3841df4abdac2c6201b728318c5f8642e0753c75204414a99fedd02b18c1c73"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:14.json",
+      "sha256": "ee904fd040857340c2e540458de593bbdee84c90bd9413eddef054df25b33cf2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:15.json",
+      "sha256": "2603b7b168d9520a6eb2d3f000898efa8296478e4a4cab0f43cdb31c585b7812"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:16.json",
+      "sha256": "2dea0343e671729cbb50e413b586e5328c17539a40a4752a9a7ff427e1d3bc70"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:17.json",
+      "sha256": "9bbad59ff483dcaf637bc3fb2d0d59b7fcfe121833ef4bdcc3aa413df7adcd70"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:18.json",
+      "sha256": "8863f93ed616e6b5d36589ba0d5015163e89d73e021a782809c85b71ece33919"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:19.json",
+      "sha256": "db559b613c8b1a39f4ffb48617757cf0827a1d70d6c9da3a722fe8f9050e03df"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:2.json",
+      "sha256": "da859092e994decaafe0036c7e00bf5917fdc1094e7262bafceedbdf9f6fa576"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:20.json",
+      "sha256": "334206468873c3f3e33ea245dc3330f23fa2371c1a5c177751249caa5e1db349"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:21.json",
+      "sha256": "e4c6bf6d0d030c77a6e089e481db5e02afdfa5bcd76be557fc45a756adf74efa"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:22.json",
+      "sha256": "36f80a5fc7b9f317c32a35eb19189319ea0a846779fd2132cd2be7e4045236d1"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:23.json",
+      "sha256": "a11ee6d74ab631279a7de49b12cfe2fca1429dc4d40b13de2045b7647ea13a5b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:24.json",
+      "sha256": "f51a17e6f51bdd402b35a64b901256485d2440631c60d00820d1e71e662fd804"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:25.json",
+      "sha256": "60292aa7c3c0f011f657456f8f41b242490d0de9e33b900946d06063da9154ac"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:26.json",
+      "sha256": "18a4b998cfb2da0f557ec8a4c4648622742d69f21c075c2217d588c74ffdce88"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:27.json",
+      "sha256": "8f060b2ac4d6109da97c384e09c93a157d06b7fa9762b9a88714ab8c33c382b3"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:28.json",
+      "sha256": "4f70b485addd648e1410325a8f3a04876d701d012476644f69fd51b46bffe3e2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:29.json",
+      "sha256": "2c48ee1070cede409b6ec78b2fda661524d9f1cc4daa4e0eec435ef63e939652"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:3.json",
+      "sha256": "a7bd1005dde7e65d250d98fa2cbf7c3180474d65b7a85305b0bc38633fa89a15"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:30.json",
+      "sha256": "efa2daafc061927debdd597e6b7919372a0a84d5a093583496f66c71217bc6a3"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:31.json",
+      "sha256": "9cb610c64964f5a1c7bc06ed9a91b923fa52c928b58475561c370efb69701f4f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:32.json",
+      "sha256": "5ad2879939868e7c192782de6628684c61cda9ba83e6f71ad131891dac9b04ad"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:33.json",
+      "sha256": "df8669a0d43fef4063d70767b5366225f59351a5901c8b2ce3568db1f97b1d14"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:34.json",
+      "sha256": "6edf8331d3d4106cb835f66a436dbab24ad658d13b9238c9e40e4c9bf648b0a1"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:35.json",
+      "sha256": "b440ab0f09f5a45df671e76b4eeeee4201a38396312762f44074295b1d70cb17"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:36.json",
+      "sha256": "3db7dcadb450e673b8a5436dbe63d234662ba5c899d686eb8276aac1164255eb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:37.json",
+      "sha256": "cecbdfd2748f111b23f069c4bce0afebacc163bf272fd6e698a771359d02a6b7"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:38.json",
+      "sha256": "bdbdd3740a553e35a0f10faf28bf52399865e15b6c6ad0d7c631fc407dec50f2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:39.json",
+      "sha256": "d1e687fd3c5ef5a229e5efc7058de6fde65e57649d8e5823f93e57fdf4fe24aa"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:4.json",
+      "sha256": "889387451fe8971ef736283b193001e5c51fd264acbffbd5e7d7861eeac943d0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:40.json",
+      "sha256": "206850699894aa1cbf5b9cdabd655c44a61caafed73cbd069791c30f9b42b688"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:41.json",
+      "sha256": "012aaf388e1deb06ae294c00b63fb278503489ad6ae2270bef27a80ee67cfd86"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:42.json",
+      "sha256": "e88bedbf8d1cf5fe14d361beea0a83e35a3807b2b93206b8da5bdda115bf01ee"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:43.json",
+      "sha256": "098be7075b23f42e0126247fb4a722319c246d408c826d262531f6187546f610"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:44.json",
+      "sha256": "996450ea4b859ceade5b562804a65b95c1bb026be2a4640e8603fb15d4fc3300"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:45.json",
+      "sha256": "9022189d3e0332981c0dc983cf3a6561456cd1a808f84a12b2b98514305e725f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:46.json",
+      "sha256": "975ac63a4d4e00d4ed6bd3635a042af93d306a4f49b2494ee63da3493479a89c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:47.json",
+      "sha256": "825582fd21ba355966bbbd733753257278295a54b57f396ce63b196765637f30"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:48.json",
+      "sha256": "a213d0872c6a41dc236f272b253f4d5d602ab5a46944799c24e7bd16708bb75f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:49.json",
+      "sha256": "779bdd80bbfbc82b99822aa2fc33d90adf02dcb437957710e2fa0d5b62b146b8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:5.json",
+      "sha256": "ae1d789a72480c232054d2e855954b22097fc6b19532a20d3ece8ed6edef7183"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:50.json",
+      "sha256": "0cc5bcb9d7384579d7107ba804ac73427c06ad462e18c40d843b50ae32b68d0f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:51.json",
+      "sha256": "a411c0420178e8b15a5a4b433906c2ba58870bb61f26cf65cfe50874f8f5a88c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:52.json",
+      "sha256": "4da73093006e863d39b116372cbecb7237de8dc40bd9971e441a31f2474f8ca6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:53.json",
+      "sha256": "59a81d364ef4d8def53e698ab44a802cad99708cca2d805f4152f9d8459651de"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:54.json",
+      "sha256": "9bcc580c86720c6bae72aa84697d6177f7e91cb5c67efd3f9b7dd249c484a11d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:55.json",
+      "sha256": "b794c584caf65b31d868e98b78d95185438be4ec611b1cd310bf87e004c02d44"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:56.json",
+      "sha256": "47d8fe8cd55ae5ff4528425a17662a573773c9d53c3afe5654635e2eec0eae4c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:57.json",
+      "sha256": "88b007ed788ae44900f713454303d9890bd46ece912b5fc71d943af70e861bfc"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:58.json",
+      "sha256": "a759ace112f9d64c50455b7d0cb3eee0b5d78ce9bbf0f2af0950520e4c413f1b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:59.json",
+      "sha256": "4cdb8c37b9b0da99b998797a85c0009218163f0085aefe9e43ee8747f6d11acf"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:6.json",
+      "sha256": "5e0de7c3af3d3119b82f3f75caf999efe2fadb901312640854534e3103c30d40"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:60.json",
+      "sha256": "9db5288de8cba55932a48687da423985d4a978d2edf6da2a0d199608b1cdaaf5"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:61.json",
+      "sha256": "e5c39f0dbd800d07d8851fcbf645bdbd2a49cdeea8bac7d0fcc793b6a0737442"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:62.json",
+      "sha256": "073bbc769987f3531358b3a024429b638d02f681b056b3c920e756df827e5a8b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:63.json",
+      "sha256": "a5899b79eae935d1c9939af49353af76fd594803f998a00f7d8c4e5315175196"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:64.json",
+      "sha256": "8adf16f87f74ea54ef62b9581a665f55f1dc5f0dfdb78f97e7d2d67b39a7abbb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:65.json",
+      "sha256": "9d7425f7c99070d85174a25707a622dbb808ea809736c1184c26a74938d41692"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:66.json",
+      "sha256": "89423994b2e25264705b0323e08eb74eaa73825fc6bb612ace90202d8d33e979"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:67.json",
+      "sha256": "aa098d9444bd6cf71f31be9fd71ace84ab9556a4410672c3100a74de9f888a63"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:68.json",
+      "sha256": "0aa1f21eba21712720c7167b4c44f5669a895d6adfa91d61ee4a48599b6cb04f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:69.json",
+      "sha256": "e897319b98c19326b35c71ad740e5da51f007933bc75bcd9c3e7589052d1c2ab"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:7.json",
+      "sha256": "0e507379d8e94fde2743518c46f055bca89bef1732084aa01a8770cdaf9af09d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:70.json",
+      "sha256": "95e4ba1acb990f4e18aa4296139cce2cbbffabe51c20f46971bee124842053ac"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:71.json",
+      "sha256": "67ab01a5b3fc8c3067d6b8347dd34ed44799bff53908979de6b562f7185ec492"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:72.json",
+      "sha256": "c62aae8fb57f31107d8a7d1582335cacbdb7c079f81aefe3ffecc7f3870b6439"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:73.json",
+      "sha256": "5615f0ca5366dbb0cbddd5863cf502f2caee5ff51dc1b0fad093685b7742f76e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:74.json",
+      "sha256": "bb0133a3f4196cbbd84b4c659da4897eb5ee8b73321971eac9e97d604a001d77"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:75.json",
+      "sha256": "6414bc153b4765b54f79f66f11939a79098cedaa5bb255e0b04e731aff922f09"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:76.json",
+      "sha256": "41a8336522aebc8acf11ae518ae68abafc715300057d7bc7c5029302280fed8c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:77.json",
+      "sha256": "527df1775f9687c2d6c6e6db83b96892616a4b524b055935bee4cc89995e2822"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:78.json",
+      "sha256": "871222d83c3da636c98cb519efd658e53067bae2be89ca9fdc26bbf736abd6c4"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:79.json",
+      "sha256": "322c5993a6081ebf013c2e56fc1e51282f96c7390740de98ff997469fe927777"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:8.json",
+      "sha256": "12982bf7ee0888717c7b7c6290204730f79eb8bf3ae7603ae8777dfae43ac132"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:80.json",
+      "sha256": "98d1794545143daab9ae416b7d5af49c93c08be82f486e0674cf6cfed8b18cd1"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:81.json",
+      "sha256": "7be2881e151d23dae887b86543972d075104f73228c7a587deca23ac55a1a79c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:82.json",
+      "sha256": "957f95c9aa0f586919f8f5d617c51a693a769d2c59f4af7751587145810976e6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:83.json",
+      "sha256": "b19d2ae6ffedcb26c799e4467cfafa3b4c80fdaf4f15651d9504096f4a97fc22"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:84.json",
+      "sha256": "a316e100159250e2806c9369b6be0cbde1bd1d71ca3151f9fb03ea67a5e54735"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:85.json",
+      "sha256": "e28443f57e8be01d9fdc5d29bf4f4cef6d8129dc7a281f1673ddd2617e1bd61a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:86.json",
+      "sha256": "807553ee583f2e51ac1efa5f1d286597fa8d90d27f7a238243f73e9d37fde67c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:87.json",
+      "sha256": "b228f3116369a1be3f0ba1ac78d0a648ca92aebda4569011059ac7c14eab8ab8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:88.json",
+      "sha256": "b9567603bb84b443d125add154e2151d8ea99e9d2a30d4d27f31586f69d42e46"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:89.json",
+      "sha256": "ba2b066d7b89264a71ede89846c8278a55ae02d3523262e0931415879b61e891"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:9.json",
+      "sha256": "68a00e892f60037e9c35d9dd69b56e6403fd3d4415eda88142cb4e5ff7652b23"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:90.json",
+      "sha256": "08eb9efc0f3c7273ed49f883361ee6554e2d62557e30b8766936c26e00470342"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:91.json",
+      "sha256": "97dd154b416cbdc9115b1adaea0b92db14cc6643cd86271bd9162e8e620505bd"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:92.json",
+      "sha256": "642d18d538f77a4ca91c9ae287ac932480df37a5fefdce7b6346711f66d59027"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:93.json",
+      "sha256": "1c6f16aad7fa7c4780e565c439e4ac464127401ef0dd02a371ddc10fe3b412e9"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:94.json",
+      "sha256": "030208ce299020efe3d867b3afd41a61a0bdd579a88477f73812ca6cb48c2c11"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:95.json",
+      "sha256": "3c3ed6cf43881d5acfb84b2f482215df721a54eedf954de1745282d81ac554e9"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:96.json",
+      "sha256": "ad831c836d9529b09928364379205dc9b18314cd155a9b29c22192eb36d548ee"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:97.json",
+      "sha256": "09138cebeb898cff23d2811f0359b705d27af9626348376fd0ac02ff7340a274"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:98.json",
+      "sha256": "b57310b3c17d8094e24f974390987d4b72f4848a850bfd4504608573f97a2b96"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/ord:99.json",
+      "sha256": "df2a63c9473e5f7e7cd3a56f383d2c8368bb30ac51255a22659f891287b8ff0c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:300.json",
+      "sha256": "d1a9b62372598cd5fdc12d79d5c017a5747a9370019e6ce439ac2ec1a057d634"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:301.json",
+      "sha256": "005138cb68b81cb856ed2cc75b00e3e2e6aa654b681818a1050f344c127f8c75"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:302.json",
+      "sha256": "b5518c6e7acc20029098a9a764cd2e1fbef4df3451c0b1c732c76725941fab7b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:303.json",
+      "sha256": "2dfaf9cd95f14a9a7b5a39c93abad1015c1b257962801d421a94e72367487f9d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:304.json",
+      "sha256": "ce68a52731eae59e2a7f24d7324154ff97be9096d19b29982dba88a51580ab08"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:305.json",
+      "sha256": "2f2846c09d869162ed63988b364010b7775a4a7ea4c1bd69f9a17c9456169c1d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:306.json",
+      "sha256": "28537e449511165a68b1733fd3ea47a6f975443ca3f30954ae77e3a741d309c2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:307.json",
+      "sha256": "1cdefc29a996ba7ad024b692aa9c33a8352718a9090a8309e3b1610bd9f49599"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:308.json",
+      "sha256": "b177351e7e64690570b5ad19a151c4fd1f9300936f50395237603dc302050f0e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:309.json",
+      "sha256": "437cad534b482046d49378e242c3c73efb8eb542e94a6a0fa7e91019df82b181"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:310.json",
+      "sha256": "3ec4dbf1e4c250afb7acd9110fdf356f474915d17cedbae1f66ca17fc28f7426"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:311.json",
+      "sha256": "6656f72bfdadb9f8993888c98dc7756a822f5e5f1956d23db722458487a2e72b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:312.json",
+      "sha256": "c6b451bcc7683703c773736eb99cf7f1844148f8bf439a4afd65d67665c8c11e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:313.json",
+      "sha256": "dbe7a0274d3638571f3d1a083d28b55b13b76348b30968e62652b35dca1a7e12"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:314.json",
+      "sha256": "e6bad4eac5090c440f8d97150e16cfd43631375dd453f27e3a426cbffd1051dc"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:315.json",
+      "sha256": "577156ac032ac356c2c74daa282f6d8bbdc18bb343836334c72301c10180b5de"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:316.json",
+      "sha256": "3f1dd615ccd74e0d876eb5a10734727fc0a3e979c30577949b6698cccf91d93e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:317.json",
+      "sha256": "e5695b52e0ccb81c8bfaa42707973dcdbbf59026d6d3df28d5d04c25029bfe32"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:318.json",
+      "sha256": "5f724630264cda5367765532b4b4a775568e0ac920427703a8b6fead726e8c00"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:319.json",
+      "sha256": "cd3d0172954aef0d6ebf7e931ca9bec5dff817668925696d40964ff1e7d6bd02"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:320.json",
+      "sha256": "bbb9f3783baadef449f954c9ac4483bf72f697cc906558ad4ddd0b5c091c0c72"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:321.json",
+      "sha256": "c9a13f24e09744ceffdbed889796f01cbd305051ad216da570cd9e56b4b12a81"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:322.json",
+      "sha256": "214c82f455a9473549821374e2fdbdca26fcb15bf1a3aa780296db89b96c8ab9"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:323.json",
+      "sha256": "9db0fe1780b8fd641e7b137747f89d3ba42e017ac42de086ecaa47b6506af2ce"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:324.json",
+      "sha256": "f45b62a14e8bc1ebcd9e46b8f0d7b38fc97259ff9ae90258ba08b33afe9233af"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:325.json",
+      "sha256": "ce5a631d7c4bd41d04b203bad6b2495cc08227b1788c3f16cc8e525ed4fb645f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:326.json",
+      "sha256": "8d058232124ff6d5cc8e6a2fe4559734385636aa52388be38f94835f9c689694"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:327.json",
+      "sha256": "845bd8b299a1177efb418b334da746b85f6d9df6a223741eacefcb54013bc48d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:328.json",
+      "sha256": "804d77eca9063de721a9ba0654f6ce874acf0bd7ca17451c742395265623a6f9"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:329.json",
+      "sha256": "e6e43bf044ccd5411d7c1a0d982917722c835bcc9a9e887da76a9a709a7c5082"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:330.json",
+      "sha256": "9155e6969b6a84a4b1470bfd726afbb1ab9c818d1cd48e619927ef3b9b01821b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:331.json",
+      "sha256": "bcbf7e71b75cc24aa9e3991fbab89cba2c9e91052c16002d1f66a43224bd4350"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:332.json",
+      "sha256": "8b21a1e18d6644321d3f817ee8871649bdc1af828a8e5ee71ebf2a372a0ce6ab"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:333.json",
+      "sha256": "7ca6cd2a0e14e15913d09d6acda3644c0746f8f20474bad9d03e8756525b1015"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:334.json",
+      "sha256": "80c3a93c4a8e37409bac3556ca2dbc64903f058e236a541ba0b28d4ea52a53c2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:335.json",
+      "sha256": "85dbe7f63e30b862c8e4cbc6fafe3a131e24d515c87745f6b20f2f2549461f77"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:336.json",
+      "sha256": "065a2b3cdd27aee8b138515ed859bc438d24c6dc7f50cc4022cdf5db84307025"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:337.json",
+      "sha256": "aece11f822a1854ba3016feecd2b35c359b561836c3fcd25817b59abfc4da771"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:338.json",
+      "sha256": "5642c3e876350a1edffa1e873d09095da5e1391851e1d42cf863c7d05666056f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:339.json",
+      "sha256": "683725a636a4c47ad49d8fa5df1a56f982608b1a967b69d6038c19c753cbcc51"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:340.json",
+      "sha256": "57890daaad0d895e598d1e3f5607da94bd43c3be3a8f2d640430e99198586d57"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:341.json",
+      "sha256": "e3fa59c79c7805b3a156aa6808137ee8fe846cf70da595b098b990ef0467fdfe"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:342.json",
+      "sha256": "2cc877cfdba98b15b0a45ec1b7f6a593467280beea789b77d7b38fad0fe19289"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:343.json",
+      "sha256": "028a35712e157e0373fe4ead4bc89777c52572785e8f758dbe28e842a9942bda"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:344.json",
+      "sha256": "b06a7a42936e7e126f5b44d5eb2d0cf00f05d198288b347f441d0cc15f13c814"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:345.json",
+      "sha256": "7c8418f98f2954d7a4a9c2e2507e5e842290d7787cef2a0f65061331c6249446"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:346.json",
+      "sha256": "beb88b591609a55edfbda2f7169f43b2107c8ccd1b2a7c0f377dc646c1edad21"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:347.json",
+      "sha256": "8fde2ae228c8b9fcdc4105e562afed8ededcf0ec276dba610b3ab56166f583d2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:348.json",
+      "sha256": "5a5944f29a243f7c7d9416942fd57bd9c8c6ad4d98d45f2f21a8f6528a95c6a6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:349.json",
+      "sha256": "c0e94551ab15f3ea7819108e2023310c05bbe6a9e1c33454e67ff41c4245e028"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:350.json",
+      "sha256": "8b662484fc81a7f61d6f51b16f929f37ed2b231ddea81d266250dc95220c2ac0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:351.json",
+      "sha256": "8a049ebd5bc26fa9e6bf26eba533eb41aeb5383c8da03eac599ad62310a61b2f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:352.json",
+      "sha256": "d068cdae539e074d68f1423ce3f41172e257cd37fe46b8b6cbff1f42a73dfd5c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:353.json",
+      "sha256": "098444213f5a327bf5974f0d6065a2d2eef49f10894cfe6b179f1558b1d74a08"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:354.json",
+      "sha256": "cc37e88952908b1cc679b6076b9f6e03ef69036025d54ee2ec3e2fa1a95a546a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:355.json",
+      "sha256": "f7107f20384224fba4cac3857a6764f9709b74aabada1cd1311821a8acbbe6e4"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:356.json",
+      "sha256": "c6fc081fe2976d26f770d8aa717b199fd30a9cfe41d4e905d2cf8a428745373d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:357.json",
+      "sha256": "24792580785c2ab56f544f9ffb8f2c5123affe11ccda394b73c15fb9ac2c3611"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:358.json",
+      "sha256": "776144089e6a0558b71308470ab9320863f502c7cdd9dc9183502876149bc704"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:359.json",
+      "sha256": "0453a3e7ad723c3ed7b143c3b06a8a0696728de56cbbad0269531e1d803cf776"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:360.json",
+      "sha256": "3c4e287a29b0994b89e67809ec7d76e3e308d311f1355005dd0eff3533bb0899"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:361.json",
+      "sha256": "c4127ad43a6b1d0ce346694454c8bc8021627901cb3a74d90c98af4bb6b41c01"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:362.json",
+      "sha256": "f3b869e4831b7b7fdb8f20ae5fd6f2f30a51ec4fc315d53b8608d67f8049feb0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:363.json",
+      "sha256": "89a7e306a7aed872baefeb109b3a3f5043ac1f11f3c184b6272efeca057fd5a5"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:364.json",
+      "sha256": "8cbdc7b99820e44ffbf82da51dad080b08689ce94275ab7309e7f5f9fad834f1"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:365.json",
+      "sha256": "54bb1c83a234d5db19936ea0e042436cd4bc98ea557f9ebd2311b62553e6c8fd"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:366.json",
+      "sha256": "81f9c37de9bf9ee654e52b200ec12a387bb85dff330e146bf419fec0a26674c5"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:367.json",
+      "sha256": "1634f5329f5ebebfed52b617ac404171e83593b4db875c1a5201db8dc6fd389d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:368.json",
+      "sha256": "e030ed4b27092540bdaaaeec537cbf9b5ccb464b32d9605e934bfd86c7b22ecf"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:369.json",
+      "sha256": "a1c4460290283f34de175961f62754f42daf0fa9bba47073fe7c842480331de5"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:370.json",
+      "sha256": "817b681d0f8d00d36c25b4287859913eb5cf4edf4731d4285ab48991d7ac6ae7"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:371.json",
+      "sha256": "871fdad4503e816b43d553b839e8199c31eac1b58cd11e172c452ddbb8b94eed"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:372.json",
+      "sha256": "3c468c4891a84785ffea7a0540acd54c8447bcdf76c35b9c7ee066cf8948e859"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:373.json",
+      "sha256": "9e946809b95270594790f0007fd9c0337cddc4c9a7dc7710db51f7a51b2173ed"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:374.json",
+      "sha256": "9eac1ea08c7cb799132fc7f22876fae18e6534c412450afece5e441b52711358"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:375.json",
+      "sha256": "7432e7b7a55dfc8699354bc299946dac59b0f36135f13f9134b1b1dfe3efb6bf"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:376.json",
+      "sha256": "4015384e71c152003ea0a8ff4a94de1eaa68844f8773a22e98e14b5afd3ff2db"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:377.json",
+      "sha256": "fca852a01b3f274cdf29835f4f88a86fb00ba2d6e3517f614fb9f509287bdf26"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:378.json",
+      "sha256": "dc8d392125b7bccd76fde74f227b9087769b5b30ae8f63df3edd3b0c816b2819"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:379.json",
+      "sha256": "8615ce82fa8ce854b9429c8b2dfcb63b2c56e5f398e4503a2bfc9bd4ae0fa62d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:380.json",
+      "sha256": "ee6c67d729a603c7c184ed1f5d2f9ceb8724cbe6bbb4fad964bc67450ca73fda"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:381.json",
+      "sha256": "4d6dc7f0a79337b4b732f0766865358854e4ed7a3cd3f3a8265d5f12e926025c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:382.json",
+      "sha256": "e3747d117d07c75b035c41364b3673c754952cf90f28fe927b251c6ea405aa88"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:383.json",
+      "sha256": "f38d168184c8a56c5ee7b6953adad1e7c64ccbe4ddaf45a08791199f2693232c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:384.json",
+      "sha256": "c28a1363c0e84a753df1dab9f426a52016ed6f35de794bb95e3e76e0ae9cd548"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:385.json",
+      "sha256": "92b2ffabb4fac063836e10cc5e5dbb2d8bc57bba60d3d0ef12b3d53b5868554c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:386.json",
+      "sha256": "7740e7676fc51c74dd1a6b7882081c800c6938a5031d94035056ee186eb77c24"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:387.json",
+      "sha256": "700787f443bc3c4b59351df3b19dab7c38bb240882025a539d2fe655969ff7a2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:388.json",
+      "sha256": "61909b7222134f752b947cbcc32d594312d487fb0202abfd99ade26f3e64f852"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:389.json",
+      "sha256": "52ebbb74fc8be2d7416fbd2176244f624e54c2604e224284d3555f5d0e00bbdd"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:390.json",
+      "sha256": "bb91024a25316f746e479a50b3f11f59535feb2f92bde40f1f3ef71f4e418f7f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:391.json",
+      "sha256": "f78b88ea36a05fe16aa301af387d7961be1c0f2b6cf851d3d950007b6bed0c1e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:392.json",
+      "sha256": "3236b3af51c74f7344a30251091ff6304b91db372d2af2490a062b9cf8d32afb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:393.json",
+      "sha256": "0acab81bfb154b28ffe77fb60a1bd4cb17f51441d855baddc6060465d8f0ec99"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:394.json",
+      "sha256": "d343b40de68f0e41310fb5090e2a17b76709dacadf6c7fe79e46eeb9c8836da6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:395.json",
+      "sha256": "d94b707ed9e7129b155401b5febfb6a043ca9ff6f60a4e99626e093016b0bcf8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:396.json",
+      "sha256": "e64cf9846879cd71735d60b05a00855f7bc90f2a58405e967d0dbe29f1c2ba03"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:397.json",
+      "sha256": "1f0fa59e87ba71aee6d115a5619169db5c8d3ca316d2acfd3c519b902f9f3b61"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:398.json",
+      "sha256": "d718908319144c0ad0357efd00f4180805f272fb4f04a1d920acc44208275044"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/roleplay:399.json",
+      "sha256": "da6fdd29d132e9c56577e4369607b06edbb008ddca8d1011f78149f8fe5166d8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:100.json",
+      "sha256": "8615f96105bf10af1c594edfcb8802a7a00bae7fffb7c598c7380e3885a19569"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:101.json",
+      "sha256": "675ebef9616293fe8c97a0d65bb992efeca47fc99b268109aebea18f92666726"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:102.json",
+      "sha256": "efe3e52d930e29422f25914013d001b394db04e4a1e35321167a34a123c34b5f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:103.json",
+      "sha256": "70ccbfef563014f61b568d2397551d92d6599be4040b6905f7f2d2867e46d542"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:104.json",
+      "sha256": "a2845790606eae1c2d6fb45fe520d1593c844afd98cc992dedf2830b9e1f81fb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:105.json",
+      "sha256": "61444367c439671a8a5881f2504363f62572a75107dc10b775cc098711366918"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:106.json",
+      "sha256": "dd652e804ae5cbf2afeb8db5dbcdec00e9ab7916479c3c7ffd4b0246af8bc8b0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:107.json",
+      "sha256": "a4a2993a4529c6785e16dd8186fef2080222bb7b4e8f689aaaa267dcbbcc2c4f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:108.json",
+      "sha256": "5971a06452174ae967de9ddd633f7860121a61a32b17641f42ae6454da013d0c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:109.json",
+      "sha256": "a781e89b912d00f8de19648aa466e9d1e63d7e7bbc8fd65c6d4b199f8ec75d84"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:110.json",
+      "sha256": "00913bafd6ad0c2176d61999e220adb195dd4deff1980e1db810419456c158d4"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:111.json",
+      "sha256": "cec7802ea0ad6a3b8a1d3c4214e31da41a9159545e8ad32279ca62528c65eacd"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:112.json",
+      "sha256": "a386a9add8832d708f9b3e3bf25419e6d254277dc11e31f7c129f4258d724b80"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:113.json",
+      "sha256": "33871873e972bc89b86bf1dc060d04495cf7fb45f1b8e9f65746ad694d25329d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:114.json",
+      "sha256": "e1be0caee404fc8e5f12bfdc6e13de65b09bef04ea97598571afd67fa20d8f6f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:115.json",
+      "sha256": "311c6898a4020ba54961569f3649d9ca3cbf0a2894482f771d8d8c141f0e01b2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:116.json",
+      "sha256": "3ee4d6b2926b208d8dc2962127d22442dd7ad5bb16f566d1048b932c959938b7"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:117.json",
+      "sha256": "ade5445b15cdd12978ca0d4fc14a4c154346c6c351734bf8e4c84ed970c1e115"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:118.json",
+      "sha256": "2a9e50749cb5193396b6308f2dee2ec99096d198f03688e6d7a760bc48116bb8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:119.json",
+      "sha256": "6ae46a599f6fe7eeb4227d20180195bc132c030d81d035634e1d14a1fe5599bc"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:120.json",
+      "sha256": "4345bfaf2f49d2a8e8955840ed7ba93b5056933b2611741c2a8d930aa01fab52"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:121.json",
+      "sha256": "49e763d976cc5b998a91c90fa82099813a0fed0d85fbdf1cd710bcf6c6479ca3"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:122.json",
+      "sha256": "a93b616a9f1cb5f98974f41e996557638018b07d17ce46d1101415a33118cbd1"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:123.json",
+      "sha256": "7c875a707ff71818ed15f4cf2cd3d9ec7d99f83327890d85628c0666fbeecd63"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:124.json",
+      "sha256": "4f734d603f9db3ff41634e4cea6e53022fbb28ab100ece9f7d107aa38575088b"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:125.json",
+      "sha256": "ea776b292c8d7f271b13793da8311adfe92354ef7795aaa318491ea58236900c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:126.json",
+      "sha256": "7f3b44ad0c002a0259d70924ef3b25c7ea5fa3a487cbdc421651852952f1c2ed"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:127.json",
+      "sha256": "4d1e241bb85aea6add9dccbf6e4fa0fc2c1f71065dce8d679a2ca79585ff23b3"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:128.json",
+      "sha256": "817aa52518403191cd660bbe11b55835127e818f466068217ef244c0999968c8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:129.json",
+      "sha256": "c043a605b2ec06448cf226b61873967d2b6933e49244561db958b6dd0b2877e2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:130.json",
+      "sha256": "6d61dde26aa983d6c7ecbc448de5989a9d0a9d682b8447e87d4209460ef946a5"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:131.json",
+      "sha256": "439283b60f86c4c555b1417de6925d2dd5a9489707add9f24c1de963c8d060d2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:132.json",
+      "sha256": "37985e54b40014fd87c37e9149389b1c2a5802023f164e70b74b0565eb05b05a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:133.json",
+      "sha256": "8fb49b340c3ac07121c48c5943c0c96da425d8426115224ad5dacd1d47c58f66"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:134.json",
+      "sha256": "a06b6c58bc2e3eda351955382dcafb0b98113b12ba095ae6ce18c165baa979d6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:135.json",
+      "sha256": "0e2705ee1708a29bd96bf0d205751fa3fe35a30969d6c5d61608e2588f089218"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:136.json",
+      "sha256": "5394d192cd7bda916cceae7ebc17e1444cf4f8617de567d10f998223a41fff1f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:137.json",
+      "sha256": "5c3245528643b0b6fe30728f0d282fe1ee152cad6aa0be60231010e13f7be8aa"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:138.json",
+      "sha256": "1cf959e756f919f47c361830ce26a3ae66b78cd12c16b4756ee2a92fdfc3f0de"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:139.json",
+      "sha256": "4bcb35946e12efbb380dc05bf2bb622781ca516baf866828693f744445633b64"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:140.json",
+      "sha256": "75860eab13f44edef8b80da80929daa607c53bf5be0f5f180dd9466649804c8a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:141.json",
+      "sha256": "2686dbd89f06c13acea9d58a219efbe070ae79eef5f21c4c3342253b534e25ba"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:142.json",
+      "sha256": "d1f148ae36150eca5d8b53586b29c6f24e846038182919a0fb7fa169c82044a2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:143.json",
+      "sha256": "87e5b30b57cc5b9a4c5b5d9cc089381f9eff9c34d877f84cafe86f99ad87fe60"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:144.json",
+      "sha256": "f6fc8f24ee43c548124940493a52f0cc324d78d81076e6c7dcb73c384d4e933e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:145.json",
+      "sha256": "911f625946a9b693bcdcd7c0564322b2dc1065fd4d9e83e49eb2b79abaade244"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:146.json",
+      "sha256": "6a674e53f74a505371fa7283a6555dc8bb4bbb64bf7b01e7d2da733af8f91f72"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:147.json",
+      "sha256": "d18f527ab4e2192ad853b9338adcd329adca2ec7c812806f4bb878f368e91f57"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:148.json",
+      "sha256": "232cf29c31a41554c548fab893ba03ddf11a32b086b715c789fc65109730f283"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:149.json",
+      "sha256": "b21b6b4b2b5ee48744d6ed5e24e0762e6ac4dc7007688f31dd743b2face983eb"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:150.json",
+      "sha256": "e0134e6c22b6bd4a05b5c2849657ddc4fedd9e437323c8b122f4412b07150541"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:151.json",
+      "sha256": "08f6f10db7ab061323fc5a6309a4bbdeafae5570dd6d5240f47d591c0d7b0c55"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:152.json",
+      "sha256": "4270169f4fa72746e54d57ba1627f26514b3cb56f42fde6460ffb429ec7ebbe8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:153.json",
+      "sha256": "18577ff7925f3f545265dcb3fb2ec10b1728e36e0b2245c7f39d8d87c7b0979a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:154.json",
+      "sha256": "06672f5d608a00a4716b22b27bb0f870206ca291df64ad6c7b6a015ba2cacc80"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:155.json",
+      "sha256": "653ef608bd1adf1fe29763d75400476c9960a2d0a6de4e17c5137c13f3263674"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:156.json",
+      "sha256": "3c897693d07f31bf264e83da9d25623d515202c42591432c762116e8b4ab813d"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:157.json",
+      "sha256": "1716ffc01a84a618d2fa56c2b321308be58144a64ac35a65295937d25d70e889"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:158.json",
+      "sha256": "992a5af1c4b06f5f5ad627a1ad5d98b9e2a19858824ac9a6b5e053d553afe6d5"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:159.json",
+      "sha256": "59bcff0a2654e58847f6b77be3490e551170dcdcf3c7ebadc49a468239df1e31"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:160.json",
+      "sha256": "a3ac4028b4f9a5a06e0adba1b91c8c2c0df4e8681af948be6c09cd637c634d1c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:161.json",
+      "sha256": "e49462f85ecb3bdfcf372509122d656935bc9f7598b80317b13d7d555b7f89f3"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:162.json",
+      "sha256": "5f5478d049cac7e1f909a92362aed31256e478bf12268fa476e9c299d8ad2fbd"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:163.json",
+      "sha256": "925a903eb1e143cf487d07b477d0d15c77802f32ab50ad3c28b45214a01d0234"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:164.json",
+      "sha256": "576482972fabfe81ec64159618041756d44680a18db19633cfb355e9a2f665fd"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:165.json",
+      "sha256": "ccc28e6621976ee61d96210a70c9627129c5f3e523478e8088676d8882fa5c6c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:166.json",
+      "sha256": "9a99384c02d2c5ba2f25cce2c1077c0bd2a2adaa23b4ae7d97e1517772e981ac"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:167.json",
+      "sha256": "3ab657ca812ddb3d8b1e49912c5adbb9a641a24b4f6b102292359cc890cba510"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:168.json",
+      "sha256": "632f6529908458868fffac33d7fa719379418857d2e1f8794b347c7786201688"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:169.json",
+      "sha256": "bb887b63c9a00fe147f8a36d46fb8ef644b8c0b5e67b54b6071e48c948ffa121"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:170.json",
+      "sha256": "60498c5ede611ed0faf7d2b10e7a484fe9cf2378d7757b055be5107ef97111ac"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:171.json",
+      "sha256": "bd23dd3579180f0e704f407635f5dce660c8c1dab186023afd25f9f8849c20f2"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:172.json",
+      "sha256": "563603300407dec13bc1effdf29661b0cb9409c83f43caa25e95d10089f7157c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:173.json",
+      "sha256": "1eee3457937cdebf950e6ba2b4aaf7729eea68c151972554bc7799803622b148"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:174.json",
+      "sha256": "37065fe699034a73cb14a9e24c5caa4269ab0a75e23728960962fc4d5e73ff8c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:175.json",
+      "sha256": "e1229b41092594a75fdde91a70110054178e7f98254ed5de77c13b4c2ec0ca4f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:176.json",
+      "sha256": "09b943a220f35fe1bd32f9bd2ea3e91130a5d7abe8b296255c29217bae441ced"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:177.json",
+      "sha256": "5277d595c319d2923e43901fd2e6e269c1e4c4695e25bd17c8b6957c5aa560a9"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:178.json",
+      "sha256": "d6020fdc12afbec63907d9ca83ed63d2f6b980fd9f5db086b21088e481063eb4"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:179.json",
+      "sha256": "6ca1edf96a85b8eeb573f1fb4114130f268d9fb16d65b50780e99d569588935e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:180.json",
+      "sha256": "24a4cd152df560923f6af68bd52d2a9d23d8dbaf6883aa28df7bbf00a56d1ff0"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:181.json",
+      "sha256": "128480705fdffb6c13b2c784dd10572babb16df76d8874e3d8f61c80541ea3c8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:182.json",
+      "sha256": "9f2105688f4392d5567b2524bbc1315877455db7bbe42612b5d68b9b6557f50a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:183.json",
+      "sha256": "96b59a26c12f88cf50de13fa70bed1684500bdd4551bccd6e25add76337e5605"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:184.json",
+      "sha256": "d93cb6f4ac6f17a55f48fc811b6b34c807f725c46f49163af835cf383c777ec3"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:185.json",
+      "sha256": "7b4d9ca4d88552d24833e85293198df3d2590c45b8e7d181d44933ec62d629fc"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:186.json",
+      "sha256": "84b4fa8bea87885c86efdf6eca501a9067e2913226e0e9cd952028558b5d53c8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:187.json",
+      "sha256": "4eb85828485fd0d77398f2964b1e738aa4b7df698634ae449174be6b65db3c44"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:188.json",
+      "sha256": "ae0ea8fa2cfe2b82d42f8b199dbf5ff81f160f5c861ca01b51f1c0d4a95fce9a"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:189.json",
+      "sha256": "f73b1eeb09849268f6f3c3c8c50f9dce470340ffcfae27cf2c57e172630e67e4"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:190.json",
+      "sha256": "42ae04cae0f5bf139f95e654d93d981df43c06e6fad2f13d32b248cb8273ca2f"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:191.json",
+      "sha256": "67fd6d2f154dd3700bf085690c85a7180078690228e40f60fc4c897dac05d1c7"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:192.json",
+      "sha256": "c72a533fd17a214c3038a7c4e8fc8d140de6b3a9fd24126cbf451bfb6895ad05"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:193.json",
+      "sha256": "4e73ba79ac709215b4524564ef979247b48e8d1b08a4ac1f341e01c3e65e5e53"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:194.json",
+      "sha256": "9f88207bd0a66412a3c02e9c3170497e12d39c926ad7a4d253ed59bf2bcfefa6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:195.json",
+      "sha256": "e49a70f29e5c13d625ea1c43ac142e07b07315fda7e4dd9978b2e5444ceccc0e"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:196.json",
+      "sha256": "e9f3ec3228bc68c931dcb008d920a25fb70e9b4807ceceebb1e01f634cb2ce76"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:197.json",
+      "sha256": "2c13e2b4a54ee16e0bd985612b70912a963920e8426ea84a83e56ae1350013fa"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:198.json",
+      "sha256": "1048a30685387d665f5bf74c38c78d803da923168df3d7e9177f8df86b422994"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/legal400/sens:199.json",
+      "sha256": "5e27dccf296df6f809ec5e45bc1b875a2c308f55f105becf4c6e48e05fe1df54"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_006.json",
+      "sha256": "276a4e2b547cb41e58c87ac718a741529f21ea620bb7d9c55a946dbe34bcc676"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_010.json",
+      "sha256": "4a02898f0019dda9d54582694f255c9befd94bcb7026a8e0742d0e33d043e544"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_020.json",
+      "sha256": "c63749cff3d7633199bc147dc7370fc596e740f04d399960a85d8127a1601521"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_044.json",
+      "sha256": "fdfc784d627d94ae798aa8fc3918c18fc8033614b108c7008dafc8a09ff7bf67"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_048.json",
+      "sha256": "47eff1b180dc007153a8d708ddb2d3216d98374c27ef27a8d71f891b8375bb91"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_052.json",
+      "sha256": "415a78e4fa146534c7729bc667e2e98f41fe10e7d7ff0ad06e2d31b7eea24d56"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_062.json",
+      "sha256": "c43b3597b3b830021e23ef4a1aa56f4c30ac3d0e640f4c3865d6a3bbfd7fbf4c"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_076.json",
+      "sha256": "111aab83f6de62408b452e68663b2f507833a974ae27ad3b596a2eec66fac3a9"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_082.json",
+      "sha256": "20763639ede8049e341d0edddf94250bdcdf0848043750bcd5103193f2ceca21"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_083.json",
+      "sha256": "ef96bd91a0ed2511b02745581a31eba00e43bb747030a4ba48fc89cd505b70c8"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_084.json",
+      "sha256": "aa7cd42e6703eb22a5ef25d513e27f460b8962070f02bace8d91e4cba59c10ba"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_090.json",
+      "sha256": "9e7252dabc884b006b4f59206b03ba0e1c3c889f2e37cf8bf15e14b8b038bdf3"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_092.json",
+      "sha256": "f5168d37b8200d020dfbdde5dc550455f0f6719f50772e40b793bd7828f71da6"
+    },
+    {
+      "relative_path": "results/audit/crossmodel287/native_selection_eager/gemma/val70/jbb_095.json",
+      "sha256": "a7099cfc0f3ea58887d18863d5e9fd26351af63c62767f4f224fbd55917c4eb7"
+    }
+  ],
+  "earlier_five_pair_test_did_not_explicitly_disable_automatic_compile": true,
+  "new_outputs_namespace": "native_selection_eager_uncompiled/gemma",
+  "no_labels_read": true
+}
