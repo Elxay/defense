@@ -1,0 +1,97 @@
+{
+  "utc_started": "2026-11-10T05:31:29.076317+00:00",
+  "pid": 3869089,
+  "repo": "sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406",
+  "revision": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+  "phase": "complete_verified",
+  "credential_source": "authorized_account_bashrc_assignment",
+  "credential_value_logged": false,
+  "local_path": "/data/HZX/Def/models/sorry296/79ab44668cef557414cb5e15c726a56ebca9cf1e",
+  "files": {
+    "README.md": {
+      "bytes": 5365,
+      "sha256": "c7910aa76d7b1cae7dcd624e38a80e15a6f6237e19b9c49e5d141b315d1ace00",
+      "expected_lfs_sha256": null,
+      "verified": true
+    },
+    "config.json": {
+      "bytes": 595,
+      "sha256": "655a2838f2ef8af0fd92fac9f9356ff6c8a4fc884e823ceeaac0d0fc36306548",
+      "expected_lfs_sha256": null,
+      "verified": true
+    },
+    "generation_config.json": {
+      "bytes": 111,
+      "sha256": "5d96ed7903c0b56b0bfb894ffe2fb9783b57d75eaf58726b81b36a330904fb09",
+      "expected_lfs_sha256": null,
+      "verified": true
+    },
+    "model.safetensors.index.json": {
+      "bytes": 23950,
+      "sha256": "f0cb2f153f1cc69af0264f8e24a6152638231bf06c84c68763d6d70ae153ed51",
+      "expected_lfs_sha256": null,
+      "verified": true
+    },
+    "special_tokens_map.json": {
+      "bytes": 414,
+      "sha256": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+      "expected_lfs_sha256": null,
+      "verified": true
+    },
+    "tokenizer.json": {
+      "bytes": 1795331,
+      "sha256": "bdc45dc7f18a5c55e0dcb36f4f187a7c429d6aaa1693a17d20422b85081642d9",
+      "expected_lfs_sha256": null,
+      "verified": true
+    },
+    "tokenizer.model": {
+      "bytes": 493443,
+      "sha256": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+      "expected_lfs_sha256": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+      "verified": true
+    },
+    "tokenizer_config.json": {
+      "bytes": 1460,
+      "sha256": "0b9444de796ce8352bc4c235aa6fc6ca43c63baf98015cdba16bc8b5ad296c88",
+      "expected_lfs_sha256": null,
+      "verified": true
+    },
+    "model-00002-of-00006.safetensors": {
+      "bytes": 4899116440,
+      "sha256": "8964689c754cac19e7c856dc2735366d6a455812758bd53eb0c5deb0eddb1301",
+      "expected_lfs_sha256": "8964689c754cac19e7c856dc2735366d6a455812758bd53eb0c5deb0eddb1301",
+      "verified": true
+    },
+    "model-00003-of-00006.safetensors": {
+      "bytes": 4999813120,
+      "sha256": "be3112be0c3ebbc0a7a19149f8f9aede6ec9ff56107c67d77b26c3f448378822",
+      "expected_lfs_sha256": "be3112be0c3ebbc0a7a19149f8f9aede6ec9ff56107c67d77b26c3f448378822",
+      "verified": true
+    },
+    "model-00001-of-00006.safetensors": {
+      "bytes": 4987196936,
+      "sha256": "584078f77f7889352e2e874b43dfe33065064ceea45ac9948140180b43104e2b",
+      "expected_lfs_sha256": "584078f77f7889352e2e874b43dfe33065064ceea45ac9948140180b43104e2b",
+      "verified": true
+    },
+    "model-00004-of-00006.safetensors": {
+      "bytes": 4999813128,
+      "sha256": "0d152b1d657fd8763c5196222d63d9bf39f62b6454a4ed5c4a3d7ce3668a0fe5",
+      "expected_lfs_sha256": "0d152b1d657fd8763c5196222d63d9bf39f62b6454a4ed5c4a3d7ce3668a0fe5",
+      "verified": true
+    },
+    "model-00005-of-00006.safetensors": {
+      "bytes": 4832007496,
+      "sha256": "7a4b6217ea66273a48d0ced522f920ac402d9ce964bc04f1078d5ef9e304589f",
+      "expected_lfs_sha256": "7a4b6217ea66273a48d0ced522f920ac402d9ce964bc04f1078d5ef9e304589f",
+      "verified": true
+    },
+    "model-00006-of-00006.safetensors": {
+      "bytes": 4249014896,
+      "sha256": "e6135490a036868d22be5648e9c95cef105be6a654fc71ccfe26316a9ce5fc97",
+      "expected_lfs_sha256": "e6135490a036868d22be5648e9c95cef105be6a654fc71ccfe26316a9ce5fc97",
+      "verified": true
+    }
+  },
+  "utc": "2026-11-10T05:51:00.757373+00:00"
+}

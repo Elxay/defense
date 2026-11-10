@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-10T06:04:55.249802+00:00",
+  "stage": "S0",
+  "master": "docs/300_UNIFIED_PROTOCOL.md",
+  "master_candidate_sha256": "d580e6e27588e7e8d8b801abf2f2e420d846d41e3fa61d2769addf1ccb212a70",
+  "S1_frozen": false,
+  "new_test_generation_allowed": false,
+  "allowed_work": [
+    "assets",
+    "human reference",
+    "CPU source and overlap audits",
+    "fixed calibration-source engineering throughput after own manifests"
+  ],
+  "no_result_based_scope_changes": true
+}

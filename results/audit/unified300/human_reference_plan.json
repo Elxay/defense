@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-10T06:04:55.249802+00:00",
+  "purpose": "S0 human reference; not target model outputs; no conditional effects",
+  "master_protocol_candidate_sha256": "d580e6e27588e7e8d8b801abf2f2e420d846d41e3fa61d2769addf1ccb212a70",
+  "input_sha256": "0e4b964e3cdd2b3126d8e0b23108e1e61c7db1bd380140996cf57f079a494d48",
+  "gold_sha256": "0a4cf7ed52e93d191a8c6755ce22a053257a106b7e71bb736bf39f833f2b2547",
+  "test_source_sha256": "2ee0d444ffea60869f583a986bcf9f98b19502f72bbc3877ed94dfd1ac94b3dd",
+  "N": 4400,
+  "workers": {
+    "SORRY": "af0bf98d69281e7fa552b6e8174e57e5371f4bca513f3208f7a890889a0c7772",
+    "HB": "e80a8c3fbe4f09bce5319a64b7054ee46bba1fc44db68d25d367afec4252bfce",
+    "WG": "742f63fb01b609ae7743ab03d2a5f1f0fcb8b64b7548d4318ec0ab545fb34992"
+  },
+  "SORRY_revision": "79ab44668cef557414cb5e15c726a56ebca9cf1e",
+  "SORRY_parser_sha256": "190558e2d9436c4d9bb0e157526c54a85b32324498e5ccd604f5ccd84f71ff1b",
+  "SORRY_prompt_sha256": "c0760e55a1f8ef1124c6bc3ce80392fbcb4be626f9c4f8451c5e030c98f5ca9c",
+  "SORRY_backend": "innet GPU0 vLLM0.6.6 bf16 eager, memoryfraction.85, official template/parser temperature0 max1024; gate single20 vs batch20, fallback single repeat only",
+  "HB_model_manifest_sha256": "35df6528783271ff63b0dd44537f50c4d09c022b9fdb786cd1de0c574e43af99",
+  "HB_legacy_functions_sha256": "0208ecae545de1936e0d643fb1ed8e455c191f5141853fe3c1798fa84c54c047",
+  "HB_prompt_source_sha256": "46f1db751866848834d45d5128a18d4cc0a820828e89796ab51bc605d10c7058",
+  "HB_backend": "innetGPU2/3 hf_innet; legacy20hardwarecheck then officialfull response template/rawYesNo; all4400input lengths<=2048 (max2025); no truncation or chunking needed for S0",
+  "WG_reference20_sha256": "f969222deff2166c82a31216d29538b5f564f1d0a513a9d83809daf1cccf0e3e",
+  "WG_template_sha256": "fa7f1c313ef1463a2fe249ff50c537adfbd84ff2fe82b3ffa72ee21124afb0d6",
+  "WG_backend": "node01GPU0/1/2 existing HF single, same20 reference on eachcard, modulo3 shards",
+  "input_prompt_scope": "Allthree humanmeta judges use base English question and supplied stored response, including OOD; no repeated decoding/translation; no humanlabel passed to judge",
+  "read_rule": "Only aggregate after allthree complete and all20gates passed; no tuning/drop from agreement; this does not admit main target generation",
+  "statistics": "accuracy all4400 INVALIDincorrect plus upperbound; kappa validpair N; instructioncluster intervals; style strata if supplied; commonvalid comparison; fieldwise INVALID IDs"
+}
