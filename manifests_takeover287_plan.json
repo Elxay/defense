@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-10T00:48:27.232374+00:00",
+  "files": {
+    "docs/287_ADDENDUM8_QWEN_REFUSAL_PRECEDENCE.md": "b3b022814c2acef5e5c2b09889ccb0acb5b36f084024c8b30f7aa5ce61741a15",
+    "docs/287_ADDENDUM9_WG_SELECTION_METRIC.md": "1c4f1aa1748517cbcc403da5caef751e1b80d2505b7ca152b99c1d7fd1043621",
+    "docs/287_ADDENDUM10_TAKEOVER_DIAGNOSTICS_AND_GEMMA_EAGER.md": "1fe324cc6ad595605dd0f132572800aaaaad4adf2a4ce08d65b4cd4572b9898e",
+    "docs/PREREG_LOG.txt": "d135e2af5d922ff8cd80f2fa0e5ff4efbd30eb9bb4cc8d5e997f8f1a02221f64",
+    "docs/OPS_LOG.txt": "6b1a755f0e081425f984d3286117360df9dd65f342c0ef4ee9976369f1217460",
+    "tools/handoff_20261106/crossmodel287_takeover_probe.py": "bd1f57c7f29b025495bb8db29c5e6cbcc33765522e4d6ed5586ade8606932380",
+    "results/audit/crossmodel287/takeover_20261110/plan.json": "d2dc516a0f69a7780b904cf060cd6d0c95b3cb1ee2d891c5c2798779063ab33e",
+    "results/audit/crossmodel287/takeover_20261110/effective_execution.json": "9e218a5a64c1f2b8fa311547cd08eadd0af9937a354e20903adc0fadc91c2f07"
+  },
+  "local_plan_before_probes_external_publication_after_launch": true,
+  "earlier_doc8_9_external_publication_is_now_not_backdated": true
+}

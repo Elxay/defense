@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-10T00:46:42.470951+00:00",
+  "probe_sha256": "bd1f57c7f29b025495bb8db29c5e6cbcc33765522e4d6ed5586ade8606932380",
+  "generic_trainer_sha256": "4a7b1d2f7db5fa06d032b18ed70a399e80f3e6ddc9af0774884db1d1dde629d8",
+  "gemma_attention": "eager",
+  "formal_Gemma_compile": false,
+  "gemma_compile_ids": [
+    "cp_adv_0031",
+    "cp_adv_0116",
+    "cp_adv_0151",
+    "cp_adv_0178",
+    "cp_adv_0102"
+  ],
+  "gemma_limits": {
+    "max_new_tokens": 120,
+    "alpha": 0,
+    "block": 12,
+    "timeout_seconds": 900
+  },
+  "Qwen_main_steps_lr_unchanged": true,
+  "Qwen_probe": "reconstruct initialization with same loader prefix for3seeds;5 full training steps seed3 with finite gradients; no main vector replacement",
+  "original_vector_sha256": {
+    "3": "d30e4286fbd5a66d1b7c7a21428bbbc82cb70dc438588153488fd2c33181ae26",
+    "4": "40c4e4fa49770c9b35ee4189e37c9bea81685fe5546f9bfcd3690f253c1049a0",
+    "5": "ce7d28c52240662b8b65e84c6718b302578ea1e5ed3610f6909939f9cefb2b88"
+  },
+  "alpha_grid": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1,
+    1.25,
+    1.5
+  ],
+  "legacy_Gemma_auto_outputs_preserved_separate": true
+}
