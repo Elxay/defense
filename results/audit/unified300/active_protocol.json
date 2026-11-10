@@ -1,10 +1,10 @@
 {
   "utc": "2026-11-10T11:35:21.659461+00:00",
-  "stage": "S1a",
+  "stage": "S3a_alpha0_and_S2b_read_ready",
   "master": "docs/300_UNIFIED_PROTOCOL.md",
-  "master_candidate_sha256": "3a4a4d0d76ebde27fa1561169f95b198c4a0d705c44326ded23746c76f53e2e0",
+  "master_candidate_sha256": "e38b35b23c79752a49268c528d6987d4ebc377f89cd04c19d70739765b822331",
   "S1_frozen": false,
-  "new_test_generation_allowed": false,
+  "new_test_generation_allowed": true,
   "allowed_work": [
     "S0 preparation",
     "S2b700 calibration and WG cache scoring",
@@ -23,7 +23,7 @@
   "Llama_cap120_batch_candidate": 16,
   "SORRY_WG_report_name": "non-refusal rate",
   "Q2_WG_nonrefusal_decomposition": false,
-  "updated_utc": "2026-11-10T15:03:34.009399+00:00",
+  "updated_utc": "2026-11-10T17:34:29.755662+00:00",
   "Qwen_long_batch_candidate": 4,
   "long_batch_label_gate_passed": false,
   "S1a_frozen": true,
@@ -32,5 +32,23 @@
   "S1a_manifest_sha256": "44015228cfbf5065953f6e9c83f9d7f5c1622210da4f4dfec2cdb9088db32f42",
   "new_calibration_generation_allowed": true,
   "search_outputs_allowed": false,
-  "long_path_admitted": true
+  "long_path_admitted": true,
+  "allowed_main_conditions": [
+    "alpha0"
+  ],
+  "allowed_main_families": [
+    "base",
+    "deepinception",
+    "refusal_suppression",
+    "logical_appeal",
+    "authority_endorsement",
+    "misrepresentation",
+    "evidence-based_persuasion",
+    "expert_endorsement",
+    "prefix_P1",
+    "prefix_P2"
+  ],
+  "static_alpha0_execution_plan_sha256": "2c0d68e1d775ee20121e4b7a129ed77ab29a85c44fc43c364abdb418ca41b420",
+  "main_label_or_effect_reads_allowed": false,
+  "language_encoding_execution_locked": true
 }
