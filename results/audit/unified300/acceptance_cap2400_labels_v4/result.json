@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-10T13:02:05.983179+00:00",
+  "cap": 2400,
+  "plan_sha256": "d53a3cc73e9803a99721c2061d937a7b275196531c4572961895959f5a5e9808",
+  "models": {
+    "qwen": {
+      "conditions": {
+        "alpha0": {
+          "N": 100,
+          "maximum_WG_input_tokens": 2080,
+          "WG_input_over4096_IDs": [],
+          "v2_flips": 0,
+          "WG_known_flips": 1,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 1,
+          "passed": true
+        },
+        "s3": {
+          "N": 100,
+          "maximum_WG_input_tokens": 2375,
+          "WG_input_over4096_IDs": [],
+          "v2_flips": 0,
+          "WG_known_flips": 0,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 0,
+          "passed": true
+        },
+        "random": {
+          "N": 100,
+          "maximum_WG_input_tokens": 2199,
+          "WG_input_over4096_IDs": [],
+          "v2_flips": 0,
+          "WG_known_flips": 3,
+          "WG_unknown_pairs": 0,
+          "WG_worstcase_flips": 3,
+          "passed": false
+        }
+      },
+      "cap2400_passed": false
+    }
+  },
+  "no_absolute_condition_rates": true,
+  "formal_generation_admitted": false,
+  "other_gates": "historical-batch20, all search-adapter subgates and remaining S1 receipts still required"
+}
