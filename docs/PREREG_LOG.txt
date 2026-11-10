@@ -650,3 +650,5 @@
 [2026-11-10T06:08:54.183996+00:00] S0SORRYworker failedbeforemodelinference due extractedmodule json dependency. Originalscript/baseplan retained; v2bindsstdlibjson; no template/parser/label rule change; benign20templateconstruction passed; zeroSORRYoutputs. RepairSHA c47b74a2b1ca67b7f5c5cffc8d602e60b38f78ffdb24fca838aa0f60317d8bb6. HB/WGrunningbaseplan unchanged.
 
 [2026-11-10T06:18:17.253853+00:00] S0SORRYvLLMconstructor failedbeforeinference: head_dimNone fromnewTransformers unsupportedbyvLLM0.6.6. v3passesexplicitHFoverride128=4096/32; Q/Kcheckpointshapes verified4096/1024; no weights/configfiles/template/parser change, zerojudgeoutputs. Baseplan retained, executionrepairSHA 2b6ea7cd16e12ff75a8b9ddee77c5fbe83a4884cac7d5e287725da751824c54d.
+
+[2026-11-10T06:22:02.448574+00:00] S0SORRYvLLMKV capacity24784<model32768, failedbeforeinference. Explicitservingcap16384; maxactualhumaninput1752+officialoutput1024 fits, no truncation/outputcapchange; modelweights/config unchanged, zerooutputs. v4executionrepairSHA d253644f0816a968a68998020afe0d42c691145866ad78c4d45c94866b3b2d6e.

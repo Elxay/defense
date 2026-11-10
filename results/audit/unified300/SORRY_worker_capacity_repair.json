@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-10T06:22:02.448574+00:00",
+  "base_plan_sha256": "9f8fb930cf80d2895d5a8445f4a881ec348fb6c03df53bd9f08ce832bf9f0e12",
+  "previous_worker_sha256": "776258db6cdb1e72b9468bd308d8939bc10319ccf9fca4cd05a6d2e063bc161f",
+  "worker_sha256": "cdf32d5fa670a2106b92cd91951d65a5057f6b13e98b9a5b37eb15e7c979205e",
+  "reason": "official32768 model context exceeds available single24GB KV capacity24784 at.85; set serving-capacity16384 only, no actual input/output truncation",
+  "max_model_len": 16384,
+  "model_original_max_positions": 32768,
+  "all_human_input_max": 1752,
+  "official_output_cap_unchanged": 1024,
+  "all_human_rows_fit_with_output_reservation": true,
+  "inference_outputs_before_repair": 0,
+  "head_dim_override_retained": 128,
+  "model_files_modified": false
+}
