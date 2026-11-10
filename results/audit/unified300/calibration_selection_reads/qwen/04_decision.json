@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-10T17:41:29.789408+00:00",
+  "model": "qwen",
+  "step": 4,
+  "status": "selected",
+  "selected_alpha": 1.25,
+  "selected_alpha_exact": "5/4",
+  "target_unreachable_under_feasible_grid": true,
+  "three_seeds_share_alpha": true,
+  "grid_or_threshold_changed": false,
+  "no_main_read_or_schedule_change": true,
+  "reason": "worstcase legal cap, closest mean attack refusal to fixed target; smaller alpha on exact tie",
+  "selected_candidate": {
+    "alpha": {
+      "exact": "5/4",
+      "value": 1.25
+    },
+    "admitted": true,
+    "mean_lo": {
+      "exact": "23/60",
+      "value": 0.38333333333333336
+    },
+    "mean_hi": {
+      "exact": "23/60",
+      "value": 0.38333333333333336
+    },
+    "error_lo": {
+      "exact": "43/200",
+      "value": 0.215
+    },
+    "error_hi": {
+      "exact": "43/200",
+      "value": 0.215
+    },
+    "per_seed_legal_upper": {
+      "s3": 5,
+      "s4": 6,
+      "s5": 9
+    }
+  }
+}
