@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-10T06:18:17.253853+00:00",
+  "base_plan_sha256": "9f8fb930cf80d2895d5a8445f4a881ec348fb6c03df53bd9f08ce832bf9f0e12",
+  "previous_worker_sha256": "78f0057584c757f812a631afe6635bd98fed157ba8b2a0defc901d2c93eb880d",
+  "worker_sha256": "776258db6cdb1e72b9468bd308d8939bc10319ccf9fca4cd05a6d2e063bc161f",
+  "reason": "vLLM0.6.6 sees newTransformers head_dim=None; explicit derived128=4096/32, verified Q/K weight shapes; no weight/tokenizer/template changes",
+  "hf_overrides": {
+    "head_dim": 128
+  },
+  "weight_shapes": {
+    "model.layers.0.self_attn.q_proj.weight": [
+      4096,
+      4096
+    ],
+    "model.layers.0.self_attn.k_proj.weight": [
+      1024,
+      4096
+    ]
+  },
+  "SORRY_inference_outputs_before_repair": 0,
+  "original_config_sha256": "655a2838f2ef8af0fd92fac9f9356ff6c8a4fc884e823ceeaac0d0fc36306548",
+  "model_files_modified": false
+}
