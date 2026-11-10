@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-10T15:04:57.747507+00:00",
+  "S1a_manifest_sha256": "44015228cfbf5065953f6e9c83f9d7f5c1622210da4f4dfec2cdb9088db32f42",
+  "generation": {
+    "llama": "innet GPU2",
+    "qwen": "innet GPU3"
+  },
+  "WG": "node01 GPU0, reference20 before calibration scores",
+  "bridge": "registered CPU job, immutable task input, per-row judge cache",
+  "search_outputs_allowed": false,
+  "selection_read_before_all22": false
+}
