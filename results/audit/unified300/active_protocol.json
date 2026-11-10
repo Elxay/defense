@@ -1,8 +1,8 @@
 {
-  "utc": "2026-11-10T10:53:28.271851+00:00",
+  "utc": "2026-11-10T11:35:21.659461+00:00",
   "stage": "S0",
   "master": "docs/300_UNIFIED_PROTOCOL.md",
-  "master_candidate_sha256": "849e925238d2d116b9cfa6ce403c54e032c78455c00a9f4d55d3b57b305d274b",
+  "master_candidate_sha256": "eb5d7064a942541c4cefcaf3f9691ad7845657d20f65e9d9c6e7e6193bf2461b",
   "S1_frozen": false,
   "new_test_generation_allowed": false,
   "allowed_work": [
@@ -21,5 +21,7 @@
   "SORRY_WG_secondary_field": "Harmful-response",
   "field_amendment_sha256": "6378948b449b052ec88d2736b6084e6df266d0a5cc286d1a922d98c1310726ff",
   "Llama_long_batch_candidate": 8,
-  "Llama_cap120_batch_candidate": 16
+  "Llama_cap120_batch_candidate": 16,
+  "SORRY_WG_report_name": "non-refusal rate",
+  "Q2_WG_nonrefusal_decomposition": false
 }

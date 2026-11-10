@@ -1,0 +1,22 @@
+{
+  "utc_frozen": "2026-11-10T11:35:21.659461+00:00",
+  "amendment_sha256": "333fff8194c1c97f22d07d99df102162de203184118accd5e6b6abd0e2309daa",
+  "style_metrics_previously_read": false,
+  "kappa_eligibility": 0.6,
+  "eligibility_scope": "processed human references only; not raw language/encoding or local translation admission",
+  "bootstrap_seed": 20261265,
+  "replicates": 2000,
+  "main_encoding_language_scope_changed": false,
+  "absent_styles": "report N0/no validation",
+  "WG_report_name": "non-refusal rate",
+  "Q2_judges": [
+    "SORRY",
+    "HB"
+  ],
+  "Q2_refusal_markers": [
+    "WG",
+    "v2"
+  ],
+  "WG_nonrefusal_decomposition": false,
+  "new_SORRY_target_test_outputs": 0
+}
