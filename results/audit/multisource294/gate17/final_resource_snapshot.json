@@ -1,0 +1,86 @@
+{
+  "snapshot_UTC": "2026-11-10T03:49:08Z",
+  "innet_GPU": "0, 6387 MiB, 24564 MiB, 1 %\n1, 6793 MiB, 24564 MiB, 97 %\n2, 16689 MiB, 24564 MiB, 71 %\n3, 22287 MiB, 24564 MiB, 87 %\n",
+  "innet_apps": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0, 3699504, 6362 MiB\nGPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 3098274, 6770 MiB\nGPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 3546015, 16666 MiB\nGPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 3546019, 15838 MiB\nGPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 3699505, 6420 MiB\n",
+  "qwen": {
+    "complete_conditions": 14,
+    "planned": 21,
+    "live": [
+      {
+        "utc": "2026-11-10T03:48:50.780405+00:00",
+        "pid": 3546015,
+        "physical_gpu": 2,
+        "shard": 0,
+        "phase": "generating",
+        "labels_read": false,
+        "condition": "s5_a0.1",
+        "new_rows": 3500,
+        "seconds_per_new_row": 2.828573767188271
+      },
+      {
+        "utc": "2026-11-10T03:48:50.647104+00:00",
+        "pid": 3546019,
+        "physical_gpu": 3,
+        "shard": 1,
+        "phase": "generating",
+        "labels_read": false,
+        "condition": "s5_a0.1",
+        "new_rows": 3494,
+        "seconds_per_new_row": 2.8332871627904854
+      }
+    ],
+    "WG_queue": {
+      "utc": "2026-11-10T03:46:01.316909+00:00",
+      "pid": 3545994,
+      "phase": "scoring",
+      "condition_effects_read": false,
+      "condition": "s4_a1.5"
+    },
+    "projection_UTC": "2026-11-10T05:07:01.823251+00:00",
+    "no_effect_read": true
+  },
+  "node01": {
+    "UTC": "2026-11-10T03:49:09Z",
+    "GPU": "0, 15054 MiB, 24564 MiB, 35 %\n1, 16073 MiB, 24564 MiB, 32 %\n2, 29 MiB, 24564 MiB, 0 %\n",
+    "apps": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 3161330, 14402 MiB\nGPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 3160050, 16036 MiB\n",
+    "llama_direct_alpha0_live.json": {
+      "pid": 3160050,
+      "host": "node01",
+      "physical_gpu": 1,
+      "plan_sha256": "acc73e0fe8d20b0d722306b8f346f9e4ab4e8334b9b19e858b74aed428af16ea",
+      "no_labels_read": true,
+      "utc": "2026-11-10T03:48:59.980930+00:00",
+      "phase": "pilot_generation",
+      "family": "direct",
+      "completed": 109,
+      "total": 300,
+      "seconds_per_row": 7.336737659044239
+    },
+    "gate17/direct_launch_receipt.json": {
+      "utc": "2026-11-10T03:39:04.099021+00:00",
+      "dispatch_shell_pid": 3160035,
+      "physical_gpu": 1,
+      "alpha": 0,
+      "planned_direct": 300,
+      "reused_pilot": 25,
+      "new_planned": 275,
+      "cooperative_Qwen_preemption": true
+    },
+    "WG_active": [
+      {
+        "condition": "s4_a1.5",
+        "pid": 3161330,
+        "n": 70,
+        "utc": "2026-11-10T03:49:03.270800+00:00"
+      }
+    ],
+    "qwen_assets": {
+      "verified_files": 3,
+      "utc": "2026-11-10T03:49:08.878999+00:00",
+      "complete": false
+    }
+  },
+  "Gemma_alpha0_complete_UTC": "2026-11-10T02:16:57.173392+00:00",
+  "Mistral_stage": "weights/native norm ready; baseline generation/training not started in this continuation",
+  "prefix": "user pause remains"
+}

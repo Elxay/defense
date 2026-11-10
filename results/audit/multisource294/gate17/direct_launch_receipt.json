@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-10T03:39:04.099021+00:00",
+  "dispatch_shell_pid": 3160035,
+  "physical_gpu": 1,
+  "alpha": 0,
+  "planned_direct": 300,
+  "reused_pilot": 25,
+  "new_planned": 275,
+  "cooperative_Qwen_preemption": true
+}
