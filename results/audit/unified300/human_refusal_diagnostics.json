@@ -1,0 +1,1060 @@
+{
+  "utc": "2026-11-10T10:34:42.798306+00:00",
+  "plan_sha256": "13cb1bb02267adb9286e967eb8ece98cf98d87aca04621e99f7a731e2c75e7a1",
+  "N": 4400,
+  "overall": {
+    "SORRY": {
+      "N": 4400,
+      "valid": 4400,
+      "invalid": 0,
+      "confusion_human0_1_by_model0_1": [
+        [
+          2832,
+          279
+        ],
+        [
+          86,
+          1203
+        ]
+      ],
+      "accuracy_all_lower": 0.9170454545454545,
+      "accuracy_all_upper": 0.9170454545454545,
+      "accuracy_valid": 0.9170454545454545,
+      "kappa_valid": 0.8081655996724241,
+      "recall_human_nonfulfillment_all": 0.9103182256509161,
+      "recall_human_fulfillment_all": 0.9332816136539953,
+      "invalid_by_human_label": [
+        0,
+        0
+      ],
+      "error_all_including_INVALID": 0.0829545454545455
+    },
+    "HB": {
+      "N": 4400,
+      "valid": 4400,
+      "invalid": 0,
+      "confusion_human0_1_by_model0_1": [
+        [
+          3014,
+          97
+        ],
+        [
+          393,
+          896
+        ]
+      ],
+      "accuracy_all_lower": 0.8886363636363637,
+      "accuracy_all_upper": 0.8886363636363637,
+      "accuracy_valid": 0.8886363636363637,
+      "kappa_valid": 0.7117973020698463,
+      "recall_human_nonfulfillment_all": 0.9688203150112504,
+      "recall_human_fulfillment_all": 0.6951124903025602,
+      "invalid_by_human_label": [
+        0,
+        0
+      ],
+      "error_all_including_INVALID": 0.11136363636363633
+    },
+    "WG_harmful": {
+      "N": 4400,
+      "valid": 4396,
+      "invalid": 4,
+      "confusion_human0_1_by_model0_1": [
+        [
+          2602,
+          505
+        ],
+        [
+          596,
+          693
+        ]
+      ],
+      "accuracy_all_lower": 0.7488636363636364,
+      "accuracy_all_upper": 0.7497727272727273,
+      "accuracy_valid": 0.7495450409463148,
+      "kappa_valid": 0.3830004762628358,
+      "recall_human_nonfulfillment_all": 0.8363870138219223,
+      "recall_human_fulfillment_all": 0.5376260667183863,
+      "invalid_by_human_label": [
+        4,
+        0
+      ],
+      "error_all_including_INVALID": 0.2511363636363636
+    },
+    "WG_1_minus_refusal": {
+      "N": 4400,
+      "valid": 4396,
+      "invalid": 4,
+      "confusion_human0_1_by_model0_1": [
+        [
+          2292,
+          815
+        ],
+        [
+          31,
+          1258
+        ]
+      ],
+      "accuracy_all_lower": 0.8068181818181818,
+      "accuracy_all_upper": 0.8077272727272727,
+      "accuracy_valid": 0.8075523202911737,
+      "kappa_valid": 0.605834263718742,
+      "recall_human_nonfulfillment_all": 0.7367405978784957,
+      "recall_human_fulfillment_all": 0.9759503491078355,
+      "invalid_by_human_label": [
+        4,
+        0
+      ],
+      "error_all_including_INVALID": 0.19318181818181823
+    }
+  },
+  "strata": {
+    "WG_only_refusal_signal": {
+      "N": 462,
+      "human_nonfulfillment": 449,
+      "human_fulfillment": 13,
+      "judges": {
+        "SORRY": {
+          "N": 462,
+          "valid": 462,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              427,
+              22
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "accuracy_all_lower": 0.9393939393939394,
+          "accuracy_all_upper": 0.9393939393939394,
+          "accuracy_valid": 0.9393939393939394,
+          "kappa_valid": 0.306380697050939,
+          "recall_human_nonfulfillment_all": 0.9510022271714922,
+          "recall_human_fulfillment_all": 0.5384615384615384,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.06060606060606055
+        },
+        "HB": {
+          "N": 462,
+          "valid": 462,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              447,
+              2
+            ],
+            [
+              12,
+              1
+            ]
+          ],
+          "accuracy_all_lower": 0.9696969696969697,
+          "accuracy_all_upper": 0.9696969696969697,
+          "accuracy_valid": 0.9696969696969697,
+          "kappa_valid": 0.11566858080393705,
+          "recall_human_nonfulfillment_all": 0.9955456570155902,
+          "recall_human_fulfillment_all": 0.07692307692307693,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.030303030303030276
+        },
+        "WG_harmful": {
+          "N": 462,
+          "valid": 462,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              449,
+              0
+            ],
+            [
+              13,
+              0
+            ]
+          ],
+          "accuracy_all_lower": 0.9718614718614719,
+          "accuracy_all_upper": 0.9718614718614719,
+          "accuracy_valid": 0.9718614718614719,
+          "kappa_valid": 0.0,
+          "recall_human_nonfulfillment_all": 1.0,
+          "recall_human_fulfillment_all": 0.0,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.02813852813852813
+        },
+        "WG_1_minus_refusal": {
+          "N": 462,
+          "valid": 462,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              449,
+              0
+            ],
+            [
+              13,
+              0
+            ]
+          ],
+          "accuracy_all_lower": 0.9718614718614719,
+          "accuracy_all_upper": 0.9718614718614719,
+          "accuracy_valid": 0.9718614718614719,
+          "kappa_valid": 0.0,
+          "recall_human_nonfulfillment_all": 1.0,
+          "recall_human_fulfillment_all": 0.0,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.02813852813852813
+        }
+      }
+    },
+    "WG_refusal_INVALID": {
+      "N": 4,
+      "human_nonfulfillment": 4,
+      "human_fulfillment": 0,
+      "judges": {
+        "SORRY": {
+          "N": 4,
+          "valid": 4,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy_all_lower": 1.0,
+          "accuracy_all_upper": 1.0,
+          "accuracy_valid": 1.0,
+          "kappa_valid": null,
+          "recall_human_nonfulfillment_all": 1.0,
+          "recall_human_fulfillment_all": null,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.0
+        },
+        "HB": {
+          "N": 4,
+          "valid": 4,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy_all_lower": 1.0,
+          "accuracy_all_upper": 1.0,
+          "accuracy_valid": 1.0,
+          "kappa_valid": null,
+          "recall_human_nonfulfillment_all": 1.0,
+          "recall_human_fulfillment_all": null,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.0
+        },
+        "WG_harmful": {
+          "N": 4,
+          "valid": 0,
+          "invalid": 4,
+          "confusion_human0_1_by_model0_1": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy_all_lower": 0.0,
+          "accuracy_all_upper": 1.0,
+          "accuracy_valid": null,
+          "kappa_valid": null,
+          "recall_human_nonfulfillment_all": 0.0,
+          "recall_human_fulfillment_all": null,
+          "invalid_by_human_label": [
+            4,
+            0
+          ],
+          "error_all_including_INVALID": 1.0
+        },
+        "WG_1_minus_refusal": {
+          "N": 4,
+          "valid": 0,
+          "invalid": 4,
+          "confusion_human0_1_by_model0_1": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy_all_lower": 0.0,
+          "accuracy_all_upper": 1.0,
+          "accuracy_valid": null,
+          "kappa_valid": null,
+          "recall_human_nonfulfillment_all": 0.0,
+          "recall_human_fulfillment_all": null,
+          "invalid_by_human_label": [
+            4,
+            0
+          ],
+          "error_all_including_INVALID": 1.0
+        }
+      }
+    },
+    "front_anchored_refusal_signal": {
+      "N": 1861,
+      "human_nonfulfillment": 1843,
+      "human_fulfillment": 18,
+      "judges": {
+        "SORRY": {
+          "N": 1861,
+          "valid": 1861,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              1834,
+              9
+            ],
+            [
+              9,
+              9
+            ]
+          ],
+          "accuracy_all_lower": 0.9903277807630306,
+          "accuracy_all_upper": 0.9903277807630306,
+          "accuracy_valid": 0.9903277807630306,
+          "kappa_valid": 0.49511665762343965,
+          "recall_human_nonfulfillment_all": 0.99511665762344,
+          "recall_human_fulfillment_all": 0.5,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.00967221923696937
+        },
+        "HB": {
+          "N": 1861,
+          "valid": 1861,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              1841,
+              2
+            ],
+            [
+              16,
+              2
+            ]
+          ],
+          "accuracy_all_lower": 0.9903277807630306,
+          "accuracy_all_upper": 0.9903277807630306,
+          "accuracy_valid": 0.9903277807630306,
+          "kappa_valid": 0.17893033972253175,
+          "recall_human_nonfulfillment_all": 0.9989148128052089,
+          "recall_human_fulfillment_all": 0.1111111111111111,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.00967221923696937
+        },
+        "WG_harmful": {
+          "N": 1861,
+          "valid": 1861,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              1843,
+              0
+            ],
+            [
+              18,
+              0
+            ]
+          ],
+          "accuracy_all_lower": 0.9903277807630306,
+          "accuracy_all_upper": 0.9903277807630306,
+          "accuracy_valid": 0.9903277807630306,
+          "kappa_valid": 0.0,
+          "recall_human_nonfulfillment_all": 1.0,
+          "recall_human_fulfillment_all": 0.0,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.00967221923696937
+        },
+        "WG_1_minus_refusal": {
+          "N": 1861,
+          "valid": 1861,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              1843,
+              0
+            ],
+            [
+              18,
+              0
+            ]
+          ],
+          "accuracy_all_lower": 0.9903277807630306,
+          "accuracy_all_upper": 0.9903277807630306,
+          "accuracy_valid": 0.9903277807630306,
+          "kappa_valid": 0.0,
+          "recall_human_nonfulfillment_all": 1.0,
+          "recall_human_fulfillment_all": 0.0,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.00967221923696937
+        }
+      }
+    },
+    "unwarned_nonrefusal_candidate": {
+      "N": 1393,
+      "human_nonfulfillment": 644,
+      "human_fulfillment": 749,
+      "judges": {
+        "SORRY": {
+          "N": 1393,
+          "valid": 1393,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              507,
+              137
+            ],
+            [
+              50,
+              699
+            ]
+          ],
+          "accuracy_all_lower": 0.8657573582196698,
+          "accuracy_all_upper": 0.8657573582196698,
+          "accuracy_valid": 0.8657573582196698,
+          "kappa_valid": 0.7273992572027164,
+          "recall_human_nonfulfillment_all": 0.7872670807453416,
+          "recall_human_fulfillment_all": 0.9332443257676902,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.13424264178033019
+        },
+        "HB": {
+          "N": 1393,
+          "valid": 1393,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              581,
+              63
+            ],
+            [
+              223,
+              526
+            ]
+          ],
+          "accuracy_all_lower": 0.7946877243359656,
+          "accuracy_all_upper": 0.7946877243359656,
+          "accuracy_valid": 0.7946877243359656,
+          "kappa_valid": 0.5940976778684317,
+          "recall_human_nonfulfillment_all": 0.9021739130434783,
+          "recall_human_fulfillment_all": 0.7022696929238985,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.20531227566403443
+        },
+        "WG_harmful": {
+          "N": 1393,
+          "valid": 1393,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              173,
+              471
+            ],
+            [
+              335,
+              414
+            ]
+          ],
+          "accuracy_all_lower": 0.4213926776740847,
+          "accuracy_all_upper": 0.4213926776740847,
+          "accuracy_valid": 0.4213926776740847,
+          "kappa_valid": -0.1813133396181947,
+          "recall_human_nonfulfillment_all": 0.2686335403726708,
+          "recall_human_fulfillment_all": 0.5527369826435247,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.5786073223259153
+        },
+        "WG_1_minus_refusal": {
+          "N": 1393,
+          "valid": 1393,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              0,
+              644
+            ],
+            [
+              0,
+              749
+            ]
+          ],
+          "accuracy_all_lower": 0.5376884422110553,
+          "accuracy_all_upper": 0.5376884422110553,
+          "accuracy_valid": 0.5376884422110553,
+          "kappa_valid": 0.0,
+          "recall_human_nonfulfillment_all": 0.0,
+          "recall_human_fulfillment_all": 1.0,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.4623115577889447
+        }
+      }
+    },
+    "v2_WG_refusal_conflict": {
+      "N": 64,
+      "human_nonfulfillment": 25,
+      "human_fulfillment": 39,
+      "judges": {
+        "SORRY": {
+          "N": 64,
+          "valid": 64,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              16,
+              9
+            ],
+            [
+              3,
+              36
+            ]
+          ],
+          "accuracy_all_lower": 0.8125,
+          "accuracy_all_upper": 0.8125,
+          "accuracy_valid": 0.8125,
+          "kappa_valid": 0.5884244372990354,
+          "recall_human_nonfulfillment_all": 0.64,
+          "recall_human_fulfillment_all": 0.9230769230769231,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.1875
+        },
+        "HB": {
+          "N": 64,
+          "valid": 64,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              17,
+              8
+            ],
+            [
+              11,
+              28
+            ]
+          ],
+          "accuracy_all_lower": 0.703125,
+          "accuracy_all_upper": 0.703125,
+          "accuracy_valid": 0.703125,
+          "kappa_valid": 0.3895582329317269,
+          "recall_human_nonfulfillment_all": 0.68,
+          "recall_human_fulfillment_all": 0.717948717948718,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.296875
+        },
+        "WG_harmful": {
+          "N": 64,
+          "valid": 64,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              24,
+              1
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "accuracy_all_lower": 0.703125,
+          "accuracy_all_upper": 0.703125,
+          "accuracy_valid": 0.703125,
+          "kappa_valid": 0.44424131627056673,
+          "recall_human_nonfulfillment_all": 0.96,
+          "recall_human_fulfillment_all": 0.5384615384615384,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.296875
+        },
+        "WG_1_minus_refusal": {
+          "N": 64,
+          "valid": 64,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              0,
+              25
+            ],
+            [
+              0,
+              39
+            ]
+          ],
+          "accuracy_all_lower": 0.609375,
+          "accuracy_all_upper": 0.609375,
+          "accuracy_valid": 0.609375,
+          "kappa_valid": 0.0,
+          "recall_human_nonfulfillment_all": 0.0,
+          "recall_human_fulfillment_all": 1.0,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.390625
+        }
+      }
+    },
+    "warning_nonrefusal_candidate": {
+      "N": 616,
+      "human_nonfulfillment": 146,
+      "human_fulfillment": 470,
+      "judges": {
+        "SORRY": {
+          "N": 616,
+          "valid": 616,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              44,
+              102
+            ],
+            [
+              18,
+              452
+            ]
+          ],
+          "accuracy_all_lower": 0.8051948051948052,
+          "accuracy_all_upper": 0.8051948051948052,
+          "accuracy_valid": 0.8051948051948052,
+          "kappa_valid": 0.3281465861993748,
+          "recall_human_nonfulfillment_all": 0.3013698630136986,
+          "recall_human_fulfillment_all": 0.9617021276595744,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.19480519480519476
+        },
+        "HB": {
+          "N": 616,
+          "valid": 616,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              124,
+              22
+            ],
+            [
+              131,
+              339
+            ]
+          ],
+          "accuracy_all_lower": 0.7516233766233766,
+          "accuracy_all_upper": 0.7516233766233766,
+          "accuracy_valid": 0.7516233766233766,
+          "kappa_valid": 0.4538120957833979,
+          "recall_human_nonfulfillment_all": 0.8493150684931506,
+          "recall_human_fulfillment_all": 0.7212765957446808,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.24837662337662336
+        },
+        "WG_harmful": {
+          "N": 616,
+          "valid": 616,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              113,
+              33
+            ],
+            [
+              212,
+              258
+            ]
+          ],
+          "accuracy_all_lower": 0.6022727272727273,
+          "accuracy_all_upper": 0.6022727272727273,
+          "accuracy_valid": 0.6022727272727273,
+          "kappa_valid": 0.2269868262000861,
+          "recall_human_nonfulfillment_all": 0.773972602739726,
+          "recall_human_fulfillment_all": 0.548936170212766,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.3977272727272727
+        },
+        "WG_1_minus_refusal": {
+          "N": 616,
+          "valid": 616,
+          "invalid": 0,
+          "confusion_human0_1_by_model0_1": [
+            [
+              0,
+              146
+            ],
+            [
+              0,
+              470
+            ]
+          ],
+          "accuracy_all_lower": 0.762987012987013,
+          "accuracy_all_upper": 0.762987012987013,
+          "accuracy_valid": 0.762987012987013,
+          "kappa_valid": 0.0,
+          "recall_human_nonfulfillment_all": 0.0,
+          "recall_human_fulfillment_all": 1.0,
+          "invalid_by_human_label": [
+            0,
+            0
+          ],
+          "error_all_including_INVALID": 0.237012987012987
+        }
+      }
+    }
+  },
+  "stratification_caveat": "Operational model/rule/lexical proxies, not independent four-type semantic annotations. WG is used to define strata, so conditional error profiles do not establish a steering mechanism or transport to new responses.",
+  "base_OOD": {
+    "base": {
+      "SORRY": {
+        "N": 2200,
+        "valid": 2200,
+        "invalid": 0,
+        "confusion_human0_1_by_model0_1": [
+          [
+            1603,
+            68
+          ],
+          [
+            15,
+            514
+          ]
+        ],
+        "accuracy_all_lower": 0.9622727272727273,
+        "accuracy_all_upper": 0.9622727272727273,
+        "accuracy_valid": 0.9622727272727273,
+        "kappa_valid": 0.9001336655648191,
+        "recall_human_nonfulfillment_all": 0.9593058049072412,
+        "recall_human_fulfillment_all": 0.9716446124763705,
+        "invalid_by_human_label": [
+          0,
+          0
+        ],
+        "error_all_including_INVALID": 0.03772727272727272
+      },
+      "HB": {
+        "N": 2200,
+        "valid": 2200,
+        "invalid": 0,
+        "confusion_human0_1_by_model0_1": [
+          [
+            1639,
+            32
+          ],
+          [
+            67,
+            462
+          ]
+        ],
+        "accuracy_all_lower": 0.955,
+        "accuracy_all_upper": 0.955,
+        "accuracy_valid": 0.955,
+        "kappa_valid": 0.8739545402986663,
+        "recall_human_nonfulfillment_all": 0.9808497905445841,
+        "recall_human_fulfillment_all": 0.8733459357277883,
+        "invalid_by_human_label": [
+          0,
+          0
+        ],
+        "error_all_including_INVALID": 0.04500000000000004
+      },
+      "WG_harmful": {
+        "N": 2200,
+        "valid": 2200,
+        "invalid": 0,
+        "confusion_human0_1_by_model0_1": [
+          [
+            1657,
+            14
+          ],
+          [
+            203,
+            326
+          ]
+        ],
+        "accuracy_all_lower": 0.9013636363636364,
+        "accuracy_all_upper": 0.9013636363636364,
+        "accuracy_valid": 0.9013636363636364,
+        "kappa_valid": 0.6924127622287511,
+        "recall_human_nonfulfillment_all": 0.9916217833632556,
+        "recall_human_fulfillment_all": 0.6162570888468809,
+        "invalid_by_human_label": [
+          0,
+          0
+        ],
+        "error_all_including_INVALID": 0.09863636363636363
+      },
+      "WG_1_minus_refusal": {
+        "N": 2200,
+        "valid": 2200,
+        "invalid": 0,
+        "confusion_human0_1_by_model0_1": [
+          [
+            1594,
+            77
+          ],
+          [
+            10,
+            519
+          ]
+        ],
+        "accuracy_all_lower": 0.9604545454545454,
+        "accuracy_all_upper": 0.9604545454545454,
+        "accuracy_valid": 0.9604545454545454,
+        "kappa_valid": 0.896228215515671,
+        "recall_human_nonfulfillment_all": 0.9539198084979055,
+        "recall_human_fulfillment_all": 0.9810964083175804,
+        "invalid_by_human_label": [
+          0,
+          0
+        ],
+        "error_all_including_INVALID": 0.03954545454545455
+      }
+    },
+    "OOD": {
+      "SORRY": {
+        "N": 2200,
+        "valid": 2200,
+        "invalid": 0,
+        "confusion_human0_1_by_model0_1": [
+          [
+            1229,
+            211
+          ],
+          [
+            71,
+            689
+          ]
+        ],
+        "accuracy_all_lower": 0.8718181818181818,
+        "accuracy_all_upper": 0.8718181818181818,
+        "accuracy_valid": 0.8718181818181818,
+        "kappa_valid": 0.7283712784588441,
+        "recall_human_nonfulfillment_all": 0.8534722222222222,
+        "recall_human_fulfillment_all": 0.906578947368421,
+        "invalid_by_human_label": [
+          0,
+          0
+        ],
+        "error_all_including_INVALID": 0.12818181818181817
+      },
+      "HB": {
+        "N": 2200,
+        "valid": 2200,
+        "invalid": 0,
+        "confusion_human0_1_by_model0_1": [
+          [
+            1375,
+            65
+          ],
+          [
+            326,
+            434
+          ]
+        ],
+        "accuracy_all_lower": 0.8222727272727273,
+        "accuracy_all_upper": 0.8222727272727273,
+        "accuracy_valid": 0.8222727272727273,
+        "kappa_valid": 0.5723206650358968,
+        "recall_human_nonfulfillment_all": 0.9548611111111112,
+        "recall_human_fulfillment_all": 0.5710526315789474,
+        "invalid_by_human_label": [
+          0,
+          0
+        ],
+        "error_all_including_INVALID": 0.17772727272727273
+      },
+      "WG_harmful": {
+        "N": 2200,
+        "valid": 2196,
+        "invalid": 4,
+        "confusion_human0_1_by_model0_1": [
+          [
+            945,
+            491
+          ],
+          [
+            393,
+            367
+          ]
+        ],
+        "accuracy_all_lower": 0.5963636363636363,
+        "accuracy_all_upper": 0.5981818181818181,
+        "accuracy_valid": 0.5974499089253188,
+        "kappa_valid": 0.13682008814709692,
+        "recall_human_nonfulfillment_all": 0.65625,
+        "recall_human_fulfillment_all": 0.48289473684210527,
+        "invalid_by_human_label": [
+          4,
+          0
+        ],
+        "error_all_including_INVALID": 0.4036363636363637
+      },
+      "WG_1_minus_refusal": {
+        "N": 2200,
+        "valid": 2196,
+        "invalid": 4,
+        "confusion_human0_1_by_model0_1": [
+          [
+            698,
+            738
+          ],
+          [
+            21,
+            739
+          ]
+        ],
+        "accuracy_all_lower": 0.6531818181818182,
+        "accuracy_all_upper": 0.655,
+        "accuracy_valid": 0.6543715846994536,
+        "kappa_valid": 0.37513814888738595,
+        "recall_human_nonfulfillment_all": 0.4847222222222222,
+        "recall_human_fulfillment_all": 0.9723684210526315,
+        "invalid_by_human_label": [
+          4,
+          0
+        ],
+        "error_all_including_INVALID": 0.3468181818181818
+      }
+    }
+  },
+  "WG_field_comparison": {
+    "unit": "base instruction",
+    "clusters": 440,
+    "B": 2000,
+    "seed": 20261264,
+    "accuracy_gain_pp": 5.795454545454537,
+    "accuracy_gain_CI95_pp": [
+      3.976704545454547,
+      7.681818181818178
+    ],
+    "kappa_gain": 0.22283378745590626,
+    "kappa_gain_CI95": [
+      0.17960543756929678,
+      0.2667570144765326
+    ],
+    "criterion_frozen_before_this_diagnostic": "both point gains positive and both paired instruction-bootstrap95 lower bounds >0; user qualitative clearly-higher operationalized without pp cutoff",
+    "selected_WG_SORRY_fulfillment_field": "1-minus-Response-refusal",
+    "external_data_used_for_field_choice": true,
+    "new_target_condition_effects_used": false
+  },
+  "split_audit": {
+    "202503_train_vs_202503_test": {
+      "train_N": 2640,
+      "test_N": 4400,
+      "record_answer_ID_overlap": 0,
+      "same_instruction_model_style_reply_overlap_testIDs": [],
+      "same_instruction_reply_overlap_testIDs": [
+        "test_1809",
+        "test_1939",
+        "test_2110",
+        "test_2261"
+      ],
+      "shared_instruction_texts": 440
+    },
+    "202406_train_vs_202503_test": {
+      "train_N": 2700,
+      "test_N": 4400,
+      "record_answer_ID_overlap": 0,
+      "same_instruction_model_style_reply_overlap_testIDs": [],
+      "same_instruction_reply_overlap_testIDs": [
+        "test_1809",
+        "test_1939",
+        "test_2110",
+        "test_2261"
+      ],
+      "shared_instruction_texts": 440
+    },
+    "202503_train_sha256": "645ff8892a795ba0e597c2025912957555b7c98e1dc110e2db7df27d28e37e57",
+    "202503_test_sha256": "2ee0d444ffea60869f583a986bcf9f98b19502f72bbc3877ed94dfd1ac94b3dd",
+    "202406_train_sha256": "25e864279a97d65dd067e167d63c00809c2f75f5999756969186b43e0c4076fa",
+    "202406_train_revision": "395ff7e7ea75f6d328845c3743d127a6477054a7",
+    "split_unit": "different model responses within every base instruction; 3 ID+3 OOD train and 5 ID+5 OOD test per instruction",
+    "checkpoint_training_provenance_limit": "Published train/test records and README audited; no independently supplied actual optimizer training-row manifest. Do not claim unseen-instruction or absolute content disjointness."
+  },
+  "paper_reference": {
+    "url": "https://arxiv.org/html/2406.14598v2",
+    "tables": [
+      1,
+      6
+    ],
+    "finetuned_Mistral_kappa": 0.81,
+    "paper_refusal_recall": 0.911,
+    "paper_fulfillment_recall": 0.934,
+    "our_protocol_implementation_not_forced_to_match_table": true
+  },
+  "coded_row_labels_sha256": "2402ba2f535aae8f1dbbbcbd82fd78a8f3c4c2cb9eecacc0e4cbdb20eccf2b0f"
+}

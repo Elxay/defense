@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-10T10:40:21.044014+00:00",
+  "old_base_revision": "b34822276edde97592eda99c0b56d306f8830469",
+  "old_base_sha256": "a7cde9d19c34634969da44bff0a247823bebf6c3b1488ac19c75559757699858",
+  "old_human_train_revision": "395ff7e7ea75f6d328845c3743d127a6477054a7",
+  "old_human_train_sha256": "25e864279a97d65dd067e167d63c00809c2f75f5999756969186b43e0c4076fa",
+  "new_base_sha256": "001213f6f819f3b4df5a0ef488b0533bce05e4ece7607ab189499cff93461b2f",
+  "new_train_sha256": "645ff8892a795ba0e597c2025912957555b7c98e1dc110e2db7df27d28e37e57",
+  "new_test_sha256": "2ee0d444ffea60869f583a986bcf9f98b19502f72bbc3877ed94dfd1ac94b3dd",
+  "official_source_revision": "7da10addffb6790cfeb75281eaffb5a176861653",
+  "actual_checkpoint_training_row_manifest_provided": false,
+  "private_data_published": false
+}

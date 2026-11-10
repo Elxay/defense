@@ -1,0 +1,292 @@
+{
+  "utc": "2026-11-10T10:40:21.044014+00:00",
+  "base_n": 440,
+  "categories": 44,
+  "mutations": [
+    {
+      "file": "question_ascii.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "9ea2d9338d0f36116568d98fca2591706224ae2abbe03233be3ca50341fa8535",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_atbash.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "e88172416028bdb0653d5479a99596846a29c102584454b6909bd869a71d4cfa",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_authority_endorsement.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "52747e644f1746dd5a627c2819b2eb75a04bf3342e1c17ad1f82b2c3f367c138",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_caesar.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "82a46a2b06e88c532d828900c34ab86b117dbbcba3dbeb8982a247f4af35c2c9",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_evidence-based_persuasion.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "f380e616532f2b60ed747bc084d1b0f72a3cff1c54928e0d83c99c629dbda474",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_expert_endorsement.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "c0fb490a00db188d2c2a3ab64a44995d954a489010c38013b926c04387cb3302",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_logical_appeal.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "178e7f997444bd43da34cadf9b355da603d7dbeb3cbc4d8ba800cd5e0f354acf",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_misrepresentation.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "599df62ce807856ede60d24b7e589ec11ccfb8600f8da3607de40f38adc9e59d",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_misspellings.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "7bd4190015a4b5fac38238a149bf46933dcb2e241a4ddb1383ef630305fef94c",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_morse.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "49afa9a1fd44ecc9da6508b082da051e294171df3584a2c5aa832025e68bb9a9",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_question.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "b39c03a8128aab38cb8ed4f6b258a7b7366205221a6a29a0a4de6333f1403cb7",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_role_play.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "34300983cbb409f99869e6c19dd1a94675e35c17bbbd4c5bad416c33baadf762",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_slang.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "c478ae1b2ccc63b2a7994ae5c5555c1033ccfbec61a4f9038dc63cf7294a3dcd",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_technical_terms.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "476820335410e28f1807c1c9fac7e4f22a57c892d6835284ee2ad3a5860b5923",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_translate-fr.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "a6b4c73b95368a481c8e89c28b10948062a67fd93e6342b45c7c3bb0874a67c7",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_translate-ml.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "e1368139aeedd8c0e2458c18ddc3a14274f7f86ff4e44fa12cf37879286fe533",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_translate-mr.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "a0ca0518327e7b4119562a7162767e4d8d6696123c7b9841040c52f99d69b745",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_translate-ta.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "6a81878cd2487da37daa7da5c2c3b52901ac54e6cbaff6d243672a28333695a1",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_translate-zh-cn.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "b2237e068d9da9c3d4ad3d0599b2ba19b999426452f4adf7b8ef16695467012b",
+      "IDs_match_base": true
+    },
+    {
+      "file": "question_uncommon_dialects.jsonl",
+      "n": 440,
+      "categories": 44,
+      "sha256": "78257c8b708206a7cb82ebc089321eeaf3b70ddbe74e296f775d4d09b21a4fe6",
+      "IDs_match_base": true
+    }
+  ],
+  "overlap_summary": {
+    "fit12_behaviors": {
+      "reference_texts": 12,
+      "reference_groups": 12,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 0
+    },
+    "val70_behaviors": {
+      "reference_texts": 70,
+      "reference_groups": 70,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 4
+    },
+    "legacy46_behaviors": {
+      "reference_texts": 46,
+      "reference_groups": 46,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 1
+    },
+    "dev22_behaviors": {
+      "reference_texts": 22,
+      "reference_groups": 22,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 2
+    },
+    "fit12_attack_prompts": {
+      "reference_texts": 12,
+      "reference_groups": 12,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 0
+    },
+    "val70_attack_prompts": {
+      "reference_texts": 70,
+      "reference_groups": 70,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 0
+    },
+    "train_strat97": {
+      "reference_texts": 99,
+      "reference_groups": 97,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 8
+    },
+    "WJB_HarmBench_standard_sources": {
+      "reference_texts": 200,
+      "reference_groups": 200,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 18
+    },
+    "calibration_adversarial_harmful": {
+      "reference_texts": 300,
+      "reference_groups": 300,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 0
+    },
+    "calibration_adversarial_benign": {
+      "reference_texts": 200,
+      "reference_groups": 200,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 0
+    },
+    "calibration_vanilla_benign": {
+      "reference_texts": 200,
+      "reference_groups": 200,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 0
+    },
+    "calibration_underlying_behaviors": {
+      "reference_texts": 700,
+      "reference_groups": 700,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 0
+    },
+    "keep60": {
+      "reference_texts": 60,
+      "reference_groups": 60,
+      "SORRY_byte_exact": 0,
+      "SORRY_normalized_exact": 0,
+      "SORRY_cos_ge_085": 0
+    }
+  },
+  "overlap_union": 19,
+  "calibration_request_groups": 697,
+  "Qwen_old_stop": {
+    "utc": "2026-11-10T05:04:10.028964+00:00",
+    "stops": [
+      {
+        "pid": 3790001,
+        "signal": "SIGTERM",
+        "script": "qwen287_recovery_watch18.py",
+        "utc": "2026-11-10T05:04:03.324178+00:00"
+      },
+      {
+        "pid": 3545994,
+        "signal": "SIGTERM",
+        "script": "qwen287_selection_score_queue.py",
+        "utc": "2026-11-10T05:04:05.012999+00:00"
+      },
+      {
+        "pid": 3546015,
+        "already_exited": true
+      },
+      {
+        "pid": 3546019,
+        "signal": "SIGTERM",
+        "script": "qwen287_selection_generate.py",
+        "utc": "2026-11-10T05:04:05.013158+00:00"
+      }
+    ],
+    "generation_files_before": 9867,
+    "generation_files_after": 9867,
+    "all_prior_file_hashes_unchanged": true,
+    "before_manifest_sha256": "bf94912bb631d35d5fe4085b57b7c6d4158cc899129b799864b2471907b64775",
+    "after_manifest_sha256": "bf94912bb631d35d5fe4085b57b7c6d4158cc899129b799864b2471907b64775",
+    "node01": {
+      "utc": "2026-11-10T05:04:07.638716+00:00",
+      "stopped_old_grid_WG_pids": [
+        3171648
+      ],
+      "before_files": 9382,
+      "saved_files_unchanged": true,
+      "labels_or_effects_read": false,
+      "gpu_processes": ""
+    },
+    "labels_or_effects_read": false,
+    "status": "archived old calibration sensitivity; no new alpha admitted",
+    "innet_gpu_processes": "3098274, GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 6770 MiB\n"
+  },
+  "main_search_budget_GPUh": 600,
+  "condition_stacking": false,
+  "add_role_play_family": false,
+  "SORRY_role_play_mutation": false,
+  "main_test_outputs_generated_or_read": 0
+}
