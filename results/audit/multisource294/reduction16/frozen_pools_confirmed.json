@@ -1,0 +1,78 @@
+{
+  "sources": {
+    "results/audit/crossmodel287/protocol.json": "4faefb7b24bffd9c6914d8751168070266d2bbc71a97df9bb00218de30278f26",
+    "results/audit/crossmodel287/protocol_effective_addendum6_Mistral.json": "40a9de451691edb4f106ea2785c9d61bb46ad0973b26f9e79723e65e61ef569e",
+    "results/audit/crossmodel287/takeover_20261110/effective_execution.json": "9e218a5a64c1f2b8fa311547cd08eadd0af9937a354e20903adc0fadc91c2f07"
+  },
+  "models": {
+    "qwen": {
+      "learned_pool": [
+        3,
+        4,
+        5
+      ],
+      "initial": [
+        3,
+        5
+      ],
+      "seed_extension": [
+        4
+      ],
+      "initial_random": [
+        61000,
+        61001
+      ],
+      "random_extension": [
+        61002
+      ],
+      "declaration": "inherits frozen global pool; no per-model override",
+      "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+    },
+    "gemma": {
+      "learned_pool": [
+        3,
+        4,
+        5
+      ],
+      "initial": [
+        3,
+        5
+      ],
+      "seed_extension": [
+        4
+      ],
+      "initial_random": [
+        61000,
+        61001
+      ],
+      "random_extension": [
+        61002
+      ],
+      "declaration": "inherits frozen global pool; no per-model override",
+      "model_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819"
+    },
+    "mistral": {
+      "learned_pool": [
+        3,
+        4,
+        5
+      ],
+      "initial": [
+        3,
+        5
+      ],
+      "seed_extension": [
+        4
+      ],
+      "initial_random": [
+        61000,
+        61001
+      ],
+      "random_extension": [
+        61002
+      ],
+      "declaration": "inherits frozen global pool; no per-model override",
+      "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71"
+    }
+  }
+}

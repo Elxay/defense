@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-10T03:15:05.275636+00:00",
+  "policy": "results/audit/multisource294/reduction16/policy16.json",
+  "policy_sha256": "a610003cd5a3ef0313d8e5e0d5872a871266fa7edae6ad0ee35d1d770aea4e14",
+  "immutable_parent_plan_sha256": "7560f9489608100a9ae6bfbf2a5bde7cc103db2fa4e59a54810d1da99e7c8896",
+  "require_before_new_main_generation": true,
+  "prefix_calibration_paused": true,
+  "WJB_or_selection_jobs_modified": false
+}

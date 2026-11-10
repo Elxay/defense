@@ -1,0 +1,60 @@
+{
+  "source_timing_sha256": "ae8dee26eb12181b64e68560530e4424bde59918adde47f5809716a5a90c95f2",
+  "scope": "Llama alpha0 only, measured25direct rows and5behaviors x5templates; equal-speed scenarios, not measured nonzero/model forecasts or bounds",
+  "direct_seconds_per_row": 8.975894131911918,
+  "direct_single_condition_GPUh": 0.7479911776593265,
+  "direct_initial5_equal_speed_GPUh": 3.739955888296633,
+  "template_seconds_per_row": {
+    "38": 43.515415489533915,
+    "82": 0.629427561443299,
+    "22": 28.59730312898755,
+    "72": 0.9900806134101003,
+    "107": 59.916342101572084
+  },
+  "template_single_condition_GPUh": {
+    "38": 3.6262846241278264,
+    "82": 0.05245229678694159,
+    "22": 2.383108594082296,
+    "72": 0.08250671778417502,
+    "107": 4.99302850846434
+  },
+  "all5templates_alpha0_GPUh": 11.137380741245579,
+  "template_initial_cost_formula": "all5_alpha0_cost + 4*sum(active_template_costs)",
+  "template_initial_range_equal_speed_GPUh": [
+    11.137380741245579,
+    55.686903706227895
+  ],
+  "template_all_active_seed_only8_GPUh": 89.09904592996463,
+  "template_all_active_random_only7_GPUh": 77.96166518871905,
+  "template_all_active_both10_GPUh": 111.37380741245579,
+  "prefix_P1_seconds_per_row": null,
+  "prefix_P2_seconds_per_row": null,
+  "prefix_status": "paused, no attack-family calibration; do not use benign120token hook test as2400token attack throughput",
+  "nonprefix_initial5_alltemplates_active_GPUh": 59.42685959452453,
+  "prefix_user15second_placeholder_not_measurement": {
+    "one_condition_GPUh": 1.25,
+    "initial5_each_P1_or_P2_GPUh": 6.25,
+    "both_variants_extra_GPUh": 12.5
+  },
+  "new_models": "need per-model per-family timing; Llama speeds cannot be claimed as their measurements",
+  "excludes": [
+    "judge GPU time",
+    "model loading",
+    "waiting/preemption",
+    "nonzero output-length changes"
+  ],
+  "row_counts_alltemplates_active": {
+    "llama": {
+      "initial": 12000,
+      "seed_only": 19200,
+      "random_only": 16800,
+      "both": 24000
+    },
+    "each_new_model": {
+      "initial": 12000,
+      "seed_only": 14400,
+      "random_only": 14400,
+      "both": 16800
+    }
+  }
+}

@@ -1,0 +1,5234 @@
+{
+  "WJB2000_HB_mapped": {
+    "learned_rates_pct": {
+      "old_s3": 21.9,
+      "old_s4": 25.55,
+      "old_s5": 24.9,
+      "old_s6": 22.8,
+      "old_s7": 23.75
+    },
+    "random_rates_pct": {
+      "rand0": 45.15,
+      "rand1": 46.65,
+      "rand2": 48.05,
+      "rand3": 46.95
+    },
+    "learned_sample_SD_pp": 1.4902181048423753,
+    "random_sample_SD_pp": 1.1958260743101397,
+    "learned_minus_random_pp": -22.92,
+    "learned_range_pp": 3.650000000000002,
+    "random_range_pp": 2.8999999999999986,
+    "total_combinations": 60,
+    "extend_seed_count": 0,
+    "extend_random_count": 0,
+    "both_count": 0,
+    "any_count": 0,
+    "neither_count": 60,
+    "fixed_s3_s7_rand0_rand1": {
+      "seed_spread": {
+        "status": "no",
+        "lower_pp": 1.85,
+        "upper_pp": 1.85
+      },
+      "random_spread": {
+        "status": "no",
+        "lower_pp": 1.5,
+        "upper_pp": 1.5
+      },
+      "sign_conflict": "no",
+      "four_difference_bounds_pp": [
+        [
+          -23.25,
+          -23.25
+        ],
+        [
+          -24.75,
+          -24.75
+        ],
+        [
+          -21.4,
+          -21.4
+        ],
+        [
+          -22.9,
+          -22.9
+        ]
+      ],
+      "extend_seed_pool": false,
+      "extend_random_pool": false,
+      "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+    },
+    "equal_unit_cost_expected_conditions": 5,
+    "combinations": [
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.65,
+          "upper_pp": 3.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -21.1,
+            -21.1
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.65,
+          "upper_pp": 3.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -22.5,
+            -22.5
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.65,
+          "upper_pp": 3.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -21.4,
+            -21.4
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.65,
+          "upper_pp": 3.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -22.5,
+            -22.5
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.65,
+          "upper_pp": 3.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -21.4,
+            -21.4
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.65,
+          "upper_pp": 3.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -21.4,
+            -21.4
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.0,
+          "upper_pp": 3.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -21.75,
+            -21.75
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.0,
+          "upper_pp": 3.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -23.15,
+            -23.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.0,
+          "upper_pp": 3.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -22.05,
+            -22.05
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.0,
+          "upper_pp": 3.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -23.15,
+            -23.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.0,
+          "upper_pp": 3.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -22.05,
+            -22.05
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 3.0,
+          "upper_pp": 3.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -23.15,
+            -23.15
+          ],
+          [
+            -22.05,
+            -22.05
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.9,
+          "upper_pp": 0.9
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -23.85,
+            -23.85
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.9,
+          "upper_pp": 0.9
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -25.25,
+            -25.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.9,
+          "upper_pp": 0.9
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.9,
+          "upper_pp": 0.9
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -25.25,
+            -25.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.9,
+          "upper_pp": 0.9
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.9,
+          "upper_pp": 0.9
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.85,
+          "upper_pp": 1.85
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -22.9,
+            -22.9
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.85,
+          "upper_pp": 1.85
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -24.3,
+            -24.3
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.85,
+          "upper_pp": 1.85
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.25,
+            -23.25
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.85,
+          "upper_pp": 1.85
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -22.9,
+            -22.9
+          ],
+          [
+            -24.3,
+            -24.3
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.85,
+          "upper_pp": 1.85
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -24.75,
+            -24.75
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -22.9,
+            -22.9
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.85,
+          "upper_pp": 1.85
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.15,
+            -26.15
+          ],
+          [
+            -25.05,
+            -25.05
+          ],
+          [
+            -24.3,
+            -24.3
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.65,
+          "upper_pp": 0.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -21.75,
+            -21.75
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.65,
+          "upper_pp": 0.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -23.15,
+            -23.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.65,
+          "upper_pp": 0.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -22.05,
+            -22.05
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.65,
+          "upper_pp": 0.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -23.15,
+            -23.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.65,
+          "upper_pp": 0.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -22.05,
+            -22.05
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.65,
+          "upper_pp": 0.65
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -23.15,
+            -23.15
+          ],
+          [
+            -22.05,
+            -22.05
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -23.85,
+            -23.85
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -25.25,
+            -25.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -25.25,
+            -25.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -22.9,
+            -22.9
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -24.3,
+            -24.3
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -19.6,
+            -19.6
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -22.9,
+            -22.9
+          ],
+          [
+            -24.3,
+            -24.3
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.1,
+            -21.1
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -22.9,
+            -22.9
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -24.3,
+            -24.3
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.1,
+          "upper_pp": 2.1
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -23.85,
+            -23.85
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.1,
+          "upper_pp": 2.1
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -23.15,
+            -23.15
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -25.25,
+            -25.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.1,
+          "upper_pp": 2.1
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -22.05,
+            -22.05
+          ],
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.1,
+          "upper_pp": 2.1
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -23.15,
+            -23.15
+          ],
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -25.25,
+            -25.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.1,
+          "upper_pp": 2.1
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -22.05,
+            -22.05
+          ],
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.1,
+          "upper_pp": 2.1
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.15,
+            -23.15
+          ],
+          [
+            -22.05,
+            -22.05
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -24.15,
+            -24.15
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.15,
+          "upper_pp": 1.15
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -22.9,
+            -22.9
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.15,
+          "upper_pp": 1.15
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -23.15,
+            -23.15
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -24.3,
+            -24.3
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.15,
+          "upper_pp": 1.15
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.25,
+            -20.25
+          ],
+          [
+            -22.05,
+            -22.05
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.15,
+          "upper_pp": 1.15
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -23.15,
+            -23.15
+          ],
+          [
+            -22.9,
+            -22.9
+          ],
+          [
+            -24.3,
+            -24.3
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.15,
+          "upper_pp": 1.15
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -21.75,
+            -21.75
+          ],
+          [
+            -22.05,
+            -22.05
+          ],
+          [
+            -22.9,
+            -22.9
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.15,
+          "upper_pp": 1.15
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.15,
+            -23.15
+          ],
+          [
+            -22.05,
+            -22.05
+          ],
+          [
+            -24.3,
+            -24.3
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.95,
+          "upper_pp": 0.95
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -22.9,
+            -22.9
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.95,
+          "upper_pp": 0.95
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.9,
+          "upper_pp": 2.9
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -24.3,
+            -24.3
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.95,
+          "upper_pp": 0.95
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.8,
+          "upper_pp": 1.8
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -22.35,
+            -22.35
+          ],
+          [
+            -24.15,
+            -24.15
+          ],
+          [
+            -21.4,
+            -21.4
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.95,
+          "upper_pp": 0.95
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.4,
+          "upper_pp": 1.4
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -22.9,
+            -22.9
+          ],
+          [
+            -24.3,
+            -24.3
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.95,
+          "upper_pp": 0.95
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.3,
+          "upper_pp": 0.3
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -23.85,
+            -23.85
+          ],
+          [
+            -24.15,
+            -24.15
+          ],
+          [
+            -22.9,
+            -22.9
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 0.95,
+          "upper_pp": 0.95
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 1.1,
+          "upper_pp": 1.1
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -24.15,
+            -24.15
+          ],
+          [
+            -24.3,
+            -24.3
+          ],
+          [
+            -23.2,
+            -23.2
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      }
+    ]
+  },
+  "PAIR400_HB_original": {
+    "learned_rates_pct": {
+      "old_s3": 20.0,
+      "old_s4": 24.75,
+      "old_s5": 30.25,
+      "old_s6": 18.5,
+      "old_s7": 33.0
+    },
+    "random_rates_pct": {
+      "rand0": 51.0,
+      "rand1": 55.5,
+      "rand2": 58.0,
+      "rand3": 55.75
+    },
+    "learned_sample_SD_pp": 6.293349664526833,
+    "random_sample_SD_pp": 2.9323980516521515,
+    "learned_minus_random_pp": -29.7625,
+    "learned_range_pp": 14.5,
+    "random_range_pp": 7.0,
+    "total_combinations": 60,
+    "extend_seed_count": 42,
+    "extend_random_count": 10,
+    "both_count": 7,
+    "any_count": 45,
+    "neither_count": 15,
+    "fixed_s3_s7_rand0_rand1": {
+      "seed_spread": {
+        "status": "definite",
+        "lower_pp": 13.0,
+        "upper_pp": 13.0
+      },
+      "random_spread": {
+        "status": "no",
+        "lower_pp": 4.5,
+        "upper_pp": 4.5
+      },
+      "sign_conflict": "no",
+      "four_difference_bounds_pp": [
+        [
+          -31.0,
+          -31.0
+        ],
+        [
+          -35.5,
+          -35.5
+        ],
+        [
+          -18.0,
+          -18.0
+        ],
+        [
+          -22.5,
+          -22.5
+        ]
+      ],
+      "extend_seed_pool": true,
+      "extend_random_pool": false,
+      "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+    },
+    "equal_unit_cost_expected_conditions": 7.433333333333334,
+    "combinations": [
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -30.75,
+            -30.75
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -33.25,
+            -33.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -31.0,
+            -31.0
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -33.25,
+            -33.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -31.0,
+            -31.0
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s4"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -31.0,
+            -31.0
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 10.25,
+          "upper_pp": 10.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -25.25,
+            -25.25
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 10.25,
+          "upper_pp": 10.25
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -27.75,
+            -27.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 10.25,
+          "upper_pp": 10.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -25.5,
+            -25.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 10.25,
+          "upper_pp": 10.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -27.75,
+            -27.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 10.25,
+          "upper_pp": 10.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -25.5,
+            -25.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 10.25,
+          "upper_pp": 10.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -27.75,
+            -27.75
+          ],
+          [
+            -25.5,
+            -25.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -37.0,
+            -37.0
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -39.5,
+            -39.5
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -39.5,
+            -39.5
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 1.5,
+          "upper_pp": 1.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -39.5,
+            -39.5
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 13.0,
+          "upper_pp": 13.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -22.5,
+            -22.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 13.0,
+          "upper_pp": 13.0
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -25.0,
+            -25.0
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 13.0,
+          "upper_pp": 13.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 13.0,
+          "upper_pp": 13.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -25.0,
+            -25.0
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 13.0,
+          "upper_pp": 13.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -35.5,
+            -35.5
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s3",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 13.0,
+          "upper_pp": 13.0
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -38.0,
+            -38.0
+          ],
+          [
+            -35.75,
+            -35.75
+          ],
+          [
+            -25.0,
+            -25.0
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 5.5,
+          "upper_pp": 5.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -25.25,
+            -25.25
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 5.5,
+          "upper_pp": 5.5
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -27.75,
+            -27.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 5.5,
+          "upper_pp": 5.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -25.5,
+            -25.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 5.5,
+          "upper_pp": 5.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -27.75,
+            -27.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 5.5,
+          "upper_pp": 5.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -25.5,
+            -25.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s5"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 5.5,
+          "upper_pp": 5.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -27.75,
+            -27.75
+          ],
+          [
+            -25.5,
+            -25.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 6.25,
+          "upper_pp": 6.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -37.0,
+            -37.0
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 6.25,
+          "upper_pp": 6.25
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -39.5,
+            -39.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 6.25,
+          "upper_pp": 6.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 6.25,
+          "upper_pp": 6.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -39.5,
+            -39.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 6.25,
+          "upper_pp": 6.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 6.25,
+          "upper_pp": 6.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -39.5,
+            -39.5
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 8.25,
+          "upper_pp": 8.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -22.5,
+            -22.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 8.25,
+          "upper_pp": 8.25
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -25.0,
+            -25.0
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 8.25,
+          "upper_pp": 8.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -26.25,
+            -26.25
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 8.25,
+          "upper_pp": 8.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -25.0,
+            -25.0
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 8.25,
+          "upper_pp": 8.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -30.75,
+            -30.75
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s4",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 8.25,
+          "upper_pp": 8.25
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -33.25,
+            -33.25
+          ],
+          [
+            -31.0,
+            -31.0
+          ],
+          [
+            -25.0,
+            -25.0
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 11.75,
+          "upper_pp": 11.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -37.0,
+            -37.0
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 11.75,
+          "upper_pp": 11.75
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -27.75,
+            -27.75
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -39.5,
+            -39.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 11.75,
+          "upper_pp": 11.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -25.5,
+            -25.5
+          ],
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 11.75,
+          "upper_pp": 11.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -27.75,
+            -27.75
+          ],
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -39.5,
+            -39.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 11.75,
+          "upper_pp": 11.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -25.5,
+            -25.5
+          ],
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s6"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 11.75,
+          "upper_pp": 11.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -27.75,
+            -27.75
+          ],
+          [
+            -25.5,
+            -25.5
+          ],
+          [
+            -39.5,
+            -39.5
+          ],
+          [
+            -37.25,
+            -37.25
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -22.5,
+            -22.5
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -27.75,
+            -27.75
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -25.0,
+            -25.0
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -20.75,
+            -20.75
+          ],
+          [
+            -25.5,
+            -25.5
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -27.75,
+            -27.75
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -25.0,
+            -25.0
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -25.25,
+            -25.25
+          ],
+          [
+            -25.5,
+            -25.5
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s5",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "no",
+          "lower_pp": 2.75,
+          "upper_pp": 2.75
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -27.75,
+            -27.75
+          ],
+          [
+            -25.5,
+            -25.5
+          ],
+          [
+            -25.0,
+            -25.0
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": false,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand1"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 14.5,
+          "upper_pp": 14.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.5,
+          "upper_pp": 4.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -22.5,
+            -22.5
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 14.5,
+          "upper_pp": 14.5
+        },
+        "random_spread": {
+          "status": "definite",
+          "lower_pp": 7.0,
+          "upper_pp": 7.0
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -39.5,
+            -39.5
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -25.0,
+            -25.0
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": true,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand0",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 14.5,
+          "upper_pp": 14.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 4.75,
+          "upper_pp": 4.75
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -32.5,
+            -32.5
+          ],
+          [
+            -37.25,
+            -37.25
+          ],
+          [
+            -18.0,
+            -18.0
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand2"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 14.5,
+          "upper_pp": 14.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.5,
+          "upper_pp": 2.5
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -39.5,
+            -39.5
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -25.0,
+            -25.0
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand1",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 14.5,
+          "upper_pp": 14.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 0.25,
+          "upper_pp": 0.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -37.0,
+            -37.0
+          ],
+          [
+            -37.25,
+            -37.25
+          ],
+          [
+            -22.5,
+            -22.5
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      },
+      {
+        "learned_pair": [
+          "old_s6",
+          "old_s7"
+        ],
+        "random_pair": [
+          "rand2",
+          "rand3"
+        ],
+        "seed_spread": {
+          "status": "definite",
+          "lower_pp": 14.5,
+          "upper_pp": 14.5
+        },
+        "random_spread": {
+          "status": "no",
+          "lower_pp": 2.25,
+          "upper_pp": 2.25
+        },
+        "sign_conflict": "no",
+        "four_difference_bounds_pp": [
+          [
+            -39.5,
+            -39.5
+          ],
+          [
+            -37.25,
+            -37.25
+          ],
+          [
+            -25.0,
+            -25.0
+          ],
+          [
+            -22.75,
+            -22.75
+          ]
+        ],
+        "extend_seed_pool": true,
+        "extend_random_pool": false,
+        "rule": "new-family #16 only; never writes or substitutes WJB #13 decisions"
+      }
+    ]
+  },
+  "val70_HF_old8": {
+    "units": [
+      {
+        "seed": 0,
+        "yes": 13,
+        "n": 70,
+        "source": "results/hfjudge/JUDGE_HF_RERUN_oldseed_s0_a1.0_b8f62434.json",
+        "sha256": "cf65ac0cfc22943d798d765405476626079134bd5a75214511b9377936d6f4b7"
+      },
+      {
+        "seed": 1,
+        "yes": 16,
+        "n": 70,
+        "source": "results/hfjudge/JUDGE_HF_RERUN_oldseed_s1_a1.0_b8f62434.json",
+        "sha256": "1bf9cb081fb8568feed8369a8084c2bd8a8615f9ed13cb786761932e3c40555d"
+      },
+      {
+        "seed": 2,
+        "yes": 17,
+        "n": 70,
+        "source": "results/hfjudge/JUDGE_HF_RERUN_oldseed_s2_a1.0_b8f62434.json",
+        "sha256": "6f555e9b884b7bfcca6999e16b2a9e9de42cf193cdee14672f44fb6b99bc4837"
+      },
+      {
+        "seed": 3,
+        "yes": 19,
+        "n": 70,
+        "source": "results/hfjudge/JUDGE_HF_RERUN_oldseed_s3_a1.0_b8f62434.json",
+        "sha256": "e21323100879d1ccd134aad8edc2e6df1c889f8741c8aedcd112281374114a07"
+      },
+      {
+        "seed": 4,
+        "yes": 21,
+        "n": 70,
+        "source": "results/hfjudge/JUDGE_HF_RERUN_oldseed_s4_a1.0_b8f62434.json",
+        "sha256": "039390173a1a00e430a4cb311a7c6306a6dfea063421c9c4a9e77a6fb016708d"
+      },
+      {
+        "seed": 5,
+        "yes": 15,
+        "n": 70,
+        "source": "results/hfjudge/JUDGE_HF_RERUN_oldseed_s5_a1.0_b8f62434.json",
+        "sha256": "8c35d662311b5f7e3aade2669b02b5d515d082f835d52f08d92f2356e7fb02ac"
+      },
+      {
+        "seed": 6,
+        "yes": 19,
+        "n": 70,
+        "source": "results/hfjudge/JUDGE_HF_RERUN_oldseed_s6_a1.0_b8f62434.json",
+        "sha256": "8711f79f27647d095612f311259da8b0bd903cdac0cb92829be1a42de3c26de2"
+      },
+      {
+        "seed": 7,
+        "yes": 18,
+        "n": 70,
+        "source": "results/hfjudge/JUDGE_HF_RERUN_oldseed_s7_a1.0_b8f62434.json",
+        "sha256": "f0ef4ff9775407b0b6fdba9fc027454758f089e12ace49c65bd079f9854e382d"
+      }
+    ],
+    "sample_SD_pp": 3.6421567954234173
+  },
+  "source_files": {
+    "paper/data/wjb_official_units.csv": "151690c7449c44a8131a6ebbff0fdc54e27868bbd5d53befa21ff4e733c7eeec",
+    "results/audit/pair500/read_order10/published_tables/unit_rates.csv": "af4687ef8d8e5a56c9db0e614f43143f0f6bbc8528c110ef108df71f7f70ea43"
+  },
+  "interpretation": "60 overlapping finite-pool combinations, NOT independent repetitions or future attack-family trigger probabilities; no binomial CI"
+}
