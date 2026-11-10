@@ -23,7 +23,7 @@
   "Llama_cap120_batch_candidate": 16,
   "SORRY_WG_report_name": "non-refusal rate",
   "Q2_WG_nonrefusal_decomposition": false,
-  "updated_utc": "2026-11-10T17:41:29.789945+00:00",
+  "updated_utc": "2026-11-10T17:55:54.021333+00:00",
   "Qwen_long_batch_candidate": 4,
   "long_batch_label_gate_passed": false,
   "S1a_frozen": true,
@@ -136,5 +136,10 @@
       "read_ledger_sha256": "6dcd14974571b65fa491812ffcb296c9ea898e18dded79de840d064a026057ca",
       "utc": "2026-11-10T17:41:29.789938+00:00"
     }
-  }
+  },
+  "static_alpha0_WG_execution_plan_sha256": "4af6c6891df5766a04e4c1da58c851936580db3d261c5039f68941721c8d5e17",
+  "main_score_cache_allowed": [
+    "WG",
+    "v2"
+  ]
 }
