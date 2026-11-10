@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-10T06:08:54.183996+00:00",
+  "base_plan_sha256": "9f8fb930cf80d2895d5a8445f4a881ec348fb6c03df53bd9f08ce832bf9f0e12",
+  "old_worker_sha256": "af0bf98d69281e7fa552b6e8174e57e5371f4bca513f3208f7a890889a0c7772",
+  "worker_sha256": "78f0057584c757f812a631afe6635bd98fed157ba8b2a0defc901d2c93eb880d",
+  "reason": "NameError json in exact AST-extracted template module; bind standard-library json; template/parser AST unchanged",
+  "SORRY_inference_outputs_before_repair": 0,
+  "benign_template_fixture20": "passed",
+  "no_other_judge_plan_or_input_changed": true
+}
