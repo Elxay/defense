@@ -1,0 +1,564 @@
+{
+  "utc_frozen": "2026-11-10T10:53:28.271851+00:00",
+  "S0_engineering_only": true,
+  "formal_test_generation_allowed": false,
+  "calibration_sha256": "36e945ea22e049ffc66617948f7fcebc8939a50875f8097a5257094d4d92adc7",
+  "IDs100": [
+    "wjb_train_000060788",
+    "wjb_train_000073790",
+    "wjb_train_000129542",
+    "wjb_train_000059107",
+    "wjb_train_000056697",
+    "wjb_train_000083067",
+    "wjb_train_000109442",
+    "wjb_train_000094209",
+    "wjb_train_000102391",
+    "wjb_train_000069391",
+    "wjb_train_000130579",
+    "wjb_train_000092367",
+    "wjb_train_000054003",
+    "wjb_train_000116867",
+    "wjb_train_000129710",
+    "wjb_train_000076390",
+    "wjb_train_000056349",
+    "wjb_train_000065024",
+    "wjb_train_000121228",
+    "wjb_train_000116716",
+    "wjb_train_000058959",
+    "wjb_train_000121753",
+    "wjb_train_000060182",
+    "wjb_train_000092288",
+    "wjb_train_000068940",
+    "wjb_train_000132493",
+    "wjb_train_000067470",
+    "wjb_train_000109171",
+    "wjb_train_000098739",
+    "wjb_train_000087770",
+    "wjb_train_000081165",
+    "wjb_train_000082540",
+    "wjb_train_000059921",
+    "wjb_train_000067111",
+    "wjb_train_000056937",
+    "wjb_train_000103983",
+    "wjb_train_000108652",
+    "wjb_train_000076355",
+    "wjb_train_000123482",
+    "wjb_train_000121495",
+    "wjb_train_000071651",
+    "wjb_train_000070397",
+    "wjb_train_000102306",
+    "wjb_train_000107942",
+    "wjb_train_000085778",
+    "wjb_train_000093086",
+    "wjb_train_000086604",
+    "wjb_train_000064308",
+    "wjb_train_000055724",
+    "wjb_train_000107604",
+    "wjb_train_000203165",
+    "wjb_train_000205757",
+    "wjb_train_000232034",
+    "wjb_train_000198821",
+    "wjb_train_000207410",
+    "wjb_train_000254420",
+    "wjb_train_000241648",
+    "wjb_train_000204121",
+    "wjb_train_000248954",
+    "wjb_train_000201908",
+    "wjb_train_000230443",
+    "wjb_train_000200541",
+    "wjb_train_000257340",
+    "wjb_train_000211358",
+    "wjb_train_000213865",
+    "wjb_train_000256993",
+    "wjb_train_000196405",
+    "wjb_train_000243834",
+    "wjb_train_000198174",
+    "wjb_train_000252275",
+    "wjb_train_000193920",
+    "wjb_train_000245631",
+    "wjb_train_000244689",
+    "wjb_train_000214064",
+    "wjb_train_000188099",
+    "wjb_train_000175185",
+    "wjb_train_000143781",
+    "wjb_train_000180585",
+    "wjb_train_000136766",
+    "wjb_train_000157909",
+    "wjb_train_000152449",
+    "wjb_train_000169339",
+    "wjb_train_000154508",
+    "wjb_train_000136833",
+    "wjb_train_000154111",
+    "wjb_train_000177580",
+    "wjb_train_000144092",
+    "wjb_train_000152869",
+    "wjb_train_000172026",
+    "wjb_train_000172972",
+    "wjb_train_000139583",
+    "wjb_train_000147837",
+    "wjb_train_000151035",
+    "wjb_train_000135675",
+    "wjb_train_000132914",
+    "wjb_train_000146289",
+    "wjb_train_000138733",
+    "wjb_train_000153011",
+    "wjb_train_000157798",
+    "wjb_train_000152277"
+  ],
+  "sample_seed": 20261241,
+  "models": {
+    "llama": {
+      "path": "/data/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+      "layer": 9,
+      "asset_interface_sha256": {
+        "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+        "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424",
+        "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+        "model.safetensors.index.json": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+        "generation_config.json": "189fb0c0d7fd8a527db217c0a60a0e013f0394cd8800f9697a666a9e75e5f7fd"
+      },
+      "batch_by_cap": {
+        "2400": 8
+      },
+      "vectors": {
+        "s3": {
+          "path": "/data/HZX/Def/results/audit/crossmodel287/U1_llama_seed3_check/v.npy",
+          "sha256": "49e527abf3566815a48539c3fc42493adba4f0bdab9c72dde231fcbad80555fe",
+          "norm_float64": 5.209999898896215
+        },
+        "random": {
+          "path": "/data/HZX/Def/results/audit/pair500/pair500_rand0.npy",
+          "sha256": "95997e644fdec8c7300bd21ad4a8e7441eef62385ed49445e6b20c72aa6fad6d",
+          "norm_float64": 5.210000080668752
+        }
+      }
+    }
+  },
+  "caps": [
+    2400
+  ],
+  "engineering_alpha": 1,
+  "conditions": [
+    "alpha0",
+    "s3",
+    "random"
+  ],
+  "worker_sha256": "aa2ba087a386aa903b2ff9d256ff7d260abb3b863c3bd88ae1d8f7c6f74c2058",
+  "legacy_core_sha256": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+  "batch_core_sha256": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+  "random_Qwen_engineering": "torch CPU float32 Gaussian generator seed61000, normalized to the frozen s3 norm; no test-result choice; formal binding remains S1/S2b responsibility",
+  "reference_vectors": "existing fixed-U1 seed3; engineering references do not select alpha or declare new formal training complete",
+  "new_acceptance_outputs_at_freeze": 0,
+  "scoring_status": "not run; generation completion does not admit batching",
+  "label_gate": "each cap and each condition WG refusal and v2 paired B1-to-batch disagreement <=2/100; worst-case INVALID; no absolute refusal rates read for selection",
+  "failure_order": "preserve candidate and test next smaller B from fixed grid; no resource or label failure may admit formal generation",
+  "history20_is_separate": true,
+  "parent_plan_sha256": "859ada8440c0c5c025272d14ca7e405b1dc1185f16b57815ccd8f49b9100eb9a",
+  "reused_legacy_records": {
+    "wjb_train_000060788": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000060788.json",
+      "sha256": "bcba3c7d1d870dfdc30df5f9707cb82cb91997b278c2fdb9805b664a4ebf65a5"
+    },
+    "wjb_train_000073790": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000073790.json",
+      "sha256": "16485e38dfc7ccae784d4380214e2948ad46735a171f8a6cb55fba0bb8992547"
+    },
+    "wjb_train_000129542": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000129542.json",
+      "sha256": "0ad89db37a1aa6bd3b0bdd7968f86ee6c89127aa2889b5890380bc18341f9d29"
+    },
+    "wjb_train_000059107": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000059107.json",
+      "sha256": "075bcb01de6e3e672b5b7ea652f63eb2afb76ec2d316090582ed1928c217bd5c"
+    },
+    "wjb_train_000056697": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000056697.json",
+      "sha256": "b5288940e6c5de2de86f82a77e1a5df0f27c17a11089321d809be4c5525f4742"
+    },
+    "wjb_train_000083067": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000083067.json",
+      "sha256": "6e2eaacf038ca2b7388c1abd5739c4e70255e574d70a70820c558ac60b5d5f9c"
+    },
+    "wjb_train_000109442": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000109442.json",
+      "sha256": "7490d547d4fc604f43a98a45b067efa7c617f87f9c681d0d09b8c790f896be2a"
+    },
+    "wjb_train_000094209": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000094209.json",
+      "sha256": "6c4887d4c6d1da2c0809cbf62fdb1dd34c30c29f418ee2a485ade8bd6f11d6a4"
+    },
+    "wjb_train_000102391": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000102391.json",
+      "sha256": "575c9f0c2da3a88a57e818763a01780ab4411c21ce1f4aabc11387040552dca9"
+    },
+    "wjb_train_000069391": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000069391.json",
+      "sha256": "ff7bfe794f2b16deee4141f5f624cf0ce79055bede2715d0285451356c2dcac0"
+    },
+    "wjb_train_000130579": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000130579.json",
+      "sha256": "6201d7bf7dc461bef1a4355403d483c90984ecaec6bdae429bec3a072b2512f9"
+    },
+    "wjb_train_000092367": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000092367.json",
+      "sha256": "209755d3888ca866f5e1da87a7b0d10a436bdd79321644305afb01880651aad2"
+    },
+    "wjb_train_000054003": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000054003.json",
+      "sha256": "cb53091068ec0f76bca5e7aae4e99a7a66c2f1f934d6c51cf9fdbf184fab2ee6"
+    },
+    "wjb_train_000116867": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000116867.json",
+      "sha256": "1909534498d6b557ec723a01211623e1305e0912e102c842b4071375c51dfa15"
+    },
+    "wjb_train_000129710": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000129710.json",
+      "sha256": "0d568af38f10fb19be355423ab5d9d1a8e27f352e9560ec385cb1637fe907eef"
+    },
+    "wjb_train_000076390": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000076390.json",
+      "sha256": "9ac12af202639422f8fd8a40f18ce8eafa2ad892ec78d7eb580f003a29759e00"
+    },
+    "wjb_train_000056349": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000056349.json",
+      "sha256": "eb9094aecb59c6fa239fb7aa880d4e58080f3522d6e75b63b0fa73fc31bca390"
+    },
+    "wjb_train_000065024": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000065024.json",
+      "sha256": "43d9873a34e0e770080603f3e4b8514aff8678436c1cde752b1c38826679b1df"
+    },
+    "wjb_train_000121228": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000121228.json",
+      "sha256": "f551a240b532d69e51668c2c534c059fc3b9409c174c8770fd4ec86edf4b648f"
+    },
+    "wjb_train_000116716": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000116716.json",
+      "sha256": "d900db93313b4d146b07814570311f3aaef55b8268b93eb681a6d490869fff68"
+    },
+    "wjb_train_000058959": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000058959.json",
+      "sha256": "775ad868ed8ccf66a5105be34572ccc336f1c0d3c713724d3d533dd5ca5b0eb1"
+    },
+    "wjb_train_000121753": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000121753.json",
+      "sha256": "671bb6c384db8c41d23ea70ab215687f22e9216b5b88fcb7b44b76c96b5d8519"
+    },
+    "wjb_train_000060182": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000060182.json",
+      "sha256": "698d6ce1b1fe35f12d346c38523a46ce18a80e7cb66233a1a1a1bdcb90dc62b5"
+    },
+    "wjb_train_000092288": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000092288.json",
+      "sha256": "c9a2493bca1b6063db375a088e8abe38d291d8f217645be75895a8a633fa13e2"
+    },
+    "wjb_train_000068940": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000068940.json",
+      "sha256": "94b4935de9469f4935b8817a5b9493347909a811dacfb0da0fc852eda745ef8b"
+    },
+    "wjb_train_000132493": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000132493.json",
+      "sha256": "27c83a8c570eba8a6f44f6589a597c81632fcc4270f1d599e6726365246b92f8"
+    },
+    "wjb_train_000067470": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000067470.json",
+      "sha256": "a537ccca38839e6892da84ac0af455d15d02d0ce58c759aca42d9b675b30e142"
+    },
+    "wjb_train_000109171": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000109171.json",
+      "sha256": "e3fd2581b1ead2183bfd2a0081d284a508de68df9e2af004e105ed24b116e069"
+    },
+    "wjb_train_000098739": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000098739.json",
+      "sha256": "927365d418c92511dda3c958e9eb143ca92419a18901f68abab79dfa891e8b71"
+    },
+    "wjb_train_000087770": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000087770.json",
+      "sha256": "4768f7fd5918f228b2679c00c334669c26d92eff999ecab897fc442993c3f3a0"
+    },
+    "wjb_train_000081165": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000081165.json",
+      "sha256": "86e3696c30c487df468b78302acac0358a46c7ec5b776d9bf79a0d9058f7123e"
+    },
+    "wjb_train_000082540": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000082540.json",
+      "sha256": "fd6068f06fd2bad7a73087fdc0c5880993aba0efe0c12c57e1a3c0a8c16b2436"
+    },
+    "wjb_train_000059921": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000059921.json",
+      "sha256": "577261f015bf24f6ae95e8f706f40a890236d58c29a96d47ad3f3da8610ec9fb"
+    },
+    "wjb_train_000067111": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000067111.json",
+      "sha256": "003080c8afc57440dfd874fe7317cf2ae5798b37534a2bc58594fbf9ce741267"
+    },
+    "wjb_train_000056937": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000056937.json",
+      "sha256": "eb574f3d0f99a61e8f8640f30134d365426876df0119328ab52480ce910d6b46"
+    },
+    "wjb_train_000103983": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000103983.json",
+      "sha256": "89d546a1e956e1e3592c5b18467586e73c0ab08d89d96549a2c2c8292fcd5737"
+    },
+    "wjb_train_000108652": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000108652.json",
+      "sha256": "09abb9b3eeec7d674f1a61aae67fd0a2386a8b35f4ad6e9d1536c15ebac86bed"
+    },
+    "wjb_train_000076355": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000076355.json",
+      "sha256": "80fcf5516d6945e20c5abb664710ec7bf3a6d3e664cb3cb7a28998c9385ae5b7"
+    },
+    "wjb_train_000123482": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000123482.json",
+      "sha256": "67d91537b1b03871ffa6a9aa5bfb68078bbadfa972295cff71289d376db437a9"
+    },
+    "wjb_train_000121495": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000121495.json",
+      "sha256": "95bbb4af0650de14b157cf7b5ccdef55edad3972c793e65c46eac1b443dba112"
+    },
+    "wjb_train_000071651": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000071651.json",
+      "sha256": "6c254e7900f44a570a7b5c9004147d09c3e25aaff93ba45398b1c683e1c7eca6"
+    },
+    "wjb_train_000070397": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000070397.json",
+      "sha256": "afe8bf3b459a77a1b3509c90f8138c8a44c16bf50eff7ca1e3e1d1e759542c01"
+    },
+    "wjb_train_000102306": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000102306.json",
+      "sha256": "5f2e25ebc26833d5d97126cf6328ee2aad62dc35ec575430e10bcf80256fa3f4"
+    },
+    "wjb_train_000107942": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000107942.json",
+      "sha256": "2d0147076ef7a4a7fa689702039e4e49368d9f0564b58c7dbf503750640e6fe1"
+    },
+    "wjb_train_000085778": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000085778.json",
+      "sha256": "8b098dcd5817fcd873c3d3ffed7623c9f298a247223fc11bf7a596f38718b93a"
+    },
+    "wjb_train_000093086": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000093086.json",
+      "sha256": "572ae6b30948f46460f67487b501f3f7d622f5691d782710dc6d30ae50baf731"
+    },
+    "wjb_train_000086604": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000086604.json",
+      "sha256": "13370dd4cb1d054976edcad534ab88c5fbb6dc2bd597c339e16d52e619d12b96"
+    },
+    "wjb_train_000064308": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000064308.json",
+      "sha256": "e5206083f627bd4db8678ec9d8a9fc32859cf98afca4934db730e09182af9bbb"
+    },
+    "wjb_train_000055724": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000055724.json",
+      "sha256": "fb44beaad7653da37f7e7975f4cb43971aac065248ce1bd3a119f2fc76ecca7a"
+    },
+    "wjb_train_000107604": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000107604.json",
+      "sha256": "04ecddee31bafda5fa880900a64edd7be82bca7f739971cab0ac6828347d970b"
+    },
+    "wjb_train_000203165": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000203165.json",
+      "sha256": "8832efeb084cf76b7b6061fc1f25e924ea618ca655efbba154e7aa3377354d63"
+    },
+    "wjb_train_000205757": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000205757.json",
+      "sha256": "d81d4ab49b1c0e52d9f00b0b6fe66e090744a0b87ae18099d644ae21785b5ddf"
+    },
+    "wjb_train_000232034": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000232034.json",
+      "sha256": "025ed68a62e99b2497fc7e9659001adc87ee24279ca5c72f9037fb7d515b7ebf"
+    },
+    "wjb_train_000198821": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000198821.json",
+      "sha256": "cb9dc01f6d8bae8ecda05295ca998d4132380c8c09e53069ac94d183c3c886b0"
+    },
+    "wjb_train_000207410": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000207410.json",
+      "sha256": "3779effa1fab71d4c990324238808605b221df57f4d6967cc10ad4e69301f007"
+    },
+    "wjb_train_000254420": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000254420.json",
+      "sha256": "34fd980b98dd7da0a938bfa8d4aa43d40c4dac3756466987403e30f6b80a3f90"
+    },
+    "wjb_train_000241648": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000241648.json",
+      "sha256": "683ce54b2ce600f876c1a4093045563cee4fa178e9887f771e44ba215c275523"
+    },
+    "wjb_train_000204121": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000204121.json",
+      "sha256": "5923621d47a796987520bd95d98e0d0c149df7a322e0f1a345140b22664d5dd7"
+    },
+    "wjb_train_000248954": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000248954.json",
+      "sha256": "ca695d32eb185e0e2314a46b2acaecc8a784febf34322cf53849a92f7377771a"
+    },
+    "wjb_train_000201908": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000201908.json",
+      "sha256": "dbe994464afd73ea1ad8915580dbf1ea9f1eeec445925f6447a7fec396508d5b"
+    },
+    "wjb_train_000230443": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000230443.json",
+      "sha256": "4fa8a3a03baa35c2a282c0805d588b57ea375f879cb52100aef63bd34576fcec"
+    },
+    "wjb_train_000200541": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000200541.json",
+      "sha256": "c9a54e258174fdac023584b3d7e524b658009170443678cc972bd76e7800de59"
+    },
+    "wjb_train_000257340": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000257340.json",
+      "sha256": "08d71d5d81c848f166c2f5b76911a04ea48cf8db64905a80f7487d3d620ac544"
+    },
+    "wjb_train_000211358": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000211358.json",
+      "sha256": "51f63fc2c1a6beb3e53df1796be8b87b7b954e78ca6d286b421522d9ac112b23"
+    },
+    "wjb_train_000213865": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000213865.json",
+      "sha256": "3798c53a9f5bee04adac1874912020c0bad3096e0c66f9564cdd1d3e1a6c72fb"
+    },
+    "wjb_train_000256993": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000256993.json",
+      "sha256": "bd0debd2e260e73541a7f170282c978babe6d103078c1924d025b7645320413c"
+    },
+    "wjb_train_000196405": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000196405.json",
+      "sha256": "0c0a63ae7acf1260eec8f7d5bdf19ca0cb13477c1dbca15c4d9711916081fe2c"
+    },
+    "wjb_train_000243834": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000243834.json",
+      "sha256": "19f2cabe2714b8b64c0842c3ef87313ba7874ec9771c406537a1bad20dbbbf34"
+    },
+    "wjb_train_000198174": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000198174.json",
+      "sha256": "4f435d7c1725225fef340a3d297252b152bf1056f2eb0580b3622d2d39a62102"
+    },
+    "wjb_train_000252275": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000252275.json",
+      "sha256": "db961966f38a408e990bdf23523a6204b81bca3a3b3ca223c35217d9b801f090"
+    },
+    "wjb_train_000193920": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000193920.json",
+      "sha256": "cb15afd0f7e8b86eede6dfa6611358b98917f2765b15b4216a257171bbf926ad"
+    },
+    "wjb_train_000245631": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000245631.json",
+      "sha256": "18754183ff6443d2d49896334450143dd1a9449e1d658719b3feb2b95ade5071"
+    },
+    "wjb_train_000244689": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000244689.json",
+      "sha256": "5f4c6444a169a0f552c96771c1cc3be05a36e23d8a4ee31ba1decd9f184402a1"
+    },
+    "wjb_train_000214064": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000214064.json",
+      "sha256": "1bad66593457a2b72ba53f975b908031b94b733bea381fa5cc8af717881b261a"
+    },
+    "wjb_train_000188099": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000188099.json",
+      "sha256": "3eb177bfa5118eb52be417613cbd59ca9ff967124c6e8914797768875efff279"
+    },
+    "wjb_train_000175185": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000175185.json",
+      "sha256": "4721adb34c12562f444f1b99c2e4c9461e38d0df898e6bdf89571e82230de14a"
+    },
+    "wjb_train_000143781": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000143781.json",
+      "sha256": "5d608ab26de5c611e6b6e9c6bb0d689d071e40202f6d73244f052696af3074e7"
+    },
+    "wjb_train_000180585": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000180585.json",
+      "sha256": "e644504a09d7acedf8f264d231b7bec03c22decaffb290caa3bf06cd16a3d13a"
+    },
+    "wjb_train_000136766": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000136766.json",
+      "sha256": "195faf53cf6c6e2fba0608c94ff7daf18bf5a6e4ec7fd727b37fd484803dfd22"
+    },
+    "wjb_train_000157909": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000157909.json",
+      "sha256": "d43a107b74fef0e0c5f3fdd6c98ff0bb66917d959edc5333a3f9e1ed06f9681b"
+    },
+    "wjb_train_000152449": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000152449.json",
+      "sha256": "1dffaf72ea0b375c46af0d3e4024ec360d01f784f3a36ca0d7686f7cc85f36e2"
+    },
+    "wjb_train_000169339": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000169339.json",
+      "sha256": "218b393bc2fa1f6b22501f8437c4c72f0ac1d5d6cb81153bd97b49016e48fb35"
+    },
+    "wjb_train_000154508": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000154508.json",
+      "sha256": "784cfc290edf6528d9ebe882034f3cd71ed2243a2ba5b9782c4a9849214d416f"
+    },
+    "wjb_train_000136833": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000136833.json",
+      "sha256": "26007831c26bf083fccf16b0a46d80db8e5bf6483e38f12328cde31dde9a248b"
+    },
+    "wjb_train_000154111": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000154111.json",
+      "sha256": "3c7f36beef0ec49af06e788c2bb1b0c35d4f929c25688832aa3952a6861022a7"
+    },
+    "wjb_train_000177580": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000177580.json",
+      "sha256": "070c65bbd5db7f6f43324980bcff8b939eb5db0e42b094e65cfee67bad4c4841"
+    },
+    "wjb_train_000144092": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000144092.json",
+      "sha256": "b326fe54bfdf9798bc024a6bab997ef34dcf72c4cb8284f49e9838afaba05a56"
+    },
+    "wjb_train_000152869": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000152869.json",
+      "sha256": "5838bc902f2168d9d84fcaf8293c58bf4b88339bce3fcc2d187e80de83f86f8d"
+    },
+    "wjb_train_000172026": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000172026.json",
+      "sha256": "8b4da83f44a8711a4bba0cdf52e78e70b2a44f7cf33f3d8df698f488b8b23b1f"
+    },
+    "wjb_train_000172972": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000172972.json",
+      "sha256": "fd8ac82d021d13f9594e5817302813cb50bbb76f196e44daddf5c9003e84f725"
+    },
+    "wjb_train_000139583": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000139583.json",
+      "sha256": "7f28f266f9095a7e135844fe94a639808c53b70a043c4e9d82ddbb5a789e2a46"
+    },
+    "wjb_train_000147837": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000147837.json",
+      "sha256": "545901fef4d8c04ac902e7b0a1d673c1f03414106458c8bbacf0f3ca2202dbd2"
+    },
+    "wjb_train_000151035": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000151035.json",
+      "sha256": "d6d66f4cde54de2fda8f55bdbda9e55a2798d2bf1e5d1989ec94ed751786e91e"
+    },
+    "wjb_train_000135675": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000135675.json",
+      "sha256": "7f30eb17fb35b9a91aa013fa3823beeceaa9963f8b1bf110605bb0a657d11cdf"
+    },
+    "wjb_train_000132914": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000132914.json",
+      "sha256": "fc3af4fc18898e75af7473fa5ee90a1c7380f8620b36158f9f2f4936c0158e77"
+    },
+    "wjb_train_000146289": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000146289.json",
+      "sha256": "4129f1a9b0833d9b9baea9057a3392fda18fd5380f10be2cf159b444cddd9f86"
+    },
+    "wjb_train_000138733": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000138733.json",
+      "sha256": "b6c4e0d9cb18b4a740ea6fafa415bfc08d5dfe083898c3c3d204af708d2a2ec3"
+    },
+    "wjb_train_000153011": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000153011.json",
+      "sha256": "cf3df507a3b8df527d06d2e4141b5cfbd99b02dd7cc2243e15dd759f153a5933"
+    },
+    "wjb_train_000157798": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000157798.json",
+      "sha256": "c52835c068c10bf615e1924ac8217e3918ed475e5d1d9c94cda1c4c107b3bc65"
+    },
+    "wjb_train_000152277": {
+      "source_path": "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/legacy_single/wjb_train_000152277.json",
+      "sha256": "896bdf3e2e03d7fe78523588e76ec33da0d142b7fcaff11cd9bfeae2079061cd"
+    }
+  },
+  "reason": "Deterministic memory-gate fallback B16 to B8 after long-panel headroom1.57029GiB<3GiB; not a label-result decision",
+  "old_cap120_preserved": "All600 files retained under parent; independent cap120 label gate unchanged",
+  "old_candidate_B16": "Preserve all files, exclude failed long candidate from replacement B8 path; regenerate all three long batch conditions",
+  "metadata_fix": "Persist per-batch wall time, allocated/reserved peaks and3GiB headroom; numerical generation/core unchanged; old running source was not edited",
+  "new_version_outputs": 0
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-10T10:49:28.450550+00:00",
+  "pid": 7019,
+  "host": "kemove-X12DAI-N6",
+  "physical_gpu": 2,
+  "phase": "candidate_memory_failed",
+  "test_effect_read": false
+}

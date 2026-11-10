@@ -1,8 +1,8 @@
 {
-  "utc": "2026-11-10T10:40:21.044014+00:00",
+  "utc": "2026-11-10T10:53:28.271851+00:00",
   "stage": "S0",
   "master": "docs/300_UNIFIED_PROTOCOL.md",
-  "master_candidate_sha256": "54fb13684c410dfd7bcfe207960d1a3c54a2646f175651de0ebd4f08c717c017",
+  "master_candidate_sha256": "849e925238d2d116b9cfa6ce403c54e032c78455c00a9f4d55d3b57b305d274b",
   "S1_frozen": false,
   "new_test_generation_allowed": false,
   "allowed_work": [
@@ -19,5 +19,7 @@
   ],
   "SORRY_WG_primary_field": "1-minus-Response-refusal",
   "SORRY_WG_secondary_field": "Harmful-response",
-  "field_amendment_sha256": "6378948b449b052ec88d2736b6084e6df266d0a5cc286d1a922d98c1310726ff"
+  "field_amendment_sha256": "6378948b449b052ec88d2736b6084e6df266d0a5cc286d1a922d98c1310726ff",
+  "Llama_long_batch_candidate": 8,
+  "Llama_cap120_batch_candidate": 16
 }

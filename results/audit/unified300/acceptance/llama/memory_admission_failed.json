@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-10T10:49:28.450365+00:00",
+  "cap": 2400,
+  "condition": "alpha0",
+  "batch_size": 16,
+  "headroom_bytes": 1686044672,
+  "formal_admitted": false,
+  "next_action": "Deterministic smaller-B generation, preserve this candidate; never mix formal outputs"
+}
