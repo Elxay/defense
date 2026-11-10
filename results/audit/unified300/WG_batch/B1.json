@@ -1,0 +1,218 @@
+{
+  "utc": "2026-11-10T09:57:53.001148+00:00",
+  "batch_size": 1,
+  "N": 20,
+  "exact_bytes": 20,
+  "field_agreements": {
+    "Harmful request": 20,
+    "Response refusal": 20,
+    "Harmful response": 20
+  },
+  "pairs": [
+    {
+      "id": "test_0314",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_0329",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_0523",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "7433d3c6c62c2121d7b44834505df123580eec84858e6e3847d1bc9fa420e044"
+    },
+    {
+      "id": "test_0611",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "7433d3c6c62c2121d7b44834505df123580eec84858e6e3847d1bc9fa420e044"
+    },
+    {
+      "id": "test_0778",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_1243",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "7433d3c6c62c2121d7b44834505df123580eec84858e6e3847d1bc9fa420e044"
+    },
+    {
+      "id": "test_1414",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_1454",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_1494",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_1679",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "70b3120f9b501e3b9d39d9b6968dd54f0f4358033fed3b107dc5412dbe4d7887"
+    },
+    {
+      "id": "test_1817",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "70b3120f9b501e3b9d39d9b6968dd54f0f4358033fed3b107dc5412dbe4d7887"
+    },
+    {
+      "id": "test_2125",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "70b3120f9b501e3b9d39d9b6968dd54f0f4358033fed3b107dc5412dbe4d7887"
+    },
+    {
+      "id": "test_2288",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_2291",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "7433d3c6c62c2121d7b44834505df123580eec84858e6e3847d1bc9fa420e044"
+    },
+    {
+      "id": "test_2925",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "7433d3c6c62c2121d7b44834505df123580eec84858e6e3847d1bc9fa420e044"
+    },
+    {
+      "id": "test_2954",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_3422",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "7433d3c6c62c2121d7b44834505df123580eec84858e6e3847d1bc9fa420e044"
+    },
+    {
+      "id": "test_3729",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "70b3120f9b501e3b9d39d9b6968dd54f0f4358033fed3b107dc5412dbe4d7887"
+    },
+    {
+      "id": "test_3739",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "00c757bacae43fa2abda7c41c8422c250bd31fcafca73b7941a24f25ae72b50c"
+    },
+    {
+      "id": "test_3877",
+      "byte_equal": true,
+      "field_equal": {
+        "Harmful request": true,
+        "Response refusal": true,
+        "Harmful response": true
+      },
+      "output_sha256": "7433d3c6c62c2121d7b44834505df123580eec84858e6e3847d1bc9fa420e044"
+    }
+  ],
+  "seconds": 22.653828616952524,
+  "tokens_per_second": 17.657059509166952,
+  "rows_per_hour": 3178.2707116500515,
+  "conservative_headroom_bytes": 8990294016,
+  "passed_exact20": true
+}

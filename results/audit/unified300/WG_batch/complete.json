@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-10T09:58:09.408330+00:00",
+  "candidate_batch_size": 8,
+  "rule": "exact20 and >=3GiB; smallest >=80% maximum measured tokens/s",
+  "N_fixed_prompts": 20,
+  "not_accuracy_or_steering_effect": true,
+  "plan_sha256": "283adb1d4f2d92ab9f3910b1b9f473950812d522945671152ac11181c7403a1a"
+}

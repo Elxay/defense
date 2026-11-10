@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-10T10:01:15.042803+00:00",
+  "master_candidate_sha256": "8fc217550102a98a95535e3421371dbfe5f22203a689a084baef66581684eaa0",
+  "acceptance_plan_sha256": "859ada8440c0c5c025272d14ca7e405b1dc1185f16b57815ccd8f49b9100eb9a",
+  "WG_batch_plan_sha256": "283adb1d4f2d92ab9f3910b1b9f473950812d522945671152ac11181c7403a1a",
+  "WG_batch_result_sha256": "79f6ffcc8512e2ae78350694804490fa6b3eb1965609787cc74723c44f63e354",
+  "target_candidates": {
+    "llama": {
+      "120": 16,
+      "2400": 16
+    },
+    "qwen": {
+      "120": 32,
+      "2400": 32
+    }
+  },
+  "stage": "S0; 100x3 label gate not yet run"
+}

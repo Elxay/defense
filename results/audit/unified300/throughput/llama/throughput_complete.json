@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-10T09:57:51.870104+00:00",
+  "model": "llama",
+  "candidate_batch_sizes": {
+    "120": 16,
+    "2400": 16
+  },
+  "admitted_for_formal_generation": false,
+  "remaining": "100x3 WG/v2 label gate, nonzero injection metadata, historical batch reproduction",
+  "no_test_effects_read": true
+}
