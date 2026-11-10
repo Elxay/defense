@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-10T06:12:08.088241+00:00",
+  "fixed_texts_file_sha256": "e51c559e246f77ca0623fba4424f66cb4118fffd0f71ba02772f7819b55dcd6b",
+  "text_sha256": {
+    "deep_template": "b0839e48828caca4934a5986d15ee07a39a78a788ce44fb337ed4617454b8853",
+    "refusal_suppression": "5669655a8e885e4f685dc1505327437f3b1e9b88f8bd19de3864ee67b1f8427b",
+    "PAIR_TAP_target": "55a56dec8fc7fbb2a4a914627ab0d02d8c93ca7a11af4c0b53e7318c48c52057",
+    "prefill": "55a56dec8fc7fbb2a4a914627ab0d02d8c93ca7a11af4c0b53e7318c48c52057"
+  },
+  "deep_source_revision": "fc5689e76c4dd87a14babf1eadf890532f2b6880",
+  "deep_README_sha256": "51721c1e4e119db731fb74c787c381213fff16abc02b59f976ab790e0252ed6f",
+  "deep_parameter_rule": "author README ready-to-use example; dream scene, character threshold morethan5, targetlayer5; replace only bold task slot with unmodified instruction; no dialogue followups",
+  "N": 440,
+  "target_rule": "same fixed affirmative prefix for every behavior; no model output used to choose it",
+  "targets_sha256": "1bca91c7a4ab634d1a205a45cd550f9d266513bd561d1c96b7b72e3cbe323d93"
+}

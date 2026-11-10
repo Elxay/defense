@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-10T06:14:48.503671+00:00",
+  "worker_sha256": "9344aa4ad46258975b5606495463864c3ef000040b1337c8bbe41f69e61c3230",
+  "master_candidate_sha256": "d580e6e27588e7e8d8b801abf2f2e420d846d41e3fa61d2769addf1ccb212a70",
+  "sampling_seeds": {
+    "adversarial_harmful": 20261230,
+    "adversarial_benign": 20261231,
+    "vanilla_benign": 20261232
+  },
+  "counts": [
+    300,
+    200,
+    200
+  ],
+  "model_generation": false,
+  "rows_deleted": 0,
+  "audit_encoder": "all-MiniLM-L6-v2 revision1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "threshold": 0.85,
+  "reference_groups": "actual97grouptexts; fit12/val70/legacy46/dev22 source behaviors plus actual fit/val attack prompts, WJB source200; mark byreference, not proof of semantic identity"
+}
