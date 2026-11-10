@@ -634,3 +634,5 @@
 - 2026-11-10T03:37:40.950192+00:00 #17 before templategate label reads: primaryHB,all5low humanfamilyalpha0-only whiledirect/prefix scopecontinues; gate-table model-specific. ResourceBASEseedexpanded=8conditionsLlama/6new, actual#16predicatesunchanged. Directalpha0remaining275samepathqueued, prefixcalibrationstillpaused. DocSHA 27df2cafa386ff309de2c9a1d34ae5368d38f49d7ccf2720d7a9db1d69d6cc1c.
 
 - 2026-11-10T04:03:22.466891+00:00 #18 cross-node Qwen40bytepairs before recovery; same ASTbatch/single, no effect read. Gemma470WG/admission sampling prepared under frozen seeds and explicit fieldmask; Qwenrecoverypriority. EACHtemplate75/300; budgetnotextension. SHA 1bc8aa83224d7e15a5a19933a2c1a16a3522799e064fc29eacadfa60aa5e1c87.
+
+- 2026-11-10T04:09:12.732374+00:00 Gemma#18admission started before model review/WGread; seededv2negative sample fixed from new eager-uncompiled namespace. PlanSHA 5a76e88f688ecb91ff4a013b3bb1026969c2954edf459ebf93f121b00431ba2d,IDsSHA a323bf4affe87b4500f01e9e0c96aa5d73041e1f55e0cded3229ca1c2ccf52ab;node01GPU2 after Qwen generation20gates,format5andknownbaselineWG20bytegate. No training admission yet.
