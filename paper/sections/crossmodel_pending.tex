@@ -1,0 +1,24 @@
+% Pending protocol skeleton; no completed cross-model steering results are claimed.
+\subsection{Cross-model ports: protocol and pending results}
+\label{sec:crossmodel-pending}
+The planned ports are Qwen2.5-7B-Instruct, Gemma-2-9B-it, and Mistral-7B-Instruct-v0.3. Each uses the same twelve fixed Llama refusal targets and its own sixty benign keep continuations, with model weights frozen. Three training seeds (3, 4, and 5) use the frozen forty-step recipe. We index injection sites by zero-based decoder blocks; the intervention norm is $0.9$ times the model-specific median final-prompt-token residual norm on keep60. The fixed target wording is a transfer target for these models. Training-loss reductions alone do not establish defensive efficacy or convergence.
+
+All three seeds jointly determine one operating point. On the transferred val70 selection set, the target WildGuard refusal rate is $R_0+0.5(1-R_0)$; a candidate must respect the per-seed legal budget of at most 19 new refusals among the fixed 388 legal prompts. Selection uses the frozen seven-point grid without a monotonicity assumption. The infeasible and target-unreachable branches are retained. These operating points differ from Llama's fixed $\alpha=1$, so cross-model contrast magnitudes are not comparisons at an identical intervention strength.
+
+The held-out protocol covers the WildJailbreak evaluation split and public refusal collections. Additional model-independent direct requests, five fixed human templates, and assistant-prefill tests assess attack-source sensitivity; transferred PAIR-500 prompts are outside the new-model test scope. Direct-request and low-dynamic-range results are sanity checks, not evidence of defense quality. Static-family unit extensions and template gates follow the frozen rules independently of reserved compute. System baselines respect native interfaces: Gemma uses a user-turn prefix and Mistral merges system text into its instruction turn.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+Model & Selected $\alpha$ & Harmfulness contrast & Benign cost \\
+\midrule
+Qwen2.5-7B-Instruct & --- & --- & --- \\
+Gemma-2-9B-it & --- & --- & --- \\
+Mistral-7B-Instruct-v0.3 & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Pending cross-model results. Dashes mean not yet admitted for reporting, not zero effect. Harmfulness contrasts will be learned minus random; benign costs will identify their reference explicitly. No completed-model count is inferred from this protocol table.}
+\label{tab:crossmodel-pending}
+\end{table}

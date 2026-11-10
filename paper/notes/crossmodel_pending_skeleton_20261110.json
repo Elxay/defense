@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-10T04:23:16.723974+00:00",
+  "status": "protocol skeleton only; all result fields pending",
+  "changed": {
+    "paper/sections/crossmodel_pending.tex": "09791f6300d309409fdb8ca02ce5ba641c43a70eb773d274475f4e620bbc053f",
+    "paper/sections/04_results.tex": "83a246f8cdf332509ac57da5fa11e04e5fe4547a4533c439848c9720213fa8c4",
+    "paper/sections/03_setup.tex": "d18b2050f1297b509a01e07702ab3de080a80a7b3dbc42662e6cb630c688a6ee"
+  },
+  "full_pdf_build": false,
+  "protocol_sources": [
+    "docs/287_ADDENDUM5_UNIFIED_FIXED_LLAMA_TARGETS.md",
+    "docs/287_ADDENDUM6_VICUNA_TO_MISTRAL.md",
+    "docs/287_ADDENDUM9_WG_SELECTION_METRIC.md",
+    "docs/287_ADDENDUM14_MULTISOURCE_ATTACK_TESTS.md",
+    "docs/287_ADDENDUM16_INITIAL_FIVE_AND_SEPARATE_EXTENSIONS.md",
+    "docs/287_ADDENDUM17_TEMPLATE_GATE_READ_ORDER_AND_SEED_BUDGET.md"
+  ]
+}
