@@ -1,0 +1,24 @@
+{
+  "utc_frozen": "2026-11-10T14:25:26.838318+00:00",
+  "amendment_sha256": "664d800b5758710d86c1d0cf3e94baf8d7e8d300793b3bcab729df2917e766b4",
+  "style_statistics_already_read": true,
+  "new_main_outputs": 0,
+  "new_main_effects_read": false,
+  "language_seed": 20261267,
+  "language_package": "langdetect==1.0.9",
+  "McNemar": "two-sided exact conditional binomial; no continuity correction; p1 when no discordants",
+  "direction_definitions": {
+    "batch_more_refusal": "single0_batch1",
+    "batch_less_refusal": "single1_batch0"
+  },
+  "no_absolute_condition_rate_summary": true,
+  "fallback_chain": [
+    32,
+    16,
+    8,
+    4,
+    1
+  ],
+  "S1a_frozen": false,
+  "S1b_frozen": false
+}
