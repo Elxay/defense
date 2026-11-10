@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-10T15:03:34.009399+00:00",
+  "S1a_frozen": true,
+  "S1b_frozen": false,
+  "S1a_doc_sha256": "a3a4cc602ef1d15176b632287616b6b97a439e6b0f6bde92d838153f17d143c1",
+  "manifest_sha256": "44015228cfbf5065953f6e9c83f9d7f5c1622210da4f4dfec2cdb9088db32f42",
+  "master_sha256": "3a4a4d0d76ebde27fa1561169f95b198c4a0d705c44326ded23746c76f53e2e0",
+  "freeze_execution_plan_sha256": "e5a477fdc269ee40c5b413dec52c563041d8c97cdfd43cd99bbc82e6a88fdd6d",
+  "long_batches": {
+    "llama": 8,
+    "qwen": 4
+  },
+  "short_calibration_batches": {
+    "llama": 16,
+    "qwen": 32
+  },
+  "search_outputs": 0,
+  "main_test_outputs": 0,
+  "per_family_gates_remain": true
+}

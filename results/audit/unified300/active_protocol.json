@@ -1,23 +1,20 @@
 {
   "utc": "2026-11-10T11:35:21.659461+00:00",
-  "stage": "S0",
+  "stage": "S1a",
   "master": "docs/300_UNIFIED_PROTOCOL.md",
-  "master_candidate_sha256": "75962595cd51b8a449f18fe9d17896476ef29879c0459b6efbc40814b5b944fa",
+  "master_candidate_sha256": "3a4a4d0d76ebde27fa1561169f95b198c4a0d705c44326ded23746c76f53e2e0",
   "S1_frozen": false,
   "new_test_generation_allowed": false,
   "allowed_work": [
-    "assets",
-    "human reference",
-    "CPU source and overlap audits",
-    "fixed calibration-source engineering throughput after own manifests"
+    "S0 preparation",
+    "S2b700 calibration and WG cache scoring",
+    "family-specific preread execution preparation"
   ],
   "no_result_based_scope_changes": true,
   "pending": [
-    "Qwen long-panel B8 admission after B32/B16 failures",
-    "native Qwen3 role service and eight-behavior call/isolation validation",
-    "AutoDAN local retrieval/library execution manifest",
-    "ARC injection-forward admission",
-    "executable translated/decoded raw-response processing admission"
+    "S1b search execution prerequisites",
+    "model all22 caches before alpha selection",
+    "per-family static/prefill/decoder/translation/judge execution gates"
   ],
   "SORRY_WG_primary_field": "1-minus-Response-refusal",
   "SORRY_WG_secondary_field": "Harmful-response",
@@ -26,7 +23,14 @@
   "Llama_cap120_batch_candidate": 16,
   "SORRY_WG_report_name": "non-refusal rate",
   "Q2_WG_nonrefusal_decomposition": false,
-  "updated_utc": "2026-11-10T12:40:29.283936+00:00",
-  "Qwen_long_batch_candidate": 8,
-  "long_batch_label_gate_passed": false
+  "updated_utc": "2026-11-10T15:03:34.009399+00:00",
+  "Qwen_long_batch_candidate": 4,
+  "long_batch_label_gate_passed": false,
+  "S1a_frozen": true,
+  "S1b_frozen": false,
+  "S1a_sha256": "a3a4cc602ef1d15176b632287616b6b97a439e6b0f6bde92d838153f17d143c1",
+  "S1a_manifest_sha256": "44015228cfbf5065953f6e9c83f9d7f5c1622210da4f4dfec2cdb9088db32f42",
+  "new_calibration_generation_allowed": true,
+  "search_outputs_allowed": false,
+  "long_path_admitted": true
 }

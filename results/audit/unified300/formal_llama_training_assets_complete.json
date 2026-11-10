@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-10T14:42:02.684149+00:00",
+  "records": [
+    {
+      "seed": 4,
+      "vector_file_sha256": "628c9ac9de86298941a8d2d3490803068927b9e4dedaf88aab1258eaf8e5061a",
+      "log_sha256": "0749e646e922221163504a7b29298c0b13126f429db06fa87873ad95f5008fa8",
+      "target_file_sha256": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+      "norm": 5.210000038146973
+    },
+    {
+      "seed": 5,
+      "vector_file_sha256": "1b2e749f217ea701a582ab9a640592dc4f167b82dda423d50f6ecc0643ece808",
+      "log_sha256": "e1bd6c758d13d63a12bccfc77b2770d6de076338f98ee5551c53ddbf91fdd484",
+      "target_file_sha256": "31ef70b9cf0fd334edb12d373659fcbafb8b1510dcc577448df869ec278ef9d0",
+      "norm": 5.210000038146973
+    }
+  ],
+  "plan_sha256": "2c018b64aad8252d41ed3fdfee0a5bc9e8fad27203d9e861bd936ea6179776be",
+  "new_calibration_outputs": 0,
+  "new_test_outputs": 0
+}
