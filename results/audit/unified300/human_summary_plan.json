@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-10T06:24:48.772286+00:00",
+  "worker_sha256": "9c92660954eaf86c9b9459e31ffc11498b985e822a03c46d6240877b092ca3e4",
+  "base_plan_sha256": "9f8fb930cf80d2895d5a8445f4a881ec348fb6c03df53bd9f08ce832bf9f0e12",
+  "cluster_seed": 20261260,
+  "cluster_bootstrap": 2000,
+  "read_gate": "all4400scores from eachjudge and all20gates; no dropping a judge based on agreement",
+  "human_scores_or_agreement_read_before_freeze": false
+}
