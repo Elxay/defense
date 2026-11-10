@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-10T02:18:59.349397+00:00",
+  "counts": {
+    "direct": 0,
+    "human5": 0,
+    "assistant_prefill": 0
+  },
+  "pause_request_sha256": "e1e8e9bc1fd7c20efda165a89661c6d5ce07a767f5bd589d872710de542ba2ba"
+}

@@ -622,3 +622,5 @@
 - 2026-11-10T02:00:02.530424+00:00 Addendum14 before new-family outputs0: fixed global5templates[38, 82, 22, 72, 107],direct300/human1500/prefill300,300rows/288groups,marked147+87/unseen66. All4models fixed before Llama pilot, QwenWJB priority. SHA 05ddc4152d62654858f4be089eceafbcb788e2ddaee3e9c57ad53d029acbd3d1.
 
 - 2026-11-10T02:04:13.237853+00:00 #14 timestamp clarification before outputs0:02:00:02=preparation start, actual initial Git commit fe988a7ecd7b2d0f7944783833b7329be4072ad3 2026-11-10T10:02:33+08:00. Updated doc SHA e68c4a1e24e80117170b51bf4124c459d4c899d24cdcfe0eee7fe177b4b66eda.
+
+- 2026-11-10T02:18:59.423025+00:00 #15 before prefix outputs0: P1primary finalprefill/P2diagnostic nativeboundary; continuation-onlyv2/v3, complete-native-replyWG/HB, render4SHA 8fc12f79991c5d394e588c2305ff84f61bbc942ab17ced555383e583d73a7e66; retention direct>P1>P2>human frozenorder, incomplete labeling. Nonprefix calibrations continue after unchanged20gate. DocSHA 0421b31dd239606dd1cc20689637ec3d768f915b2457eb9fc0d70f0ed27f91ac.

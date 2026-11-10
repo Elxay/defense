@@ -1,0 +1,5 @@
+{
+  "utc": "2026-11-10T02:18:59.423025+00:00",
+  "reason": "No prefix generation until published amendment, render4 and position-hook release gates are verified",
+  "release_marker": "release_after_position_gate.json"
+}
