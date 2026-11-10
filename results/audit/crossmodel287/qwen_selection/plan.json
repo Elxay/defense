@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-10T01:01:44.631260+00:00",
+  "alpha_grid": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5
+  ],
+  "seeds": [
+    3,
+    4,
+    5
+  ],
+  "worker_sha256": "b350ad1c0a76510f8b70ecad1084fc838b72aed978a3d68cd291a35298eb932f",
+  "score_queue_sha256": "2f095fd887f97301769717e662a0531ecc722c3e534b7d5b603867735ca10d7e",
+  "wg_worker_sha256": "651d34ecf82514016acf20ea116f85e6dccff212c9343afcde55dcd39bcbf368",
+  "inputs_sha256": "1d647c4d14842a9f65708df2f38eb0bea51e56ef5ad24777480c71253d617d85",
+  "core_sha256": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+  "renderer_sha256": "762ebbc745f7aa7eba5ac0c787f45901b79affdba264c5b53e05f5cf1c60d2c4",
+  "vector_sha256": {
+    "3": "d30e4286fbd5a66d1b7c7a21428bbbc82cb70dc438588153488fd2c33181ae26",
+    "4": "40c4e4fa49770c9b35ee4189e37c9bea81685fe5546f9bfcd3690f253c1049a0",
+    "5": "ce7d28c52240662b8b65e84c6718b302578ea1e5ed3610f6909939f9cefb2b88"
+  },
+  "source_execution_sha256": "9e218a5a64c1f2b8fa311547cd08eadd0af9937a354e20903adc0fadc91c2f07",
+  "WG_primary_v2_sensitivity": true,
+  "read_lock": "All21 conditions x470 outputs and WG scores complete before alpha summary; no candidate stopping based on refusal or ASR",
+  "zero20_each_card": "first16 legal rows in original2 batches plus first4 val70; byte-exact with saved alpha0 or stop",
+  "row_sharding": "whole original batch8 groups alternate, single val70 rows alternate; no duplicate ownership",
+  "per_seed_legal_cap": 19,
+  "legal_guard_mask": 388,
+  "val70_denominator": 70,
+  "joint_alpha_single": true,
+  "no_monotonicity_assumed": true,
+  "labels_not_read_before_this_freeze": true
+}
