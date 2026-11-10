@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-10T10:34:35.138650+00:00",
+  "base_plan_sha256": "13cb1bb02267adb9286e967eb8ece98cf98d87aca04621e99f7a731e2c75e7a1",
+  "worker_sha256": "8599c8b4d4c0b327fa4e85d693c0d80b39504d1f636074f696ca60c0cc4f9085",
+  "reason": "v1 computed diagnostics but JSON export failed on numpy int64 count; cast counts to native int only. No output summary was written or printed. Formulas, strata, field-choice rule and sampling unchanged."
+}
