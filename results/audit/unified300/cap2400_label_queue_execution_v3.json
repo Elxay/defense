@@ -1,0 +1,9 @@
+{
+  "utc_frozen": "2026-11-10T12:19:35.228758+00:00",
+  "generation_plan_sha256": "ae5c9852871157055f0019a9bb405f0f5b423ae2f23a6b6e7fc9c3262c0760d2",
+  "queue_worker_sha256": "67f075dc8e39265e2f518276415e2c8b930eb6fca0062752359c31dfdec7a902",
+  "label_worker_sha256": "afbbca1cc7b2749f53f779a1f8837bd825be18c66c5bda5f70beafe53eca7146",
+  "only_Qwen_B16_against_same300_B1_references": true,
+  "threshold_unchanged": "<=2/100 for both WG worstcase and v2 in every condition",
+  "formal_admitted": false
+}
