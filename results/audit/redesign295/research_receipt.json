@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-10T04:47:04.752671+00:00",
+  "doc_sha256": "02b6451fafdc071e7b410f679d782d92358df3bbd0b9bd8aade2e13d558d240d",
+  "budget_sha256": "cc7821b239b55d5e78a1cff12ba5d413223e4cdd9d25db9ac657347db566a603",
+  "accounting_checker_sha256": "479b40f95d627541442f9bfb564a8ee63889c1921085a9543806719cf79c2629",
+  "sources_verified_via": "web paper+officialcode and localHarmBench; no AutoDAN executable deployed",
+  "upstream_checkout_status": "server GitHub API403 rate limit; HTTPSgit timedout; rawdownloads URLError; official upstream commit not pinned for execution",
+  "new_scope_generation_started": false,
+  "old_results_deleted": false,
+  "abstract_changed": false
+}

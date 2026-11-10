@@ -1,0 +1,17 @@
+{
+  "accounting_checks": "passed",
+  "models": 4,
+  "conditions": 6,
+  "base_gpu_hours": [
+    844.1143517446582,
+    1123.3600431111113
+  ],
+  "total_f20_plus_unmeasured_W": [
+    1324.0082184113248,
+    2563.041643111111
+  ],
+  "total_f50_plus_unmeasured_W": [
+    1597.6730184113248,
+    3384.036043111111
+  ]
+}

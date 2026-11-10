@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-10T04:42:22.347445+00:00",
+  "upstream_commit": "not yet resolved; fetched main content checksummed; no execution",
+  "files": [
+    {
+      "path": "pipeline.py",
+      "error": "URLError"
+    },
+    {
+      "path": "main.py",
+      "error": "URLError"
+    },
+    {
+      "path": "test.py",
+      "error": "URLError"
+    },
+    {
+      "path": "framework/retrival.py",
+      "error": "URLError"
+    },
+    {
+      "path": "framework/scorer.py",
+      "error": "URLError"
+    },
+    {
+      "path": "llm/huggingface_models.py",
+      "error": "URLError"
+    }
+  ]
+}

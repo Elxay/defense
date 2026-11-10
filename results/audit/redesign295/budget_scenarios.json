@@ -1,0 +1,241 @@
+{
+  "written_UTC": "2026-11-10T04:41:18.911987+00:00",
+  "status": "scenario budget, not measured search ETA; no new-scope generation launched",
+  "M": 4,
+  "conditions": {
+    "alpha0": 1,
+    "learned": 3,
+    "random": 2,
+    "K": 6
+  },
+  "static": [
+    {
+      "family": "WJB500",
+      "rows_per_condition": 500,
+      "per_model_condition_gpu_hours": [
+        1.8,
+        1.8
+      ],
+      "matrix_gpu_hours": [
+        43.2,
+        43.2
+      ],
+      "status": "unmeasured user estimate"
+    },
+    {
+      "family": "human5",
+      "rows_per_condition": 1500,
+      "per_model_condition_gpu_hours": [
+        11.137381,
+        11.137381
+      ],
+      "matrix_gpu_hours": [
+        267.297144,
+        267.297144
+      ],
+      "status": "Llama25pilot extrapolation; all5active scenario"
+    },
+    {
+      "family": "DeepInception",
+      "rows_per_condition": 300,
+      "per_model_condition_gpu_hours": [
+        2.2,
+        2.2
+      ],
+      "matrix_gpu_hours": [
+        52.800000000000004,
+        52.800000000000004
+      ],
+      "status": "unmeasured"
+    },
+    {
+      "family": "prefill_P1",
+      "rows_per_condition": 300,
+      "per_model_condition_gpu_hours": [
+        1.3,
+        1.3
+      ],
+      "matrix_gpu_hours": [
+        31.200000000000003,
+        31.200000000000003
+      ],
+      "status": "unmeasured"
+    },
+    {
+      "family": "prefill_P2",
+      "rows_per_condition": 300,
+      "per_model_condition_gpu_hours": [
+        1.3,
+        1.3
+      ],
+      "matrix_gpu_hours": [
+        31.200000000000003,
+        31.200000000000003
+      ],
+      "status": "unmeasured; separate deployment"
+    },
+    {
+      "family": "refusal_suppression",
+      "rows_per_condition": 300,
+      "per_model_condition_gpu_hours": [
+        1.0,
+        1.0
+      ],
+      "matrix_gpu_hours": [
+        24.0,
+        24.0
+      ],
+      "status": "unmeasured"
+    },
+    {
+      "family": "encoding",
+      "rows_per_condition": 300,
+      "per_model_condition_gpu_hours": [
+        1.0,
+        2.0
+      ],
+      "matrix_gpu_hours": [
+        24.0,
+        48.0
+      ],
+      "status": "unmeasured capability-gated"
+    },
+    {
+      "family": "translation",
+      "rows_per_condition": 300,
+      "per_model_condition_gpu_hours": [
+        1.0,
+        2.0
+      ],
+      "matrix_gpu_hours": [
+        24.0,
+        48.0
+      ],
+      "status": "unmeasured capability-gated"
+    },
+    {
+      "family": "direct",
+      "rows_per_condition": 300,
+      "per_model_condition_gpu_hours": [
+        0.5294206930644577,
+        0.7479911666666667
+      ],
+      "matrix_gpu_hours": [
+        12.706096633546984,
+        17.951788
+      ],
+      "status": "Llama full300 vs25pilot; not newmodel timings"
+    }
+  ],
+  "base_cost_components_gpu_hours": {
+    "static_generation_all_templates_active": [
+      510.403240633547,
+      563.6489320000001
+    ],
+    "calibration_generation_plus_WG": [
+      97.04444444444445,
+      175.26666666666668
+    ],
+    "public_generation": [
+      7,
+      15
+    ],
+    "utility_generation": [
+      26.666666666666668,
+      80.0
+    ],
+    "evaluation_judges_full_and_512": [
+      80,
+      140
+    ],
+    "two_search_families_final_replay": [
+      48.0,
+      64.0
+    ],
+    "training_norm_render_reserve": [
+      10,
+      20
+    ],
+    "adaptive_PAIR_matched_alpha0_plus_s3_plus_random_300_searches": [
+      63.666666666666664,
+      63.666666666666664
+    ],
+    "adaptive_transfer_vs_adaptive_replay": [
+      1.3333333333333333,
+      1.7777777777777777
+    ]
+  },
+  "base_excluding_TAP_AutoDAN_build_library": [
+    844.1143517446582,
+    1123.3600431111113
+  ],
+  "TAP_search_PAIR_ratio_scenario": [
+    254.66666666666666,
+    764.0
+  ],
+  "AutoDAN_query_scenarios_not_predictions": [
+    {
+      "failed_fraction_hypothesis": 0,
+      "queries_mean_hypothesis": 6.72,
+      "autodan_four_models_gpu_hours_at_kappa1": 42.784000000000006,
+      "at_kappa3": 128.35200000000003
+    },
+    {
+      "failed_fraction_hypothesis": 0.2,
+      "queries_mean_hypothesis": 35.376,
+      "autodan_four_models_gpu_hours_at_kappa1": 225.2272,
+      "at_kappa3": 675.6816
+    },
+    {
+      "failed_fraction_hypothesis": 0.5,
+      "queries_mean_hypothesis": 78.36,
+      "autodan_four_models_gpu_hours_at_kappa1": 498.89200000000005,
+      "at_kappa3": 1496.6760000000002
+    },
+    {
+      "failed_fraction_hypothesis": 1,
+      "queries_mean_hypothesis": 150.0,
+      "autodan_four_models_gpu_hours_at_kappa1": 955.0000000000001,
+      "at_kappa3": 2865.0000000000005
+    }
+  ],
+  "warmup_library_cost_W": "unmeasured and additional; warmup requests/round budget not yet executable-frozen",
+  "planning_total_f20pct": [
+    1324.0082184113248,
+    2563.041643111111
+  ],
+  "planning_total_f50pct": [
+    1597.6730184113248,
+    3384.036043111111
+  ],
+  "available_capacity": [
+    {
+      "cutoff_JST": "2026-11-20T00:00:00+09:00",
+      "six_cards_60pct_gpu_hours": 814.7210880129999,
+      "seven_cards_60pct_gpu_hours": 950.5079360151666
+    },
+    {
+      "cutoff_JST": "2026-11-21T00:00:00+09:00",
+      "six_cards_60pct_gpu_hours": 901.1210880129998,
+      "seven_cards_60pct_gpu_hours": 1051.3079360151667
+    },
+    {
+      "cutoff_JST": "2026-12-21T00:00:00+09:00",
+      "six_cards_60pct_gpu_hours": 3493.1210880129997,
+      "seven_cards_60pct_gpu_hours": 4075.307936015166
+    }
+  ],
+  "cautions": [
+    "No runtime is inferred from successful-query mean6.72 alone",
+    "kappa1to3 is sensitivity to role/token/residency overhead, not measured",
+    "Budget counts reserved resident GPU-time; 3roles may require3cards or model sharing; no continuous ideal6card parallelism assumed",
+    "All new-model speeds unknown; old outputs reused only after exact prompt/alpha/renderer/backend/vector signature match",
+    "Search target calls are not formal2400token replay outputs",
+    "P1/P2 alpha0 may share only after identical full input/zero-path assertion; not credited here"
+  ],
+  "adaptive_comparator_requirement": "Matched PAIRalpha0 search on same50behaviors for eachmodel; TAP/AutoDANalpha0 prompts are not a matched PAIR comparator. Existing Llama searches reusable only with identical config+prompt signatures; no reuse credited.",
+  "adaptive_replay_additional_unmeasured_gpu_hours": [
+    1.3333333333333333,
+    1.7777777777777777
+  ]
+}
