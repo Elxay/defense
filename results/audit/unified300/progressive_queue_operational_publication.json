@@ -1,0 +1,9 @@
+{
+  "published": true,
+  "utc": "2026-11-11T11:17:27.214140+00:00",
+  "code_plan_publication_commit": "25dfde863ee5ebd12c0fd7e2e08c13840d734029",
+  "PAIR_plan_sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+  "AutoDAN_plan_sha256": "c4b61599caddf05ee365fb639706c941880c65a81c7cb52e3497613b61cf813d",
+  "read_locks_unchanged": true,
+  "no_new_bulk_output_before_publication": true
+}
