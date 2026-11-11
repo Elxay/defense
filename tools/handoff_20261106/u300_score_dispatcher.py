@@ -12,7 +12,12 @@ def cycle():
     plan=L(U/'ready_generation_plan.json');inputs=L(U/'static_alpha0_inputs.private.json')
     prior=L(U/'score_dispatch_state.json') if (U/'score_dispatch_state.json').exists() else {'waves':[]}
     C=U/'ready_queue_catalog.json';cat=L(C);q=L(U/'ready_queue/state.json')['tasks']
-    for judge in ['SORRY','WG']:
+    if (U/'score_waves/HB_0001/manifest.json').exists() and not any(w['judge']=='HB' for w in prior['waves']):
+        m=L(U/'score_waves/HB_0001/manifest.json')
+        prior['waves'].append(dict(utc=utc(),wave='HB_0001',judge='HB',task_id='score_HB_0001',
+            N=m['N'],cells=m['cells'],manifest_sha256=H(U/'score_waves/HB_0001/manifest.json')))
+    for judge in ['SORRY','WG','HB']:
+        if judge=='HB' and not (U/'HB_scoring_publication.json').exists():continue
         existing=[w for w in prior['waves'] if w['judge']==judge]
         unfinished=[w for w in existing if q.get(w['task_id'],{}).get('state')!='done']
         if unfinished: continue
@@ -47,11 +52,12 @@ def cycle():
         save(w/'manifest.json',manifest)
         taskid='score_'+wave
         requires=[dict(path='results/audit/unified300/scoring_schedule_publication.json',key='published',value=True)]
-        task=dict(id=taskid,priority=8,site='innet' if judge=='SORRY' else 'node01',
-                  gpus=[0] if judge=='SORRY' else [2],kind='cache_only_judging',yieldable=False,
-                  argv=['/home/kemove/anaconda3/envs/HZX_GLA/bin/python' if judge=='SORRY' else '/data/ray/env/bin/python',
-                        '{ROOT}/tools/handoff_20261106/u300_score_cache_worker.py',judge,wave],
+        task=dict(id=taskid,priority=12 if judge=='HB' else 8,site='node01' if judge=='WG' else 'innet',
+                  gpus=[0] if judge=='SORRY' else [2,3] if judge=='HB' else [2],kind='cache_only_judging',yieldable=False,
+                  argv=['/data/ray/env/bin/python' if judge=='WG' else '/home/kemove/anaconda3/envs/HZX_GLA/bin/python',
+                        '{ROOT}/tools/handoff_20261106/'+('u300_hb_cache_worker_v1.py' if judge=='HB' else 'u300_score_cache_worker.py'),judge,wave],
                   requires=requires)
+        if judge=='HB':task['requires'].append(dict(path='results/audit/unified300/score_waves/SORRY_0001/SORRY_complete.json'))
         if judge=='WG':task['sync_relpath']='results/audit/unified300/main_scores/WG'
         rels=['tools/handoff_20261106/u300_score_cache_worker.py',
               'results/audit/unified300/scoring_schedule_v1.json',

@@ -1,0 +1,637 @@
+{
+  "utc": "2026-11-11T12:17:52.954694+00:00",
+  "models": [
+    {
+      "repo": "liuhaotian/llava-v1.6-vicuna-7b",
+      "status": 200,
+      "revision": "deae57a8c0ccb0da4c2661cc1891cc9d06503d11",
+      "gated": false,
+      "files": [
+        {
+          "name": "README.md",
+          "size": 1485,
+          "lfs_sha256": null
+        },
+        {
+          "name": "config.json",
+          "size": 1681,
+          "lfs_sha256": null
+        },
+        {
+          "name": "generation_config.json",
+          "size": 170,
+          "lfs_sha256": null
+        },
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 4938993632,
+          "lfs_sha256": "f61fd54d6e47f55db4452dd5a263cb5323d1b8077cad86bf536ae0e6b46b5df5"
+        },
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 4947390880,
+          "lfs_sha256": "a5219e366b4da0d6df6116a2b71c6bceea0b77dfcc5fdec4fa774f0f26c39ec4"
+        },
+        {
+          "name": "model-00003-of-00003.safetensors",
+          "size": 4239524944,
+          "lfs_sha256": "52a8836fee344f7582a208e4c01d218aa53fa3a3edbfab4538f50aecd57c1646"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size": 73215,
+          "lfs_sha256": null
+        },
+        {
+          "name": "special_tokens_map.json",
+          "size": 438,
+          "lfs_sha256": null
+        },
+        {
+          "name": "tokenizer.model",
+          "size": 499723,
+          "lfs_sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size": 936,
+          "lfs_sha256": null
+        },
+        {
+          "name": "trainer_state.json",
+          "size": 719305,
+          "lfs_sha256": null
+        },
+        {
+          "name": "training_args.bin",
+          "size": 7035,
+          "lfs_sha256": "0c8b8519b6416cde0238e36ebb0ff98ad09214a241bf247f7656ab4e9d36a4da"
+        }
+      ]
+    },
+    {
+      "repo": "meta-llama/Llama-2-7b-chat-hf",
+      "status": 200,
+      "revision": "f5db02db724555f92da89c216ac04704f23d4590",
+      "gated": "manual",
+      "files": [
+        {
+          "name": "README.md",
+          "size": 22332,
+          "lfs_sha256": null
+        },
+        {
+          "name": "USE_POLICY.md",
+          "size": 4766,
+          "lfs_sha256": null
+        },
+        {
+          "name": "config.json",
+          "size": 614,
+          "lfs_sha256": null
+        },
+        {
+          "name": "generation_config.json",
+          "size": 188,
+          "lfs_sha256": null
+        },
+        {
+          "name": "model-00001-of-00002.safetensors",
+          "size": 9976576152,
+          "lfs_sha256": "66dec18c9f1705b9387d62f8485f4e7d871ca388718786737ed3c72dbfaac9fb"
+        },
+        {
+          "name": "model-00002-of-00002.safetensors",
+          "size": 3500296424,
+          "lfs_sha256": "0fd6895090da1b2ccffdb93964847709a3b31e6b69fe7dc5a480dce37c811b1d"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size": 26788,
+          "lfs_sha256": null
+        },
+        {
+          "name": "pytorch_model-00001-of-00002.bin",
+          "size": 9976634558,
+          "lfs_sha256": "aa5ed69a0bc6fb6c520651607f0d857f2aac245e721087d706926cf032887342"
+        },
+        {
+          "name": "pytorch_model-00002-of-00002.bin",
+          "size": 3500315539,
+          "lfs_sha256": "1de3167f93dcd7c26ac5ad7077dfa987f2bc18e10078ccca6c975b2825c74827"
+        },
+        {
+          "name": "pytorch_model.bin.index.json",
+          "size": 26788,
+          "lfs_sha256": null
+        },
+        {
+          "name": "special_tokens_map.json",
+          "size": 414,
+          "lfs_sha256": null
+        },
+        {
+          "name": "tokenizer.json",
+          "size": 1842767,
+          "lfs_sha256": null
+        },
+        {
+          "name": "tokenizer.model",
+          "size": 499723,
+          "lfs_sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size": 1618,
+          "lfs_sha256": null
+        }
+      ]
+    }
+  ],
+  "local_llama2_mirror": {
+    "path": "/data/huggingface/hub/models--NousResearch--Llama-2-7b-chat-hf/snapshots/351844e75ed0bcbbe3f10671b3c808d2b83894ee",
+    "files": [
+      {
+        "name": "added_tokens.json",
+        "bytes": 21,
+        "sha256": "39c257654f85e478a9cb3bf34da53b3e4625e7b05ce15f193fe41724fae7b825"
+      },
+      {
+        "name": "config.json",
+        "bytes": 583,
+        "sha256": "3c66a81e29ce617a74ff2e4055e7fb275b5c9457103864745693fbce59b368a2"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 200,
+        "sha256": "7495350e3f00cac9cb72be86f453c25ed10d2eb8a48a27e9d120428df9015c11"
+      },
+      {
+        "name": "model-00001-of-00002.safetensors",
+        "bytes": 9976576152,
+        "sha256": "66dec18c9f1705b9387d62f8485f4e7d871ca388718786737ed3c72dbfaac9fb"
+      },
+      {
+        "name": "model-00002-of-00002.safetensors",
+        "bytes": 3500296424,
+        "sha256": "0fd6895090da1b2ccffdb93964847709a3b31e6b69fe7dc5a480dce37c811b1d"
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 26788,
+        "sha256": "11b694a9d4bffdac71733db7f782be0df1f87a65fb9ef05bcf6d317029c22364"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 435,
+        "sha256": "2ea88203b955648951a454e73a73967ff77ba4e79ae8ceb4400d4ab2cb040777"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 1842764,
+        "sha256": "f7b50bcf6d6672eade5e43514d48e9c1e4e63a56aef7b14acdaca94ce93436f7"
+      },
+      {
+        "name": "tokenizer.model",
+        "bytes": 499723,
+        "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 746,
+        "sha256": "37951d5a1e0c6a77f88c61f79972f17e889b62258aadff4c61eacd3fb567fe72"
+      }
+    ],
+    "official_weight_lfs_hash_match": true,
+    "meaning": "Official file identity established only if all required official weight files and hashes match"
+  },
+  "datasets": [
+    {
+      "path": "repos/HiddenDetect/data/FigStep/benign_questions.csv",
+      "exists": true,
+      "bytes": 16191,
+      "sha256": "8b3ecb267df8295a29bb4d91fa3299d9818986fcc87ae86dda63ebd478a45d19",
+      "rows_excluding_header": 300
+    },
+    {
+      "path": "repos/mtk/llm/datasets/llama2_test/autodan_1.json",
+      "exists": true,
+      "bytes": 798152,
+      "sha256": "b3f026426f3626e323ef3e73afcfef1df3b8819b4ee19085afe5a2808c995b02",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/base64/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 14611,
+      "sha256": "1506c0003071ac52981f143f64e58e105eebb829148e44d74a05ab73a93d9daf",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/base64/llama-2.json",
+      "exists": true,
+      "bytes": 426605,
+      "sha256": "3507efa59cfce93959b430f275aae0e8d2090d42840479fd6a2b6425249ee7e4",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/base64/llama-3.json",
+      "exists": true,
+      "bytes": 430005,
+      "sha256": "a866da34711de2b361ebe7252e29a645711118add30b54162ff5abdbbe08294d",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/base64/llama-2_test.json",
+      "exists": true,
+      "bytes": 411996,
+      "sha256": "7b99927efd689cf434f35dd56a41bcdeb32ab866f718925f74657643981ff196",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/base64/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 14731,
+      "sha256": "8a20d800be5ca15400c2f11ec528c400142e0354c5bccded5291b32a231ad5c8",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/base64/llama-3_test.json",
+      "exists": true,
+      "bytes": 415276,
+      "sha256": "ac99704dcb47bf8af56108ae87c02ace0012617402c6e176dd118287ec7b61eb",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/saa/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 76687,
+      "sha256": "60aa9dad9ad49276884f95513371e5e705088a94fc6611c29a1e1fc4e7baf851",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/saa/llama-2.json",
+      "exists": true,
+      "bytes": 2186500,
+      "sha256": "584dec68990e686c923895a15f20483f94e0487b8dad6fe81a9e3c747d9ea227",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/saa/llama-3.json",
+      "exists": true,
+      "bytes": 2266050,
+      "sha256": "7a747cac4ff7683d00074aa8f370bdf917270dc9ad94a47f303352edf564501e",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/saa/llama-2_test.json",
+      "exists": true,
+      "bytes": 2109815,
+      "sha256": "55c729ef64abdde63fd9f01510f789cae996dea52d4c57b91e04c867e4eb74cb",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/saa/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 79505,
+      "sha256": "49ef2f812b0db4855af519a552154a789108c8d6ce6bf13dabb9854a9f0b5268",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/saa/llama-3_test.json",
+      "exists": true,
+      "bytes": 2186547,
+      "sha256": "b998df643d37cfe85a9655355eb7d77a37bbb6c864f75b8e1979fd9f0bd1425c",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/autodan/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 22896,
+      "sha256": "b967d3373b560b28ec43df4a55e98eeb1b835d314752fa03e74c86f330d8c0e3",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/autodan/llama-2.json",
+      "exists": true,
+      "bytes": 698758,
+      "sha256": "2e6e7ebac3ae9dd6338f23a872d151613a790669574b24e5646e3a50a8c761bb",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/autodan/llama-3.json",
+      "exists": true,
+      "bytes": 640475,
+      "sha256": "e8b7ca0b64eece35433b05c04ec2fb69575ec19cb2137642e63e2f51f1f0ca78",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/autodan/llama-2_test.json",
+      "exists": true,
+      "bytes": 675864,
+      "sha256": "d2b20f42a476edf626d8341a2f3df0280e97787a087ad2098bb5a31200abe4fb",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/autodan/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 21372,
+      "sha256": "490f21dcb4dfab5c6e2ae8070dfc3b5d664fe459e9bd4319dee6c1402fd1c379",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/autodan/llama-3_test.json",
+      "exists": true,
+      "bytes": 619105,
+      "sha256": "89df48a1a2965caa246e3b1a9ea71e919f84857238310ea246336cffaaa63865",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/puzzler/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 359548,
+      "sha256": "851e6a21574b047a85789ce722c5e414d170a8a1695a012f129fcf981f36a2ad",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/puzzler/llama-2.json",
+      "exists": true,
+      "bytes": 606018,
+      "sha256": "ed0000636178110cf7261dba581a98f2df2583f3e3fdbcbd944ba0331892799c",
+      "top_level_length": 50
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/puzzler/llama-3.json",
+      "exists": true,
+      "bytes": 606218,
+      "sha256": "336c6f466cda97d705490457703e9b1bf69401a68715a3cb4b0db7f752fc0c24",
+      "top_level_length": 50
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/puzzler/llama-2_test.json",
+      "exists": true,
+      "bytes": 246472,
+      "sha256": "b8d9aa14e8e7aedebfdd69a877944c741462a911ac20fc07bdc156af4ebdb6f3",
+      "top_level_length": 20
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/puzzler/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 359668,
+      "sha256": "3d7375b083a0cd5efa4c250a4f4f0a8b1e37eb9b34c6468261f4f3781a97516d",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/puzzler/llama-3_test.json",
+      "exists": true,
+      "bytes": 246552,
+      "sha256": "8f6ec4776cd9ac1b2a71ac1ea55a98cb9913a10f719ed6391995528ee13d1177",
+      "top_level_length": 20
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/gcg/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 18836,
+      "sha256": "f4165474e6e95666981c06c0991ce170dfecd1528cfae9f4b94d81961596849a",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/gcg/llama-2.json",
+      "exists": true,
+      "bytes": 591404,
+      "sha256": "18dacea625f290cb8ea8cde7261cf4bc5cb81158669a603e76e25b5609d4a418",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/gcg/llama-3.json",
+      "exists": true,
+      "bytes": 507274,
+      "sha256": "ddcfa3b14742dd997a4811f5f8387241e81c12885ae6cfebcba77c6dfc840454",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/gcg/llama-2_test.json",
+      "exists": true,
+      "bytes": 572570,
+      "sha256": "4c1ef03a8081f21e83169f0bce231c805d1d7250fb1dbeb2dd437e5a5467f750",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/gcg/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 17963,
+      "sha256": "8191b58663e2ed0ab1236a3cbe7f9e3d75e8d136a7111ce76749e99faa3cc3f3",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/gcg/llama-3_test.json",
+      "exists": true,
+      "bytes": 489313,
+      "sha256": "05ead61e0bebad44ae0dc937a76de452fdeac907415f33d8c3b8e6545d35d4e9",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/ijp/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 64445,
+      "sha256": "8157f457e7648b3d624c1a9911885ef19eb8579e79c3d5bb332f970d0d7f1362",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/ijp/llama-2.json",
+      "exists": true,
+      "bytes": 1921119,
+      "sha256": "c00dba233f998d6ff9ac0846276b598c1c2dd53e59e4b346fab202e84d8f2715",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/ijp/llama-3.json",
+      "exists": true,
+      "bytes": 1924519,
+      "sha256": "45de6089b3eb0c5891ded20194b11c6467bff9b0ba15ec8e53518a96573cb741",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/ijp/llama-2_test.json",
+      "exists": true,
+      "bytes": 1856676,
+      "sha256": "3d9662ed234b92ceee6ac03527292fe75b70a1380e506db306be2810fb47b569",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/ijp/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 64565,
+      "sha256": "e5a85be3afea5b511ecc4d7eb22eb767de77a5445991b5c46880f42897c3166f",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/ijp/llama-3_test.json",
+      "exists": true,
+      "bytes": 1859956,
+      "sha256": "5c0abac6d2c93986f3a52c8abc1135e90692cf05a83e81bc64d70da6a91b736a",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/zulu/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 10813,
+      "sha256": "9693389a5a652ac81ba8ea827b9c23217424eadc0231c0b1490ea6ebd2cd024e",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/zulu/llama-2.json",
+      "exists": true,
+      "bytes": 318451,
+      "sha256": "a2f9af50fda6d256a32b4f326bcbad46832ee0f892d58488c0e49d3b5a6f615c",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/zulu/llama-3.json",
+      "exists": true,
+      "bytes": 321869,
+      "sha256": "24ed11a7682ff1051473c8fdd1b38e33c8f35876ab416253e4172255c8b5ee64",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/zulu/llama-2_test.json",
+      "exists": true,
+      "bytes": 307640,
+      "sha256": "2b1f72a076131a608696bee9b8c0e06756c3f2ca87c1a0cd24e9fa46227d50cc",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/zulu/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 10933,
+      "sha256": "6f32bb672ea0f1b66e2ebca59cd5159faa8b3395917309e1993ecef49725db96",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/zulu/llama-3_test.json",
+      "exists": true,
+      "bytes": 310938,
+      "sha256": "b1d1cf2cb687fd8af0b346bb4d46d3c77794df41cbccbea8052d648f9d894249",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/pair/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 25625,
+      "sha256": "d60f1d7fb2ff4b34a05b7620908168b88b1919e9c2041db19412c16c3dffc14c",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/pair/llama-2.json",
+      "exists": true,
+      "bytes": 695321,
+      "sha256": "1c3edd9133c4da8b3fd8dbbe7427ddb2ecbc0b7db13981afdceccad761837d25",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/pair/llama-3.json",
+      "exists": true,
+      "bytes": 630549,
+      "sha256": "74ca10608e9fc864d658d14750d5373f46f15e72b80789cf5a02ff7b0b7abc09",
+      "top_level_length": 850
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/pair/llama-2_test.json",
+      "exists": true,
+      "bytes": 669698,
+      "sha256": "04c4a210f566f38065904f0836f6a6e30c21300205742c743fa281780b6f6b32",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/pair/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 21985,
+      "sha256": "f6daefe657b649ca73c645b698f976540d405afd51a21d5f10e506f1a9382d1f",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/pair/llama-3_test.json",
+      "exists": true,
+      "bytes": 608566,
+      "sha256": "deefa3074dbd9ce577bdb5307fcda4ab6102461224005d70c68e4c9583dc1422",
+      "top_level_length": 820
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/drattack/llama-2_calibration.json",
+      "exists": true,
+      "bytes": 56233,
+      "sha256": "325656323217347e1bfbad345e0011e1ff4d487505c28a87d87c0b655d848af7",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/drattack/llama-2.json",
+      "exists": true,
+      "bytes": 976312,
+      "sha256": "eb81eaaf0a4ba302f6cc2c7152e97fec35c81ac4fc88a4f07eaebec8c352a9da",
+      "top_level_length": 520
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/drattack/llama-3.json",
+      "exists": true,
+      "bytes": 1154875,
+      "sha256": "aa73e4ccf199f346e8e4ca910dea9efe3cc159d02ff3b0d8e0a32c3b753c6f65",
+      "top_level_length": 520
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/drattack/llama-2_test.json",
+      "exists": true,
+      "bytes": 920081,
+      "sha256": "7156a0a5675d1d18ad94b3c9fac7288eb53bc81f7d9db43a44976aeeb477acd8",
+      "top_level_length": 490
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/drattack/llama-3_calibration.json",
+      "exists": true,
+      "bytes": 66572,
+      "sha256": "ddc69477ba86c0a87135145d5429f22cd64eee34b3f9bad8b233ca184a71b617",
+      "top_level_length": 30
+    },
+    {
+      "path": "repos/JBShield/data/jailbreak/drattack/llama-3_test.json",
+      "exists": true,
+      "bytes": 1088306,
+      "sha256": "78df25e272c7ce788500f70053a425e53c01d7982faaeafec64993c6601dd933",
+      "top_level_length": 490
+    },
+    {
+      "path": "repos/JBShield/data/harmful_calibration.csv",
+      "exists": true,
+      "bytes": 3440,
+      "sha256": "55cdd5255527145950d07ea2dede2b9699edc7f1a57f26011abf3e017cbb4387",
+      "rows_excluding_header": 30
+    },
+    {
+      "path": "repos/JBShield/data/harmless_calibration.csv",
+      "exists": true,
+      "bytes": 2730,
+      "sha256": "00f6fc23164823ad0bf685f359b2d0503a879b45901c9d9a9fcbfa81bca9beaa",
+      "rows_excluding_header": 30
+    },
+    {
+      "path": "repos/JBShield/data/harmless_test.csv",
+      "exists": true,
+      "bytes": 78379,
+      "sha256": "73adce781a57be4918a6ab4ed3bbdc037f9d10683ffeb40a08d3535a7b1f492b",
+      "rows_excluding_header": 820
+    },
+    {
+      "path": "repos/JBShield/data/harmful_test.csv",
+      "exists": true,
+      "bytes": 96929,
+      "sha256": "b07983dc76e7d94bff53a4e59241b94428f568913e9e1444e64ddd02eb94af25",
+      "rows_excluding_header": 820
+    },
+    {
+      "path": "repos/HiddenDetect/data/FigStep/safebench.csv",
+      "exists": false,
+      "source": "https://raw.githubusercontent.com/ThuCCSLab/FigStep/main/data/question/safebench.csv"
+    }
+  ],
+  "HiddenDetect_native_model_present": false,
+  "not_a_reproduction_pass": true
+}
