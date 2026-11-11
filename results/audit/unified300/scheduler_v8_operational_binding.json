@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-11T08:25:28.930415+00:00",
+  "controller_sha256": "7ffe74e55139f536f0d7d0876d463b3aaa9b66ee814e0da3d8b161e0575c2360",
+  "watchdog_sha256": "f01d48b1923094803cfed34d1f014ad01a7db9f4ea4e1930f4a34da8b1b256b7",
+  "contract_fixture_sha256": "6ecebfc1384f78b6fcafefab9111b7fc33b13dc0e6c72cedac0bbecabe0d9576",
+  "previous_stale_state_utc": "2026-11-11T07:47:07.476292+00:00",
+  "restoration_observed_fresh_utc": "2026-11-11T08:22:31.808902+00:00",
+  "workers_stopped": false,
+  "numerical_generation_changed": false,
+  "note": "active task definitions pinned through exit; next pending lease uses requested definition; independent watchdog does not dispatch or read labels; unknown idle periods not backdated"
+}

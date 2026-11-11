@@ -169,3 +169,6 @@
 2026-11-11T08:05:28.252239+00:00 USER-CONFIRMED prospective public primary: WG response refusal all4 models, v2 parallel empirical lower reading; retain old S1a/legacy. Freeze dual-stratum48 audit ranks before new public reads. docSHA c14756be07dc8edc126edc6bbfd20735968e2efe34ac7840f6e9bb6bd59db1c8; actual WG-conditioned IDs pending completed new caches.
 
 2026-11-11T08:17:59.997620+00:00 scheduler hot-reload incident: state stale since 2026-11-11T07:47:07.476292+00:00; missing active TAP_qwen_gate_v3 restored from exact archived definition; GPU workers not killed, no output changes. IncidentSHA 85b8f7ad2b64c462efe5d2942556b0330326eda0eca9eaaba39a6c0a9ca2af11
+
+
+调度修复追加 UTC 2026-11-11T08:25:28.930415+00:00：热更新移除已进入staging的任务定义导致控制器状态停更；恢复原定义后状态重新推进。v8固定活动租约定义直到退出，后续pending才采用新定义；独立只读监视负责15分钟空闲和120秒状态过期告警。只写本地日志，不发外部消息、不读取标签、不停止GPU worker。数值路径和分析计划未改。运行绑定SHA 61b635c039b146ddbad7567cae13b14c761be2dd7dd3916e2690a7fbe280195f。

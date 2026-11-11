@@ -1,6 +1,6 @@
 {
   "utc_frozen": "2026-11-11T03:58:15.113322+00:00",
-  "controller_sha256": "111ae67a8d5245eddd14d41444cee29765f4735e1ee70c3097d9bb02cdbe3ca4",
+  "controller_sha256": "7ffe74e55139f536f0d7d0876d463b3aaa9b66ee814e0da3d8b161e0575c2360",
   "runner_sha256": "a8dfbfb640924f59c95546eaba4838f8e8ddf5348d24f6cd0fb61a19b18083d8",
   "poll_seconds": 30,
   "idle_alert_seconds": 900,
@@ -4986,7 +4986,7 @@
     }
   },
   "node_language_worker_binding_sha256": "67396f86c52360f17ffa900a3b2ba2311f10a821cca14173dfd90bcc2fa3ce44",
-  "controller_relative": "tools/handoff_20261106/unified300_ready_queue_v7.py",
+  "controller_relative": "tools/handoff_20261106/unified300_ready_queue_v8.py",
   "idle_clock_restart": "preserve starts and last alerts; derive previous seconds only when old timestamp available; no backdated unrecorded idle periods",
   "retired_prelaunch_tasks": [
     {
@@ -5055,5 +5055,7 @@
       "id": "TAP_qwen_gate_v3",
       "reason": "was staging before prior state snapshot; task is retained through exit, original archive preserved"
     }
-  ]
+  ],
+  "independent_watchdog": true,
+  "utc_operational_update": "2026-11-11T08:25:28.930415+00:00"
 }
