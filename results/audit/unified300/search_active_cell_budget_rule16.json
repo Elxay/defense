@@ -1,0 +1,37 @@
+{
+  "utc_frozen": "2026-11-11T14:17:35.404131+00:00",
+  "doc_sha256": "75b0733c73b0006b97fdd6e401ba5d91f0f67b13ef9c5cb99c689a20bf644e6c",
+  "replaces": "addendum15 inactive-cell projected expansion cost",
+  "budget_GPUh": 600,
+  "actual_sunk_cost_all_cells_counted": true,
+  "expansion_cells": "active OR INVALID_crossing_continue; exclude no_dynamic_range future costs",
+  "prospective_new_88_rows": 0,
+  "prior_pilot_IDs_retained": true,
+  "cost_order": [
+    {
+      "method": "PAIR",
+      "model": "llama",
+      "cost88": 3.409945704033038
+    },
+    {
+      "method": "PAIR",
+      "model": "qwen",
+      "cost88": 5.378238473919974
+    },
+    {
+      "method": "TAP",
+      "model": "llama",
+      "cost88": 21.04533504450413
+    },
+    {
+      "method": "TAP",
+      "model": "qwen",
+      "cost88": 35.907810611895776
+    }
+  ],
+  "unknown_costs_never_zero": true,
+  "reranking": false,
+  "pilot10_diagnostic_tables_in_paper": false,
+  "preparation_trigger": "first admitted generation card released, target Nov13-Nov14; gates unchanged",
+  "nonzero_effects_read": false
+}
