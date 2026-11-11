@@ -1,6 +1,6 @@
 {
   "utc_frozen": "2026-11-11T03:58:15.113322+00:00",
-  "controller_sha256": "bf7b6a721ec1d59d2db5d0914d43d4036c78b3f624eb262a409c58cf471df101",
+  "controller_sha256": "111ae67a8d5245eddd14d41444cee29765f4735e1ee70c3097d9bb02cdbe3ca4",
   "runner_sha256": "a8dfbfb640924f59c95546eaba4838f8e8ddf5348d24f6cd0fb61a19b18083d8",
   "poll_seconds": 30,
   "idle_alert_seconds": 900,
@@ -4179,8 +4179,8 @@
       "requires": [
         {
           "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
-          "key": "gate",
-          "value": "active"
+          "key": "admitted",
+          "value": true
         },
         {
           "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/alpha0/complete.json",
@@ -4213,8 +4213,8 @@
       "requires": [
         {
           "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
-          "key": "gate",
-          "value": "active"
+          "key": "admitted",
+          "value": true
         },
         {
           "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/s3/complete.json",
@@ -4247,8 +4247,8 @@
       "requires": [
         {
           "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
-          "key": "gate",
-          "value": "active"
+          "key": "admitted",
+          "value": true
         },
         {
           "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/rand0/complete.json",
@@ -4281,8 +4281,8 @@
       "requires": [
         {
           "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
-          "key": "gate",
-          "value": "active"
+          "key": "admitted",
+          "value": true
         },
         {
           "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/s4/complete.json",
@@ -4315,8 +4315,8 @@
       "requires": [
         {
           "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
-          "key": "gate",
-          "value": "active"
+          "key": "admitted",
+          "value": true
         },
         {
           "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/rand1/complete.json",
@@ -4581,12 +4581,41 @@
       ],
       "sync_relpath": "results/audit/unified300/TAP_execution_gate_v3/llama",
       "yieldable": false
+    },
+    {
+      "id": "language_llama_translate-ml_B4_generate_recovery",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "alpha0_family_generate",
+      "argv": [
+        "env",
+        "DEF_GENERATION_PLAN_RELATIVE=results/audit/unified300/ready_generation_plan_B4_ml.json",
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
+        "llama",
+        "translate-ml",
+        "alpha0",
+        "generate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/ready_family_gates/node01/llama/translate-ml/zero20.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/alpha0",
+      "yieldable": true
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "9874e4506bf75dc540eeff62ff562ffdfa1f30b9198c08cbb84aae2529fd51e2",
-  "updated_utc": "2026-11-11T07:05:59.821794+00:00",
-  "controller_version": 6,
+  "parent_catalog_sha256": "593ebcfd6bedfff780e4e1ef01c7df3a36e1d55142bb2a536c52c07b9f36449f",
+  "updated_utc": "2026-11-11T07:11:27.651440+00:00",
+  "controller_version": 7,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",
   "compatible_innet_slots": {
@@ -4622,7 +4651,7 @@
     }
   },
   "node_language_worker_binding_sha256": "67396f86c52360f17ffa900a3b2ba2311f10a821cca14173dfd90bcc2fa3ce44",
-  "controller_relative": "tools/handoff_20261106/unified300_ready_queue_v6.py",
+  "controller_relative": "tools/handoff_20261106/unified300_ready_queue_v7.py",
   "idle_clock_restart": "preserve starts and last alerts; derive previous seconds only when old timestamp available; no backdated unrecorded idle periods",
   "retired_prelaunch_tasks": [
     {
@@ -4654,5 +4683,6 @@
       },
       "reason": "prelaunch pilot prerequisite path contract corrected; no worker launched"
     }
-  ]
+  ],
+  "graceful_restart": "SIGTERM requests stop; finish current deployment and save PID before exit; journal staging/launched retained"
 }

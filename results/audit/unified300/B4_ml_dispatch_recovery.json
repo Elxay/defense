@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-11-11T07:11:27.651440+00:00",
+  "prior_task": "language_llama_translate-ml_B4_generate",
+  "prior_exit": 81,
+  "cause": "controller restart interrupted staging after local descriptor, before remote job directory/runner existed",
+  "remote_job_directory_existed": false,
+  "new_B4_rows_before_recovery": 0,
+  "numerical_worker_changed": false,
+  "repair": "new explicitly registered recovery task, original failed descriptor retained; graceful controller stop added",
+  "gate_schema": "admitted true iff gate active or INVALID_crossing_continue"
+}

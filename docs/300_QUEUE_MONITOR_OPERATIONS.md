@@ -13,3 +13,5 @@
 缓存安全补充UTC 2026-11-11T05:05:19.208795+00:00：zero20缓存含实际device_uuid，跨物理卡续跑时不得把旧卡候选冒充新卡生成。语言worker v2仅在缓存UUID与当前卡一致时复用；不一致则对该批执行原冻结数值调用重新生成，旧缓存与已保存行完全保留。数值计划SHA不变，新增worker/binding SHA逐行记账；不修改批成员、层位、向量、alpha、2400上限或读取锁。切换前请求原worker按批边界退出，检查点保留。绑定SHA 67396f86c52360f17ffa900a3b2ba2311f10a821cca14173dfd90bcc2fa3ce44。
 
 监视持久化补充UTC 2026-11-11T07:02:22.585374+00:00：v6保存空闲起点和最后告警时刻，控制器重启不重新累计15分钟；已有旧快照秒数只按其真实UTC恢复，不追填未保存时间。下一次实采compute busy立即清空该卡空闲时钟；innet GPU1仍排除。恢复900秒边界/重复告警抑制fixture已过，不伪造生产告警。控制器SHA bf7b6a721ec1d59d2db5d0914d43d4036c78b3f624eb262a409c58cf471df101。
+
+调度原子性补充UTC 2026-11-11T07:11:27.651440+00:00：B4 ml首次派发在控制器重启时只写了本地descriptor，远端目录/runner尚未创建，故退出81，不是模型/B4失败，正式行0。保留失败，显式recovery任务复用原数值计划。v7 SIGTERM只请求停止，当前部署完成并保存PID后退出；记录staging/launched日志，restart helper等待安全点，不中断GPU worker或复制半途误认已运行。B4外部门元数据admitted同时覆盖active与INVALID-crossing，沿原规则不改阈值。
