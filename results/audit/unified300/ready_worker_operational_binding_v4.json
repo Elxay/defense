@@ -1,0 +1,10 @@
+{
+  "utc_frozen": "2026-11-11T07:13:19.924548+00:00",
+  "worker_sha256": "9365c220de44293fb03e293c562586f8284b442f3852ab0dec70b0f9cf168949",
+  "parent_worker_sha256": "92f90610eac91c6d3a9533cb3a9df85182d0bef6688a865f03032344fb49af29",
+  "allowed_numerical_plan_sha256": [
+    "c5024a2b1725484a5188129fe55d4a899ba173d20625db0f93cf7047fedb69b5"
+  ],
+  "batch_core_sha256": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+  "change": "TA whole-cell B4 new namespace for gate and six conditions; same candidate function and 1pct metadata guard; prior B8 records untouched"
+}
