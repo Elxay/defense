@@ -1,0 +1,56 @@
+{
+  "utc_frozen": "2026-11-11T12:32:40.299692+00:00",
+  "worker_sha256": "790fd3702c50f2727adcdc8475625aa1f6b3e86d25826c95f50a12390dc8a88a",
+  "doc_sha256": "6c4d4ebdd79591cc41d827368835de63eefa0cadbab9cd199b443a0559f94101",
+  "SORRY_parser_sha256": "190558e2d9436c4d9bb0e157526c54a85b32324498e5ccd604f5ccd84f71ff1b",
+  "SORRY_prompt_sha256": "c0760e55a1f8ef1124c6bc3ce80392fbcb4be626f9c4f8451c5e030c98f5ca9c",
+  "WG_template_sha256": "fa7f1c313ef1463a2fe249ff50c537adfbd84ff2fe82b3ffa72ee21124afb0d6",
+  "HB_prompt_source_sha256": "46f1db751866848834d45d5128a18d4cc0a820828e89796ab51bc605d10c7058",
+  "SORRY_assets_sha256": "23c0b4c11c63b2e029b404ec30f579a5fd138fe41746bd746814ace6392cb41c",
+  "cards": {
+    "SORRY": "innet GPU0",
+    "WG": "node01 GPU2",
+    "HB": "innet GPU2+3; adapter gate pending"
+  },
+  "scores_only": true,
+  "main_effects_read_allowed": false,
+  "completed_input_cell_only": true,
+  "cache_key": [
+    "generation_sha256",
+    "prompt_sha256",
+    "response_sha256",
+    "behavior_sha256",
+    "preprocessing_sha256",
+    "judge",
+    "schedule_sha256"
+  ],
+  "priority": [
+    "English",
+    "Chinese",
+    "French",
+    "encoding",
+    "Indian languages"
+  ],
+  "SORRY_batch": 20,
+  "WG_batch": 8,
+  "HB_batch": 1,
+  "HB_long_input_adapter_admitted": true,
+  "pilot_diagnostic": {
+    "algorithm": "PAIR",
+    "models": [
+      "llama",
+      "qwen"
+    ],
+    "rows_per_model": 10,
+    "N_generations": 20,
+    "cap": 2400,
+    "greedy": true,
+    "read_only": "SORRY alpha0 and internal early stop cross table",
+    "does_not_change_search_tier": true
+  },
+  "HB_full_response_policy": "Official original-behavior template; <=2048 unchanged. Otherwise maximal fitting response-token windows with fixed 200 overlap; full behavior repeated, no behavior clipping. OR valid labels, INVALID retained unless another chunk proves positive. Per-row token ranges/lengths and chunk scores retained; no counts read.",
+  "source_worker_sha256": "fd1d7d4ccc93fe1b2192e1eb2bc1b67898aa9fad82ae3051371849cdc3bf2c2a",
+  "not_legacy_top5_probability": true,
+  "HB_model_manifest_sha256": "35df6528783271ff63b0dd44537f50c4d09c022b9fdb786cd1de0c574e43af99",
+  "change": "Preflight binding only: require the already frozen S0 model manifest hash and serialize it. Numerical classifier/chunk methods unchanged; main HB scores still zero."
+}
