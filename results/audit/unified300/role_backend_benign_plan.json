@@ -1,0 +1,13 @@
+{
+  "utc_frozen": "2026-11-11T01:11:07.940167+00:00",
+  "worker_sha256": "83f02d4e112104e7202ca85404384e0473cb009a3621a82a9e4ae0409d960dc2",
+  "seed": 20261271,
+  "scope": "benign fixtures only; engineering transport prototype, not formal source-controller search admission",
+  "batch_size": 8,
+  "orders": [
+    "forward",
+    "reverse"
+  ],
+  "requests_per_order": 32,
+  "formal_search_outputs": 0
+}
