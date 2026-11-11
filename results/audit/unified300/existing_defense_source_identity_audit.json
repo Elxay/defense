@@ -1,0 +1,63 @@
+{
+  "recorded_utc": "2026-11-11T09:12:58.162932+00:00",
+  "source_check": "primary paper full method sections plus author GitHub code/README through web tool; remote git HTTPS HEAD lookups timed out, so no invented repository commit",
+  "methods": [
+    {
+      "name": "JBShield-D",
+      "paper": "https://arxiv.org/html/2502.07557",
+      "code": "https://github.com/NISPLab/JBShield",
+      "entrypoint": "detection.py",
+      "kind": "calibrated two-concept detector",
+      "mechanism": "selected toxic/jailbreak layers; reference-based difference/SVD concept directions; require both activation tests",
+      "native_threshold": "two separately calibrated thresholds (Youden J); NOT a native single 95%TPR threshold",
+      "implementation_audit_flags": [
+        "author code find_optimal_threshold uses zero-vector comparison for second scores; must resolve paper/code behavior in reproduction, no silent rewrite"
+      ]
+    },
+    {
+      "name": "HiddenDetect",
+      "paper": "https://arxiv.org/html/2502.14744",
+      "code": "https://github.com/leigest519/HiddenDetect",
+      "entrypoint": "code/test.py",
+      "kind": "tuning-free model parameters, calibrated layer-range detector",
+      "mechanism": "last-token per-layer state -> final norm and LM head -> cosine with sparse vocabulary refusal-semantic vector -> trapezoidal layer aggregation",
+      "adaptation": "author code loads LLaVA; pure-text experiments on LVLM do not validate our four text LLMs",
+      "implementation_audit_flags": [
+        "hard-coded vocab_size=32000",
+        "tokenizer.encode(word)[0] first-subtoken convention",
+        "default s=16,e=29 not transferable to different layer counts",
+        "refusal list contains safety-related words beyond explicit refusal markers"
+      ]
+    },
+    {
+      "name": "MTK",
+      "full_name": "Manifold Trajectory Kinetics",
+      "paper": "https://arxiv.org/html/2606.07335",
+      "code": "https://github.com/Rookie143/mtk",
+      "kind": "reference-bank rank-trajectory detector with benign-trained Isolation Forest",
+      "mechanism": "all-layer last-prompt-token features; combined benign/malicious reference distances; mean rank of k-nearest benign references over layers; IF anomaly score",
+      "paper_defaults": {
+        "k": 10,
+        "distance": "L2",
+        "anchors_each_class": 800,
+        "IF_max_samples": 512
+      },
+      "native_threshold": "target benign-FPR quantile, not a native fixed harmful-TPR95 threshold",
+      "implementation_audit_flags": [
+        "700+small vanilla expansion cannot be labeled an 800+800 default reference bank",
+        "cache and nearest-neighbor/IF costs must be timed; not zero GPU/CPU cost"
+      ]
+    }
+  ],
+  "current_admission": [
+    "HiddenDetect text adaptation",
+    "MTK",
+    "JBShield-D"
+  ],
+  "deferred_generation": [
+    "JBShield-M",
+    "DiM"
+  ],
+  "three_new_detectors_formal_outputs_launched": false,
+  "formal_test_lock": "closed until source snapshots, calibration expansion IDs and overlap audit, native/default-to-common-operating-point mapping, score polarity/tie rules, source parity reproduction, and throughput/headroom admission are frozen"
+}

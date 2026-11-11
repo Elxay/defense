@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-11T09:12:58.162932+00:00",
+  "authorized_by_latest_user": "A measured search-cost lower bound may rule out an unaffordable tier before all six cells finish; final affordable tier still waits for all six valid pilot cells",
+  "budget_GPUh": 600,
+  "tiers": [
+    440,
+    220,
+    88
+  ],
+  "rule": "Sum already measured cold+per-row forecasts and nonnegative lower bounds of unfinished cells. If lower bound >600 for tier n, permanently exclude n; do not infer an affordable smaller tier until six valid pilots complete. W/replay/adaptive remain outside the search-main 600 budget.",
+  "current_excluded_tiers": [],
+  "outcome_scores_or_effects_read": false
+}

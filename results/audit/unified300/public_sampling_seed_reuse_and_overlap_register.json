@@ -1,0 +1,66 @@
+{
+  "recorded_utc": "2026-11-11T09:12:58.162932+00:00",
+  "intentional_seed_reuse": true,
+  "old_scope": "legacy Llama public v2-negative audit; historical alpha/protocol",
+  "new_scope": "unified300 selected alpha, WG-negative/WG-positive; four models; learned pool s3/s4/s5 and original two random directions",
+  "legacy_manifest_relative": "results/audit/pair500/public_read_20261109/recall_selection_manifest.json",
+  "legacy_manifest_sha256": "e94cfac24904a4d27ca16a287226b37666e7c2c4c919379357e72a477966bb90",
+  "legacy_groups": [
+    {
+      "group": "xstest_safe_learned",
+      "seed": 20261130,
+      "n": 30
+    },
+    {
+      "group": "xstest_safe_random",
+      "seed": 20261131,
+      "n": 30
+    },
+    {
+      "group": "or_hard_learned",
+      "seed": 20261132,
+      "n": 30
+    },
+    {
+      "group": "or_hard_random",
+      "seed": 20261133,
+      "n": 30
+    },
+    {
+      "group": "wildjailbreak_benign_learned",
+      "seed": 20261134,
+      "n": 30
+    },
+    {
+      "group": "wildjailbreak_benign_random",
+      "seed": 20261135,
+      "n": 30
+    }
+  ],
+  "new_rank_manifest_sha256": "371c29df719a07057fe60fadae4a60bb8897a89e47a9e4269ebe7526c1036278",
+  "algorithm": "For each group freeze one seeded PCG64 permutation of every output-record candidate BEFORE WG scores. Once complete score masks exist, filter fixed order by valid WG stratum and take first min(30,Neligible). No sorting/resampling based on score magnitudes or responses. INVALID excluded for sampling only.",
+  "rank_unit": "output record = model/dataset/condition/promptID; same prompt may appear across conditions; report unique prompts",
+  "reuse_does_not_reuse_old_samples_or_annotations": true,
+  "new_actual_selected_IDs_generated": false,
+  "overlap_status": "PENDING, not zero: actual new WG-conditioned samples do not exist",
+  "actual_overlap_counts": null,
+  "overlap_keys": [
+    "dataset + original prompt ID",
+    "dataset + prompt SHA256 (duplicate ID safeguard)"
+  ],
+  "future_overlap_report": "For each of six reused-seed groups report old/new sampled-record n, unique prompt n, overlapping prompt IDs/count; distinguish prompt overlap from same-output overlap. New alpha differs; never pool legacy/current annotation numerators.",
+  "annotation_mask": [
+    "opaque index",
+    "full available response only"
+  ],
+  "hidden": [
+    "model",
+    "condition",
+    "rule marks",
+    "WG/v2 labels",
+    "scores",
+    "sampling stratum"
+  ],
+  "annotator": "same current model/shared context, no human calibration",
+  "rank_or_sampling_parameters_changed": false
+}

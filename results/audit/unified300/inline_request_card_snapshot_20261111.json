@@ -1,0 +1,131 @@
+{
+  "utc": "2026-11-11T09:13:59.020225+00:00",
+  "sites": [
+    {
+      "utc": "2026-11-11T09:13:58.237233+00:00",
+      "site": "innet",
+      "gpus": [
+        {
+          "gpu": 0,
+          "memory_MiB": 15219,
+          "util_percent": 82,
+          "processes": [
+            {
+              "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+              "pid": 1592107,
+              "memory_MiB": "15194",
+              "account": "kemove",
+              "command_name": "unified300_ready_generate_v3.py",
+              "project_task": "main_qwen_deepinception_s4",
+              "runner_pid": "1592041"
+            }
+          ]
+        },
+        {
+          "gpu": 1,
+          "memory_MiB": 11441,
+          "util_percent": 73,
+          "processes": [
+            {
+              "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+              "pid": 1285516,
+              "memory_MiB": "11418",
+              "account": "kemove",
+              "command_name": "python",
+              "project_task": "not_registered_external",
+              "runner_pid": null
+            }
+          ]
+        },
+        {
+          "gpu": 2,
+          "memory_MiB": 16733,
+          "util_percent": 96,
+          "processes": [
+            {
+              "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+              "pid": 1550642,
+              "memory_MiB": "16710",
+              "account": "kemove",
+              "command_name": "unified300_ready_generate_v3.py",
+              "project_task": "main_llama_deepinception_s4",
+              "runner_pid": "1550598"
+            }
+          ]
+        },
+        {
+          "gpu": 3,
+          "memory_MiB": 15259,
+          "util_percent": 85,
+          "processes": [
+            {
+              "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+              "pid": 1595789,
+              "memory_MiB": "15236",
+              "account": "kemove",
+              "command_name": "unified300_ready_generate_v3.py",
+              "project_task": "main_qwen_refusal_suppression_s5",
+              "runner_pid": "1595765"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-11T09:13:58.962127+00:00",
+      "site": "node01",
+      "gpus": [
+        {
+          "gpu": 0,
+          "memory_MiB": 23746,
+          "util_percent": 83,
+          "processes": [
+            {
+              "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+              "pid": 3803423,
+              "memory_MiB": "23084",
+              "account": "dell",
+              "command_name": "unified300_tap_pilot_v4.py",
+              "project_task": "TAP_llama_pilot",
+              "runner_pid": "3803412"
+            }
+          ]
+        },
+        {
+          "gpu": 1,
+          "memory_MiB": 15957,
+          "util_percent": 0,
+          "processes": [
+            {
+              "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+              "pid": 3803423,
+              "memory_MiB": "15920",
+              "account": "dell",
+              "command_name": "unified300_tap_pilot_v4.py",
+              "project_task": "TAP_llama_pilot",
+              "runner_pid": "3803412"
+            }
+          ]
+        },
+        {
+          "gpu": 2,
+          "memory_MiB": 17143,
+          "util_percent": 57,
+          "processes": [
+            {
+              "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+              "pid": 3769707,
+              "memory_MiB": "17106",
+              "account": "dell",
+              "command_name": "unified300_ready_generate_v3.py",
+              "project_task": "language_llama_translate-ml_B4_generate_recovery",
+              "runner_pid": "3769699"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scheduler_state_utc": "2026-11-11T09:13:48.584248+00:00",
+  "main_labels_or_effects_read": false
+}
