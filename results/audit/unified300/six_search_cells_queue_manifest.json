@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-11T07:14:59.849257+00:00",
+  "all_six_cells": [
+    {
+      "model": "llama",
+      "method": "PAIR"
+    },
+    {
+      "model": "llama",
+      "method": "TAP"
+    },
+    {
+      "model": "llama",
+      "method": "AutoDAN_Turbo"
+    },
+    {
+      "model": "qwen",
+      "method": "PAIR"
+    },
+    {
+      "model": "qwen",
+      "method": "TAP"
+    },
+    {
+      "model": "qwen",
+      "method": "AutoDAN_Turbo"
+    }
+  ],
+  "cost_tier_requires_all6": true,
+  "queue_change_only": true,
+  "read_lock_unchanged": true,
+  "model_run_decision_not_based_on_other_model_results": true,
+  "method_order": "PAIR then TAP then AutoDAN; engineering gates per target",
+  "hot_reload_without_controller_restart": true
+}
