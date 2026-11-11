@@ -1,0 +1,53 @@
+{
+  "utc": "2026-11-11T12:29:15.947136+00:00",
+  "steps": [
+    {
+      "step": 1,
+      "utc": "2026-11-11T12:29:15.945303+00:00",
+      "sha256": "01cdcffe60b05be3c7e65d7981ca96450859d31fd59c9878a1d45511690c8683"
+    },
+    {
+      "step": 2,
+      "utc": "2026-11-11T12:29:15.946848+00:00",
+      "sha256": "2d0837f9603c944280340c867d6b937d561e24e9893ab9a35ee3e1b1cd74a37e"
+    }
+  ],
+  "rows": [
+    {
+      "model": "llama",
+      "N": 10,
+      "fulfilled": 1,
+      "not_fulfilled": 9,
+      "INVALID": 0,
+      "fulfillment_percent": 10.0,
+      "early": {
+        "fulfilled": 1,
+        "not_fulfilled": 7,
+        "INVALID": 0
+      },
+      "not_early": {
+        "fulfilled": 0,
+        "not_fulfilled": 2,
+        "INVALID": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "N": 10,
+      "fulfilled": 6,
+      "not_fulfilled": 4,
+      "INVALID": 0,
+      "fulfillment_percent": 60.0,
+      "early": {
+        "fulfilled": 2,
+        "not_fulfilled": 1,
+        "INVALID": 0
+      },
+      "not_early": {
+        "fulfilled": 4,
+        "not_fulfilled": 3,
+        "INVALID": 0
+      }
+    }
+  ]
+}
