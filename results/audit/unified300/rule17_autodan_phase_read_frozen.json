@@ -1,0 +1,37 @@
+{
+  "utc_frozen": "2026-11-11T16:27:14.187444+00:00",
+  "doc_sha256": "d0f219ce3bb0c6c2c5714500ce783dacf396d38fffde667c1e8a6a4a0f873191",
+  "autodan_task": "AutoDAN_warmup_pilot20_v4",
+  "autodan_started_utc": "2026-11-11T12:37:28.902687+00:00",
+  "wall_hours": 4,
+  "deadline_utc": "2026-11-11T16:37:28.902687+00:00",
+  "old_W_rule_sha256": "bc6ee2aa9e986c93058b9627e64f36dc8d07db7abb640efa6aea9cbccbec7f78",
+  "N_tiers": [
+    300,
+    150,
+    75
+  ],
+  "W_cap_GPUh": 150,
+  "forecast_selection": "all reserved elapsed GPUh/n completed, including censored work; completed-only mean separate descriptive",
+  "n0": "unidentifiable; no auto library continuation",
+  "interrupt": "owned matched worker SIGINT, 60s grace then SIGTERM",
+  "phases": {
+    "R1": "English static10 x Llama/Qwen",
+    "R2": "Chinese,French descriptive SORRY",
+    "R3": "encoding4,Indian3 descriptive SORRY",
+    "R4": "search",
+    "R5": "existing defenses/detectors"
+  },
+  "stage_reads_keep_statistics_and_qualification": true,
+  "main_nonzero_effects_read": false,
+  "HB_Nov12_requires_completed_English_rows": 52800,
+  "HB_JST_daily_max": 1,
+  "new_model_batch_fallback": [
+    8,
+    4,
+    1
+  ],
+  "cap": 2400,
+  "minimum_headroom_GiB": 3,
+  "learned_batch_gate_after_first_trained_vector": true
+}
