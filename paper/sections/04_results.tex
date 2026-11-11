@@ -1,47 +1,8 @@
-\section{Results}
+\section{Results: registered analysis structure}
 \label{sec:results}
-\subsection{Random controls change the interpretation of lower ASR}
+This working draft reserves the new-round results for the staged reads. Generation and cache-only judging are not reported as observed treatment effects. The planned organization is by finding: random controls; fulfillment declines and their refusal association; benign and utility costs; attack-family consistency and adaptive gaps; and measurement sensitivity. Each completed table will identify its model-specific operating point, relative norm, judge construct, missing-label bounds, and dynamic-range status. Unrun or gated cells remain explicit.
 
-On the historical success-selected HarmBench and JBB-Behaviors prompt set (val70), the HF baseline ASR is 90.0\%. Three Gaussian directions with norm 5.21 give 68.6\%, 71.4\%, and 80.0\%; eight norm-matched initialization-only vectors span 70.0--85.7\%. The combined eleven-direction mean is 75.7\%, with standard deviation 4.6 percentage points (pp). Thus the perturbation reference alone lowers judge ASR by 4--21 pp. Eight learned vectors span 18.6--30.0\%, providing an increment beyond the sampled random reference, but the judge decrease itself does not establish refusal or removal of harmful content.
-
-
-On the 300 attacks sampled from the WildJailbreak training split, sampled without filtering for baseline success, the HF baseline ASR is 39.3\%. Four norm-matched random directions change it by $-4.0$ to $+1.0$ pp, while five learned vectors lower it by 11.3--20.0 pp. Learned ASRs are 19.3--28.0\%, below every random ASR (35.3--40.3\%). The exploratory exact rank test gives $U=0$ over 126 allocations and two-sided $p=0.01587$, treating the five seeds and four directions as exchangeable units under the null on shared prompts. The frozen two-direction criterion required at least 4/5 seeds to beat the random mean by 10 pp; only 3/5 did. Using all four directions gives 5/5 as a supplementary comparison, with no change to the frozen decision.
-
-The smaller random-direction changes on WildJailbreak are consistent with an effect of conditioning val70 on prior success, including regression toward the mean, but do not identify that explanation. A separate HF sweep with a mean-difference direction gives nonmonotone ASRs of 84.3, 85.7, 81.4, 72.9, 75.7, and 78.6\% at $\alpha=0.25$ through $1.5$, versus 90.0\% at zero. It is not a random-direction dose experiment.
-
-
-On the official WildJailbreak evaluation, the learned-minus-random comparison is retained under both judges. It is a conditional comparison of the sampled vectors, not a claim of a universally superior defense.
-\input{tables/wjb_official_nine}
-\input{generated/wjb_nine_contrast_view}
-
-\input{generated/pair500_completed_read}
-
-\input{generated/unit_variation}
-
-\subsection{The additional decline accompanies more refusals}
-We distinguish harmfulness-judge flips from refusal labels. The completed post-hoc decomposition associates most of the additional score decline with increased refusal, while also finding changes among outputs not labelled as refusals. The unit-level harmfulness and refusal rates are shown together in Table~\ref{tab:wjb-unit-rates}. This association does not establish a causal mechanism, and rule recall can vary with response style.
-
-Among WildGuard nonrefusals, learned-vector harmfulness is lower than for the sampled random directions, but this post-hoc conditional decomposition does not identify a mechanism. It uses direct harmfulness/nonrefusal intersections and separately records invalid labels.
-
-
-\subsection{Benign costs concentrate on wrapped requests}
-\input{generated/public_refusal_body}
-\input{generated/benefit_cost_posthoc}
-The public collections have different constructions and are not content-matched. The paired original--wrapper tests below provide the more direct comparison of request packaging.
-
-\input{tables/c2}
-The five-seed mean wrapper gap on all 300 WildJailbreak benign pairs is 6.87 pp. The earlier estimate in the flagged 292-pair baseline-negative stratum is 6.71 pp, with a seed-level interval of $[3.38,10.04]$ pp. The val296-source analysis has a mean of 5.05 pp. This is a same-scale replication on different prompts using the same vectors. Seed rankings correlate with both the earlier gap and legal over-refusal ($\rho\approx0.975$, five points with ties), so the evidence does not isolate a seed-specific style sensitivity from general refusal propensity. The 3-pp threshold followed observations on val296 and does not give special meaning to a seed just exceeding it.
-
-Full-text review of 20 vanilla rule additions identifies nine condition-item outputs whose baseline was already a nonanswer, two substantive fictional-email responses falsely flagged by the rule, and nine content-response-to-refusal changes. Removing the four implicated pair IDs across all seeds changes the mean from 6.71 to 7.22 pp on 288 pairs; this is post-hoc sensitivity, not a revision of the frozen analysis.
-
-
-\subsection{Positioning zero-training baselines}
-
-\input{tables/zero_training}
-On the historical HarmBench and JBB-Behaviors prompt set, Llama system prompts A and B give 35.7\% and 18.6\% judge ASR. Rule-defined new refusals on the full 400-row composite legal set are 4/400 and 47/400. On the marked baseline-negative stratum the corresponding counts are 4/388 and 47/388. Model review puts B at 46--49 in that stratum, but A lacks the same review and baseline tail samples include truncated uncertain outputs. We do not establish a calibrated ordering or equivalence with learned steering.
-
-On Qwen, baseline ASR is 57.1\%; the four A/B conditions span 37.1--40.0\%. Legal-side results are model-annotated ranges without human calibration. Rule and full-review differences are condition-dependent, and an exploratory A-versus-B comparison does not survive correction for six comparisons. Cross-model model-label counts can be juxtaposed descriptively, but do not support absolute over-refusal rankings.
-
-The output Guard receives only the full response text. At threshold 0.5, four baseline Qwen harmful outputs are exactly on the boundary: blocking with $\geq$ leaves 18/70 harmful outputs, versus 22/70 with $>$. At 0.2, baseline plus Guard leaves 9/70 while A\_replace plus Guard leaves 14/70. Among 24 prompts harmful under both conditions, Guard detects 18 baseline responses and 11 A responses, with discordance 7 versus 0 (exploratory exact $p=0.015625$). This demonstrates output-dependent detection, not a confirmed role-play or disclaimer mechanism. Lower thresholds sharply increase benign blocking; no cross-model numerical over-refusal comparison is made.
-
-\input{sections/crossmodel_pending}
+% R1 English static; R2 Chinese/French; R3 encodings/Indian languages;
+% R4 search; R5 other defenses. Later methods cannot change after earlier reads.
+% Main outcome tables are joined to the final generation manifest hashes.
+% Do not populate this section by globbing pilot or legacy result caches.

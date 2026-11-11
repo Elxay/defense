@@ -1,0 +1,34 @@
+\documentclass[11pt]{article}
+\usepackage[review]{acl}
+\usepackage{times,latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype,inconsolata,graphicx,booktabs,amsmath,float}
+\title{A Lower Attack Success Rate Is Not a Better Defense:\\Auditing One-Vector Prefill Steering for Jailbreak Robustness}
+\author{Anonymous ACL submission}
+\begin{document}
+\input{generated/argument_numbers}
+\input{generated/pair500_numbers}
+\maketitle
+\begin{abstract}
+A lower automated attack success rate (ASR) does not by itself establish a better jailbreak defense. We audit a minimal learned intervention: one vector added once at the final prompt token of Llama-3.1-8B-Instruct. Our evaluation pairs harmfulness scores with norm-matched random controls, public refusal benchmarks, and benign requests with and without adversarial wrappers. Random vectors alone lower judged ASR by up to \valRandomMaxDrop{} percentage points on success-filtered prompts but at most about \wjbRandomMaxDrop{} on the WildJailbreak evaluation. Learned vectors lower it a further \wjbExtraMinDrop{}--\wjbExtraMaxDrop{} points there; on a new fixed rule-scored PAIR-style prompt set, the additional decrease is about \pairExtraWG{}--\pairExtraHB{} points across two model judges. In a post-hoc decomposition, most decreases accompany refusals. Benign refusal costs relative to random controls are about 9 points on wrapped WildJailbreak requests and 4 on OR-Bench-Hard; the XSTest safe difference is small and uncertain. Paired benign tests reproduce a wrapper-associated refusal gap. In our own pipeline, truncation, reference behaviors, decoding paths, refusal rules, and retraining variation also shift reported quantities. Model judgments remain uncalibrated by humans. We recommend reporting harmfulness scores alongside random controls, benign costs, and the measurement choices needed to interpret them.
+\end{abstract}
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_setup}
+\input{sections/04_results}
+\input{sections/05_traps}
+\input{sections/conclusion}
+\input{sections/06_limitations}
+\input{sections/07_ethics}
+\bibliography{references}
+\appendix
+\input{sections/appendix_support}
+\input{sections/appendix_pitfalls}
+\section{Provenance and protocol chronology}
+All numeric tables are generated from CSV files, which in turn are exported from versioned analysis files. The table provenance manifest records complete source SHA256 hashes. Raw attack prompts, model outputs, and training caches are excluded from the manuscript repository. Decisions were specified in a versioned log. External timestamps begin on 2026-11-06 at 00:34 JST; earlier states are supported only by server logs. Several thresholds and protocol amendments followed earlier observations and are identified as such.
+The original five-seed WJB criterion remains unsuccessful (3/5). Later random directions, a retrained-control design, a third data arm, and interpolation supplements do not revise that original outcome. The third-arm amendment was written after the original matching table had been frozen and holdout generation had begun. A fourth amendment expanded the plain arm to five seeds before the added seeds were trained and before any plain-arm holdout was generated or read; the first three-seed training queue had already started. These amendments do not revise the original criterion.
+\section{Auxiliary frontier sensitivity}
+The new-versus-old trainer frontier point estimate is about +0.98pp; conditional on the observed horizontal coordinates, its five-seed interval is $[-0.63,2.59]$pp. Table~\ref{tab:frontierjoint} propagates additional item and old-curve noise. The resulting uncertainty includes zero and extends beyond the proposed equivalence band. An exploratory seven-point subset is not substituted for the full analysis.
+\input{tables/frontier_joint}
+\end{document}

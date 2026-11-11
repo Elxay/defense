@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-11T16:40:55.232305+00:00",
+  "rule17_sha256": "d0f219ce3bb0c6c2c5714500ce783dacf396d38fffde667c1e8a6a4a0f873191",
+  "main_results_unread": true,
+  "legacy_results_moved_to_appendix": true,
+  "new_results_and_abstract_are_structure_only": true,
+  "completed_sections": [
+    "methods and data",
+    "measurement audit prose",
+    "limitations"
+  ],
+  "current_round_does_not_claim_completed_Gemma_Mistral": true,
+  "source_sha256": {
+    "paper/sources/legacy_before_unified_rule17/01_introduction.tex": "56176ced10b6ed534c145106d0fc063b42bd73652044710eecf3b276758c0c8b",
+    "paper/sections/01_introduction.tex": "407d40941c946ec5bd7042ffdf45f408376b30320aa83b5cbf23aecae40bb9be",
+    "paper/sources/legacy_before_unified_rule17/03_setup.tex": "d18b2050f1297b509a01e07702ab3de080a80a7b3dbc42662e6cb630c688a6ee",
+    "paper/sections/03_setup.tex": "fe5897519261a44c46d81dddef2f90754e3f95e0ffbe4af3eed7a55f5e91864f",
+    "paper/sources/legacy_before_unified_rule17/04_results.tex": "83a246f8cdf332509ac57da5fa11e04e5fe4547a4533c439848c9720213fa8c4",
+    "paper/sections/04_results.tex": "bbb1fd65d4619cd54e2231386d4c0e59a16c62ee0dfc5aa7348a4f85f4d5f7ec",
+    "paper/sources/legacy_before_unified_rule17/05_traps.tex": "5fed66cdca8b621671968d24c11de696cfacec743b1146809a886839854cc19f",
+    "paper/sections/05_traps.tex": "c7cf9029793772ec89e7cc1c7e24dca3e3d507efe9daa6f2ed63c02d01b5c1bc",
+    "paper/sources/legacy_before_unified_rule17/06_limitations.tex": "814b1e963f1dbd3bc732c43d294bdae14a2521980742faf0cd0e6d3e4b70248b",
+    "paper/sections/06_limitations.tex": "c4db9d9341b887d32df6a7683364be9b829bb14b23d320d3e391ca273cb8a0a0",
+    "paper/sources/legacy_before_unified_rule17/conclusion.tex": "c69869f475b900c9c94e3c9bf9504cbf2be074031b39404374f5b8b66a2825c6",
+    "paper/sections/conclusion.tex": "01ec399d0f33c889f359e645654735b8bc68481d9da30f06a936a7514a14a1ab",
+    "paper/sources/legacy_before_unified_rule17/main.tex": "2fca62ae64a1a72b8664ea76689803bf02a0e98beb0821b488e58eca5c785eb4",
+    "paper/main.tex": "6c347a1f2384ab2feecd775b5ea302f11237da3a105dbca57b1a0f28caaf2c4a",
+    "paper/sections/appendix_legacy_results.tex": "5f15d932cddb5ef1ff2eded5bc4eeb2c46fc7184dcfc1014c8629b6d9b71d4bd"
+  }
+}
