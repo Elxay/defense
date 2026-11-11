@@ -1,0 +1,10 @@
+{
+  "utc_frozen": "2026-11-11T04:25:11.438269+00:00",
+  "old_controller_pid": 1239968,
+  "new_worker_sha256": "bc830d1760fa72ef890be33c344fd668e8d41392af9cdf568a04e707528d022b",
+  "parent_catalog_sha256": "d18ce12bbb8b83ca76453e6ba2955b71c287a25aebc3287ae0f9212f73e3f857",
+  "new_catalog_sha256": "34bae04cd2bb3448a793e76307b9adfcd4f56df7329650e217749da102562d32",
+  "scope": "monitor/lease recovery only; no numerical workers or output records changed",
+  "idle_threshold_seconds": 900,
+  "Windows_frontend": "blocked by Windows execution policy; not bypassed"
+}
