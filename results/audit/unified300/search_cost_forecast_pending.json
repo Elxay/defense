@@ -1,0 +1,93 @@
+{
+  "utc": "2026-11-11T01:14:56.785066+00:00",
+  "budget_GPUh": 600,
+  "tiers": [
+    440,
+    220,
+    88
+  ],
+  "formula": "C_n=sum_cell(cold_GPUh+n*mean_resident_GPUh)+shared_service_GPUh_once; W/replay/adaptive/regression separate",
+  "cells": [
+    {
+      "model": "llama",
+      "family": "PAIR",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    },
+    {
+      "model": "llama",
+      "family": "TAP",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    },
+    {
+      "model": "llama",
+      "family": "AutoDAN_Turbo",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "PAIR",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "TAP",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "AutoDAN_Turbo",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    }
+  ],
+  "selected_tier": null,
+  "reason": "formal searches forbidden until S1b gates; no cost measurements available",
+  "sampling_manifest_sha256": "2ecdceb9e1b8cd1b2fa98aec0bfa24092f22cfe15ce77776c77ed735945bb677"
+}

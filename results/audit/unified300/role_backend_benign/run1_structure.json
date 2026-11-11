@@ -1,0 +1,503 @@
+{
+  "utc": "2026-11-11T01:12:10.955650+00:00",
+  "ledger": [
+    {
+      "behavior_id": 7,
+      "role": "attacker",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "107ba0b46f5f6eb05459595bd53620f9d09c750dd38b7d0adbffc3bbc79b053f"
+      ],
+      "input_ids_sha256": "fd65da7aa412eded50772d6476bf4e41a4fb915f421a6c2184dc712f05b319e3"
+    },
+    {
+      "behavior_id": 6,
+      "role": "attacker",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "f80798cb5222d46c54e57269280914cf2b23c0c2178fc1a75af32d5273a5a3c3"
+      ],
+      "input_ids_sha256": "da666394acbbb5ec1194d0284352d2f56a60f7f1483f72f28dad90f07b04f90c"
+    },
+    {
+      "behavior_id": 5,
+      "role": "attacker",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "398e848c097966f5beeb6b831705ef0b3bf45370c2d130b185bf00c7c367dcc3"
+      ],
+      "input_ids_sha256": "67060a1f3dca9995ae615a550c269bb53c67d6dd271d6de574a9c19fd791676f"
+    },
+    {
+      "behavior_id": 4,
+      "role": "attacker",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "0cd3f16477dd1b7b094662fd8d2c16ed1f86959fbc60d2bf6753a78b62461105"
+      ],
+      "input_ids_sha256": "d7ac522e8ac2a8f332a6c3da0c328b435b6300dfa9ed5e068ca28a03f9977e7b"
+    },
+    {
+      "behavior_id": 3,
+      "role": "attacker",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "9eab0ae5a764d22f58c5091f3a056909a5fcf8b2fb893a32005d1e6002be4104"
+      ],
+      "input_ids_sha256": "56ca6746812d9da3ee569690b97e0ed0d0a55d8cb04dea923a078d78c798fdc0"
+    },
+    {
+      "behavior_id": 2,
+      "role": "attacker",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "1239e84191826157db534065d2802d0df12b99fdc12469be74eae7cb52273d25"
+      ],
+      "input_ids_sha256": "5e39b4ddb114e189b546c09e2cb6182312f92b6a3a5f268f6a4e4b137fecae14"
+    },
+    {
+      "behavior_id": 1,
+      "role": "attacker",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "e777a61efe80318da620e48a8fa03e877e017641e4ee6a5734516788cde1ff7b"
+      ],
+      "input_ids_sha256": "31f8064c9ca3359e1ddea2e8fd6d072b52ace80b8fb956405d290d655c09f070"
+    },
+    {
+      "behavior_id": 0,
+      "role": "attacker",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "4465804e989a6a2512bec77b90469da0f7d34703ea0cc641e9762bcb86eb5e0d"
+      ],
+      "input_ids_sha256": "a2f89d434ac6f8044b5546c5e0b7f1218ca32c388f10d4112be1b49c4d1a9fe6"
+    },
+    {
+      "behavior_id": 7,
+      "role": "scorer",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "7253831dc417f5a8d0d0c42c0d498dbfe819771af1617c7769c9d64aba65ddb4"
+      ],
+      "input_ids_sha256": "1a08c14d3710991a6a4289a13e16503563f8e0e5f571dd9ae07b27dfc03fa1e3"
+    },
+    {
+      "behavior_id": 6,
+      "role": "scorer",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "47cee3dbe08e43d69e0c85ac0561a162d7d9fb5fcb1e3c8e31774c8d836a4581"
+      ],
+      "input_ids_sha256": "5edccf8662c16cd329096f4f8eca8e2d691e865adc4614af79515b719c3a4610"
+    },
+    {
+      "behavior_id": 5,
+      "role": "scorer",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "53f112df1a6fe8b02e97011421c5593826bff0bfea2918499b951847d6fb3c77"
+      ],
+      "input_ids_sha256": "6691083ea5e7b8a7101a288a081ac0fbad35ec9fcf770a9de9d47e90b1bfa584"
+    },
+    {
+      "behavior_id": 4,
+      "role": "scorer",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "3e62b68a0b681509908027859a43810a88e2dde3f442178324b3e83be9d0ee35"
+      ],
+      "input_ids_sha256": "1e7e26134f65c07f79b6909f2a4b1c2224e7bbc8c25b864a89be4b25242a9ced"
+    },
+    {
+      "behavior_id": 3,
+      "role": "scorer",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "d0ba25fc2e6ade7420e79c57ca545d5324be1f9cd4f81642dde000c30bd55eb5"
+      ],
+      "input_ids_sha256": "9d6ef40e26641b7c7d5aa3cbf9b77c2df6baaeff27c980d2621149cb1983d84d"
+    },
+    {
+      "behavior_id": 2,
+      "role": "scorer",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "e45961fcd7922d8354f8b7d70ff4035bb415a3f1cfd19f8917cca112713ea441"
+      ],
+      "input_ids_sha256": "687f7bc825964dc0ded989be27bc0588d224693c2a3bdf011d4f5c57da30f4c0"
+    },
+    {
+      "behavior_id": 1,
+      "role": "scorer",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "1e59e15f4b8bc3549e59304af16dd6e89b3b7e8013b755ee42de260a8ef82684"
+      ],
+      "input_ids_sha256": "ee35236b3491cf10aadfdcb1c38131d8e31a2a7e7676dd0a18efbbaf91001e8b"
+    },
+    {
+      "behavior_id": 0,
+      "role": "scorer",
+      "call_index": 0,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "893dd4bb1e12d5c25b3daea73dd95f4e574850eabcb4c86824282d30f62df727"
+      ],
+      "input_ids_sha256": "0db2c5263b099ea8d88ff1c8704c93710d697aa31cd45f68a03a62e39286a032"
+    },
+    {
+      "behavior_id": 7,
+      "role": "attacker",
+      "call_index": 1,
+      "history_roles": [
+        "user",
+        "assistant",
+        "user"
+      ],
+      "history_message_sha256": [
+        "107ba0b46f5f6eb05459595bd53620f9d09c750dd38b7d0adbffc3bbc79b053f",
+        "54a343127246b50e5c6d9ec4ad70eb617ce698e9ea5a928da7e5d46cca767022",
+        "2e09f9d233843e4100f546d32c7a97acb4fbdf77a45285340873cf7830c9198d"
+      ],
+      "input_ids_sha256": "1b0c78f59feca3a196b71f99b6b368239bbc660c29443035a5830d0edc29bc43"
+    },
+    {
+      "behavior_id": 6,
+      "role": "attacker",
+      "call_index": 1,
+      "history_roles": [
+        "user",
+        "assistant",
+        "user"
+      ],
+      "history_message_sha256": [
+        "f80798cb5222d46c54e57269280914cf2b23c0c2178fc1a75af32d5273a5a3c3",
+        "3144aaf5524a2730b5021d248d3ea85f16faabb22067d1836c0703e9c07b3c5c",
+        "348e3a2318a6b64e247e0d70d5bb9398dea37c8f29ecb89c5b9558fab5a8ca69"
+      ],
+      "input_ids_sha256": "05de7b23f4f65cc0594eaf2489af952083aad567209270d96c03cfdfba8d0d67"
+    },
+    {
+      "behavior_id": 5,
+      "role": "attacker",
+      "call_index": 1,
+      "history_roles": [
+        "user",
+        "assistant",
+        "user"
+      ],
+      "history_message_sha256": [
+        "398e848c097966f5beeb6b831705ef0b3bf45370c2d130b185bf00c7c367dcc3",
+        "3144aaf5524a2730b5021d248d3ea85f16faabb22067d1836c0703e9c07b3c5c",
+        "7b383066c05cb9bd2241878e0a0beb5165227c167f5278814536ce7757a2a3d5"
+      ],
+      "input_ids_sha256": "fb1156c248126233cd7bd3fc76b6151219778dc21f08633edc57a7505f90ed38"
+    },
+    {
+      "behavior_id": 4,
+      "role": "attacker",
+      "call_index": 1,
+      "history_roles": [
+        "user",
+        "assistant",
+        "user"
+      ],
+      "history_message_sha256": [
+        "0cd3f16477dd1b7b094662fd8d2c16ed1f86959fbc60d2bf6753a78b62461105",
+        "76a7c825ba147e5f967a23f7068dcb1bb875779c48e4916116a6e2a20d6a7c2b",
+        "4ab1b0b34166c09b24afbeda13db77e8e145505d2c3ff80b77f1f2880c8cdfc1"
+      ],
+      "input_ids_sha256": "9c8f6a8b929dafd54c298bbea8725927ac75b203cd4b2613a3b9fe8dd87f338e"
+    },
+    {
+      "behavior_id": 3,
+      "role": "attacker",
+      "call_index": 1,
+      "history_roles": [
+        "user",
+        "assistant",
+        "user"
+      ],
+      "history_message_sha256": [
+        "9eab0ae5a764d22f58c5091f3a056909a5fcf8b2fb893a32005d1e6002be4104",
+        "3144aaf5524a2730b5021d248d3ea85f16faabb22067d1836c0703e9c07b3c5c",
+        "22608fc189b2967542f6563824f84f2659178694e6b8d216ec7a756226b09f43"
+      ],
+      "input_ids_sha256": "3463d883f20ff9d6ecb843cdb2b4a8e54e7964e3c37bbb4ae592a979aca2e21c"
+    },
+    {
+      "behavior_id": 2,
+      "role": "attacker",
+      "call_index": 1,
+      "history_roles": [
+        "user",
+        "assistant",
+        "user"
+      ],
+      "history_message_sha256": [
+        "1239e84191826157db534065d2802d0df12b99fdc12469be74eae7cb52273d25",
+        "3144aaf5524a2730b5021d248d3ea85f16faabb22067d1836c0703e9c07b3c5c",
+        "2597a840df0ea39e59b0229425e7ad9ca23278476835229c1d8ed5ae11a66bd0"
+      ],
+      "input_ids_sha256": "3825a94cd53331a2fc1995d830eb53dce3d6fb6fbb3e91be7302251ca7902abb"
+    },
+    {
+      "behavior_id": 1,
+      "role": "attacker",
+      "call_index": 1,
+      "history_roles": [
+        "user",
+        "assistant",
+        "user"
+      ],
+      "history_message_sha256": [
+        "e777a61efe80318da620e48a8fa03e877e017641e4ee6a5734516788cde1ff7b",
+        "b2d6dfb828a007e274779e5133e9310d1d7019b2943e26798c62c7a93e255953",
+        "41eea3627ed51b39e5a2d920905caac66dbf326d55ad4ffd6be6c487f1928253"
+      ],
+      "input_ids_sha256": "bdc2098b6209cdd0cbb7025e7937e903b2ce4438a217c33921ba0ac006fb2fb2"
+    },
+    {
+      "behavior_id": 0,
+      "role": "attacker",
+      "call_index": 1,
+      "history_roles": [
+        "user",
+        "assistant",
+        "user"
+      ],
+      "history_message_sha256": [
+        "4465804e989a6a2512bec77b90469da0f7d34703ea0cc641e9762bcb86eb5e0d",
+        "fb59d09c20521015cfe5ec0c03dbfdb86b02b6d62bd4be829172aeb35c564c97",
+        "839c2955fb3677e4edb4d6f676b655955d6c9f2058baccb102285adeb2d811b0"
+      ],
+      "input_ids_sha256": "18cf21378b58ff789870ef3c21a3be991272643e600ff47f80ea0c1ade04619a"
+    },
+    {
+      "behavior_id": 7,
+      "role": "scorer",
+      "call_index": 1,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "7253831dc417f5a8d0d0c42c0d498dbfe819771af1617c7769c9d64aba65ddb4"
+      ],
+      "input_ids_sha256": "1a08c14d3710991a6a4289a13e16503563f8e0e5f571dd9ae07b27dfc03fa1e3"
+    },
+    {
+      "behavior_id": 6,
+      "role": "scorer",
+      "call_index": 1,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "47cee3dbe08e43d69e0c85ac0561a162d7d9fb5fcb1e3c8e31774c8d836a4581"
+      ],
+      "input_ids_sha256": "5edccf8662c16cd329096f4f8eca8e2d691e865adc4614af79515b719c3a4610"
+    },
+    {
+      "behavior_id": 5,
+      "role": "scorer",
+      "call_index": 1,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "53f112df1a6fe8b02e97011421c5593826bff0bfea2918499b951847d6fb3c77"
+      ],
+      "input_ids_sha256": "6691083ea5e7b8a7101a288a081ac0fbad35ec9fcf770a9de9d47e90b1bfa584"
+    },
+    {
+      "behavior_id": 4,
+      "role": "scorer",
+      "call_index": 1,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "3e62b68a0b681509908027859a43810a88e2dde3f442178324b3e83be9d0ee35"
+      ],
+      "input_ids_sha256": "1e7e26134f65c07f79b6909f2a4b1c2224e7bbc8c25b864a89be4b25242a9ced"
+    },
+    {
+      "behavior_id": 3,
+      "role": "scorer",
+      "call_index": 1,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "d0ba25fc2e6ade7420e79c57ca545d5324be1f9cd4f81642dde000c30bd55eb5"
+      ],
+      "input_ids_sha256": "9d6ef40e26641b7c7d5aa3cbf9b77c2df6baaeff27c980d2621149cb1983d84d"
+    },
+    {
+      "behavior_id": 2,
+      "role": "scorer",
+      "call_index": 1,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "e45961fcd7922d8354f8b7d70ff4035bb415a3f1cfd19f8917cca112713ea441"
+      ],
+      "input_ids_sha256": "687f7bc825964dc0ded989be27bc0588d224693c2a3bdf011d4f5c57da30f4c0"
+    },
+    {
+      "behavior_id": 1,
+      "role": "scorer",
+      "call_index": 1,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "1e59e15f4b8bc3549e59304af16dd6e89b3b7e8013b755ee42de260a8ef82684"
+      ],
+      "input_ids_sha256": "ee35236b3491cf10aadfdcb1c38131d8e31a2a7e7676dd0a18efbbaf91001e8b"
+    },
+    {
+      "behavior_id": 0,
+      "role": "scorer",
+      "call_index": 1,
+      "history_roles": [
+        "user"
+      ],
+      "history_message_sha256": [
+        "893dd4bb1e12d5c25b3daea73dd95f4e574850eabcb4c86824282d30f62df727"
+      ],
+      "input_ids_sha256": "0db2c5263b099ea8d88ff1c8704c93710d697aa31cd45f68a03a62e39286a032"
+    }
+  ],
+  "call_counts": [
+    {
+      "behavior_id": 0,
+      "role": "attacker",
+      "count": 2
+    },
+    {
+      "behavior_id": 0,
+      "role": "scorer",
+      "count": 2
+    },
+    {
+      "behavior_id": 1,
+      "role": "attacker",
+      "count": 2
+    },
+    {
+      "behavior_id": 1,
+      "role": "scorer",
+      "count": 2
+    },
+    {
+      "behavior_id": 2,
+      "role": "attacker",
+      "count": 2
+    },
+    {
+      "behavior_id": 2,
+      "role": "scorer",
+      "count": 2
+    },
+    {
+      "behavior_id": 3,
+      "role": "attacker",
+      "count": 2
+    },
+    {
+      "behavior_id": 3,
+      "role": "scorer",
+      "count": 2
+    },
+    {
+      "behavior_id": 4,
+      "role": "attacker",
+      "count": 2
+    },
+    {
+      "behavior_id": 4,
+      "role": "scorer",
+      "count": 2
+    },
+    {
+      "behavior_id": 5,
+      "role": "attacker",
+      "count": 2
+    },
+    {
+      "behavior_id": 5,
+      "role": "scorer",
+      "count": 2
+    },
+    {
+      "behavior_id": 6,
+      "role": "attacker",
+      "count": 2
+    },
+    {
+      "behavior_id": 6,
+      "role": "scorer",
+      "count": 2
+    },
+    {
+      "behavior_id": 7,
+      "role": "attacker",
+      "count": 2
+    },
+    {
+      "behavior_id": 7,
+      "role": "scorer",
+      "count": 2
+    }
+  ]
+}

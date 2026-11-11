@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-11T01:12:10.956396+00:00",
+  "passed_benign_backend_structure": true,
+  "behavior_count": 8,
+  "orders": 2,
+  "model_calls_per_order": 4,
+  "request_rows_per_order": 32,
+  "shared_one_weight_instance": true,
+  "thinking": false,
+  "seed": 20261271,
+  "no_text_byte_equivalence_claim": true,
+  "actual_source_search_controller_integrated": false,
+  "formal_S1b_role_gate_admitted": false,
+  "formal_search_outputs": 0,
+  "remaining": "wire this counted transport into unchanged PAIR/TAP/AutoDAN role parsers and test real controller isolation before S1b",
+  "worker_sha256": "83f02d4e112104e7202ca85404384e0473cb009a3621a82a9e4ae0409d960dc2"
+}
