@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-11T03:46:09.487190+00:00",
+  "reason": "Family memory below3GiB; assertion after final batch saving",
+  "error_type": "AssertionError",
+  "N_saved": 440,
+  "resource_gate_passed": false,
+  "preservation_manifest_sha256": "ca9918b641357f7642379aa1cdaa4d34e23f697e560641e4ed4f86f0b53c9dad"
+}
