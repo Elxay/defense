@@ -1,0 +1,89 @@
+{
+  "utc_frozen": "2026-11-11T16:44:03.658303+00:00",
+  "worker_sha256": "4ba80911369ab82e7335f5971e22683d5b604b07f0384657009bbcf78b148714",
+  "batch_core_sha256": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+  "engineering_source_sha256": "36e945ea22e049ffc66617948f7fcebc8939a50875f8097a5257094d4d92adc7",
+  "engineering20_IDs": [
+    "wjb_train_000060788",
+    "wjb_train_000073790",
+    "wjb_train_000129542",
+    "wjb_train_000059107",
+    "wjb_train_000056697",
+    "wjb_train_000083067",
+    "wjb_train_000109442",
+    "wjb_train_000094209",
+    "wjb_train_000102391",
+    "wjb_train_000069391",
+    "wjb_train_000130579",
+    "wjb_train_000092367",
+    "wjb_train_000054003",
+    "wjb_train_000116867",
+    "wjb_train_000129710",
+    "wjb_train_000076390",
+    "wjb_train_000056349",
+    "wjb_train_000065024",
+    "wjb_train_000121228",
+    "wjb_train_000116716"
+  ],
+  "fixed_texts_sha256": "e51c559e246f77ca0623fba4424f66cb4118fffd0f71ba02772f7819b55dcd6b",
+  "new_test_outputs": false,
+  "models": {
+    "gemma": {
+      "path": "/data/HZX/Def/models/crossmodel287/gemma/11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "layer": 12,
+      "rho": 127.72100143432617,
+      "attention": "eager"
+    },
+    "mistral": {
+      "path": "/data/models/Mistral-7B-Instruct-v0.3",
+      "layer": 9,
+      "rho": 2.3307554125785828,
+      "attention": "sdpa"
+    }
+  },
+  "short_gate": {
+    "cap32_zero_reference20": true,
+    "variants": [
+      "native",
+      "P1",
+      "P2"
+    ],
+    "zero_nohook_bytes_equal": true,
+    "canonical_diagnostic_vector": "first coordinate = 0.01rho; remaining zero; cap1",
+    "position_hook_assertion": "only declared prefill position changes, exactly once; decode positions unchanged",
+    "reference_scope": "prospective B1 only, not historical same-batch nor long label admission"
+  },
+  "remaining_DAG": [
+    "native alpha0 470 and blind refusal review",
+    "own keep60 and fixed U1 target binding",
+    "train seeds3,4,5 with existing fixed rules",
+    "trained-s3/random/alpha0 cap2400 100-prompt B8 -> B4 -> B1 label screen plus throughput/headroom",
+    "freeze accepted batch path, then independent engineering20 same-batch reference/reload check",
+    "700 calibration, WG score, alpha selection",
+    "family-specific long generation gates before tests"
+  ],
+  "schedule": {
+    "short_gates": "innetGPU0 after current SORRY wave, Gemma then Mistral; wait_gpu and shared locks; no need to wait whole English/search round",
+    "remaining": "native review/targets/training Nov12-13; label gate and calibration target Nov13-14, estimates contingent on passed gates",
+    "batch_gate_time_basis": "at least 300 B1 cap2400 engineering outputs per model; old Qwen244 rows/hour =>1.23GPUh for B1 reference alone, plus candidate and judging; not a minutes-only gate"
+  },
+  "Gemma_uncompiled_baseline": {
+    "complete_utc": "2026-11-10T02:16:57.173392+00:00",
+    "signature": {
+      "protocol_sha256": "9e218a5a64c1f2b8fa311547cd08eadd0af9937a354e20903adc0fadc91c2f07",
+      "inputs_sha256": "1d647c4d14842a9f65708df2f38eb0bea51e56ef5ad24777480c71253d617d85",
+      "worker_sha256": "94f8b0164821891cf4a3d8d4f5caad38336e58d4b84c41779d504a6d644dd15c",
+      "renderer_sha256": "762ebbc745f7aa7eba5ac0c787f45901b79affdba264c5b53e05f5cf1c60d2c4",
+      "core_sha256": "150e5edc7bd06c990c16fc110b6254a112f11abca9e6eb97f5b3373ea645206e",
+      "model_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "alpha": 0,
+      "layer": 12,
+      "attention": "eager",
+      "disable_compile": true,
+      "device_uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0"
+    },
+    "sha256": "b8067fd947160ba0415126924da9105e8825e23e38256bc6ecd74f9681b3d765",
+    "scope": "470 prereview, not unified700; old automatic outputs isolated"
+  },
+  "formal_generation_allowed": false
+}
