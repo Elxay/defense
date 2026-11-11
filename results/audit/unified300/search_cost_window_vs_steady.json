@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-11T12:11:42.620425+00:00",
+  "rows": [
+    {
+      "method": "PAIR",
+      "model": "llama",
+      "N": 440,
+      "cold_GPUh": 0.12594464232446625,
+      "window_GPUh": 16.54594996756641,
+      "steady_excluding_cold_GPUh": 13.289856416018512,
+      "steady_including_cold_GPUh": 13.415801058342979,
+      "not_interval_bounds": true
+    },
+    {
+      "method": "PAIR",
+      "model": "qwen",
+      "N": 440,
+      "cold_GPUh": 0.1201322242060107,
+      "window_GPUh": 26.41066347120653,
+      "steady_excluding_cold_GPUh": 23.374571687669828,
+      "steady_including_cold_GPUh": 23.49470391187584,
+      "not_interval_bounds": true
+    },
+    {
+      "method": "TAP",
+      "model": "llama",
+      "N": 440,
+      "cold_GPUh": 0.12298848825506865,
+      "window_GPUh": 104.73472123971831,
+      "steady_excluding_cold_GPUh": 81.56039502307915,
+      "steady_including_cold_GPUh": 81.68338351133423,
+      "not_interval_bounds": true
+    }
+  ],
+  "selection_basis": "window remains unchanged",
+  "caveat": "Single concurrent window; steady formula ignores contention change and tail effects; not bounds"
+}

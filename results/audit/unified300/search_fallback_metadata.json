@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-11T12:11:42.552845+00:00",
+  "rows": [
+    {
+      "method": "PAIR",
+      "model": "llama",
+      "N_completed": 10,
+      "fallback": 0,
+      "execution_missing_prompt": 0
+    },
+    {
+      "method": "PAIR",
+      "model": "qwen",
+      "N_completed": 10,
+      "fallback": 0,
+      "execution_missing_prompt": 0
+    },
+    {
+      "method": "TAP",
+      "model": "llama",
+      "N_completed": 10,
+      "fallback": 0,
+      "execution_missing_prompt": 0
+    }
+  ],
+  "labels_read": false
+}
