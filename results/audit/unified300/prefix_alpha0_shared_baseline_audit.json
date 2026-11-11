@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-11T10:15:28.743847+00:00",
+  "models": [
+    {
+      "model": "llama",
+      "N": 440,
+      "prompt_and_full_response_hashes_equal": 440,
+      "separate_execution_records_retained": true,
+      "statistical_baseline_units": 1,
+      "P1_marker_sha256": "f142f5a82504487b8de14e8f703bb5682de5e62dc2376395456e2a7b46ff7211",
+      "P2_marker_sha256": "a1b50100e65eb70df2ab6047162e3673bd99a14a47570e0c5e9cac2a0544e7a2"
+    },
+    {
+      "model": "qwen",
+      "N": 440,
+      "prompt_and_full_response_hashes_equal": 440,
+      "separate_execution_records_retained": true,
+      "statistical_baseline_units": 1,
+      "P1_marker_sha256": "6dbe246310c02e214f16d621a761ec44cd1e080b9047966b25d45200b524ca60",
+      "P2_marker_sha256": "04de349170e5d808e499add4d203724f10346782d9c4eb4ca471c4ac32e5fc83"
+    }
+  ],
+  "no_score_labels_read": true,
+  "note": "Two physical generation runs with identical prompt/response bytes; one shared statistical baseline per model, not two independent samples."
+}

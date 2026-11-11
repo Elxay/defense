@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-11T10:15:28.743847+00:00",
+  "sampling_manifest_sha256": "2ecdceb9e1b8cd1b2fa98aec0bfa24092f22cfe15ce77776c77ed735945bb677",
+  "N88": 88,
+  "N220": 220,
+  "N440": 440,
+  "nested": true,
+  "pilot10_inside88": true,
+  "pilot10_IDs": [
+    77,
+    92,
+    234,
+    255,
+    323,
+    359,
+    407,
+    417,
+    428,
+    440
+  ],
+  "dynamic_queue_already_used": {
+    "PAIR": "ThreadPoolExecutor(max_workers=8), all rows submitted, as_completed; a finished row frees its worker immediately",
+    "TAP": "same existing source pattern"
+  },
+  "no_dynamic_scheduler_change_needed_for_existing_pilots": true,
+  "progressive_bulk_authorized_now": true,
+  "stage_order": [
+    88,
+    220,
+    440
+  ],
+  "next_stage_rule": "Do not read independent fulfillment outcomes to extend. Start previously measured PAIR88 when admitted resources available without waiting for six cost cells. Higher tiers require deterministic cost-only budget check; all lower-tier data retained. Final common completed tier and incomplete cells reported explicitly.",
+  "budget_search_GPUh": 600,
+  "pilot_rows_not_regenerated": true,
+  "input_order": "fixed nested tier ID order after retained pilot IDs; no outcome-based row selection",
+  "actual_cost_accounting": "all source attempts/cold loads and reserved search card time; W/replay/adaptive/engineering admissions separately itemized; no discard of failed cost",
+  "no_nonzero_or_gate_read_for_tier_choice": true
+}

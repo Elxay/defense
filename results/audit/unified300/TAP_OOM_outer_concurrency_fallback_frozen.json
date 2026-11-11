@@ -1,0 +1,26 @@
+{
+  "utc_frozen": "2026-11-11T10:15:28.743847+00:00",
+  "outer_concurrency_chain": [
+    8,
+    4,
+    2,
+    1
+  ],
+  "trigger": "CUDA OOM only; preserve failing and successful behavior attempts, then retry unresolved rows with next lower outer concurrency after numerical/owner-isolation admission",
+  "forbidden_changes": [
+    "TAP depth10",
+    "TAP width10",
+    "TAP branching4",
+    "role/target max token limits",
+    "precision or quantization",
+    "within-behavior stream/branch/search rule"
+  ],
+  "if_outer1_fails": "resource infeasible; do not shrink tree or fabricate successful timing",
+  "all_attempt_costs_counted": true,
+  "existing_Llama_pilot_completed_before_this_addendum": true,
+  "no_retrospective_claim": true,
+  "current_Qwen_state": {
+    "TAP_qwen_gate_v4": "running"
+  },
+  "note": "Outer concurrency reduction need not reduce a single behavior branch-batch peak; never promise it solves OOM. New recovery implementation must pass zero-vector numerical and owner-isolation gates before launch."
+}
