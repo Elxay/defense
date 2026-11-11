@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-11T14:41:46.422627+00:00",
+  "source_sha256": "ca78ab8aaadc681bf167bdb422b013b5985a54742ca6e01473ce5c9c590d25df",
+  "worker_sha256": "d35181e0fa4fdaa25f7650d9b3533f297b70b304143f9514953337c139f7a63b",
+  "identical_AST_nodes": [
+    "NativeConversation",
+    "Core",
+    "Port",
+    "source_function",
+    "prune_shuffle",
+    "build_object",
+    "handle"
+  ],
+  "not_a_GPU_execution_gate": true,
+  "zero20_and_12_behavior8vs4_gate_still_required": true,
+  "all_prior_pilot_row_hashes_retained": true,
+  "search_algorithm_parameters_changed": false,
+  "expansion_above88_locked": true
+}
