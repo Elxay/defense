@@ -1,17 +1,17 @@
 {
-  "utc": "2026-11-11T14:36:09.946225+00:00",
-  "controller_utc": "2026-11-11T14:35:40.611784+00:00",
+  "utc": "2026-11-11T14:47:00.719973+00:00",
+  "controller_utc": "2026-11-11T14:46:31.373973+00:00",
   "cards": [
     {
       "card": 0,
       "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
-      "memory_MiB": 16533,
-      "utilization": 94,
+      "memory_MiB": 16233,
+      "utilization": 86,
       "processes": [
         {
           "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
-          "pid": 2001969,
-          "memory_MiB": "16528",
+          "pid": 2019205,
+          "memory_MiB": "16208",
           "account": "kemove",
           "command_basename": "unified300_ready_generate_v3.py"
         }
@@ -19,8 +19,8 @@
       "site": "innet",
       "registered": [
         {
-          "task": "main_llama_logical_appeal_s3",
-          "runner_pid": "2001950"
+          "task": "main_llama_authority_endorsement_s3",
+          "runner_pid": "2019185"
         }
       ],
       "project": "defense"
@@ -46,13 +46,13 @@
     {
       "card": 2,
       "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
-      "memory_MiB": 16431,
-      "utilization": 90,
+      "memory_MiB": 16511,
+      "utilization": 93,
       "processes": [
         {
           "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
-          "pid": 2003256,
-          "memory_MiB": "16428",
+          "pid": 2017053,
+          "memory_MiB": "16488",
           "account": "kemove",
           "command_basename": "unified300_ready_generate_v3.py"
         }
@@ -60,8 +60,8 @@
       "site": "innet",
       "registered": [
         {
-          "task": "main_llama_authority_endorsement_s3",
-          "runner_pid": "2003219"
+          "task": "main_llama_logical_appeal_s3",
+          "runner_pid": "2017034"
         }
       ],
       "project": "defense"
@@ -69,13 +69,13 @@
     {
       "card": 3,
       "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
-      "memory_MiB": 15221,
-      "utilization": 82,
+      "memory_MiB": 15179,
+      "utilization": 78,
       "processes": [
         {
           "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
-          "pid": 2003252,
-          "memory_MiB": "15198",
+          "pid": 2014466,
+          "memory_MiB": "15156",
           "account": "kemove",
           "command_basename": "unified300_ready_generate_v3.py"
         }
@@ -83,8 +83,8 @@
       "site": "innet",
       "registered": [
         {
-          "task": "main_qwen_logical_appeal_s5",
-          "runner_pid": "2003218"
+          "task": "main_qwen_authority_endorsement_s3",
+          "runner_pid": "2014445"
         }
       ],
       "project": "defense"
@@ -116,7 +116,7 @@
       "card": 1,
       "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
       "memory_MiB": 15253,
-      "utilization": 31,
+      "utilization": 33,
       "processes": [
         {
           "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
@@ -138,13 +138,13 @@
     {
       "card": 2,
       "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
-      "memory_MiB": 17351,
-      "utilization": 41,
+      "memory_MiB": 17371,
+      "utilization": 29,
       "processes": [
         {
           "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
           "pid": 4105176,
-          "memory_MiB": "17314",
+          "memory_MiB": "17334",
           "account": "dell",
           "command_basename": "u300_language_preprocess_worker_v2.py"
         }
