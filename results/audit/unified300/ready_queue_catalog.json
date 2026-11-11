@@ -1,6 +1,6 @@
 {
   "utc_frozen": "2026-11-11T03:58:15.113322+00:00",
-  "controller_sha256": "bc830d1760fa72ef890be33c344fd668e8d41392af9cdf568a04e707528d022b",
+  "controller_sha256": "8d4ce8ae5e27de4f21498d0f5b115c7d5f83305d6bdfc5cc06a401fed221a02b",
   "runner_sha256": "a8dfbfb640924f59c95546eaba4838f8e8ddf5348d24f6cd0fb61a19b18083d8",
   "poll_seconds": 30,
   "idle_alert_seconds": 900,
@@ -4040,9 +4040,20 @@
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "d18ce12bbb8b83ca76453e6ba2955b71c287a25aebc3287ae0f9212f73e3f857",
-  "updated_utc": "2026-11-11T04:25:11.438269+00:00",
-  "controller_version": 2,
+  "parent_catalog_sha256": "34bae04cd2bb3448a793e76307b9adfcd4f56df7329650e217749da102562d32",
+  "updated_utc": "2026-11-11T04:30:46.239369+00:00",
+  "controller_version": 3,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
-  "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry"
+  "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",
+  "compatible_innet_slots": {
+    "llama": [
+      2,
+      0
+    ],
+    "qwen": [
+      0,
+      3
+    ]
+  },
+  "compatible_slot_proof": "innetGPU0 L/Q20 passed; original source L GPU2/Q GPU3 path gates passed; same node/core/B/membership, actual UUID recorded"
 }
