@@ -23,7 +23,7 @@
   "Llama_cap120_batch_candidate": 16,
   "SORRY_WG_report_name": "non-refusal rate",
   "Q2_WG_nonrefusal_decomposition": false,
-  "updated_utc": "2026-11-10T17:55:54.021333+00:00",
+  "updated_utc": "2026-11-11T01:08:25.144819+00:00",
   "Qwen_long_batch_candidate": 4,
   "long_batch_label_gate_passed": false,
   "S1a_frozen": true,
@@ -46,11 +46,16 @@
     "evidence-based_persuasion",
     "expert_endorsement",
     "prefix_P1",
-    "prefix_P2"
+    "prefix_P2",
+    "translate-ml",
+    "translate-ta",
+    "translate-mr",
+    "translate-zh-cn",
+    "translate-fr"
   ],
   "static_alpha0_execution_plan_sha256": "2c0d68e1d775ee20121e4b7a129ed77ab29a85c44fc43c364abdb418ca41b420",
   "main_label_or_effect_reads_allowed": false,
-  "language_encoding_execution_locked": true,
+  "language_encoding_execution_locked": false,
   "calibration_alpha_decisions": {
     "llama": {
       "decision": {
@@ -141,5 +146,9 @@
   "main_score_cache_allowed": [
     "WG",
     "v2"
-  ]
+  ],
+  "language_alpha0_execution_plan_sha256": "2fe7e9d4e0aea92fa3fc69dfbabb1432053861041a87c579d2eee53d42b48d9b",
+  "encoding_execution_locked": true,
+  "language_execution_locked": false,
+  "language_reply_preprocessing_execution_gate_passed": true
 }

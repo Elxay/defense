@@ -1,0 +1,171 @@
+{
+  "utc": "2026-11-11T01:07:04.814613+00:00",
+  "passed": true,
+  "N": 20,
+  "exact": 20,
+  "checks": [
+    {
+      "id": "zh-cn_0",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "02ec95c2f00a6e429241b517462f3f9fdde43739a7a4b377c49bb52e7d6b1d9a"
+    },
+    {
+      "id": "zh-cn_1",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "b4b72e875736c189fc1dfef5c2eaa3b298721437955bb06501d7278dd2763beb"
+    },
+    {
+      "id": "zh-cn_2",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "4d91aa33b12ab8e41b4be87908f5eafbc9989146d6af6a0cc50da20d0660fdd1"
+    },
+    {
+      "id": "zh-cn_3",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "74fac426f40b693409384f78eba5a31f72c9ff10395f701ef121c5ce7b58559c"
+    },
+    {
+      "id": "fr_0",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "7d603f275de1e3b33424d3259e81545fdd2ed28f5225af57826561412753661f"
+    },
+    {
+      "id": "fr_1",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "c257d7ce024ecae1a83d8c2d194f0535463236b5712d79886bac5dc7a19d1fef"
+    },
+    {
+      "id": "fr_2",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "2e13e91b396310852fe8a4e54b1faab333649bb0a3c8ffab1ad08cbfdaf4d4d7"
+    },
+    {
+      "id": "fr_3",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "069ee8208537a90deedff598d6a691d5c0683638568bb4566638816026ecbde8"
+    },
+    {
+      "id": "mr_0",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "2d935e9ba0ee27ac2054dfba8b8029d2725a5bf3ed361a30ed53b424ff186554"
+    },
+    {
+      "id": "mr_1",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "5edc36853d0612b068a95ff2628d13cc26281ec2bb7c8cb69188374133deed99"
+    },
+    {
+      "id": "mr_2",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "70d14bb28cbcee3c228c34ab30898133a3e8205befb709883154795c68311332"
+    },
+    {
+      "id": "mr_3",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "ec4e2df5b96c817c975b6715d7d903c5732119db4d5f9b171ec1d67ed1ba5708"
+    },
+    {
+      "id": "ml_0",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "17a344ea8bd131d56d472c9f0aa8b2ca2a39d3f4798e993ffeb02283cb158e3f"
+    },
+    {
+      "id": "ml_1",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "d5a12910fae963ddf511cbaabbde006d7fb15104c4becdb49d7bfa1a9c66329b"
+    },
+    {
+      "id": "ml_2",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "761e77e0d7f734924ad1164f1f4bc8516dc828a3123f9460f904a8ae02a7e481"
+    },
+    {
+      "id": "ml_3",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "bf65e3d1ce8da88956c29f139c5c57fa5c7541d7f403df39117f8e6fa06b8993"
+    },
+    {
+      "id": "ta_0",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "617899ecceab2fbe92a71fd6be8a2282046ecf8cf5918534243aec3e73cddcc2"
+    },
+    {
+      "id": "ta_1",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "ed4f4ea0782d07f004ca9b0c230e8fd4c1af660a30b98df3d9a7bc5e95f41a58"
+    },
+    {
+      "id": "ta_2",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "96608763470727f3f1f41eb72dd8b29d434d0f7eef5cb8d3d7cd1dc580b166cf"
+    },
+    {
+      "id": "ta_3",
+      "byte_equal": true,
+      "nonempty": true,
+      "not_truncated": true,
+      "language": "en",
+      "input_ids_sha256": "a64c3d5c5c311e1aa8bbb125bd69b28d8cee55d2088315ba32ed8cd99d019003"
+    }
+  ],
+  "all_asset_files_verified": true,
+  "no_fidelity_accuracy_claim": true,
+  "plan_sha256": "8638cc0c5dba18103695278eeecab2021c476da982ea19d9d41245e4600a385b"
+}
