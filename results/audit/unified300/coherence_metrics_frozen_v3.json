@@ -1,0 +1,24 @@
+{
+  "utc_frozen": "2026-11-11T07:42:13.396945+00:00",
+  "worker_sha256": "682e4a4206c160d48dd810d185c5d66c919e9af12293a8174a547c49d1b35ae4",
+  "scope": "each model x family x condition; alpha0, each learned/random, and pooled learned/random means with per-vector rows",
+  "metrics": [
+    "empty fraction strip==empty",
+    "word4 repeated-occurrence fraction (total occurrences minus unique)/total; casefold whitespace words",
+    "NFC whitespace-normalized character4 repeated-occurrence fraction",
+    "Unicode S/C among nonwhitespace characters; not a calibrated gibberish measure",
+    "langdetect1.0.9 failure fraction, seed20261111; all rows and nonempty rows"
+  ],
+  "undefined": "insufficient ngrams and no nonwhitespace characters remain null; report eligible denominator, mean and median",
+  "prefix": "primary metrics on model-generated continuation z[text]; also report full known-prefill+continuation sensitivity. Never strip a guessed textual prefix; fixed attacker prefill must not hide empty continuation.",
+  "read_lock": "do not aggregate or read these main metrics until original model/family main reading lock is satisfied",
+  "selection_effect": "all language rows and English-original-response subset both reported; subset affected by intervention",
+  "interpretation": "descriptive only; no threshold, no mechanism or validity conclusion; no schedule/alpha changes",
+  "parent_sha256": "a4f7dec6b2dbe7295d470eaa6ba5b628c08e5af34b7601067903256a661117df",
+  "main_nonzero_effects_read_before_freeze": false,
+  "coherence_metrics_read_before_freeze": false,
+  "SORRY_alpha0_gate_summaries_previously_read": true,
+  "nonzero_output_caches_already_existed": true,
+  "provenance_clarification": "original broad main_outputs_read flag meant no coherence/nonzero-effect read; alpha0 gate summaries had already been read",
+  "preprocessing": "metrics on raw generation before decode/translation; translated or decoded text does not replace raw coherence"
+}

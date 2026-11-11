@@ -13,3 +13,5 @@ MiniLM固定1110a243...全11文件SHA，CPU计算从建库起一致。关闭wand
 依赖在独立venv安装，不修改运行静态/TAP的基础环境。依赖/模型/嵌入器门未齐不启动。配置SHA f70483be6af73431979da66e613b838bcdef2f232449e73c97a6d9ab552b4189。
 
 依赖执行绑定UTC 2026-11-11T07:00:05.880985+00:00：独立venv实际导入/CPU MiniLM384维/FAISS样本已过，不等于正式控制器门。保持源v1，新增v2仅强制版本与预算receipt SHA、测试库只读断言；没有AutoDAN真实建库/测试输出。配置SHA 421efc3599cc2ede4ba99da9ebebbcbe072b7a363354d0eb72ce3f3273bfcafb，依赖receipt SHA b561f09777d70d5d8afc521258e54985aefc142c476460b48e3698977a4d906f。
+
+执行前结构校验补充UTC 2026-11-11T07:42:13.396945+00:00：实际源warm_up每迭代4次生成，不检索；每请求完成后两次总结生成及一次嵌入，库只在总结阶段更新。150×300迭代上界18万次生成，另600次总结生成，重试另计。test从第二轮检索。实际源HF调用B1、外层8逻辑并发，未实现跨行为微批，不能套2–4倍加速到W。v3以端口owner断言替代模型文本case-ID启发式，源controller/采样/parse不改，AutoDAN输出仍0；W bootstrap只是固定prefix服务速度下情景，不涵盖库变长。配置SHA ec50c1c30ff8a8947c15e407ab6a126dd7fbad832612d2524c1cfaa4a4416317。

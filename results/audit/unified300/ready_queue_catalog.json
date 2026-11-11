@@ -82,7 +82,9 @@
     "results/audit/unified300/S1b_TAP_frozen_v3.json",
     "tools/handoff_20261106/unified300_ready_generate_v4.py",
     "results/audit/unified300/ready_generation_plan_B4_ta.json",
-    "results/audit/unified300/ready_worker_operational_binding_v4.json"
+    "results/audit/unified300/ready_worker_operational_binding_v4.json",
+    "tools/handoff_20261106/unified300_autodan_worker_v3.py",
+    "results/audit/unified300/S1b_AutoDAN_frozen_v3.json"
   ],
   "tasks": [
     {
@@ -4441,7 +4443,7 @@
       "kind": "autodan_runtime_gate",
       "argv": [
         "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v2.py",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
         "gate",
         "qwen"
       ],
@@ -4466,7 +4468,7 @@
       "kind": "library_build",
       "argv": [
         "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v2.py",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
         "warmup",
         "qwen"
       ],
@@ -4491,7 +4493,7 @@
       "kind": "search_pilot10",
       "argv": [
         "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v2.py",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
         "pilot",
         "qwen"
       ],
@@ -4516,7 +4518,7 @@
       "kind": "autodan_runtime_gate",
       "argv": [
         "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v2.py",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
         "gate",
         "llama"
       ],
@@ -4541,7 +4543,7 @@
       "kind": "search_pilot10",
       "argv": [
         "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v2.py",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
         "pilot",
         "llama"
       ],
@@ -4894,8 +4896,8 @@
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "bc2ce1101e3f824fd635a260ae9f7197eb7af4010bc63ee40dc3d0e0a31ed428",
-  "updated_utc": "2026-11-11T07:14:59.849257+00:00",
+  "parent_catalog_sha256": "ef69238a730a9b9b6c4b8014f58967a61a7ff4dedae5d1afbddc325bb0e589f2",
+  "updated_utc": "2026-11-11T07:42:13.396945+00:00",
   "controller_version": 7,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",

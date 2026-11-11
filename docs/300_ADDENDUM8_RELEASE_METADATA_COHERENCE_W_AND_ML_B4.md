@@ -21,3 +21,5 @@ AutoDAN W按150卡时上限、300→150→75固定prefix选最大可承受规模
 执行绑定UTC 2026-11-11T06:26:37.838594+00:00：metadata guard v3不修改candidate数值函数(AST相同)，原数值计划不改；新B4 ml独立数值计划SHA ecff914aca61efaa920daaa1bbfae55f1403e30618559432712e294b1ea5200a。绑定SHA 74bdbc5738fc6c30442296eda8db5bf1ab90b878eb29d844017985b162bcf467；旧B8保存清单SHA ca9918b641357f7642379aa1cdaa4d34e23f697e560641e4ed4f86f0b53c9dad。原活动主worker按批边界退出后才切换，新worker逐行记录预期norm、relative error与名义残差比例。
 
 后续资源/表述补充UTC 2026-11-11T07:13:19.924548+00:00：Llama泰米尔语B8同样在保存440行后触发3GiB门（最低2.30304GiB），保留SHA清单，不读效应。现明确选择整个泰米尔语家族B4新版本（独立gate/output命名空间、先alpha0重做，五条件同路径），不把旧B8混入正式表。TA B4计划SHA c5024a2b1725484a5188129fe55d4a899ba173d20625db0f93cf7047fedb69b5。连贯性v1的main_outputs_read字段表述过宽；v2明确已有alpha0闸门读数和非零缓存，但连贯性/非零效应从未读，定义完全不改。v2 SHA a4f7dec6b2dbe7295d470eaa6ba5b628c08e5af34b7601067903256a661117df。
+
+连贯性前缀补充UTC 2026-11-11T07:42:13.396945+00:00：尚未读任何真实连贯性指标。主指标作用于实际生成续写，避免固定Sure前缀掩盖空生成；完整已知前缀加续写为并列敏感性，不猜测剥离字符串，所有指标在译码/翻译之前。v3定义SHA 3b56517f1f08e6e29753772f77d302806914c7f76d3c984fb884e711f85abc16。
