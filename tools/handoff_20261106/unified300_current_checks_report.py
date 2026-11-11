@@ -16,6 +16,10 @@ for p in (U/'parallel_device20').glob('*/*/complete.json'):
  z=json.loads(p.read_text());o['device_gates'][z['model']]=z
 o['gpus']=subprocess.run(['nvidia-smi','--query-gpu=index,memory.used,memory.free,utilization.gpu','--format=csv,noheader'],capture_output=True,text=True).stdout.strip()
 o['compute']=subprocess.run(['nvidia-smi','--query-compute-apps=gpu_uuid,pid,used_memory','--format=csv,noheader'],capture_output=True,text=True).stdout.strip()
+o['backtranslation_progress']={}
+for lang in ['zh-cn','fr','mr','ml','ta']:
+ rs=[json.loads(p.read_text()) for p in (U/'translation_execution_20261111/backtranslation.private'/lang).glob('*.json')]
+ o['backtranslation_progress'][lang]={'saved':len(rs),'truncated_IDs':[r['id']for r in rs if r.get('translation')and r['translation']['truncated']],'exception_IDs':[r['id']for r in rs if r.get('error')]}
 print(json.dumps(o))"""
 node=json.loads(subprocess.run(['ssh','node01','/data/ray/env/bin/python -c '+shlex.quote(nodecode)],capture_output=True,text=True,check=True).stdout)
 now=datetime.datetime.now(datetime.timezone.utc);o={'utc':now.isoformat(),'jst':now.astimezone(datetime.timezone(datetime.timedelta(hours=9))).isoformat(),'main_labels_or_effects_read':False,'nonzero_main_outputs':0,'innet_gpus':subprocess.check_output(['nvidia-smi','--query-gpu=index,memory.used,memory.free,utilization.gpu','--format=csv,noheader'],text=True).strip(),'innet_compute':subprocess.check_output(['nvidia-smi','--query-compute-apps=gpu_uuid,pid,used_memory','--format=csv,noheader'],text=True).strip(),'node01':node,'models':{},'device_gates_innet':{},'prefix_position_gates':{},'hashes':{}}
