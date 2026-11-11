@@ -11,3 +11,5 @@ MiniLM固定1110a243...全11文件SHA，CPU计算从建库起一致。关闭wand
 运行门：真实MiniLM+FAISS harmless top5；同采样种子复位的无补丁/零向量20字节；8个无害行为、两并发顺序跑真实test（工程2步/cutoff11/每调用64新token），会话归属和调用计数一致。全部门过后才热身20，不与正式150迭代混称。测试库冻结后只读，首次score>8.5早停，否则第150次最后提示；一行1个测试用例。
 
 依赖在独立venv安装，不修改运行静态/TAP的基础环境。依赖/模型/嵌入器门未齐不启动。配置SHA f70483be6af73431979da66e613b838bcdef2f232449e73c97a6d9ab552b4189。
+
+依赖执行绑定UTC 2026-11-11T07:00:05.880985+00:00：独立venv实际导入/CPU MiniLM384维/FAISS样本已过，不等于正式控制器门。保持源v1，新增v2仅强制版本与预算receipt SHA、测试库只读断言；没有AutoDAN真实建库/测试输出。配置SHA 421efc3599cc2ede4ba99da9ebebbcbe072b7a363354d0eb72ce3f3273bfcafb，依赖receipt SHA b561f09777d70d5d8afc521258e54985aefc142c476460b48e3698977a4d906f。
