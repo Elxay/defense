@@ -23,7 +23,7 @@
   "Llama_cap120_batch_candidate": 16,
   "SORRY_WG_report_name": "non-refusal rate",
   "Q2_WG_nonrefusal_decomposition": false,
-  "updated_utc": "2026-11-11T01:08:25.144819+00:00",
+  "updated_utc": "2026-11-11T01:23:26.705236+00:00",
   "Qwen_long_batch_candidate": 4,
   "long_batch_label_gate_passed": false,
   "S1a_frozen": true,
@@ -145,10 +145,12 @@
   "static_alpha0_WG_execution_plan_sha256": "4af6c6891df5766a04e4c1da58c851936580db3d261c5039f68941721c8d5e17",
   "main_score_cache_allowed": [
     "WG",
-    "v2"
+    "v2",
+    "SORRY"
   ],
   "language_alpha0_execution_plan_sha256": "2fe7e9d4e0aea92fa3fc69dfbabb1432053861041a87c579d2eee53d42b48d9b",
   "encoding_execution_locked": true,
   "language_execution_locked": false,
-  "language_reply_preprocessing_execution_gate_passed": true
+  "language_reply_preprocessing_execution_gate_passed": true,
+  "static_alpha0_SORRY_execution_plan_sha256": "dc60aa61f5c58aee96f6e9cd7bbbad777fca4f6a0d407d7e575fd532d309d460"
 }
