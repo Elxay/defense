@@ -5,6 +5,12 @@ R=Path('/data/HZX/Def');U=R/'results/audit/unified300';T=R/'tools/handoff_202611
 def H(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def L(p):return json.loads(Path(p).read_text())
 def utc():return datetime.datetime.now(datetime.timezone.utc).isoformat()
+def hb_window_allowed(states,backlog,completed,now):
+    jst=datetime.timezone(datetime.timedelta(hours=9));today=now.astimezone(jst).date()
+    used=any(k.startswith('score_HB_') and v.get('started_utc') and
+        datetime.datetime.fromisoformat(v['started_utc']).astimezone(jst).date()==today
+        for k,v in states.items())
+    return (not used) and backlog>0 and (backlog>=26400 or completed==52800)
 def save(p,x):
     p.parent.mkdir(parents=True,exist_ok=True);q=p.with_suffix('.tmp');q.write_text(json.dumps(x,indent=2)+'\n');q.replace(p)
 def cycle():
@@ -12,6 +18,11 @@ def cycle():
     plan=L(U/'ready_generation_plan.json');inputs=L(U/'static_alpha0_inputs.private.json')
     prior=L(U/'score_dispatch_state.json') if (U/'score_dispatch_state.json').exists() else {'waves':[]}
     C=U/'ready_queue_catalog.json';cat=L(C);q=L(U/'ready_queue/state.json')['tasks']
+    if q.get('score_WG_0001',{}).get('state')=='done':
+        release=U/'WG_first_wave_released.json'
+        if not release.exists():save(release,dict(utc=utc(),released=True,
+            worker_exit_utc=q['score_WG_0001']['exit']['utc'],cache_synchronized=True,
+            policy='Translator still must acquire the same lock and pass wait_gpu before loading'))
     if (U/'score_waves/HB_0001/manifest.json').exists() and not any(w['judge']=='HB' for w in prior['waves']):
         m=L(U/'score_waves/HB_0001/manifest.json')
         prior['waves'].append(dict(utc=utc(),wave='HB_0001',judge='HB',task_id='score_HB_0001',
@@ -21,17 +32,23 @@ def cycle():
         existing=[w for w in prior['waves'] if w['judge']==judge]
         unfinished=[w for w in existing if q.get(w['task_id'],{}).get('state')!='done']
         if unfinished: continue
+        if judge=='HB':
+            jst=datetime.timezone(datetime.timedelta(hours=9));today=datetime.datetime.now(jst).date()
+            if any(k.startswith('score_HB_') and v.get('started_utc') and
+                datetime.datetime.fromisoformat(v['started_utc']).astimezone(jst).date()==today
+                for k,v in q.items()):continue
         known={tuple(c) for w in existing for c in w['cells']}
-        cells=[];pack=[]
+        cells=[];pack=[];completed_English_rows=0
         for model in ['llama','qwen']:
             for family in inputs[model]:
                 for condition in plan['condition_order'][model]:
-                    if (model,family,condition) in known:continue
                     folder=U/'static_alpha0'/model/family if condition=='alpha0' else U/'ready_generated'/model/family/condition
                     marker=next((p for p in [folder/'complete.json',folder/'generation_complete.json'] if p.exists()),None)
                     if not marker:continue
                     meta=L(marker)
                     if meta.get('N')!=440:continue
+                    completed_English_rows+=440
+                    if (model,family,condition) in known:continue
                     files=meta['record_sha256'];data={str(r['id']):r for r in inputs[model][family]}
                     assert len(files)==440 and set(files)==set(data)
                     for k in sorted(data,key=int):
@@ -45,6 +62,10 @@ def cycle():
                             generation_file_relative=str(p.relative_to(R))))
                     cells.append([model,family,condition])
         if not pack:continue
+        if judge=='HB' and not hb_window_allowed(q,len(pack),completed_English_rows,datetime.datetime.now(datetime.timezone.utc)):
+            save(U/'HB_window_waiting.json',dict(utc=utc(),backlog=len(pack),completed_English_rows=completed_English_rows,
+                threshold=26400,all_generated_exception=completed_English_rows==52800,window_opened=False))
+            continue
         wave=f'{judge}_{len(existing)+1:04d}';w=U/'score_waves'/wave
         save(w/'inputs.private.json',pack)
         manifest=dict(utc=utc(),N=len(pack),cells=cells,judges=[judge],inputs_sha256=H(w/'inputs.private.json'),
@@ -58,6 +79,8 @@ def cycle():
                         '{ROOT}/tools/handoff_20261106/'+('u300_hb_cache_worker_v2.py' if judge=='HB' else 'u300_score_cache_worker.py'),judge,wave],
                   requires=requires)
         if judge=='HB':task['requires'].append(dict(path='results/audit/unified300/score_waves/SORRY_0001/SORRY_complete.json'))
+        if judge=='HB':task['requires'].append(dict(path='results/audit/unified300/search_staged_gate_publication.json',key='published',value=True))
+        if judge=='WG' and existing:task['requires'].append(dict(path='results/audit/unified300/language_processed_alpha0_v1/complete_CF.json'))
         if judge=='WG':task['sync_relpath']='results/audit/unified300/main_scores/WG'
         rels=['tools/handoff_20261106/u300_score_cache_worker.py',
               'results/audit/unified300/scoring_schedule_v1.json',
