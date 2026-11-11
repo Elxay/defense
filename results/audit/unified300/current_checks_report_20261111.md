@@ -1,6 +1,6 @@
 # 11/11 当前状态、校准网格与执行门
 
-UTC：2026-11-11T01:19:48.643386+00:00；JST：2026-11-11T10:19:48.643386+09:00
+UTC：2026-11-11T01:29:33.250507+00:00；JST：2026-11-11T10:29:33.250507+09:00
 
 主SORRY标签/效应未读；非零主输出0。
 
@@ -30,13 +30,13 @@ S1a第13行原文：
 | expert_endorsement | 440/440 | 440/440 |
 | prefix_P1 | 440/440 | 440/440 |
 | prefix_P2 | 440/440 | 440/440 |
-| translate-ml | 32/440 | 28/440 |
+| translate-ml | 80/440 | 68/440 |
 | translate-ta | 0/440 | 0/440 |
 | translate-mr | 0/440 | 0/440 |
 | translate-zh-cn | 0/440 | 0/440 |
 | translate-fr | 0/440 | 0/440 |
 
-4种编码均未执行，解码运行门尚未放行；搜索输出0。英语/P1/P2的α0共8800生成、WG8800缓存已齐；无主标签汇总。语言α0各家族先20门、固定B8/B4、缓存只写。
+4种编码均未执行，解码运行门尚未放行；搜索输出0。英语/P1/P2的α0共8800生成、WG8800缓存已齐；无主标签汇总。SORRY canonical评分已接入innet GPU0、先过新human20字节门，只写缓存。语言α0各家族先20门、固定B8/B4、缓存只写。
 
 ## 设备与翻译门
 
@@ -66,4 +66,8 @@ S1a第13行原文：
 - full_grid: `5bca8053aa2834933b6965cd50e97327eba83e8177b719fb3185861d88c2d2a6`
 - device_plan: `5b56bd798b67bec6bd20b1255693e7cec017f325387ae4584a16483881c9fa68`
 - translation_plan: `8638cc0c5dba18103695278eeecab2021c476da982ea19d9d41245e4600a385b`
-- 当前状态JSON: `7e3de5597d99285fd65681e183b89f78cfa9bc25884dee2f04b5ce73aca8afcb`
+- 当前状态JSON: `75fd8e2116ec34e63ff0abed0e38fee2f4a1b93785a27f5901eedd2f46e32731`
+
+回译进度快照：{"utc": "2026-11-11T01:29:27.217462+00:00", "pid": 3541074, "phase": "instruction_backtranslation", "language": "zh-cn", "completed": 340, "total": 2200, "rows_per_hour": 911.798497701454}
+回译逐语言已落盘/截断/异常（不是主模型标签汇总）：{"zh-cn": {"saved": 340, "truncated_IDs": [158], "exception_IDs": []}, "fr": {"saved": 0, "truncated_IDs": [], "exception_IDs": []}, "mr": {"saved": 0, "truncated_IDs": [], "exception_IDs": []}, "ml": {"saved": 0, "truncated_IDs": [], "exception_IDs": []}, "ta": {"saved": 0, "truncated_IDs": [], "exception_IDs": []}}
+SORRY缓存进度（无标签读取）：{"utc": "2026-11-11T01:29:32.839239+00:00", "pid": 1065600, "phase": "cache_only_scoring", "model": "llama", "family": "deepinception", "completed_rows": 420, "total": 440, "completed_tasks": 1, "total_tasks": 20, "main_effects_aggregated": false}
