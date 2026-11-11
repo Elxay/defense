@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-11T11:42:55.541334+00:00",
+  "metadata_only": true,
+  "actual_generation_queue_changed": false,
+  "issue": "ETA simulation v1 did not apply per-family predecessor-completion prerequisites; actual queue prerequisites were correct",
+  "fix": "simulate actual requires edges and physical card compatibility, then assert per-family predicted times respect frozen nonzero condition order",
+  "old_snapshot_sha256": "ec964414084b6d03f225fc61ba2d3ac6d743977e90de1d98c70fc4c52a7f8129",
+  "new_snapshot_sha256": "67af36b67486fbbb7d6b0bb45a1ee933a03b7ae40d5a4e443d362facfd02b886",
+  "script_sha256": "be1cb43e2d05b32b6eba5b23328292904354cacf638f689e4d49b246ba928786",
+  "previous_results_and_raw_records_changed": false
+}

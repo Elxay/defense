@@ -29,13 +29,48 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
 rows = []
 for a, b in zip(sources['innet']['rows'], sources['node01']['rows']):
     assert (a['model'], a['family'], a['condition']) == (b['model'], b['family'], b['condition'])
-    on_node = a['model'] == 'llama' and a['family'].startswith('translate-') and a['family'] != 'translate-zh-cn'
+    on_node = (a['model'] == 'llama' and a['family'].startswith('translate-')
+               and a['family'] != 'translate-zh-cn')
     rows.append({**(b if on_node else a), 'site': 'node01' if on_node else 'innet'})
+assert sum(r['normal_complete'] and r['condition'] == 'alpha0' for r in rows) >= 28
+assert all(r['normal_complete'] for r in rows
+           if r['model'] == 'qwen' and r['family'].startswith('translate-')
+           and r['condition'] == 'alpha0')
 lookup = {(r['model'], r['family'], r['condition']): r for r in rows}
 state = json.loads((U / 'ready_queue/state.json').read_text())
 catalog = json.loads((U / 'ready_queue_catalog.json').read_text())
 tasks = {t['id']: t for t in catalog['tasks']}
 now = dt.datetime.now(dt.timezone.utc)
+completion_tasks = {}
+for tid, task in tasks.items():
+    if tid.startswith('main_'):
+        model, family, condition = task['argv'][2:5]
+        completion_tasks[f'results/audit/unified300/ready_generated/{model}/{family}/{condition}/complete.json'] = tid
+sim_done = set()
+for tid, task in tasks.items():
+    if tid.startswith('main_'):
+        model, family, condition = task['argv'][2:5]
+        if lookup[model, family, condition]['normal_complete']:
+            sim_done.add(tid)
+
+
+def prerequisites_ready(tid):
+    for requirement in tasks[tid].get('requires', []):
+        dependency = completion_tasks.get(requirement['path'])
+        if dependency:
+            if dependency not in sim_done:
+                return False
+            continue
+        path = R / requirement['path']
+        if not path.exists():
+            return False
+        if 'key' in requirement:
+            value = json.loads(path.read_text())
+            for key in requirement['key'].split('.'):
+                value = value.get(key) if isinstance(value, dict) else None
+            if value != requirement['value']:
+                return False
+    return True
 overheads = {'llama': [], 'qwen': []}
 for tid, status in state['tasks'].items():
     if not tid.startswith('main_') or status.get('state') != 'done' or tid not in tasks:
@@ -106,6 +141,8 @@ while pending or active:
     while made:
         made = False
         for i, (_, tid, duration, model) in enumerate(pending):
+            if not prerequisites_ready(tid):
+                continue
             free = next((g for g in slots[model] if g not in occupied), None)
             if free is not None:
                 occupied[free] = tid
@@ -117,8 +154,9 @@ while pending or active:
                 break
     if not active:
         break
-    elapsed, gpu, _ = heapq.heappop(active)
+    elapsed, gpu, completed_tid = heapq.heappop(active)
     occupied.pop(gpu, None)
+    sim_done.add(completed_tid)
 for tid, end in ends.items():
     model, family, condition = tasks[tid]['argv'][2:5]
     lookup[model, family, condition]['eta_utc'] = (now + dt.timedelta(seconds=end)).isoformat()
@@ -144,11 +182,20 @@ families = list(dict.fromkeys(r['family'] for r in rows))
 meta = {'utc': now.isoformat(), 'snapshot_source_utc': {s: x['utc'] for s, x in sources.items()},
         'N_static_family_definitions': 19, 'N_search_family_definitions': 3,
         'N_static_cells': len(rows), 'condition_order': orders,
-        'ETA': 'Conditional generation-only queue simulation on innet0/2/3; own-cell or '
+        'ETA_version': 2,
+        'ETA_correction': 'Honor frozen per-family predecessor-completion dependencies; v1 omitted these in prediction only, actual queue order was correct.',
+        'ETA': 'Conditional generation-only queue simulation on innet0/2/3; frozen predecessor '
+               'completion dependencies honored; own-cell or '
                'same-family/class measured rate, fallback alpha0; median observed setup. '
                'No new external occupancy/preemption. Not upper bound/CI. '
                'No labels read. Blocked cells have no calendar ETA.',
         'observed_setup_median_seconds': setup, 'rows': rows}
+for model in ['llama', 'qwen']:
+    for family in families:
+        group = [lookup[model, family, c] for c in orders[model][1:]]
+        if all(r.get('eta_utc') for r in group):
+            times = [dt.datetime.fromisoformat(r['eta_utc']) for r in group]
+            assert times == sorted(times), (model, family, 'predecessor ETA violation')
 (U / 'family_condition_status_20261111.json').write_text(json.dumps(meta, indent=2) + '\n')
 lines = ['# 家族×条件生成状态与条件ETA', '', 'UTC ' + now.isoformat(), '',
          '440✓=正常齐全；数字*=运行中；0=待运行；锁=前置未齐。ETA只含生成。', '']

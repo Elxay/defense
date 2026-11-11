@@ -1,8 +1,8 @@
 {
-  "utc": "2026-11-11T11:27:38.524347+00:00",
+  "utc": "2026-11-11T11:40:05.232875+00:00",
   "snapshot_source_utc": {
-    "innet": "2026-11-11T11:27:38.122859+00:00",
-    "node01": "2026-11-11T11:27:38.508799+00:00"
+    "innet": "2026-11-11T11:40:04.850252+00:00",
+    "node01": "2026-11-11T11:40:05.219941+00:00"
   },
   "N_static_family_definitions": 19,
   "N_search_family_definitions": 3,
@@ -25,10 +25,12 @@
       "s5"
     ]
   },
-  "ETA": "Conditional generation-only queue simulation on innet0/2/3; own-cell or same-family/class measured rate, fallback alpha0; median observed setup. No new external occupancy/preemption. Not upper bound/CI. No labels read. Blocked cells have no calendar ETA.",
+  "ETA_version": 2,
+  "ETA_correction": "Honor frozen per-family predecessor-completion dependencies; v1 omitted these in prediction only, actual queue order was correct.",
+  "ETA": "Conditional generation-only queue simulation on innet0/2/3; frozen predecessor completion dependencies honored; own-cell or same-family/class measured rate, fallback alpha0; median observed setup. No new external occupancy/preemption. Not upper bound/CI. No labels read. Blocked cells have no calendar ETA.",
   "observed_setup_median_seconds": {
     "llama": 14.177979988977313,
-    "qwen": 13.612322475062683
+    "qwen": 13.640173382125795
   },
   "rows": [
     {
@@ -255,20 +257,20 @@
       "model": "llama",
       "family": "deepinception",
       "condition": "s5",
-      "N_saved": 240,
+      "N_saved": 312,
       "normal_complete": false,
-      "rows_per_hour": 367.6243387571991,
-      "metric_seconds": 2350.2252405835316,
-      "metric_N": 240,
+      "rows_per_hour": 365.36105527030674,
+      "metric_seconds": 3074.2192792524584,
+      "metric_N": 312,
       "marker_utc": null,
       "directory_relative": "results/audit/unified300/ready_generated/llama/deepinception/s5",
       "old_B8_excluded": false,
       "labels_read": false,
       "site": "innet",
-      "rate_used": 367.6243387571991,
+      "rate_used": 365.36105527030674,
       "rate_basis": "own measured cell",
-      "remaining_net_GPUh": 0.5440336205054471,
-      "eta_utc": "2026-11-11T12:00:17.045381+00:00",
+      "remaining_net_GPUh": 0.3503383794019896,
+      "eta_utc": "2026-11-11T12:01:06.451041+00:00",
       "status": "running"
     },
     {
@@ -308,7 +310,7 @@
       "rate_used": 1107.2631432383919,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.3973761817025176,
-      "eta_utc": "2026-11-11T13:09:34.146636+00:00",
+      "eta_utc": "2026-11-11T12:25:11.183275+00:00",
       "status": "pending"
     },
     {
@@ -328,7 +330,7 @@
       "rate_used": 1107.2631432383919,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.3973761817025176,
-      "eta_utc": "2026-11-11T12:24:21.777615+00:00",
+      "eta_utc": "2026-11-11T12:49:15.915509+00:00",
       "status": "pending"
     },
     {
@@ -348,7 +350,7 @@
       "rate_used": 1107.2631432383919,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.3973761817025176,
-      "eta_utc": "2026-11-11T13:12:31.242083+00:00",
+      "eta_utc": "2026-11-11T13:13:20.647743+00:00",
       "status": "pending"
     },
     {
@@ -368,7 +370,7 @@
       "rate_used": 1107.2631432383919,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.3973761817025176,
-      "eta_utc": "2026-11-11T12:48:26.509849+00:00",
+      "eta_utc": "2026-11-11T13:37:25.379977+00:00",
       "status": "pending"
     },
     {
@@ -388,7 +390,7 @@
       "rate_used": 1107.2631432383919,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.3973761817025176,
-      "eta_utc": "2026-11-11T13:33:38.878870+00:00",
+      "eta_utc": "2026-11-11T14:01:30.112211+00:00",
       "status": "pending"
     },
     {
@@ -428,7 +430,7 @@
       "rate_used": 990.6406160996805,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4441570362139545,
-      "eta_utc": "2026-11-11T14:06:17.528704+00:00",
+      "eta_utc": "2026-11-11T13:07:15.291543+00:00",
       "status": "pending"
     },
     {
@@ -448,7 +450,7 @@
       "rate_used": 990.6406160996805,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4441570362139545,
-      "eta_utc": "2026-11-11T13:39:24.385394+00:00",
+      "eta_utc": "2026-11-11T13:34:08.434853+00:00",
       "status": "pending"
     },
     {
@@ -468,7 +470,7 @@
       "rate_used": 990.6406160996805,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4441570362139545,
-      "eta_utc": "2026-11-11T14:27:25.165491+00:00",
+      "eta_utc": "2026-11-11T14:01:01.578164+00:00",
       "status": "pending"
     },
     {
@@ -488,7 +490,7 @@
       "rate_used": 990.6406160996805,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4441570362139545,
-      "eta_utc": "2026-11-11T14:00:32.022180+00:00",
+      "eta_utc": "2026-11-11T14:27:54.721474+00:00",
       "status": "pending"
     },
     {
@@ -508,7 +510,7 @@
       "rate_used": 990.6406160996805,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4441570362139545,
-      "eta_utc": "2026-11-11T14:33:10.672014+00:00",
+      "eta_utc": "2026-11-11T14:54:47.864784+00:00",
       "status": "pending"
     },
     {
@@ -548,7 +550,7 @@
       "rate_used": 1059.23228333027,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41539519416517573,
-      "eta_utc": "2026-11-11T15:17:44.366849+00:00",
+      "eta_utc": "2026-11-11T14:26:39.712890+00:00",
       "status": "pending"
     },
     {
@@ -568,7 +570,7 @@
       "rate_used": 1059.23228333027,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41539519416517573,
-      "eta_utc": "2026-11-11T14:52:34.766170+00:00",
+      "eta_utc": "2026-11-11T14:51:49.313569+00:00",
       "status": "pending"
     },
     {
@@ -588,7 +590,7 @@
       "rate_used": 1059.23228333027,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41539519416517573,
-      "eta_utc": "2026-11-11T15:23:29.873372+00:00",
+      "eta_utc": "2026-11-11T15:16:58.914248+00:00",
       "status": "pending"
     },
     {
@@ -608,7 +610,7 @@
       "rate_used": 1059.23228333027,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41539519416517573,
-      "eta_utc": "2026-11-11T14:58:20.272693+00:00",
+      "eta_utc": "2026-11-11T15:42:08.514927+00:00",
       "status": "pending"
     },
     {
@@ -628,7 +630,7 @@
       "rate_used": 1059.23228333027,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41539519416517573,
-      "eta_utc": "2026-11-11T15:42:53.967528+00:00",
+      "eta_utc": "2026-11-11T16:07:18.115606+00:00",
       "status": "pending"
     },
     {
@@ -668,7 +670,7 @@
       "rate_used": 943.9668880134811,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.46611804459153466,
-      "eta_utc": "2026-11-11T16:19:54.279253+00:00",
+      "eta_utc": "2026-11-11T15:23:00.067725+00:00",
       "status": "pending"
     },
     {
@@ -688,7 +690,7 @@
       "rate_used": 943.9668880134811,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.46611804459153466,
-      "eta_utc": "2026-11-11T15:51:42.076313+00:00",
+      "eta_utc": "2026-11-11T15:51:12.270665+00:00",
       "status": "pending"
     },
     {
@@ -708,7 +710,7 @@
       "rate_used": 943.9668880134811,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.46611804459153466,
-      "eta_utc": "2026-11-11T16:39:18.373409+00:00",
+      "eta_utc": "2026-11-11T16:19:24.473606+00:00",
       "status": "pending"
     },
     {
@@ -728,7 +730,7 @@
       "rate_used": 943.9668880134811,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.46611804459153466,
-      "eta_utc": "2026-11-11T16:11:06.170468+00:00",
+      "eta_utc": "2026-11-11T16:47:36.676546+00:00",
       "status": "pending"
     },
     {
@@ -748,7 +750,7 @@
       "rate_used": 943.9668880134811,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.46611804459153466,
-      "eta_utc": "2026-11-11T16:48:06.482194+00:00",
+      "eta_utc": "2026-11-11T17:15:48.879487+00:00",
       "status": "pending"
     },
     {
@@ -788,7 +790,7 @@
       "rate_used": 1063.0947572080256,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41388596549526685,
-      "eta_utc": "2026-11-11T18:03:18.984561+00:00",
+      "eta_utc": "2026-11-11T16:32:22.283062+00:00",
       "status": "pending"
     },
     {
@@ -808,7 +810,7 @@
       "rate_used": 1063.0947572080256,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41388596549526685,
-      "eta_utc": "2026-11-11T17:13:10.649650+00:00",
+      "eta_utc": "2026-11-11T16:57:26.450518+00:00",
       "status": "pending"
     },
     {
@@ -828,7 +830,7 @@
       "rate_used": 1063.0947572080256,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41388596549526685,
-      "eta_utc": "2026-11-11T18:24:47.725798+00:00",
+      "eta_utc": "2026-11-11T17:22:30.617974+00:00",
       "status": "pending"
     },
     {
@@ -848,7 +850,7 @@
       "rate_used": 1063.0947572080256,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41388596549526685,
-      "eta_utc": "2026-11-11T17:38:14.817105+00:00",
+      "eta_utc": "2026-11-11T17:47:34.785429+00:00",
       "status": "pending"
     },
     {
@@ -868,7 +870,7 @@
       "rate_used": 1063.0947572080256,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.41388596549526685,
-      "eta_utc": "2026-11-11T18:28:23.152017+00:00",
+      "eta_utc": "2026-11-11T18:12:38.952885+00:00",
       "status": "pending"
     },
     {
@@ -908,7 +910,7 @@
       "rate_used": 1038.4892947275478,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4236923791452621,
-      "eta_utc": "2026-11-11T19:45:21.563652+00:00",
+      "eta_utc": "2026-11-11T18:38:18.423430+00:00",
       "status": "pending"
     },
     {
@@ -928,7 +930,7 @@
       "rate_used": 1038.4892947275478,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4236923791452621,
-      "eta_utc": "2026-11-11T18:54:02.622562+00:00",
+      "eta_utc": "2026-11-11T19:03:57.893975+00:00",
       "status": "pending"
     },
     {
@@ -948,7 +950,7 @@
       "rate_used": 1038.4892947275478,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4236923791452621,
-      "eta_utc": "2026-11-11T20:06:10.471807+00:00",
+      "eta_utc": "2026-11-11T19:29:37.364520+00:00",
       "status": "pending"
     },
     {
@@ -968,7 +970,7 @@
       "rate_used": 1038.4892947275478,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4236923791452621,
-      "eta_utc": "2026-11-11T19:19:42.093107+00:00",
+      "eta_utc": "2026-11-11T19:55:16.835065+00:00",
       "status": "pending"
     },
     {
@@ -988,7 +990,7 @@
       "rate_used": 1038.4892947275478,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4236923791452621,
-      "eta_utc": "2026-11-11T20:11:01.034197+00:00",
+      "eta_utc": "2026-11-11T20:20:56.305610+00:00",
       "status": "pending"
     },
     {
@@ -1028,7 +1030,7 @@
       "rate_used": 932.5859463628295,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4718063806516067,
-      "eta_utc": "2026-11-11T21:36:39.077048+00:00",
+      "eta_utc": "2026-11-11T20:49:28.986560+00:00",
       "status": "pending"
     },
     {
@@ -1048,7 +1050,7 @@
       "rate_used": 932.5859463628295,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4718063806516067,
-      "eta_utc": "2026-11-11T20:39:33.715147+00:00",
+      "eta_utc": "2026-11-11T21:18:01.667510+00:00",
       "status": "pending"
     },
     {
@@ -1068,7 +1070,7 @@
       "rate_used": 932.5859463628295,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4718063806516067,
-      "eta_utc": "2026-11-11T21:49:14.094956+00:00",
+      "eta_utc": "2026-11-11T21:46:34.348461+00:00",
       "status": "pending"
     },
     {
@@ -1088,7 +1090,7 @@
       "rate_used": 932.5859463628295,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4718063806516067,
-      "eta_utc": "2026-11-11T21:08:06.396097+00:00",
+      "eta_utc": "2026-11-11T22:15:07.029411+00:00",
       "status": "pending"
     },
     {
@@ -1108,7 +1110,7 @@
       "rate_used": 932.5859463628295,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4718063806516067,
-      "eta_utc": "2026-11-11T22:05:11.757998+00:00",
+      "eta_utc": "2026-11-11T22:43:39.710361+00:00",
       "status": "pending"
     },
     {
@@ -1148,7 +1150,7 @@
       "rate_used": 931.8163857713014,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4721960320925185,
-      "eta_utc": "2026-11-11T23:23:02.180528+00:00",
+      "eta_utc": "2026-11-11T23:12:13.794057+00:00",
       "status": "pending"
     },
     {
@@ -1168,7 +1170,7 @@
       "rate_used": 931.8163857713014,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4721960320925185,
-      "eta_utc": "2026-11-11T22:33:45.841693+00:00",
+      "eta_utc": "2026-11-11T23:40:47.877752+00:00",
       "status": "pending"
     },
     {
@@ -1188,7 +1190,7 @@
       "rate_used": 931.8163857713014,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4721960320925185,
-      "eta_utc": "2026-11-11T23:30:54.009084+00:00",
+      "eta_utc": "2026-11-12T00:09:21.961448+00:00",
       "status": "pending"
     },
     {
@@ -1208,7 +1210,7 @@
       "rate_used": 931.8163857713014,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4721960320925185,
-      "eta_utc": "2026-11-11T23:02:19.925389+00:00",
+      "eta_utc": "2026-11-12T00:37:56.045144+00:00",
       "status": "pending"
     },
     {
@@ -1228,7 +1230,7 @@
       "rate_used": 931.8163857713014,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.4721960320925185,
-      "eta_utc": "2026-11-11T23:51:36.264224+00:00",
+      "eta_utc": "2026-11-12T01:06:30.128839+00:00",
       "status": "pending"
     },
     {
@@ -1355,21 +1357,21 @@
       "model": "llama",
       "family": "translate-ml",
       "condition": "alpha0",
-      "N_saved": 416,
-      "normal_complete": false,
-      "rows_per_hour": 110.2959671395878,
-      "metric_seconds": 13578.012313946849,
-      "metric_N": 416,
-      "marker_utc": null,
+      "N_saved": 440,
+      "normal_complete": true,
+      "rows_per_hour": 110.18216342643794,
+      "metric_seconds": 14376.192577281734,
+      "metric_N": 440,
+      "marker_utc": "2026-11-11T11:38:58.117426+00:00",
       "directory_relative": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/alpha0",
       "old_B8_excluded": true,
       "labels_read": false,
       "site": "node01",
-      "rate_used": 110.2959671395878,
+      "rate_used": 110.18216342643794,
       "rate_basis": "own measured cell",
-      "remaining_net_GPUh": 0.21759635118504564,
-      "eta_utc": "2026-11-11T11:40:41.871211+00:00",
-      "status": "running"
+      "remaining_net_GPUh": 0.0,
+      "eta_utc": "2026-11-11T11:38:58.117426+00:00",
+      "status": "done"
     },
     {
       "model": "llama",
@@ -1385,9 +1387,9 @@
       "old_B8_excluded": true,
       "labels_read": false,
       "site": "node01",
-      "rate_used": 110.2959671395878,
+      "rate_used": 110.18216342643794,
       "rate_basis": "same-family alpha0 same-speed scenario",
-      "remaining_net_GPUh": 3.9892664383925034,
+      "remaining_net_GPUh": 3.9933868270227038,
       "eta_utc": null,
       "status": "blocked_translation_scoring_gate_and_nonzero_plan"
     },
@@ -1405,9 +1407,9 @@
       "old_B8_excluded": true,
       "labels_read": false,
       "site": "node01",
-      "rate_used": 110.2959671395878,
+      "rate_used": 110.18216342643794,
       "rate_basis": "same-family alpha0 same-speed scenario",
-      "remaining_net_GPUh": 3.9892664383925034,
+      "remaining_net_GPUh": 3.9933868270227038,
       "eta_utc": null,
       "status": "blocked_translation_scoring_gate_and_nonzero_plan"
     },
@@ -1425,9 +1427,9 @@
       "old_B8_excluded": true,
       "labels_read": false,
       "site": "node01",
-      "rate_used": 110.2959671395878,
+      "rate_used": 110.18216342643794,
       "rate_basis": "same-family alpha0 same-speed scenario",
-      "remaining_net_GPUh": 3.9892664383925034,
+      "remaining_net_GPUh": 3.9933868270227038,
       "eta_utc": null,
       "status": "blocked_translation_scoring_gate_and_nonzero_plan"
     },
@@ -1445,9 +1447,9 @@
       "old_B8_excluded": true,
       "labels_read": false,
       "site": "node01",
-      "rate_used": 110.2959671395878,
+      "rate_used": 110.18216342643794,
       "rate_basis": "same-family alpha0 same-speed scenario",
-      "remaining_net_GPUh": 3.9892664383925034,
+      "remaining_net_GPUh": 3.9933868270227038,
       "eta_utc": null,
       "status": "blocked_translation_scoring_gate_and_nonzero_plan"
     },
@@ -1465,9 +1467,9 @@
       "old_B8_excluded": true,
       "labels_read": false,
       "site": "node01",
-      "rate_used": 110.2959671395878,
+      "rate_used": 110.18216342643794,
       "rate_basis": "same-family alpha0 same-speed scenario",
-      "remaining_net_GPUh": 3.9892664383925034,
+      "remaining_net_GPUh": 3.9933868270227038,
       "eta_utc": null,
       "status": "blocked_translation_scoring_gate_and_nonzero_plan"
     },
@@ -2515,41 +2517,41 @@
       "model": "qwen",
       "family": "deepinception",
       "condition": "61001",
-      "N_saved": 420,
-      "normal_complete": false,
-      "rows_per_hour": 301.52530101782287,
-      "metric_seconds": 5014.504570250399,
-      "metric_N": 420,
-      "marker_utc": null,
+      "N_saved": 440,
+      "normal_complete": true,
+      "rows_per_hour": 305.4228733833399,
+      "metric_seconds": 5186.252039518673,
+      "metric_N": 440,
+      "marker_utc": "2026-11-11T11:30:10.891468+00:00",
       "directory_relative": "results/audit/unified300/ready_generated/qwen/deepinception/61001",
       "old_B8_excluded": false,
       "labels_read": false,
       "site": "innet",
-      "rate_used": 301.52530101782287,
+      "rate_used": 305.4228733833399,
       "rate_basis": "own measured cell",
-      "remaining_net_GPUh": 0.06632942553241268,
-      "eta_utc": "2026-11-11T11:31:37.310279+00:00",
-      "status": "running"
+      "remaining_net_GPUh": 0.0,
+      "eta_utc": "2026-11-11T11:30:10.891468+00:00",
+      "status": "done"
     },
     {
       "model": "qwen",
       "family": "deepinception",
       "condition": "s5",
-      "N_saved": 0,
+      "N_saved": 56,
       "normal_complete": false,
-      "rows_per_hour": null,
-      "metric_seconds": 0,
-      "metric_N": 0,
+      "rows_per_hour": 382.20413344600263,
+      "metric_seconds": 527.466822983697,
+      "metric_N": 56,
       "marker_utc": null,
       "directory_relative": "results/audit/unified300/ready_generated/qwen/deepinception/s5",
       "old_B8_excluded": false,
       "labels_read": false,
       "site": "innet",
-      "rate_used": 358.49336642045273,
-      "rate_basis": "same-family same-class measured median",
-      "remaining_net_GPUh": 1.227358833423862,
-      "eta_utc": "2026-11-11T12:45:29.414402+00:00",
-      "status": "pending"
+      "rate_used": 382.20413344600263,
+      "rate_basis": "own measured cell",
+      "remaining_net_GPUh": 1.0046987104451373,
+      "eta_utc": "2026-11-11T12:40:22.148233+00:00",
+      "status": "running"
     },
     {
       "model": "qwen",
@@ -2755,20 +2757,20 @@
       "model": "qwen",
       "family": "logical_appeal",
       "condition": "61001",
-      "N_saved": 224,
+      "N_saved": 364,
       "normal_complete": false,
-      "rows_per_hour": 692.4485243333648,
-      "metric_seconds": 1164.5630998727866,
-      "metric_N": 224,
+      "rows_per_hour": 682.4796805546264,
+      "metric_seconds": 1920.0571640976705,
+      "metric_N": 364,
       "marker_utc": null,
       "directory_relative": "results/audit/unified300/ready_generated/qwen/logical_appeal/61001",
       "old_B8_excluded": false,
       "labels_read": false,
       "site": "innet",
-      "rate_used": 692.4485243333648,
+      "rate_used": 682.4796805546264,
       "rate_basis": "own measured cell",
-      "remaining_net_GPUh": 0.3119365446087821,
-      "eta_utc": "2026-11-11T11:46:21.495908+00:00",
+      "remaining_net_GPUh": 0.11135862673338137,
+      "eta_utc": "2026-11-11T11:46:46.123931+00:00",
       "status": "running"
     },
     {
@@ -2788,7 +2790,7 @@
       "rate_used": 710.7632271331204,
       "rate_basis": "same-family same-class measured median",
       "remaining_net_GPUh": 0.619052847985327,
-      "eta_utc": "2026-11-11T12:23:43.698483+00:00",
+      "eta_utc": "2026-11-11T12:24:08.354357+00:00",
       "status": "pending"
     },
     {
@@ -2828,7 +2830,7 @@
       "rate_used": 724.2804028140024,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6074995240662248,
-      "eta_utc": "2026-11-11T14:13:45.530310+00:00",
+      "eta_utc": "2026-11-11T13:00:48.992817+00:00",
       "status": "pending"
     },
     {
@@ -2848,7 +2850,7 @@
       "rate_used": 724.2804028140024,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6074995240662248,
-      "eta_utc": "2026-11-11T13:00:24.309092+00:00",
+      "eta_utc": "2026-11-11T13:37:29.631277+00:00",
       "status": "pending"
     },
     {
@@ -2868,7 +2870,7 @@
       "rate_used": 724.2804028140024,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6074995240662248,
-      "eta_utc": "2026-11-11T14:50:26.140919+00:00",
+      "eta_utc": "2026-11-11T14:14:10.269737+00:00",
       "status": "pending"
     },
     {
@@ -2888,7 +2890,7 @@
       "rate_used": 724.2804028140024,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6074995240662248,
-      "eta_utc": "2026-11-11T13:37:04.919701+00:00",
+      "eta_utc": "2026-11-11T14:50:50.908197+00:00",
       "status": "pending"
     },
     {
@@ -2908,7 +2910,7 @@
       "rate_used": 724.2804028140024,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6074995240662248,
-      "eta_utc": "2026-11-11T15:27:06.751528+00:00",
+      "eta_utc": "2026-11-11T15:27:31.546657+00:00",
       "status": "pending"
     },
     {
@@ -2948,7 +2950,7 @@
       "rate_used": 660.2805795980668,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6663833733650649,
-      "eta_utc": "2026-11-11T17:19:30.965875+00:00",
+      "eta_utc": "2026-11-11T16:07:44.166975+00:00",
       "status": "pending"
     },
     {
@@ -2968,7 +2970,7 @@
       "rate_used": 660.2805795980668,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6663833733650649,
-      "eta_utc": "2026-11-11T16:07:19.343995+00:00",
+      "eta_utc": "2026-11-11T16:47:56.787292+00:00",
       "status": "pending"
     },
     {
@@ -2988,7 +2990,7 @@
       "rate_used": 660.2805795980668,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6663833733650649,
-      "eta_utc": "2026-11-11T17:27:44.528928+00:00",
+      "eta_utc": "2026-11-11T17:28:09.407610+00:00",
       "status": "pending"
     },
     {
@@ -3008,7 +3010,7 @@
       "rate_used": 660.2805795980668,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6663833733650649,
-      "eta_utc": "2026-11-11T16:47:31.936462+00:00",
+      "eta_utc": "2026-11-11T18:08:22.027927+00:00",
       "status": "pending"
     },
     {
@@ -3028,7 +3030,7 @@
       "rate_used": 660.2805795980668,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6663833733650649,
-      "eta_utc": "2026-11-11T17:59:43.558342+00:00",
+      "eta_utc": "2026-11-11T18:48:34.648245+00:00",
       "status": "pending"
     },
     {
@@ -3068,7 +3070,7 @@
       "rate_used": 701.4978631608521,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6272292805247061,
-      "eta_utc": "2026-11-11T19:02:39.363530+00:00",
+      "eta_utc": "2026-11-11T17:53:40.545070+00:00",
       "status": "pending"
     },
     {
@@ -3088,7 +3090,7 @@
       "rate_used": 701.4978631608521,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6272292805247061,
-      "eta_utc": "2026-11-11T18:05:36.166661+00:00",
+      "eta_utc": "2026-11-11T18:31:32.210654+00:00",
       "status": "pending"
     },
     {
@@ -3108,7 +3110,7 @@
       "rate_used": 701.4978631608521,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6272292805247061,
-      "eta_utc": "2026-11-11T19:21:19.442125+00:00",
+      "eta_utc": "2026-11-11T19:09:23.876237+00:00",
       "status": "pending"
     },
     {
@@ -3128,7 +3130,7 @@
       "rate_used": 701.4978631608521,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6272292805247061,
-      "eta_utc": "2026-11-11T18:43:27.804393+00:00",
+      "eta_utc": "2026-11-11T19:47:15.541820+00:00",
       "status": "pending"
     },
     {
@@ -3148,7 +3150,7 @@
       "rate_used": 701.4978631608521,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.6272292805247061,
-      "eta_utc": "2026-11-11T19:40:31.001262+00:00",
+      "eta_utc": "2026-11-11T20:25:07.207403+00:00",
       "status": "pending"
     },
     {
@@ -3188,7 +3190,7 @@
       "rate_used": 712.9165978267359,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.617182993552544,
-      "eta_utc": "2026-11-11T20:43:25.942907+00:00",
+      "eta_utc": "2026-11-11T19:25:50.147195+00:00",
       "status": "pending"
     },
     {
@@ -3208,7 +3210,7 @@
       "rate_used": 712.9165978267359,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.617182993552544,
-      "eta_utc": "2026-11-11T19:58:34.913225+00:00",
+      "eta_utc": "2026-11-11T20:03:05.646145+00:00",
       "status": "pending"
     },
     {
@@ -3228,7 +3230,7 @@
       "rate_used": 712.9165978267359,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.617182993552544,
-      "eta_utc": "2026-11-11T21:13:05.855423+00:00",
+      "eta_utc": "2026-11-11T20:40:21.145095+00:00",
       "status": "pending"
     },
     {
@@ -3248,7 +3250,7 @@
       "rate_used": 712.9165978267359,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.617182993552544,
-      "eta_utc": "2026-11-11T20:35:50.384324+00:00",
+      "eta_utc": "2026-11-11T21:17:36.644046+00:00",
       "status": "pending"
     },
     {
@@ -3268,7 +3270,7 @@
       "rate_used": 712.9165978267359,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.617182993552544,
-      "eta_utc": "2026-11-11T21:20:41.414006+00:00",
+      "eta_utc": "2026-11-11T21:54:52.142996+00:00",
       "status": "pending"
     },
     {
@@ -3308,7 +3310,7 @@
       "rate_used": 815.0711531091504,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5398301710489776,
-      "eta_utc": "2026-11-11T22:21:51.095894+00:00",
+      "eta_utc": "2026-11-11T20:57:44.236193+00:00",
       "status": "pending"
     },
     {
@@ -3328,7 +3330,7 @@
       "rate_used": 815.0711531091504,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5398301710489776,
-      "eta_utc": "2026-11-11T21:45:42.856361+00:00",
+      "eta_utc": "2026-11-11T21:30:21.264982+00:00",
       "status": "pending"
     },
     {
@@ -3348,7 +3350,7 @@
       "rate_used": 815.0711531091504,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5398301710489776,
-      "eta_utc": "2026-11-11T22:50:56.858238+00:00",
+      "eta_utc": "2026-11-11T22:02:58.293771+00:00",
       "status": "pending"
     },
     {
@@ -3368,7 +3370,7 @@
       "rate_used": 815.0711531091504,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5398301710489776,
-      "eta_utc": "2026-11-11T22:18:19.857300+00:00",
+      "eta_utc": "2026-11-11T22:35:35.322560+00:00",
       "status": "pending"
     },
     {
@@ -3388,7 +3390,7 @@
       "rate_used": 815.0711531091504,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5398301710489776,
-      "eta_utc": "2026-11-11T22:54:28.096833+00:00",
+      "eta_utc": "2026-11-11T23:08:12.351349+00:00",
       "status": "pending"
     },
     {
@@ -3428,7 +3430,7 @@
       "rate_used": 812.4243117913244,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5415889131011338,
-      "eta_utc": "2026-11-12T00:24:19.596633+00:00",
+      "eta_utc": "2026-11-11T22:27:35.503256+00:00",
       "status": "pending"
     },
     {
@@ -3448,7 +3450,7 @@
       "rate_used": 812.4243117913244,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5415889131011338,
-      "eta_utc": "2026-11-11T23:23:40.190647+00:00",
+      "eta_utc": "2026-11-11T23:00:18.863517+00:00",
       "status": "pending"
     },
     {
@@ -3468,7 +3470,7 @@
       "rate_used": 812.4243117913244,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5415889131011338,
-      "eta_utc": "2026-11-12T00:29:06.855467+00:00",
+      "eta_utc": "2026-11-11T23:33:02.223777+00:00",
       "status": "pending"
     },
     {
@@ -3488,7 +3490,7 @@
       "rate_used": 812.4243117913244,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5415889131011338,
-      "eta_utc": "2026-11-11T23:56:23.523057+00:00",
+      "eta_utc": "2026-11-12T00:05:45.584038+00:00",
       "status": "pending"
     },
     {
@@ -3508,7 +3510,7 @@
       "rate_used": 812.4243117913244,
       "rate_basis": "same-family alpha0 same-speed scenario",
       "remaining_net_GPUh": 0.5415889131011338,
-      "eta_utc": "2026-11-12T00:57:02.929043+00:00",
+      "eta_utc": "2026-11-12T00:38:28.944299+00:00",
       "status": "pending"
     },
     {
