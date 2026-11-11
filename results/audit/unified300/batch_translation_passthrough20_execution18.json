@@ -1,0 +1,131 @@
+{
+  "utc": "2026-11-11T17:11:07.716840+00:00",
+  "parent_sha256": "9c7f37d40f3f8e700b1f9de763a06a5153d65ce1266a071c5ec572e942318010",
+  "N": 20,
+  "passed": 20,
+  "English": 16,
+  "empty": 4,
+  "fixture_definition": "16 fixed harmless English sentences indexed00-15, then empty/space/newline/tab; no GPU or outcome judge calls",
+  "rows": [
+    {
+      "id": 0,
+      "text_sha256": "ea82b769e541adfc296a9860537f09672f0629ef52ae8c783bd57117150646dd",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 1,
+      "text_sha256": "22dcb2e39704fccabec7348d3ba2ad356e27d84a5ce65375eac342d9c9aec96b",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 2,
+      "text_sha256": "0388e7853841d42fe9372b149e99283f075904b416352a72bb5c18cf99d8cd04",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 3,
+      "text_sha256": "17f0313ae292b49327a47c6aad2002871ff7d818b49188701d441154fd372fb9",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 4,
+      "text_sha256": "c5ed7aa87984ad6f9a115e97be89e753791bbcb674ce25b91ba70d43e61c1066",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 5,
+      "text_sha256": "59e119fd839c836b63492a4f23c5c0878e9232135c74fb3ffd341d98c1056843",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 6,
+      "text_sha256": "249eccf39cf16fa720031f57f24b820c07a24e01abd77077095b62bd98339d47",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 7,
+      "text_sha256": "7726b45834212d96af752bce9dba616f40a7a2fe63c6bf7bf51477faeb14f4f0",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 8,
+      "text_sha256": "9681f21b710fcabdeba04f539e30a408ed8e6fea6a278c00540e2d83c0d0e079",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 9,
+      "text_sha256": "15416d607f1f254f85fc2bafd87971e80dc881cbb34a3c017c0ea368d8922331",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 10,
+      "text_sha256": "3d5a4d6a34771901b22386a14eb3947a5f80fdaf9c8fe2f3775b548858b1bb3e",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 11,
+      "text_sha256": "dc520f7a8c8b9608ad525597a998371e6899aabd98e55a5d0b207664f60fd894",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 12,
+      "text_sha256": "9ec2a2fb71c4214b9b51d1f1d59531dd25ab0464acf769b5b71fcda9e419e776",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 13,
+      "text_sha256": "1a06c5abe8eb172f15f28b33b619892c8aa6fef960a23d247c9f95cf3583007d",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 14,
+      "text_sha256": "3e6a076988283962920dee312de421d515914b33be9a0c3ea2d3f925fdf6dfe7",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 15,
+      "text_sha256": "97702dc6c7dbfe33977cdc7aa99a5fddb0c145efe5a6101f7ecdcee64c486407",
+      "status": "english_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 16,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "empty_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 17,
+      "text_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "status": "empty_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 18,
+      "text_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "status": "empty_passthrough",
+      "same_bytes": true
+    },
+    {
+      "id": 19,
+      "text_sha256": "2b4c342f5433ebe591a1da77e013d1b72475562d48578dca8b84bac6651c3cb9",
+      "status": "empty_passthrough",
+      "same_bytes": true
+    }
+  ]
+}
