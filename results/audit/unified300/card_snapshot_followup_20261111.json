@@ -1,0 +1,67 @@
+{
+  "utc": "2026-11-11T08:27:06.848855+00:00",
+  "scheduler_state_utc": "2026-11-11T08:26:40.699041+00:00",
+  "sites": {
+    "innet": [
+      {
+        "gpu": 0,
+        "memory_MiB": 15359,
+        "util_percent": 87,
+        "account": "kemove",
+        "project_task": "main_qwen_deepinception_61000",
+        "registered_runner_pid": "1488626"
+      },
+      {
+        "gpu": 1,
+        "memory_MiB": 11441,
+        "util_percent": 100,
+        "account": "kemove",
+        "project_task": "external_excluded",
+        "registered_runner_pid": null
+      },
+      {
+        "gpu": 2,
+        "memory_MiB": 17331,
+        "util_percent": 97,
+        "account": "kemove",
+        "project_task": "main_llama_deepinception_s4",
+        "registered_runner_pid": "1550598"
+      },
+      {
+        "gpu": 3,
+        "memory_MiB": 15259,
+        "util_percent": 87,
+        "account": "kemove",
+        "project_task": "main_qwen_refusal_suppression_s4",
+        "registered_runner_pid": "1550599"
+      }
+    ],
+    "node01": [
+      {
+        "gpu": 0,
+        "memory_MiB": 18646,
+        "util_percent": 30,
+        "account": "dell",
+        "project_task": "TAP_llama_gate_v4",
+        "registered_runner_pid": "3787760"
+      },
+      {
+        "gpu": 1,
+        "memory_MiB": 15985,
+        "util_percent": 0,
+        "account": "dell",
+        "project_task": "TAP_llama_gate_v4",
+        "registered_runner_pid": "3787760"
+      },
+      {
+        "gpu": 2,
+        "memory_MiB": 16123,
+        "util_percent": 40,
+        "account": "dell",
+        "project_task": "language_llama_translate-ml_B4_generate_recovery",
+        "registered_runner_pid": "3769699"
+      }
+    ]
+  },
+  "labels_or_effects_read": false
+}

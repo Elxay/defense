@@ -1,0 +1,8 @@
+{
+  "recorded_before_bootstrap_utc": "2026-11-11T06:24:09.008570+00:00",
+  "post_hoc": true,
+  "seed": 20261111,
+  "resamples": 20000,
+  "method": "case-composition bootstrap of per-row allocated resident card seconds, conditional on measured shared service speed; not independent future wall-time confidence interval",
+  "point_tier_rule_unchanged": true
+}

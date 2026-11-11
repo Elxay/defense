@@ -1,0 +1,100 @@
+{
+  "utc": "2026-11-11T08:27:06.848855+00:00",
+  "budget_GPUh": 600,
+  "tiers": [
+    440,
+    220,
+    88
+  ],
+  "formula": "C_n=sum_cell(cold_GPUh+n*mean_resident_GPUh)+shared_service_GPUh_once; W/replay/adaptive/regression separate",
+  "cells": [
+    {
+      "model": "llama",
+      "family": "PAIR",
+      "pilot_completed": 10,
+      "pilot_N": 10,
+      "mean_resident_GPUh": 0.037318193921004425,
+      "cold_GPUh": 0.12594464232446625,
+      "forecast_by_tier": {
+        "440": 16.54594996756641,
+        "220": 8.335947304945439,
+        "88": 3.4099457073728554
+      },
+      "timing_sha256": "172f05dc05bd9749a510984ef20fa287fa18d162d9fdd30130e1be10b11c7e8a",
+      "pilot_failure_count": 0,
+      "valid_for_budget": true
+    },
+    {
+      "model": "llama",
+      "family": "TAP",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    },
+    {
+      "model": "llama",
+      "family": "AutoDAN_Turbo",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "PAIR",
+      "pilot_completed": 10,
+      "pilot_N": 10,
+      "mean_resident_GPUh": 0.05975120737954664,
+      "cold_GPUh": 0.1201322242060107,
+      "forecast_by_tier": {
+        "440": 26.41066347120653,
+        "220": 13.26539784770627,
+        "88": 5.378238473606115
+      },
+      "timing_sha256": "70a68bdea905843db737c7345c89f2fecc3ab75c13ebf93ece4d56d241c6858b",
+      "pilot_failure_count": 0,
+      "valid_for_budget": true
+    },
+    {
+      "model": "qwen",
+      "family": "TAP",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "AutoDAN_Turbo",
+      "pilot_completed": 0,
+      "pilot_N": 10,
+      "mean_resident_GPUh": null,
+      "cold_GPUh": null,
+      "forecast_by_tier": {
+        "440": null,
+        "220": null,
+        "88": null
+      }
+    }
+  ],
+  "selected_tier": null,
+  "reason": "Two PAIR cells measured; four TAP/AutoDAN cells await verified execution gates and complete 10-row timing. No global 440/220/88 decision; W/replay/adaptive/regression separate.",
+  "sampling_manifest_sha256": "2ecdceb9e1b8cd1b2fa98aec0bfa24092f22cfe15ce77776c77ed735945bb677",
+  "parent_sha256": "c1fee33534928efc0226bd264ec907e6b3e3653dac3dcdce87f7a09647c37bf2"
+}

@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-11T07:36:40.039219+00:00",
+  "records": [
+    {
+      "repo": "AutoDAN-Turbo",
+      "revision": "389df844439888fc44ea7f5e8e95fd2b5c82ea64",
+      "local_git_history_available": true,
+      "source_comparison": [
+        {
+          "path": "pipeline.py",
+          "local_sha256": "6d86420adea23b76d669f8ac02ff8205a9228c4833c5d17dc75f8a64d9519331",
+          "HEAD_sha256": "6d86420adea23b76d669f8ac02ff8205a9228c4833c5d17dc75f8a64d9519331",
+          "identical": true
+        },
+        {
+          "path": "framework/retrival.py",
+          "local_sha256": "1aab6b44b47f21c76330b402280b8534b3d50b80d7a052c999949d2bfac01125",
+          "HEAD_sha256": "1aab6b44b47f21c76330b402280b8534b3d50b80d7a052c999949d2bfac01125",
+          "identical": true
+        },
+        {
+          "path": "llm/huggingface_models.py",
+          "local_sha256": "b88e2dbb4c1633317964d1f8161e31a74dc28ff718fb7b0628d8a5add3b012b5",
+          "HEAD_sha256": "b88e2dbb4c1633317964d1f8161e31a74dc28ff718fb7b0628d8a5add3b012b5",
+          "identical": true
+        }
+      ],
+      "origin_redacted": "github.com:SaFo-Lab/AutoDAN-Turbo.git",
+      "dirty_paths": [
+        "D  .gitignore",
+        "D  README.md",
+        "D  data/harmful_behavior_requests.json",
+        "D  figures/pipe.png",
+        "D  framework_r/__init__.py",
+        "D  framework_r/attacker_reasoning_model.py",
+        "D  framework_r/scorer_reasoning_model.py",
+        "D  framework_r/summarizer_reasoning_model.py",
+        "D  logs_r/lifelong_attack_log.json",
+        "D  logs_r/lifelong_strategy_library.json",
+        "D  logs_r/lifelong_strategy_library.pkl",
+        "D  logs_r/lifelong_summarizer_log.json",
+        "D  logs_r/warm_up_attack_log.json",
+        "D  logs_r/warm_up_strategy_library.json",
+        "D  logs_r/warm_up_strategy_library.pkl",
+        "D  logs_r/warm_up_summarizer_log.json",
+        "D  main_r.py",
+        "D  test_r.py"
+      ]
+    },
+    {
+      "repo": "HarmBench",
+      "revision": null,
+      "local_git_history_available": false,
+      "source_comparison": [
+        {
+          "path": "baselines/pair/PAIR.py",
+          "local_sha256": "a753f29b07a766bbad8306ffb64138d94c8fd4fc5bb38cd4b8b70bb3f6ba9546"
+        },
+        {
+          "path": "baselines/tap/TAP.py",
+          "local_sha256": "fa82f7f2ec6508668b68439711de034b672d4ee31faccd868752fcee817bd646"
+        },
+        {
+          "path": "configs/method_configs/TAP_config.yaml",
+          "local_sha256": "5a4bae1a087198ab35828f3dc3178cc7aff0436376b8995290c661727885eec8"
+        }
+      ]
+    }
+  ]
+}
