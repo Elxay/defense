@@ -10,3 +10,5 @@
 2026-11-11T06:24:08.468498+00:00 RETROSPECTIVE release register: authorization doc7 2026-11-11T03:58:15.117321+00:00, first nonzero lease 2026-11-11T03:59:02.074340+00:00 main_qwen_base_s3; runtime observed after generation only; registerSHA 2f2901e8a36ee078fc0d9e706faff91b2ce67d3b8d7eb50b0d6d6a08a3fb6400; normAuditSHA 8c8769f926fb17975d760af8e9973c4f3ae4820f98588052351c59b118c14de0
 
 2026-11-11T08:05:28.252239+00:00 USER-CONFIRMED prospective public primary: WG response refusal all4 models, v2 parallel empirical lower reading; retain old S1a/legacy. Freeze dual-stratum48 audit ranks before new public reads. docSHA c14756be07dc8edc126edc6bbfd20735968e2efe34ac7840f6e9bb6bd59db1c8; actual WG-conditioned IDs pending completed new caches.
+
+2026-11-11T08:17:59.997620+00:00 scheduler hot-reload incident: state stale since 2026-11-11T07:47:07.476292+00:00; missing active TAP_qwen_gate_v3 restored from exact archived definition; GPU workers not killed, no output changes. IncidentSHA 85b8f7ad2b64c462efe5d2942556b0330326eda0eca9eaaba39a6c0a9ca2af11

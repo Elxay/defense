@@ -4920,11 +4920,36 @@
       ],
       "sync_relpath": "results/audit/unified300/TAP_execution_gate_v4/qwen",
       "yieldable": false
+    },
+    {
+      "id": "TAP_qwen_gate_v3",
+      "priority": 9,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "method_runtime_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v3.py",
+        "gate",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/PAIR_execution_gate_v2/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/TAP_execution_gate_v3/qwen",
+      "yieldable": false
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "4b7bdd49845beba5409ab2378ea27a3e2ff487b24a478cbc4d41546c690f2575",
-  "updated_utc": "2026-11-11T07:46:56.071684+00:00",
+  "parent_catalog_sha256": "a8d574d5ea67d7c21b082a350b81adefe2670acb561885cbdd03e71027cb1fba",
+  "updated_utc": "2026-11-11T08:17:59.997620+00:00",
   "controller_version": 7,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",
@@ -5023,5 +5048,12 @@
       "reason": "use corrected per-method counter contract"
     }
   ],
-  "graceful_restart": "SIGTERM requests stop; finish current deployment and save PID before exit; journal staging/launched retained"
+  "graceful_restart": "SIGTERM requests stop; finish current deployment and save PID before exit; journal staging/launched retained",
+  "retirement_corrections": [
+    {
+      "utc": "2026-11-11T08:17:59.997620+00:00",
+      "id": "TAP_qwen_gate_v3",
+      "reason": "was staging before prior state snapshot; task is retained through exit, original archive preserved"
+    }
+  ]
 }

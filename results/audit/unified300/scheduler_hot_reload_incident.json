@@ -1,0 +1,13 @@
+{
+  "detected_utc": "2026-11-11T08:17:59.997620+00:00",
+  "last_state_utc": "2026-11-11T07:47:07.476292+00:00",
+  "controller_pid": 1471525,
+  "missing_active_definitions": [
+    "TAP_qwen_gate_v3"
+  ],
+  "primary_numeric_parameters_changed": false,
+  "workers_killed": false,
+  "cause": "task retirement raced an in-progress deployment; active state appeared after catalog change, reload assertion prevented further scheduler loop",
+  "first_repair": "restore exact archived task definition so old loop can reconcile actual exit; version pinning and independent watchdog to follow",
+  "no_backdated_idle_durations": true
+}
