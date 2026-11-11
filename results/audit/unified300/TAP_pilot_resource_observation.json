@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-11-11T09:18:57.321244+00:00",
+  "site": "node01",
+  "gpu": 0,
+  "job": "TAP_llama_pilot",
+  "earlier_snapshot_utc": "2026-11-11T09:13:58.962127+00:00",
+  "earlier_used_MiB": 23746,
+  "device_total_MiB": 24564,
+  "observed_free_MiB": 818,
+  "not_a_full_peak_measurement": true,
+  "later_snapshot_utc": "2026-11-11T09:17:39Z",
+  "later_used_MiB": 18226,
+  "later_free_MiB": 6338,
+  "saved_pilot_rows_checked": 2,
+  "checked_saved_rows_execution_failure_count": 0,
+  "formal_TAP_configuration_changed": false,
+  "external_processes_touched": false,
+  "interpretation": "Large-branch search timing pilot transiently did not have3GiB headroom. Small engineering gate is not certification of full default-width memory headroom. Record resource feasibility with cost; do not claim bulk search admitted from this pilot yet."
+}
