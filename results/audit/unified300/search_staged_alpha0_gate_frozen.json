@@ -1,0 +1,40 @@
+{
+  "utc_frozen": "2026-11-11T13:07:14.342496+00:00",
+  "doc_sha256": "08a82603ab3cade52dac2e4a4a88858ecb3d66bced4be24de592104844310ec4",
+  "nested_IDs_sha256": "2ecdceb9e1b8cd1b2fa98aec0bfa24092f22cfe15ce77776c77ed735945bb677",
+  "budget_rule_sha256": "a7914eb27bc6c523b58cf3dfebe7e309ada62e980c7aed4a48f87f14ea49d69c",
+  "tiers": [
+    88,
+    220,
+    440
+  ],
+  "minimum_fulfilled_if_no_INVALID": {
+    "88": 22,
+    "220": 55,
+    "440": 110
+  },
+  "gate": "Upper<.25 stop; lower>=.25 pass; INVALID crossing continue flagged. No confidence-interval gate.",
+  "independent_reranking": false,
+  "search_hyperparameters_changed": false,
+  "nonzero_search_replay_outputs_before_freeze": 0,
+  "expansion_requires": [
+    "previous_cell_alpha0_gate",
+    "unchanged_six_cell_budget_selection"
+  ],
+  "final_nonzero_requires_final_cell_manifest": true,
+  "HB_backlog_threshold": 26400,
+  "HB_all_English_static_generation_rows": 52800,
+  "HB_max_windows_per_JST_calendar_day": 1,
+  "HB_already_opened": [
+    {
+      "task": "score_HB_0001",
+      "started_utc": "2026-11-11T12:51:24.981658+00:00",
+      "N": 21120,
+      "prospective_threshold_satisfied": false,
+      "rule_at_launch": "previous addendum14"
+    }
+  ],
+  "language_after_WG_first_wave": true,
+  "WG_after_CF": true,
+  "main_nonzero_effects_read": false
+}
