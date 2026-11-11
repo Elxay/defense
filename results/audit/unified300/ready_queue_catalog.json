@@ -1,6 +1,6 @@
 {
   "utc_frozen": "2026-11-11T03:58:15.113322+00:00",
-  "controller_sha256": "fd1cfd87de2efcb2452c42ab34eb1b6226142d72e4cd4c3f620e540d3ccbed8a",
+  "controller_sha256": "908bebf5fe9982382e796efddb22fb209d4a4410806cc2c687bd0f024d5b4efc",
   "runner_sha256": "a8dfbfb640924f59c95546eaba4838f8e8ddf5348d24f6cd0fb61a19b18083d8",
   "poll_seconds": 30,
   "idle_alert_seconds": 900,
@@ -4066,9 +4066,9 @@
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "7233d6b8dd67f91279409d04668d78ba27639471abac908e23b2838c3b9f6520",
-  "updated_utc": "2026-11-11T04:46:01.670992+00:00",
-  "controller_version": 4,
+  "parent_catalog_sha256": "7921b4a207600f302e3051640718514bcbfb30f42a0eda5ed18c62aba2395f5d",
+  "updated_utc": "2026-11-11T05:00:06.668610+00:00",
+  "controller_version": 5,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",
   "compatible_innet_slots": {
@@ -4083,5 +4083,24 @@
   },
   "compatible_slot_proof": "innetGPU0 L/Q20 passed; original source L GPU2/Q GPU3 path gates passed; same node/core/B/membership, actual UUID recorded",
   "gang_reservation": "ready multi-GPU task reserves its free subset while managed lower-priority jobs yield; no reservation against external unpreemptable context",
-  "resume_integrity": "hash saved rows after every yield; verify checkpoint immediately before resumed launch"
+  "resume_integrity": "hash saved rows after every yield; verify checkpoint immediately before resumed launch",
+  "compatible_node_language_slots": [
+    2,
+    0,
+    1
+  ],
+  "compatible_node_language_proof": {
+    "0": {
+      "path": "results/audit/unified300/parallel_device20/node01_gpu0/llama/complete.json",
+      "sha256": "5d516aecd3c9d8cfca3da908c5a8916d373ccc84909096c5a541edf8124f1ac2"
+    },
+    "1": {
+      "path": "results/audit/unified300/parallel_device20/node01_gpu1/llama/complete.json",
+      "sha256": "d7ecbcda1b6f58827bb78f8aa7c4ff61d07eb9516f1e128cf32ea989f217ab01"
+    },
+    "2": {
+      "path": "results/audit/unified300/parallel_device20/node01_gpu2/llama/complete.json",
+      "sha256": "a95df531113f8ab781102b40802902077f73ffccebc8d67ac4f0dab5d7447ade"
+    }
+  }
 }
