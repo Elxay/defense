@@ -1,0 +1,12 @@
+{
+  "utc_frozen": "2026-11-11T11:16:05.116795+00:00",
+  "catalog_sha256": "72033d8c5ecc1014b8942ea0c0b5eefa5a5c9a08114c7f5002912a404b40cd70",
+  "PAIR_plan_sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+  "AutoDAN_plan_sha256": "c4b61599caddf05ee365fb639706c941880c65a81c7cb52e3497613b61cf813d",
+  "prelaunch_contract_sha256": "19e979662ff1cf361fc507d01bce017f9686d99441dde52ef89934933d98dab5",
+  "publication_guard_required": true,
+  "new_bulk_outputs_before_freeze": 0,
+  "old_worker_processes_stopped": false,
+  "active_task_definitions_changed": false,
+  "note": "all replaced AutoDAN definitions were pending; current TAP Qwen remains on its frozen v4 plan. New jobs cannot dispatch until publication receipt is pushed and copied into runtime tree."
+}

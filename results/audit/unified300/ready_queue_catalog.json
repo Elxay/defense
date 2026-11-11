@@ -86,7 +86,12 @@
     "tools/handoff_20261106/unified300_autodan_worker_v3.py",
     "results/audit/unified300/S1b_AutoDAN_frozen_v3.json",
     "tools/handoff_20261106/unified300_tap_pilot_v4.py",
-    "results/audit/unified300/S1b_TAP_frozen_v4.json"
+    "results/audit/unified300/S1b_TAP_frozen_v4.json",
+    "tools/handoff_20261106/unified300_pair_progressive_v1.py",
+    "tools/handoff_20261106/unified300_autodan_worker_v4.py",
+    "results/audit/unified300/S1b_PAIR_progressive_v1.json",
+    "results/audit/unified300/S1b_AutoDAN_frozen_v4.json",
+    "results/audit/unified300/PAIR_progressive_inputs.private.json"
   ],
   "tasks": [
     {
@@ -4435,136 +4440,6 @@
       "yieldable": false
     },
     {
-      "id": "AutoDAN_qwen_gate",
-      "priority": 11,
-      "site": "node01",
-      "gpus": [
-        0,
-        1
-      ],
-      "kind": "autodan_runtime_gate",
-      "argv": [
-        "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
-        "gate",
-        "qwen"
-      ],
-      "requires": [
-        {
-          "path": "results/audit/unified300/AutoDAN_dependency_ready.json",
-          "key": "passed",
-          "value": true
-        }
-      ],
-      "sync_relpath": "results/audit/unified300/AutoDAN_execution_gate/qwen",
-      "yieldable": false
-    },
-    {
-      "id": "AutoDAN_warmup",
-      "priority": 12,
-      "site": "node01",
-      "gpus": [
-        0,
-        1
-      ],
-      "kind": "library_build",
-      "argv": [
-        "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
-        "warmup",
-        "qwen"
-      ],
-      "requires": [
-        {
-          "path": "results/audit/unified300/AutoDAN_execution_gate/qwen/complete.json",
-          "key": "passed",
-          "value": true
-        }
-      ],
-      "sync_relpath": "results/audit/unified300/AutoDAN_build",
-      "yieldable": false
-    },
-    {
-      "id": "AutoDAN_qwen_pilot",
-      "priority": 13,
-      "site": "node01",
-      "gpus": [
-        0,
-        1
-      ],
-      "kind": "search_pilot10",
-      "argv": [
-        "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
-        "pilot",
-        "qwen"
-      ],
-      "requires": [
-        {
-          "path": "results/audit/unified300/AutoDAN_build/library_frozen_manifest.json",
-          "key": "test_updates",
-          "value": false
-        }
-      ],
-      "sync_relpath": "results/audit/unified300/AutoDAN_pilot/qwen",
-      "yieldable": false
-    },
-    {
-      "id": "AutoDAN_llama_gate",
-      "priority": 14,
-      "site": "node01",
-      "gpus": [
-        0,
-        1
-      ],
-      "kind": "autodan_runtime_gate",
-      "argv": [
-        "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
-        "gate",
-        "llama"
-      ],
-      "requires": [
-        {
-          "path": "results/audit/unified300/AutoDAN_dependency_ready.json",
-          "key": "passed",
-          "value": true
-        }
-      ],
-      "sync_relpath": "results/audit/unified300/AutoDAN_execution_gate/llama",
-      "yieldable": false
-    },
-    {
-      "id": "AutoDAN_llama_pilot",
-      "priority": 15,
-      "site": "node01",
-      "gpus": [
-        0,
-        1
-      ],
-      "kind": "search_pilot10",
-      "argv": [
-        "/home/dell/Def/venvs/autodan300/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
-        "pilot",
-        "llama"
-      ],
-      "requires": [
-        {
-          "path": "results/audit/unified300/AutoDAN_execution_gate/llama/complete.json",
-          "key": "passed",
-          "value": true
-        },
-        {
-          "path": "results/audit/unified300/AutoDAN_build/library_frozen_manifest.json",
-          "key": "test_updates",
-          "value": false
-        }
-      ],
-      "sync_relpath": "results/audit/unified300/AutoDAN_pilot/llama",
-      "yieldable": false
-    },
-    {
       "id": "TAP_llama_gate_v3",
       "priority": 5,
       "site": "node01",
@@ -4945,11 +4820,317 @@
       ],
       "sync_relpath": "results/audit/unified300/TAP_execution_gate_v3/qwen",
       "yieldable": false
+    },
+    {
+      "id": "AutoDAN_qwen_gate_v4",
+      "priority": 11,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_execution_gate",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v4.py",
+        "gate",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_dependency_ready.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_execution_gate_v4/qwen",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_warmup_pilot20_v4",
+      "priority": 12,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "library_warmup_pilot20",
+      "argv": [
+        "env",
+        "DEF_AUTODAN_PILOT_ONLY=1",
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v4.py",
+        "warmup",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_execution_gate_v4/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_build",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_llama_gate_v4",
+      "priority": 13,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_execution_gate",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v4.py",
+        "gate",
+        "llama"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_execution_gate_v4/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_execution_gate_v4/llama",
+      "yieldable": false
+    },
+    {
+      "id": "PAIR_progressive_llama_gate_v1",
+      "priority": 14,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_execution_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_pair_progressive_v1.py",
+        "gate",
+        "llama"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/PAIR_pilot/llama/timing_complete.json"
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/PAIR_progressive_gate_v1/llama",
+      "yieldable": false
+    },
+    {
+      "id": "PAIR_progressive_llama_88_v1",
+      "priority": 15,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_progressive",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_pair_progressive_v1.py",
+        "bulk",
+        "llama",
+        "88"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/PAIR_progressive_gate_v1/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/PAIR_progressive/llama/tier88",
+      "yieldable": false
+    },
+    {
+      "id": "PAIR_progressive_qwen_gate_v1",
+      "priority": 16,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_execution_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_pair_progressive_v1.py",
+        "gate",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/PAIR_pilot/qwen/timing_complete.json"
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/PAIR_progressive_gate_v1/qwen",
+      "yieldable": false
+    },
+    {
+      "id": "PAIR_progressive_qwen_88_v1",
+      "priority": 17,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_progressive",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_pair_progressive_v1.py",
+        "bulk",
+        "qwen",
+        "88"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/PAIR_progressive_gate_v1/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/PAIR_progressive/qwen/tier88",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_library_continue_v4",
+      "priority": 18,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "library_build",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v4.py",
+        "warmup",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_build/W_pilot20_complete.json",
+          "key": "budget_feasible",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_build",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_qwen_pilot_v4",
+      "priority": 19,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_pilot10",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v4.py",
+        "pilot",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_build/library_frozen_manifest.json"
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_execution_gate_v4/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_pilot/qwen",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_llama_pilot_v4",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_pilot10",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v4.py",
+        "pilot",
+        "llama"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+          "key": "published",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_build/library_frozen_manifest.json"
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_execution_gate_v4/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_pilot/llama",
+      "yieldable": false
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "a8d574d5ea67d7c21b082a350b81adefe2670acb561885cbdd03e71027cb1fba",
-  "updated_utc": "2026-11-11T08:17:59.997620+00:00",
+  "parent_catalog_sha256": "9842224c25cec6a8a3fcd4c160e062a8fe242bf94fde40c59259e488b5aae66d",
+  "updated_utc": "2026-11-11T11:16:05.116795+00:00",
   "controller_version": 7,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",
@@ -5046,6 +5227,156 @@
         "yieldable": false
       },
       "reason": "use corrected per-method counter contract"
+    },
+    {
+      "utc": "2026-11-11T11:16:05.116795+00:00",
+      "reason": "split request20 timing checkpoint before library continuation; source numerical core unchanged, new gate namespace",
+      "task": {
+        "id": "AutoDAN_qwen_gate",
+        "priority": 11,
+        "site": "node01",
+        "gpus": [
+          0,
+          1
+        ],
+        "kind": "autodan_runtime_gate",
+        "argv": [
+          "/home/dell/Def/venvs/autodan300/bin/python",
+          "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
+          "gate",
+          "qwen"
+        ],
+        "requires": [
+          {
+            "path": "results/audit/unified300/AutoDAN_dependency_ready.json",
+            "key": "passed",
+            "value": true
+          }
+        ],
+        "sync_relpath": "results/audit/unified300/AutoDAN_execution_gate/qwen",
+        "yieldable": false
+      }
+    },
+    {
+      "utc": "2026-11-11T11:16:05.116795+00:00",
+      "reason": "split request20 timing checkpoint before library continuation; source numerical core unchanged, new gate namespace",
+      "task": {
+        "id": "AutoDAN_warmup",
+        "priority": 12,
+        "site": "node01",
+        "gpus": [
+          0,
+          1
+        ],
+        "kind": "library_build",
+        "argv": [
+          "/home/dell/Def/venvs/autodan300/bin/python",
+          "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
+          "warmup",
+          "qwen"
+        ],
+        "requires": [
+          {
+            "path": "results/audit/unified300/AutoDAN_execution_gate/qwen/complete.json",
+            "key": "passed",
+            "value": true
+          }
+        ],
+        "sync_relpath": "results/audit/unified300/AutoDAN_build",
+        "yieldable": false
+      }
+    },
+    {
+      "utc": "2026-11-11T11:16:05.116795+00:00",
+      "reason": "split request20 timing checkpoint before library continuation; source numerical core unchanged, new gate namespace",
+      "task": {
+        "id": "AutoDAN_qwen_pilot",
+        "priority": 13,
+        "site": "node01",
+        "gpus": [
+          0,
+          1
+        ],
+        "kind": "search_pilot10",
+        "argv": [
+          "/home/dell/Def/venvs/autodan300/bin/python",
+          "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
+          "pilot",
+          "qwen"
+        ],
+        "requires": [
+          {
+            "path": "results/audit/unified300/AutoDAN_build/library_frozen_manifest.json",
+            "key": "test_updates",
+            "value": false
+          }
+        ],
+        "sync_relpath": "results/audit/unified300/AutoDAN_pilot/qwen",
+        "yieldable": false
+      }
+    },
+    {
+      "utc": "2026-11-11T11:16:05.116795+00:00",
+      "reason": "split request20 timing checkpoint before library continuation; source numerical core unchanged, new gate namespace",
+      "task": {
+        "id": "AutoDAN_llama_gate",
+        "priority": 14,
+        "site": "node01",
+        "gpus": [
+          0,
+          1
+        ],
+        "kind": "autodan_runtime_gate",
+        "argv": [
+          "/home/dell/Def/venvs/autodan300/bin/python",
+          "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
+          "gate",
+          "llama"
+        ],
+        "requires": [
+          {
+            "path": "results/audit/unified300/AutoDAN_dependency_ready.json",
+            "key": "passed",
+            "value": true
+          }
+        ],
+        "sync_relpath": "results/audit/unified300/AutoDAN_execution_gate/llama",
+        "yieldable": false
+      }
+    },
+    {
+      "utc": "2026-11-11T11:16:05.116795+00:00",
+      "reason": "split request20 timing checkpoint before library continuation; source numerical core unchanged, new gate namespace",
+      "task": {
+        "id": "AutoDAN_llama_pilot",
+        "priority": 15,
+        "site": "node01",
+        "gpus": [
+          0,
+          1
+        ],
+        "kind": "search_pilot10",
+        "argv": [
+          "/home/dell/Def/venvs/autodan300/bin/python",
+          "{ROOT}/tools/handoff_20261106/unified300_autodan_worker_v3.py",
+          "pilot",
+          "llama"
+        ],
+        "requires": [
+          {
+            "path": "results/audit/unified300/AutoDAN_execution_gate/llama/complete.json",
+            "key": "passed",
+            "value": true
+          },
+          {
+            "path": "results/audit/unified300/AutoDAN_build/library_frozen_manifest.json",
+            "key": "test_updates",
+            "value": false
+          }
+        ],
+        "sync_relpath": "results/audit/unified300/AutoDAN_pilot/llama",
+        "yieldable": false
+      }
     }
   ],
   "graceful_restart": "SIGTERM requests stop; finish current deployment and save PID before exit; journal staging/launched retained",
@@ -5057,5 +5388,17 @@
     }
   ],
   "independent_watchdog": true,
-  "utc_operational_update": "2026-11-11T08:25:28.930415+00:00"
+  "utc_operational_update": "2026-11-11T08:25:28.930415+00:00",
+  "progressive_admission": {
+    "utc": "2026-11-11T11:16:05.116795+00:00",
+    "publication_guard": {
+      "path": "results/audit/unified300/progressive_queue_operational_publication.json",
+      "key": "published",
+      "value": true
+    },
+    "resource_order": "remaining TAP pilot -> AutoDAN fresh gate -> first20 only -> source gates / PAIR88 -> library continuation -> AutoDAN test pilots",
+    "no_dependency_on_six_completed_cost_cells_for_PAIR88": true,
+    "source_parameters_unchanged": true,
+    "read_locks_unchanged": true
+  }
 }

@@ -56,3 +56,16 @@ INVALID reply-harmfulness fields for IDs918 and2193 under rand0 and2109 under ra
 % Provenance: docs/287_ADDENDUM12_GEMMA_DISABLE_AUTOCOMPILE.md SHA256 0d4b457c81d2452f680bc04bb9d7c02a32dc82213c24366718069c73f9cb2349
 \paragraph{Automatic compilation despite eager attention.}
 In our Gemma backend diagnostic, selecting \texttt{eager} attention did not disable generation-time compilation. The default \texttt{HybridCache} path invoked automatic compilation and eventually hit a compilation-cache limit. We retained the 400 legal and 14 attack outputs as a historical execution path and regenerated the baseline in a separate namespace with an asserted \texttt{disable\_compile} flag and a guarded compilation entry point. The earlier five-prompt text match did not verify the intended uncompiled configuration, because that route had not been explicitly excluded. Matching sample text is insufficient to verify execution configuration; this is an audit finding in our own pipeline, not a cross-model defense result.
+
+
+% BEGIN release_registration_chronology_20261111
+\paragraph{Release-registration chronology.}
+The generation plan was frozen on 11 November 2026 at
+03:58:15.102530 UTC and the scheduling addendum at
+03:58:15.117321 UTC, before the first nonzero generation lease at
+03:59:02.074340 UTC. A dedicated release register was added retrospectively
+at 06:24:08.468498 UTC. The register is explicitly retrospective: its timestamp
+is not presented as a contemporaneous authorization. The earlier protocol,
+calibration decision, baseline gates, generation plan, and vector manifests
+provide the ordering evidence; their hashes are retained in the provenance ledger.
+% END release_registration_chronology_20261111

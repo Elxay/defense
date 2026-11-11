@@ -1,0 +1,90 @@
+{
+  "recorded_utc": "2026-11-11T10:27:07.196744+00:00",
+  "posthoc": true,
+  "seed": 20261111,
+  "bootstrap_replicates": 20000,
+  "sampling_unit": "ten allocated behavior-cost shares from a single concurrent pilot window",
+  "formula": "one measured cold start + n*resampled mean allocated resident GPUh",
+  "interpretation": "conditional cost-composition scenario only; not population/future-walltime confidence bounds; excludes unknown window-tail/category/library-growth/throughput effects;10pilot categories out of44",
+  "tier_decision_unchanged": "fixed point/cumulative cost rules, never use this posthoc scenario to change algorithms or row IDs",
+  "cells": [
+    {
+      "method": "PAIR",
+      "model": "llama",
+      "N": 10,
+      "point_GPUh": {
+        "440": 16.54594996756641,
+        "220": 8.335947304945439,
+        "88": 3.4099457073728554
+      },
+      "conditional_cost_scenario": {
+        "88": [
+          2.44618525808244,
+          4.408093641907791
+        ],
+        "220": [
+          5.9265461817194005,
+          10.831317141282778
+        ],
+        "440": [
+          11.727147721114335,
+          21.53668964024109
+        ]
+      },
+      "timing_sha256": "172f05dc05bd9749a510984ef20fa287fa18d162d9fdd30130e1be10b11c7e8a",
+      "failure_count": 0
+    },
+    {
+      "method": "PAIR",
+      "model": "qwen",
+      "N": 10,
+      "point_GPUh": {
+        "440": 26.41066347120653,
+        "220": 13.26539784770627,
+        "88": 5.378238473606115
+      },
+      "conditional_cost_scenario": {
+        "88": [
+          4.203723284553093,
+          6.339076744195851
+        ],
+        "220": [
+          10.329109875073716,
+          15.667493524180612
+        ],
+        "440": [
+          20.53808752594142,
+          31.214854824155214
+        ]
+      },
+      "timing_sha256": "70a68bdea905843db737c7345c89f2fecc3ab75c13ebf93ece4d56d241c6858b",
+      "failure_count": 0
+    },
+    {
+      "method": "TAP",
+      "model": "llama",
+      "N": 10,
+      "point_GPUh": {
+        "440": 104.73472123971831,
+        "220": 52.428854863986686,
+        "88": 21.045335038547712
+      },
+      "conditional_cost_scenario": {
+        "88": [
+          13.067889821254994,
+          29.29423696365732
+        ],
+        "220": [
+          32.48524182075489,
+          73.0511096767607
+        ],
+        "440": [
+          64.84749515325471,
+          145.97923086526632
+        ]
+      },
+      "timing_sha256": "05d54f252b7ecead02e6b5c7018d6f32e0532b6ef7b1cb96ab5d8e79cb978ae1",
+      "failure_count": 0
+    }
+  ]
+}
