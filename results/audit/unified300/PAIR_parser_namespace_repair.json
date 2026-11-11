@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-11T04:35:14.514618+00:00",
+  "failure": "NameError ast in upstream parser namespace during harmless controller gate; formal pilot0",
+  "upstream_parser_sha256": "649447fc04922af46c6f03ea98cc686184f1ca04191c8a7e3d2602ac1fce741d",
+  "checks": [
+    {
+      "id": 0,
+      "expected_valid": true,
+      "observed_valid": true
+    },
+    {
+      "id": 1,
+      "expected_valid": true,
+      "observed_valid": true
+    },
+    {
+      "id": 2,
+      "expected_valid": false,
+      "observed_valid": false
+    },
+    {
+      "id": 3,
+      "expected_valid": false,
+      "observed_valid": false
+    }
+  ],
+  "source_parser_changed": false,
+  "hyperparameters_changed": false,
+  "parent_worker_sha256": "a36ea344cd901e233f8dc6bc35ba0d091e15d754f92bbd7be93e38e6e178a53d",
+  "new_worker_sha256": "cb25b8b28601b7d1664ff36af7c2d3bbba70980d1195418501a3545f270d9399"
+}
