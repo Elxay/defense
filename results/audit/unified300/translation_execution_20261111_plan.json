@@ -1,0 +1,23 @@
+{
+  "utc_frozen": "2026-11-11T00:59:25.419843+00:00",
+  "worker_sha256": "711a57171ab2310f17424faae8ca256b1a70277ba4edf355a205c1b8afba6520",
+  "language_plan_sha256": "95b187d35833672ed6ef2b3b922326ce1e21d1835103dbdf856a0f86c1a0537a",
+  "inputs_sha256": "1b62d6a0f359f744d98923d9f17ef593cf1e7ec8bde08d5af812400914753718",
+  "fixtures_sha256": "59711f6a61274c11b7bced1a9846bcb2706c7be00baf0b30689db5cbd7e26626",
+  "N": 2200,
+  "N_by_language": {
+    "zh-cn": 440,
+    "fr": 440,
+    "mr": 440,
+    "ml": 440,
+    "ta": 440
+  },
+  "physical_gpu": 2,
+  "node": "node01",
+  "repeatability_gate": "20 benign non-English sentences, two actual deterministic translations each; nonempty nontruncated bytes equal; interface only",
+  "backtranslation": "force translation of every supplied language instruction, even if langdetect calls source English; not response routing or test answers",
+  "translator_runtime_unchanged": true,
+  "downstream": "English all-MiniLM-L6-v2 fixed snapshot1110a243fdf4706b3f48f1d95db1a4f5529b4d41; CPU cosine against original English instruction, default max_seq_length with truncation counts; no threshold, report errors and missing; no gate on similarity, no model condition comparisons",
+  "no_reply_fidelity_claim": true,
+  "no_main_outcomes_read": true
+}

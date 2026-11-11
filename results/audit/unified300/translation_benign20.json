@@ -1,0 +1,102 @@
+[
+  {
+    "id": "zh-cn_0",
+    "language": "zh-cn",
+    "text": "图书馆每天上午九点开放，晚上六点关闭。"
+  },
+  {
+    "id": "zh-cn_1",
+    "language": "zh-cn",
+    "text": "请把蓝色的书放在窗户旁边的小桌子上。"
+  },
+  {
+    "id": "zh-cn_2",
+    "language": "zh-cn",
+    "text": "我们将在星期六乘火车去海边看日出。"
+  },
+  {
+    "id": "zh-cn_3",
+    "language": "zh-cn",
+    "text": "这座城市有许多公园，居民喜欢在周末散步。"
+  },
+  {
+    "id": "fr_0",
+    "language": "fr",
+    "text": "La bibliothèque ouvre chaque matin à neuf heures et ferme à dix-huit heures."
+  },
+  {
+    "id": "fr_1",
+    "language": "fr",
+    "text": "Veuillez poser le livre bleu sur la petite table près de la fenêtre."
+  },
+  {
+    "id": "fr_2",
+    "language": "fr",
+    "text": "Nous prendrons le train samedi pour regarder le lever du soleil au bord de la mer."
+  },
+  {
+    "id": "fr_3",
+    "language": "fr",
+    "text": "Cette ville possède de nombreux parcs où les habitants aiment se promener le week-end."
+  },
+  {
+    "id": "mr_0",
+    "language": "mr",
+    "text": "ग्रंथालय रोज सकाळी नऊ वाजता उघडते आणि संध्याकाळी सहा वाजता बंद होते."
+  },
+  {
+    "id": "mr_1",
+    "language": "mr",
+    "text": "कृपया निळे पुस्तक खिडकीजवळच्या छोट्या टेबलावर ठेवा."
+  },
+  {
+    "id": "mr_2",
+    "language": "mr",
+    "text": "शनिवारी आम्ही समुद्रकिनारी सूर्योदय पाहण्यासाठी रेल्वेने जाणार आहोत."
+  },
+  {
+    "id": "mr_3",
+    "language": "mr",
+    "text": "या शहरात अनेक उद्याने आहेत आणि लोकांना आठवड्याच्या शेवटी फिरायला आवडते."
+  },
+  {
+    "id": "ml_0",
+    "language": "ml",
+    "text": "ഗ്രന്ഥശാല എല്ലാ ദിവസവും രാവിലെ ഒമ്പത് മണിക്ക് തുറക്കുകയും വൈകുന്നേരം ആറിന് അടയ്ക്കുകയും ചെയ്യുന്നു."
+  },
+  {
+    "id": "ml_1",
+    "language": "ml",
+    "text": "നീല പുസ്തകം ജനലിനടുത്തുള്ള ചെറിയ മേശപ്പുറത്ത് വയ്ക്കുക."
+  },
+  {
+    "id": "ml_2",
+    "language": "ml",
+    "text": "ശനിയാഴ്ച സൂര്യോദയം കാണാൻ ഞങ്ങൾ ട്രെയിനിൽ കടൽത്തീരത്തേക്ക് പോകും."
+  },
+  {
+    "id": "ml_3",
+    "language": "ml",
+    "text": "ഈ നഗരത്തിൽ ധാരാളം പാർക്കുകളുണ്ട്, വാരാന്ത്യങ്ങളിൽ നടക്കാൻ ആളുകൾ ഇഷ്ടപ്പെടുന്നു."
+  },
+  {
+    "id": "ta_0",
+    "language": "ta",
+    "text": "நூலகம் தினமும் காலை ஒன்பது மணிக்கு திறந்து மாலை ஆறு மணிக்கு மூடப்படுகிறது."
+  },
+  {
+    "id": "ta_1",
+    "language": "ta",
+    "text": "நீல நிறப் புத்தகத்தை ஜன்னலுக்கு அருகிலுள்ள சிறிய மேசையில் வைக்கவும்."
+  },
+  {
+    "id": "ta_2",
+    "language": "ta",
+    "text": "சனிக்கிழமை சூரிய உதயத்தைப் பார்க்க நாங்கள் ரயிலில் கடற்கரைக்குச் செல்வோம்."
+  },
+  {
+    "id": "ta_3",
+    "language": "ta",
+    "text": "இந்த நகரத்தில் பல பூங்காக்கள் உள்ளன, வார இறுதியில் மக்கள் நடக்க விரும்புகிறார்கள்."
+  }
+]
