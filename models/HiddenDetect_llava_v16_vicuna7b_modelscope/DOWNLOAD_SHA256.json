@@ -1,0 +1,71 @@
+{
+  "utc": "2026-11-11T13:41:32.791564+00:00",
+  "repo": "AI-ModelScope/llava-v1.6-vicuna-7b",
+  "original_HF_revision": "deae57a8c0ccb0da4c2661cc1891cc9d06503d11",
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "11feca452cea3a26aa112774aba3aca5efb8c2f8657ff8ae6dd81738f769efaf",
+      "bytes": 1452
+    },
+    {
+      "name": "config.json",
+      "sha256": "7b21de0f57c8aa84d752cfb021b5018e4979a23809e29dfcf2c4d31e49b217dd",
+      "bytes": 1681
+    },
+    {
+      "name": "generation_config.json",
+      "sha256": "c0c3e65ffae56c31cd78c33b34687bcfa8cb338e6bd1bf914525e478fa4ffff6",
+      "bytes": 170
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "sha256": "f61fd54d6e47f55db4452dd5a263cb5323d1b8077cad86bf536ae0e6b46b5df5",
+      "bytes": 4938993632
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "sha256": "a5219e366b4da0d6df6116a2b71c6bceea0b77dfcc5fdec4fa774f0f26c39ec4",
+      "bytes": 4947390880
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "sha256": "52a8836fee344f7582a208e4c01d218aa53fa3a3edbfab4538f50aecd57c1646",
+      "bytes": 4239524944
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "sha256": "3aa4216f08f95215796622b2fec456eb0caa3472b9e709b046cb386b77a1efb1",
+      "bytes": 73215
+    },
+    {
+      "name": "special_tokens_map.json",
+      "sha256": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7",
+      "bytes": 438
+    },
+    {
+      "name": "tokenizer.model",
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "bytes": 499723
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "e3d348c5c498caa305b77317e0aa4157e60f49bc1fa37e061273cc0b9a5efb52",
+      "bytes": 936
+    }
+  ],
+  "weight_hash_checks": [
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "match_original_LFS_sha256": true
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "match_original_LFS_sha256": true
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "match_original_LFS_sha256": true
+    }
+  ]
+}

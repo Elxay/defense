@@ -149,5 +149,5 @@ for m in ['llama','qwen']:
   else:eta='待前置/行速'
   lines.append('| '+f+' | '+' | '.join(cells)+' | '+eta+' |')
  lines.append('')
-(U/'family_condition_status_20261111_v3.md').write_text('\n'.join(lines)+'\n')
+(U/'family_condition_status_20261111_v3.md').write_text('\n'.join(lines).rstrip()+'\n')
 print(json.dumps({k:v for k,v in result.items() if k!='rows'}))
