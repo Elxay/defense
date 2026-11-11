@@ -81,3 +81,5 @@
 2026-11-11T03:47:04.013805+00:00 gate-only SORRY alpha0 qwen/expert_endorsement outputSHA=2ed0f42f558d4e39926f20585b07df80ca4f5605076eb164c41071eca67460c8 (no other judge/condition read)
 2026-11-11T03:47:04.041303+00:00 gate-only SORRY alpha0 qwen/prefix_P1 outputSHA=4dbc4a4729d81813796022b35c7bd8289df53fbada00e81cc6f9d865c69e8bba (no other judge/condition read)
 2026-11-11T03:47:04.068874+00:00 gate-only SORRY alpha0 qwen/prefix_P2 outputSHA=7993e72b84b0cf8c9e061a841553ff603fa0cdc4e5922728aa59331a44679b45 (no other judge/condition read)
+
+2026-11-11T06:21:49.384161+00:00 FREEZE addendum8 before coherence/domain read and AutoDAN warmup (0 outputs): metadata release register is retrospective, not backdated; choose entire Llama ml B4 version; preserve old B8. docSHA=dd531a146c4609c7a339f6e25ad225fbf0b8c2ab192b06be16f7b8ecbe29841a

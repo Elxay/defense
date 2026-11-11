@@ -1,0 +1,24 @@
+{
+  "utc_frozen": "2026-11-11T06:21:49.384161+00:00",
+  "parent_scale_sha256": "4e3d39106ec3c33c7cad5745b2376484f26a7e06b6bf713587ea5f66b473c6a3",
+  "W_cap_GPUh": 150,
+  "N_tiers": [
+    300,
+    150,
+    75
+  ],
+  "pilot_N": 20,
+  "pilot_retained": true,
+  "order": "fixed original warmup_ID prefix, sequential updates; never test rows",
+  "forecast": "W(n)=cold_reserved_GPUh+n*(pilot20 warmup+target+scoring+summary+embedding GPU resident hours/20); charge actual reserved devices once; CPU retrieval wall separately",
+  "selection": "choose largest N whose forecast <=150; equality allowed; if75 exceeds150 report budget infeasible and no formal library/test; no iterations or score changes",
+  "hard_cap": "if actual cumulative W reaches150, stop at completed request boundary (one-request overshoot reported); incomplete planned library is diagnostic only, no test search",
+  "uncertainty": "report pilot mean/SD and conditional bootstrap scenario interval; point forecast selects tier by this fixed rule",
+  "epochs": 150,
+  "break_score": 8.5,
+  "warmup_break_operator": ">=",
+  "summary_rounds": 1,
+  "retrieval_k": 5,
+  "test_library_readonly": true,
+  "warmup_outputs_before_freeze": 0
+}

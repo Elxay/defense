@@ -1,0 +1,18 @@
+{
+  "utc_frozen": "2026-11-11T06:21:49.384161+00:00",
+  "worker_sha256": "682e4a4206c160d48dd810d185c5d66c919e9af12293a8174a547c49d1b35ae4",
+  "main_outputs_read_before_freeze": false,
+  "scope": "each model x family x condition; alpha0, each learned/random, and pooled learned/random means with per-vector rows",
+  "metrics": [
+    "empty fraction strip==empty",
+    "word4 repeated-occurrence fraction (total occurrences minus unique)/total; casefold whitespace words",
+    "NFC whitespace-normalized character4 repeated-occurrence fraction",
+    "Unicode S/C among nonwhitespace characters; not a calibrated gibberish measure",
+    "langdetect1.0.9 failure fraction, seed20261111; all rows and nonempty rows"
+  ],
+  "undefined": "insufficient ngrams and no nonwhitespace characters remain null; report eligible denominator, mean and median",
+  "prefix": "complete response including fixed prefill; same rule all conditions",
+  "read_lock": "do not aggregate or read these main metrics until original model/family main reading lock is satisfied",
+  "selection_effect": "all language rows and English-original-response subset both reported; subset affected by intervention",
+  "interpretation": "descriptive only; no threshold, no mechanism or validity conclusion; no schedule/alpha changes"
+}
