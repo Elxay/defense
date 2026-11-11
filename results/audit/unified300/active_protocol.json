@@ -23,7 +23,7 @@
   "Llama_cap120_batch_candidate": 16,
   "SORRY_WG_report_name": "non-refusal rate",
   "Q2_WG_nonrefusal_decomposition": false,
-  "updated_utc": "2026-11-11T01:23:26.705236+00:00",
+  "updated_utc": "2026-11-11T03:47:04.095640+00:00",
   "Qwen_long_batch_candidate": 4,
   "long_batch_label_gate_passed": false,
   "S1a_frozen": true,
@@ -152,5 +152,31 @@
   "encoding_execution_locked": true,
   "language_execution_locked": false,
   "language_reply_preprocessing_execution_gate_passed": true,
-  "static_alpha0_SORRY_execution_plan_sha256": "dc60aa61f5c58aee96f6e9cd7bbbad777fca4f6a0d407d7e575fd532d309d460"
+  "static_alpha0_SORRY_execution_plan_sha256": "dc60aa61f5c58aee96f6e9cd7bbbad777fca4f6a0d407d7e575fd532d309d460",
+  "SORRY_alpha0_gate_decisions": {
+    "llama": {
+      "base": "active",
+      "deepinception": "active",
+      "refusal_suppression": "active",
+      "logical_appeal": "active",
+      "authority_endorsement": "active",
+      "misrepresentation": "active",
+      "evidence-based_persuasion": "active",
+      "expert_endorsement": "active",
+      "prefix_P1": "active",
+      "prefix_P2": "active"
+    },
+    "qwen": {
+      "base": "active",
+      "deepinception": "active",
+      "refusal_suppression": "active",
+      "logical_appeal": "active",
+      "authority_endorsement": "active",
+      "misrepresentation": "active",
+      "evidence-based_persuasion": "active",
+      "expert_endorsement": "active",
+      "prefix_P1": "active",
+      "prefix_P2": "active"
+    }
+  }
 }
