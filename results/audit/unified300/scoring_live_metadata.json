@@ -1,0 +1,134 @@
+{
+  "utc": "2026-11-11T12:38:57.840853+00:00",
+  "controller_utc": "2026-11-11T12:38:30.805373+00:00",
+  "progress": {
+    "SORRY": {
+      "utc": "2026-11-11T12:38:58.348981+00:00",
+      "pid": 1833053,
+      "judge": "SORRY",
+      "wave": "SORRY_0001",
+      "phase": "cache_only_scoring",
+      "no_main_effect_reads": true,
+      "completed_input_rows": 13300,
+      "total_rows": 21120,
+      "elapsed_seconds": 1679.6539849936962
+    },
+    "WG": {
+      "utc": "2026-11-11T12:38:57.090910+00:00",
+      "pid": 3937536,
+      "judge": "WG",
+      "wave": "WG_0001",
+      "phase": "cache_only_scoring",
+      "no_main_effect_reads": true,
+      "completed_input_rows": 4136,
+      "total_rows": 21120,
+      "elapsed_seconds": 1442.3458231198601
+    }
+  },
+  "first_wave_ETA": {
+    "SORRY": {
+      "recent_rows_per_hour": 21747.951818094305,
+      "elapsed_between_snapshots_seconds": 129.115607,
+      "forecast_utc": "2026-11-11T13:00:32.815708+00:00",
+      "scope": "First wave only, recent observed throughput; not full campaign or confidence interval"
+    },
+    "WG": {
+      "recent_rows_per_hour": 7149.487197290084,
+      "elapsed_between_snapshots_seconds": 128.90435,
+      "forecast_utc": "2026-11-11T15:01:29.088880+00:00",
+      "scope": "First wave only, recent observed throughput; not full campaign or confidence interval"
+    }
+  },
+  "gpus": {
+    "innet": [
+      {
+        "card": 0,
+        "memory_MiB": 21463,
+        "utilization_percent": 100
+      },
+      {
+        "card": 1,
+        "memory_MiB": 11441,
+        "utilization_percent": 98
+      },
+      {
+        "card": 2,
+        "memory_MiB": 16271,
+        "utilization_percent": 84
+      },
+      {
+        "card": 3,
+        "memory_MiB": 15419,
+        "utilization_percent": 90
+      }
+    ],
+    "node01": [
+      {
+        "card": 0,
+        "memory_MiB": 654,
+        "utilization_percent": 0
+      },
+      {
+        "card": 1,
+        "memory_MiB": 29,
+        "utilization_percent": 0
+      },
+      {
+        "card": 2,
+        "memory_MiB": 21867,
+        "utilization_percent": 100
+      }
+    ]
+  },
+  "active": [
+    {
+      "task": "main_qwen_deepinception_s5",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "started_utc": "2026-11-11T12:27:58.305033+00:00"
+    },
+    {
+      "task": "score_SORRY_0001",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "started_utc": "2026-11-11T12:10:57.610125+00:00"
+    },
+    {
+      "task": "score_WG_0001",
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "started_utc": "2026-11-11T12:14:53.133272+00:00"
+    },
+    {
+      "task": "main_llama_refusal_suppression_rand0",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "started_utc": "2026-11-11T12:20:03.303409+00:00"
+    },
+    {
+      "task": "AutoDAN_warmup_pilot20_v4",
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "started_utc": "2026-11-11T12:37:28.902687+00:00"
+    }
+  ],
+  "encoding_alpha0_task_counts": {
+    "pending": 16,
+    "running": 0,
+    "done": 0,
+    "failed": 0
+  },
+  "language_preprocessing_planned_cells": 9,
+  "main_labels_INVALID_counts_and_effects_read": false
+}

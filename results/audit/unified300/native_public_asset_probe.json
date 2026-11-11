@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-11T12:24:46.393552+00:00",
+  "rows": [
+    {
+      "name": "llava_readme_official",
+      "error_type": "URLError",
+      "url": "https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b/resolve/deae57a8c0ccb0da4c2661cc1891cc9d06503d11/README.md"
+    },
+    {
+      "name": "FigTxt",
+      "error_type": "URLError",
+      "url": "https://raw.githubusercontent.com/ThuCCSLab/FigStep/main/data/question/safebench.csv"
+    }
+  ]
+}

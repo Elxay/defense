@@ -55,7 +55,7 @@ def cycle():
         task=dict(id=taskid,priority=12 if judge=='HB' else 8,site='node01' if judge=='WG' else 'innet',
                   gpus=[0] if judge=='SORRY' else [2,3] if judge=='HB' else [2],kind='cache_only_judging',yieldable=False,
                   argv=['/data/ray/env/bin/python' if judge=='WG' else '/home/kemove/anaconda3/envs/HZX_GLA/bin/python',
-                        '{ROOT}/tools/handoff_20261106/'+('u300_hb_cache_worker_v1.py' if judge=='HB' else 'u300_score_cache_worker.py'),judge,wave],
+                        '{ROOT}/tools/handoff_20261106/'+('u300_hb_cache_worker_v2.py' if judge=='HB' else 'u300_score_cache_worker.py'),judge,wave],
                   requires=requires)
         if judge=='HB':task['requires'].append(dict(path='results/audit/unified300/score_waves/SORRY_0001/SORRY_complete.json'))
         if judge=='WG':task['sync_relpath']='results/audit/unified300/main_scores/WG'

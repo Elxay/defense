@@ -1,0 +1,73 @@
+{
+  "utc": "2026-11-11T12:38:57.840853+00:00",
+  "cost": [
+    {
+      "method": "PAIR",
+      "model": "llama",
+      "window_GPUh": 16.54594996756641,
+      "steady_without_cold_GPUh": 13.289856416018512,
+      "steady_with_cold_GPUh": 13.415801058342979,
+      "cold_GPUh": 0.12594464232446625,
+      "formal_window_seconds": 671.7274905780796
+    },
+    {
+      "method": "PAIR",
+      "model": "qwen",
+      "window_GPUh": 26.41066347120653,
+      "steady_without_cold_GPUh": 23.374571687669828,
+      "steady_with_cold_GPUh": 23.49470391187584,
+      "cold_GPUh": 0.1201322242060107,
+      "formal_window_seconds": 1075.5217328318395
+    },
+    {
+      "method": "TAP",
+      "model": "llama",
+      "window_GPUh": 104.73472123971831,
+      "steady_without_cold_GPUh": 81.56039502307915,
+      "steady_with_cold_GPUh": 81.68338351133423,
+      "cold_GPUh": 0.12298848825506865,
+      "formal_window_seconds": 4279.570885287132
+    },
+    {
+      "method": "TAP",
+      "model": "qwen",
+      "window_GPUh": 179.0643365157524,
+      "steady_without_cold_GPUh": 147.93852982345587,
+      "steady_with_cold_GPUh": 148.0572089593875,
+      "cold_GPUh": 0.11867913593162989,
+      "formal_window_seconds": 7320.504165538121
+    }
+  ],
+  "fallback": [
+    {
+      "method": "PAIR",
+      "model": "llama",
+      "N": 10,
+      "fallback": 0,
+      "scope": "completed pilot final prompts only"
+    },
+    {
+      "method": "PAIR",
+      "model": "qwen",
+      "N": 10,
+      "fallback": 0,
+      "scope": "completed pilot final prompts only"
+    },
+    {
+      "method": "TAP",
+      "model": "llama",
+      "N": 10,
+      "fallback": 0,
+      "scope": "completed pilot final prompts only"
+    },
+    {
+      "method": "TAP",
+      "model": "qwen",
+      "N": 10,
+      "fallback": 0,
+      "scope": "completed pilot final prompts only"
+    }
+  ],
+  "known_440_point_sum": 326.75567119424363,
+  "not_tier_selection": true
+}
