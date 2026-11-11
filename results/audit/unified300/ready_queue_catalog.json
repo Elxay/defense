@@ -1,6 +1,6 @@
 {
   "utc_frozen": "2026-11-11T03:58:15.113322+00:00",
-  "controller_sha256": "908bebf5fe9982382e796efddb22fb209d4a4410806cc2c687bd0f024d5b4efc",
+  "controller_sha256": "bf7b6a721ec1d59d2db5d0914d43d4036c78b3f624eb262a409c58cf471df101",
   "runner_sha256": "a8dfbfb640924f59c95546eaba4838f8e8ddf5348d24f6cd0fb61a19b18083d8",
   "poll_seconds": 30,
   "idle_alert_seconds": 900,
@@ -4555,9 +4555,9 @@
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "c340e8828c90ad8c7d71b4f7b59ddd374757c59f05f6aeeec7664a5b98e93384",
-  "updated_utc": "2026-11-11T07:00:05.880985+00:00",
-  "controller_version": 5,
+  "parent_catalog_sha256": "fb13601b4dca078269e91e460c584768268b4c07f6ff780695b20af816327b9c",
+  "updated_utc": "2026-11-11T07:02:22.585374+00:00",
+  "controller_version": 6,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",
   "compatible_innet_slots": {
@@ -4592,5 +4592,7 @@
       "sha256": "a95df531113f8ab781102b40802902077f73ffccebc8d67ac4f0dab5d7447ade"
     }
   },
-  "node_language_worker_binding_sha256": "67396f86c52360f17ffa900a3b2ba2311f10a821cca14173dfd90bcc2fa3ce44"
+  "node_language_worker_binding_sha256": "67396f86c52360f17ffa900a3b2ba2311f10a821cca14173dfd90bcc2fa3ce44",
+  "controller_relative": "tools/handoff_20261106/unified300_ready_queue_v6.py",
+  "idle_clock_restart": "preserve starts and last alerts; derive previous seconds only when old timestamp available; no backdated unrecorded idle periods"
 }
