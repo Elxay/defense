@@ -1,0 +1,174 @@
+{
+  "utc": "2026-11-11T17:08:15.620546+00:00",
+  "seed": 20261267,
+  "package": "langdetect1.0.9",
+  "cells": [
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "fr": 437,
+        "en": 3
+      },
+      "non_English": 437,
+      "unknown": 0,
+      "non_English_pct": 99.31818181818181,
+      "source_manifest_sha256": "1df5b2b2df748906d03b73478975271811d2a611df9d24d54d1b7065b6c9d103"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "fr": 437,
+        "so": 1,
+        "en": 2
+      },
+      "non_English": 438,
+      "unknown": 0,
+      "non_English_pct": 99.54545454545455,
+      "source_manifest_sha256": "b7e05b4d801847a92b5e55ec8473ba4d403409449613de19c76e2597a9c7ab99"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "ml": 440
+      },
+      "non_English": 440,
+      "unknown": 0,
+      "non_English_pct": 100.0,
+      "source_manifest_sha256": "8b0e1c736536957122e320a0062a042a8eec6174a745078b1ccf66421550400a"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "ml": 411,
+        "en": 25,
+        "zh-cn": 4
+      },
+      "non_English": 415,
+      "unknown": 0,
+      "non_English_pct": 94.31818181818181,
+      "source_manifest_sha256": "9f1640c7a0954a9177d663270a456c28cac8bc208ac3909a08693ddcc3eaea06"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "mr": 436,
+        "hi": 3,
+        "en": 1
+      },
+      "non_English": 439,
+      "unknown": 0,
+      "non_English_pct": 99.77272727272727,
+      "source_manifest_sha256": "29a3577afc5a53df0cf7981f3d4d213fa7c836bf00c3b7b9b383c51e498e4ed4"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "mr": 413,
+        "en": 24,
+        "ne": 3
+      },
+      "non_English": 416,
+      "unknown": 0,
+      "non_English_pct": 94.54545454545455,
+      "source_manifest_sha256": "8bd2642bcce4c45c240bd18c2a34c466dc2e19ca4d7b114ca5428e8edc9c5347"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "N": 76,
+      "expected": 440,
+      "complete": false,
+      "distribution": {
+        "ta": 76
+      },
+      "non_English": 76,
+      "unknown": 0,
+      "non_English_pct": 100.0,
+      "source_manifest_sha256": "573680fbd3e807672038998b686ebb04f11c45b402bcdad179d7ec32ab0d11fd"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "ta": 431,
+        "ja": 1,
+        "en": 6,
+        "zh-cn": 2
+      },
+      "non_English": 434,
+      "unknown": 0,
+      "non_English_pct": 98.63636363636364,
+      "source_manifest_sha256": "a7f9a53edeceda6c12cc2ef5b4d49b1039fc6670ad63598102c08cb32a3490e0"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "ko": 55,
+        "zh-cn": 372,
+        "en": 9,
+        "ca": 1,
+        "no": 1,
+        "vi": 2
+      },
+      "non_English": 431,
+      "unknown": 0,
+      "non_English_pct": 97.95454545454545,
+      "source_manifest_sha256": "7bb261a864207e6378bc05312aa1a55e841e5167c06e7dd10222e97d8eb487c1"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "N": 440,
+      "expected": 440,
+      "complete": true,
+      "distribution": {
+        "zh-cn": 432,
+        "no": 1,
+        "en": 4,
+        "sk": 1,
+        "vi": 1,
+        "ko": 1
+      },
+      "non_English": 436,
+      "unknown": 0,
+      "non_English_pct": 99.0909090909091,
+      "source_manifest_sha256": "2b0d64bce7fa26a1dfc5591a53dc7defbbcf0cf6a47e2bc4375db98617dbb9d4"
+    }
+  ],
+  "N": 4036,
+  "non_English": 3962,
+  "unknown": 0,
+  "protected_condition_language_not_read": true,
+  "partial_cell": "llama translate-ta76/440"
+}

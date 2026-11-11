@@ -1,0 +1,22 @@
+{
+  "utc_frozen": "2026-11-11T17:08:15.641758+00:00",
+  "doc_sha256": "6dbf37bb976a7d62827711e12fcea1f2e819a63d06b2594ac6e2b13ce8a79520",
+  "panel_sha256": "4e462ce51bc185919ac2b55777fc0ead2969f778d7b22e9754661b604471a9cc",
+  "reference_parent_plan_sha256": "95b187d35833672ed6ef2b3b922326ce1e21d1835103dbdf856a0f86c1a0537a",
+  "candidate_B": [
+    8,
+    4,
+    1
+  ],
+  "N_pairs": 100,
+  "max_disagreement_pairs": 2,
+  "INVALID_counts_as_disagreement": true,
+  "min_headroom_GiB": 3,
+  "max_new_tokens": 4096,
+  "formal_batch_admitted": false,
+  "gate_not_executed": true,
+  "main_nonzero_effects_read": false,
+  "old_AutoDAN_forecast_formula_unchanged": true,
+  "AutoDAN_current_stop_provisional": true,
+  "auto_sunk_GPUh_once_in_search600": 8.035420622823812
+}

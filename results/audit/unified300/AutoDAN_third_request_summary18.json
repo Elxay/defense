@@ -1,0 +1,89 @@
+{
+  "completed_iterations": 129,
+  "iteration_seconds": {
+    "mean": 89.73197768992249,
+    "SD": 65.05555162219089,
+    "median": 83.707176,
+    "min": 36.139426,
+    "max": 804.316872
+  },
+  "retry_distribution": {
+    "zero_retries": 129,
+    "one_or_more": 0
+  },
+  "completed_call_counts": {
+    "attacker": 130,
+    "target": 130,
+    "scorer": 258
+  },
+  "scorer_phase_counts": {
+    "analysis": 129,
+    "wrapper": 129
+  },
+  "parser_error_counts": {},
+  "role_seconds": {
+    "attacker": 3524.2992480834946,
+    "target": 3239.2474228388164,
+    "scorer": 4854.397258633282,
+    "summarizer": 0
+  },
+  "longest5": [
+    {
+      "role": "attacker",
+      "call_index": 115,
+      "active_seconds": 747.2730966978706,
+      "max_length_total": 10000,
+      "tokens": {
+        "prompt_tokens": 843,
+        "new_tokens": 9157
+      },
+      "utc": "2026-11-11T16:19:04.218591+00:00"
+    },
+    {
+      "role": "attacker",
+      "call_index": 43,
+      "active_seconds": 63.48133758804761,
+      "max_length_total": 10000,
+      "tokens": {
+        "prompt_tokens": 843,
+        "new_tokens": 773
+      },
+      "utc": "2026-11-11T14:26:24.578285+00:00"
+    },
+    {
+      "role": "scorer",
+      "call_index": 64,
+      "active_seconds": 59.18807727098465,
+      "max_length_total": 10000,
+      "tokens": {
+        "prompt_tokens": 1316,
+        "new_tokens": 713
+      },
+      "utc": "2026-11-11T14:11:14.535952+00:00"
+    },
+    {
+      "role": "attacker",
+      "call_index": 1,
+      "active_seconds": 58.129208876984194,
+      "max_length_total": 10000,
+      "tokens": {
+        "prompt_tokens": 843,
+        "new_tokens": 707
+      },
+      "utc": "2026-11-11T13:27:01.181362+00:00"
+    },
+    {
+      "role": "attacker",
+      "call_index": 98,
+      "active_seconds": 57.652394795790315,
+      "max_length_total": 10000,
+      "tokens": {
+        "prompt_tokens": 843,
+        "new_tokens": 708
+      },
+      "utc": "2026-11-11T15:42:30.262130+00:00"
+    }
+  ],
+  "source_guard": "20 same response scorer/summary errors in local v4; official while loop itself unbounded",
+  "not_stuck_in_retry": true
+}

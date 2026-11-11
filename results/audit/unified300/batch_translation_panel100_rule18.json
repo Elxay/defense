@@ -1,0 +1,608 @@
+{
+  "utc_frozen": "2026-11-11T17:08:15.618764+00:00",
+  "seed": 2026111201,
+  "scope": "alpha0 non-English engineering only,10 rows/model/language; no outcome labels used",
+  "Llama_Tamil_partial76_explicit": true,
+  "rows": [
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 323,
+      "source_sha256": "e4cafe14c169672da5b8396369883bcf888b79e400d9f9a881b41fd7bd9877f0"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 352,
+      "source_sha256": "41707221cfd56b0310190f7ed28afdfccad79a7ec8f6422d23618553e9762adb"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 439,
+      "source_sha256": "6477755a5a10ddc8fb8bdece44189394a6c5a22e35eb1568a491f294558b6b88"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 57,
+      "source_sha256": "1b0c65c075e909b91bcf125df19005c96612ec01d15a53ea406fe0dd7f079f82"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 355,
+      "source_sha256": "d90306f12015a396e03fa4b4c5ddfc68f501c24ea53a39f72a89e36fd3f175dc"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 234,
+      "source_sha256": "a314bd212b20b43799e326094aeac91faaadc2904f79932903f222acd7ffae77"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 267,
+      "source_sha256": "c3ead9d888335e15665512f0c1691870fb5e449e82ab9c5dacdaf4f735d979b5"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 2,
+      "source_sha256": "d41cb595e265bef5a4375ae13b965df0259c5c6396fbe012fc90a8f9de84160b"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 231,
+      "source_sha256": "a6dbea109a14b7a07e939de1157bc2813ca4f0d426d87cf8e105f5d653d465ff"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "id": 257,
+      "source_sha256": "b29d2a647b4a03290b874de2a77a1fd629cf1e4c00f49e853f555a7ebab31127"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 279,
+      "source_sha256": "201a18c85504ad3f1121c26ffd61f101334697fd2d42502d4ff01ba79934a130"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 440,
+      "source_sha256": "f0e99e131c30b69d9d22b915e7b69f09749b76b1ac731da4a9e9aad528df5818"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 307,
+      "source_sha256": "d30d6b55adcab99adfb45ca06389cffb069dac31958d0212bc776731f4bdb4b5"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 113,
+      "source_sha256": "1dcaf9de95e90cdd2001e303c06c41134eccb1940e6f1c6d2b3ad8051c1a7c3a"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 274,
+      "source_sha256": "37f3427866ba5646925c250f22be81184aee5637f43e52cd13ad4da7bf5ec048"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 174,
+      "source_sha256": "0db7503199774dddfbd800ef6d4bb9e6becca95f32902bfdb653eaee27822bb2"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 242,
+      "source_sha256": "f70358498fcda658c30a0628e3b7eca67af4940194c6ac8c97fd4ef7e2c87e19"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 141,
+      "source_sha256": "91eaabd79f75b5c8c2f07c747f4099070f078875ba3164c8d6d803f0ce5c76b9"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 263,
+      "source_sha256": "32144926319085d0923241476b50d7111f7b15c52ea3ca0a89eca4b608246910"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "id": 379,
+      "source_sha256": "095d4a4ceb4fc908b0d5806da0eea667f0e32cbcd15561183ab1535c6de2573b"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 256,
+      "source_sha256": "b9a86a1ac30ca655ff806868805ba2d878f2b82b10da932d40548476f36221e7"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 437,
+      "source_sha256": "a7a3f24b7a210e144595d5372cbb910e06fe153bb417160abb5155416630ae2f"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 111,
+      "source_sha256": "bb77dab385ce85a57a9071ec293455e984ea73283f9bc2c566e563d1d7b6e09a"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 339,
+      "source_sha256": "e7ecf988d1f24a290d1a414c7b52ba967dd66da3f73c894f2c6f0e9e32f2e983"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 334,
+      "source_sha256": "98d948d59bbccdbb48c6d563532e943e9c1a7eca7ed4cdf0cf9491fcfa9107b2"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 26,
+      "source_sha256": "334ce0c91ac809d4dcf2e1676c8d0062a84bd8607f99c00d4205a0b5455f4b7d"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 301,
+      "source_sha256": "f3953de9ad6b2b7691c31f2365a28ae0537f6b44418492caafd4b541a03de6a0"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 303,
+      "source_sha256": "e6f7d6a5cb8c7d043fc17454a716cb52c436eeacb372b0577e4068a71f07b60d"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 4,
+      "source_sha256": "34736236b02bd5b328a00ebb2d2e7cdaa68ce4a11c939100bfc9a3532d4ca143"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ml",
+      "id": 336,
+      "source_sha256": "2049652c795aaf4cff9edf9345d0b05f86cfd5192d999067f6d137f704dd3b4d"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 420,
+      "source_sha256": "6770f2bf6135b2a5a15a13d0db4ef63f187167ae9ca2bb9c26bdfcffaa1c2a90"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 211,
+      "source_sha256": "1a67c3c0dd27b1ddce8eea750fabf3c8cc75a0cc61eaa4661b93b7ba255748ad"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 55,
+      "source_sha256": "b30c8dcd4dcef95597984fa0c474875e53f6c403687c97f99ed8e475cdece0b1"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 237,
+      "source_sha256": "ed7d6929ca31997696163ff2e1b73ebc90f61445d078869e247a3d396f818f89"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 210,
+      "source_sha256": "0f8ca8a14341640ddc97679f6da273701644c211c3488a8f3a91779a85491324"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 97,
+      "source_sha256": "4338a27e76559ab4a858b4fa38e639c97481f6eb811d721688e0d139da983347"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 68,
+      "source_sha256": "6da5fecbf5111f7a6ddcc02c307ca37eb45db6e63c1e1bc033fee5c03c760a91"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 172,
+      "source_sha256": "88c428d21c53a183eb113a4fbc8cfe0cbc633d5bedd5b1359725b1f42c0af7b2"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 111,
+      "source_sha256": "084dd361e7f69c68cd5656624f783642c79c340a598f3c3cb6592f1ae086597c"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 95,
+      "source_sha256": "c9d3d7b31c66f43a2ea8bfc329faa99ac6376b87061fd6f95ec9ecd45edd61bd"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 149,
+      "source_sha256": "b18f1cb97229b286148fe4372b8a193398f3ee23be98230c0654e783c5ca2ea1"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 251,
+      "source_sha256": "23ae52f8f6c388da0c1197ac7a2e0e30527ea2a48a3511a841ba5936cf062829"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 347,
+      "source_sha256": "9b1fa798b1db0539fc3b9e298d1b011d10dc38f042915b89aa45d77bf3873ded"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 59,
+      "source_sha256": "f4f5c628760e0a45594de69199170d2bdff6071e1a4445b3e6b1a6d573619881"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 356,
+      "source_sha256": "5ea274246ae6ec79dda8c5be52734c9bd586986f52aa22352ba0539d47018fe3"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 340,
+      "source_sha256": "e23080a113d792657917cd559341e069bd7686c41b675dd21fd4df56486a94cd"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 63,
+      "source_sha256": "f20efa6a71db5a78c75b9f510ef4676b911c96e2ea852badc78a95a372983762"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 99,
+      "source_sha256": "38852a1332e7244a6da4df2d2a79dfde9f58dc6abef96299bf58c3d3d0193d04"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 301,
+      "source_sha256": "433624673662b11668c9b7e25a3c610b219092d72d2881e0a839043ed635ef03"
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 122,
+      "source_sha256": "68e87a645dd67331a388dacfeba424f20981e4e9f8a2a45c57bb770b9c21e2ee"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 380,
+      "source_sha256": "c32a175d03a8fb2430dcb1fe1764da0e03d13da86919095d90d64a1c7aee0e79"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 54,
+      "source_sha256": "11585e1545ff678f21ce8662e1127ddd547f69c78f27f894a384ca921c35f85d"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 351,
+      "source_sha256": "01d3897165166009bce951eaac71ee53dacf8df521afcb3f2308c6b47a4159b7"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 241,
+      "source_sha256": "e68a89620b4a7e5990d987ab258db5128191e7d89a962f33d331d2caeda5dcec"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 58,
+      "source_sha256": "be834b507890a6a2f8dc30fd77429fab50048d38699acb342ec464bd7d8f0bbf"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 423,
+      "source_sha256": "902a782fcf122a2cfd50b939451cd622acaa6e8c5594a1af776bc00b46461ca6"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 37,
+      "source_sha256": "02ecc1632682a4f53f151af502acff5dc6b5b0e41cbcb52dd93146075754f9db"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 148,
+      "source_sha256": "01657e4d1e39323b44f3c58165e4d0013856710f03d404546b2bfad43e63559a"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 64,
+      "source_sha256": "65f16514fa32ae5a5caaae0e155ae2d64cd2c984a13cef235f64ae906930aebf"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 25,
+      "source_sha256": "b7ea3b37b7a983607ce8a5c78772f129e052c3480e33677d8710c29154e8eb79"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 52,
+      "source_sha256": "7a38817ffc760dfc17d4658c9d95646463f9cae6abad762dbcc6ca55a8ea619e"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 200,
+      "source_sha256": "ce8b8a99fd8c6bf4e2b6f6cea4bd3f7a9cd9e3d03c985bb1d7e1a63fad54ba5d"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 54,
+      "source_sha256": "edd01cbecfaadb9f7ffa110afd92d2bc32698ea2eacd94a7e7408c078ef883b1"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 59,
+      "source_sha256": "0f11dede9c5e44832f9eac92d0c12137a14a21a524d96dde8753b1086b391043"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 230,
+      "source_sha256": "44af0e6455f45937f6f2eaa9ee6931a2d2e6dcb63d30108478402fd42e3f0ae8"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 2,
+      "source_sha256": "8336c3935d815d46167065ed99c8ca2f1b2bb9a9bcd5fcb1ef8c4f22d18f2e27"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 349,
+      "source_sha256": "630be23bd9beade05f0b3b0a4b6f03a84fd681b3014e18550217f454b0d22610"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 141,
+      "source_sha256": "97204e4f2e9a083aacd309060b93aa10c38b349ee06d54c298c48f1457a6c279"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 19,
+      "source_sha256": "c71714e4e0037028cbb4c22b18ae2096a5a02c95d16ed14e2ec50a4028ce1e8b"
+    },
+    {
+      "model": "llama",
+      "family": "translate-ta",
+      "id": 85,
+      "source_sha256": "a62d8aaaaa614c2890b7ba8b66839dc63bb316c5779a8267c6ad8b037d6e9d67"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 201,
+      "source_sha256": "7d9c694273fc014bcc099c25b8368087504e3135842b5718645aa70e78f33584"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 111,
+      "source_sha256": "205ef270c23820ffb4122d07037fa52d898fffb179c53e70ffb25f00074f4217"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 252,
+      "source_sha256": "841792f3b25e583378ee617978c01f7fe8358d333f9476a2623387e005593e6d"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 121,
+      "source_sha256": "e085fb328f1a3f70fcde4d1179b8296c28a8661413baa5c5895483ba39ed81f3"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 57,
+      "source_sha256": "1e5eb3f5ab1afc16dd097d060962c240ae5fedf7e1ac424f1a40f4a6ca6dfbeb"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 16,
+      "source_sha256": "458a23dc9d19416e6ee1da218786002594a5038eea9aa9ffcccd695451a6bc51"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 62,
+      "source_sha256": "b95b7589119666b1c87427e071c3fa3c8b89b847ca7b7218fb2166d590ffd871"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 127,
+      "source_sha256": "0c77759cb6d73fe6cdadb9ebed874347f71703121e557cd5e8d09ad495aca7ec"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 27,
+      "source_sha256": "5630ae6942017e4ab791749a7af854b2d0a24a543a452224ae8bfdefa7d80247"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 247,
+      "source_sha256": "5e89305357061289b383cfbbbbcd531ca9bb69fbd6b3c35086f30d3b76169614"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 143,
+      "source_sha256": "d9293f8b0823ba48185ecba1c334ac0de324a6e02834628c13f85db45ac30f46"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 436,
+      "source_sha256": "4e54d3aac794811ea64c0eb5ef524c66310eacd92887310077310cc98ee02d32"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 34,
+      "source_sha256": "33ca60297fbbd4ab8f5ab919bcaf6d59c42fd50ead1c09a5839f416229fded7a"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 341,
+      "source_sha256": "94addd8ff8e82259f468a0c3035a3efe430c675693b7137570fe811cbef1a3ae"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 66,
+      "source_sha256": "1e7b4684f86ed99f0782b05006218bbf63e50ccebd60fa81c5cf704d61f13f7c"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 131,
+      "source_sha256": "00eda61b0995e2fbb43c4cc26e84ce6797079b54b74d13e485f955157ca94b8e"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 199,
+      "source_sha256": "37877bcd752bfdddc286b2b7be321d3a34c71f18c60880fbf8ef96781a42dfa5"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 124,
+      "source_sha256": "b1f109b2393ba1fd68786f15cd8cf039af8f412ec8383f0104e1234ca8778340"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 78,
+      "source_sha256": "8559f5103a3dae2bd660d67a36ccd253eadffe91ea78e563b2b46f559169759a"
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 135,
+      "source_sha256": "2117b51c62d6d18f85ebc3a1d726e7e03ae9ec60c8044be242b423b2dd296c00"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 162,
+      "source_sha256": "2dfaf1908a1ea4d48c9d4dd30bb341bc6ecab6045def605ab40134ef29c7e826"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 304,
+      "source_sha256": "afae761a5f0716b2e534c62665137d75b12723a5ad637059881abe2f4910f116"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 197,
+      "source_sha256": "f08f5681b1bdfa73ea71302312ccaccd23991204b3d41b2a73a8dc47c0ef4f9e"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 110,
+      "source_sha256": "4c3814d9c52d08bbefdb537781a349858b8e2fdfef4f5b568ae3f3d6a69c8718"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 115,
+      "source_sha256": "959bdf9b0b7aab17ef1002b5522cc627a4fc60f50179c3c1e772eaea1b1311fd"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 336,
+      "source_sha256": "4e1a0ecb9270a88c5bd4c8d075d39d33f9b29e9d90e1de4b582a34b406d4036b"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 104,
+      "source_sha256": "467d02a4ffdc0d370fc2e477edc5506dddf4585cb36b0e2bafc97108700722d0"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 265,
+      "source_sha256": "4e3ea4d2340efa0ffe14131d89d9180c002360e76b7a186915b59f3e462f7b84"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 211,
+      "source_sha256": "0fe9b730d1f85dba126441468f27d36c582d627cb7d269c8ff4c88740236d3f5"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 159,
+      "source_sha256": "fc9e927d88ccede51e4014a0fb0612329e254bb6787034fc506f7132160d0942"
+    }
+  ]
+}
