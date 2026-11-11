@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-11T04:00:53.666799+00:00",
+  "canonical_alias": "results/audit/unified300/ready_generated",
+  "physical_subpath": "results/audit/unified300/results/audit/unified300/ready_generated",
+  "sites": [
+    "innet",
+    "node01"
+  ],
+  "generated_files_moved": 0,
+  "generated_files_rewritten": 0,
+  "numerical_code_changed": false,
+  "reason": "worker resolves output_root relative to U; canonical alias preserves planned downstream cache paths"
+}
