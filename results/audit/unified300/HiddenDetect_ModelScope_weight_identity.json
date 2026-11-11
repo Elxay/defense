@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-11T13:16:14.137489+00:00",
+  "original_HF_revision": "deae57a8c0ccb0da4c2661cc1891cc9d06503d11",
+  "checks": [
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "equal": true
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "equal": true
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "equal": true
+    }
+  ],
+  "public_full_precision": true,
+  "no_quantized_substitute": true
+}

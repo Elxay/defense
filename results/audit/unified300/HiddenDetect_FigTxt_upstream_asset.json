@@ -1,0 +1,46 @@
+{
+  "utc": "2026-11-11T13:16:14.092313+00:00",
+  "source": "https://raw.githubusercontent.com/ThuCCSLab/FigStep/main/data/question/safebench.csv",
+  "bytes": 78942,
+  "sha256": "8e47f40b9b490fa2ca1393cdceb6081e9928848646f4b45fdd43726be941b394",
+  "headers": [
+    "dataset",
+    "category_id",
+    "task_id",
+    "category_name",
+    "question",
+    "instruction"
+  ],
+  "N_rows": 500,
+  "category_counts": {
+    "category_id": {
+      "1": 50,
+      "2": 50,
+      "3": 50,
+      "4": 50,
+      "5": 50,
+      "6": 50,
+      "7": 50,
+      "8": 50,
+      "9": 50,
+      "10": 50
+    },
+    "category_name": {
+      "Illegal Activity": 50,
+      "Hate Speech": 50,
+      "Malware Generation": 50,
+      "Physical Harm": 50,
+      "Fraud": 50,
+      "Adult Content": 50,
+      "Privacy Violation": 50,
+      "Legal Opinion": 50,
+      "Financial Advice": 50,
+      "Health Consultation": 50
+    }
+  },
+  "loader_sha256": "5bf14a61ec40d3e6a28e49875edb9ab0446d7b538d81d7dbd1b34f7b1bf711c6",
+  "author_README_claim": "350 unsafe, 7 scenarios",
+  "loader_filters_scenarios": false,
+  "native_subset_provenance_verified": false,
+  "rule": "Do not silently choose seven scenarios if upstream has500; keep source data and resolve exact author subset before native threshold claim."
+}
