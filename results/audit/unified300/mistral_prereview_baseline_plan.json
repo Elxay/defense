@@ -1,0 +1,19 @@
+{
+  "utc_frozen": "2026-11-11T14:31:08.438722+00:00",
+  "worker_sha256": "eca422b99e7a623047a4acf25298242fa92a4a55c949264ea4077f555f77a5a9",
+  "assets_relative": "results/audit/crossmodel287/mistral/assets_verified_actual_path.json",
+  "assets_sha256": "296d8064f10cf270c613e33facaf3fa38a633dd83c7c3c9391f138a84c557b7f",
+  "inputs_relative": "results/audit/crossmodel287/native_selection_inputs.private.json",
+  "inputs_sha256": "1d647c4d14842a9f65708df2f38eb0bea51e56ef5ad24777480c71253d617d85",
+  "layer_zero_based": 9,
+  "attention": "sdpa",
+  "dtype": "bf16",
+  "legal_batch": 8,
+  "legal_cap": 120,
+  "val_batch": 1,
+  "val_cap": 2400,
+  "scope": "Training-prerequisite alpha0 only; old val70/legal388 review, not unified700 or main test",
+  "training_locked_until_review": true,
+  "first_native_zero20_gate": true,
+  "statistical_results_read": false
+}
