@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-11T07:05:59.821794+00:00",
+  "passed": true,
+  "prelaunch_only": true,
+  "gate_directory": "/fixture/TAP_execution_gate_v3/llama",
+  "pilot_complete_dependency": "/fixture/TAP_execution_gate_v3/llama/complete.json",
+  "version2_never_executed": true
+}
