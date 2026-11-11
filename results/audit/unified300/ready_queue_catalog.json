@@ -84,7 +84,9 @@
     "results/audit/unified300/ready_generation_plan_B4_ta.json",
     "results/audit/unified300/ready_worker_operational_binding_v4.json",
     "tools/handoff_20261106/unified300_autodan_worker_v3.py",
-    "results/audit/unified300/S1b_AutoDAN_frozen_v3.json"
+    "results/audit/unified300/S1b_AutoDAN_frozen_v3.json",
+    "tools/handoff_20261106/unified300_tap_pilot_v4.py",
+    "results/audit/unified300/S1b_TAP_frozen_v4.json"
   ],
   "tasks": [
     {
@@ -4368,13 +4370,13 @@
       "kind": "search_pilot10",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v3.py",
+        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v4.py",
         "pilot",
         "llama"
       ],
       "requires": [
         {
-          "path": "results/audit/unified300/TAP_execution_gate_v3/llama/complete.json",
+          "path": "results/audit/unified300/TAP_execution_gate_v4/llama/complete.json",
           "key": "passed",
           "value": true
         }
@@ -4845,31 +4847,6 @@
       "yieldable": true
     },
     {
-      "id": "TAP_qwen_gate_v3",
-      "priority": 9,
-      "site": "node01",
-      "gpus": [
-        0,
-        1
-      ],
-      "kind": "method_runtime_gate",
-      "argv": [
-        "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v3.py",
-        "gate",
-        "qwen"
-      ],
-      "requires": [
-        {
-          "path": "results/audit/unified300/PAIR_execution_gate_v2/qwen/complete.json",
-          "key": "passed",
-          "value": true
-        }
-      ],
-      "sync_relpath": "results/audit/unified300/TAP_execution_gate_v3/qwen",
-      "yieldable": false
-    },
-    {
       "id": "TAP_qwen_pilot",
       "priority": 10,
       "site": "node01",
@@ -4880,24 +4857,74 @@
       "kind": "search_pilot10",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v3.py",
+        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v4.py",
         "pilot",
         "qwen"
       ],
       "requires": [
         {
-          "path": "results/audit/unified300/TAP_execution_gate_v3/qwen/complete.json",
+          "path": "results/audit/unified300/TAP_execution_gate_v4/qwen/complete.json",
           "key": "passed",
           "value": true
         }
       ],
       "sync_relpath": "results/audit/unified300/TAP_pilot/qwen",
       "yieldable": false
+    },
+    {
+      "id": "TAP_llama_gate_v4",
+      "priority": 5,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "method_runtime_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v4.py",
+        "gate",
+        "llama"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/PAIR_execution_gate_v2/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/TAP_execution_gate_v4/llama",
+      "yieldable": false
+    },
+    {
+      "id": "TAP_qwen_gate_v4",
+      "priority": 9,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "method_runtime_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v4.py",
+        "gate",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/PAIR_execution_gate_v2/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/TAP_execution_gate_v4/qwen",
+      "yieldable": false
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "ef69238a730a9b9b6c4b8014f58967a61a7ff4dedae5d1afbddc325bb0e589f2",
-  "updated_utc": "2026-11-11T07:42:13.396945+00:00",
+  "parent_catalog_sha256": "4b7bdd49845beba5409ab2378ea27a3e2ff487b24a478cbc4d41546c690f2575",
+  "updated_utc": "2026-11-11T07:46:56.071684+00:00",
   "controller_version": 7,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",
@@ -4965,6 +4992,35 @@
         "yieldable": false
       },
       "reason": "prelaunch pilot prerequisite path contract corrected; no worker launched"
+    },
+    {
+      "utc": "2026-11-11T07:46:56.071684+00:00",
+      "task": {
+        "id": "TAP_qwen_gate_v3",
+        "priority": 9,
+        "site": "node01",
+        "gpus": [
+          0,
+          1
+        ],
+        "kind": "method_runtime_gate",
+        "argv": [
+          "/data/ray/env/bin/python",
+          "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v3.py",
+          "gate",
+          "qwen"
+        ],
+        "requires": [
+          {
+            "path": "results/audit/unified300/PAIR_execution_gate_v2/qwen/complete.json",
+            "key": "passed",
+            "value": true
+          }
+        ],
+        "sync_relpath": "results/audit/unified300/TAP_execution_gate_v3/qwen",
+        "yieldable": false
+      },
+      "reason": "use corrected per-method counter contract"
     }
   ],
   "graceful_restart": "SIGTERM requests stop; finish current deployment and save PID before exit; journal staging/launched retained"
