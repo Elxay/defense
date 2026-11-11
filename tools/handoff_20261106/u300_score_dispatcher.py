@@ -64,7 +64,15 @@ def cycle():
                                    manifest_sha256=H(w/'manifest.json')))
     # Runtime catalog is a CPU dispatch receipt under a previously published algorithm.
     # Existing running definitions are pinned by controller v8, never altered here.
-    save(C,cat);save(U/'score_dispatch_state.json',dict(**prior,utc=utc(),pid=os.getpid(),score_labels_read=False))
+    # Merge only the additions into the newest catalog. Other CPU preparers can add
+    # tasks while this process is assembling a large private input pack.
+    with (R/'logs/unified300_catalog_mutation.lock').open('a') as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX)
+        newest=L(C);ids={t['id'] for t in newest['tasks']}
+        newest['tasks'] += [t for t in cat['tasks'] if t['id'] not in ids]
+        newest['node_deploy_files']=list(dict.fromkeys(newest['node_deploy_files']+cat['node_deploy_files']))
+        save(C,newest)
+    save(U/'score_dispatch_state.json',{**prior,'utc':utc(),'pid':os.getpid(),'score_labels_read':False})
 
 if __name__=='__main__':
     lock=(R/'logs/unified300_score_dispatch.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
