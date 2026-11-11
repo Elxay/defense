@@ -75,7 +75,9 @@
     "repos/AutoDAN-Turbo/llm/huggingface_models.py",
     "tools/handoff_20261106/unified300_autodan_worker_v2.py",
     "results/audit/unified300/S1b_AutoDAN_frozen_v2.json",
-    "results/audit/unified300/AutoDAN_dependency_ready.json"
+    "results/audit/unified300/AutoDAN_dependency_ready.json",
+    "tools/handoff_20261106/unified300_tap_pilot_v2.py",
+    "results/audit/unified300/S1b_TAP_frozen_v2.json"
   ],
   "tasks": [
     {
@@ -4359,13 +4361,13 @@
       "kind": "search_pilot10",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot.py",
+        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v2.py",
         "pilot",
         "llama"
       ],
       "requires": [
         {
-          "path": "results/audit/unified300/TAP_execution_gate/llama/complete.json",
+          "path": "results/audit/unified300/TAP_execution_gate_v2/llama/complete.json",
           "key": "passed",
           "value": true
         }
@@ -4552,11 +4554,36 @@
       ],
       "sync_relpath": "results/audit/unified300/AutoDAN_pilot/llama",
       "yieldable": false
+    },
+    {
+      "id": "TAP_llama_gate_v2",
+      "priority": 5,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "method_runtime_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_tap_pilot_v2.py",
+        "gate",
+        "llama"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/PAIR_execution_gate_v2/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/TAP_execution_gate_v2/llama",
+      "yieldable": false
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "fb13601b4dca078269e91e460c584768268b4c07f6ff780695b20af816327b9c",
-  "updated_utc": "2026-11-11T07:02:22.585374+00:00",
+  "parent_catalog_sha256": "e20ab6e0e883dea4800d5237804c38133b65f11a9e0278b6b58530a101bd615c",
+  "updated_utc": "2026-11-11T07:04:35.747808+00:00",
   "controller_version": 6,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",

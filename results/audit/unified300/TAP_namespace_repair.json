@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-11T07:04:35.747808+00:00",
+  "parent_worker_sha256": "f27b3a74b847718f4677ca70c6388ce006874bee7225ab2e5fb2fd3370b7a850",
+  "worker_sha256": "f70b5b9ccbb01601616b7f823e386ab993ea7b985d9add8ddd9a6581d1978d42",
+  "required_symbols": [
+    "get_attacker_system_prompt",
+    "get_judge_system_prompt_for_judge",
+    "get_judge_system_prompt_for_on_topic",
+    "extract_json",
+    "get_init_msg",
+    "process_target_response"
+  ],
+  "passed": true,
+  "formal_TAP_rows_before_repair": 0,
+  "repair": "use actual TAP common/system_prompts path; preserve failed gate; require extracted source files in frozen manifest"
+}
