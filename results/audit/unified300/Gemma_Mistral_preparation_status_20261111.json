@@ -1,0 +1,181 @@
+{
+  "utc": "2026-11-11T14:36:08.455314+00:00",
+  "models": [
+    {
+      "model": "Gemma-2-9B-it",
+      "norm": {
+        "done": true,
+        "layer": 12,
+        "M": 141.91222381591797,
+        "rho": 127.72100143432617
+      },
+      "baseline": {
+        "legacy_legal400": 400,
+        "legacy_val70": 70,
+        "legacy_complete_utc": "2026-11-10T02:16:57.173392+00:00",
+        "unified700_complete": false
+      },
+      "render": {
+        "done": true,
+        "attention": "eager, compilation disabled",
+        "AB": "prepend user turn; native system unsupported"
+      },
+      "refusal_review": {
+        "WG_scoring_N": 470,
+        "blind_samples": 60,
+        "model_review_done": false,
+        "human_calibrated": false
+      },
+      "vectors": {
+        "trained": 0,
+        "planned": 3,
+        "seeds": [
+          3,
+          4,
+          5
+        ]
+      },
+      "calibration": {
+        "unified700_started": false,
+        "alpha_selected": false
+      }
+    },
+    {
+      "model": "Mistral-7B-Instruct-v0.3",
+      "norm": {
+        "done": true,
+        "layer": 9,
+        "M": 2.5897282361984253,
+        "rho": 2.3307554125785828
+      },
+      "baseline": {
+        "legacy_470_complete": false,
+        "unified700_complete": false,
+        "admitted_queue_task": "prep_mistral_native_baseline_v1"
+      },
+      "render": {
+        "done": true,
+        "attention": "sdpa",
+        "AB": "system merged inside INST user instruction",
+        "U1_tokenization_checked": true
+      },
+      "refusal_review": {
+        "complete": false,
+        "samples_pending_baseline": true
+      },
+      "vectors": {
+        "trained": 0,
+        "planned": 3,
+        "seeds": [
+          3,
+          4,
+          5
+        ]
+      },
+      "calibration": {
+        "unified700_started": false,
+        "alpha_selected": false
+      }
+    }
+  ],
+  "timing": {
+    "meaning": "Scheduling targets, not execution promises; gates remain mandatory",
+    "first_card": "After Llama English prefix_P2 s5 complete and innetGPU2 available via wait_gpu. Current ETA scenarios Nov12 midday-afternoon; fallback Nov13-Nov14 if higher-priority jobs intervene.",
+    "Gemma_review": "CPU blind annotation pending; no GPU dependency; priority next preparation step.",
+    "Mistral_baseline": "First admitted released card; task registered, not yet running.",
+    "vector_training": "After fixed U1 plus own keep60 targets and refusal-admission gates; target Nov13.",
+    "unified700_calibration": "After three vectors and per-model execution gates; target Nov13-Nov14, not waiting for searches/whole first round."
+  },
+  "evidence": {
+    "gemma_norm": {
+      "path": "results/audit/crossmodel287/gemma_eager_norm.json",
+      "sha256": "a46f508d5866b89acd13e2c103d9e3c52170fd45266d1e02130ba14f881d97cd",
+      "keys": [
+        "utc",
+        "attention",
+        "block",
+        "n",
+        "median",
+        "rho",
+        "rows",
+        "signature"
+      ]
+    },
+    "gemma_base": {
+      "path": "results/audit/crossmodel287/gemma_uncompiled_selection_complete.json",
+      "sha256": "b8067fd947160ba0415126924da9105e8825e23e38256bc6ecd74f9681b3d765",
+      "keys": [
+        "utc",
+        "n_legal400",
+        "n_legal_mask",
+        "n_val70",
+        "signature",
+        "no_refusal_audit_yet"
+      ]
+    },
+    "gemma_review": {
+      "path": "results/audit/crossmodel287/gemma_admission18/plan.json",
+      "sha256": "5a76e88f688ecb91ff4a013b3bb1026969c2954edf459ebf93f121b00431ba2d",
+      "keys": [
+        "written_UTC",
+        "native_namespace",
+        "WG_rows",
+        "wg_worker_sha256",
+        "wg_inputs_sha256",
+        "wg_reference20_sha256",
+        "samples",
+        "presentation_seed",
+        "ids_only_sha256",
+        "ids_text_sha256",
+        "blind_sha256",
+        "private_mapping_sha256",
+        "exposed_fields",
+        "model_review_labels_collected",
+        "shared_model_context",
+        "human_calibrated",
+        "training_allowed",
+        "selection_metric_unchanged",
+        "node",
+        "physical_gpu",
+        "Qwen_recovery_preempts_after_saved_row"
+      ]
+    },
+    "gemma_WG": {
+      "path": "results/audit/crossmodel287/gemma_admission18/WG_complete.json",
+      "sha256": "454f842857691bb3f91abecc4a86389d6cd0be48233d8a16f050e3d94239eb8b",
+      "keys": [
+        "utc",
+        "n",
+        "summary_read"
+      ]
+    },
+    "mistral_norm": {
+      "path": "results/audit/crossmodel287/mistral/norm_complete.json",
+      "sha256": "d02a4df8a794a8ad1a14e106f844003680ca2a28915ba79c313d170c7f56b617",
+      "keys": [
+        "utc",
+        "n",
+        "block",
+        "keep60_median",
+        "rho",
+        "execution_sha256",
+        "no_training"
+      ]
+    },
+    "mistral_render": {
+      "path": "results/audit/crossmodel287/mistral/assets_verified_actual_path.json",
+      "sha256": "296d8064f10cf270c613e33facaf3fa38a633dd83c7c3c9391f138a84c557b7f",
+      "keys": [
+        "utc",
+        "model_path",
+        "revision",
+        "all3_weights_verified",
+        "files",
+        "template_sha256",
+        "U1_tokenization_checks",
+        "downloaded_extra_consolidated_not_used"
+      ]
+    }
+  },
+  "diagnostic_only_legacy_outputs_not_unified_calibration": true
+}

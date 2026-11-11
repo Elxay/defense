@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-11T14:36:08.407882+00:00",
+  "scope": "n10 independent pilot diagnostic summaries only",
+  "source_read_receipts": [
+    "9d002e43f063e51a731daa329d62844ecd0f7b705e9ea4a4d51a1651b9135371",
+    "baed920f4da5b079abdf81eebb1b6785a09bc5dbe21cbfd23fef70cf618085fe"
+  ],
+  "paper_result_tables_allowed": false,
+  "formal_88_inclusion_of_same_behavior_IDs_retained": true,
+  "no_early_no_dynamic_range_claim": true,
+  "rule16_sha256": "3f2a6903edd17431984c7ecef32388916714a217b3766e096c2042ab3eb1b9c4"
+}
