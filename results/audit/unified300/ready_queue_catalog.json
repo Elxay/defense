@@ -58,7 +58,21 @@
     "repos/HarmBench/baselines/tap/judges.py",
     "repos/HarmBench/baselines/tap/system_prompts.py",
     "repos/HarmBench/baselines/tap/language_models.py",
-    "repos/HarmBench/configs/method_configs/TAP_config.yaml"
+    "repos/HarmBench/configs/method_configs/TAP_config.yaml",
+    "tools/handoff_20261106/unified300_autodan_worker.py",
+    "results/audit/unified300/S1b_AutoDAN_frozen.json",
+    "results/audit/unified300/AutoDAN_warmup_inputs.private.json",
+    "results/audit/unified300/AutoDAN_MiniLM_assets.json",
+    "results/audit/unified300/AutoDAN_W_budget_frozen.json",
+    "repos/AutoDAN-Turbo/pipeline.py",
+    "repos/AutoDAN-Turbo/framework/library.py",
+    "repos/AutoDAN-Turbo/framework/log.py",
+    "repos/AutoDAN-Turbo/framework/retrival.py",
+    "repos/AutoDAN-Turbo/framework/attacker.py",
+    "repos/AutoDAN-Turbo/framework/scorer.py",
+    "repos/AutoDAN-Turbo/framework/summarizer.py",
+    "repos/AutoDAN-Turbo/framework/target.py",
+    "repos/AutoDAN-Turbo/llm/huggingface_models.py"
   ],
   "tasks": [
     {
@@ -4405,11 +4419,141 @@
       ],
       "sync_relpath": "results/audit/unified300/PAIR_pilot/qwen",
       "yieldable": false
+    },
+    {
+      "id": "AutoDAN_qwen_gate",
+      "priority": 9,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "autodan_runtime_gate",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker.py",
+        "gate",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/AutoDAN_dependency_ready.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_execution_gate/qwen",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_warmup",
+      "priority": 10,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "library_build",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker.py",
+        "warmup",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/AutoDAN_execution_gate/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_build",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_qwen_pilot",
+      "priority": 11,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_pilot10",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker.py",
+        "pilot",
+        "qwen"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/AutoDAN_build/library_frozen_manifest.json",
+          "key": "test_updates",
+          "value": false
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_pilot/qwen",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_llama_gate",
+      "priority": 12,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "autodan_runtime_gate",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker.py",
+        "gate",
+        "llama"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/AutoDAN_dependency_ready.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_execution_gate/llama",
+      "yieldable": false
+    },
+    {
+      "id": "AutoDAN_llama_pilot",
+      "priority": 13,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "search_pilot10",
+      "argv": [
+        "/home/dell/Def/venvs/autodan300/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_autodan_worker.py",
+        "pilot",
+        "llama"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/AutoDAN_execution_gate/llama/complete.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/AutoDAN_build/library_frozen_manifest.json",
+          "key": "test_updates",
+          "value": false
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/AutoDAN_pilot/llama",
+      "yieldable": false
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "e7751be80c6fdecfb315fbbe3adad4f6a040f9cf13c369cd63d4fe2d468b939a",
-  "updated_utc": "2026-11-11T06:30:50.113792+00:00",
+  "parent_catalog_sha256": "8c2e13f4c05c9190f214c914ef7933be4d8bb97ff3b0daa0c4bf6efef9167590",
+  "updated_utc": "2026-11-11T06:55:58.200572+00:00",
   "controller_version": 5,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",

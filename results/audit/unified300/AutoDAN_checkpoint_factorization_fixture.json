@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-11T06:52:37.449626+00:00",
+  "passed": true,
+  "source_pipeline_used": true,
+  "harmless_two_request_factorization": true,
+  "deterministic_fixture_only": true,
+  "model_generation": false,
+  "source_sha256": "6d86420adea23b76d669f8ac02ff8205a9228c4833c5d17dc75f8a64d9519331"
+}
