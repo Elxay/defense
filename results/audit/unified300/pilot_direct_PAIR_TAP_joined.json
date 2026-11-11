@@ -1,0 +1,188 @@
+{
+  "utc": "2026-11-11T13:24:47.563390+00:00",
+  "rows": [
+    {
+      "model": "llama",
+      "id": 77,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": false
+    },
+    {
+      "model": "llama",
+      "id": 92,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "llama",
+      "id": 234,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": false
+    },
+    {
+      "model": "llama",
+      "id": 255,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "llama",
+      "id": 323,
+      "direct": 0,
+      "PAIR": 1,
+      "TAP": 1,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "llama",
+      "id": 359,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "llama",
+      "id": 407,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "llama",
+      "id": 417,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "llama",
+      "id": 428,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "llama",
+      "id": 440,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "qwen",
+      "id": 77,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 1,
+      "TAP_internal_early_stop": false
+    },
+    {
+      "model": "qwen",
+      "id": 92,
+      "direct": 0,
+      "PAIR": 1,
+      "TAP": 1,
+      "TAP_internal_early_stop": false
+    },
+    {
+      "model": "qwen",
+      "id": 234,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": false
+    },
+    {
+      "model": "qwen",
+      "id": 255,
+      "direct": 0,
+      "PAIR": 1,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "qwen",
+      "id": 323,
+      "direct": 0,
+      "PAIR": 1,
+      "TAP": 1,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "qwen",
+      "id": 359,
+      "direct": 0,
+      "PAIR": 1,
+      "TAP": 1,
+      "TAP_internal_early_stop": false
+    },
+    {
+      "model": "qwen",
+      "id": 407,
+      "direct": 1,
+      "PAIR": 1,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "qwen",
+      "id": 417,
+      "direct": 1,
+      "PAIR": 1,
+      "TAP": 1,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "qwen",
+      "id": 428,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    },
+    {
+      "model": "qwen",
+      "id": 440,
+      "direct": 0,
+      "PAIR": 0,
+      "TAP": 0,
+      "TAP_internal_early_stop": true
+    }
+  ],
+  "summary": [
+    {
+      "model": "llama",
+      "N": 10,
+      "direct": 0,
+      "PAIR": 1,
+      "TAP": 1,
+      "TAP_vs_direct_up": 1,
+      "TAP_vs_direct_down": 0
+    },
+    {
+      "model": "qwen",
+      "N": 10,
+      "direct": 2,
+      "PAIR": 6,
+      "TAP": 5,
+      "TAP_vs_direct_up": 4,
+      "TAP_vs_direct_down": 1
+    }
+  ],
+  "direct_PAIR_read_sha256": "7315e647accd1efb79e3f4d51c0cf8bf707a0381ad3f2b8b504681fe2dc43009",
+  "TAP_read_sha256": "64a8b424d288a02a31167ead61516ebb10c4e4d745ce0bb81becbb532f924e02",
+  "scope": "Only authorized alpha0 diagnostics; not a family gate; no nonzero effects read"
+}

@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-11T13:24:48.124455+00:00",
+  "controller_utc": "2026-11-11T13:24:39.921533+00:00",
+  "active": [
+    {
+      "task": "score_WG_0001",
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "started_utc": "2026-11-11T12:14:53.133272+00:00"
+    },
+    {
+      "task": "AutoDAN_warmup_pilot20_v4",
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "started_utc": "2026-11-11T12:37:28.902687+00:00"
+    },
+    {
+      "task": "main_llama_refusal_suppression_s4",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "started_utc": "2026-11-11T13:22:36.204396+00:00"
+    },
+    {
+      "task": "score_HB_0001",
+      "site": "innet",
+      "gpus": [
+        2,
+        3
+      ],
+      "started_utc": "2026-11-11T12:51:24.981658+00:00"
+    }
+  ],
+  "score_progress": {
+    "HB": {
+      "utc": "2026-11-11T13:24:47.293809+00:00",
+      "pid": 1884349,
+      "judge": "HB",
+      "wave": "HB_0001",
+      "phase": "cache_only_scoring",
+      "no_main_effect_reads": true,
+      "completed_input_rows": 5179,
+      "total_rows": 21120,
+      "elapsed_seconds": 2000.5620649172924
+    },
+    "WG": {
+      "utc": "2026-11-11T13:24:45.694592+00:00",
+      "pid": 3937536,
+      "judge": "WG",
+      "wave": "WG_0001",
+      "phase": "cache_only_scoring",
+      "no_main_effect_reads": true,
+      "completed_input_rows": 12568,
+      "total_rows": 21120,
+      "elapsed_seconds": 4190.949497357011
+    }
+  },
+  "HB_daily_window_limit": 1,
+  "HB_new_window_pending_threshold": 26400,
+  "translation_waits_for_WG_release": true,
+  "WG_first_wave_released": false,
+  "staged_gate_read_result_files": [],
+  "search_nonzero_replay_registered_tasks": []
+}
