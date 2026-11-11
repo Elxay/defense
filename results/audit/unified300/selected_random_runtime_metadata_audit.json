@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-11T05:10:12.049598+00:00",
+  "only_runtime_metadata": true,
+  "main_labels_or_effects_read": false,
+  "models": {
+    "llama": {
+      "condition": "rand0",
+      "N": 440,
+      "rho_runtime_min": 3.9067561626434326,
+      "rho_runtime_max": 3.908334970474243,
+      "injection_count_values": [
+        1
+      ],
+      "alpha_values": [
+        0.75
+      ],
+      "device_uuid_values": [
+        "25c58d52-d31e-51fa-f63e-0e5b5bd02bfb"
+      ]
+    },
+    "qwen": {
+      "condition": "61000",
+      "N": 440,
+      "rho_runtime_min": 40.4305305480957,
+      "rho_runtime_max": 40.44609069824219,
+      "injection_count_values": [
+        1
+      ],
+      "alpha_values": [
+        1.25
+      ],
+      "device_uuid_values": [
+        "ef899e48-2df2-fae8-d63e-7dbb0af920b0"
+      ]
+    }
+  }
+}

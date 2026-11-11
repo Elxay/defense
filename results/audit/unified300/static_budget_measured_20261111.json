@@ -155,24 +155,28 @@
     {
       "model": "llama",
       "family": "translate-zh-cn",
-      "N_saved": 0,
-      "normal_complete": false,
-      "source_sha256": null,
-      "rows_per_hour": null,
-      "generation_GPUh": null,
+      "N_saved": 440,
+      "normal_complete": true,
+      "source_sha256": "3b4543c51526b13a5ceaab0f60a39b22bafba6e72449b2917cdba21e10de047f",
+      "rows_per_hour": 1171.8701966949359,
+      "generation_GPUh": 0.375468205643378,
       "family_wall_GPUh": null,
-      "gate": "not read/unavailable"
+      "gate": "not_read",
+      "source": "ready_generated/llama/translate-zh-cn/alpha0/complete.json",
+      "completed_utc": "2026-11-11T04:23:11.560903+00:00"
     },
     {
       "model": "llama",
       "family": "translate-fr",
-      "N_saved": 0,
-      "normal_complete": false,
-      "source_sha256": null,
-      "rows_per_hour": null,
-      "generation_GPUh": null,
+      "N_saved": 440,
+      "normal_complete": true,
+      "source_sha256": "083ce782e8baebcf34d80f8c659049af9d8b315680cea2733789670f4b137b33",
+      "rows_per_hour": 577.0046738755783,
+      "generation_GPUh": 0.7625588143760493,
       "family_wall_GPUh": null,
-      "gate": "not read/unavailable"
+      "gate": "not_read",
+      "source": "ready_generated/llama/translate-fr/alpha0/complete.json",
+      "completed_utc": "2026-11-11T04:57:43.123610+00:00"
     },
     {
       "model": "llama",
@@ -342,13 +346,15 @@
     {
       "model": "qwen",
       "family": "translate-ta",
-      "N_saved": 288,
-      "normal_complete": false,
-      "source_sha256": null,
-      "rows_per_hour": null,
-      "generation_GPUh": null,
-      "family_wall_GPUh": null,
-      "gate": "not read/unavailable"
+      "N_saved": 440,
+      "normal_complete": true,
+      "source_sha256": "1eeaf22c413b8be413c3c891f3a1bf740bb7f650fb23687a5ce9f1ea7395a69f",
+      "rows_per_hour": 256.0610761869895,
+      "generation_GPUh": 1.7183400403999258,
+      "family_wall_GPUh": 1.7877750242483388,
+      "gate": "not_read",
+      "source": "language_alpha0/qwen/translate-ta/generation_complete.json",
+      "completed_utc": "2026-11-11T04:52:29.743068+00:00"
     },
     {
       "model": "qwen",
@@ -427,5 +433,8 @@
       "family_wall_GPUh": null,
       "gate": "not read/unavailable"
     }
-  ]
+  ],
+  "utc_updated": "2026-11-11T05:06:51.385863+00:00",
+  "known_measured_complete_units": 24,
+  "known_measured_alpha0_generation_GPUh": 16.21140168600302
 }

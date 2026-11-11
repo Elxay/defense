@@ -1,0 +1,2184 @@
+{
+  "innet": {
+    "utc": "2026-11-11T05:17:48.657575+00:00",
+    "date_u": "2026-11-11 05:17:48 UTC",
+    "gpu": "0, GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0, 15061, 24564, 86\n1, GPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 11441, 24564, 72\n2, GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 16271, 24564, 85\n3, GPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 15761, 24564, 95",
+    "apps": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0, 1333963, 15038\nGPU-11714cb4-6750-4bb9-a65a-ab038fc97007, 1285516, 11418\nGPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb, 1316343, 16268\nGPU-16fea00b-6607-57e1-0caa-cec4f27ce988, 1046820, 15738",
+    "counts": {
+      "static_alpha0/llama/expert_endorsement": 440,
+      "static_alpha0/llama/authority_endorsement": 440,
+      "static_alpha0/llama/deepinception": 440,
+      "static_alpha0/llama/evidence-based_persuasion": 440,
+      "static_alpha0/llama/base": 440,
+      "static_alpha0/llama/prefix_P1": 440,
+      "static_alpha0/llama/refusal_suppression": 440,
+      "static_alpha0/llama/logical_appeal": 440,
+      "static_alpha0/llama/prefix_P2": 440,
+      "static_alpha0/llama/misrepresentation": 440,
+      "static_alpha0/qwen/expert_endorsement": 440,
+      "static_alpha0/qwen/authority_endorsement": 440,
+      "static_alpha0/qwen/deepinception": 440,
+      "static_alpha0/qwen/evidence-based_persuasion": 440,
+      "static_alpha0/qwen/base": 440,
+      "static_alpha0/qwen/prefix_P1": 440,
+      "static_alpha0/qwen/refusal_suppression": 440,
+      "static_alpha0/qwen/logical_appeal": 440,
+      "static_alpha0/qwen/prefix_P2": 440,
+      "static_alpha0/qwen/misrepresentation": 440,
+      "language_alpha0/llama/translate-ml": 440,
+      "language_alpha0/qwen/translate-mr": 100,
+      "language_alpha0/qwen/translate-ml": 440,
+      "language_alpha0/qwen/translate-ta": 440,
+      "ready_generated/llama/base/s4": 416,
+      "ready_generated/llama/base/rand0": 440,
+      "ready_generated/llama/base/s3": 440,
+      "ready_generated/llama/translate-zh-cn/alpha0": 440,
+      "ready_generated/qwen/base/s4": 440,
+      "ready_generated/qwen/base/61001": 44,
+      "ready_generated/qwen/base/61000": 440,
+      "ready_generated/qwen/base/s3": 440
+    },
+    "completed": {
+      "static_alpha0/llama/expert_endorsement": {
+        "sha256": "d283283ef418bc52a270f5132d69534d3152db71c9ba24b29370cd6ac03f0409",
+        "utc": "2026-11-10T21:58:15.618869+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/authority_endorsement": {
+        "sha256": "212967e611ec97fbccb1d3b7fb6ff49d6823e13a2e44c1021e74ddd46c002237",
+        "utc": "2026-11-10T20:35:29.760234+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/deepinception": {
+        "sha256": "0c67f42160572f1eee1110ba732af75b9f497ac2feca067b925666f5460ae912",
+        "utc": "2026-11-10T19:16:52.231004+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/evidence-based_persuasion": {
+        "sha256": "f2d9c1d96bf2e81023239dd32797356880aca9ff4ed5b2550181ee792884d6aa",
+        "utc": "2026-11-10T21:30:54.296168+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/base": {
+        "sha256": "0955e89ca115af980e0b8ac0c1a741f5f273b91350194957f5ad04396d2714d2",
+        "utc": "2026-11-10T18:01:11.486322+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/prefix_P1": {
+        "sha256": "f142f5a82504487b8de14e8f703bb5682de5e62dc2376395456e2a7b46ff7211",
+        "utc": "2026-11-10T22:27:33.897832+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/refusal_suppression": {
+        "sha256": "c25fffaf2a2f2927ee5d5d056310d36a52d4656b556f3514afa1f6725a4ebf07",
+        "utc": "2026-11-10T19:41:35.065505+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/logical_appeal": {
+        "sha256": "fcfdb00ec2e681d949b26668394fe5a753a3411d1404bf4e89d76aff73b39815",
+        "utc": "2026-11-10T20:09:24.601788+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/prefix_P2": {
+        "sha256": "a1b50100e65eb70df2ab6047162e3673bd99a14a47570e0c5e9cac2a0544e7a2",
+        "utc": "2026-11-10T22:56:53.032326+00:00",
+        "N": 440
+      },
+      "static_alpha0/llama/misrepresentation": {
+        "sha256": "ab3a0cd28459147e67a42c68f6ea1732adabaa99ca002bba825fd0f1807538b4",
+        "utc": "2026-11-10T21:04:55.097740+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/expert_endorsement": {
+        "sha256": "8d23fff1014be30859838e6254c3673dda6d933e1546f34be01103359ac6a13c",
+        "utc": "2026-11-10T23:13:41.980908+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/authority_endorsement": {
+        "sha256": "891d331bf8c0d49e04769b1dca2d203a00003d3006cb9cbac2016a32ea7c3d0b",
+        "utc": "2026-11-10T21:14:04.131704+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/deepinception": {
+        "sha256": "6d673473c079d3bde038dddfddd69bfa91ba64923740de463a398723aa10c33e",
+        "utc": "2026-11-10T19:37:09.392129+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/evidence-based_persuasion": {
+        "sha256": "076cca6ded5d98807b21f0faccb6c60c20de43ad970fd0c59a13a2b82df33273",
+        "utc": "2026-11-10T22:34:57.116204+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/base": {
+        "sha256": "8c80d1dc1927d3f04e2933ee83cadb7ec1349b033f672e947357857952b2b685",
+        "utc": "2026-11-10T18:05:26.832939+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/prefix_P1": {
+        "sha256": "6dbe246310c02e214f16d621a761ec44cd1e080b9047966b25d45200b524ca60",
+        "utc": "2026-11-10T23:47:09.629030+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/refusal_suppression": {
+        "sha256": "85b4f9717731ad08a96e4498620472cb0d62b7ce6e0ffbaf4e365634b5b4a30b",
+        "utc": "2026-11-10T19:57:27.151670+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/logical_appeal": {
+        "sha256": "7f9db2b7231e5e180abb6e7fa338183da562df13bfd4e703191779bf2b6627fb",
+        "utc": "2026-11-10T20:35:56.426205+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/prefix_P2": {
+        "sha256": "04de349170e5d808e499add4d203724f10346782d9c4eb4ca471c4ac32e5fc83",
+        "utc": "2026-11-11T00:20:44.117475+00:00",
+        "N": 440
+      },
+      "static_alpha0/qwen/misrepresentation": {
+        "sha256": "2ef52c3e255dc4e8db2ff945c9d5e87e815c732f6178bc76e14d5b49a499aee4",
+        "utc": "2026-11-10T21:55:45.178290+00:00",
+        "N": 440
+      },
+      "language_alpha0/qwen/translate-ml": {
+        "sha256": "b336ce8da0f6ab124a03e2673eda709cb8d3f98598e76bedd85faa37381b028e",
+        "utc": "2026-11-11T03:05:13.741837+00:00",
+        "N": 440
+      },
+      "language_alpha0/qwen/translate-ta": {
+        "sha256": "1eeaf22c413b8be413c3c891f3a1bf740bb7f650fb23687a5ce9f1ea7395a69f",
+        "utc": "2026-11-11T04:52:29.743068+00:00",
+        "N": 440
+      },
+      "ready_generated/llama/base/rand0": {
+        "sha256": "3e4df9d676377661a9d2d26c9d68972590e792f5f18eb2ff55894acc6b4612ca",
+        "utc": "2026-11-11T05:00:21.997370+00:00",
+        "N": 440,
+        "generation_seconds": 1074.453158089891,
+        "rows_per_hour": 1474.238302594741
+      },
+      "ready_generated/llama/base/s3": {
+        "sha256": "0e75fc530f48c7fd45fdd03087afbbb6e21e1b143274cadabbc35bcdbe7d5240",
+        "utc": "2026-11-11T04:41:41.106154+00:00",
+        "N": 440,
+        "generation_seconds": 1082.8611745936796,
+        "rows_per_hour": 1462.791387450346
+      },
+      "ready_generated/llama/translate-zh-cn/alpha0": {
+        "sha256": "3b4543c51526b13a5ceaab0f60a39b22bafba6e72449b2917cdba21e10de047f",
+        "utc": "2026-11-11T04:23:11.560903+00:00",
+        "N": 440,
+        "generation_seconds": 1351.6855403161608,
+        "rows_per_hour": 1171.8701966949359
+      },
+      "ready_generated/qwen/base/s4": {
+        "sha256": "73e83700444379eb780fadb80fc10b5ff477b20881f30c6242051b02a47fda87",
+        "utc": "2026-11-11T05:15:21.543019+00:00",
+        "N": 440,
+        "generation_seconds": 1336.6203526235186,
+        "rows_per_hour": 1185.0784681610785
+      },
+      "ready_generated/qwen/base/61000": {
+        "sha256": "ccab5c273459dbb05463174bd7e6b6633e0bb178fb168f0b7df789a300c6dc9c",
+        "utc": "2026-11-11T04:52:41.990255+00:00",
+        "N": 440,
+        "generation_seconds": 1600.071719657164,
+        "rows_per_hour": 989.9556254512094
+      },
+      "ready_generated/qwen/base/s3": {
+        "sha256": "63cdd936af4f0196bc6c50b634ffabfe7b22bd095ee086f4c75f52a6ed1aef9a",
+        "utc": "2026-11-11T04:25:43.563095+00:00",
+        "N": 440,
+        "generation_seconds": 1572.2969457968138,
+        "rows_per_hour": 1007.4432849561094
+      }
+    },
+    "live": {
+      "queue_jobs/main_qwen_base_61001__1/live.json": {
+        "utc": "2026-11-11T05:17:48.607341+00:00",
+        "pid": 1333963,
+        "model": "qwen",
+        "family": "base",
+        "condition": "61001",
+        "phase": "generating",
+        "N": 440
+      },
+      "queue_jobs/main_llama_base_s3__1/live.json": {
+        "utc": "2026-11-11T04:41:41.107230+00:00",
+        "pid": 1270417,
+        "model": "llama",
+        "family": "base",
+        "condition": "s3",
+        "phase": "complete"
+      },
+      "queue_jobs/main_qwen_base_s4__1/live.json": {
+        "utc": "2026-11-11T05:15:21.544114+00:00",
+        "pid": 1305488,
+        "model": "qwen",
+        "family": "base",
+        "condition": "s4",
+        "phase": "complete"
+      },
+      "queue_jobs/main_llama_base_rand0__1/live.json": {
+        "utc": "2026-11-11T05:00:21.998460+00:00",
+        "pid": 1292733,
+        "model": "llama",
+        "family": "base",
+        "condition": "rand0",
+        "phase": "complete"
+      },
+      "queue_jobs/language_llama_translate-zh-cn_generate__1/live.json": {
+        "utc": "2026-11-11T04:23:11.561993+00:00",
+        "pid": 1244113,
+        "model": "llama",
+        "family": "translate-zh-cn",
+        "condition": "alpha0",
+        "phase": "complete"
+      },
+      "queue_jobs/main_llama_base_s4__1/live.json": {
+        "utc": "2026-11-11T05:17:41.065247+00:00",
+        "pid": 1316343,
+        "model": "llama",
+        "family": "base",
+        "condition": "s4",
+        "phase": "generating",
+        "N": 440
+      },
+      "queue_jobs/main_qwen_base_61000__1/live.json": {
+        "utc": "2026-11-11T04:52:41.991359+00:00",
+        "pid": 1273361,
+        "model": "qwen",
+        "family": "base",
+        "condition": "61000",
+        "phase": "complete"
+      },
+      "queue_jobs/language_llama_translate-zh-cn_gate__1/live.json": {
+        "utc": "2026-11-11T04:00:50.518465+00:00",
+        "pid": 1240859,
+        "model": "llama",
+        "family": "translate-zh-cn",
+        "condition": "alpha0",
+        "phase": "gate_complete"
+      },
+      "queue_jobs/main_qwen_base_s3__1/live.json": {
+        "utc": "2026-11-11T04:25:43.564157+00:00",
+        "pid": 1240863,
+        "model": "qwen",
+        "family": "base",
+        "condition": "s3",
+        "phase": "complete"
+      },
+      "language_alpha0/llama/live.json": {
+        "utc": "2026-11-11T02:43:16.835725+00:00",
+        "pid": 1046824,
+        "model": "llama",
+        "family": "translate-ml",
+        "phase": "generating_alpha0"
+      },
+      "language_alpha0/qwen/live.json": {
+        "utc": "2026-11-11T05:17:48.249645+00:00",
+        "pid": 1046820,
+        "model": "qwen",
+        "family": "translate-mr",
+        "phase": "generating_alpha0"
+      }
+    },
+    "gates": {
+      "PAIR_execution_gate_v2/llama/target_zero20.json": {
+        "sha256": "9ef3fef5791de3deff205f4b0a715444ac0b220cdde34438a5615f4a2b4cf1d7",
+        "utc": "2026-11-11T04:52:55.195752+00:00",
+        "passed": true,
+        "N": 20
+      },
+      "PAIR_execution_gate_v2/llama/complete.json": {
+        "sha256": "2599368edbf152b7145c7edd7afcf6e3a6c573fd047f35df554d2cae647a4e10",
+        "utc": "2026-11-11T05:00:17.429354+00:00",
+        "passed": true,
+        "method": "PAIR",
+        "target": "llama",
+        "zero20": 20,
+        "behavior_count": 8,
+        "orders": 2,
+        "source_parsers_and_controller_executed": true,
+        "role_shared_one_instance": true,
+        "thinking": false,
+        "seed": 20261271,
+        "engineering_config": {
+          "n_streams": 2,
+          "steps": 2,
+          "keep_last_n": 3,
+          "max_retries": 20,
+          "attack_max_n_tokens": 500,
+          "target_max_n_tokens": 150,
+          "judge_max_n_tokens": 5,
+          "attack_temp": 1.0,
+          "cutoff_score": 11
+        },
+        "formal_config_unchanged": true,
+        "structure": [
+          [
+            "benign_0",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_0",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_0",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "target",
+            1,
+            2
+          ]
+        ],
+        "plan_sha256": "b22909be9f6bd08f31586a4ebfb02a6c41cca2d668f708780cac5460bd07e353",
+        "cold_seconds": 220.52750925999135
+      },
+      "PAIR_execution_gate_v2/complete.json": {
+        "sha256": "2599368edbf152b7145c7edd7afcf6e3a6c573fd047f35df554d2cae647a4e10",
+        "utc": "2026-11-11T05:00:17.429354+00:00",
+        "passed": true,
+        "method": "PAIR",
+        "target": "llama",
+        "zero20": 20,
+        "behavior_count": 8,
+        "orders": 2,
+        "source_parsers_and_controller_executed": true,
+        "role_shared_one_instance": true,
+        "thinking": false,
+        "seed": 20261271,
+        "engineering_config": {
+          "n_streams": 2,
+          "steps": 2,
+          "keep_last_n": 3,
+          "max_retries": 20,
+          "attack_max_n_tokens": 500,
+          "target_max_n_tokens": 150,
+          "judge_max_n_tokens": 5,
+          "attack_temp": 1.0,
+          "cutoff_score": 11
+        },
+        "formal_config_unchanged": true,
+        "structure": [
+          [
+            "benign_0",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_0",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_0",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "target",
+            1,
+            2
+          ]
+        ],
+        "plan_sha256": "b22909be9f6bd08f31586a4ebfb02a6c41cca2d668f708780cac5460bd07e353",
+        "cold_seconds": 220.52750925999135
+      },
+      "PAIR_pilot/llama/timing_complete.json": {
+        "sha256": "172f05dc05bd9749a510984ef20fa287fa18d162d9fdd30130e1be10b11c7e8a",
+        "utc": "2026-11-11T05:16:00.070688+00:00",
+        "method": "PAIR",
+        "target": "llama",
+        "N": 10,
+        "outer_concurrency": 8,
+        "cold_seconds": 226.70035618403926,
+        "formal_window_seconds": 671.7274905780796,
+        "charged_resident_GPUh": 0.3731819392100442,
+        "mean_resident_GPUh_per_row": 0.037318193921004425,
+        "forecast_GPUh": {
+          "440": 16.54594996756641,
+          "220": 8.335947304945439,
+          "88": 3.4099457073728554
+        },
+        "rows": [
+          {
+            "id": 77,
+            "wall_seconds_including_queue": 603.7115272800438,
+            "exclusive_active_GPU_seconds": 173.0768763415981,
+            "allocated_resident_card_seconds": 254.3017618295983,
+            "call_counts": {
+              "attacker": 3,
+              "target": 3,
+              "scorer": 3
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "20d8d3d0aff60bca4a2495267f974e089f56479dbc9b24ee6928825a40a53cfd"
+          },
+          {
+            "id": 92,
+            "wall_seconds_including_queue": 154.34484669496305,
+            "exclusive_active_GPU_seconds": 30.583848990965635,
+            "allocated_resident_card_seconds": 44.93683296307362,
+            "call_counts": {
+              "attacker": 1,
+              "target": 1,
+              "scorer": 1
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "7648fe46585f1d2bea3841a75c415bbbdfe2ad1f1fe778ee4cb0df56a608c20f"
+          },
+          {
+            "id": 234,
+            "wall_seconds_including_queue": 660.5250312450808,
+            "exclusive_active_GPU_seconds": 139.87185742007568,
+            "allocated_resident_card_seconds": 205.51364528962577,
+            "call_counts": {
+              "attacker": 3,
+              "target": 3,
+              "scorer": 3
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "fb91e18474741bee5627c100ea0187412e00681e843735bc85d8a50b59fde607"
+          },
+          {
+            "id": 255,
+            "wall_seconds_including_queue": 458.18112784205005,
+            "exclusive_active_GPU_seconds": 101.27003295440227,
+            "allocated_resident_card_seconds": 148.79600525039254,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "b94c48fdcc0974c984fb94005012f4bf6cce9c54efd5a5bef7866e2bb1bb514f"
+          },
+          {
+            "id": 323,
+            "wall_seconds_including_queue": 149.0404520391021,
+            "exclusive_active_GPU_seconds": 33.20217927219346,
+            "allocated_resident_card_seconds": 48.783944244732396,
+            "call_counts": {
+              "attacker": 1,
+              "target": 1,
+              "scorer": 1
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "b1ee2d78b40595140d2461d117d7e141668e4f886d12d04dcf7da8ed0f98a6bc"
+          },
+          {
+            "id": 359,
+            "wall_seconds_including_queue": 424.72959240409546,
+            "exclusive_active_GPU_seconds": 34.41293564089574,
+            "allocated_resident_card_seconds": 50.562907929631045,
+            "call_counts": {
+              "attacker": 1,
+              "target": 1,
+              "scorer": 1
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "1166a0c4fa88c9295897e3e9892884fdc3c38f11ca7856344a93d33127ca90a2"
+          },
+          {
+            "id": 407,
+            "wall_seconds_including_queue": 464.6638918868266,
+            "exclusive_active_GPU_seconds": 96.88388504530303,
+            "allocated_resident_card_seconds": 142.35144047371094,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "c0ea1bd7443c77f79b7ea872f6e66a399c735d25ae52a1bc0b33ff90fc65da00"
+          },
+          {
+            "id": 417,
+            "wall_seconds_including_queue": 460.36133652203716,
+            "exclusive_active_GPU_seconds": 97.22739536757581,
+            "allocated_resident_card_seconds": 142.85616000648207,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "df719025565edac386ba6113229101af3ac113d82243c410d9704b995e28d475"
+          },
+          {
+            "id": 428,
+            "wall_seconds_including_queue": 456.70504251215607,
+            "exclusive_active_GPU_seconds": 97.45279000303708,
+            "allocated_resident_card_seconds": 143.18733222380135,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "2bd8304214030cd1d946af4915f49bfb934202f17a01962540ae5cb5a926ee47"
+          },
+          {
+            "id": 440,
+            "wall_seconds_including_queue": 517.144705906976,
+            "exclusive_active_GPU_seconds": 110.36888993508182,
+            "allocated_resident_card_seconds": 162.16495094511114,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "36da869080b76d6d0d5ff169e6447c0cf015bbf5ee35c487125a0d17d7f7bebb"
+          }
+        ],
+        "cost_basis": "two reserved cards charged once over actual concurrent window; individual waiting wall times are not summed*2",
+        "pilot_rows_retained": true,
+        "main_judge_effects_read": false
+      }
+    },
+    "pilot_saved": 10
+  },
+  "node01": {
+    "utc": "2026-11-11T05:17:49.460240+00:00",
+    "date_u": "2026-11-11 05:17:49 UTC",
+    "gpu": "0, GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 17530, 24564, 53\n1, GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333, 29, 24564, 0\n2, GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 17583, 24564, 49",
+    "apps": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf, 3673815, 16888\nGPU-dcaca421-6806-9453-6cbd-48ee872ca4d0, 3668058, 17546",
+    "counts": {
+      "ready_generated/llama/translate-ta/alpha0": 96,
+      "ready_generated/llama/translate-fr/alpha0": 440,
+      "ready_generated/llama/translate-mr/alpha0": 128
+    },
+    "completed": {
+      "ready_generated/llama/translate-fr/alpha0": {
+        "sha256": "083ce782e8baebcf34d80f8c659049af9d8b315680cea2733789670f4b137b33",
+        "utc": "2026-11-11T04:57:43.123610+00:00",
+        "N": 440,
+        "generation_seconds": 2745.2117317537777,
+        "rows_per_hour": 577.0046738755783
+      }
+    },
+    "live": {
+      "queue_jobs/language_llama_translate-mr_generate__5/live.json": {
+        "utc": "2026-11-11T05:06:24.986123+00:00",
+        "pid": 3663413,
+        "model": "llama",
+        "family": "translate-mr",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/language_llama_translate-ta_generate__1/live.json": {
+        "utc": "2026-11-11T04:16:20.926957+00:00",
+        "pid": 3609413,
+        "model": "llama",
+        "family": "translate-ta",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/language_llama_translate-ta_gate__1/live.json": {
+        "utc": "2026-11-11T04:12:54.747534+00:00",
+        "pid": 3597951,
+        "model": "llama",
+        "family": "translate-ta",
+        "condition": "alpha0",
+        "phase": "gate_complete"
+      },
+      "queue_jobs/language_llama_translate-fr_generate__1/live.json": {
+        "utc": "2026-11-11T04:57:43.128367+00:00",
+        "pid": 3612418,
+        "model": "llama",
+        "family": "translate-fr",
+        "condition": "alpha0",
+        "phase": "complete"
+      },
+      "queue_jobs/language_llama_translate-ta_generate__2/live.json": {
+        "utc": "2026-11-11T04:19:55.863378+00:00",
+        "pid": 3615887,
+        "model": "llama",
+        "family": "translate-ta",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/PAIR_llama_pilot__1/live.json": {
+        "utc": "2026-11-11T05:16:00.076575+00:00",
+        "pid": 3660311,
+        "phase": "pilot10_complete_cost_only",
+        "N": 10
+      },
+      "queue_jobs/language_llama_translate-mr_gate__1/live.json": {
+        "utc": "2026-11-11T04:20:05.524426+00:00",
+        "pid": 3603616,
+        "model": "llama",
+        "family": "translate-mr",
+        "condition": "alpha0",
+        "phase": "gate_complete"
+      },
+      "queue_jobs/language_llama_translate-ta_generate__3/live.json": {
+        "utc": "2026-11-11T04:36:57.004743+00:00",
+        "pid": 3626810,
+        "model": "llama",
+        "family": "translate-ta",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/language_llama_translate-fr_gate__1/live.json": {
+        "utc": "2026-11-11T04:13:26.208662+00:00",
+        "pid": 3605197,
+        "model": "llama",
+        "family": "translate-fr",
+        "condition": "alpha0",
+        "phase": "gate_complete"
+      },
+      "queue_jobs/language_llama_translate-mr_generate__3/live.json": {
+        "utc": "2026-11-11T04:43:20.427985+00:00",
+        "pid": 3639265,
+        "model": "llama",
+        "family": "translate-mr",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/language_llama_translate-ta_generate__6/live.json": {
+        "utc": "2026-11-11T04:48:02.315447+00:00",
+        "pid": 3649822,
+        "model": "llama",
+        "family": "translate-ta",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/language_llama_translate-ta_generate__7/live.json": {
+        "utc": "2026-11-11T05:17:45.181572+00:00",
+        "pid": 3673815,
+        "model": "llama",
+        "family": "translate-ta",
+        "condition": "alpha0",
+        "phase": "generating",
+        "N": 440
+      },
+      "queue_jobs/language_llama_translate-mr_generate__6/live.json": {
+        "utc": "2026-11-11T05:17:46.682592+00:00",
+        "pid": 3668058,
+        "model": "llama",
+        "family": "translate-mr",
+        "condition": "alpha0",
+        "phase": "generating",
+        "N": 440
+      },
+      "queue_jobs/language_llama_translate-mr_generate__4/live.json": {
+        "utc": "2026-11-11T04:46:58.833847+00:00",
+        "pid": 3646563,
+        "model": "llama",
+        "family": "translate-mr",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/language_llama_translate-mr_generate__2/live.json": {
+        "utc": "2026-11-11T04:39:43.572767+00:00",
+        "pid": 3632102,
+        "model": "llama",
+        "family": "translate-mr",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/PAIR_llama_gate__1/live.json": {
+        "utc": "2026-11-11T04:20:56.647446+00:00",
+        "pid": 3619863,
+        "phase": "verifying_assets",
+        "heartbeat_utc": "2026-11-11T04:26:07.025539+00:00"
+      },
+      "queue_jobs/language_llama_translate-mr_generate__1/live.json": {
+        "utc": "2026-11-11T04:36:32.354134+00:00",
+        "pid": 3624006,
+        "model": "llama",
+        "family": "translate-mr",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/language_llama_translate-ta_generate__4/live.json": {
+        "utc": "2026-11-11T04:40:48.494697+00:00",
+        "pid": 3635358,
+        "model": "llama",
+        "family": "translate-ta",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/language_llama_translate-ta_generate__5/live.json": {
+        "utc": "2026-11-11T04:44:22.186723+00:00",
+        "pid": 3642514,
+        "model": "llama",
+        "family": "translate-ta",
+        "condition": "alpha0",
+        "phase": "yielded_at_batch_boundary"
+      },
+      "queue_jobs/PAIR_llama_gate_v2__1/live.json": {
+        "utc": "2026-11-11T05:00:17.431226+00:00",
+        "pid": 3654112,
+        "phase": "gate_complete"
+      }
+    },
+    "gates": {
+      "PAIR_execution_gate_v2/llama/target_zero20.json": {
+        "sha256": "9ef3fef5791de3deff205f4b0a715444ac0b220cdde34438a5615f4a2b4cf1d7",
+        "utc": "2026-11-11T04:52:55.195752+00:00",
+        "passed": true,
+        "N": 20
+      },
+      "PAIR_execution_gate_v2/llama/complete.json": {
+        "sha256": "2599368edbf152b7145c7edd7afcf6e3a6c573fd047f35df554d2cae647a4e10",
+        "utc": "2026-11-11T05:00:17.429354+00:00",
+        "passed": true,
+        "method": "PAIR",
+        "target": "llama",
+        "zero20": 20,
+        "behavior_count": 8,
+        "orders": 2,
+        "source_parsers_and_controller_executed": true,
+        "role_shared_one_instance": true,
+        "thinking": false,
+        "seed": 20261271,
+        "engineering_config": {
+          "n_streams": 2,
+          "steps": 2,
+          "keep_last_n": 3,
+          "max_retries": 20,
+          "attack_max_n_tokens": 500,
+          "target_max_n_tokens": 150,
+          "judge_max_n_tokens": 5,
+          "attack_temp": 1.0,
+          "cutoff_score": 11
+        },
+        "formal_config_unchanged": true,
+        "structure": [
+          [
+            "benign_0",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_0",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_0",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "target",
+            1,
+            2
+          ]
+        ],
+        "plan_sha256": "b22909be9f6bd08f31586a4ebfb02a6c41cca2d668f708780cac5460bd07e353",
+        "cold_seconds": 220.52750925999135
+      },
+      "PAIR_execution_gate_v2/complete.json": {
+        "sha256": "2599368edbf152b7145c7edd7afcf6e3a6c573fd047f35df554d2cae647a4e10",
+        "utc": "2026-11-11T05:00:17.429354+00:00",
+        "passed": true,
+        "method": "PAIR",
+        "target": "llama",
+        "zero20": 20,
+        "behavior_count": 8,
+        "orders": 2,
+        "source_parsers_and_controller_executed": true,
+        "role_shared_one_instance": true,
+        "thinking": false,
+        "seed": 20261271,
+        "engineering_config": {
+          "n_streams": 2,
+          "steps": 2,
+          "keep_last_n": 3,
+          "max_retries": 20,
+          "attack_max_n_tokens": 500,
+          "target_max_n_tokens": 150,
+          "judge_max_n_tokens": 5,
+          "attack_temp": 1.0,
+          "cutoff_score": 11
+        },
+        "formal_config_unchanged": true,
+        "structure": [
+          [
+            "benign_0",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_0",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_0",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_0",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_1",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_1",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_2",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_2",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_3",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_3",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_4",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_4",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_5",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_5",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_6",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_6",
+            "target",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "attacker",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "attacker",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "scorer",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "scorer",
+            1,
+            2
+          ],
+          [
+            "benign_7",
+            "target",
+            0,
+            2
+          ],
+          [
+            "benign_7",
+            "target",
+            1,
+            2
+          ]
+        ],
+        "plan_sha256": "b22909be9f6bd08f31586a4ebfb02a6c41cca2d668f708780cac5460bd07e353",
+        "cold_seconds": 220.52750925999135
+      },
+      "PAIR_pilot/llama/timing_complete.json": {
+        "sha256": "172f05dc05bd9749a510984ef20fa287fa18d162d9fdd30130e1be10b11c7e8a",
+        "utc": "2026-11-11T05:16:00.070688+00:00",
+        "method": "PAIR",
+        "target": "llama",
+        "N": 10,
+        "outer_concurrency": 8,
+        "cold_seconds": 226.70035618403926,
+        "formal_window_seconds": 671.7274905780796,
+        "charged_resident_GPUh": 0.3731819392100442,
+        "mean_resident_GPUh_per_row": 0.037318193921004425,
+        "forecast_GPUh": {
+          "440": 16.54594996756641,
+          "220": 8.335947304945439,
+          "88": 3.4099457073728554
+        },
+        "rows": [
+          {
+            "id": 77,
+            "wall_seconds_including_queue": 603.7115272800438,
+            "exclusive_active_GPU_seconds": 173.0768763415981,
+            "allocated_resident_card_seconds": 254.3017618295983,
+            "call_counts": {
+              "attacker": 3,
+              "target": 3,
+              "scorer": 3
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "20d8d3d0aff60bca4a2495267f974e089f56479dbc9b24ee6928825a40a53cfd"
+          },
+          {
+            "id": 92,
+            "wall_seconds_including_queue": 154.34484669496305,
+            "exclusive_active_GPU_seconds": 30.583848990965635,
+            "allocated_resident_card_seconds": 44.93683296307362,
+            "call_counts": {
+              "attacker": 1,
+              "target": 1,
+              "scorer": 1
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "7648fe46585f1d2bea3841a75c415bbbdfe2ad1f1fe778ee4cb0df56a608c20f"
+          },
+          {
+            "id": 234,
+            "wall_seconds_including_queue": 660.5250312450808,
+            "exclusive_active_GPU_seconds": 139.87185742007568,
+            "allocated_resident_card_seconds": 205.51364528962577,
+            "call_counts": {
+              "attacker": 3,
+              "target": 3,
+              "scorer": 3
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "fb91e18474741bee5627c100ea0187412e00681e843735bc85d8a50b59fde607"
+          },
+          {
+            "id": 255,
+            "wall_seconds_including_queue": 458.18112784205005,
+            "exclusive_active_GPU_seconds": 101.27003295440227,
+            "allocated_resident_card_seconds": 148.79600525039254,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "b94c48fdcc0974c984fb94005012f4bf6cce9c54efd5a5bef7866e2bb1bb514f"
+          },
+          {
+            "id": 323,
+            "wall_seconds_including_queue": 149.0404520391021,
+            "exclusive_active_GPU_seconds": 33.20217927219346,
+            "allocated_resident_card_seconds": 48.783944244732396,
+            "call_counts": {
+              "attacker": 1,
+              "target": 1,
+              "scorer": 1
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "b1ee2d78b40595140d2461d117d7e141668e4f886d12d04dcf7da8ed0f98a6bc"
+          },
+          {
+            "id": 359,
+            "wall_seconds_including_queue": 424.72959240409546,
+            "exclusive_active_GPU_seconds": 34.41293564089574,
+            "allocated_resident_card_seconds": 50.562907929631045,
+            "call_counts": {
+              "attacker": 1,
+              "target": 1,
+              "scorer": 1
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "1166a0c4fa88c9295897e3e9892884fdc3c38f11ca7856344a93d33127ca90a2"
+          },
+          {
+            "id": 407,
+            "wall_seconds_including_queue": 464.6638918868266,
+            "exclusive_active_GPU_seconds": 96.88388504530303,
+            "allocated_resident_card_seconds": 142.35144047371094,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "c0ea1bd7443c77f79b7ea872f6e66a399c735d25ae52a1bc0b33ff90fc65da00"
+          },
+          {
+            "id": 417,
+            "wall_seconds_including_queue": 460.36133652203716,
+            "exclusive_active_GPU_seconds": 97.22739536757581,
+            "allocated_resident_card_seconds": 142.85616000648207,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "df719025565edac386ba6113229101af3ac113d82243c410d9704b995e28d475"
+          },
+          {
+            "id": 428,
+            "wall_seconds_including_queue": 456.70504251215607,
+            "exclusive_active_GPU_seconds": 97.45279000303708,
+            "allocated_resident_card_seconds": 143.18733222380135,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "2bd8304214030cd1d946af4915f49bfb934202f17a01962540ae5cb5a926ee47"
+          },
+          {
+            "id": 440,
+            "wall_seconds_including_queue": 517.144705906976,
+            "exclusive_active_GPU_seconds": 110.36888993508182,
+            "allocated_resident_card_seconds": 162.16495094511114,
+            "call_counts": {
+              "attacker": 2,
+              "target": 2,
+              "scorer": 2
+            },
+            "failure_type": null,
+            "selected_prompt_sha256": "36da869080b76d6d0d5ff169e6447c0cf015bbf5ee35c487125a0d17d7f7bebb"
+          }
+        ],
+        "cost_basis": "two reserved cards charged once over actual concurrent window; individual waiting wall times are not summed*2",
+        "pilot_rows_retained": true,
+        "main_judge_effects_read": false
+      }
+    },
+    "pilot_saved": 10
+  },
+  "queue": {
+    "utc": "2026-11-11T05:17:20.272636+00:00",
+    "pid": 1321386,
+    "catalog_sha256": "be490f22f18afd0c16b37f6a13b95980d2c313f8e93fa624d4c1fcb031447d88",
+    "ready": [
+      "main_llama_deepinception_s3",
+      "main_qwen_deepinception_s3",
+      "main_llama_refusal_suppression_s3",
+      "main_qwen_refusal_suppression_s3",
+      "main_llama_logical_appeal_s3",
+      "main_qwen_logical_appeal_s3",
+      "main_llama_authority_endorsement_s3",
+      "main_qwen_authority_endorsement_s3",
+      "main_llama_misrepresentation_s3",
+      "main_qwen_misrepresentation_s3",
+      "main_llama_evidence-based_persuasion_s3",
+      "main_qwen_evidence-based_persuasion_s3",
+      "main_llama_expert_endorsement_s3",
+      "main_qwen_expert_endorsement_s3",
+      "main_llama_prefix_P1_s3",
+      "main_qwen_prefix_P1_s3",
+      "main_llama_prefix_P2_s3",
+      "main_qwen_prefix_P2_s3"
+    ],
+    "idle_seconds": {
+      "node01:1": 62.647178173065186
+    },
+    "gang_reservations": {},
+    "tasks": {
+      "language_llama_translate-ta_generate": {
+        "state": "running",
+        "site": "node01",
+        "gpus": [
+          0
+        ],
+        "runner_pid": "3673793",
+        "job_dir": "language_llama_translate-ta_generate__7",
+        "attempt": 7,
+        "started_utc": "2026-11-11T05:16:49.312491+00:00",
+        "priority": 20,
+        "exit": {
+          "utc": "2026-11-11T04:48:04.523602+00:00",
+          "returncode": 75,
+          "resident_seconds": 164.1188003111165,
+          "task_id": "language_llama_translate-ta_generate",
+          "gpus": [
+            1
+          ]
+        },
+        "finished_utc": "2026-11-11T04:48:16.946836+00:00",
+        "last_checkpoint_relative": "results/audit/unified300/ready_queue/checkpoints/language_llama_translate-ta_generate__6.json",
+        "last_checkpoint_sha256": "a935ebaabac7ed35c7fed3a67d2b2270e5bfd74518cd922f8e49409c60dcbcc4"
+      },
+      "PAIR_llama_gate": {
+        "state": "failed",
+        "site": "node01",
+        "gpus": [
+          0,
+          1
+        ],
+        "runner_pid": "3619852",
+        "job_dir": "PAIR_llama_gate__1",
+        "attempt": 1,
+        "started_utc": "2026-11-11T04:20:51.297118+00:00",
+        "priority": 5,
+        "exit": {
+          "utc": "2026-11-11T04:26:17.488891+00:00",
+          "returncode": 1,
+          "resident_seconds": 326.0843120329082,
+          "task_id": "PAIR_llama_gate",
+          "gpus": [
+            0,
+            1
+          ]
+        },
+        "finished_utc": "2026-11-11T04:26:20.968812+00:00"
+      },
+      "language_llama_translate-mr_generate": {
+        "state": "running",
+        "site": "node01",
+        "gpus": [
+          2
+        ],
+        "runner_pid": "3668050",
+        "job_dir": "language_llama_translate-mr_generate__6",
+        "attempt": 6,
+        "started_utc": "2026-11-11T05:07:00.484060+00:00",
+        "priority": 20,
+        "exit": {
+          "utc": "2026-11-11T05:06:26.733767+00:00",
+          "returncode": 75,
+          "resident_seconds": 301.6961770388298,
+          "task_id": "language_llama_translate-mr_generate",
+          "gpus": [
+            2
+          ]
+        },
+        "finished_utc": "2026-11-11T05:06:28.779659+00:00",
+        "last_checkpoint_relative": "results/audit/unified300/ready_queue/checkpoints/language_llama_translate-mr_generate__5.json",
+        "last_checkpoint_sha256": "74bf8f48a35cda1aae122e4418cc2660f07669414cb840aac35a38f43fac1ad8"
+      },
+      "main_llama_base_s4": {
+        "state": "running",
+        "site": "innet",
+        "gpus": [
+          2
+        ],
+        "runner_pid": "1316318",
+        "job_dir": "main_llama_base_s4__1",
+        "attempt": 1,
+        "started_utc": "2026-11-11T05:01:25.022939+00:00",
+        "priority": 50
+      },
+      "main_qwen_base_61001": {
+        "state": "running",
+        "site": "innet",
+        "gpus": [
+          0
+        ],
+        "runner_pid": "1333939",
+        "job_dir": "main_qwen_base_61001__1",
+        "attempt": 1,
+        "started_utc": "2026-11-11T05:15:46.698705+00:00",
+        "priority": 50
+      }
+    }
+  }
+}
