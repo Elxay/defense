@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-11T08:05:28.252239+00:00",
+  "source_sha256": "13b42d0914473c7b466ea7b6c69babcdfe00a1b0d2545ab13826307c30030dbd",
+  "matrix_human_nonfulfillment_fulfillment_by_WG_nonrefusal0_1": [
+    [
+      2292,
+      815
+    ],
+    [
+      31,
+      1258
+    ]
+  ],
+  "WG_nonrefusal_on_human_nonfulfillment": 815,
+  "WG_refusal_on_human_fulfillment": 31,
+  "INVALID": 4,
+  "interpretation": "815 is the nonrefusal-as-fulfillment proxy false positive, not refusal false positive. Human nonfulfillment is not a refusal ground truth; both are cross-construct disagreements, not benign precision calibration."
+}
