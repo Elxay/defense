@@ -1,0 +1,52 @@
+{
+  "utc_frozen": "2026-11-11T12:18:54.866255+00:00",
+  "worker_sha256": "fbb01bfb819ddbe0fd11ec0460eba083550a12e62d989fbdb47c43483ff21bad",
+  "doc_sha256": "6c4d4ebdd79591cc41d827368835de63eefa0cadbab9cd199b443a0559f94101",
+  "SORRY_parser_sha256": "190558e2d9436c4d9bb0e157526c54a85b32324498e5ccd604f5ccd84f71ff1b",
+  "SORRY_prompt_sha256": "c0760e55a1f8ef1124c6bc3ce80392fbcb4be626f9c4f8451c5e030c98f5ca9c",
+  "WG_template_sha256": "fa7f1c313ef1463a2fe249ff50c537adfbd84ff2fe82b3ffa72ee21124afb0d6",
+  "HB_prompt_source_sha256": "46f1db751866848834d45d5128a18d4cc0a820828e89796ab51bc605d10c7058",
+  "SORRY_assets_sha256": "23c0b4c11c63b2e029b404ec30f579a5fd138fe41746bd746814ace6392cb41c",
+  "cards": {
+    "SORRY": "innet GPU0",
+    "WG": "node01 GPU2",
+    "HB": "innet GPU2+3; adapter gate pending"
+  },
+  "scores_only": true,
+  "main_effects_read_allowed": false,
+  "completed_input_cell_only": true,
+  "cache_key": [
+    "generation_sha256",
+    "prompt_sha256",
+    "response_sha256",
+    "behavior_sha256",
+    "preprocessing_sha256",
+    "judge",
+    "schedule_sha256"
+  ],
+  "priority": [
+    "English",
+    "Chinese",
+    "French",
+    "encoding",
+    "Indian languages"
+  ],
+  "SORRY_batch": 20,
+  "WG_batch": 8,
+  "HB_batch": 1,
+  "HB_long_input_adapter_admitted": false,
+  "pilot_diagnostic": {
+    "algorithm": "PAIR",
+    "models": [
+      "llama",
+      "qwen"
+    ],
+    "rows_per_model": 10,
+    "N_generations": 20,
+    "cap": 2400,
+    "greedy": true,
+    "read_only": "SORRY alpha0 and internal early stop cross table",
+    "does_not_change_search_tier": true
+  },
+  "preprocessing_plan_sha256": "95b187d35833672ed6ef2b3b922326ce1e21d1835103dbdf856a0f86c1a0537a"
+}

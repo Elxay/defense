@@ -1,0 +1,67 @@
+{
+  "utc_frozen": "2026-11-11T12:18:54.792884+00:00",
+  "worker_sha256": "820e4829bf6b8d4d28ae8f8454cf37bbf119fd431e7e93b1baefb0408d87b751",
+  "helper_sha256": "0da1e1bf0ad941eb769b4a8a634b6a9d113eba7235976764217bb94d6749d166",
+  "parent_plan_sha256": "95b187d35833672ed6ef2b3b922326ce1e21d1835103dbdf856a0f86c1a0537a",
+  "inputs_sha256": "89cbe72da1539e5d97f5e1953fe13b6bce6bf46766f755107bf684384e2f2616",
+  "cells": [
+    {
+      "key": "llama_translate-zh-cn",
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "N": 440
+    },
+    {
+      "key": "qwen_translate-zh-cn",
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "N": 440
+    },
+    {
+      "key": "llama_translate-fr",
+      "model": "llama",
+      "family": "translate-fr",
+      "N": 440
+    },
+    {
+      "key": "qwen_translate-fr",
+      "model": "qwen",
+      "family": "translate-fr",
+      "N": 440
+    },
+    {
+      "key": "qwen_translate-ta",
+      "model": "qwen",
+      "family": "translate-ta",
+      "N": 440
+    },
+    {
+      "key": "llama_translate-ml",
+      "model": "llama",
+      "family": "translate-ml",
+      "N": 440
+    },
+    {
+      "key": "qwen_translate-ml",
+      "model": "qwen",
+      "family": "translate-ml",
+      "N": 440
+    },
+    {
+      "key": "llama_translate-mr",
+      "model": "llama",
+      "family": "translate-mr",
+      "N": 440
+    },
+    {
+      "key": "qwen_translate-mr",
+      "model": "qwen",
+      "family": "translate-mr",
+      "N": 440
+    }
+  ],
+  "batch_size": 1,
+  "source_only_alpha0": true,
+  "first_cells": "Chinese, French, then existing Indian alpha0; missing Tamil waits valid generation",
+  "new_main_labels_or_effect_reads_allowed": false
+}
