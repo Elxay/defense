@@ -46,7 +46,10 @@
     "tools/handoff_20261106/unified300_pair_pilot_v2.py",
     "results/audit/unified300/S1b_PAIR_frozen_v2.json",
     "tools/handoff_20261106/unified300_ready_generate_v2.py",
-    "results/audit/unified300/ready_worker_operational_binding_v2.json"
+    "results/audit/unified300/ready_worker_operational_binding_v2.json",
+    "tools/handoff_20261106/unified300_ready_generate_v3.py",
+    "results/audit/unified300/ready_generation_plan_B4_ml.json",
+    "results/audit/unified300/ready_worker_operational_binding_v3.json"
   ],
   "tasks": [
     {
@@ -163,7 +166,7 @@
       "kind": "alpha0_family_gate",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "translate-ta",
         "alpha0",
@@ -190,7 +193,7 @@
       "kind": "alpha0_family_generate",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v2.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "translate-ta",
         "alpha0",
@@ -222,7 +225,7 @@
       "kind": "alpha0_family_gate",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "translate-mr",
         "alpha0",
@@ -249,7 +252,7 @@
       "kind": "alpha0_family_generate",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v2.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "translate-mr",
         "alpha0",
@@ -281,7 +284,7 @@
       "kind": "alpha0_family_gate",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "translate-zh-cn",
         "alpha0",
@@ -308,7 +311,7 @@
       "kind": "alpha0_family_generate",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "translate-zh-cn",
         "alpha0",
@@ -340,7 +343,7 @@
       "kind": "alpha0_family_gate",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "translate-fr",
         "alpha0",
@@ -367,7 +370,7 @@
       "kind": "alpha0_family_generate",
       "argv": [
         "/data/ray/env/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v2.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "translate-fr",
         "alpha0",
@@ -399,7 +402,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "base",
         "s3",
@@ -430,7 +433,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "base",
         "rand0",
@@ -466,7 +469,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "base",
         "s4",
@@ -502,7 +505,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "base",
         "rand1",
@@ -538,7 +541,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "base",
         "s5",
@@ -574,7 +577,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "deepinception",
         "s3",
@@ -605,7 +608,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "deepinception",
         "rand0",
@@ -641,7 +644,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "deepinception",
         "s4",
@@ -677,7 +680,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "deepinception",
         "rand1",
@@ -713,7 +716,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "deepinception",
         "s5",
@@ -749,7 +752,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "refusal_suppression",
         "s3",
@@ -780,7 +783,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "refusal_suppression",
         "rand0",
@@ -816,7 +819,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "refusal_suppression",
         "s4",
@@ -852,7 +855,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "refusal_suppression",
         "rand1",
@@ -888,7 +891,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "refusal_suppression",
         "s5",
@@ -924,7 +927,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "logical_appeal",
         "s3",
@@ -955,7 +958,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "logical_appeal",
         "rand0",
@@ -991,7 +994,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "logical_appeal",
         "s4",
@@ -1027,7 +1030,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "logical_appeal",
         "rand1",
@@ -1063,7 +1066,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "logical_appeal",
         "s5",
@@ -1099,7 +1102,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "authority_endorsement",
         "s3",
@@ -1130,7 +1133,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "authority_endorsement",
         "rand0",
@@ -1166,7 +1169,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "authority_endorsement",
         "s4",
@@ -1202,7 +1205,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "authority_endorsement",
         "rand1",
@@ -1238,7 +1241,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "authority_endorsement",
         "s5",
@@ -1274,7 +1277,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "misrepresentation",
         "s3",
@@ -1305,7 +1308,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "misrepresentation",
         "rand0",
@@ -1341,7 +1344,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "misrepresentation",
         "s4",
@@ -1377,7 +1380,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "misrepresentation",
         "rand1",
@@ -1413,7 +1416,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "misrepresentation",
         "s5",
@@ -1449,7 +1452,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "evidence-based_persuasion",
         "s3",
@@ -1480,7 +1483,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "evidence-based_persuasion",
         "rand0",
@@ -1516,7 +1519,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "evidence-based_persuasion",
         "s4",
@@ -1552,7 +1555,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "evidence-based_persuasion",
         "rand1",
@@ -1588,7 +1591,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "evidence-based_persuasion",
         "s5",
@@ -1624,7 +1627,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "expert_endorsement",
         "s3",
@@ -1655,7 +1658,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "expert_endorsement",
         "rand0",
@@ -1691,7 +1694,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "expert_endorsement",
         "s4",
@@ -1727,7 +1730,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "expert_endorsement",
         "rand1",
@@ -1763,7 +1766,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "expert_endorsement",
         "s5",
@@ -1799,7 +1802,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P1",
         "s3",
@@ -1835,7 +1838,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P1",
         "rand0",
@@ -1876,7 +1879,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P1",
         "s4",
@@ -1917,7 +1920,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P1",
         "rand1",
@@ -1958,7 +1961,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P1",
         "s5",
@@ -1999,7 +2002,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P2",
         "s3",
@@ -2035,7 +2038,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P2",
         "rand0",
@@ -2076,7 +2079,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P2",
         "s4",
@@ -2117,7 +2120,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P2",
         "rand1",
@@ -2158,7 +2161,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "llama",
         "prefix_P2",
         "s5",
@@ -2199,7 +2202,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "base",
         "s3",
@@ -2230,7 +2233,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "base",
         "61000",
@@ -2266,7 +2269,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "base",
         "s4",
@@ -2302,7 +2305,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "base",
         "61001",
@@ -2338,7 +2341,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "base",
         "s5",
@@ -2374,7 +2377,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "deepinception",
         "s3",
@@ -2405,7 +2408,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "deepinception",
         "61000",
@@ -2441,7 +2444,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "deepinception",
         "s4",
@@ -2477,7 +2480,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "deepinception",
         "61001",
@@ -2513,7 +2516,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "deepinception",
         "s5",
@@ -2549,7 +2552,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "refusal_suppression",
         "s3",
@@ -2580,7 +2583,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "refusal_suppression",
         "61000",
@@ -2616,7 +2619,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "refusal_suppression",
         "s4",
@@ -2652,7 +2655,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "refusal_suppression",
         "61001",
@@ -2688,7 +2691,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "refusal_suppression",
         "s5",
@@ -2724,7 +2727,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "logical_appeal",
         "s3",
@@ -2755,7 +2758,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "logical_appeal",
         "61000",
@@ -2791,7 +2794,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "logical_appeal",
         "s4",
@@ -2827,7 +2830,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "logical_appeal",
         "61001",
@@ -2863,7 +2866,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "logical_appeal",
         "s5",
@@ -2899,7 +2902,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "authority_endorsement",
         "s3",
@@ -2930,7 +2933,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "authority_endorsement",
         "61000",
@@ -2966,7 +2969,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "authority_endorsement",
         "s4",
@@ -3002,7 +3005,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "authority_endorsement",
         "61001",
@@ -3038,7 +3041,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "authority_endorsement",
         "s5",
@@ -3074,7 +3077,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "misrepresentation",
         "s3",
@@ -3105,7 +3108,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "misrepresentation",
         "61000",
@@ -3141,7 +3144,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "misrepresentation",
         "s4",
@@ -3177,7 +3180,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "misrepresentation",
         "61001",
@@ -3213,7 +3216,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "misrepresentation",
         "s5",
@@ -3249,7 +3252,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "evidence-based_persuasion",
         "s3",
@@ -3280,7 +3283,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "evidence-based_persuasion",
         "61000",
@@ -3316,7 +3319,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "evidence-based_persuasion",
         "s4",
@@ -3352,7 +3355,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "evidence-based_persuasion",
         "61001",
@@ -3388,7 +3391,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "evidence-based_persuasion",
         "s5",
@@ -3424,7 +3427,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "expert_endorsement",
         "s3",
@@ -3455,7 +3458,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "expert_endorsement",
         "61000",
@@ -3491,7 +3494,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "expert_endorsement",
         "s4",
@@ -3527,7 +3530,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "expert_endorsement",
         "61001",
@@ -3563,7 +3566,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "expert_endorsement",
         "s5",
@@ -3599,7 +3602,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P1",
         "s3",
@@ -3635,7 +3638,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P1",
         "61000",
@@ -3676,7 +3679,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P1",
         "s4",
@@ -3717,7 +3720,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P1",
         "61001",
@@ -3758,7 +3761,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P1",
         "s5",
@@ -3799,7 +3802,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P2",
         "s3",
@@ -3835,7 +3838,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P2",
         "61000",
@@ -3876,7 +3879,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P2",
         "s4",
@@ -3917,7 +3920,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P2",
         "61001",
@@ -3958,7 +3961,7 @@
       "kind": "admitted_nonzero_generation",
       "argv": [
         "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
-        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
         "qwen",
         "prefix_P2",
         "s5",
@@ -4065,11 +4068,239 @@
       ],
       "sync_relpath": "results/audit/unified300/PAIR_execution_gate_v2",
       "yieldable": false
+    },
+    {
+      "id": "language_llama_translate-ml_B4_gate",
+      "priority": 10,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "alpha0_family_gate",
+      "argv": [
+        "env",
+        "DEF_GENERATION_PLAN_RELATIVE=results/audit/unified300/ready_generation_plan_B4_ml.json",
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
+        "llama",
+        "translate-ml",
+        "alpha0",
+        "gate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu1/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_family_gates/node01/llama/translate-ml",
+      "yieldable": false
+    },
+    {
+      "id": "language_llama_translate-ml_B4_generate",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "alpha0_family_generate",
+      "argv": [
+        "env",
+        "DEF_GENERATION_PLAN_RELATIVE=results/audit/unified300/ready_generation_plan_B4_ml.json",
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
+        "llama",
+        "translate-ml",
+        "alpha0",
+        "generate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/ready_family_gates/node01/llama/translate-ml/zero20.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/alpha0",
+      "yieldable": true
+    },
+    {
+      "id": "B4_ml_llama_s3",
+      "priority": 50,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "family_nonzero_generation",
+      "argv": [
+        "env",
+        "DEF_GENERATION_PLAN_RELATIVE=results/audit/unified300/ready_generation_plan_B4_ml.json",
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
+        "llama",
+        "translate-ml",
+        "s3",
+        "generate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/alpha0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/s3",
+      "yieldable": true
+    },
+    {
+      "id": "B4_ml_llama_rand0",
+      "priority": 50,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "family_nonzero_generation",
+      "argv": [
+        "env",
+        "DEF_GENERATION_PLAN_RELATIVE=results/audit/unified300/ready_generation_plan_B4_ml.json",
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
+        "llama",
+        "translate-ml",
+        "rand0",
+        "generate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/rand0",
+      "yieldable": true
+    },
+    {
+      "id": "B4_ml_llama_s4",
+      "priority": 50,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "family_nonzero_generation",
+      "argv": [
+        "env",
+        "DEF_GENERATION_PLAN_RELATIVE=results/audit/unified300/ready_generation_plan_B4_ml.json",
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
+        "llama",
+        "translate-ml",
+        "s4",
+        "generate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/s4",
+      "yieldable": true
+    },
+    {
+      "id": "B4_ml_llama_rand1",
+      "priority": 50,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "family_nonzero_generation",
+      "argv": [
+        "env",
+        "DEF_GENERATION_PLAN_RELATIVE=results/audit/unified300/ready_generation_plan_B4_ml.json",
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
+        "llama",
+        "translate-ml",
+        "rand1",
+        "generate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/rand1",
+      "yieldable": true
+    },
+    {
+      "id": "B4_ml_llama_s5",
+      "priority": 50,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "family_nonzero_generation",
+      "argv": [
+        "env",
+        "DEF_GENERATION_PLAN_RELATIVE=results/audit/unified300/ready_generation_plan_B4_ml.json",
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate_v3.py",
+        "llama",
+        "translate-ml",
+        "s5",
+        "generate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads_B4_ml/llama/translate-ml.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated_B4_ml/llama/translate-ml/s5",
+      "yieldable": true
     }
   ],
   "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
-  "parent_catalog_sha256": "206444e7aedd0d4c37273265936ce61aa3f2d9b95fd4b19eb053142ae389fc92",
-  "updated_utc": "2026-11-11T05:05:19.208795+00:00",
+  "parent_catalog_sha256": "be490f22f18afd0c16b37f6a13b95980d2c313f8e93fa624d4c1fcb031447d88",
+  "updated_utc": "2026-11-11T06:26:37.838594+00:00",
   "controller_version": 5,
   "physical_idle_definition": "no compute context and memory<2GB, including valid-but-not-yet-CUDA leases; dispatch still respects all leases",
   "restart_recovery": "persist task transitions and reconcile descriptors/status/exits; missing/dead runner blocked, no blind retry",

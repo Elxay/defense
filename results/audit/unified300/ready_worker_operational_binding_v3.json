@@ -1,0 +1,12 @@
+{
+  "utc_frozen": "2026-11-11T06:26:37.838594+00:00",
+  "worker_sha256": "92f90610eac91c6d3a9533cb3a9df85182d0bef6688a865f03032344fb49af29",
+  "parent_worker_sha256": "d32426975a8e3def6fec322b5b02f0b5c8ab30098c2e48ce4cbee94d5a67a242",
+  "allowed_numerical_plan_sha256": [
+    "f39e140e9eab4df0debddf213099082f1b68eb0b9d6065bd7a06d630f00830ce",
+    "ecff914aca61efaa920daaa1bbfae55f1403e30618559432712e294b1ea5200a"
+  ],
+  "batch_core_sha256": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+  "numerical_candidate_AST_unchanged": true,
+  "change": "per-row expected runtime norm metadata +hard1pct tolerance; explicit independent B4 ml numerical plan and external alpha0 gate; old records/plan unchanged; cached candidates only same UUID"
+}
