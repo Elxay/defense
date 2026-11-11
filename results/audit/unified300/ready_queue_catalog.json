@@ -1,0 +1,4031 @@
+{
+  "utc_frozen": "2026-11-11T03:58:15.113322+00:00",
+  "controller_sha256": "7a4aa5d0758c797bc18e16acae179642ae03f1b099b2f093791adf41eda04267",
+  "runner_sha256": "a8dfbfb640924f59c95546eaba4838f8e8ddf5348d24f6cd0fb61a19b18083d8",
+  "poll_seconds": 30,
+  "idle_alert_seconds": 900,
+  "eligible_gpu_slots": {
+    "innet": [
+      0,
+      2,
+      3
+    ],
+    "node01": [
+      0,
+      1,
+      2
+    ]
+  },
+  "excluded": [
+    "innetGPU1"
+  ],
+  "alert_delivery": "local alerts.jsonl and controller stdout; no external messages configured",
+  "node_deploy_files": [
+    "tools/handoff_20261106/unified300_queue_runner.py",
+    "tools/handoff_20261106/unified300_ready_generate.py",
+    "tools/handoff_20261106/unified300_additional_device20.py",
+    "tools/handoff_20261106/batched_injection300.py",
+    "tools/handoff_20261106/unified300_language_alpha0.py",
+    "results/audit/unified300/parallel_device20_additional_cards_plan.json",
+    "results/audit/unified300/parallel_device20_inputs.private.json",
+    "results/audit/unified300/ready_generation_plan.json",
+    "results/audit/unified300/static_alpha0_inputs.private.json",
+    "results/audit/unified300/language_alpha0_inputs.private.json"
+  ],
+  "tasks": [
+    {
+      "id": "device20_node0_llama",
+      "priority": 0,
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "kind": "engineering_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_additional_device20.py",
+        "{ROOT}",
+        "llama",
+        "0",
+        "node01_gpu0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu1/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/parallel_device20/node01_gpu0/llama",
+      "yieldable": false
+    },
+    {
+      "id": "device20_node0_qwen",
+      "priority": 0,
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "kind": "engineering_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_additional_device20.py",
+        "{ROOT}",
+        "qwen",
+        "0",
+        "node01_gpu0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu1/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/parallel_device20/node01_gpu0/qwen",
+      "yieldable": false
+    },
+    {
+      "id": "device20_node2_llama",
+      "priority": 0,
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "kind": "engineering_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_additional_device20.py",
+        "{ROOT}",
+        "llama",
+        "2",
+        "node01_gpu2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu1/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/parallel_device20/node01_gpu2/llama",
+      "yieldable": false
+    },
+    {
+      "id": "device20_node2_qwen",
+      "priority": 0,
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "kind": "engineering_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_additional_device20.py",
+        "{ROOT}",
+        "qwen",
+        "2",
+        "node01_gpu2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu1/qwen/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/parallel_device20/node01_gpu2/qwen",
+      "yieldable": false
+    },
+    {
+      "id": "language_llama_translate-ta_gate",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "alpha0_family_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "translate-ta",
+        "alpha0",
+        "gate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu1/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_family_gates/node01/llama/translate-ta",
+      "yieldable": false
+    },
+    {
+      "id": "language_llama_translate-ta_generate",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "kind": "alpha0_family_generate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "translate-ta",
+        "alpha0",
+        "generate",
+        "1"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu1/llama/complete.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_family_gates/node01/llama/translate-ta/zero20.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated/llama/translate-ta/alpha0",
+      "yieldable": true
+    },
+    {
+      "id": "language_llama_translate-mr_gate",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "kind": "alpha0_family_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "translate-mr",
+        "alpha0",
+        "gate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu0/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_family_gates/node01/llama/translate-mr",
+      "yieldable": false
+    },
+    {
+      "id": "language_llama_translate-mr_generate",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "kind": "alpha0_family_generate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "translate-mr",
+        "alpha0",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu0/llama/complete.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_family_gates/node01/llama/translate-mr/zero20.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated/llama/translate-mr/alpha0",
+      "yieldable": true
+    },
+    {
+      "id": "language_llama_translate-zh-cn_gate",
+      "priority": 20,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "alpha0_family_gate",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "translate-zh-cn",
+        "alpha0",
+        "gate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/innet_gpu0/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_family_gates/innet/llama/translate-zh-cn",
+      "yieldable": false
+    },
+    {
+      "id": "language_llama_translate-zh-cn_generate",
+      "priority": 20,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "alpha0_family_generate",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "translate-zh-cn",
+        "alpha0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/innet_gpu0/llama/complete.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_family_gates/innet/llama/translate-zh-cn/zero20.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated/llama/translate-zh-cn/alpha0",
+      "yieldable": true
+    },
+    {
+      "id": "language_llama_translate-fr_gate",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "kind": "alpha0_family_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "translate-fr",
+        "alpha0",
+        "gate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu2/llama/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_family_gates/node01/llama/translate-fr",
+      "yieldable": false
+    },
+    {
+      "id": "language_llama_translate-fr_generate",
+      "priority": 20,
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "kind": "alpha0_family_generate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "translate-fr",
+        "alpha0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/parallel_device20/node01_gpu2/llama/complete.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_family_gates/node01/llama/translate-fr/zero20.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/ready_generated/llama/translate-fr/alpha0",
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_base_s3",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "base",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_base_rand0",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "base",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/base/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_base_s4",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "base",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/base/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_base_rand1",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "base",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/base/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_base_s5",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "base",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/base/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_deepinception_s3",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "deepinception",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_deepinception_rand0",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "deepinception",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/deepinception/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_deepinception_s4",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "deepinception",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/deepinception/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_deepinception_rand1",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "deepinception",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/deepinception/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_deepinception_s5",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "deepinception",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/deepinception/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_refusal_suppression_s3",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "refusal_suppression",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_refusal_suppression_rand0",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "refusal_suppression",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/refusal_suppression/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_refusal_suppression_s4",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "refusal_suppression",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/refusal_suppression/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_refusal_suppression_rand1",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "refusal_suppression",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/refusal_suppression/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_refusal_suppression_s5",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "refusal_suppression",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/refusal_suppression/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_logical_appeal_s3",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "logical_appeal",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_logical_appeal_rand0",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "logical_appeal",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/logical_appeal/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_logical_appeal_s4",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "logical_appeal",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/logical_appeal/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_logical_appeal_rand1",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "logical_appeal",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/logical_appeal/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_logical_appeal_s5",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "logical_appeal",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/logical_appeal/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_authority_endorsement_s3",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "authority_endorsement",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_authority_endorsement_rand0",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "authority_endorsement",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/authority_endorsement/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_authority_endorsement_s4",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "authority_endorsement",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/authority_endorsement/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_authority_endorsement_rand1",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "authority_endorsement",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/authority_endorsement/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_authority_endorsement_s5",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "authority_endorsement",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/authority_endorsement/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_misrepresentation_s3",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "misrepresentation",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_misrepresentation_rand0",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "misrepresentation",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/misrepresentation/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_misrepresentation_s4",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "misrepresentation",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/misrepresentation/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_misrepresentation_rand1",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "misrepresentation",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/misrepresentation/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_misrepresentation_s5",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "misrepresentation",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/misrepresentation/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_evidence-based_persuasion_s3",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "evidence-based_persuasion",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_evidence-based_persuasion_rand0",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "evidence-based_persuasion",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/evidence-based_persuasion/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_evidence-based_persuasion_s4",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "evidence-based_persuasion",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/evidence-based_persuasion/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_evidence-based_persuasion_rand1",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "evidence-based_persuasion",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/evidence-based_persuasion/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_evidence-based_persuasion_s5",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "evidence-based_persuasion",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/evidence-based_persuasion/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_expert_endorsement_s3",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "expert_endorsement",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_expert_endorsement_rand0",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "expert_endorsement",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/expert_endorsement/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_expert_endorsement_s4",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "expert_endorsement",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/expert_endorsement/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_expert_endorsement_rand1",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "expert_endorsement",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/expert_endorsement/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_expert_endorsement_s5",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "expert_endorsement",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/expert_endorsement/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P1_s3",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P1",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P1_rand0",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P1",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/prefix_P1/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P1_s4",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P1",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/prefix_P1/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P1_rand1",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P1",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/prefix_P1/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P1_s5",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P1",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/prefix_P1/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P2_s3",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P2",
+        "s3",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P2_rand0",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P2",
+        "rand0",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/prefix_P2/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P2_s4",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P2",
+        "s4",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/prefix_P2/rand0/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P2_rand1",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P2",
+        "rand1",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/prefix_P2/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_llama_prefix_P2_s5",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "llama",
+        "prefix_P2",
+        "s5",
+        "generate",
+        "2"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/llama/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/llama/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/llama/prefix_P2/rand1/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_base_s3",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "base",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_base_61000",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "base",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/base/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_base_s4",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "base",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/base/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_base_61001",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "base",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/base/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_base_s5",
+      "priority": 50,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "base",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/base.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/base/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/base/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_deepinception_s3",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "deepinception",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_deepinception_61000",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "deepinception",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/deepinception/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_deepinception_s4",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "deepinception",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/deepinception/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_deepinception_61001",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "deepinception",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/deepinception/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_deepinception_s5",
+      "priority": 51,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "deepinception",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/deepinception.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/deepinception/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/deepinception/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_refusal_suppression_s3",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "refusal_suppression",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_refusal_suppression_61000",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "refusal_suppression",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/refusal_suppression/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_refusal_suppression_s4",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "refusal_suppression",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/refusal_suppression/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_refusal_suppression_61001",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "refusal_suppression",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/refusal_suppression/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_refusal_suppression_s5",
+      "priority": 52,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "refusal_suppression",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/refusal_suppression.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/refusal_suppression/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/refusal_suppression/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_logical_appeal_s3",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "logical_appeal",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_logical_appeal_61000",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "logical_appeal",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/logical_appeal/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_logical_appeal_s4",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "logical_appeal",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/logical_appeal/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_logical_appeal_61001",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "logical_appeal",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/logical_appeal/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_logical_appeal_s5",
+      "priority": 53,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "logical_appeal",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/logical_appeal.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/logical_appeal/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/logical_appeal/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_authority_endorsement_s3",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "authority_endorsement",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_authority_endorsement_61000",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "authority_endorsement",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/authority_endorsement/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_authority_endorsement_s4",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "authority_endorsement",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/authority_endorsement/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_authority_endorsement_61001",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "authority_endorsement",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/authority_endorsement/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_authority_endorsement_s5",
+      "priority": 54,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "authority_endorsement",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/authority_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/authority_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/authority_endorsement/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_misrepresentation_s3",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "misrepresentation",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_misrepresentation_61000",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "misrepresentation",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/misrepresentation/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_misrepresentation_s4",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "misrepresentation",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/misrepresentation/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_misrepresentation_61001",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "misrepresentation",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/misrepresentation/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_misrepresentation_s5",
+      "priority": 55,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "misrepresentation",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/misrepresentation.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/misrepresentation/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/misrepresentation/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_evidence-based_persuasion_s3",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "evidence-based_persuasion",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_evidence-based_persuasion_61000",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "evidence-based_persuasion",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/evidence-based_persuasion/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_evidence-based_persuasion_s4",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "evidence-based_persuasion",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/evidence-based_persuasion/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_evidence-based_persuasion_61001",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "evidence-based_persuasion",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/evidence-based_persuasion/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_evidence-based_persuasion_s5",
+      "priority": 56,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "evidence-based_persuasion",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/evidence-based_persuasion.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/evidence-based_persuasion/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/evidence-based_persuasion/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_expert_endorsement_s3",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "expert_endorsement",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_expert_endorsement_61000",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "expert_endorsement",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/expert_endorsement/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_expert_endorsement_s4",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "expert_endorsement",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/expert_endorsement/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_expert_endorsement_61001",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "expert_endorsement",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/expert_endorsement/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_expert_endorsement_s5",
+      "priority": 57,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "expert_endorsement",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/expert_endorsement.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/expert_endorsement/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/expert_endorsement/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P1_s3",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P1",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P1_61000",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P1",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/prefix_P1/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P1_s4",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P1",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/prefix_P1/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P1_61001",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P1",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/prefix_P1/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P1_s5",
+      "priority": 58,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P1",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P1.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P1/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/prefix_P1/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P2_s3",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P2",
+        "s3",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P2_61000",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P2",
+        "61000",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/prefix_P2/s3/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P2_s4",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P2",
+        "s4",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/prefix_P2/61000/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P2_61001",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P2",
+        "61001",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/prefix_P2/s4/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "main_qwen_prefix_P2_s5",
+      "priority": 59,
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "kind": "admitted_nonzero_generation",
+      "argv": [
+        "/home/kemove/anaconda3/envs/HZX_GLA/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_ready_generate.py",
+        "qwen",
+        "prefix_P2",
+        "s5",
+        "generate",
+        "0"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/SORRY_alpha0_gate_reads/qwen/prefix_P2.json",
+          "key": "gate",
+          "value": "active"
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/zero20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/static_alpha0/qwen/prefix_P2/position20_gate.json",
+          "key": "passed",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/ready_generated/qwen/prefix_P2/61001/complete.json",
+          "key": "N",
+          "value": 440
+        }
+      ],
+      "yieldable": true
+    },
+    {
+      "id": "PAIR_llama_gate",
+      "priority": 5,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "PAIR_method_gate",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_pair_pilot.py",
+        "gate"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/S1b_PAIR_frozen.json",
+          "key": "engineering_prerequisites_frozen",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/PAIR_execution_gate",
+      "yieldable": false
+    },
+    {
+      "id": "PAIR_llama_pilot",
+      "priority": 6,
+      "site": "node01",
+      "gpus": [
+        0,
+        1
+      ],
+      "kind": "PAIR_formal_pilot10",
+      "argv": [
+        "/data/ray/env/bin/python",
+        "{ROOT}/tools/handoff_20261106/unified300_pair_pilot.py",
+        "pilot"
+      ],
+      "requires": [
+        {
+          "path": "results/audit/unified300/S1b_PAIR_frozen.json",
+          "key": "engineering_prerequisites_frozen",
+          "value": true
+        },
+        {
+          "path": "results/audit/unified300/PAIR_execution_gate/complete.json",
+          "key": "passed",
+          "value": true
+        }
+      ],
+      "sync_relpath": "results/audit/unified300/PAIR_pilot/llama",
+      "yieldable": false
+    }
+  ],
+  "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller"
+}
