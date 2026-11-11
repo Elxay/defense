@@ -30,7 +30,19 @@
     "results/audit/unified300/parallel_device20_inputs.private.json",
     "results/audit/unified300/ready_generation_plan.json",
     "results/audit/unified300/static_alpha0_inputs.private.json",
-    "results/audit/unified300/language_alpha0_inputs.private.json"
+    "results/audit/unified300/language_alpha0_inputs.private.json",
+    "tools/handoff_20261106/unified300_pair_pilot.py",
+    "results/audit/unified300/S1b_PAIR_frozen.json",
+    "results/audit/unified300/PAIR_pilot_inputs.private.json",
+    "repos/HarmBench/baselines/pair/PAIR.py",
+    "repos/HarmBench/baselines/pair/conversers.py",
+    "repos/HarmBench/baselines/pair/judges.py",
+    "repos/HarmBench/baselines/pair/common.py",
+    "repos/HarmBench/baselines/pair/system_prompts.py",
+    "repos/HarmBench/baselines/pair/language_models.py",
+    "tools/handoff_20261106/search_target_injection300.py",
+    "results/audit/unified300/targets.private.json",
+    "results/audit/unified300/search_gate20_inputs.private.json"
   ],
   "tasks": [
     {
@@ -4027,5 +4039,7 @@
       "yieldable": false
     }
   ],
-  "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller"
+  "priority_definition": "0 device proofs;5PAIR gate/6pilot;20 unfinished alpha0;50+fixed family index admitted nonzero; independent failures do not halt controller",
+  "parent_catalog_sha256": "470019bc68e6cf87de4cea78038e3bad7ffc7c5d72892fa279cbb5e04927464a",
+  "updated_utc": "2026-11-11T04:12:39.200670+00:00"
 }
