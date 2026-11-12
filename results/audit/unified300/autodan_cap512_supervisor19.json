@@ -1,0 +1,15 @@
+{
+  "utc_frozen": "2026-11-12T08:36:35.724546+00:00",
+  "worker_sha256": "eb9370cdb4617f1fc10ea19eb13a5b8e812a2263d22aec5530d2e9e625f120fd",
+  "source_plan_sha256": "fe59eecf5aee249048ddbb8f787c0c3d478423294719b8e8f71b6952aa969b4a",
+  "time_from": "lease/status started UTC including model loading",
+  "new20_requests_same_fixed_ID_order": true,
+  "old_outputs_imported": false,
+  "wall_hours": 4,
+  "grace_seconds": 60,
+  "charged_cards": 2,
+  "new_namespace": "AutoDAN_build_cap512_v5",
+  "forecast": "all charged GPUh*n_tier / completed_request_n",
+  "mixture_only_diagnostic": true,
+  "main_nonzero_effects_read": false
+}
