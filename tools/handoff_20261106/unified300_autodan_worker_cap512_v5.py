@@ -96,7 +96,7 @@ class Port:
    elapsed=time.monotonic()-start
   if not getattr(CTX,'engineering',False) and self.role in P['new_token_caps']:assert tokens['new_tokens']<=P['new_token_caps'][self.role]
   if self.role=='target':CTX.last_target_sha=hashlib.sha256(out.encode()).hexdigest()
-  row=dict(utc=utc(),effective_max_new_tokens=P['new_token_caps'].get(self.role) if not getattr(CTX,'engineering',False) else None,bid=bid,role=self.role,call_index=idx,seed=seed,active_seconds=elapsed,waiting_seconds=start-queued,max_length_total=max_length,do_sample=kw.get('do_sample',False),tokens=tokens,source_input_sha256=hashlib.sha256(plain.encode()).hexdigest(),target_injection_receipts=receipts)
+  row=dict(utc=utc(),effective_max_new_tokens=P['new_token_caps'].get(self.role) if not getattr(CTX,'engineering',False) else None,bid=bid,role=self.role,call_index=idx,seed=seed,active_seconds=elapsed,waiting_seconds=start-queued,requested_source_max_length_total=max_length,do_sample=kw.get('do_sample',False),tokens=tokens,source_input_sha256=hashlib.sha256(plain.encode()).hexdigest(),target_injection_receipts=receipts)
   with guard:events.append(row)
   save(D/'calls.private'/bid/f'{self.role}_{idx:04d}.json',dict(metadata=row,system=system,user=user,condition=condition,output=out));return out
 def make(data,engineering=False):
