@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-12T09:10:35.017276+00:00",
+  "worker_sha256": "bd9cbf0e43e508afb2a7c1f9a97c76968afb0fe422f2a0020c7d17703b6f21c9",
+  "allowed_numerical_plan_sha256": [
+    "89a8d99fcecd37b99a339b5932f3a96d67e778a410cff05b4624ceffa1a9cd06"
+  ],
+  "parent_worker_sha256": "92f90610eac91c6d3a9533cb3a9df85182d0bef6688a865f03032344fb49af29",
+  "candidate_AST_identical": true
+}
