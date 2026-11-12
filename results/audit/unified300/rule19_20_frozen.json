@@ -1,0 +1,29 @@
+{
+  "utc_frozen": "2026-11-12T08:29:11.408749+00:00",
+  "AutoDAN_doc_sha256": "32cb6224d1bd2fc3e1c9fcb8ebb509833ba370de9a34df56687a1ba5b485eddf",
+  "translation_doc_sha256": "56d2af3e4c6f27c27d37649248e7e99c6939ac17bc256df3afbdfeceac07888e",
+  "AutoDAN_target_new_tokens": 512,
+  "AutoDAN_attacker_new_tokens": 1024,
+  "current_PAIR_TAP_target_new_tokens": 150,
+  "new_timing_N": 20,
+  "wall_hours": 4,
+  "main_forecast": "whole reserved GPUh / completed n; censored work retained",
+  "W_cap150": true,
+  "global_search_budget600_not_reset": true,
+  "fallback": [
+    "fresh cap512 timing and building",
+    "Turbo loop with external published R library",
+    "attempted-unassessed"
+  ],
+  "T1": [
+    "Chinese",
+    "French"
+  ],
+  "T2": [
+    "Tamil",
+    "Malayalam",
+    "Marathi"
+  ],
+  "T2_cutoff_UTC": "2026-11-16T14:59:59+00:00",
+  "main_nonzero_effects_read": false
+}
