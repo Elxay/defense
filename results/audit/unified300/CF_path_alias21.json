@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-12T09:52:13.741825+00:00",
+  "reason": "CF20 output_root was ROOT-relative while worker anchored it below U, so immutable outputs exist in nested directory but queue canonical predecessor markers stayed missing.",
+  "action": "Create verified-empty canonical-directory alias to actual existing nested output tree on both sites; keep numerical plan, worker, generation signatures and all output files unchanged.",
+  "canonical_relative": "results/audit/unified300/ready_generated_CF20",
+  "actual_relative": "results/audit/unified300/results/audit/unified300/ready_generated_CF20",
+  "no_effects_read": true
+}
