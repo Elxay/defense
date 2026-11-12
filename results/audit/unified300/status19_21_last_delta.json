@@ -1,0 +1,124 @@
+{
+  "utc": "2026-11-12T09:56:32.710075+00:00",
+  "parent_status_sha256": "8d029f71f99a568b9f8ac3b0aa6c036eb077732bf04daab3240e79052a55ee52",
+  "WG_B4": {
+    "state": "running",
+    "site": "node01",
+    "gpus": [
+      2
+    ],
+    "runner_pid": "1963004",
+    "job_dir": "WG_R1_uniform21_B4__1",
+    "attempt": 1,
+    "started_utc": "2026-11-12T09:54:32.642654+00:00",
+    "priority": 8
+  },
+  "WG_keeper": {
+    "utc": "2026-11-12T09:56:19.217309+00:00",
+    "pid": 3417817,
+    "main_effects_read": false
+  },
+  "WG_gate20": {
+    "utc": "2026-11-12T09:55:46.736302+00:00",
+    "passed": true,
+    "checks": [
+      {
+        "id": "legal400__ord:0",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:1",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:2",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:3",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:4",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:5",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:6",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:7",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:8",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:9",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:10",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:11",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:12",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:13",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:14",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:15",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:16",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:17",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:18",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:19",
+        "byte_equal": true
+      }
+    ],
+    "site": "node01",
+    "physical_gpus": "2"
+  },
+  "translation_B4_failed": {
+    "utc": "2026-11-12T09:55:13.943835+00:00",
+    "reason": "MemoryError",
+    "next_B": 1,
+    "formal_admitted": false
+  },
+  "translation_B4_N": 52,
+  "translation_selected": {
+    "utc": "2026-11-12T09:56:25.454117+00:00",
+    "B": 1,
+    "reason": "Frozen B8 then B4 screen failed; original single path fallback",
+    "engineering_passed": false,
+    "formal_execution_admitted": false
+  },
+  "main_effects_read": false
+}
