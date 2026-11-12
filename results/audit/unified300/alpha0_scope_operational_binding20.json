@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-12T08:49:52.255409+00:00",
+  "search_collector_sha256": "5c1bbba1ff037fb06134731027da127704298f697a592c66ce3709a3fd034957",
+  "CF_reader_sha256": "d8a5700129eb775cb457138334f3d77291f2e49b720621421476ecd45b195643",
+  "helper_sha256": "6e9be1e12c433b2317a3a70736ce0efad758be2245a4e3cf885bc045214d5125",
+  "parent_execution_plan_sha256": "daa63591bd2b1f68c0224705a08066faa86319f454d4e9ddc31babf72eeb0348",
+  "scope": "Source-manifest alpha0 keys only; no score cache enumeration",
+  "statistics_changed": false
+}
