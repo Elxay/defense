@@ -1,0 +1,602 @@
+{
+  "utc": "2026-11-12T09:24:01.115217+00:00",
+  "scope": "alpha0 reply Unicode only; no outcomes",
+  "old_alpha0_scope_N": 4036,
+  "extra_translate_due_to_script": 26,
+  "changed": [
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 33,
+      "script_counts": {
+        "CJK": 126,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 128,
+      "script_counts": {
+        "CJK": 55,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 156,
+      "script_counts": {
+        "CJK": 71,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 157,
+      "script_counts": {
+        "CJK": 80,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 158,
+      "script_counts": {
+        "CJK": 82,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 161,
+      "script_counts": {
+        "CJK": 225,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 292,
+      "script_counts": {
+        "CJK": 727,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 296,
+      "script_counts": {
+        "CJK": 109,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "id": 362,
+      "script_counts": {
+        "CJK": 64,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 125,
+      "script_counts": {
+        "CJK": 219,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 157,
+      "script_counts": {
+        "CJK": 64,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 161,
+      "script_counts": {
+        "CJK": 430,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "id": 318,
+      "script_counts": {
+        "CJK": 415,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 157,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 254,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "id": 320,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 65,
+        "Malayalam": 0,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 15,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 124,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 39,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 131
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 129,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 547,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 274,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 76,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 348,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 90,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "id": 379,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 131,
+        "Devanagari": 0
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 128,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 697
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 272,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 118
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 289,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 647
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "id": 373,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 899
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "id": 161,
+      "script_counts": {
+        "CJK": 0,
+        "Hangul": 0,
+        "Tamil": 0,
+        "Malayalam": 0,
+        "Devanagari": 578
+      }
+    }
+  ],
+  "old_ko_count": 55,
+  "ko_Hangul_dominant": 0,
+  "ko_CJK_dominant": 55,
+  "ko_tied": 0,
+  "ko_rows": [
+    {
+      "id": 1,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 6,
+      "CJK": 16,
+      "Hangul": 0
+    },
+    {
+      "id": 8,
+      "CJK": 13,
+      "Hangul": 0
+    },
+    {
+      "id": 10,
+      "CJK": 16,
+      "Hangul": 0
+    },
+    {
+      "id": 11,
+      "CJK": 323,
+      "Hangul": 0
+    },
+    {
+      "id": 12,
+      "CJK": 16,
+      "Hangul": 0
+    },
+    {
+      "id": 35,
+      "CJK": 18,
+      "Hangul": 0
+    },
+    {
+      "id": 39,
+      "CJK": 10,
+      "Hangul": 0
+    },
+    {
+      "id": 43,
+      "CJK": 29,
+      "Hangul": 0
+    },
+    {
+      "id": 46,
+      "CJK": 13,
+      "Hangul": 0
+    },
+    {
+      "id": 49,
+      "CJK": 13,
+      "Hangul": 0
+    },
+    {
+      "id": 55,
+      "CJK": 15,
+      "Hangul": 0
+    },
+    {
+      "id": 57,
+      "CJK": 15,
+      "Hangul": 0
+    },
+    {
+      "id": 58,
+      "CJK": 12,
+      "Hangul": 0
+    },
+    {
+      "id": 67,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 83,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 90,
+      "CJK": 24,
+      "Hangul": 0
+    },
+    {
+      "id": 100,
+      "CJK": 18,
+      "Hangul": 0
+    },
+    {
+      "id": 107,
+      "CJK": 21,
+      "Hangul": 0
+    },
+    {
+      "id": 117,
+      "CJK": 21,
+      "Hangul": 0
+    },
+    {
+      "id": 136,
+      "CJK": 21,
+      "Hangul": 0
+    },
+    {
+      "id": 150,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 170,
+      "CJK": 51,
+      "Hangul": 0
+    },
+    {
+      "id": 172,
+      "CJK": 27,
+      "Hangul": 0
+    },
+    {
+      "id": 174,
+      "CJK": 18,
+      "Hangul": 0
+    },
+    {
+      "id": 181,
+      "CJK": 17,
+      "Hangul": 0
+    },
+    {
+      "id": 184,
+      "CJK": 17,
+      "Hangul": 0
+    },
+    {
+      "id": 190,
+      "CJK": 392,
+      "Hangul": 0
+    },
+    {
+      "id": 200,
+      "CJK": 22,
+      "Hangul": 0
+    },
+    {
+      "id": 207,
+      "CJK": 21,
+      "Hangul": 0
+    },
+    {
+      "id": 209,
+      "CJK": 739,
+      "Hangul": 0
+    },
+    {
+      "id": 210,
+      "CJK": 21,
+      "Hangul": 0
+    },
+    {
+      "id": 229,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 242,
+      "CJK": 24,
+      "Hangul": 0
+    },
+    {
+      "id": 248,
+      "CJK": 562,
+      "Hangul": 0
+    },
+    {
+      "id": 251,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 254,
+      "CJK": 9,
+      "Hangul": 0
+    },
+    {
+      "id": 255,
+      "CJK": 20,
+      "Hangul": 0
+    },
+    {
+      "id": 259,
+      "CJK": 15,
+      "Hangul": 0
+    },
+    {
+      "id": 263,
+      "CJK": 22,
+      "Hangul": 0
+    },
+    {
+      "id": 267,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 272,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 302,
+      "CJK": 14,
+      "Hangul": 0
+    },
+    {
+      "id": 328,
+      "CJK": 15,
+      "Hangul": 0
+    },
+    {
+      "id": 343,
+      "CJK": 21,
+      "Hangul": 0
+    },
+    {
+      "id": 350,
+      "CJK": 407,
+      "Hangul": 0
+    },
+    {
+      "id": 351,
+      "CJK": 31,
+      "Hangul": 0
+    },
+    {
+      "id": 360,
+      "CJK": 66,
+      "Hangul": 0
+    },
+    {
+      "id": 383,
+      "CJK": 16,
+      "Hangul": 0
+    },
+    {
+      "id": 389,
+      "CJK": 15,
+      "Hangul": 0
+    },
+    {
+      "id": 395,
+      "CJK": 16,
+      "Hangul": 0
+    },
+    {
+      "id": 407,
+      "CJK": 15,
+      "Hangul": 0
+    },
+    {
+      "id": 418,
+      "CJK": 9,
+      "Hangul": 0
+    },
+    {
+      "id": 422,
+      "CJK": 18,
+      "Hangul": 0
+    },
+    {
+      "id": 440,
+      "CJK": 52,
+      "Hangul": 0
+    }
+  ],
+  "not_human_language_validation": true
+}
