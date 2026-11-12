@@ -1,7 +1,26 @@
 from u300_schedule_prepare import *
-import time,os
+import time,os,shlex
 def cycle():
  S=L(U/'ready_queue/state.json')['tasks']
+ code="""from pathlib import Path
+import json
+U=Path('/home/dell/Def/results/audit/unified300');S="""+repr(S)+""";out={}
+for B in [4,1]:
+ W=U/'score_waves'/('WG_R1_uniform21_B'+str(B));item={}
+ for name in ['WG_complete.json','WG_gate20.json']:
+  p=W/name
+  if p.exists():item[name]=json.loads(p.read_text())
+ st=S.get('WG_R1_uniform21_B'+str(B),{})
+ if st.get('state')=='failed':
+  p=U/'queue_jobs'/st['job_dir']/'worker.log';text=p.read_text(errors='replace')[-30000:] if p.exists() else ''
+  item['fallback_engineering_failure']=any(k in text for k in ['OutOfMemoryError','CUDA out of memory','WG_MEMORY_HEADROOM_BELOW_3GIB','Fresh 20-reference gate failed'])
+ out[str(B)]=item
+print(json.dumps(out))"""
+ remote=json.loads(subprocess.check_output(['ssh','node01','/data/ray/env/bin/python -c '+shlex.quote(code)],text=True))
+ for B,item in remote.items():
+  for name in ['WG_complete.json','WG_gate20.json']:
+   if name in item:save(U/'score_waves'/('WG_R1_uniform21_B'+B)/name,item[name])
+
  for B in [4,1]:
   tid='WG_R1_uniform21_B'+str(B);st=S.get(tid,{});wave='WG_R1_uniform21_B'+str(B);W=U/'score_waves'/wave
   done=W/'WG_complete.json';gate=W/'WG_gate20.json'
@@ -9,10 +28,7 @@ def cycle():
    assert L(done)['N_inputs']==52800 and L(gate)['passed']
    save(U/'R1_WG_uniform_admission21.json',dict(utc=utc(),batch=B,coverage=52800,complete_sha256=H(done),reference_gate_sha256=H(gate),plan_sha256=H(U/('WG_uniform_R1_B'+str(B)+'_plan21.json')),main_effect_read_allowed=False));return
   if st.get('state')!='failed':continue
-  folder=U/'queue_jobs'/st['job_dir'];log=folder/'worker.log'
-  if not log.exists():log=folder/'runner.log'
-  text=log.read_text(errors='replace')[-30000:]
-  failure=any(k in text for k in ['OutOfMemoryError','CUDA out of memory','WG_MEMORY_HEADROOM_BELOW_3GIB','Fresh 20-reference gate failed'])
+  failure=remote[str(B)].get('fallback_engineering_failure',False)
   if B==4 and failure:
    with (R/'logs/unified300_catalog_mutation.lock').open('a') as lk:
     fcntl.flock(lk,fcntl.LOCK_EX);cat=L(U/'ready_queue_catalog.json')
