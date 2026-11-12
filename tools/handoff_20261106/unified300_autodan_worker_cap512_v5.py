@@ -120,7 +120,7 @@ if mode=='gate':
   runs.append(sorted(vals,key=lambda x:x['id']))
  assert runs[0]==runs[1],'source controller call structures depend on order'
  save(D/'complete.json',dict(utc=utc(),passed=True,target=key,source_controller_and_parsers=True,target_zero20=20,retrieval=True,behavior_count=8,orders=2,engineering='2 iterations,64 new tokens/call,cutoff11; formal unchanged',structure=runs[0],plan_sha256=H(U/'S1b_AutoDAN_cap512_v5.json')));pulse('gate_complete');sys.exit(0)
-assert L(U/'AutoDAN_execution_gate_v4'/key/'complete.json')['passed'];CTX.engineering=False;CTX.patched=True
+assert L(U/'AutoDAN_execution_gate_cap512_v5'/key/'complete.json')['passed'];CTX.engineering=False;CTX.patched=True
 if mode=='warmup':
  save(D/'cold_launches'/f'{os.getpid()}.json',dict(utc=utc(),cold_seconds=cold_seconds,resident_GPUh=2*cold_seconds/3600))
  cold_total=sum(L(q)['resident_GPUh']for q in(D/'cold_launches').glob('*.json'))
@@ -137,7 +137,7 @@ if mode=='warmup':
   elapsed=time.monotonic()-start;library=result;librel=f'library_versions.private/{i:04d}.json';save(D/librel,library);x=dict(utc=utc(),index=i,id=row['id'],success=True,seconds=elapsed,resident_GPUh=2*elapsed/3600,library_relative=librel,library_sha256=H(D/librel),call_counts=dict(CTX.counts),iterations_completed=len(attacklog),internal_score_stop_hit=bool(attacklog and attacklog[-1]['score']>=8.5));save(D/'request_traces.private'/f'{i:04d}.json',dict(attack_log=attacklog,summary_log=summarylog));save(D/'requests.private'/f'{i:04d}.json',x);completed.append(x)
  for i in range(len(completed),20):one(i)
  save(D/'fresh20_completed.json',dict(utc=utc(),N=20,completed_request_ids=[x['id'] for x in completed],no_old_outputs_imported=True));pulse('fresh20_complete_waiting_supervisor_cost_decision');sys.exit(0)
-assert mode=='pilot';manifest=L(U/'AutoDAN_build/library_frozen_manifest.json');lp=U/'AutoDAN_build/library_frozen.private.json';assert H(lp)==manifest['library_sha256'];library=L(lp);rows=L(U/'PAIR_pilot_inputs.private.json');start=time.monotonic();results=[]
+assert mode=='pilot';manifest=L(U/'AutoDAN_build_cap512_v5/library_frozen_manifest.json');lp=U/'AutoDAN_build_cap512_v5/library_frozen.private.json';assert H(lp)==manifest['library_sha256'];library=L(lp);rows=L(U/'PAIR_pilot_inputs.private.json');start=time.monotonic();results=[]
 def run(r):
  CTX.bid=f"sorry_{r['id']:04d}";CTX.counts={};CTX.engineering=False;CTX.patched=True;t=time.monotonic();failure=None;prompt=None
  try:

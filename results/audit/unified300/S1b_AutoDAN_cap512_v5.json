@@ -1,6 +1,6 @@
 {
   "utc_frozen": "2026-11-12T08:33:20.996614+00:00",
-  "worker_sha256": "1f24eece3e02bd128b72f33dd2b20f4f9e44ed0732faf8d525e138935c66df4e",
+  "worker_sha256": "057db1a14e3773fe267a041055ad9f82bfdca9465939a2cac62c6622104214d7",
   "method": "AutoDAN_Turbo",
   "source_revision": "389df844439888fc44ea7f5e8e95fd2b5c82ea64",
   "role_model_path": "/home/dell/Def/models/Qwen3-8B-translator-b968826d",
