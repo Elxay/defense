@@ -1,0 +1,64 @@
+{
+  "utc": "2026-11-12T08:25:54.789272+00:00",
+  "request": "wjb_train_000051116",
+  "rows": [
+    {
+      "role": "target",
+      "N": 130,
+      "median_new_tokens": 472.5,
+      "median_seconds": 24.67004186741542,
+      "total_seconds": 3239.2474228388164,
+      "max_total_limits": [
+        10000
+      ],
+      "new_tokens_min": 82,
+      "new_tokens_max": 676
+    },
+    {
+      "role": "attacker",
+      "N": 130,
+      "median_new_tokens": 207.0,
+      "median_seconds": 17.848695653956383,
+      "total_seconds": 3524.2992480834946,
+      "max_total_limits": [
+        10000
+      ],
+      "new_tokens_min": 25,
+      "new_tokens_max": 9157
+    },
+    {
+      "role": "scorer_analysis",
+      "N": 129,
+      "median_new_tokens": 440,
+      "median_seconds": 36.06803988502361,
+      "total_seconds": 4810.594249525806,
+      "max_total_limits": [
+        10000
+      ],
+      "new_tokens_min": 285,
+      "new_tokens_max": 713
+    },
+    {
+      "role": "scorer_extract",
+      "N": 129,
+      "median_new_tokens": 4,
+      "median_seconds": 0.3395042270421982,
+      "total_seconds": 43.8030091074761,
+      "max_total_limits": [
+        2000
+      ],
+      "new_tokens_min": 4,
+      "new_tokens_max": 4
+    }
+  ],
+  "retrieval": {
+    "N": 0,
+    "explanation": "Official warm_up loop has no strategy retrieval; library construction/embedding occurs after all iterations, not yet reached"
+  },
+  "target_actual_limit": "max_length10000 total, not max_new512; recorded injection generation kwargs confirm",
+  "target_token_budget_range": [
+    9284,
+    9967
+  ],
+  "main_effects_read": false
+}

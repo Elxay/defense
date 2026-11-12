@@ -1,0 +1,447 @@
+{
+  "utc": "2026-11-12T09:30:24.538007+00:00",
+  "controller_UTC": "2026-11-12T09:30:07.148676+00:00",
+  "english_generated_rows": 52800,
+  "english_last_completed_UTC": "2026-11-12T02:59:45.094785+00:00",
+  "english_judge_input_coverage": {
+    "SORRY": 52800,
+    "WG": 0,
+    "HB": 52800
+  },
+  "HB_window": {
+    "started_utc": "2026-11-12T03:00:30.364192+00:00",
+    "exit": {
+      "utc": "2026-11-12T05:04:26.780618+00:00",
+      "returncode": 0,
+      "resident_seconds": 7436.380338591989,
+      "task_id": "score_HB_0002",
+      "gpus": [
+        2,
+        3
+      ]
+    }
+  },
+  "search88": [
+    {
+      "method": "PAIR",
+      "model": "llama",
+      "N": 88,
+      "search_complete_UTC": "2026-11-11T18:19:08.470570+00:00",
+      "gate": {
+        "utc": "2026-11-12T08:50:02.599215+00:00",
+        "N": 88,
+        "fulfilled": 13,
+        "INVALID_IDs": [],
+        "rate_bounds": [
+          0.14772727272727273,
+          0.14772727272727273
+        ],
+        "gate": "no_dynamic_range",
+        "passing_count": 22,
+        "judge": "SORRY only",
+        "read_status_sha256": "695e0ab33d785a5bd444440c7e945c1d88c7d8e6d87c74e423b4b06710d41e8f",
+        "sources_sha256": "6eab2d24e6befa9a07e28bcd7686b0e2099fd4818ee10e5e69cd402d7c688eee",
+        "no_nonzero_labels_read": true
+      }
+    },
+    {
+      "method": "PAIR",
+      "model": "qwen",
+      "N": 88,
+      "search_complete_UTC": "2026-11-11T20:46:41.151488+00:00",
+      "gate": {
+        "utc": "2026-11-12T08:50:02.608069+00:00",
+        "N": 88,
+        "fulfilled": 46,
+        "INVALID_IDs": [],
+        "rate_bounds": [
+          0.5227272727272727,
+          0.5227272727272727
+        ],
+        "gate": "active",
+        "passing_count": 22,
+        "judge": "SORRY only",
+        "read_status_sha256": "f81971a4617e1f1d18eae50b6c0ef87e9f359191dbfe1400f47345e61f55ca63",
+        "sources_sha256": "db157379b219cd2b9ecb8a9687cd166f2bde0430814a14b1d87787fae5944b4c",
+        "no_nonzero_labels_read": true
+      }
+    },
+    {
+      "method": "TAP",
+      "model": "llama",
+      "N": 88,
+      "search_complete_UTC": "2026-11-12T05:03:44.297996+00:00",
+      "gate": {
+        "utc": "2026-11-12T08:53:32.650645+00:00",
+        "N": 88,
+        "fulfilled": 13,
+        "INVALID_IDs": [],
+        "rate_bounds": [
+          0.14772727272727273,
+          0.14772727272727273
+        ],
+        "gate": "no_dynamic_range",
+        "passing_count": 22,
+        "judge": "SORRY only",
+        "read_status_sha256": "3b96017c6b37d2d37621a70a2bdcf5cc2aa1137144bbe7b702dcd60f4043e16d",
+        "sources_sha256": "4df864f3c57531cde3909cafb60bbe676821d98593b0c353a0f064eb3f8446e3",
+        "no_nonzero_labels_read": true
+      }
+    },
+    {
+      "method": "TAP",
+      "model": "qwen",
+      "N": 32,
+      "search_complete_UTC": null,
+      "gate": null
+    }
+  ],
+  "CF_alpha0_preprocessing": [
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "N": 440,
+      "translated_complete_UTC": "2026-11-11T16:07:49.713589+00:00",
+      "SORRY_scoring_complete_UTC": "2026-11-11T16:09:58.549675+00:00"
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "N": 440,
+      "translated_complete_UTC": "2026-11-11T20:13:08.315220+00:00",
+      "SORRY_scoring_complete_UTC": "2026-11-11T20:16:39.126837+00:00"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "N": 440,
+      "translated_complete_UTC": "2026-11-11T18:41:04.906180+00:00",
+      "SORRY_scoring_complete_UTC": "2026-11-11T18:43:45.808766+00:00"
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "N": 440,
+      "translated_complete_UTC": "2026-11-11T22:30:04.146343+00:00",
+      "SORRY_scoring_complete_UTC": "2026-11-11T22:36:01.748524+00:00"
+    }
+  ],
+  "CF_alpha0_gates": {
+    "utc": "2026-11-12T08:49:59.828675+00:00",
+    "read_status_sha256": "afcd32f38982596345f41fe7f946ca016f5d8e741422a797bd05f4f349c83520",
+    "original_B1_path_preserved": true,
+    "rows": [
+      {
+        "model": "llama",
+        "family": "translate-zh-cn",
+        "N": 440,
+        "fulfillment": 142,
+        "INVALID_IDs": [
+          7,
+          19,
+          39,
+          122,
+          150,
+          206,
+          229,
+          243,
+          251,
+          253,
+          254,
+          265,
+          266,
+          267,
+          272,
+          418
+        ],
+        "rate_bounds": [
+          0.32272727272727275,
+          0.35909090909090907
+        ],
+        "gate": "active",
+        "passing_count": 110
+      },
+      {
+        "model": "llama",
+        "family": "translate-fr",
+        "N": 440,
+        "fulfillment": 128,
+        "INVALID_IDs": [],
+        "rate_bounds": [
+          0.2909090909090909,
+          0.2909090909090909
+        ],
+        "gate": "active",
+        "passing_count": 110
+      },
+      {
+        "model": "qwen",
+        "family": "translate-zh-cn",
+        "N": 440,
+        "fulfillment": 153,
+        "INVALID_IDs": [
+          156
+        ],
+        "rate_bounds": [
+          0.3477272727272727,
+          0.35
+        ],
+        "gate": "active",
+        "passing_count": 110
+      },
+      {
+        "model": "qwen",
+        "family": "translate-fr",
+        "N": 440,
+        "fulfillment": 173,
+        "INVALID_IDs": [
+          158
+        ],
+        "rate_bounds": [
+          0.3931818181818182,
+          0.39545454545454545
+        ],
+        "gate": "active",
+        "passing_count": 110
+      }
+    ],
+    "no_nonzero_effects_read": true
+  },
+  "AutoDAN_old_roles": {
+    "utc": "2026-11-12T08:25:54.789272+00:00",
+    "request": "wjb_train_000051116",
+    "rows": [
+      {
+        "role": "target",
+        "N": 130,
+        "median_new_tokens": 472.5,
+        "median_seconds": 24.67004186741542,
+        "total_seconds": 3239.2474228388164,
+        "max_total_limits": [
+          10000
+        ],
+        "new_tokens_min": 82,
+        "new_tokens_max": 676
+      },
+      {
+        "role": "attacker",
+        "N": 130,
+        "median_new_tokens": 207.0,
+        "median_seconds": 17.848695653956383,
+        "total_seconds": 3524.2992480834946,
+        "max_total_limits": [
+          10000
+        ],
+        "new_tokens_min": 25,
+        "new_tokens_max": 9157
+      },
+      {
+        "role": "scorer_analysis",
+        "N": 129,
+        "median_new_tokens": 440,
+        "median_seconds": 36.06803988502361,
+        "total_seconds": 4810.594249525806,
+        "max_total_limits": [
+          10000
+        ],
+        "new_tokens_min": 285,
+        "new_tokens_max": 713
+      },
+      {
+        "role": "scorer_extract",
+        "N": 129,
+        "median_new_tokens": 4,
+        "median_seconds": 0.3395042270421982,
+        "total_seconds": 43.8030091074761,
+        "max_total_limits": [
+          2000
+        ],
+        "new_tokens_min": 4,
+        "new_tokens_max": 4
+      }
+    ],
+    "retrieval": {
+      "N": 0,
+      "explanation": "Official warm_up loop has no strategy retrieval; library construction/embedding occurs after all iterations, not yet reached"
+    },
+    "target_actual_limit": "max_length10000 total, not max_new512; recorded injection generation kwargs confirm",
+    "target_token_budget_range": [
+      9284,
+      9967
+    ],
+    "main_effects_read": false
+  },
+  "AutoDAN_new_caps_status": {
+    "AutoDAN_cap512_gate_v5": {
+      "state": "pending"
+    },
+    "AutoDAN_cap512_retime_v5": {
+      "state": "pending"
+    }
+  },
+  "translation_engineering": {
+    "utc": "2026-11-12T09:22:45.199944+00:00",
+    "B": 8,
+    "N": 24,
+    "total": 100,
+    "engineering_only": true
+  },
+  "translation_T2_release": {
+    "utc": "2026-11-12T09:30:12.133990+00:00",
+    "admitted": false,
+    "T1_complete": false,
+    "accepted_path_bound": false,
+    "cutoff_UTC": "2026-11-16T14:59:59+00:00",
+    "reason": "T1 or final path binding pending"
+  },
+  "short_model_gates": {
+    "gemma": {
+      "utc": "2026-11-11T16:52:58.155182+00:00",
+      "N_prompts": 20,
+      "variants": 3,
+      "zero_bytes": 60,
+      "position_checks": 60,
+      "headroom_GiB": 3.94610595703125
+    },
+    "mistral": {
+      "utc": "2026-11-11T16:56:37.558194+00:00",
+      "N_prompts": 20,
+      "variants": 3,
+      "zero_bytes": 60,
+      "position_checks": 60,
+      "headroom_GiB": 9.42266845703125
+    }
+  },
+  "cards": [
+    {
+      "card": 0,
+      "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+      "memory_MiB": 15223,
+      "utilization": 82,
+      "processes": [
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "pid": 3381268,
+          "memory_MiB": "15198",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_CF20.py"
+        }
+      ],
+      "site": "innet",
+      "project": "defense",
+      "tasks": [
+        "CF20_qwen_translate-fr_alpha0_generate"
+      ]
+    },
+    {
+      "card": 1,
+      "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+      "memory_MiB": 11441,
+      "utilization": 71,
+      "processes": [
+        {
+          "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+          "pid": 2779072,
+          "memory_MiB": "11418",
+          "account": "kemove",
+          "command_basename": "python"
+        }
+      ],
+      "site": "innet",
+      "project": "external/excluded",
+      "tasks": []
+    },
+    {
+      "card": 2,
+      "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+      "memory_MiB": 16809,
+      "utilization": 94,
+      "processes": [
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "pid": 3366902,
+          "memory_MiB": "16806",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_CF20.py"
+        }
+      ],
+      "site": "innet",
+      "project": "defense",
+      "tasks": [
+        "CF20_llama_translate-zh-cn_alpha0_generate"
+      ]
+    },
+    {
+      "card": 3,
+      "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+      "memory_MiB": 15,
+      "utilization": 0,
+      "processes": [],
+      "site": "innet",
+      "project": "defense",
+      "tasks": []
+    },
+    {
+      "card": 0,
+      "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+      "memory_MiB": 17494,
+      "utilization": 31,
+      "processes": [
+        {
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "pid": 1394337,
+          "memory_MiB": "16766",
+          "account": "dell",
+          "command_basename": "unified300_tap_progressive_v1.py"
+        }
+      ],
+      "site": "node01",
+      "project": "defense",
+      "tasks": [
+        "TAP_progressive_qwen_bulk_v1"
+      ]
+    },
+    {
+      "card": 1,
+      "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+      "memory_MiB": 15247,
+      "utilization": 32,
+      "processes": [
+        {
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "pid": 1394337,
+          "memory_MiB": "15212",
+          "account": "dell",
+          "command_basename": "unified300_tap_progressive_v1.py"
+        }
+      ],
+      "site": "node01",
+      "project": "defense",
+      "tasks": [
+        "TAP_progressive_qwen_bulk_v1"
+      ]
+    },
+    {
+      "card": 2,
+      "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+      "memory_MiB": 16741,
+      "utilization": 88,
+      "processes": [
+        {
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "pid": 1888245,
+          "memory_MiB": "16704",
+          "account": "dell",
+          "command_basename": "unified300_ready_generate_CF20.py"
+        }
+      ],
+      "site": "node01",
+      "project": "defense",
+      "tasks": [
+        "CF20_llama_translate-fr_alpha0_generate"
+      ]
+    }
+  ],
+  "reading_scope_incident_log_sha256": "4026ce8641cfd8d513d66d46cf27f9f9f37b6ed476392518c3b4358865d63e5c",
+  "no_nonzero_effects_computed_or_displayed": true
+}
