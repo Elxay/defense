@@ -4,7 +4,7 @@ def cycle():
  S=L(U/'ready_queue/state.json')['tasks']
  code="""from pathlib import Path
 import json
-U=Path('/home/dell/Def/results/audit/unified300');S="""+repr(S)+""";out={}
+U=Path('/home/dell/Def/results/audit/unified300');S="""+repr({k:v for k,v in S.items() if k in ['WG_R1_uniform21_B4','WG_R1_uniform21_B1']})+""";out={}
 for B in [4,1]:
  W=U/'score_waves'/('WG_R1_uniform21_B'+str(B));item={}
  for name in ['WG_complete.json','WG_gate20.json']:
