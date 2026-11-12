@@ -1,6 +1,7 @@
 {
   "utc": "2026-11-12T08:57:33.212179+00:00",
-  "worker_sha256": "7d3dda7c489ef47dc2e0edc67f6ef8d6b5366a0cb5a90d62d8dff0c62e343ce7",
+  "worker_sha256": "2611fd34596c7f726247ef3e7c4f2c3db5b53cd3997b7942b158413082b9952c",
   "generation_execution_sha256": "5364f80b560e1ba54197328dbd109544802c2952997362735703ca131eed254c",
-  "scope": "exact100 alpha0 engineering; no cache scan; B8\u2192B4\u2192B1 fixed"
+  "scope": "exact100 alpha0 engineering; no cache scan; B8\u2192B4\u2192B1 fixed",
+  "operational_fix": "Honor already-written OOM marker before score-completion branch; no acceptance criterion change"
 }

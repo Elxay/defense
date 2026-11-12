@@ -6,7 +6,8 @@ D=U/'translation_batch_engineering20'
 def cycle():
  for B in [8,4]:
   here=D/('B'+str(B));result=here/'label_gate.json';failed=(here/'failed.json').exists()
-  if result.exists():gate=L(result);failed=not gate['passed']
+  if failed:pass
+  elif result.exists():gate=L(result);failed=not gate['passed']
   elif (here/'complete.json').exists() and (U/'score_waves'/('translation_engineering_B'+str(B))/'SORRY_complete.json').exists() and (U/'score_waves/translation_engineering_B1/SORRY_complete.json').exists():
    W=U/'score_waves'/('translation_engineering_B'+str(B));V=U/'score_waves/translation_engineering_B1';a=L(V/'inputs.private.json');b=L(W/'inputs.private.json');assert len(a)==len(b)==100;changes=[];invalid=[];up=down=0
    for x,y in zip(a,b):
