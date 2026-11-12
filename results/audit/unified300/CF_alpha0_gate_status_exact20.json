@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-12T08:49:59.421448+00:00",
+  "N_cells": 4,
+  "N_rows": 1760,
+  "source_manifests": {
+    "language_alpha0_llama_translate-zh-cn": "53cc6b484575509ed61a53b75faef196c29bb1915a4fef904d02170c82319bbd",
+    "language_alpha0_llama_translate-fr": "2339db1f432bafd5c23f07d4138b09ca66b3394d1935e1b783d4060a06c5c085",
+    "language_alpha0_qwen_translate-zh-cn": "a4f6c49631120fc6c166d9b64054b6e177c42a20b99fbc9262600111ebe06219",
+    "language_alpha0_qwen_translate-fr": "cdc893765688f0a650dcbe56758d76ccc4c2eb116feffe7e44e579aa0eafb665"
+  },
+  "judge_complete": {
+    "language_alpha0_llama_translate-zh-cn": "fc7b2a705facaf281d48c45b0bfb4e7f21c51a41230b307a16e93bff4482ce9a",
+    "language_alpha0_llama_translate-fr": "ab89fc0142bbdd34ea4cae53d6274b92715e6e4f86e03f49da4490fc06752d3f",
+    "language_alpha0_qwen_translate-zh-cn": "2e58625e8a824bea425462f37b1ddf95566e0ffff9b640aa7cdcfa83096d98bc",
+    "language_alpha0_qwen_translate-fr": "6c5b3df7a188811829d9651e233bed5de7e34bb2cbef4d29340a6c2d7652cfe1"
+  },
+  "scope": "SORRY alpha0 original B1 gate only; no other judges or nonzero"
+}

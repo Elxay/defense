@@ -1,0 +1,81 @@
+{
+  "utc": "2026-11-12T08:49:59.828675+00:00",
+  "read_status_sha256": "afcd32f38982596345f41fe7f946ca016f5d8e741422a797bd05f4f349c83520",
+  "original_B1_path_preserved": true,
+  "rows": [
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "N": 440,
+      "fulfillment": 142,
+      "INVALID_IDs": [
+        7,
+        19,
+        39,
+        122,
+        150,
+        206,
+        229,
+        243,
+        251,
+        253,
+        254,
+        265,
+        266,
+        267,
+        272,
+        418
+      ],
+      "rate_bounds": [
+        0.32272727272727275,
+        0.35909090909090907
+      ],
+      "gate": "active",
+      "passing_count": 110
+    },
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "N": 440,
+      "fulfillment": 128,
+      "INVALID_IDs": [],
+      "rate_bounds": [
+        0.2909090909090909,
+        0.2909090909090909
+      ],
+      "gate": "active",
+      "passing_count": 110
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "N": 440,
+      "fulfillment": 153,
+      "INVALID_IDs": [
+        156
+      ],
+      "rate_bounds": [
+        0.3477272727272727,
+        0.35
+      ],
+      "gate": "active",
+      "passing_count": 110
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "N": 440,
+      "fulfillment": 173,
+      "INVALID_IDs": [
+        158
+      ],
+      "rate_bounds": [
+        0.3931818181818182,
+        0.39545454545454545
+      ],
+      "gate": "active",
+      "passing_count": 110
+    }
+  ],
+  "no_nonzero_effects_read": true
+}
