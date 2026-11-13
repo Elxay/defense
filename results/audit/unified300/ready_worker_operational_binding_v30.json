@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-13T10:25:37.334549+00:00",
+  "worker_sha256": "feafb303074a3dbfd2a22257480c36c97b3faf7d1405d6c2fbced516ec19cb54",
+  "allowed_numerical_plan_sha256": [
+    "bf0e4847b383f474062d41e6a45c535c0c392020b7eeb7a998c0d49ec1a711fb",
+    "8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d",
+    "5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58",
+    "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+    "ebf5dab80f7abf9d028166842ad816f7457e49eec2cf1c4adac937c515af7599"
+  ],
+  "candidate_AST_identical": true,
+  "historical20_additional_reference_check": true
+}
