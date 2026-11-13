@@ -1,16 +1,16 @@
 {
-  "utc": "2026-11-13T16:32:28.412090+00:00",
+  "utc": "2026-11-13T16:40:07.527330+00:00",
   "cards": [
     {
       "card": 0,
       "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
-      "memory_MiB": 16323,
-      "utilization": 47,
+      "memory_MiB": 16479,
+      "utilization": 63,
       "processes": [
         {
           "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
-          "pid": 1486333,
-          "memory_MiB": "16298",
+          "pid": 1495747,
+          "memory_MiB": "16454",
           "account": "kemove",
           "command_basename": "u300_language_translate33.py"
         }
@@ -21,7 +21,7 @@
       "card": 1,
       "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
       "memory_MiB": 11441,
-      "utilization": 65,
+      "utilization": 100,
       "processes": [
         {
           "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
@@ -36,16 +36,24 @@
     {
       "card": 2,
       "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
-      "memory_MiB": 15,
-      "utilization": 0,
-      "processes": [],
+      "memory_MiB": 17391,
+      "utilization": 95,
+      "processes": [
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "pid": 1488246,
+          "memory_MiB": "17368",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py"
+        }
+      ],
       "site": "innet"
     },
     {
       "card": 3,
       "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
       "memory_MiB": 17647,
-      "utilization": 44,
+      "utilization": 74,
       "processes": [
         {
           "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
@@ -61,7 +69,7 @@
       "card": 0,
       "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
       "memory_MiB": 18121,
-      "utilization": 39,
+      "utilization": 40,
       "processes": [
         {
           "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
@@ -77,7 +85,7 @@
       "card": 1,
       "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
       "memory_MiB": 16295,
-      "utilization": 38,
+      "utilization": 34,
       "processes": [
         {
           "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
@@ -93,7 +101,7 @@
       "card": 2,
       "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
       "memory_MiB": 17577,
-      "utilization": 40,
+      "utilization": 30,
       "processes": [
         {
           "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
@@ -107,18 +115,18 @@
     }
   ],
   "node": {
-    "utc": "2026-11-13T16:32:30.283718+00:00",
+    "utc": "2026-11-13T16:40:09.403895+00:00",
     "Mistral_live": {
-      "utc": "2026-11-13T16:32:25.168988+00:00",
+      "utc": "2026-11-13T16:40:05.411330+00:00",
       "condition": "s5_a1.50",
-      "N": 168,
+      "N": 672,
       "total": 700,
       "alpha": 1.5,
       "rho_expected": 3.496133272519968,
       "no_labels_or_selection_read": true
     },
     "norm_guard": {
-      "utc": "2026-11-13T16:32:07.259956+00:00",
+      "utc": "2026-11-13T16:39:56.749536+00:00",
       "conditions": [
         {
           "condition": "alpha0",
@@ -374,14 +382,14 @@
         },
         {
           "condition": "s5_a1.50",
-          "N": 144,
+          "N": 656,
           "complete": false,
           "alpha": 1.5,
           "expected": 3.496133276596271,
-          "runtime_min": 3.4954419136047363,
-          "runtime_median": 3.4959373474121094,
-          "runtime_max": 3.496436834335327,
-          "max_relative_error": 0.00019775075400097942,
+          "runtime_min": 3.4953675270080566,
+          "runtime_median": 3.4959452152252197,
+          "runtime_max": 3.496582508087158,
+          "max_relative_error": 0.00021902757350258264,
           "completed_utc": null
         }
       ],
@@ -716,31 +724,31 @@
     },
     "translations": {
       "qwen_translate-ml_alpha0": {
-        "N": 34,
-        "completed_row_seconds": 1128.3467101573478,
-        "rows_per_active_hour": 108.4772959394115,
+        "N": 40,
+        "completed_row_seconds": 1525.1985147995874,
+        "rows_per_active_hour": 94.41393930213847,
         "live": {
-          "utc": "2026-11-13T16:28:34.765828+00:00",
+          "utc": "2026-11-13T16:35:11.631395+00:00",
           "phase": "B1_reply_translation",
           "cell": "qwen_translate-ml_alpha0",
-          "N": 34,
+          "N": 40,
           "total": 440,
-          "elapsed_seconds": 1128.4186555480119,
+          "elapsed_seconds": 1525.2842180258594,
           "no_judge_labels_read": true
         },
         "complete": false
       },
       "qwen_translate-mr_alpha0": {
-        "N": 25,
-        "completed_row_seconds": 699.1732486737892,
-        "rows_per_active_hour": 128.72346041659122,
+        "N": 48,
+        "completed_row_seconds": 1404.945560468128,
+        "rows_per_active_hour": 122.99408949512822,
         "live": {
-          "utc": "2026-11-13T16:28:18.687093+00:00",
+          "utc": "2026-11-13T16:40:04.511898+00:00",
           "phase": "B1_reply_translation",
           "cell": "qwen_translate-mr_alpha0",
-          "N": 25,
+          "N": 48,
           "total": 440,
-          "elapsed_seconds": 699.23322203313,
+          "elapsed_seconds": 1405.058022303041,
           "no_judge_labels_read": true
         },
         "complete": false
@@ -805,11 +813,23 @@
       "gpus": [
         0
       ],
-      "runner_pid": "1486293",
-      "job_dir": "T1_translate34_llama_translate-fr_alpha0__1",
-      "attempt": 1,
-      "started_utc": "2026-11-13T16:30:47.129889+00:00",
-      "priority": 40
+      "runner_pid": "1495710",
+      "job_dir": "T1_translate34_llama_translate-fr_alpha0__2",
+      "attempt": 2,
+      "started_utc": "2026-11-13T16:38:01.828444+00:00",
+      "priority": 40,
+      "exit": {
+        "utc": "2026-11-13T16:35:59.336084+00:00",
+        "returncode": 75,
+        "resident_seconds": 312.1681554079987,
+        "task_id": "T1_translate34_llama_translate-fr_alpha0",
+        "gpus": [
+          0
+        ]
+      },
+      "finished_utc": "2026-11-13T16:36:28.660234+00:00",
+      "last_checkpoint_relative": "results/audit/unified300/ready_queue/checkpoints/T1_translate34_llama_translate-fr_alpha0__1.json",
+      "last_checkpoint_sha256": "44406d1c471c2ab7e0d695cebb5bd1e331954839061a7cc76ccf3795cf38168e"
     },
     "takeover30_qwen_ascii_generate": {
       "state": "running",
@@ -846,13 +866,13 @@
       "complete": true
     },
     "llama_translate-mr_alpha0": {
-      "N": 222,
+      "N": 252,
       "failures": {
         "translation_truncated": 15,
         "translation_not_identified_English": 3
       },
-      "active_row_seconds": 4894.83222985547,
-      "rows_per_active_hour": 163.2742374958984,
+      "active_row_seconds": 5356.872229076922,
+      "rows_per_active_hour": 169.35255522350317,
       "complete": false
     }
   },
