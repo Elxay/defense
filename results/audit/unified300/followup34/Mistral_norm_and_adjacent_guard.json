@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-13T16:39:56.749536+00:00",
+  "utc": "2026-11-13T16:40:43.755948+00:00",
   "conditions": [
     {
       "condition": "alpha0",
@@ -255,15 +255,15 @@
     },
     {
       "condition": "s5_a1.50",
-      "N": 656,
-      "complete": false,
+      "N": 700,
+      "complete": true,
       "alpha": 1.5,
       "expected": 3.496133276596271,
       "runtime_min": 3.4953675270080566,
-      "runtime_median": 3.4959452152252197,
+      "runtime_median": 3.495944857597351,
       "runtime_max": 3.496582508087158,
       "max_relative_error": 0.00021902757350258264,
-      "completed_utc": null
+      "completed_utc": "2026-11-13T16:40:34.463631+00:00"
     }
   ],
   "adjacent": [
@@ -436,7 +436,17 @@
       "N": 700,
       "byte_identical": 12,
       "all_identical": false
+    },
+    {
+      "seed": 5,
+      "alpha_pair": [
+        1.25,
+        1.5
+      ],
+      "N": 700,
+      "byte_identical": 19,
+      "all_identical": false
     }
   ],
-  "selection_execution_contract_passed": false
+  "selection_execution_contract_passed": true
 }

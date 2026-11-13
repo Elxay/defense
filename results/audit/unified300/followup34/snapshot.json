@@ -1,16 +1,16 @@
 {
-  "utc": "2026-11-13T16:40:07.527330+00:00",
+  "utc": "2026-11-13T16:41:58.602373+00:00",
   "cards": [
     {
       "card": 0,
       "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
-      "memory_MiB": 16479,
-      "utilization": 63,
+      "memory_MiB": 16545,
+      "utilization": 62,
       "processes": [
         {
           "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
           "pid": 1495747,
-          "memory_MiB": "16454",
+          "memory_MiB": "16520",
           "account": "kemove",
           "command_basename": "u300_language_translate33.py"
         }
@@ -21,7 +21,7 @@
       "card": 1,
       "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
       "memory_MiB": 11441,
-      "utilization": 100,
+      "utilization": 98,
       "processes": [
         {
           "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
@@ -37,7 +37,7 @@
       "card": 2,
       "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
       "memory_MiB": 17391,
-      "utilization": 95,
+      "utilization": 96,
       "processes": [
         {
           "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
@@ -53,7 +53,7 @@
       "card": 3,
       "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
       "memory_MiB": 17647,
-      "utilization": 74,
+      "utilization": 91,
       "processes": [
         {
           "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
@@ -69,7 +69,7 @@
       "card": 0,
       "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
       "memory_MiB": 18121,
-      "utilization": 40,
+      "utilization": 31,
       "processes": [
         {
           "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
@@ -84,24 +84,16 @@
     {
       "card": 1,
       "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
-      "memory_MiB": 16295,
-      "utilization": 34,
-      "processes": [
-        {
-          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
-          "pid": 775113,
-          "memory_MiB": "16258",
-          "account": "dell",
-          "command_basename": "u300_mistral_calibration32.py"
-        }
-      ],
+      "memory_MiB": 29,
+      "utilization": 0,
+      "processes": [],
       "site": "node01"
     },
     {
       "card": 2,
       "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
       "memory_MiB": 17577,
-      "utilization": 30,
+      "utilization": 31,
       "processes": [
         {
           "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
@@ -115,18 +107,18 @@
     }
   ],
   "node": {
-    "utc": "2026-11-13T16:40:09.403895+00:00",
+    "utc": "2026-11-13T16:42:00.457336+00:00",
     "Mistral_live": {
-      "utc": "2026-11-13T16:40:05.411330+00:00",
+      "utc": "2026-11-13T16:40:34.427856+00:00",
       "condition": "s5_a1.50",
-      "N": 672,
+      "N": 700,
       "total": 700,
       "alpha": 1.5,
       "rho_expected": 3.496133272519968,
       "no_labels_or_selection_read": true
     },
     "norm_guard": {
-      "utc": "2026-11-13T16:39:56.749536+00:00",
+      "utc": "2026-11-13T16:40:43.755948+00:00",
       "conditions": [
         {
           "condition": "alpha0",
@@ -382,15 +374,15 @@
         },
         {
           "condition": "s5_a1.50",
-          "N": 656,
-          "complete": false,
+          "N": 700,
+          "complete": true,
           "alpha": 1.5,
           "expected": 3.496133276596271,
           "runtime_min": 3.4953675270080566,
-          "runtime_median": 3.4959452152252197,
+          "runtime_median": 3.495944857597351,
           "runtime_max": 3.496582508087158,
           "max_relative_error": 0.00021902757350258264,
-          "completed_utc": null
+          "completed_utc": "2026-11-13T16:40:34.463631+00:00"
         }
       ],
       "adjacent": [
@@ -563,9 +555,19 @@
           "N": 700,
           "byte_identical": 12,
           "all_identical": false
+        },
+        {
+          "seed": 5,
+          "alpha_pair": [
+            1.25,
+            1.5
+          ],
+          "N": 700,
+          "byte_identical": 19,
+          "all_identical": false
         }
       ],
-      "selection_execution_contract_passed": false
+      "selection_execution_contract_passed": true
     },
     "alpha150_reference": {
       "utc": "2026-11-13T16:09:33.726407+00:00",
@@ -724,31 +726,31 @@
     },
     "translations": {
       "qwen_translate-ml_alpha0": {
-        "N": 40,
-        "completed_row_seconds": 1525.1985147995874,
-        "rows_per_active_hour": 94.41393930213847,
+        "N": 46,
+        "completed_row_seconds": 1916.8650742322206,
+        "rows_per_active_hour": 86.39105705774793,
         "live": {
-          "utc": "2026-11-13T16:35:11.631395+00:00",
+          "utc": "2026-11-13T16:41:43.311353+00:00",
           "phase": "B1_reply_translation",
           "cell": "qwen_translate-ml_alpha0",
-          "N": 40,
+          "N": 46,
           "total": 440,
-          "elapsed_seconds": 1525.2842180258594,
+          "elapsed_seconds": 1916.9641779980157,
           "no_judge_labels_read": true
         },
         "complete": false
       },
       "qwen_translate-mr_alpha0": {
-        "N": 48,
-        "completed_row_seconds": 1404.945560468128,
-        "rows_per_active_hour": 122.99408949512822,
+        "N": 49,
+        "completed_row_seconds": 1424.1407638872042,
+        "rows_per_active_hour": 123.86416039276533,
         "live": {
-          "utc": "2026-11-13T16:40:04.511898+00:00",
+          "utc": "2026-11-13T16:40:23.709505+00:00",
           "phase": "B1_reply_translation",
           "cell": "qwen_translate-mr_alpha0",
-          "N": 48,
+          "N": 49,
           "total": 440,
-          "elapsed_seconds": 1405.058022303041,
+          "elapsed_seconds": 1424.2556318871211,
           "no_judge_labels_read": true
         },
         "complete": false
@@ -780,8 +782,7 @@
       "physical_gpu": "2"
     }
   },
-  "Mistral_ETA_UTC": "2026-11-13T16:40:00.153118+00:00",
-  "Mistral_median_last7_condition_seconds": 611.633846,
+  "Mistral_ETA_UTC": null,
   "running_tasks": {
     "translate33_llama_translate-mr_alpha0": {
       "state": "running",
