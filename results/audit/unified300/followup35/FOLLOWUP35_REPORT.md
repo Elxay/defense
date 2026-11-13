@@ -1,6 +1,6 @@
 # 接续核对35：结果与执行收据
 
-快照UTC：2026-11-13T18:19:00.235118+00:00。新读取仅包含已授权的alpha0探索性诊断与工程门；主提示、主闸门和非零结果读取锁不变。
+快照UTC：2026-11-13T18:22:13.091849+00:00。新读取仅包含已授权的alpha0探索性诊断与工程门；主提示、主闸门和非零结果读取锁不变。
 
 ## 搜索选择规则与末候选诊断
 
@@ -87,12 +87,12 @@ Llama Caesar/Morse尚缺408/184行，不把局部记录称为完整；Atbash已4
 
 | 节点 | 卡 | UUID | 账号 | PID/命令 | 已用MiB |
 |---|---:|---|---|---|---:|
-| innet | 0 | GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0 |  |  | 16 |
+| innet | 0 | GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0 | kemove | 1625857/unified300_ready_generate_v30.py | 17059 |
 | innet | 1 | GPU-11714cb4-6750-4bb9-a65a-ab038fc97007 | kemove | 182655/python | 11441 |
-| innet | 2 | GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb | kemove | 1599931/u300_Mistral_gate35_split.py | 14533 |
-| innet | 3 | GPU-16fea00b-6607-57e1-0caa-cec4f27ce988 |  |  | 15 |
+| innet | 2 | GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb | kemove | 1599931/u300_Mistral_gate35_split.py | 14395 |
+| innet | 3 | GPU-16fea00b-6607-57e1-0caa-cec4f27ce988 | kemove | 1624281/u300_language_translate33.py | 16051 |
 | node01 | 0 | GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf | dell | 1230907/u300_language_translate33.py | 18133 |
-| node01 | 1 | GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333 | dell | 1378101/unified300_ready_generate_v3.py | 16303 |
+| node01 | 1 | GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333 | dell | 1378101/unified300_ready_generate_v3.py | 16983 |
 | node01 | 2 | GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0 | dell | 1090769/u300_language_translate33.py | 17577 |
 
 innet1外部MTA不进入我们的队列；瞬时利用率不用于判断健康或可抢占。

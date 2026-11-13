@@ -1,78 +1,144 @@
 {
-  "utc": "2026-11-13T18:19:00.235118+00:00",
+  "utc": "2026-11-13T18:22:13.091849+00:00",
   "sites": {
     "innet": {
-      "utc": "2026-11-13T18:19:00Z",
+      "utc": "2026-11-13T18:22:13Z",
       "gpus": [
         {
           "index": 0,
           "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
-          "used_MiB": 16,
+          "used_MiB": 17059,
           "total_MiB": 24564,
-          "utilization": 0
+          "utilization": 95
         },
         {
           "index": 1,
           "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
           "used_MiB": 11441,
           "total_MiB": 24564,
-          "utilization": 74
+          "utilization": 100
         },
         {
           "index": 2,
           "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
-          "used_MiB": 14533,
+          "used_MiB": 14395,
           "total_MiB": 24564,
-          "utilization": 78
+          "utilization": 76
         },
         {
           "index": 3,
           "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
-          "used_MiB": 15,
+          "used_MiB": 16051,
           "total_MiB": 24564,
-          "utilization": 0
+          "utilization": 1
         }
       ],
       "compute_processes": [
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "PID": 1625857,
+          "used_MiB": "17034",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "CUDA context held"
+        },
         {
           "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
           "PID": 182655,
           "used_MiB": "11418",
           "account": "kemove",
-          "command_basename": "python"
+          "command_basename": "python",
+          "phase": "CUDA context held"
         },
         {
           "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
           "PID": 1599931,
-          "used_MiB": "14510",
+          "used_MiB": "14374",
           "account": "kemove",
-          "command_basename": "u300_Mistral_gate35_split.py"
+          "command_basename": "u300_Mistral_gate35_split.py",
+          "phase": "CUDA context held"
+        },
+        {
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "PID": 1624281,
+          "used_MiB": "16028",
+          "account": "kemove",
+          "command_basename": "u300_language_translate33.py",
+          "phase": "CUDA context held"
+        },
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "PID": 1599867,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "u300_Mistral_gate35_split.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "PID": 1599904,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "u300_Mistral_gate35_split.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "PID": 1624242,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "u300_language_translate33.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "PID": 1624264,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "u300_language_translate33.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "PID": 1625823,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "PID": 1625841,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
         }
       ]
     },
     "node01": {
-      "utc": "2026-11-13T18:19:01Z",
+      "utc": "2026-11-13T18:22:14Z",
       "gpus": [
         {
           "index": 0,
           "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
           "used_MiB": 18133,
           "total_MiB": 24564,
-          "utilization": 31
+          "utilization": 47
         },
         {
           "index": 1,
           "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
-          "used_MiB": 16303,
+          "used_MiB": 16983,
           "total_MiB": 24564,
-          "utilization": 42
+          "utilization": 94
         },
         {
           "index": 2,
           "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
           "used_MiB": 17577,
           "total_MiB": 24564,
-          "utilization": 32
+          "utilization": 51
         }
       ],
       "compute_processes": [
@@ -81,21 +147,56 @@
           "PID": 1230907,
           "used_MiB": "17562",
           "account": "dell",
-          "command_basename": "u300_language_translate33.py"
+          "command_basename": "u300_language_translate33.py",
+          "phase": "CUDA context held"
         },
         {
           "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
           "PID": 1378101,
-          "used_MiB": "16266",
+          "used_MiB": "16946",
           "account": "dell",
-          "command_basename": "unified300_ready_generate_v3.py"
+          "command_basename": "unified300_ready_generate_v3.py",
+          "phase": "CUDA context held"
         },
         {
           "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
           "PID": 1090769,
           "used_MiB": "17540",
           "account": "dell",
-          "command_basename": "u300_language_translate33.py"
+          "command_basename": "u300_language_translate33.py",
+          "phase": "CUDA context held"
+        },
+        {
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "PID": 1090754,
+          "used_MiB": 0,
+          "account": "dell",
+          "command_basename": "u300_language_translate33.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "PID": 1230894,
+          "used_MiB": 0,
+          "account": "dell",
+          "command_basename": "u300_language_translate33.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "PID": 1378055,
+          "used_MiB": 0,
+          "account": "dell",
+          "command_basename": "unified300_ready_generate_v3.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "PID": 1378064,
+          "used_MiB": 0,
+          "account": "dell",
+          "command_basename": "unified300_ready_generate_v3.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
         }
       ]
     }
