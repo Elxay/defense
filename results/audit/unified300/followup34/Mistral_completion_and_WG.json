@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-13T16:41:58.555226+00:00",
+  "utc": "2026-11-13T16:46:20.202330+00:00",
   "generation_complete": {
     "utc": "2026-11-13T16:40:34.465827+00:00",
     "N_conditions": 22,
@@ -469,12 +469,102 @@
     "no_selection_read": true
   },
   "WG_progress": {
-    "utc": "2026-11-13T16:40:58.167269+00:00",
+    "utc": "2026-11-13T16:46:19.944237+00:00",
     "pid": 1157877,
     "judge": "WG",
     "wave": "Mistral_calibration32",
-    "phase": "asset_verification",
+    "phase": "cache_only_scoring",
     "no_main_effect_reads": true,
-    "total_rows": 15400
+    "completed_input_rows": 1072,
+    "total_rows": 15400,
+    "elapsed_seconds": 321.7769320299849
+  },
+  "WG_reference20": {
+    "utc": "2026-11-13T16:42:52.388440+00:00",
+    "passed": true,
+    "checks": [
+      {
+        "id": "legal400__ord:0",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:1",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:2",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:3",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:4",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:5",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:6",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:7",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:8",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:9",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:10",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:11",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:12",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:13",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:14",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:15",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:16",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:17",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:18",
+        "byte_equal": true
+      },
+      {
+        "id": "legal400__ord:19",
+        "byte_equal": true
+      }
+    ],
+    "site": "node01",
+    "physical_gpus": "1"
   }
 }

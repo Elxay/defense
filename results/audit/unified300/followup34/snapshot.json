@@ -1,16 +1,16 @@
 {
-  "utc": "2026-11-13T16:41:58.602373+00:00",
+  "utc": "2026-11-13T16:46:20.248863+00:00",
   "cards": [
     {
       "card": 0,
       "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
-      "memory_MiB": 16545,
-      "utilization": 62,
+      "memory_MiB": 16625,
+      "utilization": 61,
       "processes": [
         {
           "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
           "pid": 1495747,
-          "memory_MiB": "16520",
+          "memory_MiB": "16600",
           "account": "kemove",
           "command_basename": "u300_language_translate33.py"
         }
@@ -21,7 +21,7 @@
       "card": 1,
       "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
       "memory_MiB": 11441,
-      "utilization": 98,
+      "utilization": 69,
       "processes": [
         {
           "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
@@ -36,13 +36,13 @@
     {
       "card": 2,
       "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
-      "memory_MiB": 17391,
+      "memory_MiB": 17411,
       "utilization": 96,
       "processes": [
         {
           "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
           "pid": 1488246,
-          "memory_MiB": "17368",
+          "memory_MiB": "17388",
           "account": "kemove",
           "command_basename": "unified300_ready_generate_v30.py"
         }
@@ -53,7 +53,7 @@
       "card": 3,
       "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
       "memory_MiB": 17647,
-      "utilization": 91,
+      "utilization": 74,
       "processes": [
         {
           "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
@@ -84,9 +84,17 @@
     {
       "card": 1,
       "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
-      "memory_MiB": 29,
-      "utilization": 0,
-      "processes": [],
+      "memory_MiB": 17623,
+      "utilization": 56,
+      "processes": [
+        {
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "pid": 1157877,
+          "memory_MiB": "17586",
+          "account": "dell",
+          "command_basename": "u300_score_cache_worker.py"
+        }
+      ],
       "site": "node01"
     },
     {
@@ -107,7 +115,7 @@
     }
   ],
   "node": {
-    "utc": "2026-11-13T16:42:00.457336+00:00",
+    "utc": "2026-11-13T16:46:22.118169+00:00",
     "Mistral_live": {
       "utc": "2026-11-13T16:40:34.427856+00:00",
       "condition": "s5_a1.50",
@@ -726,31 +734,31 @@
     },
     "translations": {
       "qwen_translate-ml_alpha0": {
-        "N": 46,
-        "completed_row_seconds": 1916.8650742322206,
-        "rows_per_active_hour": 86.39105705774793,
+        "N": 62,
+        "completed_row_seconds": 2171.3166011518333,
+        "rows_per_active_hour": 102.79477432337484,
         "live": {
-          "utc": "2026-11-13T16:41:43.311353+00:00",
+          "utc": "2026-11-13T16:45:57.797833+00:00",
           "phase": "B1_reply_translation",
           "cell": "qwen_translate-ml_alpha0",
-          "N": 46,
+          "N": 62,
           "total": 440,
-          "elapsed_seconds": 1916.9641779980157,
+          "elapsed_seconds": 2171.450659353053,
           "no_judge_labels_read": true
         },
         "complete": false
       },
       "qwen_translate-mr_alpha0": {
-        "N": 49,
-        "completed_row_seconds": 1424.1407638872042,
-        "rows_per_active_hour": 123.86416039276533,
+        "N": 52,
+        "completed_row_seconds": 1770.6958291181363,
+        "rows_per_active_hour": 105.72115036450481,
         "live": {
-          "utc": "2026-11-13T16:40:23.709505+00:00",
+          "utc": "2026-11-13T16:46:10.271368+00:00",
           "phase": "B1_reply_translation",
           "cell": "qwen_translate-mr_alpha0",
-          "N": 49,
+          "N": 52,
           "total": 440,
-          "elapsed_seconds": 1424.2556318871211,
+          "elapsed_seconds": 1770.8174871071242,
           "no_judge_labels_read": true
         },
         "complete": false
@@ -867,13 +875,13 @@
       "complete": true
     },
     "llama_translate-mr_alpha0": {
-      "N": 252,
+      "N": 258,
       "failures": {
-        "translation_truncated": 15,
+        "translation_truncated": 17,
         "translation_not_identified_English": 3
       },
-      "active_row_seconds": 5356.872229076922,
-      "rows_per_active_hour": 169.35255522350317,
+      "active_row_seconds": 5724.4256819752045,
+      "rows_per_active_hour": 162.25208459331748,
       "complete": false
     }
   },
