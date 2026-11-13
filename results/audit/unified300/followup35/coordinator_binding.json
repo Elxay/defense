@@ -1,0 +1,13 @@
+{
+  "utc_frozen": "2026-11-13T17:29:59.012592+00:00",
+  "worker_sha256": "be56ba4cb67519b3849a14cec530a747f2d01e8a15298fbf64187719a01c5830",
+  "scope": "fixed engineering gate selection and existing alpha0 source binding; no effects read",
+  "short_WG_site": "node01 GPU1 while long target runs innet2",
+  "long_WG_site": "innet GPU2 after target release; same WG B8 weights/template/parser and fresh official20 reference",
+  "fallback": [
+    8,
+    4,
+    1
+  ],
+  "INVALID_gate": "worst-case upper changes <=2/100"
+}
