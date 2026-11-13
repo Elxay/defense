@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-13T16:13:38.482996+00:00",
+  "shared_contract_source_sha256": "ad70488c84ed6951d6159930d77814db9a797f9c6782ae6ad8d3392c22443478",
+  "future_calibration_requires_contract": true,
+  "existing_calibration_tasks_held": [],
+  "does_not_claim_implemented_in_unwritten_Gemma_worker": true
+}

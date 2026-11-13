@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-13T16:24:41.595292+00:00",
+  "Llama": {
+    "PAIR": {
+      "N": 88,
+      "selected_prompt_hash_matches": 88,
+      "cap": 2400,
+      "backend": "HF/bf16/sdpa",
+      "B": 8,
+      "inputs_manifest_sha256": "f23d42a3204fbf674f37b770e3a4994c2cc33a263c2d727613dd32b850e4588d",
+      "generation_manifest_sha256": "716669fd867fd8cb0eb43a53fba08a541953c151bb9fdff0b73aa9b8f58a7f6c",
+      "SORRY_backend": "vLLM0.6.6.post1/bf16/eager"
+    },
+    "TAP": {
+      "N": 88,
+      "selected_prompt_hash_matches": 88,
+      "cap": 2400,
+      "backend": "HF/bf16/sdpa",
+      "B": 8,
+      "inputs_manifest_sha256": "2e647c0f5cf893b53930642910769c68820fd7345dfb2fb9cbd71ed46e44d578",
+      "generation_manifest_sha256": "ee0c4c7d492bacd720538987b748f52b7744aa7d4fff5300525d5696ef177188",
+      "SORRY_backend": "vLLM0.6.6.post1/bf16/eager"
+    }
+  },
+  "Qwen132": {
+    "N": 132,
+    "same_ID_order": true,
+    "same_prompt_IDs": [
+      176,
+      227,
+      429
+    ],
+    "both_backend": "HF/bf16/sdpa/B4/greedy/max2400",
+    "only_prompt_object_varied": true,
+    "SORRY_backend": "vLLM0.6.6.post1/bf16/eager",
+    "selected_lengths": {
+      "median": 162.0,
+      "p90": 661,
+      "at2400": 1
+    },
+    "laststream_lengths": {
+      "median": 530.5,
+      "p90": 782,
+      "at2400": 1
+    }
+  }
+}
