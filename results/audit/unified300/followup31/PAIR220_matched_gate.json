@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-13T12:55:14.134491+00:00",
+  "N": 220,
+  "inherited88_fulfilled": 46,
+  "new132_fulfilled": 52,
+  "fulfilled": 98,
+  "INVALID_IDs": [],
+  "rate_bounds": [
+    0.44545454545454544,
+    0.44545454545454544
+  ],
+  "gate": "active",
+  "threshold_count": 55,
+  "admitted_440": false,
+  "old_invalid_grant_remains_revoked": true,
+  "source_manifest_sha256s": [
+    "f7546faf94a350130f3d575beafc4ad97e007c71ea3b88e856eedddb8b56a3b8",
+    "1f3394a5f9f52047b4256e520ec032dc367f7f11d4f1c42bfe53349bf3939d1e"
+  ],
+  "no_nonzero_labels_read": true
+}

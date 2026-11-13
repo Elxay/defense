@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-13T13:29:33.552274+00:00",
+  "method": "TAP",
+  "target": "qwen",
+  "algorithm_depth": 10,
+  "width": 10,
+  "branching_factor": 4,
+  "matched88_gate_fulfilled": 34,
+  "N": 88,
+  "matched78_fulfilled": 29,
+  "old52of78_valid_comparison": false,
+  "window_seconds": 7320.504165538121,
+  "cold_seconds": 213.6224446769338,
+  "continuation_to220_new_rows": 132,
+  "predicted_continuation_GPUh": 53.80237634987785,
+  "continuation_to440_new_rows": 352,
+  "predicted_future_GPUh_to440": 143.27520503978823,
+  "global_search_cap_GPUh": 600,
+  "forecast_not_measured": true,
+  "admitted": false,
+  "release_requires": [
+    "idempotent search spending ledger check",
+    "tier220 selected prompts independently replayed2400 before its gate",
+    "no internal target_response used for gate"
+  ],
+  "does_not_start_search": true
+}

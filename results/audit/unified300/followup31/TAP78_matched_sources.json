@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-13T13:11:39.475723+00:00",
+  "old_TAP78_label_object": "source_logs[-1]['target_response'] (search-internal final logged candidate, not necessarily selected_prompt)",
+  "last_candidate_matches_selected": 1,
+  "matched_selected_prompt_replay_2400": {
+    "PAIR": {
+      "N": 78,
+      "fulfilled": 40,
+      "INVALID_IDs": [],
+      "all88_fulfilled": 46,
+      "manifest_sha256": "f7546faf94a350130f3d575beafc4ad97e007c71ea3b88e856eedddb8b56a3b8"
+    },
+    "TAP": {
+      "N": 78,
+      "fulfilled": 29,
+      "INVALID_IDs": [],
+      "all88_fulfilled": 34,
+      "manifest_sha256": "85287f652610cdc26f5db2578422c546094986b82d896d0b9fc2998e152e3ce2"
+    }
+  },
+  "no_nonzero_labels_read": true
+}

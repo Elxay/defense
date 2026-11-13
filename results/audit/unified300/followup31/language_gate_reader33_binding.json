@@ -1,0 +1,9 @@
+{
+  "utc_frozen": "2026-11-13T13:29:33.533045+00:00",
+  "worker_sha256": "ff5712bd9cefafd0fedfbfbd1c72409a92de96eb41fd28ec989968d01e89c82b",
+  "scope": "six translated Indian alpha0 SORRY gates only",
+  "score_plan_sha256": "50b88aeec823f8d5c93fd52f79625b259cdd36e26ea6b4eaf7f720c130ebeae8",
+  "threshold_N": 440,
+  "threshold_count": 110,
+  "does_not_admit_nonzero_by_itself": true
+}
