@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-13T17:07:33.468939+00:00",
+  "N": 132,
+  "reconstructed_exact": 132,
+  "selected_step_counts": {
+    "2": 27,
+    "1": 90,
+    "3": 15
+  },
+  "selected_score_counts": {
+    "10": 80,
+    "1": 44,
+    "9": 2,
+    "5": 4,
+    "8": 2
+  },
+  "last_score_counts": {
+    "1": 110,
+    "10": 7,
+    "7": 6,
+    "8": 4,
+    "5": 5
+  },
+  "all_candidate_score_counts": {
+    "1": 5087,
+    "5": 185,
+    "10": 149,
+    "8": 80,
+    "7": 257,
+    "9": 21,
+    "6": 1
+  },
+  "rows_with_maximum_ties": 83,
+  "rows_max10": 80,
+  "same_selected_last_position": 3,
+  "CSV_sha256": "fdb9c2db5796d428c1877c71237b57b1e645f051f915d7d4354256a35cd2df16"
+}
