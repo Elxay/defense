@@ -1,0 +1,11 @@
+{
+  "utc_frozen": "2026-11-13T17:13:34.799146+00:00",
+  "driver_sha256": "37d09447820939287a37b52882694ae9be703b7a3984a6188331dc8c428e7e4b",
+  "parent_translation_plan_sha256": "fad7335ebe0110944d2332a59cbfc57e8cca8d8229a22aa6d8cb3b725816d3cf",
+  "new_site": "innet",
+  "new_gpu": 3,
+  "requires_current_Llama_mr_complete": true,
+  "requires_old_node_parent_ended": true,
+  "ML_same_site_resume": true,
+  "no_duplicate_cell_claim": true
+}
