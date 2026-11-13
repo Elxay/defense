@@ -1,0 +1,271 @@
+{
+  "utc": "2026-11-13T13:35:03.186605+00:00",
+  "parent_plan_sha256": "3b56517f1f08e6e29753772f77d302806914c7f76d3c984fb884e711f85abc16",
+  "known_frozen_prefill_only": true,
+  "cells": [
+    {
+      "family": "prefix_P1",
+      "condition": "alpha0",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.016509134191956383,
+        "median": 0.004782800979054039
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.3569890490854518,
+        "median": 0.38322578519624473
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0008693549974967671,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P1",
+      "condition": "s3",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.017274092394889383,
+        "median": 0.0035119851503770992
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.35417575648576627,
+        "median": 0.3774939615562284
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0008724202107304427,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P1",
+      "condition": "61000",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.015930792253436913,
+        "median": 0.004561483808552912
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.35707859115261914,
+        "median": 0.3791530380980919
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0009617720531639367,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P1",
+      "condition": "s4",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.018270491669998418,
+        "median": 0.0050633235912423726
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.35895937917592574,
+        "median": 0.37949900082777344
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0009549786240010612,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P1",
+      "condition": "61001",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.016844331145490762,
+        "median": 0.0050701075711036
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.3562184033661188,
+        "median": 0.3816946527704935
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0011447488764335409,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P1",
+      "condition": "s5",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.018487796783808307,
+        "median": 0.004278314664323889
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.35369642475170116,
+        "median": 0.37214617309533804
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0010449815396585155,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P2",
+      "condition": "alpha0",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.016509134191956383,
+        "median": 0.004782800979054039
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.3569890490854518,
+        "median": 0.38322578519624473
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0008693549974967671,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P2",
+      "condition": "s3",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.015455305721452746,
+        "median": 0.004376451435274965
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.34360210239564826,
+        "median": 0.3658796890652345
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0009336187959011525,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P2",
+      "condition": "61000",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.015977132402771963,
+        "median": 0.0038247769489542197
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.3564358072026672,
+        "median": 0.3833545261335131
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0008972996833734109,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P2",
+      "condition": "s4",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.016416956326914953,
+        "median": 0.0035906758464196386
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.3388474315296073,
+        "median": 0.36064381947844804
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0011102775630424152,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P2",
+      "condition": "61001",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.01591470252596573,
+        "median": 0.00480641522653865
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.35723073845058106,
+        "median": 0.379748781792251
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0008532678435468642,
+        "median": 0.0
+      }
+    },
+    {
+      "family": "prefix_P2",
+      "condition": "s5",
+      "N": 440,
+      "empty": 0,
+      "language_failures": 0,
+      "word4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.015059706100459987,
+        "median": 0.0037694863276258625
+      },
+      "character4_repeated_occurrence_fraction": {
+        "N_eligible": 440,
+        "mean": 0.32980442820202105,
+        "median": 0.3495245000770283
+      },
+      "nonlanguage_character_fraction": {
+        "N_eligible": 440,
+        "mean": 0.0008871986423399873,
+        "median": 0.0
+      }
+    }
+  ]
+}

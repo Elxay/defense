@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-13T12:45:43.953377+00:00",
+  "commit": "d62d6c641e1ae9a1b47dc32b7c034f5a92ed7fc4",
+  "workers": [
+    {
+      "worker": "u300_registered_checkpoint31.py",
+      "pid": 1212123
+    },
+    {
+      "worker": "u300_translation_T2_guard31.py",
+      "pid": 1212136
+    },
+    {
+      "worker": "u300_followup31_collect.py",
+      "pid": 1212137
+    }
+  ],
+  "GPU_jobs_signalled": false
+}

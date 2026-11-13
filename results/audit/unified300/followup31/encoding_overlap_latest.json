@@ -1,0 +1,77 @@
+{
+  "utc": "2026-11-13T13:47:22.399391+00:00",
+  "cells": [
+    {
+      "model": "llama",
+      "family": "ascii",
+      "v1_N": 424,
+      "v2_N": 424,
+      "overlap_N": 424,
+      "reply_byte_equal": 424,
+      "record_JSON_byte_equality_not_claimed": true
+    },
+    {
+      "model": "llama",
+      "family": "caesar",
+      "v1_N": 32,
+      "v2_N": 0,
+      "overlap_N": 0,
+      "reply_byte_equal": 0,
+      "record_JSON_byte_equality_not_claimed": true
+    },
+    {
+      "model": "llama",
+      "family": "morse",
+      "v1_N": 256,
+      "v2_N": 0,
+      "overlap_N": 0,
+      "reply_byte_equal": 0,
+      "record_JSON_byte_equality_not_claimed": true
+    },
+    {
+      "model": "llama",
+      "family": "atbash",
+      "v1_N": 440,
+      "v2_N": 0,
+      "overlap_N": 0,
+      "reply_byte_equal": 0,
+      "record_JSON_byte_equality_not_claimed": true
+    },
+    {
+      "model": "qwen",
+      "family": "ascii",
+      "v1_N": 440,
+      "v2_N": 0,
+      "overlap_N": 0,
+      "reply_byte_equal": 0,
+      "record_JSON_byte_equality_not_claimed": true
+    },
+    {
+      "model": "qwen",
+      "family": "caesar",
+      "v1_N": 440,
+      "v2_N": 0,
+      "overlap_N": 0,
+      "reply_byte_equal": 0,
+      "record_JSON_byte_equality_not_claimed": true
+    },
+    {
+      "model": "qwen",
+      "family": "morse",
+      "v1_N": 440,
+      "v2_N": 0,
+      "overlap_N": 0,
+      "reply_byte_equal": 0,
+      "record_JSON_byte_equality_not_claimed": true
+    },
+    {
+      "model": "qwen",
+      "family": "atbash",
+      "v1_N": 440,
+      "v2_N": 0,
+      "overlap_N": 0,
+      "reply_byte_equal": 0,
+      "record_JSON_byte_equality_not_claimed": true
+    }
+  ]
+}

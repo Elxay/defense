@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-13T12:52:41.188318+00:00",
+  "commit": "3623c6298cb38e76708afa1b16e8cd2a887315e2",
+  "site": "node01",
+  "gpu": 1,
+  "launcher_PID": 775091,
+  "lease": "/home/dell/Def/results/audit/unified300/Mistral_calibration32_lease",
+  "corrected_source_sha256": "3e581aadfc86eef983419c1a477423f5c41b6f896220b0dced87dee65c34dc67",
+  "no_selection_read": true
+}
