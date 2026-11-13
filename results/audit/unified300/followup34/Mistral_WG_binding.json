@@ -8,5 +8,6 @@
   "gate20_required": true,
   "execute_only_after_complete22_and_norm_guard": true,
   "score_only": true,
-  "selection_statistics_read": false
+  "selection_statistics_read": false,
+  "published_commit": "74d236b8db576ddb0f9cc07481d8f402bc1b9102"
 }

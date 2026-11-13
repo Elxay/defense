@@ -31,7 +31,7 @@
       429
     ],
     "both_backend": "HF/bf16/sdpa/B4/greedy/max2400",
-    "only_prompt_object_varied": true,
+    "only_prompt_object_varied": false,
     "SORRY_backend": "vLLM0.6.6.post1/bf16/eager",
     "selected_lengths": {
       "median": 162.0,
@@ -42,6 +42,11 @@
       "median": 530.5,
       "p90": 782,
       "at2400": 1
-    }
+    },
+    "selected_GPU": 2,
+    "laststream_GPU": 0,
+    "posthoc_same_prompt20_reference_pending": false,
+    "posthoc_same_prompt20_byte_exact": 20,
+    "posthoc_reference_sha256": "d2d326e51fa8559cab8908e3fa74d8e0ade9e4acf5a57e266210944ab17cd8f9"
   }
 }
