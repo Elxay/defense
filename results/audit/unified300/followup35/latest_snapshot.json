@@ -1,0 +1,411 @@
+{
+  "utc": "2026-11-13T18:19:00.235118+00:00",
+  "sites": {
+    "innet": {
+      "utc": "2026-11-13T18:19:00Z",
+      "gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "used_MiB": 16,
+          "total_MiB": 24564,
+          "utilization": 0
+        },
+        {
+          "index": 1,
+          "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+          "used_MiB": 11441,
+          "total_MiB": 24564,
+          "utilization": 74
+        },
+        {
+          "index": 2,
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "used_MiB": 14533,
+          "total_MiB": 24564,
+          "utilization": 78
+        },
+        {
+          "index": 3,
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "used_MiB": 15,
+          "total_MiB": 24564,
+          "utilization": 0
+        }
+      ],
+      "compute_processes": [
+        {
+          "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+          "PID": 182655,
+          "used_MiB": "11418",
+          "account": "kemove",
+          "command_basename": "python"
+        },
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "PID": 1599931,
+          "used_MiB": "14510",
+          "account": "kemove",
+          "command_basename": "u300_Mistral_gate35_split.py"
+        }
+      ]
+    },
+    "node01": {
+      "utc": "2026-11-13T18:19:01Z",
+      "gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "used_MiB": 18133,
+          "total_MiB": 24564,
+          "utilization": 31
+        },
+        {
+          "index": 1,
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "used_MiB": 16303,
+          "total_MiB": 24564,
+          "utilization": 42
+        },
+        {
+          "index": 2,
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "used_MiB": 17577,
+          "total_MiB": 24564,
+          "utilization": 32
+        }
+      ],
+      "compute_processes": [
+        {
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "PID": 1230907,
+          "used_MiB": "17562",
+          "account": "dell",
+          "command_basename": "u300_language_translate33.py"
+        },
+        {
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "PID": 1378101,
+          "used_MiB": "16266",
+          "account": "dell",
+          "command_basename": "unified300_ready_generate_v3.py"
+        },
+        {
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "PID": 1090769,
+          "used_MiB": "17540",
+          "account": "dell",
+          "command_basename": "u300_language_translate33.py"
+        }
+      ]
+    }
+  },
+  "encoding": [
+    {
+      "model": "llama",
+      "family": "ascii",
+      "v1_rows": 424,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/llama/ascii/alpha0/generation.private",
+      "v2_rows": 424,
+      "main_source": "composite_manifest",
+      "registry_source": null,
+      "registry": {
+        "model": "llama",
+        "family": "ascii",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "composite_manifest",
+        "manifest_relative": "results/audit/unified300/encoding_ASCII_tail34/complete.json",
+        "record_dir": null,
+        "legacy_v1_status": "superseded"
+      }
+    },
+    {
+      "model": "llama",
+      "family": "caesar",
+      "v1_rows": 32,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/llama/caesar/alpha0/generation.private",
+      "v2_rows": 32,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated_v2/llama/caesar/alpha0/generation.private",
+      "registry": {
+        "model": "llama",
+        "family": "caesar",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/caesar/alpha0/generation.private",
+        "legacy_v1_status": "superseded"
+      }
+    },
+    {
+      "model": "llama",
+      "family": "morse",
+      "v1_rows": 256,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/llama/morse/alpha0/generation.private",
+      "v2_rows": 256,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated_v2/llama/morse/alpha0/generation.private",
+      "registry": {
+        "model": "llama",
+        "family": "morse",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/morse/alpha0/generation.private",
+        "legacy_v1_status": "superseded"
+      }
+    },
+    {
+      "model": "llama",
+      "family": "atbash",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/llama/atbash/alpha0/generation.private",
+      "v2_rows": 440,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated_v2/llama/atbash/alpha0/generation.private",
+      "registry": {
+        "model": "llama",
+        "family": "atbash",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/atbash/alpha0/generation.private",
+        "legacy_v1_status": "superseded"
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "ascii",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/qwen/ascii/alpha0/generation.private",
+      "v2_rows": 132,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated/qwen/ascii/alpha0/generation.private",
+      "registry": {
+        "model": "qwen",
+        "family": "ascii",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/ascii/alpha0/generation.private",
+        "legacy_v1_status": "accepted_main_after35",
+        "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "caesar",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/qwen/caesar/alpha0/generation.private",
+      "v2_rows": 0,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated/qwen/caesar/alpha0/generation.private",
+      "registry": {
+        "model": "qwen",
+        "family": "caesar",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/caesar/alpha0/generation.private",
+        "legacy_v1_status": "accepted_main_after35",
+        "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "morse",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/qwen/morse/alpha0/generation.private",
+      "v2_rows": 0,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated/qwen/morse/alpha0/generation.private",
+      "registry": {
+        "model": "qwen",
+        "family": "morse",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/morse/alpha0/generation.private",
+        "legacy_v1_status": "accepted_main_after35",
+        "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "atbash",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/qwen/atbash/alpha0/generation.private",
+      "v2_rows": 0,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated/qwen/atbash/alpha0/generation.private",
+      "registry": {
+        "model": "qwen",
+        "family": "atbash",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/atbash/alpha0/generation.private",
+        "legacy_v1_status": "accepted_main_after35",
+        "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+      }
+    }
+  ],
+  "roots": {
+    "Mistral_gate120_read.json": {
+      "utc": "2026-11-13T18:06:55.516407+00:00",
+      "cap": 120,
+      "N_per_condition": 100,
+      "conditions": [
+        "alpha0",
+        "s3",
+        "61000"
+      ],
+      "alpha": 1.5,
+      "selected_B": 1,
+      "candidates": [
+        {
+          "B": 8,
+          "available": true,
+          "cells": [
+            {
+              "condition": "alpha0",
+              "N": 100,
+              "WG_change_bounds": [
+                1,
+                1
+              ],
+              "WG_batch_only": 0,
+              "WG_single_only": 1,
+              "WG_INVALID_pair_IDs": [],
+              "WG_McNemar_exact_p": 1.0,
+              "v2_changes": 0,
+              "v2_batch_only": 0,
+              "v2_single_only": 0,
+              "passed": true
+            },
+            {
+              "condition": "s3",
+              "N": 100,
+              "WG_change_bounds": [
+                5,
+                5
+              ],
+              "WG_batch_only": 1,
+              "WG_single_only": 4,
+              "WG_INVALID_pair_IDs": [],
+              "WG_McNemar_exact_p": 0.375,
+              "v2_changes": 2,
+              "v2_batch_only": 1,
+              "v2_single_only": 1,
+              "passed": false
+            },
+            {
+              "condition": "61000",
+              "N": 100,
+              "WG_change_bounds": [
+                1,
+                1
+              ],
+              "WG_batch_only": 0,
+              "WG_single_only": 1,
+              "WG_INVALID_pair_IDs": [],
+              "WG_McNemar_exact_p": 1.0,
+              "v2_changes": 0,
+              "v2_batch_only": 0,
+              "v2_single_only": 0,
+              "passed": true
+            }
+          ],
+          "passed": false
+        },
+        {
+          "B": 4,
+          "available": true,
+          "cells": [
+            {
+              "condition": "alpha0",
+              "N": 100,
+              "WG_change_bounds": [
+                1,
+                1
+              ],
+              "WG_batch_only": 0,
+              "WG_single_only": 1,
+              "WG_INVALID_pair_IDs": [],
+              "WG_McNemar_exact_p": 1.0,
+              "v2_changes": 0,
+              "v2_batch_only": 0,
+              "v2_single_only": 0,
+              "passed": true
+            },
+            {
+              "condition": "s3",
+              "N": 100,
+              "WG_change_bounds": [
+                3,
+                3
+              ],
+              "WG_batch_only": 0,
+              "WG_single_only": 3,
+              "WG_INVALID_pair_IDs": [],
+              "WG_McNemar_exact_p": 0.25,
+              "v2_changes": 1,
+              "v2_batch_only": 0,
+              "v2_single_only": 1,
+              "passed": false
+            },
+            {
+              "condition": "61000",
+              "N": 100,
+              "WG_change_bounds": [
+                1,
+                1
+              ],
+              "WG_batch_only": 0,
+              "WG_single_only": 1,
+              "WG_INVALID_pair_IDs": [],
+              "WG_McNemar_exact_p": 1.0,
+              "v2_changes": 0,
+              "v2_batch_only": 0,
+              "v2_single_only": 0,
+              "passed": true
+            }
+          ],
+          "passed": false
+        }
+      ],
+      "threshold": 2,
+      "B1_fallback": true,
+      "scope": "engineering only; no alpha selection statistics",
+      "wave_manifest_sha256": "dc585b6f83ec3db4ae1d4a9276aa7621b6d48ffb43a34dc288210bf443000941"
+    },
+    "Qwen_ta_node_continuation_cancelled.json": {
+      "utc": "2026-11-13T17:14:57.439747+00:00",
+      "ready": true,
+      "old_parent_PID": 1086855,
+      "old_parent_ended": true,
+      "node_ta_rows": 0,
+      "ml_preserved_files": 102,
+      "ml_resume_launcher_PID": 1230886,
+      "ml_same_node_same_gpu": true,
+      "reason": "Original two-cell shell exited75 at ML row boundary; restarted ML-only shell, no pending node Tamil command"
+    },
+    "Mistral_B1_fallback_publication.json": {
+      "utc": "2026-11-13T18:09:48.584104+00:00",
+      "commit": "73e770f7a4c1f7450210da17e511d1007d59ce61",
+      "plan_sha256": "5d2f02574aba5e824086caeab3acf9c01e71e5047c6ae4b82c976fd0fd931227",
+      "worker_sha256": "3efba83a237799819e293ff2b8f6f5d4c61f8a9939f6e2632144b8029f3b3ca3",
+      "scheduled_priority": 25,
+      "T2_Indian_priority": 10,
+      "yield_at_row_boundary": true
+    }
+  }
+}
