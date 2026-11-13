@@ -1,0 +1,7 @@
+{
+  "utc_frozen": "2026-11-13T13:38:43.661289+00:00",
+  "reason": "innet GPU0 external process has released; use it for independent Llama ta alpha0 translation while ml continues on3",
+  "parent_translation_plan_sha256": "fad7335ebe0110944d2332a59cbfc57e8cca8d8229a22aa6d8cb3b725816d3cf",
+  "changes": "physical card lease only; fresh per-card B1 reference20 required by unchanged worker",
+  "no_task_already_running": true
+}
