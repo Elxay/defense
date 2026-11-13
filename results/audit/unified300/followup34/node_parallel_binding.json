@@ -1,0 +1,25 @@
+{
+  "utc_frozen": "2026-11-13T16:04:17.089178+00:00",
+  "parent_addendum34_sha256": "1eef59f3f74d8dfc9a9f06a77510a33569d5db9b1a3e552699e64f62fdd779a9",
+  "source_sha256": {
+    "u300_calibration_contract34.py": "ad70488c84ed6951d6159930d77814db9a797f9c6782ae6ad8d3392c22443478",
+    "u300_mistral_diag34.py": "45aa2fb58c8cc4e1ba844105edec529daf9df5af84cf77d1792604d33fe72511",
+    "u300_mistral_guard34.py": "ba79b5299c97b7fb06c269f78faccae352e9db27202e24ee10ac2f2eb90f17ea"
+  },
+  "assignment": {
+    "node01_gpu0": [
+      "qwen_translate-ml_alpha0",
+      "qwen_translate-ta_alpha0"
+    ],
+    "node01_gpu2": [
+      "Mistral_alpha150_reference20",
+      "qwen_translate-mr_alpha0"
+    ]
+  },
+  "Mistral_alpha150_cap": 120,
+  "translation_cap": 4096,
+  "translation_B": 1,
+  "requires_per_card_reference20": true,
+  "no_current_task_interrupted": true,
+  "Gemma_calibration_requires_contract": true
+}
