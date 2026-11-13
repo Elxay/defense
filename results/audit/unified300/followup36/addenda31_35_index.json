@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-13T18:55:43.766590+00:00",
+  "entries": [
+    {
+      "number": 31,
+      "path": "docs/300_ADDENDUM31_MATCHED_REPLAY_AND_WARN_ONLY_CUTOFF.md",
+      "sha256": "104e02c60c5991c1f6971442d791528cc9388836f6156ec0466f84b0e246f039",
+      "first_commit": "83cbc6c0ffff1b803dbd1f5ed51b38b26c906fa9 2026-11-13T20:40:32+08:00"
+    },
+    {
+      "number": 32,
+      "path": "docs/300_ADDENDUM32_MISTRAL_ALPHA_SCALE_CORRECTION.md",
+      "sha256": "e41b97da5e29a8e4133c66b4f71923841de2089a418a5296d12fed745e681068",
+      "first_commit": "3623c6298cb38e76708afa1b16e8cd2a887315e2 2026-11-13T20:50:27+08:00"
+    },
+    {
+      "number": 33,
+      "path": "docs/300_ADDENDUM33_INDIAN_ALPHA0_TRANSLATION_EXECUTION.md",
+      "sha256": "2639efaeb0aa1c66411f129500bec04a66232ac89d3ec74c2cfca0df725b8389",
+      "first_commit": "7f1aceca8b5abbf52915c90954f4678a3396916b 2026-11-13T21:09:02+08:00"
+    },
+    {
+      "number": 34,
+      "path": "docs/300_ADDENDUM34_LASTSTREAM_CONTROL_AND_EXECUTION_ASSERTIONS.md",
+      "sha256": "1eef59f3f74d8dfc9a9f06a77510a33569d5db9b1a3e552699e64f62fdd779a9",
+      "first_commit": "a47e567450ceb8b65a88c3363cc98657e38967c5 2026-11-14T00:02:22+08:00"
+    },
+    {
+      "number": 35,
+      "path": "docs/300_ADDENDUM35_EXPLORATORY_SEARCH_AND_T2_PRIORITY.md",
+      "sha256": "8e63f6a6b7bff6af3376e650b3832f3880deb0b4b94d47e42b5492751c9cf778",
+      "contents": "\u672b\u5019\u9009\u8bca\u65ad\uff1bMistral\u6807\u51c6100/2400\u95e8\uff1bQta\u6539\u6d3e\uff1b\u72ec\u7acbIndian\u653e\u884c\uff1b\u7f16\u7801v1\u590d\u7528\u6761\u4ef6\uff1bARC-C\u64a4\u56de",
+      "first_commit": "f0cc4901ec572d3f062052710826b7360f13ee87"
+    }
+  ]
+}

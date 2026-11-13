@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-13T18:51:39.726531+00:00",
+  "state": {
+    "state": "pending",
+    "site": "innet",
+    "gpus": [
+      0
+    ],
+    "runner_pid": "1613436",
+    "job_dir": "Mistral_B1_calibration35__1",
+    "attempt": 1,
+    "started_utc": "2026-11-13T18:10:06.194398+00:00",
+    "priority": 25,
+    "exit": {
+      "utc": "2026-11-13T18:18:59.459944+00:00",
+      "returncode": 75,
+      "resident_seconds": 533.229210301768,
+      "task_id": "Mistral_B1_calibration35",
+      "gpus": [
+        0
+      ]
+    },
+    "finished_utc": "2026-11-13T18:19:25.351964+00:00",
+    "last_checkpoint_relative": "results/audit/unified300/ready_queue/checkpoints/Mistral_B1_calibration35__1.json",
+    "last_checkpoint_sha256": "6959d3e1f20cd52650b97931050c56c2d408a6e61800b9aedc27abf5908b9490"
+  },
+  "exit": {
+    "utc": "2026-11-13T18:18:59.459944+00:00",
+    "returncode": 75,
+    "resident_seconds": 533.229210301768,
+    "task_id": "Mistral_B1_calibration35",
+    "gpus": [
+      0
+    ]
+  },
+  "row_boundary": {
+    "utc": "2026-11-13T18:18:57.205954+00:00",
+    "condition": "alpha0",
+    "before_row": 132
+  },
+  "saved_rows": 132,
+  "current_GPU0_task": {
+    "state": "running",
+    "site": "innet",
+    "gpus": [
+      0
+    ],
+    "runner_pid": "1625822",
+    "job_dir": "Indian35_llama_mr_s3__1",
+    "attempt": 1,
+    "started_utc": "2026-11-13T18:19:25.437499+00:00",
+    "priority": 10
+  },
+  "no_alpha_selection_read": true
+}

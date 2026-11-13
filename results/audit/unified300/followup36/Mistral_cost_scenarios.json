@@ -1,0 +1,53 @@
+{
+  "utc": "2026-11-13T18:51:39.752119+00:00",
+  "B1_panel_partial_mean_seconds": 11.73383905106232,
+  "observed_groups": [
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "alpha0",
+      "N": 100,
+      "completed": true,
+      "mean_seconds": 13.736758749485016,
+      "median_seconds": 13.364521026611328,
+      "p90_seconds": 20.808414459228516,
+      "max_seconds": 57.83590340614319,
+      "mean_new_tokens": 566.24,
+      "basis": "original in-place atomic-record mtime intervals; includes I/O/loop, not pure CUDA or exact generate-call timing"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "s3",
+      "N": 100,
+      "completed": true,
+      "mean_seconds": 8.615335261821746,
+      "median_seconds": 7.2222394943237305,
+      "p90_seconds": 18.56932497024536,
+      "max_seconds": 58.23872232437134,
+      "mean_new_tokens": 354.88,
+      "basis": "original in-place atomic-record mtime intervals; includes I/O/loop, not pure CUDA or exact generate-call timing"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "N": 38,
+      "completed": false,
+      "mean_seconds": 14.669586658477783,
+      "median_seconds": 14.228445172309875,
+      "p90_seconds": 21.318312883377075,
+      "max_seconds": 31.76460361480713,
+      "mean_new_tokens": 605.921052631579,
+      "basis": "original in-place atomic-record mtime intervals; includes I/O/loop, not pure CUDA or exact generate-call timing"
+    }
+  ],
+  "not_family_throughput": true,
+  "nonzero_rows": 41800,
+  "alpha0_unique_rows": 7920,
+  "all19_gates_pass_scenario_GPUh": 162.05735489411626,
+  "nonzero_only_scenario_GPUh": 136.24290898177918,
+  "at30seconds_GPUh": 414.3333333333333,
+  "at60seconds_GPUh": 828.6666666666666,
+  "calibration_at6seconds_GPUh": 25.666666666666668,
+  "calibration_observed_partial_mean_seconds": 2.956917871128429,
+  "static_families_not_reduced": true,
+  "zero_gate_dedup_P1_P2": true
+}

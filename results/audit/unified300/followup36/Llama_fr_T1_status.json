@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-13T18:51:39.729648+00:00",
+  "cells": [
+    {
+      "condition": "alpha0",
+      "N": 440,
+      "complete": true,
+      "complete_UTC": "2026-11-13T17:19:28.973388+00:00"
+    },
+    {
+      "condition": "s3",
+      "N": 0,
+      "complete": false,
+      "complete_UTC": null
+    },
+    {
+      "condition": "s4",
+      "N": 0,
+      "complete": false,
+      "complete_UTC": null
+    },
+    {
+      "condition": "s5",
+      "N": 0,
+      "complete": false,
+      "complete_UTC": null
+    },
+    {
+      "condition": "rand0",
+      "N": 0,
+      "complete": false,
+      "complete_UTC": null
+    },
+    {
+      "condition": "rand1",
+      "N": 0,
+      "complete": false,
+      "complete_UTC": null
+    }
+  ],
+  "remaining_T1_held_during_T2": true
+}

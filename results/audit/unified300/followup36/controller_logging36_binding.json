@@ -1,0 +1,10 @@
+{
+  "utc_frozen": "2026-11-13T18:55:43.766823+00:00",
+  "worker_sha256": "f224d946a2c995fbe7d4a88ccc9347a856c8f6a77a5c1544660133c621284682",
+  "plan_sha256": "fde17855c09ee94128e30f2d1d3b58e5166e9d2118ab49a95027729a580a63b8",
+  "parent_worker_sha256": "a24a0ed0bb98d0b318d449c5a2b41c87e31b0fb0746a0b9271d02816310f63d4",
+  "sidecar_sha256": "2d13f3225ec0260d203f0fe9400c81a42ee00ca320249da5292123c39372cde5",
+  "only_additions": "atomic raw scorer outputs/parser status, controller SHA and ledger references; original score function/return/selection/seed/formal parameters unchanged",
+  "unchanged_parent_target_zero20_gate": true,
+  "historical_raw_not_recoverable": true
+}

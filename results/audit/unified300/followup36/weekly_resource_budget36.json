@@ -1,0 +1,79 @@
+{
+  "utc": "2026-11-13T18:55:43.785271+00:00",
+  "capacity": {
+    "usable_cards": 6,
+    "external_innet1_excluded": true,
+    "weekly_nominal_GPUh": 1008,
+    "availability_assumption": 0.6,
+    "weekly_planning_capacity_GPUh": 604.8
+  },
+  "next_week": [
+    {
+      "item": "Indian T2 generation, translation and gates",
+      "GPUh": 200
+    },
+    {
+      "item": "T1 Chinese/French remaining translation and preprocessing",
+      "GPUh": 60
+    },
+    {
+      "item": "Llama/Qwen judging and staged R1-R3 read preparation",
+      "GPUh": 35
+    },
+    {
+      "item": "Gemma/Mistral asset, reference, 100/2400 gates, training and calibration",
+      "GPUh": 40
+    },
+    {
+      "item": "Gemma/Mistral first English/base matrix blocks, conditional on admission",
+      "GPUh": 80
+    },
+    {
+      "item": "Qwen PAIR440 remaining search plus scheduling margin",
+      "GPUh": 14
+    },
+    {
+      "item": "Four-model batch-versus-single regressions; reserve, B1-only cases listed N/A rather than duplicate B1 runs",
+      "GPUh": 72
+    },
+    {
+      "item": "Forward-detector original-setting reproduction and checks",
+      "GPUh": 16
+    },
+    {
+      "item": "Adaptive interface verification and smoke only",
+      "GPUh": 8
+    }
+  ],
+  "weeks": [
+    {
+      "dates": "2026-11-14--2026-11-20",
+      "GPUh": 525
+    },
+    {
+      "dates": "2026-11-21--2026-11-27",
+      "GPUh": 480
+    },
+    {
+      "dates": "2026-11-28--2026-12-04",
+      "GPUh": 400
+    },
+    {
+      "dates": "2026-12-05--2026-12-11",
+      "GPUh": 300
+    },
+    {
+      "dates": "2026-12-12--2026-12-18",
+      "GPUh": 200
+    },
+    {
+      "dates": "2026-12-19--2026-12-21",
+      "GPUh": 100
+    }
+  ],
+  "all_estimates_not_promises": true,
+  "supersedes_sha256": "7b3ebdf558c53594557b9ab9c7e6f6a2ce6e018ace4dec3546a629965a53da4e",
+  "headroom_GPUh": 79.8,
+  "calibration_conservative_6seconds_scenario_GPUh": 25.666666666666668,
+  "full_Mistral_matrix_not_in_first_block80": true
+}
