@@ -1,0 +1,9 @@
+{
+  "utc_frozen": "2026-11-13T16:35:45.186704+00:00",
+  "worker_sha256": "8a2e39dbf7bdf8f024ba2126afe81689c9e97be210a3f944f4c432fc26a02c5c",
+  "scope": "Posthoc engineering reference only: selected132 first20 fixed B4 batches on GPU0 versus original same20 on GPU2; cap2400 unchanged",
+  "selection_effects_already_read_UTC": "2026-11-13T16:17:15.028709Z",
+  "same_card_model": true,
+  "different_physical_UUID": true,
+  "no_reranking_or_main_rule_change": true
+}
