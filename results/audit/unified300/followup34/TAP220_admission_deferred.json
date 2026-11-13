@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-13T16:12:07.083417+00:00",
+  "admitted_220": true,
+  "fulfilled": 34,
+  "N": 88,
+  "threshold": 22,
+  "matched_selected_prompt_replay": true,
+  "forecast_increment_GPUh": 53.80237634987785,
+  "execution_released": false,
+  "priority_after": [
+    "Indian_T2",
+    "Mistral_preparation",
+    "Gemma_preparation"
+  ],
+  "reason": "Project scheduling decision requested by user; no algorithm or gate change"
+}
