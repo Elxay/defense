@@ -1,0 +1,66 @@
+{
+  "utc_frozen": "2026-11-13T12:50:26.989911+00:00",
+  "worker_sha256": "3e581aadfc86eef983419c1a477423f5c41b6f896220b0dced87dee65c34dc67",
+  "batch_core_sha256": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+  "alpha_grid": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5
+  ],
+  "B": 8,
+  "cap": 120,
+  "layer_zero_based": 9,
+  "seeds": [
+    3,
+    4,
+    5
+  ],
+  "output_root": "/data/ray/hzx_def/results/mistral_calibration32",
+  "legacy_reference_root": "/data/ray/hzx_def/results/deprecated_B8_unscaled/mistral_calibration_B8",
+  "runtime_norm_tolerance": 0.01,
+  "selection_rule_unchanged": true,
+  "main_2400_gate_passed": false,
+  "input_path": "/home/dell/Def/configs/calibration700.private.json",
+  "input_sha256": "36e945ea22e049ffc66617948f7fcebc8939a50875f8097a5257094d4d92adc7",
+  "model": {
+    "path": "/data/ray/hzx_def/models/Mistral-7B-Instruct-v0.3",
+    "files_sha256": {
+      "tokenizer.json": "e553af6fff7d7ad76e830608b218c5c0b0822998d5a1a96099a74cd3c1cb1a49",
+      "special_tokens_map.json": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+      "tokenizer_config.json": "0533dec9cfe319163801b6618d0f3ec9cfa126b6288e3df5deca6e32acb09cd2",
+      "model-00001-of-00003.safetensors": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19",
+      "model-00003-of-00003.safetensors": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca",
+      "tokenizer.model": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89",
+      "config.json": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99",
+      "model-00002-of-00003.safetensors": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0",
+      "generation_config.json": "b4669f1b8f4185324bd9b12a69e85a1ad2289bc48111ef739cfaaea3bba6b0a9",
+      "params.json": "8a64b8657de37af1f828eef1517dc186247938d66e7fea2c78c31d5b9071efe6",
+      "model.safetensors.index.json": "e489ba553b87cde188d921b1a8283c2e0b9d33d635b88147d96ff0fcd6250016"
+    }
+  },
+  "vectors": {
+    "3": {
+      "path": "/data/ray/hzx_def/results/crossmodel287/mistral_vec_s3/v.npy",
+      "sha256": "35507f4616a1eb92a231acec712e21602066702c744da2236cc23c24f7140573",
+      "norm": 2.3307555654537286
+    },
+    "4": {
+      "path": "/data/ray/hzx_def/results/crossmodel287/mistral_vec_s4/v.npy",
+      "sha256": "faa85f8657486aad301872bab882acd640092361a631222bc30cecc2a3b91355",
+      "norm": 2.330755621753933
+    },
+    "5": {
+      "path": "/data/ray/hzx_def/results/crossmodel287/mistral_vec_s5/v.npy",
+      "sha256": "7b7e55007403421f36b685e2ba1f6ac9d1c737f857d1c07e2a47a7862f0df47a",
+      "norm": 2.3307555177308474
+    }
+  },
+  "legacy_reference_sha256": {
+    "alpha0": "52844417557b45b8d72ac50ffb65839b6726c4d1ec1de58525e266dd419fd563",
+    "s3_a1.00": "1da6e21ae77a1fcecdab7aae7197f8ef2513b1fac7d93609ad04b8e3708730a6"
+  }
+}
