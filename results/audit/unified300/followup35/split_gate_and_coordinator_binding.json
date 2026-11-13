@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-13T17:34:40.788243+00:00",
+  "new_worker_sha256": "d4968ad69e0b6d44b800c59cd500fe6c51bc9f158d45b1ef357eb56d504553d1",
+  "new_plan_sha256": "c8592443eafd1db96ac3d22e98792b11bc04de285e5fb50b627f025f84a9941f",
+  "coordinator_sha256": "7aae553431b0cc61153fad8e195371200d06f9809d47bd1e5c9659466e0d4446",
+  "changes": "parallel scheduling only; heartbeat import fix and retain original B8 read when B4 fallback is read",
+  "no_target_outputs_before_rebinding": true
+}
