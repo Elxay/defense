@@ -1,0 +1,9 @@
+{
+  "utc_frozen": "2026-11-13T10:39:16.747398+00:00",
+  "worker_sha256": "9655c5f58a79e1cd29e78f6d01b86b09975f05299e3d1f817758e6310bcc75cd",
+  "registry_sha256": "a1d674c35ad9b5207d7a7d025b20dbf093536948696706b0d18d9dddfa9106d2",
+  "checkpoint_UTC": "2026-11-15T09:00:00+00:00",
+  "cutoff_UTC": "2026-11-16T14:59:59+00:00",
+  "scope": "Metadata checkpoint and boundary-yield request only, no process signals or score reads",
+  "preexisting_gates_retained": true
+}
