@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-13T16:26:50.425264+00:00",
+  "registry_sha256": "90cbb446ad0c9bcc59fba5abcf45a907fed3c03ca2c05cacc80834c0102c257c",
+  "cells": [
+    {
+      "model": "llama",
+      "family": "ascii",
+      "N_disk": 440,
+      "N_parsed": 440,
+      "N_unique_IDs": 440,
+      "complete": true
+    },
+    {
+      "model": "llama",
+      "family": "caesar",
+      "N_disk": 32,
+      "N_parsed": 32,
+      "N_unique_IDs": 32,
+      "complete": false
+    },
+    {
+      "model": "llama",
+      "family": "morse",
+      "N_disk": 232,
+      "N_parsed": 232,
+      "N_unique_IDs": 232,
+      "complete": false
+    },
+    {
+      "model": "llama",
+      "family": "atbash",
+      "N_disk": 440,
+      "N_parsed": 440,
+      "N_unique_IDs": 440,
+      "complete": false
+    },
+    {
+      "model": "qwen",
+      "family": "ascii",
+      "N_disk": 0,
+      "N_parsed": 0,
+      "N_unique_IDs": 0,
+      "complete": false
+    },
+    {
+      "model": "qwen",
+      "family": "caesar",
+      "N_disk": 0,
+      "N_parsed": 0,
+      "N_unique_IDs": 0,
+      "complete": false
+    },
+    {
+      "model": "qwen",
+      "family": "morse",
+      "N_disk": 0,
+      "N_parsed": 0,
+      "N_unique_IDs": 0,
+      "complete": false
+    },
+    {
+      "model": "qwen",
+      "family": "atbash",
+      "N_disk": 0,
+      "N_parsed": 0,
+      "N_unique_IDs": 0,
+      "complete": false
+    }
+  ]
+}
