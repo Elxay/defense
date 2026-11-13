@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-13T17:24:22.153062+00:00",
+  "admitted": true,
+  "scope": "each family still requires its own valid source gate and byte reference; no all-alpha0 barrier",
+  "first_wave": [
+    "s3",
+    "rand0"
+  ],
+  "first_admitted": [
+    "llama_translate-ml",
+    "llama_translate-ta"
+  ],
+  "doc_sha256": "8e63f6a6b7bff6af3376e650b3832f3880deb0b4b94d47e42b5492751c9cf778"
+}

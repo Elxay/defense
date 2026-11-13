@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-13T17:24:22.152641+00:00",
+  "previous": {
+    "utc": "2026-11-13T17:24:14.789291+00:00",
+    "admitted": true,
+    "deadline_UTC": "2026-11-16T14:59:59+00:00",
+    "does_not_override_translation_or_SORRY_gates": true
+  }
+}
