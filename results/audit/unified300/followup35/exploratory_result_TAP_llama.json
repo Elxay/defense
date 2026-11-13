@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-13T17:55:53.855720+00:00",
+  "group": "TAP_llama",
+  "N": 88,
+  "fulfilled": 39,
+  "INVALID_IDs": [],
+  "exploratory": true,
+  "main_gate_unchanged": true,
+  "manifest_sha256": "943cdc76cedbe71dfa4dd7ebb1ff3ee3dfbf81c4c987dedd153536d51ae44e49"
+}

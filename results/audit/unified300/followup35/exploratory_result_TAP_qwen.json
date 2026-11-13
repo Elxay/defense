@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-13T17:57:23.889622+00:00",
+  "group": "TAP_qwen",
+  "N": 78,
+  "fulfilled": 56,
+  "INVALID_IDs": [],
+  "exploratory": true,
+  "main_gate_unchanged": true,
+  "manifest_sha256": "7683876ea5b9d31dd246849d1dcec836c906677d8db29a173a660d004a5c845f"
+}

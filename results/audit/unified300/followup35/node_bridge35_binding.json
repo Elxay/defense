@@ -1,0 +1,10 @@
+{
+  "utc_frozen": "2026-11-13T18:07:18.765304+00:00",
+  "source_sha256": "82a506c678dc67f18bfe82f40d6b4ef2e9c7e759f0fb061e9c0fc8343b9e0f38",
+  "cells": [
+    "qwen_translate-ml_alpha0",
+    "qwen_translate-mr_alpha0"
+  ],
+  "Tamil_source": "innet GPU3 only; never copied from cancelled node continuation",
+  "source_model_parser_unchanged": true
+}

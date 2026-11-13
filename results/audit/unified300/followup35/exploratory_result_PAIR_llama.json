@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-13T17:49:23.784409+00:00",
+  "group": "PAIR_llama",
+  "N": 88,
+  "fulfilled": 40,
+  "INVALID_IDs": [],
+  "exploratory": true,
+  "main_gate_unchanged": true,
+  "manifest_sha256": "980f81eb40bc2dca40000d74cb8aff5825d8ad241579c9592e3eff6b274fbc88"
+}

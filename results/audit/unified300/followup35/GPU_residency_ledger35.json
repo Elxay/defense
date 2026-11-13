@@ -1,0 +1,6064 @@
+{
+  "utc": "2026-11-13T18:05:20.815851+00:00",
+  "scope": "Unified300 registered queue attempts + named manual START/EXIT leases; GPU residency/reservation, not kernel busy time",
+  "deduplication": "site+immutable attempt name, actual node receipt wins",
+  "categories_GPUh": {
+    "engineering_gates": 6.644642939325607,
+    "other_registered": 0.12664188127783646,
+    "judging": 17.78011088025413,
+    "static_transform_generation": 98.03516837334026,
+    "translation_preprocessing": 19.501930112772204,
+    "search": 77.2292460869052,
+    "search_replay_diagnostics": 1.332462110230699,
+    "calibration_generation": 3.798611111111111
+  },
+  "metered_GPUh": 224.44881349521705,
+  "attempts": [
+    {
+      "site": "innet",
+      "job": "takeover30_llama_atbash_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 684.785972150974,
+      "GPUh": 0.19021832559749277,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "ASCII_tail16_retry34__1",
+      "category": "other_registered",
+      "scripts": [
+        "u300_ascii_tail34_retry.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 271.94635629095137,
+      "GPUh": 0.07554065452526428,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0014__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 111.2129665617831,
+      "GPUh": 0.030892490711606418,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0020__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 113.53444514097646,
+      "GPUh": 0.03153734587249346,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0017__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 151.97948872717097,
+      "GPUh": 0.04221652464643638,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_atbash_gate_v1__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 515.773779603187,
+      "GPUh": 0.14327049433421862,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_search88_PAIR_qwen__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 73.63568663597107,
+      "GPUh": 0.02045435739888085,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_qwen_atbash_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 288.0369358416647,
+      "GPUh": 0.08001025995601796,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0004__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 93.27101469691843,
+      "GPUh": 0.025908615193588454,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61000__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 768.6640096721239,
+      "GPUh": 0.21351778046447886,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "ASCII_tail16_rescue34__1",
+      "category": "other_registered",
+      "scripts": [
+        "u300_ascii_tail34.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 183.96441630925983,
+      "GPUh": 0.05110122675257218,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_base_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1678.8643469302915,
+      "GPUh": 0.4663512074806365,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_61001__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1436.840278652031,
+      "GPUh": 0.39912229962556417,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0024__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 115.71187914302573,
+      "GPUh": 0.03214218865084048,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_PAIR_alpha0_diagnostic__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 174.14445341425017,
+      "GPUh": 0.048373459281736156,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_authority_endorsement_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2266.9331410783343,
+      "GPUh": 0.6297036502995373,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "translate33_llama_translate-mr_alpha0__2",
+      "category": "translation_preprocessing",
+      "scripts": [
+        "u300_language_translate33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 9121.128473,
+      "GPUh": 2.533646798055556,
+      "basis": "live since runner start receipt; includes loading/wait under reservation",
+      "exit_code": null,
+      "active": true
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_s3__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 950.8674148540013,
+      "GPUh": 0.2641298374594448,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0048__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 103.0223356266506,
+      "GPUh": 0.02861731545184739,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "exploratory_SORRY35_PAIR_llama__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 229.05400648899376,
+      "GPUh": 0.06362611291360938,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-fr_61000_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1871.4604612099938,
+      "GPUh": 0.5198501281138872,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "prep_mistral_short_position_gate17__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_new_model_short_gate17.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 189.74147199699655,
+      "GPUh": 0.05270596444361016,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 44.630798045080155,
+      "GPUh": 0.012397443901411153,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_s3__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 196.11868487484753,
+      "GPUh": 0.05447741246523542,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-mr_generate__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 301.6961770388298,
+      "GPUh": 0.08380449362189715,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0038__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 110.28197444602847,
+      "GPUh": 0.030633881790563464,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0070__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 100.03829482896253,
+      "GPUh": 0.02778841523026737,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_logical_appeal_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2337.18733604718,
+      "GPUh": 0.64921870445755,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0046__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 113.53775213006884,
+      "GPUh": 0.03153826448057468,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "score_WG_0003__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 275.2864491029177,
+      "GPUh": 0.0764684580841438,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0051__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 104.37359295738861,
+      "GPUh": 0.028992664710385724,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0039__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 109.26747407531366,
+      "GPUh": 0.030352076132031572,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 64.82294820575044,
+      "GPUh": 0.018006374501597342,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0066__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 102.30066724075004,
+      "GPUh": 0.028416852011319455,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0055__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 101.70085687376559,
+      "GPUh": 0.02825023802049044,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_language_alpha0_qwen_translate-zh-cn__1",
+      "category": "judging",
+      "scripts": [
+        "u300_language_SORRY_cache_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 89.23816158110276,
+      "GPUh": 0.024788378216972988,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_llama_gate__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_pilot.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 326.0843120329082,
+      "GPUh": 0.18115795112939345,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_refusal_suppression_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1040.707097324077,
+      "GPUh": 0.28908530481224365,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "CF20_llama_translate-fr_s4_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1424.8211528661195,
+      "GPUh": 0.3957836535739221,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0031__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 107.58452457981184,
+      "GPUh": 0.029884590161058846,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_s4__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 673.3399031003937,
+      "GPUh": 0.18703886197233158,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 332.4926546663046,
+      "GPUh": 0.09235907074064016,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-zh-cn_alpha0_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1165.9077379791997,
+      "GPUh": 0.3238632605497777,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61001__6",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 753.2270969338715,
+      "GPUh": 0.20922974914829764,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_B4_generate__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v4.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 11883.020976360887,
+      "GPUh": 3.3008391601002463,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0033__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 112.99818992707878,
+      "GPUh": 0.031388386090855216,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_llama_caesar_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 249.13827604288235,
+      "GPUh": 0.06920507667857843,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61001__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 39.661600307095796,
+      "GPUh": 0.011017111196415498,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1232.0545098581351,
+      "GPUh": 0.342237363849482,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "search88_replay19_PAIR_llama__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_search88_alpha0_worker19.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 408.2563153230585,
+      "GPUh": 0.11340453203418292,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "Lml_node1_reference35__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_Lml_node1_gate35.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 712.1606416299473,
+      "GPUh": 0.19782240045276314,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_base_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1096.5013476167805,
+      "GPUh": 0.3045837076713279,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_qwen_gate__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_pilot_v2.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 665.3175162249245,
+      "GPUh": 0.3696208423471803,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_translation_engineering_B1__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 73.90533913485706,
+      "GPUh": 0.02052926087079363,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s3__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 132.9557861238718,
+      "GPUh": 0.036932162812186614,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-zh-cn_s5_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 982.1067010858096,
+      "GPUh": 0.2728074169682804,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0012__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 108.12977402796969,
+      "GPUh": 0.03003604834110269,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_caesar_generate_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 842.9288223299664,
+      "GPUh": 0.23414689509165731,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "AutoDAN_qwen_gate_v4__1",
+      "category": "search",
+      "scripts": [
+        "unified300_autodan_worker_v4.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 672.1204876028933,
+      "GPUh": 0.37340027089049627,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_logical_appeal_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1699.4057508739643,
+      "GPUh": 0.47205715302054563,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_61001__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1778.5675708386116,
+      "GPUh": 0.4940465474551699,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_s5__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 542.8745893491432,
+      "GPUh": 0.15079849704142867,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-mr_generate__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 159.9414259539917,
+      "GPUh": 0.04442817387610881,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_deepinception_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1771.3272523889318,
+      "GPUh": 0.4920353478858144,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0025__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 106.96148357586935,
+      "GPUh": 0.029711523215519266,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_language_alpha0_qwen_translate-fr__1",
+      "category": "judging",
+      "scripts": [
+        "u300_language_SORRY_cache_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 87.88193400623277,
+      "GPUh": 0.024411648335064658,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-fr_s5_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1567.598948892206,
+      "GPUh": 0.4354441524700572,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0019__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 106.22754430258647,
+      "GPUh": 0.029507651195162906,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0061__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 102.36773780500516,
+      "GPUh": 0.028435482723612546,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_ascii_generate_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 12817.694484720007,
+      "GPUh": 3.5604706902000016,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "CF20_llama_translate-fr_alpha0_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 264.10860602301545,
+      "GPUh": 0.07336350167305984,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-fr_s3_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1617.2505784202367,
+      "GPUh": 0.4492362717833991,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_refusal_suppression_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1260.2160288961604,
+      "GPUh": 0.3500600080267112,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P2_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1550.100378752686,
+      "GPUh": 0.4305834385424128,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2079.180450783111,
+      "GPUh": 0.5775501252175309,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s4__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 67.21867939271033,
+      "GPUh": 0.01867185538686398,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61001__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 103.01698980806395,
+      "GPUh": 0.028615830502239988,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0053__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 104.5286699058488,
+      "GPUh": 0.029035741640513556,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_s4__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 88.78069582534954,
+      "GPUh": 0.02466130439593043,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_rand0__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 319.62252144981176,
+      "GPUh": 0.08878403373605882,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_evidence-based_persuasion_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1398.764905189164,
+      "GPUh": 0.38854580699699,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1164.8099318989553,
+      "GPUh": 0.32355831441637645,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0069__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 104.14395907800645,
+      "GPUh": 0.028928877521668457,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_llama_translate-zh-cn_rand1_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1264.4491096083075,
+      "GPUh": 0.3512358637800854,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "exploratory_SORRY35_TAP_qwen__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 73.59688571095467,
+      "GPUh": 0.020443579364154075,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "PAIR_qwen_selected132_replay31__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_search132_alpha0_worker31.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 626.0450104880147,
+      "GPUh": 0.1739013918022263,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_refusal_suppression_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1207.3052617628127,
+      "GPUh": 0.3353625727118924,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_alpha0_reply_preprocessing_v2_CF__1",
+      "category": "translation_preprocessing",
+      "scripts": [
+        "u300_language_preprocess_worker_v2.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 29334.52417887491,
+      "GPUh": 8.148478938576364,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 77.57328191725537,
+      "GPUh": 0.02154813386590427,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_B4_generate__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v4.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 161.5898699790705,
+      "GPUh": 0.04488607499418625,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_base_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1349.860969006084,
+      "GPUh": 0.37496138027946774,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "search88_replay19_PAIR_qwen__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_search88_alpha0_worker19.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 613.3594952849671,
+      "GPUh": 0.17037763757915753,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-fr_61001_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1977.75246922113,
+      "GPUh": 0.5493756858947584,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_llama_gate_v4__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_pilot_v4.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 1176.5339256089646,
+      "GPUh": 0.653629958671647,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_llama_atbash_generate_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 7205.767725534039,
+      "GPUh": 2.0016021459816775,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "CF20_llama_translate-fr_s5_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1391.710717174923,
+      "GPUh": 0.38658631032636753,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_s5__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 761.6307007325813,
+      "GPUh": 0.21156408353682815,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-mr_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 586.4402901032008,
+      "GPUh": 0.16290008058422245,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0023__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 112.01363187003881,
+      "GPUh": 0.031114897741677448,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_qwen_translate-mr_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 475.2807216369547,
+      "GPUh": 0.13202242267693187,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_expert_endorsement_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1487.0641127587296,
+      "GPUh": 0.41307336465520267,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_logical_appeal_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1530.1805345928296,
+      "GPUh": 0.42505014849800826,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 5181.039353176951,
+      "GPUh": 1.4391775981047088,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-fr_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2580.526052454952,
+      "GPUh": 0.7168127923485978,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_evidence-based_persuasion_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1558.0405312199146,
+      "GPUh": 0.43278903644997624,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_language_alpha0_llama_translate-zh-cn__1",
+      "category": "judging",
+      "scripts": [
+        "u300_language_SORRY_cache_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 84.13439830671996,
+      "GPUh": 0.0233706661963111,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0044__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 101.12443723808974,
+      "GPUh": 0.028090121455024927,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 67.20300554577261,
+      "GPUh": 0.018667501540492393,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_expert_endorsement_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2155.663720525801,
+      "GPUh": 0.5987954779238337,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-zh-cn_alpha0_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 69.7168669081293,
+      "GPUh": 0.019365796363369252,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_generate__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 164.18371395999566,
+      "GPUh": 0.045606587211109904,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0059__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 101.48478787019849,
+      "GPUh": 0.028190218852832915,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P2_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1764.235042392742,
+      "GPUh": 0.4900652895535394,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_generate__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 161.51290257810615,
+      "GPUh": 0.04486469516058504,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 50.89777724025771,
+      "GPUh": 0.014138271455627141,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_qwen_pilot__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_pilot_v2.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 1298.9234464820474,
+      "GPUh": 0.7216241369344708,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 50.82901981892064,
+      "GPUh": 0.014119172171922401,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0006__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 91.11318287905306,
+      "GPUh": 0.025309217466403626,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0016__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 110.38992108497769,
+      "GPUh": 0.030663866968049357,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_qwen_translate-ml_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 555.8570960401557,
+      "GPUh": 0.15440474890004327,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "device20_node2_qwen__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_additional_device20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 200.4556744049769,
+      "GPUh": 0.055682131779160246,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_s5__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 49.86809250479564,
+      "GPUh": 0.01385224791799879,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_expert_endorsement_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2341.2180765150115,
+      "GPUh": 0.6503383545875032,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_progressive_llama_bulk_v1__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_progressive_v1.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 27783.076298285043,
+      "GPUh": 15.435042387936136,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_llama_translate-zh-cn_alpha0_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 98.63181844772771,
+      "GPUh": 0.02739772734659103,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_generate__7",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v2.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 4482.162592005916,
+      "GPUh": 1.2450451644460878,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1405.819451619871,
+      "GPUh": 0.3905054032277419,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_61001__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 494.33386138128117,
+      "GPUh": 0.13731496149480032,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_rand0__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 403.8197042592801,
+      "GPUh": 0.11217214007202225,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_rand1__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 207.02389405108988,
+      "GPUh": 0.05750663723641385,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s4__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 902.6983643556014,
+      "GPUh": 0.2507495456543337,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "score_WG_0002__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 741.8949352640193,
+      "GPUh": 0.2060819264622276,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0062__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 102.48983307182789,
+      "GPUh": 0.028469398075507746,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_s3__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 158.72736323298886,
+      "GPUh": 0.0440909342313858,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "prep_mistral_native_baseline_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "u300_mistral_prereview_baseline.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1586.1204908248037,
+      "GPUh": 0.44058902522911214,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s4__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 946.4067706870846,
+      "GPUh": 0.2628907696353013,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s5__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1064.8970194519497,
+      "GPUh": 0.2958047276255416,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_llama_pilot__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_pilot_v4.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 4507.919839716051,
+      "GPUh": 2.5043999109533615,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 996.5039322380908,
+      "GPUh": 0.2768066478439141,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_caesar_gate_v1__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 41.017520159017295,
+      "GPUh": 0.011393755599727027,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0037__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 116.46780489431694,
+      "GPUh": 0.03235216802619915,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0056__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 101.5593026378192,
+      "GPUh": 0.02821091739939422,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_llama_caesar_generate_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 162.42455707211047,
+      "GPUh": 0.045117932520030685,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 36.11034259386361,
+      "GPUh": 0.010030650720517668,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_llama_gate__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_pilot.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 401.9850552889984,
+      "GPUh": 0.22332503071611023,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s3__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 101.61950530624017,
+      "GPUh": 0.028227640362844492,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "Mistral2400_gate35__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_Mistral_gate35_split.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 334.984059,
+      "GPUh": 0.0930511275,
+      "basis": "live since runner start receipt; includes loading/wait under reservation",
+      "exit_code": null,
+      "active": true
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_s5__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1218.9287532931194,
+      "GPUh": 0.3385913203591998,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "selected20_GPU0_reference34__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_selected20_gpu034.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 78.49256566818804,
+      "GPUh": 0.021803490463385564,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_evidence-based_persuasion_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2357.8165908860974,
+      "GPUh": 0.6549490530239159,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0028__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 116.07086308067665,
+      "GPUh": 0.032241906411299065,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 674.6223352588713,
+      "GPUh": 0.18739509312746425,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1554.8458741381764,
+      "GPUh": 0.431901631705049,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_qwen_pilot__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_pilot_v4.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 7541.29278015811,
+      "GPUh": 4.189607100087839,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0045__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 108.98016736889258,
+      "GPUh": 0.030272268713581272,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_authority_endorsement_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2144.6431140080094,
+      "GPUh": 0.5957341983355582,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_evidence-based_persuasion_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1561.963110996876,
+      "GPUh": 0.4338786419435766,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_deepinception_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 4457.193442672025,
+      "GPUh": 1.238109289631118,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_authority_endorsement_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2291.3354794499464,
+      "GPUh": 0.6364820776249851,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-zh-cn_61000_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1180.3694260688499,
+      "GPUh": 0.32788039613023606,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-zh-cn_s4_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1117.5253495466895,
+      "GPUh": 0.3104237082074138,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1606.9022308401763,
+      "GPUh": 0.44636173078893787,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_s5__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 112.07888056105003,
+      "GPUh": 0.03113302237806945,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_rand0__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 822.2502500731498,
+      "GPUh": 0.22840284724254162,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_expert_endorsement_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1426.4271642309614,
+      "GPUh": 0.3962297678419337,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "translate33_llama_translate-ml_alpha0__1",
+      "category": "translation_preprocessing",
+      "scripts": [
+        "u300_language_translate33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 6829.51685278723,
+      "GPUh": 1.8970880146631195,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ml_B4_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1328.114382305881,
+      "GPUh": 0.3689206617516336,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_llama_atbash_gate_v1__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 858.5013769019861,
+      "GPUh": 0.23847260469499612,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "laststream132_SORRY34__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 78.69251548685133,
+      "GPUh": 0.021859032079680926,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "CF20_llama_translate-fr_rand0_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1573.5862709300127,
+      "GPUh": 0.4371072974805591,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1568.6013644868508,
+      "GPUh": 0.43572260124634743,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_base_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1021.1090289652348,
+      "GPUh": 0.28364139693478746,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_llama_translate-zh-cn_s3_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1155.7377322199754,
+      "GPUh": 0.32103825894999316,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s3__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 322.4937552958727,
+      "GPUh": 0.08958159869329797,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0008__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 109.02490602899343,
+      "GPUh": 0.03028469611916484,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0034__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 111.49063965212554,
+      "GPUh": 0.030969622125590426,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_qwen_translate-ta_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 518.2188149928115,
+      "GPUh": 0.14394967083133653,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_search88_PAIR_llama__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 71.85482018301263,
+      "GPUh": 0.019959672273059066,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_deepinception_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 4387.899456821848,
+      "GPUh": 1.218860960228291,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_authority_endorsement_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1998.968974856194,
+      "GPUh": 0.5552691596822762,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_expert_endorsement_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1347.4478424820118,
+      "GPUh": 0.3742910673561144,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0035__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 114.47104201186448,
+      "GPUh": 0.03179751166996236,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0043__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 103.80763488123193,
+      "GPUh": 0.028835454133675536,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "translate33_llama_translate-ta_alpha0__1",
+      "category": "translation_preprocessing",
+      "scripts": [
+        "u300_language_translate33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 6675.347826587968,
+      "GPUh": 1.8542632851633243,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_llama_ascii_generate_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 6963.578993895091,
+      "GPUh": 1.934327498304192,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_base_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1088.188778932672,
+      "GPUh": 0.3022746608146311,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1556.7502131341025,
+      "GPUh": 0.4324306147594729,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0029__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 114.22815421409905,
+      "GPUh": 0.031730042837249735,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_logical_appeal_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1448.818348989822,
+      "GPUh": 0.40244954138606165,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_search88_TAP_qwen__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 303.609095164109,
+      "GPUh": 0.08433585976780807,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "TAP_alpha0_independent_replay_v1__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_tap_alpha0_replay.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 224.22151407413185,
+      "GPUh": 0.06228375390948107,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 86.65579866804183,
+      "GPUh": 0.024071055185567174,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_61000__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 385.89262837404385,
+      "GPUh": 0.10719239677056773,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0015__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 103.21519669424742,
+      "GPUh": 0.028670887970624285,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0009__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 104.02965319529176,
+      "GPUh": 0.028897125887581043,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-fr_alpha0_generate__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1485.6316801542416,
+      "GPUh": 0.41267546670951155,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P2_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1358.1925125690177,
+      "GPUh": 0.37727569793583826,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s4__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1317.0519641181454,
+      "GPUh": 0.36584776781059597,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_qwen_gate_v3__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_pilot_v3.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 704.5818852509838,
+      "GPUh": 0.391434380694991,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 815.849783142563,
+      "GPUh": 0.22662493976182305,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_qwen_gate_v4__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_pilot_v4.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 1110.787788588088,
+      "GPUh": 0.6171043269933822,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "device20_node0_llama__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_additional_device20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 171.4122414099984,
+      "GPUh": 0.04761451150277733,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_logical_appeal_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2259.350208358839,
+      "GPUh": 0.6275972800996775,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s4__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 289.4800738580525,
+      "GPUh": 0.0804111316272368,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_evidence-based_persuasion_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1468.876824511215,
+      "GPUh": 0.4080213401420042,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_progressive_qwen_88_v1__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_progressive_v1.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 7650.215897379909,
+      "GPUh": 4.250119942988838,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_rand0__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 41.54573052469641,
+      "GPUh": 0.011540480701304558,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_generate__8",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1298.1505109709688,
+      "GPUh": 0.36059736415860244,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_s5__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 223.618141931016,
+      "GPUh": 0.062116150536393334,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_llama_ascii_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 6494.216946640983,
+      "GPUh": 1.8039491518447175,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "AutoDAN_cap512_retime_v5__1",
+      "category": "search",
+      "scripts": [
+        "u300_autodan_cap512_supervisor19.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 1794.7691237488762,
+      "GPUh": 0.9970939576382646,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "translation_engineering20_B4__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_translation_batch_worker20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 767.1114698932506,
+      "GPUh": 0.21308651941479184,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_evidence-based_persuasion_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2267.2174802711233,
+      "GPUh": 0.6297826334086454,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 628.1378434901126,
+      "GPUh": 0.17448273430280906,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "exploratory_last35_PAIR_llama__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_exploratory_last35.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 423.1765240258537,
+      "GPUh": 0.11754903445162604,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0002__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 426.1521990741603,
+      "GPUh": 0.11837561085393342,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_atbash_generate_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 9299.136147981975,
+      "GPUh": 2.5830933744394375,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_search88_TAP_llama__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 70.72941967099905,
+      "GPUh": 0.019647061019721957,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1706.7795129772276,
+      "GPUh": 0.4741054202714521,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 353.90334470709786,
+      "GPUh": 0.09830648464086052,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_llama_caesar_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 126.14844581717625,
+      "GPUh": 0.03504123494921563,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "device20_node0_qwen__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_additional_device20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 202.28158559114672,
+      "GPUh": 0.05618932933087409,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_llama_morse_gate_v1__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 801.5237391770352,
+      "GPUh": 0.22264548310473198,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_logical_appeal_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 123.90358397969976,
+      "GPUh": 0.03441766221658327,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "search88_replay19_TAP_qwen__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_search88_alpha0_worker19.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 404.62614867370576,
+      "GPUh": 0.11239615240936271,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_evidence-based_persuasion_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2171.7242551730014,
+      "GPUh": 0.603256737548056,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_llama_morse_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 3849.222998941783,
+      "GPUh": 1.0692286108171618,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0068__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 114.41336498968303,
+      "GPUh": 0.03178149027491195,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "exploratory_SORRY35_TAP_llama__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 75.82740782713518,
+      "GPUh": 0.021063168840870884,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0064__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 100.56275341100991,
+      "GPUh": 0.027934098169724975,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P2_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1462.7717655356973,
+      "GPUh": 0.4063254904265826,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-fr_alpha0_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 99.08942468836904,
+      "GPUh": 0.02752484019121362,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s5__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 631.3178581292741,
+      "GPUh": 0.17536607170257615,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0018__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 107.74535434087738,
+      "GPUh": 0.029929265094688164,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "laststream132_replay34__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_laststream132_worker34.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 737.5368604012765,
+      "GPUh": 0.2048713501114657,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_expert_endorsement_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2270.3191651608795,
+      "GPUh": 0.6306442125446887,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s4__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 322.13202336104587,
+      "GPUh": 0.08948111760029052,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "language_llama_translate-zh-cn_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1326.9856973136775,
+      "GPUh": 0.3686071381426882,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_llama_translate-zh-cn_s4_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1018.1682786731981,
+      "GPUh": 0.28282452185366613,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_generate__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 586.2317070118152,
+      "GPUh": 0.16284214083661533,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-zh-cn_61001_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1105.861672572326,
+      "GPUh": 0.3071837979367572,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "AutoDAN_cap512_gate_v5__1",
+      "category": "search",
+      "scripts": [
+        "unified300_autodan_worker_cap512_v5.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 413.48624128778465,
+      "GPUh": 0.2297145784932137,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_B4_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v4.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1376.1782874290366,
+      "GPUh": 0.3822717465080657,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_rand0__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 46.87722465908155,
+      "GPUh": 0.013021451294189319,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0054__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 109.58530842280015,
+      "GPUh": 0.03044036345077782,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 3610.3542839973234,
+      "GPUh": 1.0028761899992564,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_deepinception_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 4347.833869798109,
+      "GPUh": 1.2077316304994747,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0013__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 108.28199789393693,
+      "GPUh": 0.030078332748315815,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 47.52810182608664,
+      "GPUh": 0.013202250507246289,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s3__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1050.8964765681885,
+      "GPUh": 0.2919156879356079,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_llama_morse_generate_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 3871.5831403420307,
+      "GPUh": 1.0754397612061197,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_logical_appeal_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2225.6653880593367,
+      "GPUh": 0.618240385572038,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "exploratory_last35_TAP_qwen__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_exploratory_last35.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 479.0678955577314,
+      "GPUh": 0.13307441543270315,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_s5__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1382.8705442673527,
+      "GPUh": 0.3841307067409313,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 259.41258164215833,
+      "GPUh": 0.07205905045615509,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "PAIR_alpha0_independent_replay_v1__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_pair_alpha0_replay.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 188.6584006510675,
+      "GPUh": 0.052405111291963194,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-mr_generate__6",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v2.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 5632.3102336679585,
+      "GPUh": 1.5645306204633218,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_qwen_ascii_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 895.492912704125,
+      "GPUh": 0.2487480313067014,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_logical_appeal_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2260.9049136331305,
+      "GPUh": 0.6280291426758696,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_generate__6",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 164.1188003111165,
+      "GPUh": 0.04558855564197681,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_refusal_suppression_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1008.7075058892369,
+      "GPUh": 0.2801965294136769,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s4__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1344.190621776972,
+      "GPUh": 0.37338628382693667,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 51.39581029722467,
+      "GPUh": 0.014276613971451297,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_61000__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 908.2098374431953,
+      "GPUh": 0.25228051040088756,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_logical_appeal_s3__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 668.8767279419117,
+      "GPUh": 0.18579909109497547,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_progressive_llama_88_v1__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_progressive_v1.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 4832.463537562871,
+      "GPUh": 2.684701965312706,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0040__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 108.78659006720409,
+      "GPUh": 0.030218497240890024,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_logical_appeal_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1407.3354979502037,
+      "GPUh": 0.39092652720838994,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_llama_translate-zh-cn_rand0_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1195.256611505989,
+      "GPUh": 0.3320157254183303,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0058__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 100.01956070400774,
+      "GPUh": 0.027783211306668817,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 4097.142427233979,
+      "GPUh": 1.1380951186761052,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "CF20_llama_translate-fr_alpha0_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1434.4005632090848,
+      "GPUh": 0.3984446008914124,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s4__6",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 32.742969224695116,
+      "GPUh": 0.009095269229081977,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-mr_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 852.9521047128364,
+      "GPUh": 0.23693114019801012,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_qwen_ascii_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2443.7981410408393,
+      "GPUh": 0.6788328169557887,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_base_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1024.9807264730334,
+      "GPUh": 0.2847168684647315,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_base_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1027.6898929411545,
+      "GPUh": 0.2854694147058763,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_s3__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 224.85924666188657,
+      "GPUh": 0.062460901850524046,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "translate33_llama_translate-mr_alpha0__1",
+      "category": "translation_preprocessing",
+      "scripts": [
+        "u300_language_translate33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1434.8561278008856,
+      "GPUh": 0.3985711466113571,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "T1_translate34_llama_translate-fr_alpha0__2",
+      "category": "translation_preprocessing",
+      "scripts": [
+        "u300_language_translate33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2488.775089520961,
+      "GPUh": 0.6913264137558225,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 120.35534038487822,
+      "GPUh": 0.0334320389957995,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "CF20_llama_translate-fr_rand1_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1517.3651733070146,
+      "GPUh": 0.4214903259186152,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_61001__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 193.00496087176725,
+      "GPUh": 0.05361248913104646,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1494.7449584179558,
+      "GPUh": 0.4152069328938766,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0026__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 114.64014397701249,
+      "GPUh": 0.031844484438059026,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_expert_endorsement_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2041.2256203717552,
+      "GPUh": 0.567007116769932,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "score_WG_0001__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 6636.136524963891,
+      "GPUh": 1.8433712569344143,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_morse_generate_v1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 9602.818942750106,
+      "GPUh": 2.667449706319474,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_base_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1613.344485920854,
+      "GPUh": 0.4481512460891261,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_deepinception_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 4520.686477931682,
+      "GPUh": 1.2557462438699116,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2416.635479377117,
+      "GPUh": 0.6712876331603103,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61001__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 754.6688519557938,
+      "GPUh": 0.20963023665438715,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s4__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 169.14387920405716,
+      "GPUh": 0.04698441089001588,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_generate__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 160.7072607150767,
+      "GPUh": 0.04464090575418797,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_61000__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 668.5059796571732,
+      "GPUh": 0.1856961054603259,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_progressive_qwen_gate_v1__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_progressive_v1.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 1592.435589890927,
+      "GPUh": 0.8846864388282928,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_qwen_morse_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 312.9605911411345,
+      "GPUh": 0.08693349753920403,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_refusal_suppression_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 968.8738682768308,
+      "GPUh": 0.26913163007689744,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "translation_engineering20_B1_B8__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_translation_batch_worker20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1838.979098123964,
+      "GPUh": 0.5108275272566567,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_rand0__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 518.9906776780263,
+      "GPUh": 0.14416407713278506,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_llama_ascii_gate_v1__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 678.3348304349929,
+      "GPUh": 0.18842634178749804,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0060__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 102.22718783095479,
+      "GPUh": 0.028396441064154107,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-mr_generate__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 159.499987087911,
+      "GPUh": 0.04430555196886417,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_evidence-based_persuasion_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2156.5027251667343,
+      "GPUh": 0.5990285347685373,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0005__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 94.15891058696434,
+      "GPUh": 0.026155252940823426,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "Mistral100_and2400_gate35__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_Mistral_gate35_split.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1324.7275152723305,
+      "GPUh": 0.36797986535342514,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_llama_caesar_gate_v1__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 330.5981984990649,
+      "GPUh": 0.09183283291640691,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_s4__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 428.2826286237687,
+      "GPUh": 0.11896739683993575,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_logical_appeal_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 41.833367296960205,
+      "GPUh": 0.011620379804711168,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_evidence-based_persuasion_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1468.9937313953415,
+      "GPUh": 0.40805381427648374,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 5200.8441803273745,
+      "GPUh": 1.4446789389798262,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_expert_endorsement_rand1__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1533.1729144989513,
+      "GPUh": 0.4258813651385976,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61000__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 268.9126049708575,
+      "GPUh": 0.0746979458252382,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1872.3307424006052,
+      "GPUh": 0.520091872889057,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_logical_appeal_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1464.5807261969894,
+      "GPUh": 0.4068279794991637,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s4__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 598.6769802961498,
+      "GPUh": 0.16629916119337496,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-zh-cn_s3_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1072.957398059778,
+      "GPUh": 0.29804372168327165,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1504.0306709469296,
+      "GPUh": 0.4177862974852582,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_caesar_generate_v1__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 565.3450934470166,
+      "GPUh": 0.15704030373528238,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 38.81873231800273,
+      "GPUh": 0.010782981199445202,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_llama_gate_v2__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_pilot_v2.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 694.0414978058543,
+      "GPUh": 0.38557860989214127,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_progressive_llama_gate_v1__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_progressive_v1.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 1626.3133775410242,
+      "GPUh": 0.9035074319672357,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0011__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 110.9862139839679,
+      "GPUh": 0.03082950388443553,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "SORRY33_llama_translate-ml_alpha0__1",
+      "category": "judging",
+      "scripts": [
+        "u300_language_SORRY33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 179.02572279516608,
+      "GPUh": 0.04972936744310169,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61001__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 871.552815057803,
+      "GPUh": 0.24209800418272304,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_rand1__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1393.1603442062624,
+      "GPUh": 0.3869889845017396,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_morse_gate_v1__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 438.37010959000327,
+      "GPUh": 0.12176947488611202,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_llama_ascii_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 606.2102772402577,
+      "GPUh": 0.16839174367784937,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s3__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 38.03577516786754,
+      "GPUh": 0.010565493102185429,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "CF20_llama_translate-fr_s3_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1462.6974195579533,
+      "GPUh": 0.40630483876609813,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_rand1__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1169.3313681278378,
+      "GPUh": 0.3248142689243994,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_rand1__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 40.700228011701256,
+      "GPUh": 0.011305618892139237,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_s4__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 660.973958378192,
+      "GPUh": 0.18360387732727557,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_logical_appeal_s3__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 699.003586050123,
+      "GPUh": 0.19416766279170083,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ml_B4_generate_recovery__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 164.32323797186837,
+      "GPUh": 0.045645343881074545,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "PAIR_qwen_selected132_SORRY31__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 210.72960081882775,
+      "GPUh": 0.05853600022745215,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-mr_generate__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 160.76811516098678,
+      "GPUh": 0.044657809766940774,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0067__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 102.29586090007797,
+      "GPUh": 0.028415516916688324,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "CF20_llama_translate-fr_alpha0_generate__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 78.60877802199684,
+      "GPUh": 0.0218357716727769,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0041__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 110.7348949611187,
+      "GPUh": 0.030759693044755194,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0036__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 105.7783381799236,
+      "GPUh": 0.029382871716645442,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 52.463223196100444,
+      "GPUh": 0.014573117554472345,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2046.1871152599342,
+      "GPUh": 0.5683853097944261,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0030__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 107.45376830874011,
+      "GPUh": 0.02984826897465003,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 338.08738622581586,
+      "GPUh": 0.09391316284050441,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "exploratory_last35_TAP_llama__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_exploratory_last35.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 460.5045594847761,
+      "GPUh": 0.12791793319021558,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_logical_appeal_s5__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 536.795465900097,
+      "GPUh": 0.14910985163891585,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 413.14228326501325,
+      "GPUh": 0.11476174535139257,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "WG_R1_uniform21_B4__1",
+      "category": "judging",
+      "scripts": [
+        "u300_WG_uniform_recovery21.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 14051.382879504003,
+      "GPUh": 3.903161910973334,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 143,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0001__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2372.5568742393516,
+      "GPUh": 0.6590435761775977,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_llama_pilot__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_pilot_v2.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 905.65300621395,
+      "GPUh": 0.50314055900775,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_progressive_qwen_bulk_v1__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_progressive_v1.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 41672.934973983094,
+      "GPUh": 23.15163054110172,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-fr_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 409.3653635021765,
+      "GPUh": 0.1137126009728268,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "B4_ml_llama_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 676.1894,
+      "GPUh": 0.1878303888888889,
+      "basis": "live since runner start receipt; includes loading/wait under reservation",
+      "exit_code": null,
+      "active": true
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P2_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 153.36380491917953,
+      "GPUh": 0.04260105692199431,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s4__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 139.04227130208164,
+      "GPUh": 0.038622853139467124,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_base_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1341.708676298149,
+      "GPUh": 0.3726968545272636,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P1_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 73.33651080075651,
+      "GPUh": 0.020371253000210143,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 834.2570434499066,
+      "GPUh": 0.23173806762497406,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_s5__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1554.8816758720204,
+      "GPUh": 0.4319115766311168,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s4__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 75.69539700821042,
+      "GPUh": 0.02102649916894734,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_progressive_llama_gate_v1__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_progressive_v1.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 875.986280068988,
+      "GPUh": 0.4866590444827711,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0032__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 109.17531501082703,
+      "GPUh": 0.0303264763918964,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_language_alpha0_llama_translate-fr__1",
+      "category": "judging",
+      "scripts": [
+        "u300_language_SORRY_cache_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 84.51947337202728,
+      "GPUh": 0.0234776314922298,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_misrepresentation_s3__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 153.93172000302002,
+      "GPUh": 0.042758811111950006,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0042__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 114.61785700311884,
+      "GPUh": 0.03183829361197746,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_llama_translate-zh-cn_alpha0_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1320.2026457348838,
+      "GPUh": 0.36672295714857883,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_authority_endorsement_s4__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 321.1743494956754,
+      "GPUh": 0.08921509708213206,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "AutoDAN_warmup_pilot20_v4__1",
+      "category": "search",
+      "scripts": [
+        "unified300_autodan_worker_v4.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 14463.757121082861,
+      "GPUh": 8.035420622823812,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 143,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-fr_s4_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1819.9544020001777,
+      "GPUh": 0.5055428894444938,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0065__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 103.76977123087272,
+      "GPUh": 0.0288249364530202,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_qwen_caesar_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 23.39957058010623,
+      "GPUh": 0.006499880716696174,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_B4_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v4.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1919.8736345809884,
+      "GPUh": 0.5332982318280524,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0050__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 109.01113206008449,
+      "GPUh": 0.030280870016690137,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "T1_translate34_llama_translate-fr_alpha0__1",
+      "category": "translation_preprocessing",
+      "scripts": [
+        "u300_language_translate33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 312.1681554079987,
+      "GPUh": 0.08671337650222187,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0021__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 107.08825613977388,
+      "GPUh": 0.029746737816603853,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "prep_gemma_short_position_gate17__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_new_model_short_gate17.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 467.35155882593244,
+      "GPUh": 0.1298198774516479,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1907.9448635918088,
+      "GPUh": 0.529984684331058,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_TAP_alpha0_diagnostic__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 93.67571611888707,
+      "GPUh": 0.026021032255246407,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_expert_endorsement_rand0__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1469.1634089136496,
+      "GPUh": 0.40810094692045823,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0049__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 110.00867981975898,
+      "GPUh": 0.030557966616599718,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "encoding_qwen_ascii_gate_v1__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_encoding_alpha0_v1.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1262.000693790149,
+      "GPUh": 0.3505557482750414,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0007__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 110.72562070284039,
+      "GPUh": 0.030757116861900108,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "language_llama_translate-zh-cn_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 109.88586657308042,
+      "GPUh": 0.030523851825855673,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_deepinception_s5__4",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 623.3478339980356,
+      "GPUh": 0.17315217611056546,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 51.66351798502728,
+      "GPUh": 0.014350977218063134,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_qwen_translate-fr_alpha0_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 435.2107492261566,
+      "GPUh": 0.12089187478504351,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "device20_node2_llama__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_additional_device20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 176.81973013095558,
+      "GPUh": 0.049116591703043215,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "T1_SORRY34_llama_translate-fr_alpha0__1",
+      "category": "judging",
+      "scripts": [
+        "u300_language_SORRY33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 348.311906311661,
+      "GPUh": 0.09675330730879472,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "SORRY33_llama_translate-ta_alpha0__1",
+      "category": "judging",
+      "scripts": [
+        "u300_language_SORRY33.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 93.12256869999692,
+      "GPUh": 0.02586738019444359,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P1_s3__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 222.34536796389148,
+      "GPUh": 0.061762602212192076,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0063__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 100.50615971395746,
+      "GPUh": 0.027918377698321516,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ta_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 155.06156681803986,
+      "GPUh": 0.043072657449455515,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0047__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 103.47768266499043,
+      "GPUh": 0.02874380074027512,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "WG35_Mistral_gate35_short__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_Mistral_gate_WG35.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 335.018606,
+      "GPUh": 0.09306072388888888,
+      "basis": "live since runner start receipt; includes loading/wait under reservation",
+      "exit_code": null,
+      "active": true
+    },
+    {
+      "site": "innet",
+      "job": "Qwen_encoding_reference35__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "u300_encoding_probe35.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 264.0444469549693,
+      "GPUh": 0.0733456797097137,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_authority_endorsement_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2342.3204912310466,
+      "GPUh": 0.650644580897513,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0057__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 100.96768976189196,
+      "GPUh": 0.028046580489414434,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_prefix_P2_61001__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 37.581623028963804,
+      "GPUh": 0.010439339730267724,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_expert_endorsement_61000__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2241.786671849899,
+      "GPUh": 0.6227185199583053,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_base_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1602.874377115164,
+      "GPUh": 0.44524288253199,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0027__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 112.20797953102738,
+      "GPUh": 0.03116888320306316,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_llama_atbash_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 5838.946930798236,
+      "GPUh": 1.6219297029995101,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s5__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 141.23927674721926,
+      "GPUh": 0.03923313242978313,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_evidence-based_persuasion_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 81.15858506318182,
+      "GPUh": 0.022544051406439395,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_HB_0002__1",
+      "category": "judging",
+      "scripts": [
+        "u300_hb_cache_worker_v2.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 7436.380338591989,
+      "GPUh": 4.131322410328883,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0052__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 150.48212098889053,
+      "GPUh": 0.041800589163580704,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s5__5",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 276.9448040621355,
+      "GPUh": 0.0769291122394821,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "PAIR_progressive_qwen_gate_v1__1",
+      "category": "search",
+      "scripts": [
+        "unified300_pair_progressive_v1.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 854.7514785730746,
+      "GPUh": 0.474861932540597,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "CF20_llama_translate-zh-cn_s5_generate__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_CF20.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 919.8170177857392,
+      "GPUh": 0.25550472716270534,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_llama_translate-mr_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 564.572155423928,
+      "GPUh": 0.1568255987288689,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_HB_0001__1",
+      "category": "judging",
+      "scripts": [
+        "u300_hb_cache_worker_v2.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 5865.861778228078,
+      "GPUh": 3.258812099015599,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_s3__3",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1352.6125963903032,
+      "GPUh": 0.3757257212195287,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0010__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 111.0846177469939,
+      "GPUh": 0.03085683826305386,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "TAP_llama_gate_v3__1",
+      "category": "search",
+      "scripts": [
+        "unified300_tap_pilot_v3.py"
+      ],
+      "cards": 2,
+      "resident_seconds": 724.1657473640516,
+      "GPUh": 0.4023143040911398,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 1,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_deepinception_s3__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2027.333435103763,
+      "GPUh": 0.5631481764177119,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "takeover30_llama_morse_gate__1",
+      "category": "engineering_gates",
+      "scripts": [
+        "unified300_ready_generate_v30.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 795.7605806789361,
+      "GPUh": 0.22104460574414891,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0022__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 107.93004527781159,
+      "GPUh": 0.02998056813272544,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "search88_replay19_TAP_llama__1",
+      "category": "search_replay_diagnostics",
+      "scripts": [
+        "u300_search88_alpha0_worker19.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 231.41087286593392,
+      "GPUh": 0.06428079801831497,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_evidence-based_persuasion_61001__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 2422.6182568809018,
+      "GPUh": 0.6729495158002505,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "score_SORRY_0003__1",
+      "category": "judging",
+      "scripts": [
+        "u300_score_cache_worker.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 134.95700086280704,
+      "GPUh": 0.03748805579522418,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_refusal_suppression_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 448.51188863487914,
+      "GPUh": 0.12458663573191087,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_llama_prefix_P2_s4__1",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 1497.8382383701392,
+      "GPUh": 0.41606617732503864,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "innet",
+      "job": "main_qwen_misrepresentation_61000__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 672.3945494671352,
+      "GPUh": 0.1867762637408709,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ml_B4_generate_recovery__2",
+      "category": "static_transform_generation",
+      "scripts": [
+        "unified300_ready_generate_v3.py"
+      ],
+      "cards": 1,
+      "resident_seconds": 14262.958233259153,
+      "GPUh": 3.961932842571987,
+      "basis": "completed runner resident_seconds",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "manual:results/audit/unified300/Mistral_calibration32_lease/execution.log:2026-11-13T12:52:41+00:00",
+      "category": "calibration_generation",
+      "cards": 1,
+      "resident_seconds": 13675.0,
+      "GPUh": 3.798611111111111,
+      "basis": "manual START/EXIT",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "manual:results/audit/unified300/followup34/Mistral_WG32_lease/execution.log:2026-11-13T16:40:57+00:00",
+      "category": "judging",
+      "cards": 1,
+      "resident_seconds": 3016.0,
+      "GPUh": 0.8377777777777777,
+      "basis": "manual START/EXIT",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "manual:results/audit/unified300/language_B1_reference33_lease/execution.log:2026-11-13T13:09:19+00:00",
+      "category": "engineering_gates",
+      "cards": 1,
+      "resident_seconds": 399.0,
+      "GPUh": 0.11083333333333334,
+      "basis": "manual START/EXIT",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "manual:results/audit/unified300/followup35/Qwen_ml_resume_lease/execution.log:2026-11-13T17:14:57+00:00",
+      "category": "translation_preprocessing",
+      "cards": 1,
+      "resident_seconds": 3023.815851,
+      "GPUh": 0.8399488475,
+      "basis": "manual START to snapshot",
+      "active": true
+    },
+    {
+      "site": "node01",
+      "job": "manual:results/audit/unified300/followup34/leases/Mistral_alpha150_reference20/execution.log:2026-11-13T16:07:35+00:00",
+      "category": "engineering_gates",
+      "cards": 1,
+      "resident_seconds": 120.0,
+      "GPUh": 0.03333333333333333,
+      "basis": "manual START/EXIT",
+      "exit_code": 0,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "manual:results/audit/unified300/followup34/leases/qwen_translate-ml_alpha0/execution.log:2026-11-13T16:07:34+00:00",
+      "category": "translation_preprocessing",
+      "cards": 1,
+      "resident_seconds": 4041.0,
+      "GPUh": 1.1225,
+      "basis": "manual START/EXIT",
+      "exit_code": 75,
+      "active": false
+    },
+    {
+      "site": "node01",
+      "job": "manual:results/audit/unified300/followup34/leases/qwen_translate-mr_alpha0/execution.log:2026-11-13T16:09:35+00:00",
+      "category": "translation_preprocessing",
+      "cards": 1,
+      "resident_seconds": 6945.815851,
+      "GPUh": 1.9293932919444445,
+      "basis": "manual START to snapshot",
+      "active": true
+    },
+    {
+      "site": "node01",
+      "job": "manual_PAIR220_extra_GPUh",
+      "category": "search",
+      "GPUh": 8.179469860381731,
+      "basis": "existing audited source receipt, not duplicated by queue ledger",
+      "active": false
+    }
+  ],
+  "unknown_attempts": [
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ml_B4_generate__1",
+      "reason": "no resident or live start receipt"
+    }
+  ],
+  "known_unpriced": [
+    "S0 pre-queue throughput/long-panel jobs lacking resident receipts",
+    "earlier Mistral B16 and unscaled B8 manual calibrations without complete START/EXIT",
+    "training/retraining of reused vectors before unified300 queue; legacy WJB/PAIR500 excluded from current scope"
+  ],
+  "is_complete_whole_project_total": false
+}

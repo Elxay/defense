@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-13T18:07:18.725673+00:00",
+  "residency_source_sha256": "be776ea0810680a7b72dc368141f393d1c0978cb2b0eae3c324a339009216cec",
+  "net_timer_source_sha256": "f3886131853db6d7dea418d5ee9f19bf7859e2a1763bc2e14386b92daf194c3f",
+  "resident_categories_GPUh": {
+    "engineering_gates": 6.644642939325607,
+    "other_registered": 0.12664188127783646,
+    "judging": 17.78011088025413,
+    "static_transform_generation": 98.03516837334026,
+    "translation_preprocessing": 19.501930112772204,
+    "search": 77.2292460869052,
+    "search_replay_diagnostics": 1.332462110230699,
+    "calibration_generation": 3.798611111111111
+  },
+  "metered_residency_GPUh": 224.44881349521705,
+  "disjoint_supplemental_net_categories_GPUh": {
+    "LQ_calibration_generation_net": 1.5377418761167478,
+    "benign_utility_generation_net": 5.901111111111112,
+    "prequeue_engineering_net": 2.1212757271385954
+  },
+  "is_complete_project_total": false,
+  "search_correction": {
+    "previous_reported_GPUh": 76.23215212926694,
+    "current_GPUh": 77.2292460869052,
+    "added_supervisor_attempt": "AutoDAN_cap512_retime_v5__1",
+    "added_GPUh": 0.9970939576382646,
+    "gate_attempt_UTC": "2026-11-12T17:18:42.808496--17:25:36.294700Z",
+    "retime_attempt_UTC": "2026-11-12T17:30:12.374479--18:00:07.143331Z",
+    "nonoverlapping": true
+  },
+  "unknown_attempts": [
+    {
+      "site": "node01",
+      "job": "language_llama_translate-ml_B4_generate__1",
+      "reason": "no resident or live start receipt"
+    }
+  ],
+  "unpriced": [
+    "old manual unscaled Mistral calibrations and reused vector training",
+    "S0 unlogged loading and failed attempts",
+    "legacy WJB/PAIR500 outside unified300 scope"
+  ]
+}
