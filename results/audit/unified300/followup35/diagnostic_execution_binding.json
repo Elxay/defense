@@ -1,0 +1,7 @@
+{
+  "utc_frozen": "2026-11-13T17:12:26.077501+00:00",
+  "probe_source_sha256": "7d6ec2d4f901c0cfb3bfef178b929fb04526f3bdbc46b055790b2fa5ac5d9ef5",
+  "probe_criteria": "All20 selected and all covered fullB4 batches exact; all current ASCII overlaps exact; all4 v1 cells complete440",
+  "exploratory_plan_sha256": "3b225eae1401951c2c04533813beddad16efb083a0b9cde995221a3d974322f9",
+  "no_main_gate_changed": true
+}
