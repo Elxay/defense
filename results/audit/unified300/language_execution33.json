@@ -1,0 +1,17 @@
+{
+  "utc_frozen": "2026-11-13T13:09:01.746113+00:00",
+  "worker_sha256": "4003e2a7e2e21e1024818c5cf38376c8337617284ae236b333b71ef6c7762f50",
+  "helper_sha256": "82e88928b8aa7af6e8ea4ef5dc8c9985d5cf6cc4a8812a948db7cb5c0070ed17",
+  "route_plan_sha256": "56034ccd01149b47e1499dfac07e02b0e8e69190627f5fe74a2221e24d52744d",
+  "inputs_sha256": "f88a6780d2063de513da75f97c529a497fd73d064cb78bee3ddb774158310281",
+  "reference_sha256": "252e8ac93095042013a1b1aa723f12a40e44223795db2b39bb01d2af3a1afe49",
+  "assets_manifest_sha256": "344c7a3b4f260170e63864e4081e4a3ff99ed038daf0e72894c4dbf20c2a818b",
+  "model_paths": {
+    "innet": "/data/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218",
+    "node01": "/home/dell/Def/models/Qwen3-8B-translator-b968826d"
+  },
+  "B": 1,
+  "max_new_tokens": 4096,
+  "condition_consistent": true,
+  "scope": "Six Indian alpha0 gates first by latest user instruction, then full T1 same B1; no nonzero India before gate"
+}
