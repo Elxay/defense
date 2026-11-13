@@ -1,0 +1,15 @@
+{
+  "utc_frozen": "2026-11-13T18:48:19.975002+00:00",
+  "worker_sha256": "33ba27bb5dd4a919d7b302279563df137fe79317198af3b6496e6729a60ce219",
+  "private_input_sha256": "56bdb5288d40ae9da042a5c340a7f6328aee9f20744fbcb395ef925af91aa1da",
+  "judge_source_sha256": "fd6478511d6b44748f748e8d65af0a40f94142043bb7bf2eed3954cd5284456c",
+  "original_plan_sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+  "N_positions": 264,
+  "N_groups": 183,
+  "N_covered_outputs": 3660,
+  "node": "node01",
+  "physical_GPU": 0,
+  "same_historical_role_model_and_backend": true,
+  "source_HF_parameters_unchanged": true,
+  "raw_and_parse_logging": true
+}

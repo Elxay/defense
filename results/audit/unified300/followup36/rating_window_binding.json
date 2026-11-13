@@ -1,0 +1,12 @@
+{
+  "utc_frozen": "2026-11-13T18:48:19.991896+00:00",
+  "raw_worker_sha256": "33ba27bb5dd4a919d7b302279563df137fe79317198af3b6496e6729a60ce219",
+  "raw_plan_sha256": "1ce71968b551f5ea51052bc662541f90f0392c8f988e3e80f95e19578bc83303",
+  "SORRY_worker_sha256": "6b35439b43916e55800a1d29952dc8083d1836350099b424cf811d7eb69a8493",
+  "SORRY_plan_sha256": "6b2bb1f1dd996a42560928f1fbbfc4faa6137e37ae9b9016e90af8aae128f247",
+  "driver_sha256": "cd30d1dbf057281e677540ec46a252b90d78be83af2910189abd2aed2031fe53",
+  "original_full_batch_request_match": true,
+  "requested_positions_264_covered_outputs_3660": true,
+  "temporary_ML_row_boundary_yield": true,
+  "same_GPU_resume": true
+}

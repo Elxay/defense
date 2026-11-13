@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-13T18:45:37.780957+00:00",
+  "N_positions": 264,
+  "N_groups": 183,
+  "N_covered_outputs": 3660,
+  "all_original_request_SHA_reconstructed": true,
+  "mismatches": [],
+  "private_input_sha256": "56bdb5288d40ae9da042a5c340a7f6328aee9f20744fbcb395ef925af91aa1da",
+  "parent_plan_sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+  "source_judges_sha256": "fd6478511d6b44748f748e8d65af0a40f94142043bb7bf2eed3954cd5284456c",
+  "full_batch_controls": true
+}
