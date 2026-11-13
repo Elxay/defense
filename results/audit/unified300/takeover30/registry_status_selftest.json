@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-13T10:32:01.189249+00:00",
+  "passed": true,
+  "missing_root_exit": 2,
+  "malformed_record_detected": true,
+  "no_judge_labels_accessed": true
+}

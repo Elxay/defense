@@ -1,0 +1,231 @@
+{
+  "utc": "2026-11-13T10:32:00.413261+00:00",
+  "groups": [
+    {
+      "model": "llama",
+      "family": "translate-fr",
+      "groups": {
+        "learned": {
+          "N_pairs": 1320,
+          "changed": 1090,
+          "retokenized_first_divergence": {
+            "N": 1090,
+            "median": 12.5,
+            "p90": 47.0,
+            "mean": 22.390825688073395,
+            "SD": 36.697601629282104,
+            "min": 1,
+            "max": 485
+          },
+          "hash_verified_original_tokens_changed": {
+            "N": 476,
+            "median": 17.0,
+            "p90": 64.0,
+            "mean": 29.964285714285715,
+            "SD": 48.598470689759964,
+            "min": 1,
+            "max": 485
+          }
+        },
+        "random": {
+          "N_pairs": 880,
+          "changed": 529,
+          "retokenized_first_divergence": {
+            "N": 529,
+            "median": 29.0,
+            "p90": 168.2,
+            "mean": 63.130434782608695,
+            "SD": 100.23351523197007,
+            "min": 1,
+            "max": 769
+          },
+          "hash_verified_original_tokens_changed": {
+            "N": 281,
+            "median": 40.0,
+            "p90": 245.0,
+            "mean": 83.9288256227758,
+            "SD": 116.56341892035266,
+            "min": 1,
+            "max": 769
+          }
+        }
+      }
+    },
+    {
+      "model": "llama",
+      "family": "translate-zh-cn",
+      "groups": {
+        "learned": {
+          "N_pairs": 1320,
+          "changed": 1045,
+          "retokenized_first_divergence": {
+            "N": 1045,
+            "median": 7.0,
+            "p90": 36.0,
+            "mean": 15.284210526315789,
+            "SD": 26.081007561721297,
+            "min": 1,
+            "max": 302
+          },
+          "hash_verified_original_tokens_changed": {
+            "N": 879,
+            "median": 6.0,
+            "p90": 35.0,
+            "mean": 14.941979522184301,
+            "SD": 26.17220092610113,
+            "min": 1,
+            "max": 302
+          }
+        },
+        "random": {
+          "N_pairs": 880,
+          "changed": 512,
+          "retokenized_first_divergence": {
+            "N": 512,
+            "median": 18.5,
+            "p90": 148.90000000000003,
+            "mean": 49.173828125,
+            "SD": 77.47762165763625,
+            "min": 1,
+            "max": 492
+          },
+          "hash_verified_original_tokens_changed": {
+            "N": 427,
+            "median": 17.0,
+            "p90": 150.80000000000007,
+            "mean": 49.0632318501171,
+            "SD": 79.95605149550148,
+            "min": 1,
+            "max": 492
+          }
+        }
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-fr",
+      "groups": {
+        "learned": {
+          "N_pairs": 1320,
+          "changed": 1304,
+          "retokenized_first_divergence": {
+            "N": 1304,
+            "median": 9.0,
+            "p90": 59.0,
+            "mean": 21.02377300613497,
+            "SD": 29.67439396135598,
+            "min": 1,
+            "max": 371
+          },
+          "hash_verified_original_tokens_changed": {
+            "N": 1131,
+            "median": 10.0,
+            "p90": 62.0,
+            "mean": 21.84526967285588,
+            "SD": 30.23892940396549,
+            "min": 1,
+            "max": 371
+          }
+        },
+        "random": {
+          "N_pairs": 880,
+          "changed": 844,
+          "retokenized_first_divergence": {
+            "N": 844,
+            "median": 24.0,
+            "p90": 103.40000000000009,
+            "mean": 43.617298578199055,
+            "SD": 60.97181920508564,
+            "min": 1,
+            "max": 658
+          },
+          "hash_verified_original_tokens_changed": {
+            "N": 720,
+            "median": 26.0,
+            "p90": 107.0,
+            "mean": 44.765277777777776,
+            "SD": 61.60086577910226,
+            "min": 1,
+            "max": 658
+          }
+        }
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "translate-zh-cn",
+      "groups": {
+        "learned": {
+          "N_pairs": 1320,
+          "changed": 1315,
+          "retokenized_first_divergence": {
+            "N": 1315,
+            "median": 4.0,
+            "p90": 33.0,
+            "mean": 11.773384030418251,
+            "SD": 15.856387168403014,
+            "min": 1,
+            "max": 147
+          },
+          "hash_verified_original_tokens_changed": {
+            "N": 1176,
+            "median": 4.0,
+            "p90": 33.0,
+            "mean": 12.0671768707483,
+            "SD": 15.985676914229717,
+            "min": 1,
+            "max": 147
+          }
+        },
+        "random": {
+          "N_pairs": 880,
+          "changed": 856,
+          "retokenized_first_divergence": {
+            "N": 856,
+            "median": 14.0,
+            "p90": 52.0,
+            "mean": 22.786214953271028,
+            "SD": 29.429862650005443,
+            "min": 1,
+            "max": 235
+          },
+          "hash_verified_original_tokens_changed": {
+            "N": 759,
+            "median": 14.0,
+            "p90": 52.0,
+            "mean": 22.978919631093543,
+            "SD": 29.163302895429677,
+            "min": 1,
+            "max": 235
+          }
+        }
+      }
+    }
+  ],
+  "batch_noise": {
+    "N": 80,
+    "unchanged": 14,
+    "changed": 66,
+    "first_divergence_among_changed": {
+      "N": 66,
+      "median": 92.5,
+      "p90": 238.0,
+      "mean": 117.45454545454545,
+      "SD": 103.37403063531097,
+      "min": 1,
+      "max": 497
+    },
+    "exact_hash_verified_pairs": 78,
+    "measurement": "Recovered token IDs where SHA verifies, otherwise decoded-text re-tokenization; EOS attempted against all special IDs. Equal rows have no finite divergence, not zero.",
+    "batch_pair": [
+      16,
+      8
+    ],
+    "source_dirs": [
+      "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/candidate_batch",
+      "/data/HZX/Def/results/audit/unified300/acceptance_v2/llama/generation.private/cap2400/alpha0/candidate_batch"
+    ],
+    "different_prompt_panel_from_language": true
+  },
+  "limitation": "Main all-row positions are text-retokenization diagnostics, not guaranteed original generation token positions. SHA-verified subset separately reported; noise and language panels differ."
+}

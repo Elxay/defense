@@ -1,0 +1,216 @@
+{
+  "tier88": {
+    "N": 88,
+    "internal_completion_source": "search row streams[-1][-1].completion; target_max_n_tokens=150; not necessarily selected_prompt",
+    "internal_retokenized_length": {
+      "N": 88,
+      "mean": 136.23863636363637,
+      "SD": 29.616318241217957,
+      "median": 150.0,
+      "p90": 150.0,
+      "min": 25,
+      "max": 150
+    },
+    "internal_retokenized_equal150": 69,
+    "internal_retokenized_greater150": 0,
+    "internal_actual_generation_token_count_not_persisted": true,
+    "last_stream_prompt_matches_selected": 1,
+    "independent_replay_N": 88,
+    "independent_replay_actual_new_tokens": {
+      "N": 88,
+      "median": 266.0,
+      "p90": 725.0999999999999,
+      "mean": 361.7613636363636,
+      "SD": 271.1388919354031,
+      "min": 43,
+      "max": 1061
+    },
+    "independent_replay_at2400": 0,
+    "iterations": {
+      "N": 88,
+      "mean": 2.3181818181818183,
+      "SD": 0.8649689987860976,
+      "median": 3.0,
+      "p90": 3.0,
+      "min": 1,
+      "max": 3
+    },
+    "target_queries": {
+      "N": 88,
+      "mean": 46.36363636363637,
+      "SD": 17.29937997572195,
+      "median": 60.0,
+      "p90": 60.0,
+      "min": 20,
+      "max": 60
+    },
+    "target_queries_total": 4080,
+    "wall_seconds": {
+      "N": 88,
+      "mean": 744.4097554266283,
+      "SD": 325.9238852552335,
+      "median": 861.765622625011,
+      "p90": 1143.3232387653552,
+      "min": 151.27483307104558,
+      "max": 1214.525093732169
+    },
+    "plan_sha256s": [
+      "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+      "b22909be9f6bd08f31586a4ebfb02a6c41cca2d668f708780cac5460bd07e353"
+    ],
+    "actual_judged_completion_source": "Independent selected_prompt replay on main HF B4 zero-injection path, max_new_tokens=2400; search88_sorry_recompute reads this generation.private result.text."
+  },
+  "tier220_new132": {
+    "N": 132,
+    "internal_completion_source": "search row streams[-1][-1].completion; target_max_n_tokens=150; not necessarily selected_prompt",
+    "internal_retokenized_length": {
+      "N": 132,
+      "mean": 140.4469696969697,
+      "SD": 23.015863893131762,
+      "median": 150.0,
+      "p90": 150.0,
+      "min": 64,
+      "max": 150
+    },
+    "internal_retokenized_equal150": 109,
+    "internal_retokenized_greater150": 0,
+    "internal_actual_generation_token_count_not_persisted": true,
+    "last_stream_prompt_matches_selected": 3,
+    "independent_replay_N": 0,
+    "independent_replay_actual_new_tokens": null,
+    "independent_replay_at2400": 0,
+    "iterations": {
+      "N": 132,
+      "mean": 2.1893939393939394,
+      "SD": 0.883544006581473,
+      "median": 2.5,
+      "p90": 3.0,
+      "min": 1,
+      "max": 3
+    },
+    "target_queries": {
+      "N": 132,
+      "mean": 43.78787878787879,
+      "SD": 17.67088013162946,
+      "median": 50.0,
+      "p90": 60.0,
+      "min": 20,
+      "max": 60
+    },
+    "target_queries_total": 5780,
+    "wall_seconds": {
+      "N": 132,
+      "mean": 861.9235664242173,
+      "SD": 415.6728942884358,
+      "median": 853.1243402016116,
+      "p90": 1369.5738716556923,
+      "min": 206.83672181307338,
+      "max": 1538.2128513080534
+    },
+    "plan_sha256s": [
+      "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87"
+    ],
+    "actual_judged_completion_source": "pair220_sorry_gate.py reads /tmp/pair220/rows streams[-1][-1].completion, INTERNAL max150, not selected_prompt independent replay."
+  },
+  "utc": "2026-11-13T10:32:01.124652+00:00",
+  "frozen_plan_sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+  "frozen_worker_sha256": "a24a0ed0bb98d0b318d449c5a2b41c87e31b0fb0746a0b9271d02816310f63d4",
+  "current_worker_sha256": "a24a0ed0bb98d0b318d449c5a2b41c87e31b0fb0746a0b9271d02816310f63d4",
+  "formal_target_cap": 150,
+  "headlines_not_recomputed": true,
+  "tier440_remains_held": true,
+  "tier88_receipt": {
+    "utc": "2026-11-11T20:46:41.151488+00:00",
+    "method": "PAIR",
+    "target": "qwen",
+    "tier": 88,
+    "N_saved": 88,
+    "N_retained_pilot": 10,
+    "cold_seconds": 215.6345138659235,
+    "formal_window_seconds": 7427.059948430862,
+    "new_reserved_GPUh": 4.245941367942659,
+    "search_actual_GPUh_including_failed_attempts": 14.849418201404367,
+    "unattempted_IDs": [],
+    "execution_failure_IDs": [],
+    "source_algorithm_changed": false,
+    "main_judge_effects_read": false,
+    "independent_alpha0_fulfillment_not_read": true
+  },
+  "tier220_receipt": {
+    "utc": "2026-11-12T22:44:42.653136+00:00",
+    "method": "PAIR",
+    "target": "qwen",
+    "tier": 220,
+    "N_saved": 220,
+    "N_retained_pilot": 10,
+    "cold_seconds": 223.66140667605214,
+    "formal_window_seconds": 14499.384342011064,
+    "new_reserved_GPUh": 8.179469860381731,
+    "search_actual_GPUh_including_failed_attempts": 61.619741710461156,
+    "unattempted_IDs": [],
+    "execution_failure_IDs": [],
+    "source_algorithm_changed": false,
+    "main_judge_effects_read": false,
+    "independent_alpha0_fulfillment_not_read": true
+  },
+  "temporary_gate_source_on_innet": {
+    "path": "/tmp/pair220/rows",
+    "exists": true,
+    "N": 132,
+    "matches_new132": true
+  },
+  "SORRY_judge_backend": {
+    "backend": "vLLM",
+    "version": "0.6.6.post1",
+    "dtype": "bf16",
+    "enforce_eager": true,
+    "source_scripts": {
+      "pair220_sorry_gate.py": "1bd8c4401552c12c82d1629458a520ba595f2dc5fbea11aa987dadce5c68c499",
+      "search88_sorry_recompute.py": "1cc4d05b066bf3a1b403b255f4109abee0dee80c8702b8cbf1d8f410802e6ac6"
+    }
+  },
+  "target_backend": "Hugging Face transformers, native template, zero-injection wrapper; search cap150 vs replay2400",
+  "plan_sources": [
+    {
+      "plan": "S1b_PAIR_frozen_v2.json",
+      "sha256": "b22909be9f6bd08f31586a4ebfb02a6c41cca2d668f708780cac5460bd07e353",
+      "worker_sha256": "cb25b8b28601b7d1664ff36af7c2d3bbba70980d1195418501a3545f270d9399"
+    },
+    {
+      "plan": "S1b_PAIR_progressive_v1.json",
+      "sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+      "worker_sha256": "a24a0ed0bb98d0b318d449c5a2b41c87e31b0fb0746a0b9271d02816310f63d4"
+    }
+  ],
+  "controller_commit_comparison": [
+    {
+      "job": "PAIR_progressive_qwen_88_v1__1",
+      "descriptor_mtime_UTC": "2026-11-11T18:39:12.395408+00:00",
+      "status": {
+        "utc": "2026-11-11T18:39:13.001559+00:00",
+        "runner_pid": 249968,
+        "state": "running",
+        "task_id": "PAIR_progressive_qwen_88_v1",
+        "gpus": [
+          0,
+          1
+        ],
+        "catalog_sha256": "629b9a9159770c3a8167c226bdb6365740b7e6c7580cc790998b0efc0072b637"
+      },
+      "tier": "88",
+      "repository_HEAD_at_launch_time": "51c918a6f35c2e5a4bc309c3c72e23ea1117071a 2026-11-12T01:16:07+08:00 Record AutoDAN diagnostic, alpha0 language coverage and live PAIR88 progress without effects",
+      "last_controller_path_commit_at_launch_time": "25dfde863ee5ebd12c0fd7e2e08c13840d734029 2026-11-11T19:17:18+08:00 Bind staged search continuation, immutable warmup20 checkpoint, and native detector reproduction criteria",
+      "committed_controller_blob_sha256": "a24a0ed0bb98d0b318d449c5a2b41c87e31b0fb0746a0b9271d02816310f63d4"
+    },
+    {
+      "tier": "220",
+      "launch_origin_UTC": "2026-11-12T18:39:19.607387+00:00",
+      "start_basis": "inferred from complete UTC minus formal_window_seconds minus cold_seconds; no queue descriptor recovered",
+      "repository_HEAD_at_launch_time": "0bf806b78ca40559b98f5926a65c3f557df717b5 2026-11-12T19:25:14+08:00 AutoDAN option A and public benign/utility scope (addenda 21-22)",
+      "last_controller_path_commit_at_launch_time": "25dfde863ee5ebd12c0fd7e2e08c13840d734029 2026-11-11T19:17:18+08:00 Bind staged search continuation, immutable warmup20 checkpoint, and native detector reproduction criteria"
+    }
+  ],
+  "controller_version_limit": "Rows bind a frozen plan (including worker SHA); no independent runtime git/controller-version receipt. HEAD-at-time alone does not prove worktree state.",
+  "correction": "Previous two-tier same-plan statement omitted retained ten pilot rows with their original pilot plan SHA.",
+  "pilot_formal_configuration_equals_progressive": true
+}
