@@ -1,0 +1,314 @@
+{
+  "utc": "2026-11-13T13:58:34.268890+00:00",
+  "cards": [
+    {
+      "card": 0,
+      "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+      "memory_MiB": 17319,
+      "utilization": 70,
+      "processes": [
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "pid": 1277536,
+          "memory_MiB": "17294",
+          "account": "kemove",
+          "command_basename": "u300_language_translate33.py"
+        }
+      ],
+      "site": "innet"
+    },
+    {
+      "card": 1,
+      "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+      "memory_MiB": 11441,
+      "utilization": 90,
+      "processes": [
+        {
+          "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+          "pid": 182655,
+          "memory_MiB": "11418",
+          "account": "kemove",
+          "command_basename": "python"
+        }
+      ],
+      "site": "innet"
+    },
+    {
+      "card": 2,
+      "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+      "memory_MiB": 17509,
+      "utilization": 97,
+      "processes": [
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "pid": 1288216,
+          "memory_MiB": "17486",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py"
+        }
+      ],
+      "site": "innet"
+    },
+    {
+      "card": 3,
+      "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+      "memory_MiB": 17317,
+      "utilization": 77,
+      "processes": [
+        {
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "pid": 1242120,
+          "memory_MiB": "17294",
+          "account": "kemove",
+          "command_basename": "u300_language_translate33.py"
+        }
+      ],
+      "site": "innet"
+    },
+    {
+      "card": 0,
+      "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+      "memory_MiB": 563,
+      "utilization": 0,
+      "processes": [],
+      "site": "node01"
+    },
+    {
+      "card": 1,
+      "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+      "memory_MiB": 16295,
+      "utilization": 39,
+      "processes": [
+        {
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "pid": 775113,
+          "memory_MiB": "16258",
+          "account": "dell",
+          "command_basename": "u300_mistral_calibration32.py"
+        }
+      ],
+      "site": "node01"
+    },
+    {
+      "card": 2,
+      "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+      "memory_MiB": 29,
+      "utilization": 0,
+      "processes": [],
+      "site": "node01"
+    }
+  ],
+  "queue_UTC": "2026-11-13T13:58:12.417617+00:00",
+  "active_jobs": {
+    "PAIR_qwen_selected132_replay31": {
+      "state": "done",
+      "started_UTC": "2026-11-13T12:40:40.077486+00:00",
+      "exit": {
+        "utc": "2026-11-13T12:51:06.158575+00:00",
+        "returncode": 0,
+        "resident_seconds": 626.0450104880147,
+        "task_id": "PAIR_qwen_selected132_replay31",
+        "gpus": [
+          2
+        ]
+      },
+      "live": {
+        "utc": "2026-11-13T12:51:04.665141+00:00",
+        "method": "PAIR",
+        "model": "qwen",
+        "N": 132,
+        "total": 132,
+        "phase": "alpha0_only_replay"
+      }
+    },
+    "PAIR_qwen_selected132_SORRY31": {
+      "state": "done",
+      "started_UTC": "2026-11-13T12:51:31.573847+00:00",
+      "exit": {
+        "utc": "2026-11-13T12:55:02.339612+00:00",
+        "returncode": 0,
+        "resident_seconds": 210.72960081882775,
+        "task_id": "PAIR_qwen_selected132_SORRY31",
+        "gpus": [
+          3
+        ]
+      },
+      "live": {
+        "utc": "2026-11-13T12:54:59.865375+00:00",
+        "pid": 1219123,
+        "judge": "SORRY",
+        "wave": "search132_PAIR_qwen",
+        "phase": "complete",
+        "no_main_effect_reads": true,
+        "total_rows": 132,
+        "elapsed_seconds": 207.66889523807913
+      }
+    },
+    "translate33_llama_translate-ml_alpha0": {
+      "state": "running",
+      "started_UTC": "2026-11-13T13:09:36.787390+00:00",
+      "exit": null,
+      "live": {
+        "utc": "2026-11-13T13:57:02.510197+00:00",
+        "phase": "B1_reply_translation",
+        "cell": "llama_translate-ml_alpha0",
+        "N": 138,
+        "total": 440,
+        "elapsed_seconds": 2578.201608081814,
+        "no_judge_labels_read": true
+      }
+    },
+    "translate33_llama_translate-ta_alpha0": {
+      "state": "running",
+      "started_UTC": "2026-11-13T13:39:04.855237+00:00",
+      "exit": null,
+      "live": {
+        "utc": "2026-11-13T13:57:51.969687+00:00",
+        "phase": "B1_reply_translation",
+        "cell": "llama_translate-ta_alpha0",
+        "N": 35,
+        "total": 440,
+        "elapsed_seconds": 960.7430578679778,
+        "no_judge_labels_read": true
+      }
+    },
+    "takeover30_llama_atbash_generate": {
+      "state": "running",
+      "started_UTC": "2026-11-13T13:47:52.169213+00:00",
+      "exit": null,
+      "live": {
+        "utc": "2026-11-13T13:58:26.738591+00:00",
+        "progress_utc": "2026-11-13T13:58:12.714452+00:00",
+        "pid": 1288216,
+        "site": "innet",
+        "physical_gpu": 2,
+        "model": "llama",
+        "family": "atbash",
+        "condition": "alpha0",
+        "phase": "generating",
+        "no_effect_reads": true,
+        "rows_completed": 64,
+        "N": 440
+      }
+    }
+  },
+  "node_metadata": {
+    "Mistral32_live": {
+      "utc": "2026-11-13T13:58:29.871305+00:00",
+      "condition": "s3_a1.25",
+      "N": 112,
+      "total": 700,
+      "alpha": 1.25,
+      "rho_expected": 2.9134444603772143,
+      "no_labels_or_selection_read": true
+    },
+    "Mistral32_reference": {
+      "utc": "2026-11-13T12:55:29.914287+00:00",
+      "passed": true,
+      "selected_pairs": 40,
+      "scope": "20 selected rows per alpha0 and true-alpha1; full fixed B8 batches",
+      "checks_N": 48,
+      "byte_equal_N": 48
+    },
+    "translation_B1_reference": {
+      "utc": "2026-11-13T13:15:56.405466+00:00",
+      "passed": true,
+      "N": 20,
+      "plan_sha256": "fad7335ebe0110944d2332a59cbfc57e8cca8d8229a22aa6d8cb3b725816d3cf",
+      "helper_sha256": "82e88928b8aa7af6e8ea4ef5dc8c9985d5cf6cc4a8812a948db7cb5c0070ed17",
+      "site": "node01",
+      "physical_gpu": "0",
+      "checks_N": 20,
+      "byte_equal_N": 20
+    },
+    "Mistral_quarantine": {
+      "utc": "2026-11-13T12:52:40.306590+00:00",
+      "stopped_only_own_invalid_PID": 464412,
+      "reason": "actual alpha not applied; not deadline action",
+      "main_selection_admitted": false,
+      "directories": [
+        {
+          "target": "/nwu/ray/hzx_def/results/deprecated_B16/mistral_calibration",
+          "N_files": 22
+        },
+        {
+          "target": "/nwu/ray/hzx_def/results/deprecated_B16/mistral_calibration_WG",
+          "N_files": 22
+        },
+        {
+          "target": "/nwu/ray/hzx_def/results/deprecated_B8_unscaled/mistral_calibration_B8",
+          "N_files": 21
+        }
+      ]
+    },
+    "Mistral32_complete_conditions": [
+      "s3_a0.50",
+      "s3_a0.10",
+      "alpha0",
+      "s3_a0.75",
+      "s3_a1.00",
+      "s3_a0.25"
+    ]
+  },
+  "PAIR220_matched_gate.json": {
+    "utc": "2026-11-13T12:55:14.134491+00:00",
+    "N": 220,
+    "inherited88_fulfilled": 46,
+    "new132_fulfilled": 52,
+    "fulfilled": 98,
+    "INVALID_IDs": [],
+    "rate_bounds": [
+      0.44545454545454544,
+      0.44545454545454544
+    ],
+    "gate": "active",
+    "threshold_count": 55,
+    "admitted_440": false,
+    "old_invalid_grant_remains_revoked": true,
+    "source_manifest_sha256s": [
+      "f7546faf94a350130f3d575beafc4ad97e007c71ea3b88e856eedddb8b56a3b8",
+      "1f3394a5f9f52047b4256e520ec032dc367f7f11d4f1c42bfe53349bf3939d1e"
+    ],
+    "no_nonzero_labels_read": true
+  },
+  "language33_collector_live.json": {
+    "utc": "2026-11-13T13:58:10.460025+00:00",
+    "pid": 1265795,
+    "scope": "six alpha0 gates only, direct cache keys"
+  },
+  "coherence31_progress.json": {
+    "utc": "2026-11-13T13:03:00.580266+00:00",
+    "complete_cells": 60,
+    "total_cells": 60,
+    "no_gpu": true
+  },
+  "Qwen_R1_coherence31.json": {
+    "utc": "2026-11-13T13:03:00.594879+00:00",
+    "N_cells": 60
+  },
+  "ML_translation": {
+    "N": 138,
+    "total": 440,
+    "mean_seconds_per_translated_row": 18.681795916540306,
+    "N_by_status": {
+      "ok": 126,
+      "exception": 12
+    }
+  },
+  "language_registry_sha256": "a1d674c35ad9b5207d7a7d025b20dbf093536948696706b0d18d9dddfa9106d2",
+  "language_status_CSV_sha256": "046cda4adcacadd5f1f8d84bb9958ef867cb3a82841ce6f82865bbf805cef754",
+  "freeze30": {
+    "utc": "2026-11-13T10:30:28.302202+00:00",
+    "published": true,
+    "commit": "8efffda14115586f23f49cb6442a59406dd8d18f",
+    "doc_sha256": "1553ad4a05c29de01c1af7efcbf1bc5d516ad63656f354b4799c9fe2e185e833",
+    "registry_sha256": "a1d674c35ad9b5207d7a7d025b20dbf093536948696706b0d18d9dddfa9106d2",
+    "plans": {
+      "Indian_main30_llama_translate-mr.json": "bf0e4847b383f474062d41e6a45c535c0c392020b7eeb7a998c0d49ec1a711fb",
+      "Indian_main30_qwen_translate-ml.json": "8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d",
+      "Indian_main30_qwen_translate-mr.json": "5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58",
+      "Indian_main30_qwen_translate-ta.json": "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+      "encoding_alpha0_plan_v2.json": "ebf5dab80f7abf9d028166842ad816f7457e49eec2cf1c4adac937c515af7599"
+    }
+  }
+}

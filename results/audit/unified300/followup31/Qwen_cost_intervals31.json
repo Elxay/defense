@@ -1,0 +1,185 @@
+{
+  "utc": "2026-11-13T13:56:19.622600+00:00",
+  "method": "2000 original-prompt cluster bootstrap, fixed Python random seed20261213 from existing auxiliary reader; INVALID0/1 bounds retained",
+  "conditional_on_frozen_vectors": true,
+  "rows": [
+    {
+      "set": "xstest_safe",
+      "comparison": "learned_minus_random",
+      "N": 250,
+      "point_identification_pp": [
+        1.2666666666666664,
+        1.2666666666666664
+      ],
+      "CI95_pp": [
+        -0.13333333333333344,
+        2.8
+      ]
+    },
+    {
+      "set": "xstest_safe",
+      "comparison": "learned_minus_alpha0",
+      "N": 250,
+      "point_identification_pp": [
+        1.8666666666666665,
+        1.8666666666666665
+      ],
+      "CI95_pp": [
+        0.5333333333333332,
+        3.4666666666666663
+      ]
+    },
+    {
+      "set": "or_bench_hard",
+      "comparison": "learned_minus_random",
+      "N": 1319,
+      "point_identification_pp": [
+        24.248167803891835,
+        24.248167803891835
+      ],
+      "CI95_pp": [
+        22.390700025271673,
+        26.130907252969422
+      ]
+    },
+    {
+      "set": "or_bench_hard",
+      "comparison": "learned_minus_alpha0",
+      "N": 1319,
+      "point_identification_pp": [
+        23.982815264088956,
+        23.982815264088956
+      ],
+      "CI95_pp": [
+        21.961081627495574,
+        26.156178923426836
+      ]
+    },
+    {
+      "set": "wjb_benign_210",
+      "comparison": "learned_minus_random",
+      "N": 210,
+      "point_identification_pp": [
+        3.8095238095238093,
+        4.682539682539682
+      ],
+      "CI95_pp": [
+        1.4285714285714286,
+        6.984126984126984
+      ]
+    },
+    {
+      "set": "wjb_benign_210",
+      "comparison": "learned_minus_alpha0",
+      "N": 210,
+      "point_identification_pp": [
+        3.3333333333333326,
+        3.968253968253968
+      ],
+      "CI95_pp": [
+        1.111111111111111,
+        6.190476190476191
+      ]
+    },
+    {
+      "set": "xstest_unsafe",
+      "comparison": "learned_minus_random",
+      "N": 200,
+      "point_identification_pp": [
+        -1.1102230246251565e-16,
+        -1.1102230246251565e-16
+      ],
+      "CI95_pp": [
+        -1.8333333333333333,
+        1.7499999999999998
+      ]
+    },
+    {
+      "set": "xstest_unsafe",
+      "comparison": "learned_minus_alpha0",
+      "N": 200,
+      "point_identification_pp": [
+        -0.5000000000000002,
+        -0.5000000000000002
+      ],
+      "CI95_pp": [
+        -2.5,
+        1.4999999999999998
+      ]
+    }
+  ],
+  "wrapped_pairs": [
+    {
+      "condition": "alpha0",
+      "N": 300,
+      "point_identification_pp": [
+        -3.6666666666666665,
+        -3.3333333333333335
+      ],
+      "CI95_pp": [
+        -6.0,
+        -1.0
+      ]
+    },
+    {
+      "condition": "s3",
+      "N": 300,
+      "point_identification_pp": [
+        -3.0,
+        -3.0
+      ],
+      "CI95_pp": [
+        -5.666666666666666,
+        -0.33333333333333337
+      ]
+    },
+    {
+      "condition": "s4",
+      "N": 300,
+      "point_identification_pp": [
+        -1.6666666666666667,
+        -1.6666666666666667
+      ],
+      "CI95_pp": [
+        -4.666666666666667,
+        1.3333333333333335
+      ]
+    },
+    {
+      "condition": "s5",
+      "N": 300,
+      "point_identification_pp": [
+        -2.0,
+        -1.6666666666666667
+      ],
+      "CI95_pp": [
+        -4.666666666666667,
+        1.0
+      ]
+    },
+    {
+      "condition": "61000",
+      "N": 300,
+      "point_identification_pp": [
+        -4.0,
+        -3.6666666666666665
+      ],
+      "CI95_pp": [
+        -6.666666666666667,
+        -1.3333333333333335
+      ]
+    },
+    {
+      "condition": "61001",
+      "N": 300,
+      "point_identification_pp": [
+        -3.0,
+        -2.666666666666667
+      ],
+      "CI95_pp": [
+        -5.333333333333334,
+        -0.33333333333333337
+      ]
+    }
+  ]
+}
