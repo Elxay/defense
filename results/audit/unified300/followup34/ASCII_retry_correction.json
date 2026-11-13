@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-13T16:21:10.029542+00:00",
+  "first_attempt_EXIT": 1,
+  "completed_tail_rows_preserved": 8,
+  "valid_first_B8_headroom_GiB": 3.64141845703125,
+  "original_second_B8_OOM": true,
+  "B4_B1_prior_failures_not_clean_memory_probes": true,
+  "correction": "Fallback only after exception scope exits, then gc and empty_cache; vector, prompts,2400 and B8-B4-B1 unchanged"
+}

@@ -1,0 +1,18 @@
+{
+  "utc_frozen": "2026-11-13T16:21:10.029242+00:00",
+  "worker_sha256": "fbc1f9675e204a1c12001a07f00258a9bc50c8e9f6c5fba2ddd804a233054566",
+  "parent_plan_sha256": "ebf5dab80f7abf9d028166842ad816f7457e49eec2cf1c4adac937c515af7599",
+  "doc_sha256": "1eef59f3f74d8dfc9a9f06a77510a33569d5db9b1a3e552699e64f62fdd779a9",
+  "row_scope": "frozen ASCII positions425-440 only",
+  "fallback": [
+    8,
+    4,
+    1
+  ],
+  "minimum_headroom_GiB": 3,
+  "max_new_tokens": 2400,
+  "no_old_record_overwrite": true,
+  "supersedes_prelaunch_plan_sha256": "001f66adb8822577e9dcda0b0dc0e6a6bd77f7ff0806fc3ccb5b0b1b4766933f",
+  "reason": "Correct OOM fallback lifetime: retry after leaving exception scope; preserve8 saved rows and all prior attempts, including invalid allocator-contaminated B4/B1 diagnostics",
+  "supersedes_execution_plan_sha256": "0c7875608d7fdb77492982018b10f85835bce651d7774daf46986fb751b7a4dd"
+}
