@@ -1,0 +1,12 @@
+{
+  "utc_frozen": "2026-11-13T16:38:12.911670+00:00",
+  "source_sha256": "11e43668d41b8e9e7168f77aa8a2c5ccd598ba75ec6f1f707109ede6042cb8f3",
+  "generation_plan_sha256": "24e06ec7a825f517d6ec0afbbe9b5be83d956ac3bb4351683fe65039843e8937",
+  "scoring_schedule_sha256": "75c1b0cf6a8d19ad88599706e3b691e72943a655d1b96609161c6acb1c82e249",
+  "WG_worker_sha256": "fd1d7d4ccc93fe1b2192e1eb2bc1b67898aa9fad82ae3051371849cdc3bf2c2a",
+  "B": 8,
+  "gate20_required": true,
+  "execute_only_after_complete22_and_norm_guard": true,
+  "score_only": true,
+  "selection_statistics_read": false
+}
