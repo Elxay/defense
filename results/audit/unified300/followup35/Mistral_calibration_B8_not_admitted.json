@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-13T18:09:42.613241+00:00",
+  "admitted_for_alpha_selection": false,
+  "reason": "alpha1.5 s3 WG changes B8=5/100, B4=3/100; original 2/100 chain requires B1",
+  "B8_outputs_and_WG15400_preserved": true,
+  "selection_statistics_not_read": true,
+  "replacement_B": 1,
+  "replacement_plan_sha256": "5d2f02574aba5e824086caeab3acf9c01e71e5047c6ae4b82c976fd0fd931227",
+  "same700_same22conditions_samevectors_samecap120": true,
+  "long2400_gate_separate_and_in_progress": true
+}

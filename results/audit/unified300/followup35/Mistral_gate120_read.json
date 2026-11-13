@@ -1,0 +1,128 @@
+{
+  "utc": "2026-11-13T18:06:55.516407+00:00",
+  "cap": 120,
+  "N_per_condition": 100,
+  "conditions": [
+    "alpha0",
+    "s3",
+    "61000"
+  ],
+  "alpha": 1.5,
+  "selected_B": 1,
+  "candidates": [
+    {
+      "B": 8,
+      "available": true,
+      "cells": [
+        {
+          "condition": "alpha0",
+          "N": 100,
+          "WG_change_bounds": [
+            1,
+            1
+          ],
+          "WG_batch_only": 0,
+          "WG_single_only": 1,
+          "WG_INVALID_pair_IDs": [],
+          "WG_McNemar_exact_p": 1.0,
+          "v2_changes": 0,
+          "v2_batch_only": 0,
+          "v2_single_only": 0,
+          "passed": true
+        },
+        {
+          "condition": "s3",
+          "N": 100,
+          "WG_change_bounds": [
+            5,
+            5
+          ],
+          "WG_batch_only": 1,
+          "WG_single_only": 4,
+          "WG_INVALID_pair_IDs": [],
+          "WG_McNemar_exact_p": 0.375,
+          "v2_changes": 2,
+          "v2_batch_only": 1,
+          "v2_single_only": 1,
+          "passed": false
+        },
+        {
+          "condition": "61000",
+          "N": 100,
+          "WG_change_bounds": [
+            1,
+            1
+          ],
+          "WG_batch_only": 0,
+          "WG_single_only": 1,
+          "WG_INVALID_pair_IDs": [],
+          "WG_McNemar_exact_p": 1.0,
+          "v2_changes": 0,
+          "v2_batch_only": 0,
+          "v2_single_only": 0,
+          "passed": true
+        }
+      ],
+      "passed": false
+    },
+    {
+      "B": 4,
+      "available": true,
+      "cells": [
+        {
+          "condition": "alpha0",
+          "N": 100,
+          "WG_change_bounds": [
+            1,
+            1
+          ],
+          "WG_batch_only": 0,
+          "WG_single_only": 1,
+          "WG_INVALID_pair_IDs": [],
+          "WG_McNemar_exact_p": 1.0,
+          "v2_changes": 0,
+          "v2_batch_only": 0,
+          "v2_single_only": 0,
+          "passed": true
+        },
+        {
+          "condition": "s3",
+          "N": 100,
+          "WG_change_bounds": [
+            3,
+            3
+          ],
+          "WG_batch_only": 0,
+          "WG_single_only": 3,
+          "WG_INVALID_pair_IDs": [],
+          "WG_McNemar_exact_p": 0.25,
+          "v2_changes": 1,
+          "v2_batch_only": 0,
+          "v2_single_only": 1,
+          "passed": false
+        },
+        {
+          "condition": "61000",
+          "N": 100,
+          "WG_change_bounds": [
+            1,
+            1
+          ],
+          "WG_batch_only": 0,
+          "WG_single_only": 1,
+          "WG_INVALID_pair_IDs": [],
+          "WG_McNemar_exact_p": 1.0,
+          "v2_changes": 0,
+          "v2_batch_only": 0,
+          "v2_single_only": 0,
+          "passed": true
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "threshold": 2,
+  "B1_fallback": true,
+  "scope": "engineering only; no alpha selection statistics",
+  "wave_manifest_sha256": "dc585b6f83ec3db4ae1d4a9276aa7621b6d48ffb43a34dc288210bf443000941"
+}
