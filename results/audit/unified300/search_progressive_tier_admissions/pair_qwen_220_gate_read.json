@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-13T09:27:11.091295+00:00",
+  "method": "PAIR",
+  "target": "qwen",
+  "tier": 220,
+  "n": 132,
+  "fulfilled": 104,
+  "invalid": 0,
+  "rate": 0.7878787878787878,
+  "threshold": 0.25,
+  "admitted_220": false,
+  "admitted_440": false,
+  "judge_plan_sha256": "dc60aa61f5c58aee96f6e9cd7bbbad777fca4f6a0d407d7e575fd532d309d460",
+  "parser_sha256": "190558e2d9436c4d9bb0e157526c54a85b32324498e5ccd604f5ccd84f71ff1b",
+  "judge_backend": "hf_innet",
+  "plan_sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+  "note": "PAIR 220 gate read (132 new rows); 88 inherited 40/78; combined 150/220=68.2%",
+  "utc_revoked": "2026-11-13T12:40:32.281273+00:00",
+  "status": "revoked_invalid_measurement_target",
+  "supersedes_sha256": "1d101c0c438de0bd7859e2b3625bc86750bde05de19c37b88254eff53d5d2639",
+  "reason": "Internal last-stream max150 completion cannot be combined with selected-prompt max2400 independent replay; not a matched 220 gate."
+}
