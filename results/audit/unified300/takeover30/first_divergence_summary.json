@@ -225,7 +225,9 @@
       "/data/HZX/Def/results/audit/unified300/acceptance/llama/generation.private/cap2400/alpha0/candidate_batch",
       "/data/HZX/Def/results/audit/unified300/acceptance_v2/llama/generation.private/cap2400/alpha0/candidate_batch"
     ],
-    "different_prompt_panel_from_language": true
+    "different_prompt_panel_from_language": true,
+    "hash_verified_changed_N": 64,
+    "hash_verified_changed_median": 92.5
   },
   "limitation": "Main all-row positions are text-retokenization diagnostics, not guaranteed original generation token positions. SHA-verified subset separately reported; noise and language panels differ."
 }

@@ -1,0 +1,131 @@
+{
+  "utc": "2026-11-13T10:36:58.891582+00:00",
+  "controller_UTC": "2026-11-13T10:36:37.603821+00:00",
+  "tasks": {
+    "takeover30_llama_ascii_gate": {
+      "state": "running",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "runner_pid": "1050406",
+      "job_dir": "takeover30_llama_ascii_gate__1",
+      "attempt": 1,
+      "started_utc": "2026-11-13T10:30:56.770453+00:00",
+      "priority": 25
+    },
+    "takeover30_llama_translate-mr_gate": {
+      "state": "running",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "runner_pid": "1050407",
+      "job_dir": "takeover30_llama_translate-mr_gate__1",
+      "attempt": 1,
+      "started_utc": "2026-11-13T10:30:56.805483+00:00",
+      "priority": 35
+    }
+  },
+  "gates": {},
+  "cards": [
+    {
+      "card": 0,
+      "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+      "memory_MiB": 18499,
+      "utilization": 98,
+      "processes": [
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "pid": 1050478,
+          "memory_MiB": "18474",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py"
+        }
+      ],
+      "site": "innet",
+      "project": "defense"
+    },
+    {
+      "card": 1,
+      "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+      "memory_MiB": 11441,
+      "utilization": 97,
+      "processes": [
+        {
+          "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+          "pid": 182655,
+          "memory_MiB": "11418",
+          "account": "kemove",
+          "command_basename": "python"
+        }
+      ],
+      "site": "innet",
+      "project": "external/excluded"
+    },
+    {
+      "card": 2,
+      "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+      "memory_MiB": 20511,
+      "utilization": 98,
+      "processes": [
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "pid": 1050473,
+          "memory_MiB": "20488",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py"
+        }
+      ],
+      "site": "innet",
+      "project": "defense"
+    },
+    {
+      "card": 3,
+      "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+      "memory_MiB": 15,
+      "utilization": 0,
+      "processes": [],
+      "site": "innet",
+      "project": "defense"
+    },
+    {
+      "card": 0,
+      "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+      "memory_MiB": 563,
+      "utilization": 0,
+      "processes": [],
+      "site": "node01",
+      "project": "defense"
+    },
+    {
+      "card": 1,
+      "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+      "memory_MiB": 16295,
+      "utilization": 41,
+      "processes": [
+        {
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "pid": 464412,
+          "memory_MiB": "16258",
+          "account": "dell",
+          "command_basename": "mcal_B8.py"
+        }
+      ],
+      "site": "node01",
+      "project": "defense"
+    },
+    {
+      "card": 2,
+      "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+      "memory_MiB": 29,
+      "utilization": 0,
+      "processes": [],
+      "site": "node01",
+      "project": "defense"
+    }
+  ],
+  "search440_released": false,
+  "AutoDAN_released": false,
+  "no_new_nonzero_effects_read": true
+}
