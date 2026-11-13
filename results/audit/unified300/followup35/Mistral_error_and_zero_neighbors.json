@@ -1,0 +1,89 @@
+{
+  "maximum_single_row": {
+    "condition": "s3_a0.10",
+    "id": 193,
+    "source_row_id": "wjb_train_000105706",
+    "rho_runtime": 0.233359694480896,
+    "rho_expected": 0.23307555654537288,
+    "relative_error": 0.0012190807982380935,
+    "generation_sha256": "459854f14711e749c996f93ddb143d2bde6f53730661494acd63217e6d3d9b6d"
+  },
+  "N_nonzero_rows": 14700,
+  "zero_to_point1": [
+    {
+      "seed": 3,
+      "alpha_pair": [
+        0,
+        0.1
+      ],
+      "N": 700,
+      "byte_identical": 313
+    },
+    {
+      "seed": 4,
+      "alpha_pair": [
+        0,
+        0.1
+      ],
+      "N": 700,
+      "byte_identical": 307
+    },
+    {
+      "seed": 5,
+      "alpha_pair": [
+        0,
+        0.1
+      ],
+      "N": 700,
+      "byte_identical": 323
+    }
+  ],
+  "total_adjacent_pairs": 21,
+  "old18": true,
+  "translations": [
+    {
+      "cell": "qwen_translate-ml_alpha0",
+      "N": 128,
+      "sites": {
+        "node01": 128
+      },
+      "cards": {
+        "0": 128
+      },
+      "UUIDs": {
+        "a1b43a24-eb3f-005b-660c-02bddc8e3adf": 128
+      }
+    },
+    {
+      "cell": "qwen_translate-mr_alpha0",
+      "N": 124,
+      "sites": {
+        "node01": 124
+      },
+      "cards": {
+        "2": 124
+      },
+      "UUIDs": {
+        "dcaca421-6806-9453-6cbd-48ee872ca4d0": 124
+      }
+    },
+    {
+      "cell": "qwen_translate-ta_alpha0",
+      "N": 0,
+      "sites": {},
+      "cards": {},
+      "UUIDs": {}
+    }
+  ],
+  "WG_progress": {
+    "utc": "2026-11-13T17:26:41.606925+00:00",
+    "pid": 1157877,
+    "judge": "WG",
+    "wave": "Mistral_calibration32",
+    "phase": "cache_only_scoring",
+    "no_main_effect_reads": true,
+    "completed_input_rows": 13984,
+    "total_rows": 15400,
+    "elapsed_seconds": 2743.439650502987
+  }
+}

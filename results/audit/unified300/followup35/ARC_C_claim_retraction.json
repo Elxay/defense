@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-13T17:47:30.138496+00:00",
+  "status": "withdrawn_as_improvement_claim",
+  "old_claim": "Llama ARC-C learned-minus-random +4.8pp [2.0,7.7]",
+  "historical_point_receipts_preserved": true,
+  "replacement_source_sha256": "0c25a230d78744dd46268b9c3ebe6a204fe736c1c9a870e9b4973380d4935fba",
+  "replacement_bounds": {
+    "llama": [
+      -1.25,
+      9.416666666666671
+    ],
+    "qwen": [
+      -6.833333333333329,
+      7.833333333333329
+    ]
+  },
+  "interpretation": "Both identification intervals include zero; a single seed s4 does not justify recipe-level utility improvement",
+  "manuscript_existing_improvement_sentence_found": false
+}

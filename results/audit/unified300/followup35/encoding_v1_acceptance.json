@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-13T17:30:05.902453+00:00",
+  "admitted": true,
+  "model": "qwen",
+  "N_cells": 4,
+  "N_rows": 1760,
+  "probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae",
+  "selected20_exact": true,
+  "covered32_exact": true,
+  "all_current_overlaps_exact": true,
+  "registry_sha256": "55512bbde2101103513ef7626debe5f0109ffbd8dba6ac4903776ab23d61e79f",
+  "source_v1_preserved": true,
+  "v2_kept_as_engineering_replica": true,
+  "no_judge_labels_read": true
+}

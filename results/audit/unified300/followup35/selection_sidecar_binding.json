@@ -1,0 +1,9 @@
+{
+  "utc_frozen": "2026-11-13T17:47:30.108696+00:00",
+  "source_sha256": "f96e1e73113965c3aab8766ba1651aa45431b31eef2c203f9f7dc3a1a627be9c",
+  "source_controller_plan_sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+  "algorithm_unchanged": true,
+  "index_base": 1,
+  "save_after_each_atomic_completed_row": true,
+  "not_claimed_live_per_iteration": true
+}

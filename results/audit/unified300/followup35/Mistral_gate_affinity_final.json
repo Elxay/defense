@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-13T17:47:30.135080+00:00",
+  "short_target": "innet0",
+  "short_WG": "innet0 after target release",
+  "long_target": "innet2 after search diagnostics",
+  "long_WG": "innet2 after target release",
+  "same_WG_B8_model_template_parser_and_reference": true,
+  "reason": "Free idle card for short gate without delaying T2 node1 generation; no concurrent target and judge on same card",
+  "coordinator_sha256": "abb2159bdc023e1010cf600753b81f1e7830645517c731771087a980dab685f3"
+}

@@ -1,0 +1,91 @@
+{
+  "utc": "2026-11-13T17:30:05.901988+00:00",
+  "supersedes_metadata_registry_sha256": "d50ba20cfd69c138357b5ced0baf0a5ad68964475f65e25a4fe1c121c502357e",
+  "cells": [
+    {
+      "model": "llama",
+      "family": "ascii",
+      "condition": "alpha0",
+      "expected_N": 440,
+      "source": "composite_manifest",
+      "manifest_relative": "results/audit/unified300/encoding_ASCII_tail34/complete.json",
+      "record_dir": null,
+      "legacy_v1_status": "superseded"
+    },
+    {
+      "model": "llama",
+      "family": "caesar",
+      "condition": "alpha0",
+      "expected_N": 440,
+      "source": "single_record_directory",
+      "manifest_relative": null,
+      "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/caesar/alpha0/generation.private",
+      "legacy_v1_status": "superseded"
+    },
+    {
+      "model": "llama",
+      "family": "morse",
+      "condition": "alpha0",
+      "expected_N": 440,
+      "source": "single_record_directory",
+      "manifest_relative": null,
+      "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/morse/alpha0/generation.private",
+      "legacy_v1_status": "superseded"
+    },
+    {
+      "model": "llama",
+      "family": "atbash",
+      "condition": "alpha0",
+      "expected_N": 440,
+      "source": "single_record_directory",
+      "manifest_relative": null,
+      "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/atbash/alpha0/generation.private",
+      "legacy_v1_status": "superseded"
+    },
+    {
+      "model": "qwen",
+      "family": "ascii",
+      "condition": "alpha0",
+      "expected_N": 440,
+      "source": "single_record_directory",
+      "manifest_relative": null,
+      "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/ascii/alpha0/generation.private",
+      "legacy_v1_status": "accepted_main_after35",
+      "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+    },
+    {
+      "model": "qwen",
+      "family": "caesar",
+      "condition": "alpha0",
+      "expected_N": 440,
+      "source": "single_record_directory",
+      "manifest_relative": null,
+      "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/caesar/alpha0/generation.private",
+      "legacy_v1_status": "accepted_main_after35",
+      "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+    },
+    {
+      "model": "qwen",
+      "family": "morse",
+      "condition": "alpha0",
+      "expected_N": 440,
+      "source": "single_record_directory",
+      "manifest_relative": null,
+      "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/morse/alpha0/generation.private",
+      "legacy_v1_status": "accepted_main_after35",
+      "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+    },
+    {
+      "model": "qwen",
+      "family": "atbash",
+      "condition": "alpha0",
+      "expected_N": 440,
+      "source": "single_record_directory",
+      "manifest_relative": null,
+      "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/atbash/alpha0/generation.private",
+      "legacy_v1_status": "accepted_main_after35",
+      "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+    }
+  ],
+  "supersedes_registry_sha256": "90cbb446ad0c9bcc59fba5abcf45a907fed3c03ca2c05cacc80834c0102c257c"
+}

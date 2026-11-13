@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-13T17:14:57.439747+00:00",
+  "ready": true,
+  "old_parent_PID": 1086855,
+  "old_parent_ended": true,
+  "node_ta_rows": 0,
+  "ml_preserved_files": 102,
+  "ml_resume_launcher_PID": 1230886,
+  "ml_same_node_same_gpu": true,
+  "reason": "Original two-cell shell exited75 at ML row boundary; restarted ML-only shell, no pending node Tamil command"
+}
