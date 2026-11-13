@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-13T16:07:26.799987+00:00",
+  "reason": "Legacy launcher sources absent env/env.sh; prior set-e stopped before definitions. Source launcher, then assert wait_gpu/launch_job are defined; workers use absolute interpreter and explicit environment.",
+  "prior_GPU_outputs": 0,
+  "files_sha256": {
+    "launch_node34_gpu0.sh": "8b897e9c22ec328b98c306c1e25755a36c8a4bbdff54f3de8c988196927b722e",
+    "launch_node34_gpu2.sh": "9d41c382b48239241e28ab25ec95e160a3d6d731cc68eb866d37c9988d91868d"
+  }
+}
