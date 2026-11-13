@@ -22,7 +22,8 @@ def run(members,B):
  except (torch.OutOfMemoryError,AssertionError) as e:
   attempts.append(dict(utc=utc(),IDs=[int(i) for i in members],B=B,passed=False,error=type(e).__name__,reason=str(e)[:150],seconds=time.monotonic()-tick));save(D/'attempts.json',attempts);del zs;gc.collect();torch.cuda.empty_cache()
   if B==1:raise
-  for k in range(0,len(members),B//2):run(members[k:k+B//2],B//2)
+  next_B=4 if B==8 else 1
+  for k in range(0,len(members),next_B):run(members[k:k+next_B],next_B)
   return
  attempts.append(dict(utc=utc(),IDs=[int(i) for i in members],B=B,passed=True,headroom_GiB=head/1024**3,seconds=time.monotonic()-tick));save(D/'attempts.json',attempts)
  for r,z,p in zip(rows,zs,paths):save(p,dict(id=r['id'],prompt_sha256=r['prompt_sha256'],behavior_sha256=r['behavior_sha256'],result=z,batch_size_actual=B,attempts_sha256_at_write=H(D/'attempts.json'),parent_plan_sha256=H(oldP),plan_sha256=H(U/'ASCII_tail34_plan.json'),device_uuid=str(torch.cuda.get_device_properties(0).uuid)))

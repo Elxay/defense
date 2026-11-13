@@ -1,6 +1,6 @@
 {
-  "utc_frozen": "2026-11-13T16:06:13.850937+00:00",
-  "worker_sha256": "0c52ac4a3535a039eb5bca3846c6235b40b10862e699841a7c4d1fc5d226e0d5",
+  "utc_frozen": "2026-11-13T16:06:40.836719+00:00",
+  "worker_sha256": "b576022763ce863882ff5c9699bd7286cb0f55dc7bfb93d869d87c127cfa72b2",
   "parent_plan_sha256": "ebf5dab80f7abf9d028166842ad816f7457e49eec2cf1c4adac937c515af7599",
   "doc_sha256": "1eef59f3f74d8dfc9a9f06a77510a33569d5db9b1a3e552699e64f62fdd779a9",
   "row_scope": "frozen ASCII positions425-440 only",
@@ -11,5 +11,7 @@
   ],
   "minimum_headroom_GiB": 3,
   "max_new_tokens": 2400,
-  "no_old_record_overwrite": true
+  "no_old_record_overwrite": true,
+  "supersedes_prelaunch_plan_sha256": "001f66adb8822577e9dcda0b0dc0e6a6bd77f7ff0806fc3ccb5b0b1b4766933f",
+  "reason": "Code inspection before any tail output: explicit B8-B4-B1, no B2 branch"
 }
