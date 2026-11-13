@@ -1,0 +1,14 @@
+{
+  "utc_frozen": "2026-11-13T12:45:36.211316+00:00",
+  "workers": {
+    "tools/handoff_20261106/u300_registered_checkpoint31.py": "e53b703b1852c7a4a9594c11d3daf96bcc5fc7b4504f6a16461ea6118dbd211a",
+    "tools/handoff_20261106/u300_translation_T2_guard31.py": "ebb8d028c664556d82c950501d13b581bd4836d862a0da4b404649e0af31c929",
+    "tools/handoff_20261106/u300_followup31_collect.py": "b8e2f5af851b6921eb3f9076049a4ac8aa1765bd4dbd9d67eb17d55932526385"
+  },
+  "supersedes": {
+    "tools/handoff_20261106/u300_registered_checkpoint30.py": "9655c5f58a79e1cd29e78f6d01b86b09975f05299e3d1f817758e6310bcc75cd",
+    "tools/handoff_20261106/u300_translation_T2_guard20.py": "40e610c65e63a8247fc9b9c51d64b8b3f0f8a342cf7f99f6fc23f95db9ceecae"
+  },
+  "deadline_actions": "alerts and metadata snapshots only; no GPU process signals, no yield requests, no calendar-based closure of admissions",
+  "collector": "132+88 matched full alpha0 only; old440 remains revoked"
+}
