@@ -1,0 +1,10 @@
+{
+  "utc_frozen": "2026-11-13T18:13:56.253291+00:00",
+  "packetizer_sha256": "667814182ab1d3bdba1fcd368334d40f72e7b2202b16c85ee991dc6363cf582b",
+  "generation_plan_sha256": "5d2f02574aba5e824086caeab3acf9c01e71e5047c6ae4b82c976fd0fd931227",
+  "judge_worker_sha256": "fd1d7d4ccc93fe1b2192e1eb2bc1b67898aa9fad82ae3051371849cdc3bf2c2a",
+  "scoring_schedule_sha256": "75c1b0cf6a8d19ad88599706e3b691e72943a655d1b96609161c6acb1c82e249",
+  "same_official_WG_B8_reference20": true,
+  "cache_only": true,
+  "no_selection_stats": true
+}
