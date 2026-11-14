@@ -1,0 +1,18 @@
+{
+  "utc_frozen": "2026-11-13T18:48:19.975002+00:00",
+  "worker_sha256": "6fad23ca7991644f5ecbcf2a8bb4803ec7671783299332991bc617fc1b48fb7a",
+  "private_input_sha256": "56bdb5288d40ae9da042a5c340a7f6328aee9f20744fbcb395ef925af91aa1da",
+  "judge_source_sha256": "fd6478511d6b44748f748e8d65af0a40f94142043bb7bf2eed3954cd5284456c",
+  "original_plan_sha256": "3d683a6aaecc1db462b610b61bbc4a6622694749eeeaf64c4554751b06a8ef87",
+  "N_positions": 264,
+  "N_groups": 183,
+  "N_covered_outputs": 3660,
+  "node": "node01",
+  "physical_GPU": 0,
+  "same_historical_role_model_and_backend": true,
+  "source_HF_parameters_unchanged": true,
+  "raw_and_parse_logging": true,
+  "utc_retry_frozen": "2026-11-14T01:43:08.793086+00:00",
+  "parent_plan_sha256": "1ce71968b551f5ea51052bc662541f90f0392c8f988e3e80f95e19578bc83303",
+  "change": "Add List annotation dependency to source extraction and compile all three source functions before CUDA load; generation/render/parser unchanged"
+}

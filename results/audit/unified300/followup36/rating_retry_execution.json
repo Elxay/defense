@@ -1,0 +1,12 @@
+{
+  "utc_frozen": "2026-11-14T01:43:09.411256+00:00",
+  "old_attempt": "rating36_raw_scores__1",
+  "failure": "Missing List typing annotation in extracted source function namespace; zero score outputs",
+  "original_inputs_unchanged": true,
+  "private_input_sha256": "56bdb5288d40ae9da042a5c340a7f6328aee9f20744fbcb395ef925af91aa1da",
+  "new_worker_sha256": "6fad23ca7991644f5ecbcf2a8bb4803ec7671783299332991bc617fc1b48fb7a",
+  "new_plan_sha256": "3dd36fe08bdc1757bb3d4303774759a747e01a06b2335fded26f2ef1b959de96",
+  "ML_translation_complete": true,
+  "ML_N": 440,
+  "node0_is_not_paused_translation": true
+}
