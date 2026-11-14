@@ -1,0 +1,10 @@
+{
+  "utc_frozen": "2026-11-14T01:52:55.917496+00:00",
+  "site": "innet",
+  "GPU": 2,
+  "same_backend_as_original_independent_SORRY": true,
+  "reason": "node01 has no SORRY asset manifest; detected before judge execution, use existing verified root assets instead of downloading",
+  "stager_sha256": "aa490257fd3bfdb9eda0806b97dfcfacdb9e1253c20b733dbca7d26345e5379b",
+  "numerical_model_template_parser_and_reference_unchanged": true,
+  "one_short_authorized_diagnostic_window": true
+}
