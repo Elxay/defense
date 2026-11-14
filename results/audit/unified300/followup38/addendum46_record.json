@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-14T11:22:14.772253+00:00",
+  "z": "2026-11-14T11:22:14.772010+00:00",
+  "pst": "2026-11-14T03:22:14.772010-08:00",
+  "doc_sha256": "a04f5379b3f194c4aa83260b6f74d44c351a97f9d51780038125215bf36c8d28",
+  "rule": {
+    "identical_take_one": true,
+    "conflicting_by": "earliest_write_time",
+    "invalid_not_discarded": true
+  },
+  "diagnosis": {
+    "dup_keys": 8404,
+    "dup_rows": 16808,
+    "identical": 16808,
+    "same_resp_diff_label": 0,
+    "diff_resp": 0,
+    "source": "main_scores_uniform21_B4/WG \u2229 main_scores_uniform21_B4_innet/WG",
+    "affects_SORRY_HB": false
+  }
+}
