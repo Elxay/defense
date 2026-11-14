@@ -1,15 +1,15 @@
 {
-  "utc": "2026-11-14T02:34:28.687800+00:00",
+  "utc": "2026-11-14T02:36:10.519379+00:00",
   "sites": {
     "innet": {
-      "utc": "2026-11-14T02:34:28Z",
+      "utc": "2026-11-14T02:36:10Z",
       "gpus": [
         {
           "index": 0,
           "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
-          "used_MiB": 15541,
+          "used_MiB": 15501,
           "total_MiB": 24564,
-          "utilization": 95
+          "utilization": 93
         },
         {
           "index": 1,
@@ -21,23 +21,23 @@
         {
           "index": 2,
           "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
-          "used_MiB": 15279,
+          "used_MiB": 15779,
           "total_MiB": 24564,
-          "utilization": 88
+          "utilization": 96
         },
         {
           "index": 3,
           "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
-          "used_MiB": 15759,
+          "used_MiB": 15519,
           "total_MiB": 24564,
-          "utilization": 95
+          "utilization": 93
         }
       ],
       "compute_processes": [
         {
           "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
           "PID": 2167770,
-          "used_MiB": "15516",
+          "used_MiB": "15476",
           "account": "kemove",
           "command_basename": "unified300_ready_generate_v30.py",
           "phase": "CUDA context held"
@@ -45,7 +45,7 @@
         {
           "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
           "PID": 2190473,
-          "used_MiB": "15256",
+          "used_MiB": "15756",
           "account": "kemove",
           "command_basename": "unified300_ready_generate_v30.py",
           "phase": "CUDA context held"
@@ -53,7 +53,7 @@
         {
           "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
           "PID": 2175820,
-          "used_MiB": "15736",
+          "used_MiB": "15496",
           "account": "kemove",
           "command_basename": "unified300_ready_generate_v30.py",
           "phase": "CUDA context held"
@@ -109,7 +109,7 @@
       ]
     },
     "node01": {
-      "utc": "2026-11-14T02:34:30Z",
+      "utc": "2026-11-14T02:36:12Z",
       "gpus": [
         {
           "index": 0,
@@ -121,16 +121,16 @@
         {
           "index": 1,
           "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
-          "used_MiB": 17329,
+          "used_MiB": 16883,
           "total_MiB": 24564,
-          "utilization": 59
+          "utilization": 51
         },
         {
           "index": 2,
           "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
-          "used_MiB": 16543,
+          "used_MiB": 16063,
           "total_MiB": 24564,
-          "utilization": 45
+          "utilization": 29
         }
       ],
       "compute_processes": [
@@ -145,7 +145,7 @@
         {
           "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
           "PID": 2406537,
-          "used_MiB": "17292",
+          "used_MiB": "16866",
           "account": "dell",
           "command_basename": "unified300_ready_generate_v3.py",
           "phase": "CUDA context held"
@@ -153,7 +153,7 @@
         {
           "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
           "PID": 2229139,
-          "used_MiB": "16506",
+          "used_MiB": "16026",
           "account": "dell",
           "command_basename": "unified300_ready_generate_v4.py",
           "phase": "CUDA context held"
