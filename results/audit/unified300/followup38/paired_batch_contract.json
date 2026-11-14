@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T04:53:47.718698+00:00",
+  "rule": "Before protected search contrasts are read, verify identical base-ID sequence and B20 partition for every paired condition within a model/family; different responses retain own input hashes, missing/duplicate IDs block reading",
+  "scope": "metadata check, no old cache relabeling/reordering",
+  "repeat_receipt_actual_order_sha256": "6a4fdcf6886956c01eb36613c6460a871591f607ecc48f338c1f23c3e0f47348",
+  "repeat_receipt_sorted_IDs_sha256": "6a4fdcf6886956c01eb36613c6460a871591f607ecc48f338c1f23c3e0f47348",
+  "repeat_runs_same_order": true,
+  "no_nonzero_effects_read": true
+}

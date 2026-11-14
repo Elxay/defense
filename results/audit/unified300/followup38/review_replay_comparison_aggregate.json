@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T04:50:21.364267+00:00",
+  "N": 24,
+  "matched_exact_cache_keys": true,
+  "decidable": 23,
+  "decidable_agree": 20,
+  "decidable_disagree": 3,
+  "uncertain": 1,
+  "not_accuracy_estimate": true,
+  "private_join_sha256": "882d79ca4de83c1452b9bfee49e2515adf394ffc6160ea9e4e9e9d4ef8b67ff3"
+}
