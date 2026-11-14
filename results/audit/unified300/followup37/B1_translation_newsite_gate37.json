@@ -1,0 +1,91 @@
+{
+  "utc": "2026-11-14T03:54:59.388664+00:00",
+  "passed": true,
+  "N": 20,
+  "checks": [
+    {
+      "id": 0,
+      "byte_equal": true
+    },
+    {
+      "id": 1,
+      "byte_equal": true
+    },
+    {
+      "id": 2,
+      "byte_equal": true
+    },
+    {
+      "id": 3,
+      "byte_equal": true
+    },
+    {
+      "id": 4,
+      "byte_equal": true
+    },
+    {
+      "id": 5,
+      "byte_equal": true
+    },
+    {
+      "id": 6,
+      "byte_equal": true
+    },
+    {
+      "id": 7,
+      "byte_equal": true
+    },
+    {
+      "id": 8,
+      "byte_equal": true
+    },
+    {
+      "id": 9,
+      "byte_equal": true
+    },
+    {
+      "id": 10,
+      "byte_equal": true
+    },
+    {
+      "id": 11,
+      "byte_equal": true
+    },
+    {
+      "id": 12,
+      "byte_equal": true
+    },
+    {
+      "id": 13,
+      "byte_equal": true
+    },
+    {
+      "id": 14,
+      "byte_equal": true
+    },
+    {
+      "id": 15,
+      "byte_equal": true
+    },
+    {
+      "id": 16,
+      "byte_equal": true
+    },
+    {
+      "id": 17,
+      "byte_equal": true
+    },
+    {
+      "id": 18,
+      "byte_equal": true
+    },
+    {
+      "id": 19,
+      "byte_equal": true
+    }
+  ],
+  "plan_sha256": "69f8a83e4018d686ace971a3e7b521d73a05563b7f3d2448401dd1205ef8ad0e",
+  "helper_sha256": "82e88928b8aa7af6e8ea4ef5dc8c9985d5cf6cc4a8812a948db7cb5c0070ed17",
+  "site": "node01",
+  "physical_gpu": "1"
+}

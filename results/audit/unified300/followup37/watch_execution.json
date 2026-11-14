@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-14T03:42:48.812676+00:00",
+  "commit": "ba89b7ca8931c9894050028d8edd519d270f5a6c",
+  "pid": 2307054,
+  "worker_sha256": "cdbd6fe6a05f4c9fa52c3bdb4db5970c79adb2302c3584c6adc2ae68921bd40a",
+  "doc_sha256": "28216a953806d1f5d7c956965061d7a6155778c617c4bfe958ebdb64ec67319f",
+  "Mistral_old_prerequisites": [
+    {
+      "path": "results/audit/unified300/followup35/Mistral_gate120_read.json",
+      "key": "selected_B",
+      "value": 1
+    },
+    {
+      "path": "results/audit/unified300/followup36/T2_PRIORITY_RELEASE.json",
+      "key": "admitted",
+      "value": true
+    }
+  ],
+  "Mistral_new_prerequisites": [
+    {
+      "path": "results/audit/unified300/followup35/Mistral_gate120_read.json",
+      "key": "selected_B",
+      "value": 1
+    },
+    {
+      "path": "results/audit/unified300/followup37/T2_RELEASE_innet0.json",
+      "key": "admitted",
+      "value": true
+    }
+  ],
+  "initial_release_count": 0
+}

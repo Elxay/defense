@@ -1,0 +1,273 @@
+{
+  "utc": "2026-11-14T03:57:00.822231+00:00",
+  "hardware": {
+    "innet": {
+      "utc": "2026-11-14T03:57:00.014746+00:00",
+      "gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "used_MiB": 15739,
+          "free_MiB": 8343,
+          "util_pct": 95,
+          "processes": [
+            {
+              "pid": 2285404,
+              "used_MiB": "15714",
+              "account": "kemove",
+              "command": "/home/kemove/anaconda3/envs/HZX_GLA/bin/python /data/HZX/Def/tools/handoff_20261106/unified300_ready_generate_v30.py qwen translate-ta 61000 generate 0 ",
+              "registered_task": "T2nonzero36_qwen_translate-ta_61000",
+              "project": "defense/unified300",
+              "lease": "T2nonzero36_qwen_translate-ta_61000__1"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+          "used_MiB": 15,
+          "free_MiB": 24066,
+          "util_pct": 0,
+          "processes": []
+        },
+        {
+          "index": 2,
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "used_MiB": 15639,
+          "free_MiB": 8442,
+          "util_pct": 96,
+          "processes": [
+            {
+              "pid": 2318528,
+              "used_MiB": "15616",
+              "account": "kemove",
+              "command": "/home/kemove/anaconda3/envs/HZX_GLA/bin/python /data/HZX/Def/tools/handoff_20261106/unified300_ready_generate_v30.py qwen translate-ml 61000 generate 2 ",
+              "registered_task": "T2nonzero36_qwen_translate-ml_61000",
+              "project": "defense/unified300",
+              "lease": "T2nonzero36_qwen_translate-ml_61000__1"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "used_MiB": 15619,
+          "free_MiB": 8462,
+          "util_pct": 97,
+          "processes": [
+            {
+              "pid": 2292999,
+              "used_MiB": "15596",
+              "account": "kemove",
+              "command": "/home/kemove/anaconda3/envs/HZX_GLA/bin/python /data/HZX/Def/tools/handoff_20261106/unified300_ready_generate_v30.py qwen translate-mr 61000 generate 3 ",
+              "registered_task": "T2nonzero36_qwen_translate-mr_61000",
+              "project": "defense/unified300",
+              "lease": "T2nonzero36_qwen_translate-mr_61000__1"
+            }
+          ]
+        }
+      ]
+    },
+    "node01": {
+      "utc": "2026-11-14T03:57:01.344946+00:00",
+      "gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "used_MiB": 17843,
+          "free_MiB": 6237,
+          "util_pct": 31,
+          "processes": [
+            {
+              "pid": 2366903,
+              "used_MiB": "17272",
+              "account": "dell",
+              "command": "/data/ray/env/bin/python /home/dell/Def/tools/handoff_20261106/u300_language_nonzero36.py llama_translate-ml_s3 ",
+              "registered_task": "T2translate36_llama_translate-ml_s3",
+              "project": "defense/unified300",
+              "lease": "T2translate36_llama_translate-ml_s3__1"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "used_MiB": 16889,
+          "free_MiB": 7193,
+          "util_pct": 34,
+          "processes": [
+            {
+              "pid": 2529208,
+              "used_MiB": "16852",
+              "account": "dell",
+              "command": "/data/ray/env/bin/python /home/dell/Def/tools/handoff_20261106/u300_language_nonzero36.py qwen_translate-ta_s3 ",
+              "registered_task": "T2translate37_qwen_translate-ta_s3",
+              "project": "defense/unified300",
+              "lease": "T2translate37_qwen_translate-ta_s3__1"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "used_MiB": 16163,
+          "free_MiB": 7919,
+          "util_pct": 41,
+          "processes": [
+            {
+              "pid": 2229139,
+              "used_MiB": "16146",
+              "account": "dell",
+              "command": "/data/ray/env/bin/python /home/dell/Def/tools/handoff_20261106/unified300_ready_generate_v4.py llama translate-ta rand0 generate 2 ",
+              "registered_task": "B4_ta_llama_rand0",
+              "project": "defense/unified300",
+              "lease": "B4_ta_llama_rand0__1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Qwen_alpha0_gates": [
+    {
+      "language": "ml",
+      "N": 440,
+      "fulfilled": 305,
+      "INVALID_N": 25,
+      "rate_bounds": [
+        0.6931818181818182,
+        0.75
+      ],
+      "read_UTC": "2026-11-13T20:55:44.748456+00:00",
+      "gate_file_sha256": "676d1737511d6338a7c12e72b2b197a25ab4788159f27c826bb78c526cb4c609",
+      "s3_start_logs": [
+        "START utc=2026-11-14T01:56:15Z host=kemove-X12DAI-N6 physical_gpu=2 uuid=GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb git=71076ae90109f770d243cd98039a3d3ccac5521b plan_sha256=8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d CUDA_VISIBLE_DEVICES=2",
+        "START utc=2026-11-14T02:06:33Z host=kemove-X12DAI-N6 physical_gpu=2 uuid=GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb git=d4d1e9eadbaf6b0d44ffaf27676da56e4fc3306b plan_sha256=8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d CUDA_VISIBLE_DEVICES=2",
+        "START utc=2026-11-14T03:30:58Z host=kemove-X12DAI-N6 physical_gpu=2 uuid=GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb git=2bd332862e89ada931fd71d3cde259e9fdc228b1 plan_sha256=8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d CUDA_VISIBLE_DEVICES=2"
+      ]
+    },
+    {
+      "language": "mr",
+      "N": 440,
+      "fulfilled": 313,
+      "INVALID_N": 24,
+      "rate_bounds": [
+        0.7113636363636363,
+        0.7659090909090909
+      ],
+      "read_UTC": "2026-11-13T21:07:44.864121+00:00",
+      "gate_file_sha256": "bd81abd82f3183b90c2f7036c3fc9210fbcfc7161c1016657142d2a6e19e9232",
+      "s3_start_logs": [
+        "START utc=2026-11-14T01:55:44Z host=kemove-X12DAI-N6 physical_gpu=3 uuid=GPU-16fea00b-6607-57e1-0caa-cec4f27ce988 git=71076ae90109f770d243cd98039a3d3ccac5521b plan_sha256=5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58 CUDA_VISIBLE_DEVICES=3"
+      ]
+    },
+    {
+      "language": "ta",
+      "N": 440,
+      "fulfilled": 313,
+      "INVALID_N": 16,
+      "rate_bounds": [
+        0.7113636363636363,
+        0.7477272727272727
+      ],
+      "read_UTC": "2026-11-13T20:17:44.520870+00:00",
+      "gate_file_sha256": "994c0238648e187ae1da473eaec64bd30488153b9168ee4d5941dabbc1500053",
+      "s3_start_logs": [
+        "START utc=2026-11-14T01:49:31Z host=kemove-X12DAI-N6 physical_gpu=0 uuid=GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0 git=1d0ed75fc08ac6070cb8eb251c483cd5a02eef8a plan_sha256=4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145 CUDA_VISIBLE_DEVICES=0"
+      ]
+    }
+  ],
+  "controller_UTC": "2026-11-14T03:56:47.186274+00:00",
+  "active_tasks": {
+    "B4_ta_llama_rand0": {
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "runner_pid": "2229116",
+      "job_dir": "B4_ta_llama_rand0__1",
+      "started_utc": "2026-11-14T01:18:41.658824+00:00",
+      "staging": null
+    },
+    "T2translate36_llama_translate-ml_s3": {
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "runner_pid": "2366882",
+      "job_dir": "T2translate36_llama_translate-ml_s3__1",
+      "started_utc": "2026-11-14T02:03:49.114540+00:00",
+      "staging": null
+    },
+    "T2nonzero36_qwen_translate-ta_61000": {
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "runner_pid": "2285362",
+      "job_dir": "T2nonzero36_qwen_translate-ta_61000__1",
+      "started_utc": "2026-11-14T03:26:18.010377+00:00",
+      "staging": false
+    },
+    "T2nonzero36_qwen_translate-mr_61000": {
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "runner_pid": "2292959",
+      "job_dir": "T2nonzero36_qwen_translate-mr_61000__1",
+      "started_utc": "2026-11-14T03:32:00.279583+00:00",
+      "staging": false
+    },
+    "T2translate37_qwen_translate-ta_s3": {
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "runner_pid": "2529187",
+      "job_dir": "T2translate37_qwen_translate-ta_s3__1",
+      "started_utc": "2026-11-14T03:47:41.467776+00:00",
+      "staging": false
+    },
+    "T2nonzero36_qwen_translate-ml_61000": {
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "runner_pid": "2318493",
+      "job_dir": "T2nonzero36_qwen_translate-ml_61000__1",
+      "started_utc": "2026-11-14T03:51:36.641465+00:00",
+      "staging": false
+    }
+  },
+  "queue_csv_sha256": "b9f31275fded1058c669fad45c29a4aead7283642ed6bfe575a22e87e61727b2",
+  "T2_watch": {
+    "utc": "2026-11-14T03:42:49.899339+00:00",
+    "pid": 2307054,
+    "R_point_GPUh": 146.8998466700091,
+    "R_high_planning_GPUh": 175.52648267067758,
+    "remaining_wall_hours": 59.28586130555556,
+    "lane_point_GPUh": {
+      "innet:0": 24.75277313021553,
+      "innet:2": 23.34862813617031,
+      "innet:3": 23.42910862475496,
+      "node01:0": 23.502644530092336,
+      "node01:1": 24.388570702142886,
+      "node01:2": 23.711454879966382
+    },
+    "lane_high_planning_GPUh": {
+      "innet:0": 29.99777220070308,
+      "innet:2": 30.312798207848815,
+      "innet:3": 28.409374794150395,
+      "node01:0": 28.497617880555246,
+      "node01:1": 29.560729287015906,
+      "node01:2": 28.7481903004041
+    },
+    "max_lane_high_hours_at_60pct": 50.52133034641469,
+    "empty_T2_lanes": [],
+    "eligible_natural_release_lanes": [],
+    "deadline_pass_without_twelve_hour_reserve": true,
+    "no_nonzero_labels_read": true,
+    "natural_complete_only": true
+  }
+}

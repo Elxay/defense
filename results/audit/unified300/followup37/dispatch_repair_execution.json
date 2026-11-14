@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T03:45:13.495286+00:00",
+  "commit": "a62a3a7d6225c6936cbeac7960063fd9dd74beba",
+  "doc_sha256": "f44be0ec03b43d74eec89427dfa2d201823409a3eb019eb31fa74fb0279a15a8",
+  "N_pending_argv_normalized": 28,
+  "retry_task_id": "T2translate37_qwen_translate-ta_s3",
+  "old_failure_retained": true,
+  "numerical_worker_sha256": "99d69de8db2d82b19b329469d59884692f5f9611ebb5c57094ad7c6c26ace444"
+}
