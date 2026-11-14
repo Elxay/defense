@@ -1,0 +1,9 @@
+{
+  "utc_frozen": "2026-11-14T02:03:23.896531+00:00",
+  "parent_controller_sha256": "7ffe74e55139f536f0d7d0876d463b3aaa9b66ee814e0da3d8b161e0575c2360",
+  "controller_sha256": "562ef7f8b3b7c10910fc80b5f38ecf3b69b94ab4d297fb1939f955e92afb388b",
+  "change": "Replace serial mkdir+scp for every dependency with one checksum rsync batch and verify every payload SHA on node before launch; numerical workers/task argv/gates/active definitions unchanged",
+  "no_delete_or_kill_jobs": true,
+  "controller_stop_graceful_after_current_deployment": true,
+  "old_controller_PID": 1558174
+}
