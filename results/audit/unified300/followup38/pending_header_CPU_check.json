@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T05:07:15.809401+00:00",
+  "passed": true,
+  "N": 78,
+  "group": "TAP_qwen_first78",
+  "worker_sha256": "22d72ca0c08129c7f07e8e783419efa203fd2b0cacca505ee64100a2da6282a5",
+  "plan_sha256": "bb3d2047dcab85558a3f5aa27286bb374583177afe0271d0b2bd99909208577d",
+  "model_loaded": false,
+  "GPU_calls": 0,
+  "unexecuted_v2_superseded": true
+}
