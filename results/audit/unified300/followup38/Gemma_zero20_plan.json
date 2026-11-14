@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-14T04:43:38.177522+00:00",
+  "worker_sha256": "8208e90ad8a873b9751c07354d6b5b7fb8ce7f23220d7fcdae3e47f266a40e4c",
+  "batch_core_sha256": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+  "input_relative": "results/audit/crossmodel287/native_selection_inputs.private.json",
+  "input_sha256": "1d647c4d14842a9f65708df2f38eb0bea51e56ef5ad24777480c71253d617d85",
+  "N": 20,
+  "max_new_tokens": 2400,
+  "B": 1,
+  "attention": "eager",
+  "disable_compile": true,
+  "layer": 12,
+  "wall_cap_seconds": 7200,
+  "scope": "engineering zero20 only; no learned-vector training or label admission"
+}

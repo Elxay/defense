@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T04:35:22.509640+00:00",
+  "N": 24,
+  "same_IDs_no_resampling": true,
+  "replay_source": "search132_PAIR_qwen; selected prompts, HF2400 independent replay",
+  "replay_input_sha256": "3159443c2adc12a05a1e49a454abe0583d70aa885eaa503edd084413fe06d0d0",
+  "replay_packet_sha256": "9d99bf9475f1aa5dc7c3b0c4bea0f56efe8064abe269a66bc74059d9adab87a4",
+  "human20_seed": 2026111430,
+  "human20_sha256": "deef3146043c18941e1b94964bc82f37cb91e8404266e2bc4328ab2e583ba69a",
+  "human_annotation_complete": false
+}

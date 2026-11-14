@@ -1,0 +1,46 @@
+{
+  "utc": "2026-11-14T04:35:30.552968+00:00",
+  "source_sha256": "80fe2a916ca2d90980529290688a7d6efdd1938d9043565df9738f54d1ea1f23",
+  "PAIR_qwen": {
+    "N": 88,
+    "pilot": 10,
+    "last_group_sizes": {
+      "null": 88
+    },
+    "boundary_proofs": {
+      "null": 88
+    }
+  },
+  "TAP_llama": {
+    "N": 88,
+    "pilot": 10,
+    "last_group_sizes": {
+      "2": 23,
+      "10": 45,
+      "3": 5,
+      "4": 12,
+      "9": 1,
+      "7": 1,
+      "5": 1
+    },
+    "boundary_proofs": {
+      "target call ledger": 88
+    }
+  },
+  "TAP_qwen": {
+    "N": 88,
+    "pilot": 10,
+    "last_group_sizes": {
+      "2": 21,
+      "10": 56,
+      "3": 1,
+      "4": 4,
+      "6": 2,
+      "5": 3,
+      "8": 1
+    },
+    "boundary_proofs": {
+      "target call ledger": 88
+    }
+  }
+}

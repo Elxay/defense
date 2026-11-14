@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-14T04:43:38.258580+00:00",
+  "source_TAP_sha256": "fa82f7f2ec6508668b68439711de034b672d4ee31faccd868752fcee817bd646",
+  "sort_rule": "(score, original_index) tuples reverse sort; equal scores ordered by descending original index despite preceding shuffle",
+  "checks": [
+    {
+      "model": "llama",
+      "N": 88,
+      "all_final_retained_groups_descending": true,
+      "last_is_minimum_in_retained_group": true,
+      "strict_first_last_score_difference": 63,
+      "first_last_prompt_different": 87,
+      "all_iteration_boundaries_recovered_from_target_ledger": true
+    },
+    {
+      "model": "qwen",
+      "N": 88,
+      "all_final_retained_groups_descending": true,
+      "last_is_minimum_in_retained_group": true,
+      "strict_first_last_score_difference": 58,
+      "first_last_prompt_different": 86,
+      "all_iteration_boundaries_recovered_from_target_ledger": true
+    }
+  ],
+  "first_sensitivity_N": 166,
+  "last_definition_unchanged": true
+}
