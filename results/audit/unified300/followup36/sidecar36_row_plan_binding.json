@@ -1,0 +1,7 @@
+{
+  "utc_frozen": "2026-11-14T02:11:21.963926+00:00",
+  "source_sha256": "2d13f3225ec0260d203f0fe9400c81a42ee00ca320249da5292123c39372cde5",
+  "parent_source_sha256": "2d13f3225ec0260d203f0fe9400c81a42ee00ca320249da5292123c39372cde5",
+  "change": "Use each row actual plan/controller SHA instead of inherited parent-plan constant; no rating/selection change",
+  "before_any_tier440_new_rows": true
+}
