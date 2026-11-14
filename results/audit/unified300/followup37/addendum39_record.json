@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-14T08:32:02.987373+00:00",
+  "doc_sha256": "5e683b0c0e2b1823d85faddc00e9c88f2802f44ea0735b146ac7392549f3c2a6",
+  "gpu1_device_uuid_scan_total_rows": 0,
+  "rc81_cells": [
+    "llama_translate-ta_s3",
+    "llama_translate-mr_s3"
+  ],
+  "redispatch_task_ids": [
+    "T2translate37_llama_translate-ta_s3",
+    "T2translate37_llama_translate-mr_s3"
+  ],
+  "facts_only": true,
+  "no_signature_or_authorization_claimed": true
+}
