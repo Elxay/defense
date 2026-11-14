@@ -1,0 +1,17 @@
+{
+  "utc_frozen": "2026-11-14T01:54:27.072916+00:00",
+  "worker_sha256": "99d69de8db2d82b19b329469d59884692f5f9611ebb5c57094ad7c6c26ace444",
+  "helper_sha256": "82e88928b8aa7af6e8ea4ef5dc8c9985d5cf6cc4a8812a948db7cb5c0070ed17",
+  "route_plan_sha256": "56034ccd01149b47e1499dfac07e02b0e8e69190627f5fe74a2221e24d52744d",
+  "reference_sha256": "252e8ac93095042013a1b1aa723f12a40e44223795db2b39bb01d2af3a1afe49",
+  "assets_manifest_sha256": "344c7a3b4f260170e63864e4081e4a3ff99ed038daf0e72894c4dbf20c2a818b",
+  "model_paths": {
+    "innet": "/data/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218",
+    "node01": "/home/dell/Def/models/Qwen3-8B-translator-b968826d"
+  },
+  "B": 1,
+  "max_new_tokens": 4096,
+  "condition_consistent": true,
+  "scope": "Same B1/helper/route4096/reference20, separate immutable per-cell packets; nonzero scores cache-only",
+  "parent_execution_sha256": "fad7335ebe0110944d2332a59cbfc57e8cca8d8229a22aa6d8cb3b725816d3cf"
+}
