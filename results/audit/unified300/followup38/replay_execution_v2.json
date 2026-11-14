@@ -1,0 +1,62 @@
+{
+  "utc_frozen": "2026-11-14T05:05:48.899491+00:00",
+  "worker_sha256": "dc092951c0aa255d964124f016f2407936ccdd8a7e02175f585a45c8f0cd7b15",
+  "collector_sha256": "7a22bff84db34208db68c740d15f0b9af0f8e91010b6787f01d4fcd19e3f0933",
+  "batch_core_sha256": "0ceefbc950f7b24dd23aceb5f13efc0cf468cf75e43f6e2414e1fa36a04ecace",
+  "parent_generation_plan_sha256": "f39e140e9eab4df0debddf213099082f1b68eb0b9d6065bd7a06d630f00830ce",
+  "methods": [
+    "PAIR",
+    "TAP"
+  ],
+  "models": [
+    "llama",
+    "qwen"
+  ],
+  "N": 88,
+  "B": {
+    "llama": 8,
+    "qwen": 4
+  },
+  "cap": 2400,
+  "zero20": true,
+  "read_scope": "status then SORRY alpha0 gate only",
+  "threshold_count": 22,
+  "main_nonzero_effects_read": false,
+  "missing_selected_prompt": "Retain INVALID with full denominator, no observed fulfillment assigned; original behavior only placeholder for execution",
+  "parent_worker_sha256": "9888177f73524cdee02a1e0cb64749a5609a7557ee5542cf9f501647f446f7e3",
+  "scope": "three frozen exploratory last-candidate groups only",
+  "doc_sha256": "8e63f6a6b7bff6af3376e650b3832f3880deb0b4b94d47e42b5492751c9cf778",
+  "groups": [
+    {
+      "group": "PAIR_qwen_last220",
+      "method": "PAIR",
+      "model": "qwen",
+      "N": 220,
+      "input_manifest_sha256": "8116c2af98502409b25244624e87178c95356e3f307c3c193e42043c272d137c"
+    },
+    {
+      "group": "TAP_qwen_last88",
+      "method": "TAP",
+      "model": "qwen",
+      "N": 88,
+      "input_manifest_sha256": "e533ae170848df25ca06b293ca1e538457a6401d750e31ee454987e3a27bffdf"
+    },
+    {
+      "group": "TAP_llama_first88",
+      "method": "TAP",
+      "model": "llama",
+      "N": 88,
+      "input_manifest_sha256": "1adb01a1e44ee7fea7e22b0f02805d8fa40e769a6dd9642ef57f992c3e011643"
+    },
+    {
+      "group": "TAP_qwen_first78",
+      "method": "TAP",
+      "model": "qwen",
+      "N": 78,
+      "input_manifest_sha256": "fc58fff23a27705464304fada19fb977e836cc56343fb47f3e6a3a9406f2c255"
+    }
+  ],
+  "nonzero_disabled": true,
+  "parent_plan_sha256": "815ae02a702ef7612fc6c04ac7c2b768452343f72cf737f95a66989a1dec4e12",
+  "change": "Use group_name for metadata; numerical loop and core unchanged"
+}
