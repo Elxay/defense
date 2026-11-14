@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-14T09:47:32.952120+00:00",
+  "z": "2026-11-14T09:47:32.275846+00:00",
+  "pst": "2026-11-14T01:47:32.275846-08:00",
+  "doc_sha256": "713680705b66a685e80e32dfcf47b7324b00c3c61213809cad1e27de50932099",
+  "N_mistral_marked": 10,
+  "mistral_ids": [
+    "prep_mistral_native_baseline_v1",
+    "prep_mistral_short_position_gate17",
+    "Mistral100_and2400_gate35",
+    "WG35_Mistral_gate35_short",
+    "WG35_Mistral_gate35_long",
+    "WG35_Mistral_gate35_long_B4",
+    "Mistral_gate_long_B4_fallback35",
+    "Mistral2400_gate35",
+    "Mistral_B1_calibration35",
+    "WG_Mistral_B1_calibration35"
+  ]
+}
