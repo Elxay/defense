@@ -1,0 +1,10 @@
+{
+  "utc_frozen": "2026-11-14T02:29:28.109883+00:00",
+  "parent_controller_sha256": "562ef7f8b3b7c10910fc80b5f38ecf3b69b94ab4d297fb1939f955e92afb388b",
+  "controller_sha256": "39ac9a312951ae9d6c8939c66abc2f58298a48594d57c9ec32c1554b9ba64d09",
+  "diagnosis": "rsync -a preserved host-specific symlinks, unlike original scp content semantics; first SHA validation correctly prevented launch, then old state handling retried existing folder",
+  "symlinks": [],
+  "fix": "rsync -aL plus complete byte verification; checkpoint staging before deployment so failures cannot loop FileExistsError or duplicate an orphan",
+  "active_GPU_workers_untouched": true,
+  "existing_B4_ml_s4_descriptor_retained": true
+}
