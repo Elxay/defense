@@ -1,0 +1,28 @@
+{
+  "utc_frozen": "2026-11-14T01:49:20.699187+00:00",
+  "worker_sha256": "e062290529a3ed7e82c6e79fb827ee61d9057e27878bd8f79e0c69aab02d797c",
+  "parent_plan_sha256": "ebf5dab80f7abf9d028166842ad816f7457e49eec2cf1c4adac937c515af7599",
+  "model": "llama",
+  "families": [
+    "caesar",
+    "morse"
+  ],
+  "missing_rows": {
+    "caesar": 408,
+    "morse": 184
+  },
+  "node": "innet",
+  "GPU": 2,
+  "cap": 2400,
+  "memory_chain": [
+    8,
+    4,
+    1
+  ],
+  "headroom_GiB": 3,
+  "estimated_reserved_GPUh": 8,
+  "estimate_not_measured": true,
+  "release_after_T2": true,
+  "old_records_preserved": true,
+  "composite_registry_published_after_completion": true
+}
