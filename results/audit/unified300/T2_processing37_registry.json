@@ -1,0 +1,539 @@
+{
+  "utc_frozen": "2026-11-14T03:39:16.818646+00:00",
+  "N_cells": 30,
+  "cells": [
+    {
+      "cell_id": "llama_translate-ml_s3",
+      "model": "llama",
+      "family": "translate-ml",
+      "condition": "s3",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ml.json",
+      "generation_plan_sha256": "ecff914aca61efaa920daaa1bbfae55f1403e30618559432712e294b1ea5200a",
+      "generation_root": "ready_generated_B4_ml/llama/translate-ml/s3",
+      "site": "node01",
+      "gpu": 0,
+      "first_wave": true
+    },
+    {
+      "cell_id": "llama_translate-ml_rand0",
+      "model": "llama",
+      "family": "translate-ml",
+      "condition": "rand0",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ml.json",
+      "generation_plan_sha256": "ecff914aca61efaa920daaa1bbfae55f1403e30618559432712e294b1ea5200a",
+      "generation_root": "ready_generated_B4_ml/llama/translate-ml/rand0",
+      "site": "innet",
+      "gpu": 0,
+      "first_wave": true
+    },
+    {
+      "cell_id": "llama_translate-ml_s4",
+      "model": "llama",
+      "family": "translate-ml",
+      "condition": "s4",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ml.json",
+      "generation_plan_sha256": "ecff914aca61efaa920daaa1bbfae55f1403e30618559432712e294b1ea5200a",
+      "generation_root": "ready_generated_B4_ml/llama/translate-ml/s4",
+      "site": "node01",
+      "gpu": 0,
+      "first_wave": false
+    },
+    {
+      "cell_id": "llama_translate-ml_s5",
+      "model": "llama",
+      "family": "translate-ml",
+      "condition": "s5",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ml.json",
+      "generation_plan_sha256": "ecff914aca61efaa920daaa1bbfae55f1403e30618559432712e294b1ea5200a",
+      "generation_root": "ready_generated_B4_ml/llama/translate-ml/s5",
+      "site": "node01",
+      "gpu": 2,
+      "first_wave": false
+    },
+    {
+      "cell_id": "llama_translate-ml_rand1",
+      "model": "llama",
+      "family": "translate-ml",
+      "condition": "rand1",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ml.json",
+      "generation_plan_sha256": "ecff914aca61efaa920daaa1bbfae55f1403e30618559432712e294b1ea5200a",
+      "generation_root": "ready_generated_B4_ml/llama/translate-ml/rand1",
+      "site": "innet",
+      "gpu": 3,
+      "first_wave": false
+    },
+    {
+      "cell_id": "llama_translate-ta_s3",
+      "model": "llama",
+      "family": "translate-ta",
+      "condition": "s3",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ta.json",
+      "generation_plan_sha256": "c5024a2b1725484a5188129fe55d4a899ba173d20625db0f93cf7047fedb69b5",
+      "generation_root": "ready_generated_B4_ta/llama/translate-ta/s3",
+      "site": "node01",
+      "gpu": 2,
+      "first_wave": true
+    },
+    {
+      "cell_id": "llama_translate-ta_rand0",
+      "model": "llama",
+      "family": "translate-ta",
+      "condition": "rand0",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ta.json",
+      "generation_plan_sha256": "c5024a2b1725484a5188129fe55d4a899ba173d20625db0f93cf7047fedb69b5",
+      "generation_root": "ready_generated_B4_ta/llama/translate-ta/rand0",
+      "site": "innet",
+      "gpu": 3,
+      "first_wave": true
+    },
+    {
+      "cell_id": "llama_translate-ta_s4",
+      "model": "llama",
+      "family": "translate-ta",
+      "condition": "s4",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ta.json",
+      "generation_plan_sha256": "c5024a2b1725484a5188129fe55d4a899ba173d20625db0f93cf7047fedb69b5",
+      "generation_root": "ready_generated_B4_ta/llama/translate-ta/s4",
+      "site": "node01",
+      "gpu": 1,
+      "first_wave": false
+    },
+    {
+      "cell_id": "llama_translate-ta_s5",
+      "model": "llama",
+      "family": "translate-ta",
+      "condition": "s5",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ta.json",
+      "generation_plan_sha256": "c5024a2b1725484a5188129fe55d4a899ba173d20625db0f93cf7047fedb69b5",
+      "generation_root": "ready_generated_B4_ta/llama/translate-ta/s5",
+      "site": "innet",
+      "gpu": 0,
+      "first_wave": false
+    },
+    {
+      "cell_id": "llama_translate-ta_rand1",
+      "model": "llama",
+      "family": "translate-ta",
+      "condition": "rand1",
+      "generation_plan": "results/audit/unified300/ready_generation_plan_B4_ta.json",
+      "generation_plan_sha256": "c5024a2b1725484a5188129fe55d4a899ba173d20625db0f93cf7047fedb69b5",
+      "generation_root": "ready_generated_B4_ta/llama/translate-ta/rand1",
+      "site": "node01",
+      "gpu": 0,
+      "first_wave": false
+    },
+    {
+      "cell_id": "llama_translate-mr_s3",
+      "model": "llama",
+      "family": "translate-mr",
+      "condition": "s3",
+      "generation_plan": "results/audit/unified300/Indian_main30_llama_translate-mr.json",
+      "generation_plan_sha256": "bf0e4847b383f474062d41e6a45c535c0c392020b7eeb7a998c0d49ec1a711fb",
+      "generation_root": "Indian_main30_llama_translate-mr/llama/translate-mr/s3",
+      "site": "node01",
+      "gpu": 0,
+      "first_wave": true
+    },
+    {
+      "cell_id": "llama_translate-mr_rand0",
+      "model": "llama",
+      "family": "translate-mr",
+      "condition": "rand0",
+      "generation_plan": "results/audit/unified300/Indian_main30_llama_translate-mr.json",
+      "generation_plan_sha256": "bf0e4847b383f474062d41e6a45c535c0c392020b7eeb7a998c0d49ec1a711fb",
+      "generation_root": "Indian_main30_llama_translate-mr/llama/translate-mr/rand0",
+      "site": "innet",
+      "gpu": 0,
+      "first_wave": true
+    },
+    {
+      "cell_id": "llama_translate-mr_s4",
+      "model": "llama",
+      "family": "translate-mr",
+      "condition": "s4",
+      "generation_plan": "results/audit/unified300/Indian_main30_llama_translate-mr.json",
+      "generation_plan_sha256": "bf0e4847b383f474062d41e6a45c535c0c392020b7eeb7a998c0d49ec1a711fb",
+      "generation_root": "Indian_main30_llama_translate-mr/llama/translate-mr/s4",
+      "site": "node01",
+      "gpu": 1,
+      "first_wave": false
+    },
+    {
+      "cell_id": "llama_translate-mr_s5",
+      "model": "llama",
+      "family": "translate-mr",
+      "condition": "s5",
+      "generation_plan": "results/audit/unified300/Indian_main30_llama_translate-mr.json",
+      "generation_plan_sha256": "bf0e4847b383f474062d41e6a45c535c0c392020b7eeb7a998c0d49ec1a711fb",
+      "generation_root": "Indian_main30_llama_translate-mr/llama/translate-mr/s5",
+      "site": "innet",
+      "gpu": 2,
+      "first_wave": false
+    },
+    {
+      "cell_id": "llama_translate-mr_rand1",
+      "model": "llama",
+      "family": "translate-mr",
+      "condition": "rand1",
+      "generation_plan": "results/audit/unified300/Indian_main30_llama_translate-mr.json",
+      "generation_plan_sha256": "bf0e4847b383f474062d41e6a45c535c0c392020b7eeb7a998c0d49ec1a711fb",
+      "generation_root": "Indian_main30_llama_translate-mr/llama/translate-mr/rand1",
+      "site": "innet",
+      "gpu": 3,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-ml_s3",
+      "model": "qwen",
+      "family": "translate-ml",
+      "condition": "s3",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ml.json",
+      "generation_plan_sha256": "8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d",
+      "generation_root": "Indian_main30_qwen_translate-ml/qwen/translate-ml/s3",
+      "site": "node01",
+      "gpu": 1,
+      "first_wave": true
+    },
+    {
+      "cell_id": "qwen_translate-ml_61000",
+      "model": "qwen",
+      "family": "translate-ml",
+      "condition": "61000",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ml.json",
+      "generation_plan_sha256": "8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d",
+      "generation_root": "Indian_main30_qwen_translate-ml/qwen/translate-ml/61000",
+      "site": "innet",
+      "gpu": 3,
+      "first_wave": true
+    },
+    {
+      "cell_id": "qwen_translate-ml_s4",
+      "model": "qwen",
+      "family": "translate-ml",
+      "condition": "s4",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ml.json",
+      "generation_plan_sha256": "8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d",
+      "generation_root": "Indian_main30_qwen_translate-ml/qwen/translate-ml/s4",
+      "site": "innet",
+      "gpu": 2,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-ml_s5",
+      "model": "qwen",
+      "family": "translate-ml",
+      "condition": "s5",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ml.json",
+      "generation_plan_sha256": "8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d",
+      "generation_root": "Indian_main30_qwen_translate-ml/qwen/translate-ml/s5",
+      "site": "node01",
+      "gpu": 2,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-ml_61001",
+      "model": "qwen",
+      "family": "translate-ml",
+      "condition": "61001",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ml.json",
+      "generation_plan_sha256": "8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d",
+      "generation_root": "Indian_main30_qwen_translate-ml/qwen/translate-ml/61001",
+      "site": "node01",
+      "gpu": 0,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-mr_s3",
+      "model": "qwen",
+      "family": "translate-mr",
+      "condition": "s3",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-mr.json",
+      "generation_plan_sha256": "5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58",
+      "generation_root": "Indian_main30_qwen_translate-mr/qwen/translate-mr/s3",
+      "site": "node01",
+      "gpu": 0,
+      "first_wave": true
+    },
+    {
+      "cell_id": "qwen_translate-mr_61000",
+      "model": "qwen",
+      "family": "translate-mr",
+      "condition": "61000",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-mr.json",
+      "generation_plan_sha256": "5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58",
+      "generation_root": "Indian_main30_qwen_translate-mr/qwen/translate-mr/61000",
+      "site": "node01",
+      "gpu": 0,
+      "first_wave": true
+    },
+    {
+      "cell_id": "qwen_translate-mr_s4",
+      "model": "qwen",
+      "family": "translate-mr",
+      "condition": "s4",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-mr.json",
+      "generation_plan_sha256": "5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58",
+      "generation_root": "Indian_main30_qwen_translate-mr/qwen/translate-mr/s4",
+      "site": "innet",
+      "gpu": 2,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-mr_s5",
+      "model": "qwen",
+      "family": "translate-mr",
+      "condition": "s5",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-mr.json",
+      "generation_plan_sha256": "5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58",
+      "generation_root": "Indian_main30_qwen_translate-mr/qwen/translate-mr/s5",
+      "site": "innet",
+      "gpu": 0,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-mr_61001",
+      "model": "qwen",
+      "family": "translate-mr",
+      "condition": "61001",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-mr.json",
+      "generation_plan_sha256": "5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58",
+      "generation_root": "Indian_main30_qwen_translate-mr/qwen/translate-mr/61001",
+      "site": "innet",
+      "gpu": 3,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-ta_s3",
+      "model": "qwen",
+      "family": "translate-ta",
+      "condition": "s3",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ta.json",
+      "generation_plan_sha256": "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+      "generation_root": "Indian_main30_qwen_translate-ta/qwen/translate-ta/s3",
+      "site": "node01",
+      "gpu": 1,
+      "first_wave": true
+    },
+    {
+      "cell_id": "qwen_translate-ta_61000",
+      "model": "qwen",
+      "family": "translate-ta",
+      "condition": "61000",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ta.json",
+      "generation_plan_sha256": "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+      "generation_root": "Indian_main30_qwen_translate-ta/qwen/translate-ta/61000",
+      "site": "node01",
+      "gpu": 1,
+      "first_wave": true
+    },
+    {
+      "cell_id": "qwen_translate-ta_s4",
+      "model": "qwen",
+      "family": "translate-ta",
+      "condition": "s4",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ta.json",
+      "generation_plan_sha256": "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+      "generation_root": "Indian_main30_qwen_translate-ta/qwen/translate-ta/s4",
+      "site": "innet",
+      "gpu": 0,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-ta_s5",
+      "model": "qwen",
+      "family": "translate-ta",
+      "condition": "s5",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ta.json",
+      "generation_plan_sha256": "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+      "generation_root": "Indian_main30_qwen_translate-ta/qwen/translate-ta/s5",
+      "site": "innet",
+      "gpu": 2,
+      "first_wave": false
+    },
+    {
+      "cell_id": "qwen_translate-ta_61001",
+      "model": "qwen",
+      "family": "translate-ta",
+      "condition": "61001",
+      "generation_plan": "results/audit/unified300/Indian_main30_qwen_translate-ta.json",
+      "generation_plan_sha256": "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+      "generation_root": "Indian_main30_qwen_translate-ta/qwen/translate-ta/61001",
+      "site": "innet",
+      "gpu": 2,
+      "first_wave": false
+    }
+  ],
+  "worker_sha256": "99d69de8db2d82b19b329469d59884692f5f9611ebb5c57094ad7c6c26ace444",
+  "execution_plan_sha256": "69f8a83e4018d686ace971a3e7b521d73a05563b7f3d2448401dd1205ef8ad0e",
+  "packetizer_sha256": "901f904f28f6a103884011713400efb11a16c4f176e1fbf6ca02391574994587",
+  "site_and_card_pinned_per_cell": true,
+  "scores_write_only": true,
+  "R3_effect_read_lock_unchanged": true,
+  "alpha0_outputs_unmodified": true,
+  "supersedes_scheduling_only_sha256": "8c561f47c7cbea2758ba784e675c4db28f43545e3c9e41ded779a0e9542d98f4",
+  "numeric_execution_plan_unchanged_sha256": "69f8a83e4018d686ace971a3e7b521d73a05563b7f3d2448401dd1205ef8ad0e",
+  "routing_changes": [
+    {
+      "cell_id": "llama_translate-ml_rand0",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 0
+    },
+    {
+      "cell_id": "llama_translate-ml_s5",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "node01",
+      "gpu": 2
+    },
+    {
+      "cell_id": "llama_translate-ml_rand1",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 3
+    },
+    {
+      "cell_id": "llama_translate-ta_s3",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "node01",
+      "gpu": 2
+    },
+    {
+      "cell_id": "llama_translate-ta_rand0",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 3
+    },
+    {
+      "cell_id": "llama_translate-ta_s4",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "node01",
+      "gpu": 1
+    },
+    {
+      "cell_id": "llama_translate-ta_s5",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 0
+    },
+    {
+      "cell_id": "llama_translate-mr_rand0",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 0
+    },
+    {
+      "cell_id": "llama_translate-mr_s4",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "node01",
+      "gpu": 1
+    },
+    {
+      "cell_id": "llama_translate-mr_s5",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 2
+    },
+    {
+      "cell_id": "llama_translate-mr_rand1",
+      "old_site": "node01",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 3
+    },
+    {
+      "cell_id": "qwen_translate-ml_s3",
+      "old_site": "innet",
+      "old_gpu": 2,
+      "site": "node01",
+      "gpu": 1
+    },
+    {
+      "cell_id": "qwen_translate-ml_61000",
+      "old_site": "innet",
+      "old_gpu": 2,
+      "site": "innet",
+      "gpu": 3
+    },
+    {
+      "cell_id": "qwen_translate-ml_s5",
+      "old_site": "innet",
+      "old_gpu": 2,
+      "site": "node01",
+      "gpu": 2
+    },
+    {
+      "cell_id": "qwen_translate-ml_61001",
+      "old_site": "innet",
+      "old_gpu": 2,
+      "site": "node01",
+      "gpu": 0
+    },
+    {
+      "cell_id": "qwen_translate-mr_s3",
+      "old_site": "innet",
+      "old_gpu": 3,
+      "site": "node01",
+      "gpu": 0
+    },
+    {
+      "cell_id": "qwen_translate-mr_61000",
+      "old_site": "innet",
+      "old_gpu": 3,
+      "site": "node01",
+      "gpu": 0
+    },
+    {
+      "cell_id": "qwen_translate-mr_s4",
+      "old_site": "innet",
+      "old_gpu": 3,
+      "site": "innet",
+      "gpu": 2
+    },
+    {
+      "cell_id": "qwen_translate-mr_s5",
+      "old_site": "innet",
+      "old_gpu": 3,
+      "site": "innet",
+      "gpu": 0
+    },
+    {
+      "cell_id": "qwen_translate-ta_s3",
+      "old_site": "innet",
+      "old_gpu": 0,
+      "site": "node01",
+      "gpu": 1
+    },
+    {
+      "cell_id": "qwen_translate-ta_61000",
+      "old_site": "innet",
+      "old_gpu": 0,
+      "site": "node01",
+      "gpu": 1
+    },
+    {
+      "cell_id": "qwen_translate-ta_s5",
+      "old_site": "innet",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 2
+    },
+    {
+      "cell_id": "qwen_translate-ta_61001",
+      "old_site": "innet",
+      "old_gpu": 0,
+      "site": "innet",
+      "gpu": 2
+    }
+  ],
+  "partially_processed_cells_pinned": true
+}

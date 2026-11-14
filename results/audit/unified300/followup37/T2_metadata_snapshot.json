@@ -1,0 +1,608 @@
+{
+  "utc": "2026-11-14T03:34:51.424790+00:00",
+  "snapshots": [
+    {
+      "utc": "2026-11-14T03:34:44.125016+00:00",
+      "site": "innet",
+      "cells": [
+        {
+          "cell_id": "llama_translate-mr_s3",
+          "generation": {
+            "N": 440,
+            "complete": true,
+            "measured_rows": 440,
+            "seconds": 4973.407231216319,
+            "seconds_per_row": 11.30319825276436
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_rand0",
+          "generation": {
+            "N": 440,
+            "complete": true,
+            "measured_rows": 440,
+            "seconds": 4965.3958885399625,
+            "seconds_per_row": 11.284990655772642
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_s4",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_s5",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_rand1",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ml_s3",
+          "generation": {
+            "N": 376,
+            "complete": false,
+            "measured_rows": 376,
+            "seconds": 5543.021274769213,
+            "seconds_per_row": 14.742077858428758
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ml_61000",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ml_s4",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ml_s5",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ml_61001",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-mr_s3",
+          "generation": {
+            "N": 440,
+            "complete": true,
+            "measured_rows": 440,
+            "seconds": 5756.4112502112985,
+            "seconds_per_row": 13.082752841389315
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-mr_61000",
+          "generation": {
+            "N": 16,
+            "complete": false,
+            "measured_rows": 16,
+            "seconds": 148.80887343455106,
+            "seconds_per_row": 9.300554589659441
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-mr_s4",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-mr_s5",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-mr_61001",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ta_s3",
+          "generation": {
+            "N": 440,
+            "complete": true,
+            "measured_rows": 440,
+            "seconds": 5661.274074564222,
+            "seconds_per_row": 12.86653198764596
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ta_61000",
+          "generation": {
+            "N": 36,
+            "complete": false,
+            "measured_rows": 36,
+            "seconds": 472.7951534357853,
+            "seconds_per_row": 13.133198706549592
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ta_s4",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ta_s5",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "qwen_translate-ta_61001",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        }
+      ],
+      "baseline_rates": {
+        "llama_translate-mr": {
+          "N": 0,
+          "complete": false,
+          "measured_rows": 0,
+          "seconds": 0,
+          "seconds_per_row": null
+        },
+        "qwen_translate-ml": {
+          "N": 0,
+          "complete": false,
+          "measured_rows": 0,
+          "seconds": 0,
+          "seconds_per_row": null
+        },
+        "qwen_translate-mr": {
+          "N": 0,
+          "complete": false,
+          "measured_rows": 0,
+          "seconds": 0,
+          "seconds_per_row": null
+        },
+        "qwen_translate-ta": {
+          "N": 0,
+          "complete": false,
+          "measured_rows": 0,
+          "seconds": 0,
+          "seconds_per_row": null
+        }
+      },
+      "old_translation": {
+        "qwen_translate-mr_alpha0": {
+          "N": 440,
+          "seconds": 17003.143625989556,
+          "seconds_per_row": 38.64350824088535
+        },
+        "llama_translate-ta_alpha0": {
+          "N": 440,
+          "seconds": 6506.2532770568505,
+          "seconds_per_row": 14.786939266038297
+        },
+        "qwen_translate-ta_alpha0": {
+          "N": 440,
+          "seconds": 6630.801439925097,
+          "seconds_per_row": 15.070003272557038
+        },
+        "llama_translate-fr_alpha0": {
+          "N": 440,
+          "seconds": 2701.049291405827,
+          "seconds_per_row": 6.138748389558697
+        },
+        "llama_translate-mr_alpha0": {
+          "N": 440,
+          "seconds": 11124.692319819238,
+          "seconds_per_row": 25.283391635952814
+        },
+        "llama_translate-ml_alpha0": {
+          "N": 440,
+          "seconds": 6559.791688271798,
+          "seconds_per_row": 14.908617473344997
+        },
+        "qwen_translate-ml_alpha0": {
+          "N": 440,
+          "seconds": 16246.034566323739,
+          "seconds_per_row": 36.92280583255395
+        }
+      }
+    },
+    {
+      "utc": "2026-11-14T03:34:51.441764+00:00",
+      "site": "node01",
+      "cells": [
+        {
+          "cell_id": "llama_translate-ml_s3",
+          "generation": {
+            "N": 440,
+            "complete": true,
+            "measured_rows": 440,
+            "seconds": 14712.005260601407,
+            "seconds_per_row": 33.43637559227592
+          },
+          "processing": {
+            "N": 200,
+            "complete": false,
+            "seconds": 5030.451997940894,
+            "seconds_per_row": 25.152259989704472
+          }
+        },
+        {
+          "cell_id": "llama_translate-ml_rand0",
+          "generation": {
+            "N": 440,
+            "complete": true,
+            "measured_rows": 440,
+            "seconds": 14707.789957256522,
+            "seconds_per_row": 33.42679535740119
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-ml_s4",
+          "generation": {
+            "N": 112,
+            "complete": false,
+            "measured_rows": 112,
+            "seconds": 3807.227159956703,
+            "seconds_per_row": 33.99309964247056
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-ml_s5",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-ml_rand1",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-ta_s3",
+          "generation": {
+            "N": 440,
+            "complete": true,
+            "measured_rows": 440,
+            "seconds": 14832.336714367382,
+            "seconds_per_row": 33.70985616901678
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-ta_rand0",
+          "generation": {
+            "N": 236,
+            "complete": false,
+            "measured_rows": 236,
+            "seconds": 8065.595362864668,
+            "seconds_per_row": 34.17625153756215
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-ta_s4",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-ta_s5",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-ta_rand1",
+          "generation": {
+            "N": 0,
+            "complete": false,
+            "measured_rows": 0,
+            "seconds": 0,
+            "seconds_per_row": null
+          },
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_s3",
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_rand0",
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_s4",
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_s5",
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        },
+        {
+          "cell_id": "llama_translate-mr_rand1",
+          "processing": {
+            "N": 0,
+            "complete": false,
+            "seconds": 0,
+            "seconds_per_row": null
+          }
+        }
+      ],
+      "baseline_rates": {
+        "llama_translate-ml": {
+          "N": 440,
+          "complete": true,
+          "measured_rows": 440,
+          "seconds": 14376.192577281734,
+          "seconds_per_row": 32.67316494836758
+        },
+        "llama_translate-ta": {
+          "N": 440,
+          "complete": true,
+          "measured_rows": 440,
+          "seconds": 14573.761509850156,
+          "seconds_per_row": 33.122185249659445
+        }
+      },
+      "old_translation": {
+        "qwen_translate-ml_alpha0": {
+          "N": 440,
+          "seconds": 16246.034566323739,
+          "seconds_per_row": 36.92280583255395
+        },
+        "qwen_translate-mr_alpha0": {
+          "N": 440,
+          "seconds": 17003.143625989556,
+          "seconds_per_row": 38.64350824088535
+        }
+      }
+    }
+  ],
+  "no_protected_labels_read": true
+}

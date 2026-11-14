@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-14T03:34:51.495662+00:00",
+  "N": 132,
+  "run_summaries": [
+    {
+      "run": 1,
+      "fulfilled": 104,
+      "unfulfilled": 28,
+      "invalid": 0,
+      "changed_vs_previous264": [
+        108
+      ]
+    },
+    {
+      "run": 2,
+      "fulfilled": 104,
+      "unfulfilled": 28,
+      "invalid": 0,
+      "changed_vs_previous264": [
+        108
+      ]
+    }
+  ],
+  "input_same": true,
+  "changed_ids": [],
+  "output_changed_ids": [],
+  "fresh_complete_UTC": [
+    "2026-11-14T03:29:01.729891+00:00",
+    "2026-11-14T03:30:34.929112+00:00"
+  ],
+  "repeat_plan_sha256": "6c69df0ff7b4564baa71fc78635310e7b95e1f7b97dc75d1efa116fcd32c14a1"
+}
