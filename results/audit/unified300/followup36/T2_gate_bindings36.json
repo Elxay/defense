@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-14T01:47:02.243227+00:00",
+  "cells": [
+    {
+      "model": "llama",
+      "family": "translate-mr",
+      "gate_relative": "results/audit/unified300/takeover30/llama_translate-mr_alpha0_gate.json",
+      "gate_sha256": "1f980a1c05f16eb3e3a979fa7d189159b7765a9e5bfba367d12a32f351d1feec",
+      "source_gate_sha256": "401ee176dbc3ba8a94337201f30aff98a7d2f76bf76cbbbe8c309e8ef4529eda",
+      "admitted": true
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ml",
+      "gate_relative": "results/audit/unified300/takeover30/qwen_translate-ml_alpha0_gate.json",
+      "gate_sha256": "e5b62f1b9b08c43342d969328b6d44746355c2a57a83ec2f19bf6b3d01e3ecfb",
+      "source_gate_sha256": "676d1737511d6338a7c12e72b2b197a25ab4788159f27c826bb78c526cb4c609",
+      "admitted": true
+    },
+    {
+      "model": "qwen",
+      "family": "translate-mr",
+      "gate_relative": "results/audit/unified300/takeover30/qwen_translate-mr_alpha0_gate.json",
+      "gate_sha256": "7dc2d7dc89d19226f03203f851d9a0cefb5c1f834319b37ab282460baf392666",
+      "source_gate_sha256": "bd81abd82f3183b90c2f7036c3fc9210fbcfc7161c1016657142d2a6e19e9232",
+      "admitted": true
+    },
+    {
+      "model": "qwen",
+      "family": "translate-ta",
+      "gate_relative": "results/audit/unified300/takeover30/qwen_translate-ta_alpha0_gate.json",
+      "gate_sha256": "332fe7c0c60d24081eb5c9ddd59c6e3dcc27e122067ddac7fd5b2c6cea8770be",
+      "source_gate_sha256": "994c0238648e187ae1da473eaec64bd30488153b9168ee4d5941dabbc1500053",
+      "admitted": true
+    }
+  ],
+  "diagnosis": "Original plans existed but Qwen nonzero tasks and Llama mr remaining seed tasks were not registered; own completed alpha0 gates now bound",
+  "no_nonzero_effects_read": true
+}

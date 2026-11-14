@@ -1,0 +1,46 @@
+{
+  "utc_frozen": "2026-11-14T01:47:02.243016+00:00",
+  "reference_worker_sha256": "985f9c3107136788e063ad3f3d8d07d9fc352641e4e59fb5d67ea9ffcc7abc93",
+  "generation_cells": {
+    "llama_translate-mr": {
+      "model": "llama",
+      "family": "translate-mr",
+      "plan_relative": "results/audit/unified300/Indian_main30_llama_translate-mr.json",
+      "plan_sha256": "bf0e4847b383f474062d41e6a45c535c0c392020b7eeb7a998c0d49ec1a711fb",
+      "assigned_gpu": 0
+    },
+    "qwen_translate-ml": {
+      "model": "qwen",
+      "family": "translate-ml",
+      "plan_relative": "results/audit/unified300/Indian_main30_qwen_translate-ml.json",
+      "plan_sha256": "8d1736f1b7d6ff65dc870b9a746d9901902bc5bf867d68a072eed570214a9b0d",
+      "assigned_gpu": 2
+    },
+    "qwen_translate-mr": {
+      "model": "qwen",
+      "family": "translate-mr",
+      "plan_relative": "results/audit/unified300/Indian_main30_qwen_translate-mr.json",
+      "plan_sha256": "5ae83ee99c590750828fac0c57eec5ed10ea79e5013b959356a1b3fbdf2e7f58",
+      "assigned_gpu": 3
+    },
+    "qwen_translate-ta": {
+      "model": "qwen",
+      "family": "translate-ta",
+      "plan_relative": "results/audit/unified300/Indian_main30_qwen_translate-ta.json",
+      "plan_sha256": "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+      "assigned_gpu": 0
+    }
+  },
+  "scope": "Schedule missing nonzero Indian tasks on already frozen home node/plans; new physical card requires first20 full-batch byte reference",
+  "per_cell_exclusive_lease": true,
+  "first_wave": [
+    "s3",
+    "rand0_or_61000"
+  ],
+  "later": [
+    "s4",
+    "s5",
+    "last_random"
+  ],
+  "no_labels_read": true
+}

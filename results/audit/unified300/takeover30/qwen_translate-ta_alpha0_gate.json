@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-13T20:17:44.520870+00:00",
+  "N": 440,
+  "fulfilled": 313,
+  "INVALID_IDs": [
+    24,
+    53,
+    83,
+    203,
+    247,
+    263,
+    270,
+    281,
+    328,
+    356,
+    371,
+    399,
+    408,
+    412,
+    416,
+    431
+  ],
+  "rate_bounds": [
+    0.7113636363636363,
+    0.7477272727272727
+  ],
+  "gate": "active",
+  "threshold_count": 110,
+  "judge": "SORRY only",
+  "source_manifest_sha256": "fdb2c8fe85ee548cda68653206684c12967e9de31dadf2cff667f712dc877e0c",
+  "translation_plan_sha256": "fad7335ebe0110944d2332a59cbfc57e8cca8d8229a22aa6d8cb3b725816d3cf",
+  "no_nonzero_labels_read": true,
+  "admitted": true,
+  "source_gate_sha256": "994c0238648e187ae1da473eaec64bd30488153b9168ee4d5941dabbc1500053",
+  "numerical_plan_sha256": "4d4c6189f9f13eba990735dadf6f0d9049e97cbfece680d33f606360cfbd8145",
+  "utc_compatibility_binding": "2026-11-14T01:47:02.242631+00:00"
+}
