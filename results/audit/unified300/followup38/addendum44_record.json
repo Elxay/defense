@@ -1,8 +1,9 @@
 {
-  "utc": "2026-11-14T10:24:15.439487+00:00",
-  "z": "2026-11-14T10:24:15.439177+00:00",
-  "pst": "2026-11-14T02:24:15.439177-08:00",
-  "doc_sha256": "e30056995ac7d5eb76581460b91b28a8232378f77fdc7e824c042bb4f0244ef8",
-  "retracts_addendum43_signature": true,
-  "clause_status": "\u5f85\u7b7e"
+  "utc": "2026-11-14T10:25:58.582987+00:00",
+  "z": "2026-11-14T10:25:58.582729+00:00",
+  "pst": "2026-11-14T02:25:58.582729-08:00",
+  "doc_sha256": "decd0682c87cae083c06357aa119821f00f3aa0fa8583b93d5d3f5ed5119b2d3",
+  "declaration": "forwarding=approval",
+  "retroactively_endorses": "addendum43",
+  "wording_convention": "\u7b7e\u5b57->\u8d1f\u8d23\u4eba\u5df2\u9605\u5e76\u8ba4\u53ef\uff08\u8f6c\u53d1\u5373\u8ba4\u53ef\uff09"
 }
