@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-14T11:09:41.031250+00:00",
+  "z": "2026-11-14T11:09:41.031006+00:00",
+  "pst": "2026-11-14T03:09:41.031006-08:00",
+  "doc_sha256": "9dbd09d621a7e1078d554f20c8a6b049ed5094681115ac8dca18ed1a074772dc",
+  "source_correction": "SORRY-Bench",
+  "sorry_non_independent": true,
+  "committed_files": {
+    "287_ADDENDUM1": "339d7d0e4841b7b30fcade3cac196925ece15532493890b05a66056f85a68c72",
+    "287_ADDENDUM2": "6c5686603d35a2d877c7ad300801d0da82a5e3f7ccc76b3d184979078b9d3f5d",
+    "r1_intervals.py": "deacad55fb9cac8fa63bd407b7d87a44db9cbed6546cfc7a621c4b619bdd4060",
+    "Addendum26": "3256ef2515494805de01de70e4f4b0788b53ac7950cf55ddf581e2c621865ec1"
+  },
+  "third_class": {
+    "ID_h0m1_pct": 3.5,
+    "OOD_h0m1_pct": 33.61
+  }
+}
