@@ -1,6 +1,6 @@
 # 接续36：评分器重打、成对提示族与T2执行
 
-卡快照UTC：2026-11-14T02:21:31.625529+00:00。本次读取仅包含alpha0评分诊断、已允许的alpha0闸门和工程计时；没有读取搜索族的学出减随机效应，也没有读取新语言非零履行标签。
+卡快照UTC：2026-11-14T02:34:28.687800+00:00。本次读取仅包含alpha0评分诊断、已允许的alpha0闸门和工程计时；没有读取搜索族的学出减随机效应，也没有读取新语言非零履行标签。
 
 ## 264个位置的原始评分与同一回复对照
 
@@ -84,7 +84,7 @@ Llama法语T1：alpha0于17:19:28 UTC完成440/440，不是半格暂停；s3/s4/
 
 首次264重打因源函数提取遗漏List类型名失败，未产生评分；19:01 UTC已自动恢复ML同站续跑。此次重试先CPU编译三个原函数再加载，264/264得分复现。CPU packetizer的心跳依赖和侧录器启动目录错误已修正并保留失败记录，不写成首次成功。
 
-串行逐文件部署会阻塞整个扫描周期；已冻结并平滑切换checksum批量同步，运行中的GPU工人不动。CPU探针3/3字节哈希验证通过，实际1.19秒。
+串行逐文件部署会阻塞整个扫描周期。首次v9批量同步保留了源节点绝对符号链接，完整校验阻止启动，但旧失败登记随后陷入FileExists重试；这是本轮引入的部署错误，不写成健康。v10改为复制链接指向的内容，先写staging检查点防止重复作业；02:29:51 UTC完整289/289依赖字节校验通过，耗时14.36秒，原B4_ml_s4描述符单次恢复，02:29:54启动。运行中的GPU工人不动。
 
 | 卡 | UUID | 账号/PID | 命令 | 当前登记任务 |
 |---|---|---|---|---|
@@ -92,7 +92,7 @@ Llama法语T1：alpha0于17:19:28 UTC完成440/440，不是半格暂停；s3/s4/
 | innet:2 | GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb | kemove/2190473 | unified300_ready_generate_v30.py | T2nonzero36_qwen_translate-ml_s3 |
 | innet:3 | GPU-16fea00b-6607-57e1-0caa-cec4f27ce988 | kemove/2175820 | unified300_ready_generate_v30.py | T2nonzero36_qwen_translate-mr_s3 |
 | node01:0 | GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf | dell/2366903 | u300_language_nonzero36.py | T2translate36_llama_translate-ml_s3 |
-| node01:1 | GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333 |  |  | B4_ml_llama_rand0 |
+| node01:1 | GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333 | dell/2406537 | unified300_ready_generate_v3.py | B4_ml_llama_s4 |
 | node01:2 | GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0 | dell/2229139 | unified300_ready_generate_v4.py | B4_ta_llama_rand0 |
 
 innet GPU1始终排除。空显存/瞬时0%不等于可抢占，以上同时核对租约和进程。

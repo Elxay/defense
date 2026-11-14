@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T02:34:30.492528+00:00",
+  "sources": {
+    "tools/handoff_20261106/u300_rating36_read.py": "da095388b1e22717a6b8188c364b43b1ad648776cd91c3aca9367bbe86da05ed",
+    "tools/handoff_20261106/u300_cpu36.py": "e2b50b032f50b105b0563db89efc5237a354ec937abcb856588ff69938145701",
+    "tools/handoff_20261106/u300_receipts36.py": "15aa03b660c2f32160bc4a97761ca2b9618403540f5bfe1ea070ba2979efdb77"
+  },
+  "rating_CSV_sha256": "e62ecd6ac2f17caf4b03d26787f667fc12e39fd2514a333738e41b1a43217c1e",
+  "wall_CSV_sha256": "b107de7d33183c2b280ff2fc3bad699a1ab4e59b473acd6ea607b0eee7ed54fc",
+  "raw_response_text_or_prompts_published": false
+}
