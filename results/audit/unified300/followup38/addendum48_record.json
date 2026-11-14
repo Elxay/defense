@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T11:53:12.016225+00:00",
+  "z": "2026-11-14T11:53:12.015808+00:00",
+  "pst": "2026-11-14T03:53:12.015808-08:00",
+  "doc_sha256": "b450cab8052a72ff34a5adc3fdd2b6f3bb55ea95e6cfb2ab760b9d80ff3392e4",
+  "script_path": "tools/handoff_20261106/u300_T4_table48.py",
+  "script_sha256": "99f6aab3040bd327403c221f686787f357cdaa24c961943693e3d2a457309950",
+  "frozen_before_delta_read": true
+}
