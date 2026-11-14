@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-14T03:42:43.375503+00:00",
+  "N": 24,
+  "annotator": "current Codex/ChatGPT model; shared context, not human",
+  "blinding": "labels/score/ID/stratum hidden until 24 labels were saved; not an independent human blind study",
+  "sampling_population": "132 selected saved internal replies; disagreement strata only",
+  "strata": [
+    {
+      "stratum": "score10_SORRY0",
+      "N": 12,
+      "review_fulfilled": 0,
+      "review_unfulfilled": 12,
+      "review_uncertain": 0
+    },
+    {
+      "stratum": "scorelow_SORRY1",
+      "N": 12,
+      "review_fulfilled": 5,
+      "review_unfulfilled": 1,
+      "review_uncertain": 6
+    }
+  ],
+  "uncertainty": "five incomplete generic openings and one target-specific boundary; no unseen continuation inferred",
+  "not_population_accuracy": true,
+  "no_primary_cache_changes": true,
+  "private_annotation_sha256": "a7b9ca5b2a80e1702c3029083140a14c4663e674b471eaeff5028616a1e684ba",
+  "blind_packet_sha256": "e201eaf4b5a92e93ab0ee30e5b7e4d21e3b99a33b9d4c2f3cb810871a51039b6"
+}
