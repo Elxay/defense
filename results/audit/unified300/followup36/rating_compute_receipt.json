@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-14T01:58:07.639258+00:00",
+  "N_requested": 264,
+  "N_groups": 183,
+  "N_covered_outputs": 3660,
+  "all_full_original_request_SHA_matched": true,
+  "elapsed_seconds": 411.6413887059316,
+  "raw_records_sha256": "81a6dfc31943f059e1d0634eda38b684e419a00569b252cdcdfa0b87c7d10a71",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.52.4",
+  "device_uuid": "a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+  "SORRY_wave_manifest_sha256": "6f228264d72448b79969957487c2b8d06974f183eafb94ebc5f1c927d7c62114"
+}

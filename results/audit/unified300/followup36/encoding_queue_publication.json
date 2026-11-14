@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T01:49:26.523142+00:00",
+  "commit": "1d0ed75fc08ac6070cb8eb251c483cd5a02eef8a",
+  "plan_sha256": "e6aa4408157a367eee1562feb08ff454fbfa18ff547604ca7d7379bac3687973",
+  "site": "innet GPU2",
+  "order": [
+    "caesar408",
+    "morse184"
+  ],
+  "release_after_T2": true
+}

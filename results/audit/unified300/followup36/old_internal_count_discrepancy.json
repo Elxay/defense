@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-14T02:18:11.100490+00:00",
+  "old_aggregate_fulfilled": 104,
+  "old_N": 132,
+  "old_aggregate_sha256": "ef6e840f3a29dc4e6007e58dfa357fca70997c7c6f50d1e19d95827296b45d6e",
+  "new_same_internal_fulfilled": 105,
+  "new_N": 132,
+  "old_per_row_labels_not_located_in_this_audit": true,
+  "reason_not_assigned": true,
+  "old_invalid_admission_remains_revoked": true,
+  "main_matched_gate98_of220_unchanged": true
+}

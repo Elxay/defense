@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T02:18:11.100249+00:00",
+  "global_B": 1,
+  "reason": "Original main_admission_requires_both_caps=True; B8 and B4 fail short cap, so no larger batch may be admitted by long-only result",
+  "short_read_sha256": "1399275bed4e7b5c1458f2882d47af3be5db31477087d22ab4e57b3af31e1ba6",
+  "long_raw_complete": true,
+  "long_label_read_complete": false,
+  "main_test_generation_admitted": false,
+  "alpha_selection_still_locked": true,
+  "source_plan_sha256": "84ba381035a202f64699922fa2b41836dbe2eb3dac3abbfe8a4af8386bf6149f"
+}

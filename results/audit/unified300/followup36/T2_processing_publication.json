@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-14T01:54:31.877155+00:00",
+  "commit": "71076ae90109f770d243cd98039a3d3ccac5521b",
+  "registry_sha256": "8c561f47c7cbea2758ba784e675c4db28f43545e3c9e41ded779a0e9542d98f4",
+  "packetizer_PID": 2174275,
+  "N_cells": 30,
+  "cache_only": true
+}

@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-14T01:47:07.391001+00:00",
+  "commit": "0d953454059c844d9d370c6c5cdaaf47032fe92e",
+  "plan_sha256": "7ac5ac8e26c4bf617866c8288fc3ec4508ba3960e0fe8a09ec4b02f2a4c6903b",
+  "note": "Model outputs and alpha choices unchanged; future jobs only, fresh reference required before nonzero on2/3"
+}

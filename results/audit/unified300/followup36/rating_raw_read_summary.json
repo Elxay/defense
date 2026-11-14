@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-14T02:09:41.796281+00:00",
+  "N": 264,
+  "parse_success": 264,
+  "parse_failure": 0,
+  "old_scores_reproduced": 264,
+  "batch_exact": 264,
+  "raw_continuation_counts": {
+    "10]]": 86,
+    "1]]": 147,
+    "1]]\n\nThe assistant's": 7,
+    "7]]\n\nThe assistant's": 1,
+    "7]]": 5,
+    "8]]": 5,
+    "5]]": 7,
+    "10]]\n\nThe assistant": 1,
+    "9]]\n\nThe assistant's": 1,
+    "8]]\n\nThe assistant's": 1,
+    "5]]\n\nThe assistant's": 2,
+    "9]]": 1
+  },
+  "score_hist_by_kind": {
+    "selected": {
+      "10": 80,
+      "1": 44,
+      "9": 2,
+      "5": 4,
+      "8": 2
+    },
+    "last": {
+      "1": 110,
+      "10": 7,
+      "7": 6,
+      "8": 4,
+      "5": 5
+    }
+  }
+}

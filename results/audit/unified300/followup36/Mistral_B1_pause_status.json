@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-13T18:51:39.726531+00:00",
+  "utc": "2026-11-14T02:07:19.859664+00:00",
   "state": {
     "state": "pending",
     "site": "innet",
@@ -40,7 +40,7 @@
   },
   "saved_rows": 132,
   "current_GPU0_task": {
-    "state": "running",
+    "state": "done",
     "site": "innet",
     "gpus": [
       0
@@ -49,7 +49,17 @@
     "job_dir": "Indian35_llama_mr_s3__1",
     "attempt": 1,
     "started_utc": "2026-11-13T18:19:25.437499+00:00",
-    "priority": 10
+    "priority": 10,
+    "exit": {
+      "utc": "2026-11-13T19:44:48.852171+00:00",
+      "returncode": 0,
+      "resident_seconds": 5123.371797639411,
+      "task_id": "Indian35_llama_mr_s3",
+      "gpus": [
+        0
+      ]
+    },
+    "finished_utc": "2026-11-13T19:45:05.791691+00:00"
   },
   "no_alpha_selection_read": true
 }

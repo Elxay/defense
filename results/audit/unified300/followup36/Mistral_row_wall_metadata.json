@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-13T18:51:39.717934+00:00",
+  "utc": "2026-11-14T02:07:19.849639+00:00",
   "groups": [
     {
       "scope": "Mistral2400_B1",
@@ -28,13 +28,13 @@
     {
       "scope": "Mistral2400_B1",
       "condition": "61000",
-      "N": 38,
-      "completed": false,
-      "mean_seconds": 14.669586658477783,
-      "median_seconds": 14.228445172309875,
-      "p90_seconds": 21.318312883377075,
-      "max_seconds": 31.76460361480713,
-      "mean_new_tokens": 605.921052631579,
+      "N": 100,
+      "completed": true,
+      "mean_seconds": 13.777087087631225,
+      "median_seconds": 13.383452534675598,
+      "p90_seconds": 20.384103059768677,
+      "max_seconds": 58.16650581359863,
+      "mean_new_tokens": 567.82,
       "basis": "original in-place atomic-record mtime intervals; includes I/O/loop, not pure CUDA or exact generate-call timing"
     },
     {
@@ -2430,6 +2430,626 @@
       "new_tokens": 142,
       "source_sha256": "cbf8f571a81865bd1b8a3d5f196dd9d5ea483cdb2aab607fe9b17dd38df937c1",
       "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0037.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 38,
+      "wall_between_atomic_writes_seconds": 3.9636781215667725,
+      "mtime_UTC": "2026-11-13T18:51:41.311178+00:00",
+      "new_tokens": 163,
+      "source_sha256": "b194f92a4d3138e4fee56b5a5cc7f4464dfefa2f074ac06f3b5cf19106b42233",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0038.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 39,
+      "wall_between_atomic_writes_seconds": 9.316794157028198,
+      "mtime_UTC": "2026-11-13T18:51:50.627972+00:00",
+      "new_tokens": 385,
+      "source_sha256": "df71462496a7edaacc5af95f0c1b7a739ba0cea2e176d9c677ea6a2d0930336a",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0039.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 40,
+      "wall_between_atomic_writes_seconds": 14.672220230102539,
+      "mtime_UTC": "2026-11-13T18:52:05.300193+00:00",
+      "new_tokens": 608,
+      "source_sha256": "39a995cf72afadee6a0d35eeb1a0816441f4a5a157479a47b64d0c312804ae2d",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0040.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 41,
+      "wall_between_atomic_writes_seconds": 58.16650581359863,
+      "mtime_UTC": "2026-11-13T18:53:03.466698+00:00",
+      "new_tokens": 2400,
+      "source_sha256": "45476299b9103a2749dbbcac810e0ee99cb4f79597e1478ad4204a92e3a02668",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0041.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 42,
+      "wall_between_atomic_writes_seconds": 22.069194555282593,
+      "mtime_UTC": "2026-11-13T18:53:25.535893+00:00",
+      "new_tokens": 906,
+      "source_sha256": "8d15b0d2745ae289d2c9ee453574ab686b950c955977f3d19c0dcc7952118de2",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0042.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 43,
+      "wall_between_atomic_writes_seconds": 10.517289638519287,
+      "mtime_UTC": "2026-11-13T18:53:36.053183+00:00",
+      "new_tokens": 430,
+      "source_sha256": "3bbf7cccd25de6c9579618c8885b8f721ce9e6eef446a2a6e50bc92542074496",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0043.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 44,
+      "wall_between_atomic_writes_seconds": 17.915934801101685,
+      "mtime_UTC": "2026-11-13T18:53:53.969117+00:00",
+      "new_tokens": 734,
+      "source_sha256": "9edb5b316cd18242145f0682a5fd406678e724f76a38dea942ef1e811aff3016",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0044.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 45,
+      "wall_between_atomic_writes_seconds": 12.955386877059937,
+      "mtime_UTC": "2026-11-13T18:54:06.924504+00:00",
+      "new_tokens": 532,
+      "source_sha256": "643b317643c1214855de5993b145d56fdf5f28fac39e709264ad9976ed054bd8",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0045.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 46,
+      "wall_between_atomic_writes_seconds": 15.351871013641357,
+      "mtime_UTC": "2026-11-13T18:54:22.276375+00:00",
+      "new_tokens": 633,
+      "source_sha256": "f4369384cc94241ecbbba9c6b86848c681e89abe05286a50cc1e97e653789ed7",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0046.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 47,
+      "wall_between_atomic_writes_seconds": 10.68153166770935,
+      "mtime_UTC": "2026-11-13T18:54:32.957907+00:00",
+      "new_tokens": 440,
+      "source_sha256": "7dd50178f2a11c936ba846c31d899e328689971aa95972553ebcacee2e485d4a",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0047.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 48,
+      "wall_between_atomic_writes_seconds": 10.574829816818237,
+      "mtime_UTC": "2026-11-13T18:54:43.532737+00:00",
+      "new_tokens": 434,
+      "source_sha256": "ca24abdcc0369e4d471384d5efa9ab100530f8f1ef9781689e7290c693694ea3",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0048.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 49,
+      "wall_between_atomic_writes_seconds": 12.494176387786865,
+      "mtime_UTC": "2026-11-13T18:54:56.026913+00:00",
+      "new_tokens": 513,
+      "source_sha256": "6aaef757734db02370ae237a9569097bb59adc9c0348944e9db7f98240899cb9",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0049.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 50,
+      "wall_between_atomic_writes_seconds": 10.430170774459839,
+      "mtime_UTC": "2026-11-13T18:55:06.457084+00:00",
+      "new_tokens": 427,
+      "source_sha256": "02a7434ec05f2250eabb27c5638392f412a31b6513410ee4612b8f82afdca229",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0050.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 51,
+      "wall_between_atomic_writes_seconds": 13.37916874885559,
+      "mtime_UTC": "2026-11-13T18:55:19.836253+00:00",
+      "new_tokens": 549,
+      "source_sha256": "779c368b34070478c4429d715e3ba5b47ba8ca7325a95795d94ff764850f0504",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0051.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 52,
+      "wall_between_atomic_writes_seconds": 11.236995220184326,
+      "mtime_UTC": "2026-11-13T18:55:31.073248+00:00",
+      "new_tokens": 460,
+      "source_sha256": "abb6c9f83d76fb82971c930addb7e869a7f5d3a2d8a44cbff064a701caa6bdd6",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0052.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 53,
+      "wall_between_atomic_writes_seconds": 4.827856063842773,
+      "mtime_UTC": "2026-11-13T18:55:35.901104+00:00",
+      "new_tokens": 197,
+      "source_sha256": "887b1fb3444ff7a9a4ce4fa969115d985916e600ff599de903a3b8bfd206b115",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0053.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 54,
+      "wall_between_atomic_writes_seconds": 4.916095018386841,
+      "mtime_UTC": "2026-11-13T18:55:40.817199+00:00",
+      "new_tokens": 201,
+      "source_sha256": "e56005b0ea1617501159729edfd20dee9e14d034be299ebb8a9db699a035b539",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0054.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 55,
+      "wall_between_atomic_writes_seconds": 7.334812164306641,
+      "mtime_UTC": "2026-11-13T18:55:48.152011+00:00",
+      "new_tokens": 300,
+      "source_sha256": "b48753509e1899c2ca69b568769f271cc0f7bb0db427295e9efaf470d3ed6117",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0055.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 56,
+      "wall_between_atomic_writes_seconds": 13.004848003387451,
+      "mtime_UTC": "2026-11-13T18:56:01.156859+00:00",
+      "new_tokens": 538,
+      "source_sha256": "102badbc394c709afd2df284fc11fc49d94c7106060d24c7346811a3d77368a4",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0056.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 57,
+      "wall_between_atomic_writes_seconds": 18.715232849121094,
+      "mtime_UTC": "2026-11-13T18:56:19.872092+00:00",
+      "new_tokens": 774,
+      "source_sha256": "66235c357599dd79e9006b5d69481b5c2ef58f1471d5ee5fded08fc27ea91dbb",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0057.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 58,
+      "wall_between_atomic_writes_seconds": 9.360575675964355,
+      "mtime_UTC": "2026-11-13T18:56:29.232668+00:00",
+      "new_tokens": 387,
+      "source_sha256": "d6b0e3fb57e9736ed05e0c83654bf20d8a898e03056304a102f0f9f3f99f5490",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0058.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 59,
+      "wall_between_atomic_writes_seconds": 13.407236576080322,
+      "mtime_UTC": "2026-11-13T18:56:42.639904+00:00",
+      "new_tokens": 554,
+      "source_sha256": "dc2edf79afb730259cc457bf8e70b7890483082f339f3b3f96597ce61cf1dde0",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0059.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 60,
+      "wall_between_atomic_writes_seconds": 15.71031379699707,
+      "mtime_UTC": "2026-11-13T18:56:58.350218+00:00",
+      "new_tokens": 648,
+      "source_sha256": "d0b42cae8679bbd0332cd3787bcb60040641944f670f3c1d2f032fb4ce4835d4",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0060.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 61,
+      "wall_between_atomic_writes_seconds": 12.245822191238403,
+      "mtime_UTC": "2026-11-13T18:57:10.596040+00:00",
+      "new_tokens": 504,
+      "source_sha256": "a1825b1c09c9fc9eef00285d06fffc50ef2c9bebf6aed4026a347117cb508884",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0061.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 62,
+      "wall_between_atomic_writes_seconds": 7.5540831089019775,
+      "mtime_UTC": "2026-11-13T18:57:18.150123+00:00",
+      "new_tokens": 310,
+      "source_sha256": "4fe158a4f71ca02057f3407f9f6edb80d5be2378906bbf5191d6cc42b6e8dcc2",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0062.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 63,
+      "wall_between_atomic_writes_seconds": 11.222246408462524,
+      "mtime_UTC": "2026-11-13T18:57:29.372370+00:00",
+      "new_tokens": 462,
+      "source_sha256": "5d2c6b54548888b399afa442ba7bc7cf91f87c06175d07f39cc4710f1e939e9d",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0063.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 64,
+      "wall_between_atomic_writes_seconds": 15.64439582824707,
+      "mtime_UTC": "2026-11-13T18:57:45.016766+00:00",
+      "new_tokens": 644,
+      "source_sha256": "cf95d52834160ed3c6d1cd4ee16886637edf02d1d897b8e80175692fe641a172",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0064.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 65,
+      "wall_between_atomic_writes_seconds": 18.20950698852539,
+      "mtime_UTC": "2026-11-13T18:58:03.226273+00:00",
+      "new_tokens": 748,
+      "source_sha256": "edd40d744e38a3da82985b86f53545eca6bec7be73812728d407d50484536e30",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0065.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 66,
+      "wall_between_atomic_writes_seconds": 16.396404504776,
+      "mtime_UTC": "2026-11-13T18:58:19.622677+00:00",
+      "new_tokens": 675,
+      "source_sha256": "94dfab8a531b24abd100463f4adaabb183930e56354b1fdeb1c0a19a77df02d8",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0066.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 67,
+      "wall_between_atomic_writes_seconds": 7.668302774429321,
+      "mtime_UTC": "2026-11-13T18:58:27.290980+00:00",
+      "new_tokens": 315,
+      "source_sha256": "a389d707bd6a59e5c6e8f4513ca3eb500d3efed303a1e01cd5aed47278e057c5",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0067.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 68,
+      "wall_between_atomic_writes_seconds": 16.166836261749268,
+      "mtime_UTC": "2026-11-13T18:58:43.457816+00:00",
+      "new_tokens": 669,
+      "source_sha256": "a994f523bf55e03f88139392ea7fd3f09e4d48459cfbab29fb66755c1f1432ed",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0068.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 69,
+      "wall_between_atomic_writes_seconds": 17.931795120239258,
+      "mtime_UTC": "2026-11-13T18:59:01.389611+00:00",
+      "new_tokens": 738,
+      "source_sha256": "95f91d940b3f77b7c07bf1cbd87e3529483d4ad1d3cdc98688026c49ab95390d",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0069.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 70,
+      "wall_between_atomic_writes_seconds": 16.55694580078125,
+      "mtime_UTC": "2026-11-13T18:59:17.946557+00:00",
+      "new_tokens": 680,
+      "source_sha256": "a506e8d9f1141b4ef41d3ddc831ba67b62f9b85f87263a97cd8aa5d419e6f839",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0070.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 71,
+      "wall_between_atomic_writes_seconds": 11.524982452392578,
+      "mtime_UTC": "2026-11-13T18:59:29.471539+00:00",
+      "new_tokens": 473,
+      "source_sha256": "208f17d57f6e172adbb1f4274db405efc08c1007992af46293cc57fa33c94bb6",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0071.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 72,
+      "wall_between_atomic_writes_seconds": 4.191127300262451,
+      "mtime_UTC": "2026-11-13T18:59:33.662667+00:00",
+      "new_tokens": 171,
+      "source_sha256": "fdd1f58fb909338101e62991b7e2a5758dc5c0a558fac2587cf6b1d37af23c31",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0072.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 73,
+      "wall_between_atomic_writes_seconds": 21.40135169029236,
+      "mtime_UTC": "2026-11-13T18:59:55.064018+00:00",
+      "new_tokens": 885,
+      "source_sha256": "555afc0028984d7d567c2828082110b3c2ee9b4a95d14935196f741879929219",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0073.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 74,
+      "wall_between_atomic_writes_seconds": 6.345482110977173,
+      "mtime_UTC": "2026-11-13T19:00:01.409501+00:00",
+      "new_tokens": 260,
+      "source_sha256": "acd26e81ede03966dca53444b97a14fff819f55331ab978b43f259e86a886a66",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0074.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 75,
+      "wall_between_atomic_writes_seconds": 17.725191354751587,
+      "mtime_UTC": "2026-11-13T19:00:19.134692+00:00",
+      "new_tokens": 730,
+      "source_sha256": "f875222786c32dcc5b1ec024470b056ce255a9de92e9691cf1c388f37960c990",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0075.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 76,
+      "wall_between_atomic_writes_seconds": 18.59799313545227,
+      "mtime_UTC": "2026-11-13T19:00:37.732685+00:00",
+      "new_tokens": 767,
+      "source_sha256": "a21cac553264f52a050843b49f79719bc3bff35ec1e55043fe0294b7ee66f78f",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0076.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 77,
+      "wall_between_atomic_writes_seconds": 11.051981210708618,
+      "mtime_UTC": "2026-11-13T19:00:48.784666+00:00",
+      "new_tokens": 455,
+      "source_sha256": "11e3144077a016427dd3ae460df21b3a7b6235473f901a389dec95af9f8668f9",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0077.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 78,
+      "wall_between_atomic_writes_seconds": 15.688058376312256,
+      "mtime_UTC": "2026-11-13T19:01:04.472725+00:00",
+      "new_tokens": 649,
+      "source_sha256": "0f8c8a2aae3207318c80111bda150a3366c701aa71c77614e42499b41930a77e",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0078.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 79,
+      "wall_between_atomic_writes_seconds": 3.503065586090088,
+      "mtime_UTC": "2026-11-13T19:01:07.975790+00:00",
+      "new_tokens": 144,
+      "source_sha256": "fbc22dc7ecc4162f1171eb10a621d8c2ec6605d807de40629e0263fa1da55c27",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0079.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 80,
+      "wall_between_atomic_writes_seconds": 10.135779619216919,
+      "mtime_UTC": "2026-11-13T19:01:18.111570+00:00",
+      "new_tokens": 418,
+      "source_sha256": "702d298280a8262f7b9e2606ead30aea484ef95d6399ddf6fea7443bf6e5d817",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0080.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 81,
+      "wall_between_atomic_writes_seconds": 14.854102373123169,
+      "mtime_UTC": "2026-11-13T19:01:32.965672+00:00",
+      "new_tokens": 610,
+      "source_sha256": "f87d1dc11f6814c03f2e5ad221383314fa84afe14c78f405c29b790e2a3467a8",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0081.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 82,
+      "wall_between_atomic_writes_seconds": 17.770122289657593,
+      "mtime_UTC": "2026-11-13T19:01:50.735795+00:00",
+      "new_tokens": 735,
+      "source_sha256": "c6dcdd1c4a022938b61d8f558b17cbb710430f6061bd1ce5782214e3c045e512",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0082.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 83,
+      "wall_between_atomic_writes_seconds": 4.771371126174927,
+      "mtime_UTC": "2026-11-13T19:01:55.507166+00:00",
+      "new_tokens": 196,
+      "source_sha256": "f4fcb6b264a61c4dee24d58e8df430cc041ea1a989ce90c875fd5ba2c5fa9df9",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0083.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 84,
+      "wall_between_atomic_writes_seconds": 8.945943593978882,
+      "mtime_UTC": "2026-11-13T19:02:04.453109+00:00",
+      "new_tokens": 369,
+      "source_sha256": "d5ae5f9be0d2cd074b64d960e8675728f02e62989ec9b5bb5dff0a00afc8b903",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0084.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 85,
+      "wall_between_atomic_writes_seconds": 8.138314723968506,
+      "mtime_UTC": "2026-11-13T19:02:12.591424+00:00",
+      "new_tokens": 334,
+      "source_sha256": "39368481350e6340ee46aabbc1743dfa6067be2b6d919a3eb93d86be7a925435",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0085.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 86,
+      "wall_between_atomic_writes_seconds": 11.131431102752686,
+      "mtime_UTC": "2026-11-13T19:02:23.722855+00:00",
+      "new_tokens": 459,
+      "source_sha256": "017b5ed3d76d2738177ef86eddfb71a314875f7f126979a5de0263535a1a915d",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0086.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 87,
+      "wall_between_atomic_writes_seconds": 3.95501446723938,
+      "mtime_UTC": "2026-11-13T19:02:27.677870+00:00",
+      "new_tokens": 162,
+      "source_sha256": "f470b8ea0b2f75952f9c9b9c8d2ba09150208293395183c25393a7ef53d5ab30",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0087.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 88,
+      "wall_between_atomic_writes_seconds": 30.040307998657227,
+      "mtime_UTC": "2026-11-13T19:02:57.718178+00:00",
+      "new_tokens": 1241,
+      "source_sha256": "47aec1e68ab42a8a3af316c31839daea7c47b1c56ee2979d65bca9be397a054e",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0088.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 89,
+      "wall_between_atomic_writes_seconds": 15.36085557937622,
+      "mtime_UTC": "2026-11-13T19:03:13.079033+00:00",
+      "new_tokens": 633,
+      "source_sha256": "4bf19e8964970b73b39fd545b26683065be9cd45f4232529c1cef7449a9c7a73",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0089.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 90,
+      "wall_between_atomic_writes_seconds": 12.865539073944092,
+      "mtime_UTC": "2026-11-13T19:03:25.944572+00:00",
+      "new_tokens": 529,
+      "source_sha256": "59315e37c8c19548bd044b7f73f8abda180d1a3ccf51f4d60688bd14363e5e30",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0090.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 91,
+      "wall_between_atomic_writes_seconds": 14.044915676116943,
+      "mtime_UTC": "2026-11-13T19:03:39.989488+00:00",
+      "new_tokens": 578,
+      "source_sha256": "4dae8a9de13fa2c75bd0b2b6c3bdcc9c127648e9b942da27332f27b37194128a",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0091.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 92,
+      "wall_between_atomic_writes_seconds": 20.384103059768677,
+      "mtime_UTC": "2026-11-13T19:04:00.373591+00:00",
+      "new_tokens": 832,
+      "source_sha256": "355c671793b23b49220dbdee93b8f4ce78b3286ed78519ffcf278753c6e8c97a",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0092.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 93,
+      "wall_between_atomic_writes_seconds": 10.46474575996399,
+      "mtime_UTC": "2026-11-13T19:04:10.838337+00:00",
+      "new_tokens": 427,
+      "source_sha256": "af7aca448434281870f30c4c50320b2effe48661bc53ffe2bbb7a36f2e359866",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0093.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 94,
+      "wall_between_atomic_writes_seconds": 12.529771327972412,
+      "mtime_UTC": "2026-11-13T19:04:23.368108+00:00",
+      "new_tokens": 517,
+      "source_sha256": "0bcbc3c42f74c44e6227d7e5649770e78df979389635f09acae049b512f72dc4",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0094.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 95,
+      "wall_between_atomic_writes_seconds": 7.4166436195373535,
+      "mtime_UTC": "2026-11-13T19:04:30.784752+00:00",
+      "new_tokens": 302,
+      "source_sha256": "1ee4d79df4e2e46cf2bdabe1e969f00115279b998808a4db4f1da5226c2cdd17",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0095.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 96,
+      "wall_between_atomic_writes_seconds": 13.840546369552612,
+      "mtime_UTC": "2026-11-13T19:04:44.625298+00:00",
+      "new_tokens": 567,
+      "source_sha256": "9abea72fc2ad6b7ca8bcf74922b967420f8e18e9574899592a2323d07dae4a77",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0096.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 97,
+      "wall_between_atomic_writes_seconds": 6.110993146896362,
+      "mtime_UTC": "2026-11-13T19:04:50.736291+00:00",
+      "new_tokens": 250,
+      "source_sha256": "c820ef7b66610b87ab6ad70f9a0c59ff6feabfa24157b209ec7ce6809ced6c3a",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0097.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 98,
+      "wall_between_atomic_writes_seconds": 13.48788833618164,
+      "mtime_UTC": "2026-11-13T19:05:04.224180+00:00",
+      "new_tokens": 553,
+      "source_sha256": "4c335e2a51c24c7c39cbf6702d50022f8a34f234d12d73a3927794e89533ab76",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0098.json"
+    },
+    {
+      "scope": "Mistral2400_B1",
+      "condition": "61000",
+      "id": 99,
+      "wall_between_atomic_writes_seconds": 13.387736320495605,
+      "mtime_UTC": "2026-11-13T19:05:17.611916+00:00",
+      "new_tokens": 553,
+      "source_sha256": "83dd759f3dec117701c5177d161acc860a91b7e8f3cc35d8eefcd09a1dd19a41",
+      "source_path": "results/audit/unified300/Mistral_gate35/cap2400/B1/61000/generation.private/0099.json"
     },
     {
       "scope": "Mistral_calibration_B1_120",

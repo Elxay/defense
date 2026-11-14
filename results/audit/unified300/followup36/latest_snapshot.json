@@ -1,0 +1,347 @@
+{
+  "utc": "2026-11-14T02:21:31.625529+00:00",
+  "sites": {
+    "innet": {
+      "utc": "2026-11-14T02:21:31Z",
+      "gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "used_MiB": 15167,
+          "total_MiB": 24564,
+          "utilization": 96
+        },
+        {
+          "index": 1,
+          "uuid": "GPU-11714cb4-6750-4bb9-a65a-ab038fc97007",
+          "used_MiB": 15,
+          "total_MiB": 24564,
+          "utilization": 0
+        },
+        {
+          "index": 2,
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "used_MiB": 15821,
+          "total_MiB": 24564,
+          "utilization": 96
+        },
+        {
+          "index": 3,
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "used_MiB": 15743,
+          "total_MiB": 24564,
+          "utilization": 95
+        }
+      ],
+      "compute_processes": [
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "PID": 2167770,
+          "used_MiB": "15144",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "CUDA context held"
+        },
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "PID": 2190473,
+          "used_MiB": "15798",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "CUDA context held"
+        },
+        {
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "PID": 2175820,
+          "used_MiB": "15720",
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "CUDA context held"
+        },
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "PID": 2167688,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-ef899e48-2df2-fae8-d63e-7dbb0af920b0",
+          "PID": 2167738,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "PID": 2175786,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-16fea00b-6607-57e1-0caa-cec4f27ce988",
+          "PID": 2175804,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "PID": 2190438,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-25c58d52-d31e-51fa-f63e-0e5b5bd02bfb",
+          "PID": 2190457,
+          "used_MiB": 0,
+          "account": "kemove",
+          "command_basename": "unified300_ready_generate_v30.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        }
+      ]
+    },
+    "node01": {
+      "utc": "2026-11-14T02:21:33Z",
+      "gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "used_MiB": 17823,
+          "total_MiB": 24564,
+          "utilization": 29
+        },
+        {
+          "index": 1,
+          "uuid": "GPU-51b0921d-e07d-c7c2-aad8-74ed0680f333",
+          "used_MiB": 29,
+          "total_MiB": 24564,
+          "utilization": 0
+        },
+        {
+          "index": 2,
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "used_MiB": 17003,
+          "total_MiB": 24564,
+          "utilization": 53
+        }
+      ],
+      "compute_processes": [
+        {
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "PID": 2366903,
+          "used_MiB": "17252",
+          "account": "dell",
+          "command_basename": "u300_language_nonzero36.py",
+          "phase": "CUDA context held"
+        },
+        {
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "PID": 2229139,
+          "used_MiB": "16966",
+          "account": "dell",
+          "command_basename": "unified300_ready_generate_v4.py",
+          "phase": "CUDA context held"
+        },
+        {
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "PID": 2229117,
+          "used_MiB": 0,
+          "account": "dell",
+          "command_basename": "unified300_ready_generate_v4.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-dcaca421-6806-9453-6cbd-48ee872ca4d0",
+          "PID": 2229124,
+          "used_MiB": 0,
+          "account": "dell",
+          "command_basename": "unified300_ready_generate_v4.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "PID": 2366883,
+          "used_MiB": 0,
+          "account": "dell",
+          "command_basename": "u300_language_nonzero36.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        },
+        {
+          "uuid": "GPU-a1b43a24-eb3f-005b-660c-02bddc8e3adf",
+          "PID": 2366890,
+          "used_MiB": 0,
+          "account": "dell",
+          "command_basename": "u300_language_nonzero36.py",
+          "phase": "worker alive; no CUDA context in nvidia-smi snapshot"
+        }
+      ]
+    }
+  },
+  "encoding": [
+    {
+      "model": "llama",
+      "family": "ascii",
+      "v1_rows": 424,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/llama/ascii/alpha0/generation.private",
+      "v2_rows": 424,
+      "main_source": "composite_manifest",
+      "registry_source": null,
+      "registry": {
+        "model": "llama",
+        "family": "ascii",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "composite_manifest",
+        "manifest_relative": "results/audit/unified300/encoding_ASCII_tail34/complete.json",
+        "record_dir": null,
+        "legacy_v1_status": "superseded"
+      }
+    },
+    {
+      "model": "llama",
+      "family": "caesar",
+      "v1_rows": 32,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/llama/caesar/alpha0/generation.private",
+      "v2_rows": 32,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated_v2/llama/caesar/alpha0/generation.private",
+      "registry": {
+        "model": "llama",
+        "family": "caesar",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/caesar/alpha0/generation.private",
+        "legacy_v1_status": "superseded"
+      }
+    },
+    {
+      "model": "llama",
+      "family": "morse",
+      "v1_rows": 256,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/llama/morse/alpha0/generation.private",
+      "v2_rows": 256,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated_v2/llama/morse/alpha0/generation.private",
+      "registry": {
+        "model": "llama",
+        "family": "morse",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/morse/alpha0/generation.private",
+        "legacy_v1_status": "superseded"
+      }
+    },
+    {
+      "model": "llama",
+      "family": "atbash",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/llama/atbash/alpha0/generation.private",
+      "v2_rows": 440,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated_v2/llama/atbash/alpha0/generation.private",
+      "registry": {
+        "model": "llama",
+        "family": "atbash",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated_v2/llama/atbash/alpha0/generation.private",
+        "legacy_v1_status": "superseded"
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "ascii",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/qwen/ascii/alpha0/generation.private",
+      "v2_rows": 132,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated/qwen/ascii/alpha0/generation.private",
+      "registry": {
+        "model": "qwen",
+        "family": "ascii",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/ascii/alpha0/generation.private",
+        "legacy_v1_status": "accepted_main_after35",
+        "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "caesar",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/qwen/caesar/alpha0/generation.private",
+      "v2_rows": 0,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated/qwen/caesar/alpha0/generation.private",
+      "registry": {
+        "model": "qwen",
+        "family": "caesar",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/caesar/alpha0/generation.private",
+        "legacy_v1_status": "accepted_main_after35",
+        "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "morse",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/qwen/morse/alpha0/generation.private",
+      "v2_rows": 0,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated/qwen/morse/alpha0/generation.private",
+      "registry": {
+        "model": "qwen",
+        "family": "morse",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/morse/alpha0/generation.private",
+        "legacy_v1_status": "accepted_main_after35",
+        "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+      }
+    },
+    {
+      "model": "qwen",
+      "family": "atbash",
+      "v1_rows": 440,
+      "v2_record_path": "results/audit/unified300/encoding_alpha0_generated_v2/qwen/atbash/alpha0/generation.private",
+      "v2_rows": 0,
+      "main_source": "single_record_directory",
+      "registry_source": "results/audit/unified300/encoding_alpha0_generated/qwen/atbash/alpha0/generation.private",
+      "registry": {
+        "model": "qwen",
+        "family": "atbash",
+        "condition": "alpha0",
+        "expected_N": 440,
+        "source": "single_record_directory",
+        "manifest_relative": null,
+        "record_dir": "results/audit/unified300/encoding_alpha0_generated/qwen/atbash/alpha0/generation.private",
+        "legacy_v1_status": "accepted_main_after35",
+        "acceptance_probe_sha256": "3fc73f00d1c0320bdfbe22839132f4b75c7ff5ab4126af7cfc8a6bcfb205fdae"
+      }
+    }
+  ],
+  "roots": {}
+}
