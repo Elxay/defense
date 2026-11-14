@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T05:01:46.278310+00:00",
+  "TAP_llama_first88_gpu": 3,
+  "after": "Gemma_zero20_window38 exit, regardless of its diagnostic pass/fail",
+  "numeric_replay_plan_sha256": "815ae02a702ef7612fc6c04ac7c2b768452343f72cf737f95a66989a1dec4e12",
+  "only_unstarted_tasks_moved": true,
+  "window_reserve": "retain conservative2GPUh on GPU3 until Gemma and Llama first sensitivity plus judge finish; GPU2 retains1.5 until all replays/judges finish",
+  "total_engineering_window_reserve_GPUh": 3.5,
+  "new_watch_sha256": "5155f77c2327ade6983fcdfb0def4cc6e15635c34faae912ae4ab6acb02f1694",
+  "nonzero_effects_read": false
+}
