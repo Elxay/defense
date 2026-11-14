@@ -1,0 +1,7 @@
+{
+  "utc_frozen": "2026-11-14T01:56:31.094971+00:00",
+  "source_sha256": "f7eaf5962da8ca5d90f2b066030e495a73fc132d1effb9426520b29fee140337",
+  "parent_sha256": "901f904f28f6a103884011713400efb11a16c4f176e1fbf6ca02391574994587",
+  "change": "Import os for heartbeat PID only; retain existing immutable ready packets, no generation or preprocessing change",
+  "first_attempt_failed_after_first_loop": true
+}
