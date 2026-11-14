@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T03:45:07.690939+00:00",
+  "failed_task": "T2translate36_qwen_translate-ta_s3",
+  "failed_job": "T2translate36_qwen_translate-ta_s3__1",
+  "returncode": 127,
+  "private_rows_produced": 0,
+  "worker_log": "bash: DEF_FROZEN_GIT_REV=0878440e3d15284b34ae43fa011b6a88c06aa065: \u6ca1\u6709\u90a3\u4e2a\u6587\u4ef6\u6216\u76ee\u5f55\nLAUNCHED pid=2516707 lstart=\n",
+  "root_cause": "argv prefix shape assumption in routing mutator; bash wrapper replaced by environment assignment",
+  "model_was_not_loaded": true,
+  "old_failure_retained": true
+}
