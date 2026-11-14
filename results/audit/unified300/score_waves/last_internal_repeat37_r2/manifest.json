@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T03:27:13.610983+00:00",
+  "N": 132,
+  "judges": [
+    "SORRY"
+  ],
+  "inputs_sha256": "237af61f2f0e20301479a9116898bcf41fbc0f534ef72fcb6aedef098fc3f0cc",
+  "scope": "same132 saved internal completions; fresh deterministic judge repeat, not protected effects"
+}

@@ -1,0 +1,22 @@
+{
+  "utc_frozen": "2026-11-14T03:27:11.477427+00:00",
+  "N": 24,
+  "seeds": [
+    2026111407,
+    2026111408,
+    2026111409
+  ],
+  "population": "selected saved internal responses only, not all264 positions",
+  "population_strata_N": [
+    65,
+    34
+  ],
+  "sample_strata_N": [
+    12,
+    12
+  ],
+  "blind_packet_sha256": "e201eaf4b5a92e93ab0ee30e5b7e4d21e3b99a33b9d4c2f3cb810871a51039b6",
+  "private_mapping_sha256": "89769a1932b52c03047560b21572d8ef0bd0126115641d589dba64b47cf86e0d",
+  "raw_and_row_annotations_not_for_git": true,
+  "annotator": "current Codex assistant; shared context, no human calibration"
+}

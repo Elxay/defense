@@ -1,0 +1,73 @@
+{
+  "utc": "2026-11-14T03:27:11.627863+00:00",
+  "base_file_sha256": "001213f6f819f3b4df5a0ef488b0533bce05e4ece7607ab189499cff93461b2f",
+  "N_waves": 10,
+  "N_records": 1134,
+  "checks": [
+    {
+      "wave": "search132_PAIR_qwen",
+      "N": 132,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "3159443c2adc12a05a1e49a454abe0583d70aa885eaa503edd084413fe06d0d0"
+    },
+    {
+      "wave": "search88_PAIR_llama",
+      "N": 88,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "6eab2d24e6befa9a07e28bcd7686b0e2099fd4818ee10e5e69cd402d7c688eee"
+    },
+    {
+      "wave": "exploratory_last35_PAIR_llama",
+      "N": 88,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "f837451809a1bcca8aa48949e887c81a31576d80e558f3eab2aaa5e044088eb0"
+    },
+    {
+      "wave": "exploratory_last35_TAP_llama",
+      "N": 88,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "36f4edb590a2b1ca391862932769d8cffd8f3c167b5888f532af78fdcd417e30"
+    },
+    {
+      "wave": "exploratory_last35_TAP_qwen",
+      "N": 78,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "fed4ba056ebb3e189c8d999f55d043bc98180ff12682cb618c0a4d19b67337db"
+    },
+    {
+      "wave": "laststream132_PAIR_qwen",
+      "N": 132,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "e56d006254f5276588dbddc9acfd7b6ef83bc68ba637dec169a901b784be3f7c"
+    },
+    {
+      "wave": "search88_PAIR_qwen",
+      "N": 88,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "db157379b219cd2b9ecb8a9687cd166f2bde0430814a14b1d87787fae5944b4c"
+    },
+    {
+      "wave": "search88_TAP_llama",
+      "N": 88,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "4df864f3c57531cde3909cafb60bbe676821d98593b0c353a0f064eb3f8446e3"
+    },
+    {
+      "wave": "PAIR_internal_rating_diagnostic36",
+      "N": 264,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "0c27b1cdf7ad3f9131ff0788266e946039aec300f4a3bf77b743e47c7fa6a4c7"
+    },
+    {
+      "wave": "search88_TAP_qwen",
+      "N": 88,
+      "all_behavior_slots_equal_original_base": true,
+      "inputs_sha256": "ae954f558e73ca60802af2d682d18a51fd8aef26c69f80a74fd9940070ecb7a5"
+    }
+  ],
+  "source_worker_sha256": "6b35439b43916e55800a1d29952dc8083d1836350099b424cf811d7eb69a8493",
+  "instruction_source": "r['behavior'] exactly original English base instruction",
+  "not_adversarial_prompt": true,
+  "response_source": "r['response']",
+  "same_response_diagnostic_included": true
+}
