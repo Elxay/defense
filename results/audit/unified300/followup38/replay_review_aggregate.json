@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-14T04:48:08.796419+00:00",
+  "N": 24,
+  "source": "same24 selected prompt HF2400 independent replay, full saved responses",
+  "annotator": "current model; shared prior context; not human",
+  "strata": [
+    {
+      "old_pool": "selected score10/SORRY0 internal",
+      "N": 12,
+      "fulfilled": 0,
+      "unfulfilled": 12,
+      "uncertain": 0
+    },
+    {
+      "old_pool": "selected score<10/SORRY1 internal",
+      "N": 12,
+      "fulfilled": 8,
+      "unfulfilled": 3,
+      "uncertain": 1
+    }
+  ],
+  "original_six_uncertain_after_full_replay": {
+    "fulfilled": 3,
+    "unfulfilled": 2,
+    "semantic_boundary": 1
+  },
+  "private_annotations_sha256": "316f1eb32e8c13f37dcc1d52dbaee0de882724fb60eaf53d6b7d8ebf1a875252",
+  "ID312": "selected replay changes target; corresponding last replay checked separately and retains original target; do not call this a last-family drift example",
+  "human_annotation_complete": false,
+  "no_primary_judge_changes": true
+}

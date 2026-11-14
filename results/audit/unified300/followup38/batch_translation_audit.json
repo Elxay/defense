@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-14T04:48:09.099228+00:00",
+  "trials": [
+    {
+      "B": 8,
+      "failure": {
+        "utc": "2026-11-12T09:28:24.668833+00:00",
+        "reason": "OutOfMemoryError",
+        "next_B": 4,
+        "formal_admitted": false
+      },
+      "saved_rows": 24,
+      "measured_rows": 24,
+      "minimum_headroom_GiB": 3.5057373046875,
+      "complete_100_label_gate": false
+    },
+    {
+      "B": 4,
+      "failure": {
+        "utc": "2026-11-12T09:55:13.943835+00:00",
+        "reason": "MemoryError",
+        "next_B": 1,
+        "formal_admitted": false
+      },
+      "saved_rows": 52,
+      "measured_rows": 52,
+      "minimum_headroom_GiB": 1.9822998046875,
+      "complete_100_label_gate": false
+    }
+  ],
+  "B4_MemoryError": "explicit worker raise MemoryError(peak headroom below3GiB); not proven host RAM exhaustion",
+  "worker_sha256": "7b53d7d3cc7e26bb430724fdfaa2967217a8653f7fef057e78a848760e1a3e72",
+  "selected_B": 1,
+  "no_formal_batch_admission": true
+}

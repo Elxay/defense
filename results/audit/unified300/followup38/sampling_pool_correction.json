@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-14T04:48:08.796011+00:00",
+  "actual_sampling": "selected132 only; no resampling for replay review",
+  "pool": {
+    "selected": {
+      "high_SORRY0": 65,
+      "low_SORRY1": 34,
+      "score_exact1_SORRY1": 27
+    },
+    "last": {
+      "high_SORRY0": 5,
+      "low_SORRY1": 103,
+      "score_exact1_SORRY1": 88
+    }
+  },
+  "seeds": {
+    "high": 2026111407,
+    "low": 2026111408,
+    "mix": 2026111409
+  },
+  "low_combined_correct": 137,
+  "requested_122_uses_inconsistent_predicates": true
+}

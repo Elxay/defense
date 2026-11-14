@@ -1,0 +1,1021 @@
+{
+  "utc": "2026-11-14T04:42:05.741061+00:00",
+  "jobs": [
+    {
+      "job": "takeover30_llama_atbash_gate__1",
+      "task_id": "takeover30_llama_atbash_gate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794574291.644389,
+      "end": 1794574976.430361,
+      "raw_start": 1794574291.644389,
+      "raw_end": 1794574976.430361
+    },
+    {
+      "job": "ASCII_tail16_retry34__1",
+      "task_id": "ASCII_tail16_retry34",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794586884.2997887,
+      "end": 1794587156.246145,
+      "raw_start": 1794586884.2997887,
+      "raw_end": 1794587156.246145
+    },
+    {
+      "job": "takeover30_qwen_atbash_gate__1",
+      "task_id": "takeover30_qwen_atbash_gate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794576989.7455323,
+      "end": 1794577277.782468,
+      "raw_start": 1794576989.7455323,
+      "raw_end": 1794577277.782468
+    },
+    {
+      "job": "ASCII_tail16_rescue34__1",
+      "task_id": "ASCII_tail16_rescue34",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794586605.1692188,
+      "end": 1794586789.133635,
+      "raw_start": 1794586605.1692188,
+      "raw_end": 1794586789.133635
+    },
+    {
+      "job": "translate33_llama_translate-mr_alpha0__2",
+      "task_id": "translate33_llama_translate-mr_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794583999.6873298,
+      "end": 1794593775.670107,
+      "raw_start": 1794583999.6873298,
+      "raw_end": 1794593775.670107
+    },
+    {
+      "job": "SORRY33_qwen_translate-ml_alpha0__1",
+      "task_id": "SORRY33_qwen_translate-ml_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794603237.0930834,
+      "end": 1794603325.398053,
+      "raw_start": 1794603237.0930834,
+      "raw_end": 1794603325.398053
+    },
+    {
+      "job": "exploratory_SORRY35_PAIR_llama__1",
+      "task_id": "exploratory_SORRY35_PAIR_llama",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794591932.6214745,
+      "end": 1794592161.675481,
+      "raw_start": 1794591932.6214745,
+      "raw_end": 1794592161.675481
+    },
+    {
+      "job": "SORRY33_qwen_translate-mr_alpha0__1",
+      "task_id": "SORRY33_qwen_translate-mr_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794603960.4388766,
+      "end": 1794604050.26503,
+      "raw_start": 1794603960.4388766,
+      "raw_end": 1794604050.26503
+    },
+    {
+      "job": "takeover30_llama_caesar_gate__1",
+      "task_id": "takeover30_llama_caesar_gate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794575004.745553,
+      "end": 1794575253.883829,
+      "raw_start": 1794575004.745553,
+      "raw_end": 1794575253.883829
+    },
+    {
+      "job": "T2nonzero36_qwen_translate-ta_s3__1",
+      "task_id": "T2nonzero36_qwen_translate-ta_s3",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794620970.7124085,
+      "end": 1794626759.316017,
+      "raw_start": 1794620970.7124085,
+      "raw_end": 1794626759.316017
+    },
+    {
+      "job": "exploratory_SORRY35_TAP_qwen__1",
+      "task_id": "exploratory_SORRY35_TAP_qwen",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794592568.4816394,
+      "end": 1794592642.078525,
+      "raw_start": 1794592568.4816394,
+      "raw_end": 1794592642.078525
+    },
+    {
+      "job": "PAIR_qwen_selected132_replay31__1",
+      "task_id": "PAIR_qwen_selected132_replay31",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794573640.1135645,
+      "end": 1794574266.158575,
+      "raw_start": 1794573640.1135645,
+      "raw_end": 1794574266.158575
+    },
+    {
+      "job": "SORRY33_qwen_translate-ta_alpha0__1",
+      "task_id": "SORRY33_qwen_translate-ta_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794600786.6194577,
+      "end": 1794601050.110217,
+      "raw_start": 1794600786.6194577,
+      "raw_end": 1794601050.110217
+    },
+    {
+      "job": "takeover30_qwen_translate-mr_gate__1",
+      "task_id": "takeover30_qwen_translate-mr_gate",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794567004.0727274,
+      "end": 1794567479.353449,
+      "raw_start": 1794567004.0727274,
+      "raw_end": 1794567479.353449
+    },
+    {
+      "job": "judge_selfrepeat37_r1__1",
+      "task_id": "judge_selfrepeat37_r1",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794626871.2376804,
+      "end": 1794626944.105012,
+      "raw_start": 1794626871.2376804,
+      "raw_end": 1794626944.105012
+    },
+    {
+      "job": "T2nonzero36_qwen_translate-ml_61000__1",
+      "task_id": "T2nonzero36_qwen_translate-ml_61000",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794628296.71145,
+      "end": 1794631291.812844,
+      "raw_start": 1794628296.71145,
+      "raw_end": 1794631291.812844
+    },
+    {
+      "job": "takeover30_qwen_translate-ml_gate__1",
+      "task_id": "takeover30_qwen_translate-ml_gate",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794566445.786719,
+      "end": 1794567001.643815,
+      "raw_start": 1794566445.786719,
+      "raw_end": 1794567001.643815
+    },
+    {
+      "job": "T2ref36_qwen_translate-ml_gpu2__1",
+      "task_id": "T2ref36_qwen_translate-ml_gpu2",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794620970.6549103,
+      "end": 1794621357.843887,
+      "raw_start": 1794620970.6549103,
+      "raw_end": 1794621357.843887
+    },
+    {
+      "job": "Mistral2400_gate35__1",
+      "task_id": "Mistral2400_gate35",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794592785.8317003,
+      "end": 1794597949.846244,
+      "raw_start": 1794592785.8317003,
+      "raw_end": 1794597949.846244
+    },
+    {
+      "job": "T2ref36_qwen_translate-mr_gpu3__1",
+      "task_id": "T2ref36_qwen_translate-mr_gpu3",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794620970.687681,
+      "end": 1794621330.240329,
+      "raw_start": 1794620970.687681,
+      "raw_end": 1794621330.240329
+    },
+    {
+      "job": "selected20_GPU0_reference34__1",
+      "task_id": "selected20_GPU0_reference34",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794587788.7700443,
+      "end": 1794587867.26261,
+      "raw_start": 1794587788.7700443,
+      "raw_end": 1794587867.26261
+    },
+    {
+      "job": "translate33_llama_translate-ml_alpha0__1",
+      "task_id": "translate33_llama_translate-ml_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794575376.823724,
+      "end": 1794582206.340577,
+      "raw_start": 1794575376.823724,
+      "raw_end": 1794582206.340577
+    },
+    {
+      "job": "laststream132_SORRY34__1",
+      "task_id": "laststream132_SORRY34",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794586512.0654767,
+      "end": 1794586590.757992,
+      "raw_start": 1794586512.0654767,
+      "raw_end": 1794586590.757992
+    },
+    {
+      "job": "Indian35_llama_mr_rand0__1",
+      "task_id": "Indian35_llama_mr_rand0",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794599106.4955668,
+      "end": 1794604217.575207,
+      "raw_start": 1794599106.4955668,
+      "raw_end": 1794604217.575207
+    },
+    {
+      "job": "takeover30_qwen_translate-ta_gate__1",
+      "task_id": "takeover30_qwen_translate-ta_gate",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794573361.000589,
+      "end": 1794573879.219404,
+      "raw_start": 1794573361.000589,
+      "raw_end": 1794573879.219404
+    },
+    {
+      "job": "T2nonzero36_qwen_translate-ml_s3__3",
+      "task_id": "T2nonzero36_qwen_translate-ml_s3",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794627058.232945,
+      "end": 1794628272.92529,
+      "raw_start": 1794627058.232945,
+      "raw_end": 1794628272.92529
+    },
+    {
+      "job": "translate33_llama_translate-ta_alpha0__1",
+      "task_id": "translate33_llama_translate-ta_alpha0",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794577144.8915355,
+      "end": 1794583820.239362,
+      "raw_start": 1794577144.8915355,
+      "raw_end": 1794583820.239362
+    },
+    {
+      "job": "judge_selfrepeat37_r2__1",
+      "task_id": "judge_selfrepeat37_r2",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794626964.362138,
+      "end": 1794627037.167716,
+      "raw_start": 1794626964.362138,
+      "raw_end": 1794627037.167716
+    },
+    {
+      "job": "takeover30_llama_ascii_generate__1",
+      "task_id": "takeover30_llama_ascii_generate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794566476.8619864,
+      "end": 1794572971.078933,
+      "raw_start": 1794566476.8619864,
+      "raw_end": 1794572971.078933
+    },
+    {
+      "job": "T2nonzero36_qwen_translate-mr_s3__1",
+      "task_id": "T2nonzero36_qwen_translate-mr_s3",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794621344.033843,
+      "end": 1794627115.198848,
+      "raw_start": 1794621344.033843,
+      "raw_end": 1794627115.198848
+    },
+    {
+      "job": "rating36_SORRY_same_responses__1",
+      "task_id": "rating36_SORRY_same_responses",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794621900.0877519,
+      "end": 1794621976.713454,
+      "raw_start": 1794621900.0877519,
+      "raw_end": 1794621976.713454
+    },
+    {
+      "job": "exploratory_last35_PAIR_llama__1",
+      "task_id": "exploratory_last35_PAIR_llama",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794590271.3836992,
+      "end": 1794590694.560223,
+      "raw_start": 1794590271.3836992,
+      "raw_end": 1794590694.560223
+    },
+    {
+      "job": "takeover30_llama_caesar_generate__1",
+      "task_id": "takeover30_llama_caesar_generate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794583534.4889352,
+      "end": 1794583660.637381,
+      "raw_start": 1794583534.4889352,
+      "raw_end": 1794583660.637381
+    },
+    {
+      "job": "takeover30_llama_morse_generate__1",
+      "task_id": "takeover30_llama_morse_generate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794583689.694869,
+      "end": 1794587538.917868,
+      "raw_start": 1794583689.694869,
+      "raw_end": 1794587538.917868
+    },
+    {
+      "job": "exploratory_SORRY35_TAP_llama__1",
+      "task_id": "exploratory_SORRY35_TAP_llama",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794592475.3217342,
+      "end": 1794592551.149142,
+      "raw_start": 1794592475.3217342,
+      "raw_end": 1794592551.149142
+    },
+    {
+      "job": "laststream132_replay34__1",
+      "task_id": "laststream132_replay34",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794585767.3407845,
+      "end": 1794586504.877645,
+      "raw_start": 1794585767.3407845,
+      "raw_end": 1794586504.877645
+    },
+    {
+      "job": "T2nonzero36_qwen_translate-mr_61000__1",
+      "task_id": "T2nonzero36_qwen_translate-mr_61000",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794627120.354317,
+      "end": 1794631291.812844,
+      "raw_start": 1794627120.354317,
+      "raw_end": 1794631291.812844
+    },
+    {
+      "job": "exploratory_last35_TAP_qwen__1",
+      "task_id": "exploratory_last35_TAP_qwen",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794591434.6962245,
+      "end": 1794591913.76412,
+      "raw_start": 1794591434.6962245,
+      "raw_end": 1794591913.76412
+    },
+    {
+      "job": "takeover30_qwen_ascii_gate__1",
+      "task_id": "takeover30_qwen_ascii_gate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794576090.5513403,
+      "end": 1794576986.044253,
+      "raw_start": 1794576090.5513403,
+      "raw_end": 1794576986.044253
+    },
+    {
+      "job": "Indian35_llama_mr_s3__1",
+      "task_id": "Indian35_llama_mr_s3",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794593965.4803734,
+      "end": 1794599088.852171,
+      "raw_start": 1794593965.4803734,
+      "raw_end": 1794599088.852171
+    },
+    {
+      "job": "takeover30_qwen_ascii_generate__1",
+      "task_id": "takeover30_qwen_ascii_generate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794587540.374642,
+      "end": 1794589984.172783,
+      "raw_start": 1794587540.374642,
+      "raw_end": 1794589984.172783
+    },
+    {
+      "job": "translate33_llama_translate-mr_alpha0__1",
+      "task_id": "translate33_llama_translate-mr_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794582417.7665713,
+      "end": 1794583852.622699,
+      "raw_start": 1794582417.7665713,
+      "raw_end": 1794583852.622699
+    },
+    {
+      "job": "T1_translate34_llama_translate-fr_alpha0__2",
+      "task_id": "T1_translate34_llama_translate-fr_alpha0",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794587881.8657534,
+      "end": 1794590370.640843,
+      "raw_start": 1794587881.8657534,
+      "raw_end": 1794590370.640843
+    },
+    {
+      "job": "T2nonzero36_qwen_translate-ml_s3__1",
+      "task_id": "T2nonzero36_qwen_translate-ml_s3",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794621375.100189,
+      "end": 1794621884.794202,
+      "raw_start": 1794621375.100189,
+      "raw_end": 1794621884.794202
+    },
+    {
+      "job": "takeover30_qwen_morse_gate__1",
+      "task_id": "takeover30_qwen_morse_gate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794577331.00194,
+      "end": 1794577643.962531,
+      "raw_start": 1794577331.00194,
+      "raw_end": 1794577643.962531
+    },
+    {
+      "job": "Mistral_B1_calibration35__1",
+      "task_id": "Mistral_B1_calibration35",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794593406.2307336,
+      "end": 1794593939.459944,
+      "raw_start": 1794593406.2307336,
+      "raw_end": 1794593939.459944
+    },
+    {
+      "job": "Mistral100_and2400_gate35__1",
+      "task_id": "Mistral100_and2400_gate35",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794591434.7267358,
+      "end": 1794592759.454251,
+      "raw_start": 1794591434.7267358,
+      "raw_end": 1794592759.454251
+    },
+    {
+      "job": "T2nonzero36_qwen_translate-ml_s3__2",
+      "task_id": "T2nonzero36_qwen_translate-ml_s3",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794621993.2184393,
+      "end": 1794626860.825972,
+      "raw_start": 1794621993.2184393,
+      "raw_end": 1794626860.825972
+    },
+    {
+      "job": "SORRY33_llama_translate-ml_alpha0__1",
+      "task_id": "SORRY33_llama_translate-ml_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794582231.7754683,
+      "end": 1794582410.801191,
+      "raw_start": 1794582231.7754683,
+      "raw_end": 1794582410.801191
+    },
+    {
+      "job": "takeover30_llama_ascii_gate__1",
+      "task_id": "takeover30_llama_ascii_gate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794565856.8074167,
+      "end": 1794566463.017694,
+      "raw_start": 1794565856.8074167,
+      "raw_end": 1794566463.017694
+    },
+    {
+      "job": "PAIR_qwen_selected132_SORRY31__1",
+      "task_id": "PAIR_qwen_selected132_SORRY31",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794574291.610011,
+      "end": 1794574502.339612,
+      "raw_start": 1794574291.610011,
+      "raw_end": 1794574502.339612
+    },
+    {
+      "job": "exploratory_last35_TAP_llama__1",
+      "task_id": "exploratory_last35_TAP_llama",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794590708.5203824,
+      "end": 1794591169.024942,
+      "raw_start": 1794590708.5203824,
+      "raw_end": 1794591169.024942
+    },
+    {
+      "job": "T2nonzero36_qwen_translate-ta_61000__1",
+      "task_id": "T2nonzero36_qwen_translate-ta_61000",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794626778.080678,
+      "end": 1794631291.812844,
+      "raw_start": 1794626778.080678,
+      "raw_end": 1794631291.812844
+    },
+    {
+      "job": "takeover30_qwen_caesar_gate__1",
+      "task_id": "takeover30_qwen_caesar_gate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794577299.9707165,
+      "end": 1794577323.370287,
+      "raw_start": 1794577299.9707165,
+      "raw_end": 1794577323.370287
+    },
+    {
+      "job": "T1_translate34_llama_translate-fr_alpha0__1",
+      "task_id": "T1_translate34_llama_translate-fr_alpha0",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794587447.1679285,
+      "end": 1794587759.336084,
+      "raw_start": 1794587447.1679285,
+      "raw_end": 1794587759.336084
+    },
+    {
+      "job": "SORRY33_llama_translate-mr_alpha0__1",
+      "task_id": "SORRY33_llama_translate-mr_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794593778.6861682,
+      "end": 1794593876.238845,
+      "raw_start": 1794593778.6861682,
+      "raw_end": 1794593876.238845
+    },
+    {
+      "job": "T1_SORRY34_llama_translate-fr_alpha0__1",
+      "task_id": "T1_SORRY34_llama_translate-fr_alpha0",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794590397.0909936,
+      "end": 1794590745.4029,
+      "raw_start": 1794590397.0909936,
+      "raw_end": 1794590745.4029
+    },
+    {
+      "job": "SORRY33_llama_translate-ta_alpha0__1",
+      "task_id": "SORRY33_llama_translate-ta_alpha0",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794583875.7619734,
+      "end": 1794583968.884542,
+      "raw_start": 1794583875.7619734,
+      "raw_end": 1794583968.884542
+    },
+    {
+      "job": "Qwen_ta_GPU3_translation35__1",
+      "task_id": "Qwen_ta_GPU3_translation35",
+      "site": "innet",
+      "gpus": [
+        3
+      ],
+      "start": 1794593902.8128498,
+      "end": 1794600784.486706,
+      "raw_start": 1794593902.8128498,
+      "raw_end": 1794600784.486706
+    },
+    {
+      "job": "WG35_Mistral_gate35_short__1",
+      "task_id": "WG35_Mistral_gate35_short",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794592785.797222,
+      "end": 1794593208.272211,
+      "raw_start": 1794592785.797222,
+      "raw_end": 1794593208.272211
+    },
+    {
+      "job": "Qwen_encoding_reference35__1",
+      "task_id": "Qwen_encoding_reference35",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794589992.081844,
+      "end": 1794590256.126291,
+      "raw_start": 1794589992.081844,
+      "raw_end": 1794590256.126291
+    },
+    {
+      "job": "takeover30_llama_atbash_generate__1",
+      "task_id": "takeover30_llama_atbash_generate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794577672.2056112,
+      "end": 1794583511.152542,
+      "raw_start": 1794577672.2056112,
+      "raw_end": 1794583511.152542
+    },
+    {
+      "job": "takeover30_llama_translate-mr_gate__1",
+      "task_id": "takeover30_llama_translate-mr_gate",
+      "site": "innet",
+      "gpus": [
+        0
+      ],
+      "start": 1794565856.8418064,
+      "end": 1794566421.413962,
+      "raw_start": 1794565856.8418064,
+      "raw_end": 1794566421.413962
+    },
+    {
+      "job": "takeover30_llama_morse_gate__1",
+      "task_id": "takeover30_llama_morse_gate",
+      "site": "innet",
+      "gpus": [
+        2
+      ],
+      "start": 1794575283.6773782,
+      "end": 1794576079.437959,
+      "raw_start": 1794575283.6773782,
+      "raw_end": 1794576079.437959
+    },
+    {
+      "job": "T2translate37_qwen_translate-ta_s3__1",
+      "task_id": "T2translate37_qwen_translate-ta_s3",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794628079.819386,
+      "end": 1794631291.812844,
+      "raw_start": 1794628079.819386,
+      "raw_end": 1794631291.812844
+    },
+    {
+      "job": "T2translate36_qwen_translate-ta_s3__1",
+      "task_id": "T2translate36_qwen_translate-ta_s3",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794627667.9535515,
+      "end": 1794627668.057532,
+      "raw_start": 1794627667.9535515,
+      "raw_end": 1794627668.057532
+    },
+    {
+      "job": "B4_ta_llama_s3__1",
+      "task_id": "B4_ta_llama_s3",
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "start": 1794603929.7995236,
+      "end": 1794618791.437141,
+      "raw_start": 1794603929.7995236,
+      "raw_end": 1794618791.437141
+    },
+    {
+      "job": "rating36_raw_scores_v2__1",
+      "task_id": "rating36_raw_scores_v2",
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "start": 1794620940.078156,
+      "end": 1794621489.427668,
+      "raw_start": 1794620940.078156,
+      "raw_end": 1794621489.427668
+    },
+    {
+      "job": "B4_ml_llama_s4__1",
+      "task_id": "B4_ml_llama_s4",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794623394.3365088,
+      "end": 1794627635.720382,
+      "raw_start": 1794623394.3365088,
+      "raw_end": 1794627635.720382
+    },
+    {
+      "job": "T2translate36_llama_translate-ml_s3__1",
+      "task_id": "T2translate36_llama_translate-ml_s3",
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "start": 1794621829.696535,
+      "end": 1794631291.812844,
+      "raw_start": 1794621829.696535,
+      "raw_end": 1794631291.812844
+    },
+    {
+      "job": "B4_ta_llama_rand0__1",
+      "task_id": "B4_ta_llama_rand0",
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "start": 1794619122.228271,
+      "end": 1794631291.812844,
+      "raw_start": 1794619122.228271,
+      "raw_end": 1794631291.812844
+    },
+    {
+      "job": "rating36_raw_scores__1",
+      "task_id": "rating36_raw_scores",
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "start": 1794596312.69277,
+      "end": 1794596444.461206,
+      "raw_start": 1794596312.69277,
+      "raw_end": 1794596444.461206
+    },
+    {
+      "job": "B4_ml_llama_s4__2",
+      "task_id": "B4_ml_llama_s4",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794627748.901185,
+      "end": 1794628034.373428,
+      "raw_start": 1794627748.901185,
+      "raw_end": 1794628034.373428
+    },
+    {
+      "job": "B4_ml_llama_s3__1",
+      "task_id": "B4_ml_llama_s3",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794592444.6264155,
+      "end": 1794607182.71312,
+      "raw_start": 1794592444.6264155,
+      "raw_end": 1794607182.71312
+    },
+    {
+      "job": "Lml_node1_reference35__1",
+      "task_id": "Lml_node1_reference35",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794591403.9837403,
+      "end": 1794592116.144382,
+      "raw_start": 1794591403.9837403,
+      "raw_end": 1794592116.144382
+    },
+    {
+      "job": "B4_ml_llama_rand0__1",
+      "task_id": "B4_ml_llama_rand0",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794607510.9848416,
+      "end": 1794622246.709123,
+      "raw_start": 1794607510.9848416,
+      "raw_end": 1794622246.709123
+    },
+    {
+      "job": "manual:results/audit/unified300/followup35/Qwen_ml_resume_lease/execution.log:1794590097.0",
+      "task_id": "manual:results/audit/unified300/followup35/Qwen_ml_resume_lease/execution.log",
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "start": 1794590097.0,
+      "end": 1794595975.0,
+      "raw_start": 1794590097.0,
+      "raw_end": 1794595975.0,
+      "basis": "closed explicit START/EXIT log"
+    },
+    {
+      "job": "manual:results/audit/unified300/language_B1_reference33_lease/execution.log:1794575359.0",
+      "task_id": "manual:results/audit/unified300/language_B1_reference33_lease/execution.log",
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "start": 1794575359.0,
+      "end": 1794575758.0,
+      "raw_start": 1794575359.0,
+      "raw_end": 1794575758.0,
+      "basis": "closed explicit START/EXIT log"
+    },
+    {
+      "job": "manual:results/audit/unified300/followup34/leases/Mistral_alpha150_reference20/execution.log:1794586055.0",
+      "task_id": "manual:results/audit/unified300/followup34/leases/Mistral_alpha150_reference20/execution.log",
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "start": 1794586055.0,
+      "end": 1794586175.0,
+      "raw_start": 1794586055.0,
+      "raw_end": 1794586175.0,
+      "basis": "closed explicit START/EXIT log"
+    },
+    {
+      "job": "manual:results/audit/unified300/followup34/leases/qwen_translate-mr_alpha0/execution.log:1794586175.0",
+      "task_id": "manual:results/audit/unified300/followup34/leases/qwen_translate-mr_alpha0/execution.log",
+      "site": "node01",
+      "gpus": [
+        2
+      ],
+      "start": 1794586175.0,
+      "end": 1794603606.0,
+      "raw_start": 1794586175.0,
+      "raw_end": 1794603606.0,
+      "basis": "closed explicit START/EXIT log"
+    },
+    {
+      "job": "manual:results/audit/unified300/followup34/Mistral_WG32_lease/execution.log:1794588057.0",
+      "task_id": "manual:results/audit/unified300/followup34/Mistral_WG32_lease/execution.log",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794588057.0,
+      "end": 1794591073.0,
+      "raw_start": 1794588057.0,
+      "raw_end": 1794591073.0,
+      "basis": "closed explicit START/EXIT log"
+    },
+    {
+      "job": "manual:results/audit/unified300/followup36/Qwen_ml_resume_lease/execution.log:1794596471.0",
+      "task_id": "manual:results/audit/unified300/followup36/Qwen_ml_resume_lease/execution.log",
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "start": 1794596471.0,
+      "end": 1794603204.0,
+      "raw_start": 1794596471.0,
+      "raw_end": 1794603204.0,
+      "basis": "closed explicit START/EXIT log"
+    },
+    {
+      "job": "manual:results/audit/unified300/Mistral_calibration32_lease/execution.log:1794574361.0",
+      "task_id": "manual:results/audit/unified300/Mistral_calibration32_lease/execution.log",
+      "site": "node01",
+      "gpus": [
+        1
+      ],
+      "start": 1794574361.0,
+      "end": 1794588036.0,
+      "raw_start": 1794574361.0,
+      "raw_end": 1794588036.0,
+      "basis": "closed explicit START/EXIT log"
+    },
+    {
+      "job": "manual:results/audit/unified300/followup34/leases/qwen_translate-ml_alpha0/execution.log:1794586054.0",
+      "task_id": "manual:results/audit/unified300/followup34/leases/qwen_translate-ml_alpha0/execution.log",
+      "site": "node01",
+      "gpus": [
+        0
+      ],
+      "start": 1794586054.0,
+      "end": 1794590095.0,
+      "raw_start": 1794586054.0,
+      "raw_end": 1794590095.0,
+      "basis": "closed explicit START/EXIT log"
+    }
+  ]
+}

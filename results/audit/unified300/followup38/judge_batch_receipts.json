@@ -9,7 +9,7 @@
       "wave": "search132_PAIR_qwen",
       "N": 132,
       "actual_order_IDs_sha256": "afeffd7c167abb6b0ddb43b912bea778ed4f5b01067588c55487c19508fa43f0",
-      "stable_sorted_IDs_sha256": "e89db93807bf671d5a6d2718b06b6be20d50e5230ecef32258d79bbffe0282cc",
+      "stable_sorted_IDs_sha256": "afeffd7c167abb6b0ddb43b912bea778ed4f5b01067588c55487c19508fa43f0",
       "B": 20,
       "batches": [
         {
@@ -199,7 +199,7 @@
       "wave": "search88_PAIR_llama",
       "N": 88,
       "actual_order_IDs_sha256": "e35d1b620ae8d780aeb65fd2c889cc1c5143859fb0299e22ed697645e070a1ff",
-      "stable_sorted_IDs_sha256": "bb529fdeb74d3e49d71dac255f578cf3caf12bbad036659d75a17dd24ede0eed",
+      "stable_sorted_IDs_sha256": "8b441addaeec0dfd73b9f9e3bfe1e6bf5bdcce692a8f132bb5068b23b41da84b",
       "B": 20,
       "batches": [
         {
@@ -331,7 +331,7 @@
       "wave": "exploratory_last35_PAIR_llama",
       "N": 88,
       "actual_order_IDs_sha256": "e35d1b620ae8d780aeb65fd2c889cc1c5143859fb0299e22ed697645e070a1ff",
-      "stable_sorted_IDs_sha256": "bb529fdeb74d3e49d71dac255f578cf3caf12bbad036659d75a17dd24ede0eed",
+      "stable_sorted_IDs_sha256": "8b441addaeec0dfd73b9f9e3bfe1e6bf5bdcce692a8f132bb5068b23b41da84b",
       "B": 20,
       "batches": [
         {
@@ -463,7 +463,7 @@
       "wave": "exploratory_last35_TAP_llama",
       "N": 88,
       "actual_order_IDs_sha256": "5319afd9dfdf9fb9ef398efe747c64ddfc2f1121ca2991113ac1ff9770173508",
-      "stable_sorted_IDs_sha256": "bb529fdeb74d3e49d71dac255f578cf3caf12bbad036659d75a17dd24ede0eed",
+      "stable_sorted_IDs_sha256": "8b441addaeec0dfd73b9f9e3bfe1e6bf5bdcce692a8f132bb5068b23b41da84b",
       "B": 20,
       "batches": [
         {
@@ -595,7 +595,7 @@
       "wave": "exploratory_last35_TAP_qwen",
       "N": 78,
       "actual_order_IDs_sha256": "caab53d2b4929c950b85352e9bd5dd227cc292b2bffce2b4f8a2b45ac561f1d1",
-      "stable_sorted_IDs_sha256": "21244425bbcc5e8674fb8f2974dfab49f1f97058eeb5291e1f73c012f4cb2b57",
+      "stable_sorted_IDs_sha256": "bbf123a31cc1f7d67e4279fd8c3e029785fd535c464212c00452d0c1d0d4a820",
       "B": 20,
       "batches": [
         {
@@ -710,7 +710,7 @@
       "wave": "laststream132_PAIR_qwen",
       "N": 132,
       "actual_order_IDs_sha256": "afeffd7c167abb6b0ddb43b912bea778ed4f5b01067588c55487c19508fa43f0",
-      "stable_sorted_IDs_sha256": "e89db93807bf671d5a6d2718b06b6be20d50e5230ecef32258d79bbffe0282cc",
+      "stable_sorted_IDs_sha256": "afeffd7c167abb6b0ddb43b912bea778ed4f5b01067588c55487c19508fa43f0",
       "B": 20,
       "batches": [
         {
@@ -900,7 +900,7 @@
       "wave": "search88_PAIR_qwen",
       "N": 88,
       "actual_order_IDs_sha256": "9dd674162f79ee33d1347bc537b2c8e29c249e2dc4ce4e28444fb1dd1b24e811",
-      "stable_sorted_IDs_sha256": "bb529fdeb74d3e49d71dac255f578cf3caf12bbad036659d75a17dd24ede0eed",
+      "stable_sorted_IDs_sha256": "8b441addaeec0dfd73b9f9e3bfe1e6bf5bdcce692a8f132bb5068b23b41da84b",
       "B": 20,
       "batches": [
         {
@@ -1032,7 +1032,7 @@
       "wave": "search88_TAP_llama",
       "N": 88,
       "actual_order_IDs_sha256": "5319afd9dfdf9fb9ef398efe747c64ddfc2f1121ca2991113ac1ff9770173508",
-      "stable_sorted_IDs_sha256": "bb529fdeb74d3e49d71dac255f578cf3caf12bbad036659d75a17dd24ede0eed",
+      "stable_sorted_IDs_sha256": "8b441addaeec0dfd73b9f9e3bfe1e6bf5bdcce692a8f132bb5068b23b41da84b",
       "B": 20,
       "batches": [
         {
@@ -1164,7 +1164,7 @@
       "wave": "PAIR_internal_rating_diagnostic36",
       "N": 264,
       "actual_order_IDs_sha256": "49715da8a19ba79f543513962dc8eec1f9e762225872e9848a9fe5bd4fc6ea8a",
-      "stable_sorted_IDs_sha256": "d4e41c925b644595c4beddf5fc044c9a03453b34828dff9b098a2fd06b7e130a",
+      "stable_sorted_IDs_sha256": "528f5df7ae48545991d87fa0d083f962b1f08f4c226f8bb3a45c7c03199b244a",
       "B": 20,
       "batches": [
         {
@@ -1535,7 +1535,7 @@
       "wave": "search88_TAP_qwen",
       "N": 88,
       "actual_order_IDs_sha256": "ab95ac00669706de2509fd1e151a80d8430a98a0d2c650d3c296c001ba10db3e",
-      "stable_sorted_IDs_sha256": "bb529fdeb74d3e49d71dac255f578cf3caf12bbad036659d75a17dd24ede0eed",
+      "stable_sorted_IDs_sha256": "8b441addaeec0dfd73b9f9e3bfe1e6bf5bdcce692a8f132bb5068b23b41da84b",
       "B": 20,
       "batches": [
         {
@@ -1663,5 +1663,7 @@
         }
       ]
     }
-  ]
+  ],
+  "sort_definition": "numeric base ID, then full ID string; actual execution order and batches separately retained",
+  "actual_vllm_version": "0.6.6.post1"
 }
